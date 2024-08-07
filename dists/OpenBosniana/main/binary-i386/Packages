@@ -1,0 +1,1038 @@
+Package: adduser
+Version: 3.134
+Architecture: all
+Maintainer: Debian Adduser Developers <adduser@packages.debian.org>
+Installed-Size: 686
+Depends: passwd
+Suggests: liblocale-gettext-perl, perl, cron, quota
+Multi-Arch: foreign
+Priority: important
+Section: admin
+Filename: pool/main/a/adduser/adduser_3.134_all.deb
+Size: 183272
+SHA256: c24fe4eb8e60d8632d72ed104cce7c92cff200847c897dc8ba764b6c47b519e0
+SHA1: 8a9b691a07ffa218347a16cb7e9a7be4348201c6
+MD5sum: 3f5b94b9878c6df571f9aa5f86dab452
+Description: add and remove users and groups
+ This package includes the 'adduser' and 'deluser' commands for creating
+ and removing users.
+ .
+  - 'adduser' creates new users and groups and adds existing users to
+    existing groups;
+  - 'deluser' removes users and groups and removes users from a given
+    group.
+ .
+ Adding users with 'adduser' is much easier than adding them manually.
+ 'Adduser' will choose UID and GID values that conform to Debian policy,
+ create a home directory, copy skeletal user configuration, and
+ automate setting initial values for the user's password, real name
+ and so on.
+ .
+ 'Deluser' can back up and remove users' home directories
+ and mail spool or all the files they own on the system.
+ .
+ A custom script can be executed after each of the commands.
+ .
+ 'Adduser' and 'Deluser' are intended to be used by the local
+ administrator in lieu of the tools from the 'useradd' suite, and
+ they provide support for easy use from Debian package maintainer
+ scripts, functioning as kind of a policy layer to make those scripts
+ easier and more stable to write and maintain.
+
+Package: bash-completion
+Version: 1:2.11-6
+Architecture: all
+Maintainer: Gabriel F. T. Gomes <gabriel@debian.org>
+Installed-Size: 1463
+Provides: dh-sequence-bash-completion
+Multi-Arch: foreign
+Homepage: https://github.com/scop/bash-completion
+Priority: standard
+Section: shells
+Filename: pool/main/b/bash-completion/bash-completion_2.11-6_all.deb
+Size: 233912
+SHA256: 8f79fbfae64b85ea54f63c6db688f2cd8cb079f40b6164f8b1f9451e37790549
+SHA1: 32a19b20f5c1205f2c98eee0d5e31bdcde12ddb0
+MD5sum: 4d519c3a9913dc55f0fcaf71e4bc124a
+Description: programmable completion for the bash shell
+ bash completion extends bash's standard completion behavior to achieve
+ complex command lines with just a few keystrokes.  This project was
+ conceived to produce programmable completion routines for the most
+ common Linux/UNIX commands, reducing the amount of typing sysadmins
+ and programmers need to do on a daily basis.
+
+Package: blends-tasks
+Source: blends
+Version: 0.7.5
+Architecture: all
+Maintainer: Debian Pure Blend Team <debian-blends@lists.debian.org>
+Installed-Size: 25
+Depends: tasksel
+Homepage: https://www.debian.org/blends/
+Priority: important
+Section: misc
+Filename: pool/main/b/blends/blends-tasks_0.7.5_all.deb
+Size: 14760
+SHA256: 4bad6179d62ca2b985988c1386b828b01edc71217d2f6c4bcd5f7ce506819edd
+SHA1: 79f38af2645db71f3420559a5f804c1580b7a482
+MD5sum: f66da02640deed737adbcee21208f56a
+Description: Debian Pure Blends tasks for new installations
+ This package installs a choice of a default installation for each
+ Debian Pure Blend when run from the Debian installer. The
+ installation includes the tasks package of the blend, so a subsequent
+ invocation of tasksel enables the choice of individual tasks.
+ .
+ The package is intended to be installed in the base system. Later
+ (un)installation is harmless, but has no effect.
+
+Package: bzip2-doc
+Source: bzip2
+Version: 1.0.8-5
+Architecture: all
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 612
+Replaces: bzip2 (<< 1.0.4-0ubuntu2)
+Multi-Arch: foreign
+Homepage: https://sourceware.org/bzip2/
+Priority: optional
+Section: doc
+Filename: pool/main/b/bzip2/bzip2-doc_1.0.8-5_all.deb
+Size: 514252
+SHA256: 3222df315ed312f63694b471d80eff42653934459c6751314d861349e0d2037f
+SHA1: 4908216b04a17a36fd0e33ea4b7f05554d02017c
+MD5sum: e81066ffa1a06024c630390b2d054990
+Description: high-quality block-sorting file compressor - documentation
+ This package contains the bzip2 user manual in HTML, PDF, PS and Texinfo
+ formats.
+ .
+ bzip2 is a freely available, patent free, data compressor.
+ .
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding.  Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+ .
+ The archive file format of bzip2 (.bz2) is incompatible with that of its
+ predecessor, bzip (.bz).
+
+Package: ca-certificates
+Version: 20230311
+Architecture: all
+Maintainer: Julien Cristau <jcristau@debian.org>
+Installed-Size: 384
+Depends: openssl (>= 1.1.1), debconf (>= 0.5) | debconf-2.0
+Enhances: openssl
+Breaks: ca-certificates-java (<< 20121112+nmu1)
+Multi-Arch: foreign
+Priority: standard
+Section: misc
+Filename: pool/main/c/ca-certificates/ca-certificates_20230311_all.deb
+Size: 153456
+SHA256: 5308b9bd88eebe2a48be3168cb3d87677aaec5da9c63ad0cf561a29b8219115c
+SHA1: 2723803bd4497bd27a499a249e57936821dedbed
+MD5sum: cfc0b4e43c023cdfe87bfa4efac29b6e
+Description: Common CA certificates
+ Contains the certificate authorities shipped with Mozilla's browser to allow
+ SSL-based applications to check for the authenticity of SSL connections.
+ .
+ Please note that Debian can neither confirm nor deny whether the
+ certificate authorities whose certificates are included in this package
+ have in any way been audited for trustworthiness or RFC 3647 compliance.
+ Full responsibility to assess them belongs to the local system
+ administrator.
+
+Package: cron-daemon-common
+Source: cron
+Version: 3.0pl1-162
+Architecture: all
+Maintainer: Javier Fernández-Sanguino Peña <jfs@debian.org>
+Installed-Size: 44
+Depends: adduser
+Conflicts: bcron (<< 0.11-9.1), cron (<< 3.0pl1-140), cronie (<< 1.6.1-5), systemd-cron (<< 1.15.18-1.1)
+Breaks: systemd-cron (<< 1.15.19-5~)
+Replaces: bcron (<< 0.11-9.1), cron (<< 3.0pl1-140), cronie (<< 1.6.1-5), systemd-cron (<< 1.15.18-1.1)
+Homepage: https://ftp.isc.org/isc/cron/
+Priority: important
+Section: admin
+Filename: pool/main/c/cron/cron-daemon-common_3.0pl1-162_all.deb
+Size: 12660
+SHA256: 0976761a354ce802a2cc6ac02d7585d93ad5fda231c27572d8529a6a62272c7f
+SHA1: 40a9d00dc7524246cc1b9e5a81f709efada36ac1
+MD5sum: b5d86b4a7b08caf42f6613275059e4bf
+Description: process scheduling daemon's configuration files
+ The cron daemon is a background process that runs particular programs at
+ particular times (for example, every minute, day, week, or month), as
+ specified in a crontab. By default, users may also create crontabs of
+ their own so that processes are run on their behalf.
+ .
+ This package provides configuration files which must be there to
+ define scheduled process sets.
+
+Package: debconf
+Version: 1.5.82
+Architecture: all
+Maintainer: Debconf Developers <debconf-devel@lists.alioth.debian.org>
+Installed-Size: 491
+Recommends: apt-utils, debconf-i18n
+Suggests: debconf-doc, debconf-kde-helper, debconf-utils, libgtk3-perl, libnet-ldap-perl, libterm-readline-gnu-perl, perl, whiptail | dialog
+Conflicts: debconf-tiny, whiptail-utf8 (<= 0.50.17-13)
+Replaces: debconf-tiny
+Provides: debconf-2.0
+Multi-Arch: foreign
+Priority: important
+Section: admin
+Filename: pool/main/d/debconf/debconf_1.5.82_all.deb
+Size: 121212
+SHA256: 74ab14194a3762b2fc717917dcfda42929ab98e3c59295a063344dc551cd7cc8
+SHA1: e7b7ee8dd73364ae9955dda8c9afa936323cfeff
+MD5sum: ab40b7d3c7dd743f16d0d24ce3373270
+Description: Debian configuration management system
+ Debconf is a configuration management system for debian packages. Packages
+ use Debconf to ask questions when they are installed.
+
+Package: debconf-i18n
+Source: debconf
+Version: 1.5.82
+Architecture: all
+Maintainer: Debconf Developers <debconf-devel@lists.alioth.debian.org>
+Installed-Size: 805
+Depends: debconf (= 1.5.82), liblocale-gettext-perl, libtext-charwidth-perl, libtext-iconv-perl, libtext-wrapi18n-perl
+Conflicts: debconf-english
+Priority: important
+Section: localization
+Filename: pool/main/d/debconf/debconf-i18n_1.5.82_all.deb
+Size: 208040
+SHA256: 2f2c83f2d13ccc87d754526e40d156351f271e203fa54e1c822c60988b543dd0
+SHA1: a45da164ea7fb0d397102b5774864b64181ff620
+MD5sum: 28667fcf2e7195a31b1dfe2e7a31fde0
+Description: full internationalization support for debconf
+ This package provides full internationalization for debconf, including
+ translations into all available languages, support for using translated
+ debconf templates, and support for proper display of multibyte character
+ sets.
+
+Package: debian-archive-keyring
+Version: 2023.3+deb12u1
+Architecture: all
+Maintainer: Debian Release Team <packages@release.debian.org>
+Installed-Size: 272
+Multi-Arch: foreign
+Priority: important
+Section: misc
+Filename: pool/main/d/debian-archive-keyring/debian-archive-keyring_2023.3+deb12u1_all.deb
+Size: 160776
+SHA256: c1bac61abefa0d957394d33c02b7bfb2a3ab3ce5e6d90617c4019ddea4bdbf63
+SHA1: d6deee885b06009256ddf272b3e69b32329d4908
+MD5sum: 0020f1d90d3c0b1de756d520ca67f1b2
+Description: GnuPG archive keys of the Debian archive
+ The Debian project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: dnsutils
+Source: bind9
+Version: 1:9.18.24-1
+Architecture: all
+Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
+Installed-Size: 266
+Depends: bind9-dnsutils
+Homepage: https://www.isc.org/downloads/bind/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/b/bind9/dnsutils_9.18.24-1_all.deb
+Size: 261148
+SHA256: 9be3273e336c155f7b59dd9f239eb864e37a26d7e42297405e30191e870be4c1
+SHA1: b62ee293572197f946f4028de31c7707829b8094
+MD5sum: 07085847625bab7b262a53c6f9a945e7
+Description: Transitional package for bind9-dnsutils
+ This is a transitional package. It can safely be removed.
+
+Package: gnupg
+Source: gnupg2
+Version: 2.2.40-1.1
+Architecture: all
+Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
+Installed-Size: 885
+Depends: dirmngr (<< 2.2.40-1.1.1~), dirmngr (>= 2.2.40-1.1), gnupg-l10n (= 2.2.40-1.1), gnupg-utils (<< 2.2.40-1.1.1~), gnupg-utils (>= 2.2.40-1.1), gpg (<< 2.2.40-1.1.1~), gpg (>= 2.2.40-1.1), gpg-agent (<< 2.2.40-1.1.1~), gpg-agent (>= 2.2.40-1.1), gpg-wks-client (<< 2.2.40-1.1.1~), gpg-wks-client (>= 2.2.40-1.1), gpg-wks-server (<< 2.2.40-1.1.1~), gpg-wks-server (>= 2.2.40-1.1), gpgsm (<< 2.2.40-1.1.1~), gpgsm (>= 2.2.40-1.1), gpgv (<< 2.2.40-1.1.1~), gpgv (>= 2.2.40-1.1)
+Suggests: parcimonie, xloadimage
+Breaks: debsig-verify (<< 0.15), dirmngr (<< 2.2.40-1.1), gnupg2 (<< 2.1.11-7+exp1), libgnupg-interface-perl (<< 0.52-3), libgnupg-perl (<= 0.19-1), libmail-gnupg-perl (<= 0.22-1), monkeysphere (<< 0.38~), php-crypt-gpg (<= 1.4.1-1), python-apt (<= 1.1.0~beta4), python-gnupg (<< 0.3.8-3), python3-apt (<= 1.1.0~beta4)
+Replaces: gnupg2 (<< 2.1.11-7+exp1)
+Multi-Arch: foreign
+Homepage: https://www.gnupg.org/
+Priority: optional
+Section: utils
+Filename: pool/main/g/gnupg2/gnupg_2.2.40-1.1_all.deb
+Size: 845768
+SHA256: 6f6fe95c43338db9887e52fe948228a779d3651fef1a975b62dfe891bb71fdc4
+SHA1: e2ffaf995a830a1287820beb899e8b7780530ade
+MD5sum: 5752152632f3a26f2725937e4cb79205
+Description: GNU privacy guard - a free PGP replacement
+ GnuPG is GNU's tool for secure communication and data storage.
+ It can be used to encrypt data and to create digital signatures.
+ It includes an advanced key management facility and is compliant
+ with the proposed OpenPGP Internet standard as described in RFC4880.
+ .
+ This package contains the full suite of GnuPG tools for cryptographic
+ communications and data storage.
+
+Package: gnupg-l10n
+Source: gnupg2
+Version: 2.2.40-1.1
+Architecture: all
+Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
+Installed-Size: 4874
+Enhances: dirmngr, gpg, gpg-agent
+Breaks: gnupg (<< 2.1.14-2~), gnupg2 (<< 2.1.14-2~)
+Replaces: gnupg (<< 2.1.14-2~), gnupg2 (<< 2.1.14-2~)
+Multi-Arch: foreign
+Homepage: https://www.gnupg.org/
+Priority: optional
+Section: localization
+Filename: pool/main/g/gnupg2/gnupg-l10n_2.2.40-1.1_all.deb
+Size: 1092852
+SHA256: bc62f3b366042157e9a8d00d04f1bd2e2a05e37501fc9a821883f99aa282ed77
+SHA1: c99d6105adb95f53bb8dae0690c8efb73e8f8db6
+MD5sum: bf1c355fcf73cbf5e05174a2731c1735
+Description: GNU privacy guard - localization files
+ GnuPG is GNU's tool for secure communication and data storage.
+ It can be used to encrypt data and to create digital signatures.
+ It includes an advanced key management facility and is compliant
+ with the proposed OpenPGP Internet standard as described in RFC 4880.
+ .
+ This package contains the translation files for the use of GnuPG in
+ non-English locales.
+
+Package: gnupg2
+Version: 2.2.40-1.1
+Architecture: all
+Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
+Installed-Size: 453
+Depends: gnupg (>= 2.2.40-1.1)
+Multi-Arch: foreign
+Homepage: https://www.gnupg.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/g/gnupg2/gnupg2_2.2.40-1.1_all.deb
+Size: 445496
+SHA256: 1845ad1b6640bd83dc46a410acdb2a97442b4575d06a9684012bfe47008c99c6
+SHA1: 598fc4414be3366eeb5ba6339fc588328016c31e
+MD5sum: 162d31b6c88820d585fdcffffb4a53c7
+Description: GNU privacy guard - a free PGP replacement (dummy transitional package)
+ GnuPG is GNU's tool for secure communication and data storage.
+ It can be used to encrypt data and to create digital signatures.
+ It includes an advanced key management facility and is compliant
+ with the proposed OpenPGP Internet standard as described in RFC4880.
+ .
+ This is a dummy transitional package that provides symlinks from gpg2
+ to gpg.
+
+Package: hunspell-en-au
+Source: scowl (2020.12.07-2)
+Version: 1:2020.12.07-2
+Architecture: all
+Maintainer: Don Armstrong <don@debian.org>
+Installed-Size: 881
+Depends: dictionaries-common (>= 1.0)
+Suggests: hunspell, libreoffice-writer
+Conflicts: myspell-en-au
+Provides: hunspell-dictionary, hunspell-dictionary-en-au
+Multi-Arch: foreign
+Homepage: http://wordlist.sourceforge.net/
+Priority: standard
+Section: text
+Filename: pool/main/s/scowl/hunspell-en-au_2020.12.07-2_all.deb
+Size: 269456
+SHA256: 3325a515a862e50627aa2b500187b932f00b4afeae1400f1ecfe3b6439f8e78c
+SHA1: c2c592ccb1102c0a9ee5c7a99cbf3ae405223056
+MD5sum: 5bbd536c4f0423a71879a72393484eb2
+Description: English (Australia) dictionary for hunspell
+ This is the English (Australia) dictionary for use with the hunspell
+ spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding or
+ character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-en-ca
+Source: scowl (2020.12.07-2)
+Version: 1:2020.12.07-2
+Architecture: all
+Maintainer: Don Armstrong <don@debian.org>
+Installed-Size: 879
+Depends: dictionaries-common (>= 1.0)
+Suggests: hunspell, libreoffice-writer
+Provides: hunspell-dictionary, hunspell-dictionary-en-ca
+Multi-Arch: foreign
+Homepage: http://wordlist.sourceforge.net/
+Priority: standard
+Section: text
+Filename: pool/main/s/scowl/hunspell-en-ca_2020.12.07-2_all.deb
+Size: 268924
+SHA256: e4293928580c3d4a8c52e584e766089ef2644ef407d2d4cac413c922ecaf6bb0
+SHA1: 7c8603b4ed71a07c1c27b34e035c6fe8f13fa07d
+MD5sum: e00ac356df83b01247bbf5d658700df6
+Description: English (Canada) dictionary for hunspell
+ This is the English (Canada) dictionary for use with the hunspell
+ spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding or
+ character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: init-system-helpers
+Version: 1.65.2+openbosniana
+Architecture: all
+Essential: yes
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 133
+Depends: usrmerge | usr-is-merged
+Multi-Arch: foreign
+Priority: required
+Section: admin
+Filename: pool/main/i/init-system-helpers/init-system-helpers_1.65.2+openbosniana_all.deb
+Size: 38940
+SHA256: e5d05c98b4b941a863bf6bb731a1d3d6e070723d17ed814a4c82b628947f267c
+SHA1: ccf7bf3b9d942ee137090b8049b78035ff172daf
+MD5sum: eadb860448290c2a70a2b47e43deb590
+Description: helper tools for all init systems
+ This package contains helper tools that are necessary for switching between
+ the various init systems that Debian contains (e. g. sysvinit or
+ systemd). An example is deb-systemd-helper, a script that enables systemd unit
+ files without depending on a running systemd.
+ .
+ It also includes the "service", "invoke-rc.d", and "update-rc.d" scripts which
+ provide an abstraction for enabling, disabling, starting, and stopping
+ services for all supported Debian init systems as specified by the policy.
+ .
+ While this package is maintained by pkg-systemd-maintainers, it is NOT
+ specific to systemd at all. Maintainers of other init systems are welcome to
+ include their helpers in this package.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: isolinux
+Source: syslinux
+Version: 3:6.04~git20190206.bf6db5b4+dfsg1-3
+Architecture: all
+Maintainer: Debian CD Group <debian-cd@lists.debian.org>
+Installed-Size: 207
+Recommends: syslinux-common
+Suggests: xorriso
+Multi-Arch: foreign
+Homepage: http://www.syslinux.org/
+Priority: optional
+Section: admin
+Filename: pool/main/s/syslinux/isolinux_6.04~git20190206.bf6db5b4+dfsg1-3_all.deb
+Size: 108396
+SHA256: cb14af88adc2c3844976cd2de61571d2af94d2fb65c277fe4acf3dc8a5d25aae
+SHA1: e3c013f148afdcb8e8ac530d66650c08a8398089
+MD5sum: c34ac02a0dda31ad48b8b056fc21f468
+Description: collection of bootloaders (ISO 9660 bootloader)
+ syslinux is a suite of bootloaders, currently supporting DOS FAT and NTFS
+ filesystems (SYSLINUX), Linux ext2/ext3/ext4, btrfs, and xfs filesystems
+ (EXTLINUX), PXE network boots (PXELINUX), or ISO 9660 CD-ROMs (ISOLINUX).
+ .
+ This package contains the bootloader for ISO 9660 CD-ROMs (ISOLINUX).
+
+Package: libaudit-common
+Source: audit
+Version: 1:3.0.9-1
+Architecture: all
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Installed-Size: 22
+Multi-Arch: foreign
+Homepage: https://people.redhat.com/sgrubb/audit/
+Priority: optional
+Section: libs
+Filename: pool/main/a/audit/libaudit-common_3.0.9-1_all.deb
+Size: 10448
+SHA256: 17d0341ca6ce604ce59c296780ac2c2a24141a769823c50669af942c025e6591
+SHA1: f364e70efbb3f31cf095e14f83c00085546614a4
+MD5sum: c1f13138b89bb7eb29ee6cf93ccca204
+Description: Dynamic library for security auditing - common files
+ The audit-libs package contains the dynamic libraries needed for
+ applications to use the audit framework. It is used to monitor systems for
+ security related events.
+ .
+ This package contains the libaudit.conf configuration file and the associated
+ manpage.
+
+Package: libipc-run-perl
+Version: 20220807.0-1
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 267
+Depends: perl:any, libio-pty-perl
+Multi-Arch: foreign
+Homepage: https://metacpan.org/release/IPC-Run
+Priority: optional
+Section: perl
+Filename: pool/main/libi/libipc-run-perl/libipc-run-perl_20220807.0-1_all.deb
+Size: 104084
+SHA256: 21106eab580111831c8aebc993f3e9877672a0a5b5716ba58f8a23fed6177545
+SHA1: b8f63e998ec1bba5b308ac506ee75f9c75951008
+MD5sum: cfe59a622dd0d8d08cf6e1aa782f6c9b
+Description: Perl module for running processes
+ IPC::Run allows you to run and interact with child processes using
+ files, pipes, and pseudo-ttys.  Both system()-style and scripted
+ usages are supported and may be mixed.  Likewise, functional and OO
+ API styles are both supported and may be mixed.
+ .
+ Various redirection operators reminiscent of those seen on common
+ Unix and DOS command lines are provided.
+
+Package: libpam-runtime
+Source: pam
+Version: 1.5.2-6+deb12u1
+Architecture: all
+Maintainer: Sam Hartman <hartmans@debian.org>
+Installed-Size: 876
+Depends: debconf (>= 0.5) | debconf-2.0, debconf (>= 1.5.19) | cdebconf, libpam-modules (>= 1.0.1-6)
+Conflicts: libpam0g-util
+Replaces: libpam0g-dev, libpam0g-util
+Multi-Arch: foreign
+Homepage: http://www.linux-pam.org/
+Priority: required
+Section: admin
+Filename: pool/main/p/pam/libpam-runtime_1.5.2-6+deb12u1_all.deb
+Size: 161064
+SHA256: da03311a716bdcb73d1a93d322901ac46dce8eac67b5ccc95a6d8b776bfb4021
+SHA1: 08ed12c884f7b11fbb7432d1d211fd58bb8266a1
+MD5sum: 3cb222bc390cfdcba87deaa1954839f8
+Description: Runtime support for the PAM library
+ Contains configuration files and  directories required for
+ authentication  to work on Debian systems.  This package is required
+ on almost all installations.
+
+Package: libsemanage-common
+Source: libsemanage
+Version: 3.4-1
+Architecture: all
+Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+Installed-Size: 37
+Multi-Arch: foreign
+Homepage: https://selinuxproject.org
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsemanage/libsemanage-common_3.4-1_all.deb
+Size: 21632
+SHA256: 835f806c21ae25e39053bd3057051640341b0cf08e1db9746fd82e370d82fa30
+SHA1: 192b427ee99daacf1ab4698833b2db7c47aef6f8
+MD5sum: 3a71ea9db512c570fe636acb6844947d
+Description: Common files for SELinux policy management libraries
+ This package provides the common files used by the shared libraries
+ for SELinux policy management.
+ .
+ Security-enhanced Linux is a patch of the Linux kernel and a
+ number of utilities with enhanced security functionality designed to
+ add mandatory access controls to Linux.  The Security-enhanced Linux
+ kernel contains new architectural components originally developed to
+ improve the security of the Flask operating system. These
+ architectural components provide general support for the enforcement
+ of many kinds of mandatory access control policies, including those
+ based on the concepts of Type Enforcement, Role-based Access
+ Control, and Multi-level Security.
+
+Package: libtext-wrapi18n-perl
+Version: 0.06-10
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 26
+Depends: libtext-charwidth-perl
+Homepage: https://metacpan.org/release/Text-WrapI18N
+Priority: required
+Section: perl
+Filename: pool/main/libt/libtext-wrapi18n-perl/libtext-wrapi18n-perl_0.06-10_all.deb
+Size: 8808
+SHA256: 17f98c7c09af8ac3bdbfd5a5dad32f3f51c71b02cdfc411366f49092a395de85
+SHA1: f442e53233cb43d7c9d108051d76a73cfd48e473
+MD5sum: b57a11d040f8e9055f8f2e83ed3dd70b
+Description: internationalized substitute of Text::Wrap
+ The Text::WrapI18N module is a substitution for Text::Wrap, supporting
+ multibyte characters such as UTF-8, EUC-JP, and GB2312, fullwidth characters
+ such as east Asian characters, combining characters such as diacritical marks
+ and Thai, and languages which don't use whitespaces between words such as
+ Chinese and Japanese.
+ .
+ It provides wrap().
+
+Package: libtime-duration-perl
+Version: 1.21-2
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 36
+Depends: perl:any
+Homepage: https://metacpan.org/release/Time-Duration
+Priority: optional
+Section: perl
+Filename: pool/main/libt/libtime-duration-perl/libtime-duration-perl_1.21-2_all.deb
+Size: 13088
+SHA256: 79c76662d58700b1e76eccebf6ef3426a32d4a2fb5dbedb97276f44eb1a970b9
+SHA1: af3f5f8edb2fae7a96ee043e70409fe298dfe006
+MD5sum: c0cab5c44b64bf749a1fbf3c41051999
+Description: module for rounded or exact English expression of durations
+ Time::Duration provides functions for expressing time spans in rounded
+ or exact terms. So while
+ .
+    say duration_exact(86399);
+ .
+ will correctly give "23 hours, 59 minutes, and 59 seconds",
+ .
+    say ago(86399);
+ .
+ will output the rounded time span as "1 day ago".
+ .
+ The provided functions are duration(), ago(), from_now(), later() and
+ earlier(), along with their *_exact counterparts.  The precision used
+ for rounding can be specified, and version 1.10 added a millisecond
+ mode.
+
+Package: libtimedate-perl
+Version: 2.3300-2
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 127
+Depends: perl:any
+Multi-Arch: foreign
+Homepage: https://metacpan.org/release/TimeDate
+Priority: optional
+Section: perl
+Filename: pool/main/libt/libtimedate-perl/libtimedate-perl_2.3300-2_all.deb
+Size: 39316
+SHA256: 8e36723da883c2975d83199e7f4b5331e291881372fde944b0d56660965f38bb
+SHA1: 4bdf04dea0fdc741d5dd942a2d02f26cef5378a6
+MD5sum: 57a9e43a44a6829c9b0ee4acf702c6dd
+Description: collection of modules to manipulate date/time information
+ TimeDate is a collection of Perl modules useful for manipulating date and
+ time information. Date::Parse can parse absolute date specifications in a
+ wide variety of input formats and many languages (via Date::Language).
+ .
+ This package also includes Date::Format, which can format dates into strings,
+ as well as Time::Zone, which contains miscellaneous time zone functions.
+
+Package: libtirpc-common
+Source: libtirpc
+Version: 1.3.3+ds-1
+Architecture: all
+Maintainer: Josue Ortega <josue@debian.org>
+Installed-Size: 35
+Breaks: libtirpc1, libtirpc3 (<< 1.1.4-0.1~)
+Replaces: libtirpc1, libtirpc3 (<< 1.1.4-0.1~)
+Multi-Arch: foreign
+Homepage: http://sourceforge.net/projects/libtirpc
+Priority: optional
+Section: libs
+Filename: pool/main/libt/libtirpc/libtirpc-common_1.3.3+ds-1_all.deb
+Size: 14048
+SHA256: 3e3ef129b4bf61513144236e15e1b4ec57fa5ae3dc8a72137abdbefb7a63af85
+SHA1: e6eb6e5ef99c26ed8a84555c9bb787a38c64b147
+MD5sum: e49aca93814724ed80fa8932a1f7523b
+Description: transport-independent RPC library - common files
+ This package contains a port of Sun's transport-independent RPC library to
+ Linux. The library is intended as a replacement for the RPC code in the GNU C
+ library, providing among others support for RPC (and in turn, NFS) over IPv6.
+ .
+ This package contains the netconfig configuration file as well as the
+ associated manpage.
+
+Package: lsb-base
+Source: lsb
+Version: 11.6
+Architecture: all
+Maintainer: Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>
+Installed-Size: 12
+Depends: sysvinit-utils (>= 3.05-4~)
+Multi-Arch: foreign
+Homepage: https://wiki.linuxfoundation.org/lsb/start
+Priority: optional
+Section: oldlibs
+Filename: pool/main/l/lsb/lsb-base_11.6_all.deb
+Size: 4584
+SHA256: f8bedd167280e76636df3a1bc023cd2906d458916c1af4c1d7912c5b971fc642
+SHA1: a35020cdf6d77bfe6ba53bca12f6f78ddb3ddf5b
+MD5sum: e11ef978bfbcf7e07758cc35adf4d4a0
+Description: transitional package for Linux Standard Base init script functionality
+ This is an empty package; it's needed only because of Provides: not being
+ supported in debootstrap.  It can be safely removed.
+
+Package: ncurses-base
+Source: ncurses
+Version: 6.4-4
+Architecture: all
+Essential: yes
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 379
+Breaks: bash-static (<< 4.4.18-1.1), libmono-corlib4.5-cil (<< 4.6.2.7+dfsg-2), libslang2 (<< 2.3.1a-3), libtinfo5 (<< 6.1), libunibilium0 (<< 2), libunibilium4 (<< 2.0.0-3), neovim (<< 0.6.0), vim-common (<< 2:9.0.1000-2), zsh-static (<< 5.4.2-4)
+Provides: ncurses-runtime
+Multi-Arch: foreign
+Homepage: https://invisible-island.net/ncurses/
+Priority: required
+Section: misc
+Filename: pool/main/n/ncurses/ncurses-base_6.4-4_all.deb
+Size: 261308
+SHA256: bfd1d89f833c09a28b062ee916495cf69649ca2bf529532476c7b69d75d24909
+SHA1: 1ddac0a0f13e0d7d8ca0bfbde51dd3eb510b1674
+MD5sum: d4772a6d6a48b0d6e9b8e3f7a170a098
+Description: basic terminal type definitions
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains terminfo data files to support the most common types of
+ terminal, including ansi, dumb, linux, rxvt, screen, sun, vt100, vt102, vt220,
+ vt52, and xterm.
+
+Package: neovim-runtime
+Source: neovim
+Version: 0.7.2-7
+Architecture: all
+Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Installed-Size: 20066
+Multi-Arch: foreign
+Homepage: https://neovim.io/
+Priority: optional
+Section: editors
+Filename: pool/main/n/neovim/neovim-runtime_0.7.2-7_all.deb
+Size: 3916116
+SHA256: dc3861cf63e8576f887437c9925437eb118272c1bc8451e18baff9183da08cdb
+SHA1: f31659654adc2cefe36f4ee5728305a04b6d717d
+MD5sum: fa84ba79416e97713a6fa84ebc018511
+Description: heavily refactored vim fork (runtime files)
+ Neovim is a fork of Vim focused on modern code and features, rather than
+ running in legacy environments.
+ .
+ This package contains the architecture independent runtime files used by
+ neovim.  Examples of such files are: documentation, rules for
+ language-specific highlighting and indentation, color schemes, and standard
+ plugins.
+
+Package: netbase
+Version: 6.4
+Architecture: all
+Maintainer: Marco d'Itri <md@linux.it>
+Installed-Size: 36
+Breaks: ebtables (<< 2.0.11-2)
+Replaces: ebtables (<< 2.0.11-2)
+Multi-Arch: foreign
+Priority: important
+Section: admin
+Filename: pool/main/n/netbase/netbase_6.4_all.deb
+Size: 12800
+SHA256: 29b23c48c0fe6f878e56c5ddc9f65d1c05d729360f3690a593a8c795031cd867
+SHA1: 38aa7bd1f2f7015c251713414ffe1ad5965678fd
+MD5sum: 814246d2f01d3238bbd3ef8c15c57076
+Description: Basic TCP/IP networking system
+ This package provides the necessary infrastructure for basic TCP/IP based
+ networking.
+ .
+ In particular, it supplies common name-to-number mappings in /etc/services,
+ /etc/rpc, /etc/protocols and /etc/ethertypes.
+
+Package: openbosniana-archive-keyring
+Version: 2024-03-27
+Architecture: all
+Maintainer: Denis Maslo <deniosm@blackbosniana.org>
+Installed-Size: 15
+Depends: gpgv
+Recommends: gnupg
+Provides: debian-archive-keyring, devuan-keyring, kali-archive-keyring, ubuntu-keyring
+Priority: required
+Section: misc
+Filename: pool/main/o/openbosniana-archive-keyring/openbosniana-archive-keyring_2024-03-27_all.deb
+Size: 4412
+SHA256: 72f4d7614f6c78736d9e2bc9c3aa5b07be098b8feee156254c9f19c3a971a8d7
+SHA1: 67cefedc539cf505159c28f33349b9cd55201fa7
+MD5sum: d4ac806deb7c12f3ee0cd26f73a14e4b
+Description: OpenBosniana GPG Archive Keyring
+ Public keys for the openbosniana archives digital signature.
+
+Package: perl-modules-5.36
+Source: perl
+Version: 5.36.0-7+deb12u1
+Architecture: all
+Maintainer: Niko Tyni <ntyni@debian.org>
+Installed-Size: 17816
+Pre-Depends: dpkg (>= 1.17.17)
+Depends: perl-base (>= 5.36.0-1)
+Recommends: perl (>= 5.36.0-1)
+Conflicts: perl-modules (<< 5.22.0~)
+Breaks: libansicolor-perl (<< 5.01), libarchive-tar-perl (<< 2.40), libattribute-handlers-perl (<< 1.02), libautodie-perl (<< 2.34), libcpan-meta-perl (<< 2.150010), libcpan-meta-requirements-perl (<< 2.140), libcpan-meta-yaml-perl (<< 0.018), libdigest-perl (<< 1.20), libexperimental-perl (<< 0.028), libextutils-cbuilder-perl (<< 0.280236), libextutils-command-perl (<< 7.64), libextutils-install-perl (<< 2.20), libextutils-parsexs-perl (<< 3.450000), libfile-spec-perl (<< 3.8400), libhttp-tiny-perl (<< 0.080), libi18n-langtags-perl (<< 0.45), libio-zlib-perl (<< 1.11), libjson-pp-perl (<< 4.07000), liblocale-maketext-perl (<< 1.31), liblocale-maketext-simple-perl (<< 0.21.01), libmath-bigint-perl (<< 1.999830), libmath-complex-perl (<< 1.5902), libmodule-corelist-perl (<< 5.20220520), libmodule-load-conditional-perl (<< 0.74), libmodule-load-perl (<< 0.36), libmodule-metadata-perl (<< 1.000037), libnet-perl (<< 1:3.14), libnet-ping-perl (<< 2.74), libparams-check-perl (<< 0.38), libparent-perl (<< 0.238), libparse-cpan-meta-perl (<< 2.150010), libperl-ostype-perl (<< 1.010), libpod-escapes-perl (<< 1.07), libpod-simple-perl (<< 3.43), libtest-harness-perl (<< 3.44), libtest-simple-perl (<< 1.302190), libtest-tester-perl (<< 1.302190), libtest-use-ok-perl (<< 1.302190), libtext-balanced-perl (<< 2.04), libthread-queue-perl (<< 3.14), libtime-local-perl (<< 1.3000), libunicode-collate-perl (<< 1.31), libversion-perl (<< 1:0.9929), maildirsync (<< 1.2-2.1), perl (<< 5.36.0~), podlators-perl (<< 4.14)
+Replaces: libansicolor-perl (<< 5.01), libarchive-tar-perl (<< 2.40), libattribute-handlers-perl (<< 1.02), libautodie-perl (<< 2.34), libcpan-meta-perl (<< 2.150010), libcpan-meta-requirements-perl (<< 2.140), libcpan-meta-yaml-perl (<< 0.018), libdigest-perl (<< 1.20), libexperimental-perl (<< 0.028), libextutils-cbuilder-perl (<< 0.280236), libextutils-command-perl (<< 7.64), libextutils-install-perl (<< 2.20), libextutils-parsexs-perl (<< 3.450000), libfile-spec-perl (<< 3.8400), libhttp-tiny-perl (<< 0.080), libi18n-langtags-perl (<< 0.45), libio-zlib-perl (<< 1.11), libjson-pp-perl (<< 4.07000), liblocale-maketext-perl (<< 1.31), liblocale-maketext-simple-perl (<< 0.21.01), libmath-bigint-perl (<< 1.999830), libmath-complex-perl (<< 1.5902), libmodule-corelist-perl (<< 5.20220520), libmodule-load-conditional-perl (<< 0.74), libmodule-load-perl (<< 0.36), libmodule-metadata-perl (<< 1.000037), libnet-perl (<< 1:3.14), libnet-ping-perl (<< 2.74), libparams-check-perl (<< 0.38), libparent-perl (<< 0.238), libparse-cpan-meta-perl (<< 2.150010), libperl-ostype-perl (<< 1.010), libpod-escapes-perl (<< 1.07), libpod-simple-perl (<< 3.43), libtest-harness-perl (<< 3.44), libtest-simple-perl (<< 1.302190), libtest-tester-perl (<< 1.302190), libtest-use-ok-perl (<< 1.302190), libtext-balanced-perl (<< 2.04), libthread-queue-perl (<< 3.14), libtime-local-perl (<< 1.3000), libunicode-collate-perl (<< 1.31), libversion-perl (<< 1:0.9929), perl-base (<< 5.22.0~), perl-modules, podlators-perl (<< 4.14)
+Provides: perl-modules
+Multi-Arch: foreign
+Homepage: http://dev.perl.org/perl5/
+Priority: optional
+Section: libs
+Filename: pool/main/p/perl/perl-modules-5.36_5.36.0-7+deb12u1_all.deb
+Size: 2814840
+SHA256: 9b8223674661ead1836ce21966f7e4511a3a943c1b87c02ea92ec17ed2c3f2cf
+SHA1: 5c7f2ccafcec2c9267f00446c66224d1fc6344db
+MD5sum: 1f885d42fc26a38efa6c0ed3c166335d
+Description: Core Perl modules
+ Architecture independent Perl modules.  These modules are part of Perl and
+ required if the `perl' package is installed.
+ .
+ Note that this package only exists to save archive space and should be
+ considered an internal implementation detail of the `perl' package.
+ Other packages should not depend on `perl-modules-5.36' directly, they
+ should use `perl' (which depends on `perl-modules-5.36') instead.
+
+Package: pocketsphinx-en-us
+Source: pocketsphinx
+Version: 0.8+5prealpha+1-15
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 36991
+Multi-Arch: foreign
+Homepage: http://cmusphinx.sourceforge.net/
+Priority: optional
+Section: sound
+Filename: pool/main/p/pocketsphinx/pocketsphinx-en-us_0.8+5prealpha+1-15_all.deb
+Size: 24303768
+SHA256: 6bf9ef84f7dd96f497ff29a725e2a15500e9b8f73869f6854293aab7310ee28c
+SHA1: 54f151d3dcdf481950c3f29da73ac499353f535e
+MD5sum: 137dc8250182f9bee7c01f2cf4f6b4bd
+Description: Speech recognition tool - US English language model
+ CMU Sphinx is a large vocabulary, speaker-independent continuous speech
+ recognition engine.
+ .
+ This package contains the default US English language model for
+ PocketSphinx.
+
+Package: raspberrypi-archive-keyring
+Version: 2021.1.1+rpt1
+Architecture: all
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 27
+Multi-Arch: foreign
+Priority: important
+Section: misc
+Filename: pool/main/r/raspberrypi-archive-keyring/raspberrypi-archive-keyring_2021.1.1+rpt1_all.deb
+Size: 7728
+SHA256: df027ffdd7c400a7e3fc806a681a2db079eccefc7043f23a751fddebffe49e48
+SHA1: 1659c0223e97b69fd70d33085866a0d02a0f7037
+MD5sum: 0f63c5f5a275c78a6645888b8ce1ee4a
+Description: GnuPG archive keys of the Raspberry Pi OS archive
+ The Raspberry Pi OS project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: raspbian-archive-keyring
+Version: 20120528.2
+Architecture: all
+Maintainer: Peter Michael Green <plugwash@p10link.net>
+Installed-Size: 31
+Depends: gnupg
+Provides: debian-archive-keyring
+Priority: important
+Section: misc
+Filename: pool/main/r/raspbian-archive-keyring/raspbian-archive-keyring_20120528.2_all.deb
+Size: 3514
+SHA256: ea4b6737417fda8eeb4549ece7bb04249faed6779bc2424203fd635fda4dcc21
+SHA1: 1f730314ef8cd6e603389e911deab4bb8f40903a
+MD5sum: ce84c83e8e47a894f7b3e2499513f297
+Description: GnuPG archive keys of the raspbian archive
+ The raspbian archive digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: readline-common
+Source: readline
+Version: 8.2-1.3
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 89
+Depends: dpkg (>= 1.15.4) | install-info
+Suggests: readline-doc
+Conflicts: libreadline-common, libreadline5 (<< 5.0-11)
+Replaces: libreadline-common, libreadline4 (<< 4.3-16), libreadline5 (<< 5.0-11)
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Filename: pool/main/r/readline/readline-common_8.2-1.3_all.deb
+Size: 68988
+SHA256: 69317523fe56429aa361545416ad339d138c1500e5a604856a80dd9074b4e35c
+SHA1: 29f4352f7af641826a0ce9fbd08bc6ac52f8d502
+MD5sum: ad338a71bb8d67bdbcbe411ae6f65d20
+Description: GNU readline and history libraries, common files
+ The GNU readline library aids in the consistency of user interface
+ across discrete programs that need to provide a command line
+ interface.
+ .
+ The GNU history library provides a consistent user interface for
+ recalling lines of previously typed input.
+
+Package: sensible-utils
+Version: 0.0.17+nmu1
+Architecture: all
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 56
+Replaces: debianutils (<= 2.32.3), manpages-pl (<= 20060617-3~)
+Multi-Arch: foreign
+Priority: required
+Section: utils
+Filename: pool/main/s/sensible-utils/sensible-utils_0.0.17+nmu1_all.deb
+Size: 19020
+SHA256: e0e66f783996ec4670ed5041c446160ec671c723d4be47d3bc27af93c2958a76
+SHA1: 68c13e6034cda1cd2563c0ef93cda3fe8f493e45
+MD5sum: d617862548d914db9da74cf2b79f5e00
+Description: Utilities for sensible alternative selection
+ This package provides a number of small utilities which are used
+ by programs to sensibly select and spawn an appropriate browser,
+ editor, or pager.
+ .
+ The specific utilities included are: sensible-browser sensible-editor
+ sensible-pager
+
+Package: syslinux-common
+Source: syslinux
+Version: 3:6.04~git20190206.bf6db5b4+dfsg1-3
+Architecture: all
+Maintainer: Debian CD Group <debian-cd@lists.debian.org>
+Installed-Size: 3498
+Multi-Arch: foreign
+Homepage: http://www.syslinux.org/
+Priority: optional
+Section: admin
+Filename: pool/main/s/syslinux/syslinux-common_6.04~git20190206.bf6db5b4+dfsg1-3_all.deb
+Size: 1238336
+SHA256: f7e4ead7fdfe5cb6117d8d2485d75e53570a8cf680c81a432f92c1774f878875
+SHA1: e4471dbd0be6edc7a52c1dacb332c484978e04e0
+MD5sum: 0677d31b7f998aefa5b04e05e7cc640f
+Description: collection of bootloaders (common)
+ syslinux is a suite of bootloaders, currently supporting DOS FAT and NTFS
+ filesystems (SYSLINUX), Linux ext2/ext3/ext4, btrfs, and xfs filesystems
+ (EXTLINUX), PXE network boots (PXELINUX), or ISO 9660 CD-ROMs (ISOLINUX).
+ .
+ This package contains the common files.
+
+Package: tasksel
+Version: 1:3.73+openbosniana5
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 343
+Pre-Depends: debconf | cdebconf
+Depends: debconf (>= 0.5) | debconf-2.0, liblocale-gettext-perl, apt, tasksel-data
+Conflicts: base-config (<< 2.32)
+Priority: optional
+Section: admin
+Filename: pool/main/t/tasksel/tasksel_3.73+openbosniana5_all.deb
+Size: 50988
+SHA256: d53bccea490534546c9fb372679e5840bd93132c8cf4ff6a50cec3545fee5800
+SHA1: f2b5d5e75d16c20a1a8866468e0276c28b97a474
+MD5sum: d59b837fb3d8015b094a4af185cd5036
+Description: tool for selecting tasks for installation on Debian systems
+ This package provides 'tasksel', a simple interface for users who
+ want to configure their system to perform a specific task.
+
+Package: tasksel-data
+Source: tasksel
+Version: 1:3.73+openbosniana5
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 215
+Depends: tasksel (= 1:3.73+openbosniana5)
+Recommends: laptop-detect
+Priority: optional
+Section: admin
+Filename: pool/main/t/tasksel/tasksel-data_3.73+openbosniana5_all.deb
+Size: 18556
+SHA256: ad70c02fd05a23a760c96bed410cb39b349a7eb8fe46884f41f97ff8d78f28b3
+SHA1: 73a03946c89b0241c7455c2fd3b79e43fda9b26c
+MD5sum: bcff93b53f654bc7f8996aaf881aea91
+Description: official tasks used for installation of Debian systems
+ This package contains data about the standard tasks available on a Debian
+ system.
+
+Package: tzdata
+Version: 2024a-0+deb12u1
+Architecture: all
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Installed-Size: 2554
+Depends: debconf (>= 0.5) | debconf-2.0
+Provides: tzdata-bookworm
+Multi-Arch: foreign
+Homepage: https://www.iana.org/time-zones
+Priority: required
+Section: localization
+Filename: pool/main/t/tzdata/tzdata_2024a-0+deb12u1_all.deb
+Size: 297188
+SHA256: 0ca0baec1fca55df56039047a631fc1541c5a44c1c4879d553aaa3a70844eb12
+SHA1: a5f2623414500d11fb2da21a5eb402ade8d705a5
+MD5sum: 14d216857e42b1b0862d1f39f10347e8
+Description: time zone and daylight-saving time data
+ This package contains data required for the implementation of
+ standard local time for many representative locations around the
+ globe. It is updated periodically to reflect changes made by
+ political bodies to time zone boundaries, UTC offsets, and
+ daylight-saving rules.
+
+Package: usr-is-merged
+Source: usrmerge
+Version: 37~deb12u1
+Architecture: all
+Maintainer: Marco d'Itri <md@linux.it>
+Installed-Size: 13
+Conflicts: acl (<< 2.2.52-3~), arptables (<< 0.0.4+snapshot20181021-1~), coreutils (<< 8.24-1~), cruft (<< 0.9.44~), cryptsetup (<< 2:1.7.0-1~), davfs2 (<< 1.5.2-1.2~), debianutils (<< 4.5~), dhcpcd (<< 1:5~), ebtables (<< 2.0.10.4+snapshot20181205-1~), elvis-tiny (<< 1.4-24~), kbd (<< 2.0.4-4~), ksh (<< 93u+20120801-3.1~), less (<< 481-2~), libbrlapi-dev (<< 5.3.1-1~), libc0.1 (<< 2.35-4), libc0.3 (<< 2.35-4), libc6 (<< 2.35-4), libc6.1 (<< 2.35-4), libdm0-dev, libjson-c-dev (<< 0.12.1-1.1~), libparted1.8-10 (<< 1.8.8.git.2008.03.24-11.2~), libpng12-0 (<< 1.2.54-6~), libusb-0.1-4 (<< 2:0.1.12-28~), lustre-utils (<< 1.8.5+dfsg-3.2~), mksh (<< 52b-1~), molly-guard (<< 0.7.1+exp1~), musl-dev (<< 1.1.9-1.1~), nano (<< 2.3.99pre3-1~), open-iscsi (<< 2.0.873+git0.3b4b4500-13~), open-vm-tools (<< 2:10.0.5-3227872-2~), policycoreutils (<< 2.4-4~), safe-rm (<< 0.12-6~), tcsh (<< 6.18.01-4~), vsearch (<< 1.9.5-2~), xfsdump (<< 3.1.6+nmu1~), xfslibs-dev (<< 4.9.0+nmu1~), yp-tools (<< 3.3-5~), zsh (<< 5.2-4~)
+Breaks: cruft-ng (<< 0.4.4~), initramfs-tools (<< 0.121~)
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/UsrMerge
+Priority: optional
+Section: oldlibs
+Filename: pool/main/u/usrmerge/usr-is-merged_37~deb12u1_all.deb
+Size: 5616
+SHA256: 908b80730d99afe6f59ed7f449827b7047ceeeaa7637c368c03e4912e0a6de99
+SHA1: 58f4dc020b5aeaa85a4bea9bf6fa7d0129b5e1f5
+MD5sum: 36826e1d6b6eb875e7053b3c95b02017
+Description: Transitional package to assert a merged-/usr system
+ This package can be successfully installed only on merged-/usr systems.
+ .
+ It can be safely removed once no other package depends on it anymore.
+
+Package: vim-common
+Source: vim
+Version: 2:9.0.1378-2
+Architecture: all
+Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Installed-Size: 245
+Recommends: xxd, vim | vim-gtk3 | vim-motif | vim-nox | vim-tiny
+Multi-Arch: foreign
+Homepage: https://www.vim.org/
+Priority: important
+Section: editors
+Filename: pool/main/v/vim/vim-common_9.0.1378-2_all.deb
+Size: 124420
+SHA256: 82f4d33e2f0ded27ad1145a726cbc44ed0e2413becda3632a932e902b3df976b
+SHA1: 80cb2452681e0f1423ba6e1aa07840959c5224e5
+MD5sum: 6fb08ae092f46d7bc6b02db5981bd8b0
+Description: Vi IMproved - Common files
+ Vim is an almost compatible version of the UNIX editor Vi.
+ .
+ This package contains files shared by all non GUI-enabled vim variants
+ available in Debian.  Examples of such shared files are: manpages and
+ configuration files.
+
+Package: xfdesktop4-data
+Source: xfdesktop4
+Version: 4.18.1-1
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 3009
+Multi-Arch: foreign
+Homepage: https://docs.xfce.org/xfce/xfdesktop/start
+Priority: optional
+Section: xfce
+Filename: pool/main/x/xfdesktop4/xfdesktop4-data_4.18.1-1_all.deb
+Size: 1243380
+SHA256: c7231a78ba5b0bbcbd1b9457ad770be9881e09eb4ecf7f7e7afe1979ba2656dc
+SHA1: 0f89189c263c9ffb5e6c748384a8519292af15c3
+MD5sum: f2495426323c8d700b6302578ae914cb
+Description: Xfce desktop background, icons and root menu (common files)
+ xfdesktop4 sets the background image, provides a right-click menu to
+ launch applications and can optionally show files (including application
+ launchers) or iconified windows. It includes gradient support for
+ background color, saturation support for background image, real multiscreen
+ and xinerama support.
+ .
+ This package contains architecture-independent files for xfdesktop4.
+
