@@ -247,6 +247,38 @@ MD5sum: 07085847625bab7b262a53c6f9a945e7
 Description: Transitional package for bind9-dnsutils
  This is a transitional package. It can safely be removed.
 
+Package: eatmydata
+Source: libeatmydata
+Version: 130-2
+Architecture: all
+Maintainer: Mattia Rizzolo <mattia@debian.org>
+Installed-Size: 25
+Depends: libeatmydata1 (>= 130-2)
+Homepage: https://www.flamingspork.com/projects/libeatmydata/
+Priority: optional
+Section: utils
+Filename: pool/main/libe/libeatmydata/eatmydata_130-2_all.deb
+Size: 11180
+SHA256: d12bd211fb9d430c4abce0cf0e17c86d7ded62256d67fc166c1b3c17171d8fe0
+SHA1: 280ed6a4a65142843d6c258c370a20eae7deafe7
+MD5sum: 425d7f33a5b2ae20e0b4c54a0b5e3694
+Description: Library and utilities designed to disable fsync and friends
+ This package contains a small LD_PRELOAD library (libeatmydata) and a couple
+ of helper utilities designed to transparently disable fsync and friends (like
+ open(O_SYNC)). This has two side-effects: making software that writes data
+ safely to disk a lot quicker and making this software no longer crash safe.
+ .
+ You will find eatmydata useful if particular software calls fsync(), sync()
+ etc. frequently but the data it stores is not that valuable to you and you may
+ afford losing it in case of system crash. Data-to-disk synchronization calls
+ are typically very slow on modern file systems and their extensive usage might
+ slow down software significantly. It does not make sense to accept such a hit
+ in performance if data being manipulated is not very important.
+ .
+ On the other hand, do not use eatmydata when you care about what software
+ stores or it manipulates important components of your system. The library is
+ called libEAT-MY-DATA for a reason.
+
 Package: gnupg
 Source: gnupg2
 Version: 2.2.40-1.1

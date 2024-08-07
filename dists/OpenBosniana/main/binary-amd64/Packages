@@ -955,6 +955,38 @@ Description: ext2/ext3/ext4 file system utilities
  which can be used to scan for bad blocks on a disk or other storage device.
 Important: yes
 
+Package: eatmydata
+Source: libeatmydata
+Version: 130-2
+Architecture: all
+Maintainer: Mattia Rizzolo <mattia@debian.org>
+Installed-Size: 25
+Depends: libeatmydata1 (>= 130-2)
+Homepage: https://www.flamingspork.com/projects/libeatmydata/
+Priority: optional
+Section: utils
+Filename: pool/main/libe/libeatmydata/eatmydata_130-2_all.deb
+Size: 11180
+SHA256: d12bd211fb9d430c4abce0cf0e17c86d7ded62256d67fc166c1b3c17171d8fe0
+SHA1: 280ed6a4a65142843d6c258c370a20eae7deafe7
+MD5sum: 425d7f33a5b2ae20e0b4c54a0b5e3694
+Description: Library and utilities designed to disable fsync and friends
+ This package contains a small LD_PRELOAD library (libeatmydata) and a couple
+ of helper utilities designed to transparently disable fsync and friends (like
+ open(O_SYNC)). This has two side-effects: making software that writes data
+ safely to disk a lot quicker and making this software no longer crash safe.
+ .
+ You will find eatmydata useful if particular software calls fsync(), sync()
+ etc. frequently but the data it stores is not that valuable to you and you may
+ afford losing it in case of system crash. Data-to-disk synchronization calls
+ are typically very slow on modern file systems and their extensive usage might
+ slow down software significantly. It does not make sense to accept such a hit
+ in performance if data being manipulated is not very important.
+ .
+ On the other hand, do not use eatmydata when you care about what software
+ stores or it manipulates important components of your system. The library is
+ called libEAT-MY-DATA for a reason.
+
 Package: elvis-tiny
 Version: 1.4-24.1
 Architecture: amd64
@@ -3284,6 +3316,30 @@ Description: Linux Kernel Device Mapper userspace library
  This package contains the (user-space) shared library for accessing the
  device-mapper; it allows usage of the device-mapper through a clean,
  consistent interface (as opposed to through kernel ioctls).
+
+Package: libeatmydata1
+Source: libeatmydata (130-2)
+Version: 130-2+b1
+Architecture: amd64
+Maintainer: Mattia Rizzolo <mattia@debian.org>
+Installed-Size: 39
+Depends: libc6 (>= 2.34)
+Breaks: eatmydata (<< 82-1)
+Replaces: eatmydata (<< 82-1)
+Multi-Arch: same
+Homepage: https://www.flamingspork.com/projects/libeatmydata/
+Priority: optional
+Section: libs
+Filename: pool/main/libe/libeatmydata/libeatmydata1_130-2+b1_amd64.deb
+Size: 10676
+SHA256: d6dd1dce44f4e0a81d30a2018f061b39067521fefde31408c3241a5948991499
+SHA1: 7642fc769d4aad5e7c701c12a58f163d79d5b839
+MD5sum: 6bf4e74646acd9a25a606764be61b85f
+Description: Library and utilities to disable fsync and friends - shared library
+ This package contains the actual LD_PRELOAD library (libeatmydata) supporting
+ the operation of the eatmydata package. Users typically want to use or depend
+ on the eatmydata package instead of this one, so see its description for
+ further information.
 
 Package: libedit2
 Source: libedit
