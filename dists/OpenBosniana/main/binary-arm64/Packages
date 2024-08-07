@@ -730,6 +730,28 @@ Description: Basic TCP/IP networking system
  In particular, it supplies common name-to-number mappings in /etc/services,
  /etc/rpc, /etc/protocols and /etc/ethertypes.
 
+Package: openbosniana-apps-basics
+Source: openbosniana-core
+Version: 2024.08.07
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 42
+Depends: bash-completion, bind9-dnsutils, nano, net-tools, whois, curl, wget, rsync
+Recommends: apparmor, apparmor-profiles, apparmor-profiles-extra, apparmor-utils, openbosniana-hardened
+Conflicts: apt-openbosniana, openbosniana-skel
+Breaks: apt-openbosniana, openbosniana-skel
+Replaces: apt-openbosniana, base-files, bash, dnsmasq, openbosniana-interface-common, openbosniana-skel, xterm
+Homepage: https://bosniana.org/
+Priority: optional
+Section: openbosniana
+Filename: pool/main/o/openbosniana-core/openbosniana-apps-basics_2024.08.07_all.deb
+Size: 12888
+SHA256: dad5cd56f8db019a3bef0c7da18a745942f30ac13051a2e465f5207851710dc0
+SHA1: 44650708020359bcc15525f0a8a7505f6ac2c87d
+MD5sum: f44bd3cf810001e9756b606226ba16ab
+Description: Basic applications for headless
+  Install basic apps and configurations
+
 Package: openbosniana-archive-keyring
 Version: 2024-03-27
 Architecture: all
@@ -747,6 +769,70 @@ SHA1: 67cefedc539cf505159c28f33349b9cd55201fa7
 MD5sum: d4ac806deb7c12f3ee0cd26f73a14e4b
 Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
+
+Package: openbosniana-configs-zsh
+Source: openbosniana-core
+Version: 2024.08.07
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 48
+Depends: zsh
+Recommends: zsh-autocomplete, zsh-syntax-highlighting, zsh-autosuggestions
+Replaces: zsh
+Homepage: https://www.openbosnianasec.org
+Priority: optional
+Section: shells
+Filename: pool/main/o/openbosniana-core/openbosniana-configs-zsh_2024.08.07_all.deb
+Size: 13932
+SHA256: 1d8ff0e63216191899c9cf4e1988a138a7a3da5919d4cfb8397d220ab4e953e0
+SHA1: 5465297fdd3b0c6a613f4b453efb9c5d1a01464d
+MD5sum: 573e3f619639b5a4cdf74043fcd5b2de
+Description: OpenBosniana ZSH configuration
+  This is OpenBosniana Security,
+  a security focused GNU/Linux distribution.
+  .
+  This metapackage provides the plugins and settings for ZSH shell on OpenBosniana.
+
+Package: openbosniana-core-lite
+Source: openbosniana-core
+Version: 2024.08.07
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 49
+Depends: openbosniana-core
+Homepage: https://bosniana.org/
+Priority: optional
+Section: openbosniana
+Filename: pool/main/o/openbosniana-core/openbosniana-core-lite_2024.08.07_all.deb
+Size: 13016
+SHA256: 4bc9b8df62918cdcf7d170b58131ca45c0dae7ab74889b6d13020470ed330b98
+SHA1: 443687ee7028d36b8c36025ce379145fd9789671
+MD5sum: ef473132a160d5547a05279aaf6ca90f
+Description: Lightweight MATE settings for OpenBosniana Core
+  Core package for the OpenBosniana Debian distribution.
+  .
+  This package provides additional configuration for
+  low power and memory constrained systemd.
+
+Package: openbosniana-drivers
+Source: openbosniana-core
+Version: 2024.08.07
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 42
+Depends: firmware-linux-free, firmware-linux
+Recommends: alsa-firmware-loaders, b43-fwcutter, bluez-firmware, bcmwl-kernel-sources, broadcom-sta-dkms, btrfs-tools, dosfstools, e2fsprogs, exfat-fuse, exfat-utils, firmware-adi, firmware-atheros, firmware-b43-installer, firmware-b43legacy-installer, firmware-b43-lpphy-installer, firmware-bnx2, firmware-bnx2x, firmware-brcm80211, firmware-intelwimax, firmware-iwlwifi, firmware-libertas, firmware-linux-nonfree, firmware-misc-nonfree, firmware-myricom, firmware-netxen, firmware-nexten, firmware-qlogic, firmware-ralink, firmware-realtek, firmware-ti-connectivity, realtek-rtl88xxau-dkms, realtek-rtl8814au-dkms, realtek-rtl8188eus-dkms, gobi-loader, hfsprogs, hfsutils, jfsutils, libertas-firmware, linux-wlan-ng-firmware, mtools, prism2-usb-firmware-installer, reiser4progs, reiserfsprogs, wmaloader, xfsdump, xfsprogs, zd1211-firmware
+Homepage: https://bosniana.org/
+Priority: optional
+Section: openbosniana
+Filename: pool/main/o/openbosniana-core/openbosniana-drivers_2024.08.07_all.deb
+Size: 13100
+SHA256: c3dd866184eaa71009614d9078f39961c3a8a233ce03b055f5a7f134c061cd49
+SHA1: e4bb4c2a8b37f67868668f9a31e646d99c2bd202
+MD5sum: 82769b74d1c39fa541666f702854cfd5
+Description: OpenBosniana drivers metapackage.
+  This metapackage installs all the free and non-free drivers to make OpenBosniana OS
+  run on as many hardware combinations as possible.
 
 Package: perl-modules-5.36
 Source: perl
