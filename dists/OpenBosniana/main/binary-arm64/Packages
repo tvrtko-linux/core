@@ -1002,6 +1002,33 @@ Description: Utilities for sensible alternative selection
  The specific utilities included are: sensible-browser sensible-editor
  sensible-pager
 
+Package: shim-signed-common
+Source: shim-signed (1.39)
+Version: 1.39+15.7-1
+Architecture: all
+Maintainer: Debian EFI Team <debian-efi@lists.debian.org>
+Installed-Size: 47
+Depends: debconf (>= 0.5) | debconf-2.0, mokutil
+Breaks: shim-signed (<< 1.32+15+1533136590.3beb971-5)
+Replaces: shim-signed (<< 1.32+15+1533136590.3beb971-5)
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Filename: pool/main/s/shim-signed/shim-signed-common_1.39+15.7-1_all.deb
+Size: 12796
+SHA256: 77d7f15eb590b17296abf3a2fb5638dd3661409a081994683f92b254f551fbe5
+SHA1: 076795b361df29c9f454bb31d540ad24623031df
+MD5sum: f57c0d2a27eda61b85fc290a3f1ec83e
+Description: Secure Boot chain-loading bootloader (common helper scripts)
+ This package provides a minimalist boot loader which allows verifying
+ signatures of other UEFI binaries against either the Secure Boot DB/DBX or
+ against a built-in signature database.  Its purpose is to allow a small,
+ infrequently-changing binary to be signed by the UEFI CA, while allowing
+ an OS distributor to revision their main bootloader independently of the CA.
+ .
+ This package contains common helper scripts for all versions of the
+ shim-signed package.
+
 Package: syslinux-common
 Source: syslinux
 Version: 3:6.04~git20190206.bf6db5b4+dfsg1-3
