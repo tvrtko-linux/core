@@ -764,7 +764,7 @@ Description: Basic TCP/IP networking system
 
 Package: openbosniana-apps-basics
 Source: openbosniana-core
-Version: 2024.08.09
+Version: 2024.08.10
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 42
@@ -776,11 +776,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, openbosniana-interface-co
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-apps-basics_2024.08.09_all.deb
-Size: 12864
-SHA256: 5cdef9a0bb958c33bf2dd4c5d821345ba54ebd7cc5e0b5123168a760ad3050e6
-SHA1: 4e23c24e6176375ac2b494cd5bdf2555414b7b75
-MD5sum: 6f60320f575d869558bb7c5f30ae6704
+Filename: pool/main/o/openbosniana-core/openbosniana-apps-basics_2024.08.10_all.deb
+Size: 12876
+SHA256: 231bca49cf8ffa8d110944d4e1bc76cfc15797165884d21be192ef48c4db72b6
+SHA1: 4d9da66c4fd7257cb9ae365d337da2e24de41a9a
+MD5sum: 7db2b7c04ff38939cf4da7dd19e7c172
 Description: Basic applications for headless
   Install basic apps and configurations
 
@@ -804,7 +804,7 @@ Description: OpenBosniana GPG Archive Keyring
 
 Package: openbosniana-configs-zsh
 Source: openbosniana-core
-Version: 2024.08.09
+Version: 2024.08.10
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 48
@@ -814,11 +814,11 @@ Replaces: zsh
 Homepage: https://www.openbosnianasec.org
 Priority: optional
 Section: shells
-Filename: pool/main/o/openbosniana-core/openbosniana-configs-zsh_2024.08.09_all.deb
-Size: 13928
-SHA256: a93be85f0eed64528f04d5ca5f9e8bb9daf38cc08b61538a7e88490eade491fb
-SHA1: 1b677da0dbf5b726ec4db937682183ccbf1296f5
-MD5sum: 32d698d7323cd186ecff6bcbeb1c1162
+Filename: pool/main/o/openbosniana-core/openbosniana-configs-zsh_2024.08.10_all.deb
+Size: 13916
+SHA256: 60b25b5645fe14acc9a7821aa8cf3cd03fc647e79726dc473f7b5af1efa1f949
+SHA1: bbc9b631d278d787f9994c036ea6d2671086df59
+MD5sum: 0886ea38c9be55f27545da801087af0e
 Description: OpenBosniana ZSH configuration
   This is OpenBosniana Security,
   a security focused GNU/Linux distribution.
@@ -827,7 +827,7 @@ Description: OpenBosniana ZSH configuration
 
 Package: openbosniana-core-lite
 Source: openbosniana-core
-Version: 2024.08.09
+Version: 2024.08.10
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 49
@@ -835,11 +835,11 @@ Depends: openbosniana-core
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core-lite_2024.08.09_all.deb
-Size: 13020
-SHA256: e6448b1757f1fb4eaa296170de0f12249184288ed094e6479a373f816262634c
-SHA1: 9b2e941d3f562279c4a9249a6ba07443f39c85ac
-MD5sum: ecd76c3b8df328db1b70bbc72b182bfc
+Filename: pool/main/o/openbosniana-core/openbosniana-core-lite_2024.08.10_all.deb
+Size: 13016
+SHA256: 787de360629d32583e2e89f7405433c7493a7547f31e2ad369106a312666ea9f
+SHA1: ff745f2d45d176e71e6f95265ca7c21aa814810a
+MD5sum: 39360f084b86a3d9112a7d91f4498146
 Description: Lightweight MATE settings for OpenBosniana Core
   Core package for the OpenBosniana Debian distribution.
   .
@@ -848,7 +848,7 @@ Description: Lightweight MATE settings for OpenBosniana Core
 
 Package: openbosniana-drivers
 Source: openbosniana-core
-Version: 2024.08.09
+Version: 2024.08.10
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 42
@@ -857,11 +857,11 @@ Recommends: alsa-firmware-loaders, b43-fwcutter, bluez-firmware, bcmwl-kernel-so
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-drivers_2024.08.09_all.deb
-Size: 13084
-SHA256: 65a6f41a0d71ace1f6f66d1e6da6f23fb3d533c02622e0db4fadfcab76bd8d9e
-SHA1: 49910434cc7d9ccd4347a58d5ba65109dd9834d0
-MD5sum: 25b61480aae230d196d93a6142bbd17c
+Filename: pool/main/o/openbosniana-core/openbosniana-drivers_2024.08.10_all.deb
+Size: 13080
+SHA256: a57cfe14333cead7a0e6874226d87890d3d5e505ff50a31155b488d6bc0a49e3
+SHA1: 5f15d6965c74bfd3030e939747ce3d555fba834c
+MD5sum: d27b6aa256fac202f9d14800fdea7fac
 Description: OpenBosniana drivers metapackage.
   This metapackage installs all the free and non-free drivers to make OpenBosniana OS
   run on as many hardware combinations as possible.
