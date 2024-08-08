@@ -6286,7 +6286,7 @@ Description: Program to control packet filtering rules by Netfilter project
 
 Package: openbosniana-apps-basics
 Source: openbosniana-core
-Version: 2024.08.08
+Version: 2024.08.09
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 42
@@ -6298,11 +6298,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, openbosniana-interface-co
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-apps-basics_2024.08.08_all.deb
-Size: 12876
-SHA256: 36b3ff49df6f7100d37ae6be9fdfa3ee1e94b82bfb7e2200d89935a1f576272b
-SHA1: 2bd7f25902ba9b88b4121d4b48117d0e0842654e
-MD5sum: ff21a53c0f30635c7afc9f088ddd13c6
+Filename: pool/main/o/openbosniana-core/openbosniana-apps-basics_2024.08.09_all.deb
+Size: 12864
+SHA256: 5cdef9a0bb958c33bf2dd4c5d821345ba54ebd7cc5e0b5123168a760ad3050e6
+SHA1: 4e23c24e6176375ac2b494cd5bdf2555414b7b75
+MD5sum: 6f60320f575d869558bb7c5f30ae6704
 Description: Basic applications for headless
   Install basic apps and configurations
 
@@ -6326,7 +6326,7 @@ Description: OpenBosniana GPG Archive Keyring
 
 Package: openbosniana-configs-zsh
 Source: openbosniana-core
-Version: 2024.08.08
+Version: 2024.08.09
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 48
@@ -6336,11 +6336,11 @@ Replaces: zsh
 Homepage: https://www.openbosnianasec.org
 Priority: optional
 Section: shells
-Filename: pool/main/o/openbosniana-core/openbosniana-configs-zsh_2024.08.08_all.deb
-Size: 13932
-SHA256: d2a30a5612141382697066393c123df25829b9b78bfd76a32198d8cd55d13704
-SHA1: a5c11918eacff393de5f01c26ca3857f5a351913
-MD5sum: 54519cf4902a934da6da791cbec7d9d1
+Filename: pool/main/o/openbosniana-core/openbosniana-configs-zsh_2024.08.09_all.deb
+Size: 13928
+SHA256: a93be85f0eed64528f04d5ca5f9e8bb9daf38cc08b61538a7e88490eade491fb
+SHA1: 1b677da0dbf5b726ec4db937682183ccbf1296f5
+MD5sum: 32d698d7323cd186ecff6bcbeb1c1162
 Description: OpenBosniana ZSH configuration
   This is OpenBosniana Security,
   a security focused GNU/Linux distribution.
@@ -6348,7 +6348,7 @@ Description: OpenBosniana ZSH configuration
   This metapackage provides the plugins and settings for ZSH shell on OpenBosniana.
 
 Package: openbosniana-core
-Version: 2024.08.08
+Version: 2024.08.09
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 616
@@ -6360,11 +6360,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbos
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.08.08_amd64.deb
-Size: 115724
-SHA256: 4b558dff5ac8f81582052b3c2627f20a329577de2cdcecfb052b73b3a69864b4
-SHA1: 7ccbc4c46c7a6a98dba4509f82c8434d0c20cd01
-MD5sum: 823d4424f0a0981208839257db0c78f0
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.08.09_amd64.deb
+Size: 115744
+SHA256: cbe83253cb336ddc9137826ef868bd20aa7ddd8917720fe93d19f65737caa17b
+SHA1: 00e14e0c51e3ed637b0c3471206652d2a0c6d2d1
+MD5sum: 8465b93f9c5c36b9dbcb2e53eae91217
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
@@ -6373,7 +6373,7 @@ Description: Core package for OpenBosniana OS
 
 Package: openbosniana-core-lite
 Source: openbosniana-core
-Version: 2024.08.08
+Version: 2024.08.09
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 49
@@ -6381,11 +6381,11 @@ Depends: openbosniana-core
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core-lite_2024.08.08_all.deb
+Filename: pool/main/o/openbosniana-core/openbosniana-core-lite_2024.08.09_all.deb
 Size: 13020
-SHA256: 230faac7676ab520dbf043d22d66fb55d4106d08e7d36257bd7a896bc1971234
-SHA1: fea13373e890a89fa4ac664412043940d9d4d886
-MD5sum: a6394df9291f36be9620964a46b98d2f
+SHA256: e6448b1757f1fb4eaa296170de0f12249184288ed094e6479a373f816262634c
+SHA1: 9b2e941d3f562279c4a9249a6ba07443f39c85ac
+MD5sum: ecd76c3b8df328db1b70bbc72b182bfc
 Description: Lightweight MATE settings for OpenBosniana Core
   Core package for the OpenBosniana Debian distribution.
   .
@@ -6394,7 +6394,7 @@ Description: Lightweight MATE settings for OpenBosniana Core
 
 Package: openbosniana-drivers
 Source: openbosniana-core
-Version: 2024.08.08
+Version: 2024.08.09
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 42
@@ -6403,11 +6403,11 @@ Recommends: alsa-firmware-loaders, b43-fwcutter, bluez-firmware, bcmwl-kernel-so
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-drivers_2024.08.08_all.deb
-Size: 13096
-SHA256: 34c7e97a56acf7c6e10cde5481d7fe238837ae5ebd15802f321dda079ae6fb58
-SHA1: 1f2ee0ec667b3585bff07d6d850fcf9e8e124f48
-MD5sum: 3778c6466931fb0f334e95bb645a98bd
+Filename: pool/main/o/openbosniana-core/openbosniana-drivers_2024.08.09_all.deb
+Size: 13084
+SHA256: 65a6f41a0d71ace1f6f66d1e6da6f23fb3d533c02622e0db4fadfcab76bd8d9e
+SHA1: 49910434cc7d9ccd4347a58d5ba65109dd9834d0
+MD5sum: 25b61480aae230d196d93a6142bbd17c
 Description: OpenBosniana drivers metapackage.
   This metapackage installs all the free and non-free drivers to make OpenBosniana OS
   run on as many hardware combinations as possible.
