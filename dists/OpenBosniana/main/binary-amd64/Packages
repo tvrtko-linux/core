@@ -4075,6 +4075,29 @@ Description: JSON manipulation library - shared library
  output them as JSON formatted strings and parse JSON formatted
  strings back into the C representation of JSON objects.
 
+Package: libjte2
+Source: jigit
+Version: 1.22-3
+Architecture: amd64
+Maintainer: Steve McIntyre <93sam@debian.org>
+Installed-Size: 74
+Depends: libbz2-1.0, libc6 (>= 2.14), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://www.einval.com/~steve/software/JTE/
+Priority: optional
+Section: libs
+Filename: pool/main/j/jigit/libjte2_1.22-3_amd64.deb
+Size: 30000
+SHA256: 233b22e3465d909284f6a81621ea3cb985e477a46da079e527cfbb19720c59a2
+SHA1: e54ba9bf073520d59ebfc13cdd5aed02c1b40526
+MD5sum: c92a10b5950f4cf59c2dca73f24b5a7f
+Description: Jigdo Template Export - runtime library
+ libjte is a library providing support for creating jigdo files, to be
+ used by ISO image creation tools such as xorriso.
+ .
+ This package provides the runtime library file needed to run software
+ written using libjte
+
 Package: libk5crypto3
 Source: krb5
 Version: 1.20.1-2+deb12u1
