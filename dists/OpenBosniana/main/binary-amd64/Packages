@@ -3000,6 +3000,27 @@ Description: utility functions from BSD systems - shared library
  For a detailed list of the provided functions, please see the libbsd-dev
  package description.
 
+Package: libburn4
+Source: libburn
+Version: 1.5.4-1
+Architecture: amd64
+Maintainer: Debian Libburnia packagers <pkg-libburnia-devel@lists.alioth.debian.org>
+Installed-Size: 363
+Depends: libc6 (>= 2.14)
+Multi-Arch: same
+Homepage: http://libburnia-project.org
+Priority: optional
+Section: libs
+Filename: pool/main/libb/libburn/libburn4_1.5.4-1_amd64.deb
+Size: 165664
+SHA256: 55c516c9b770a889b74d0d472158ed342f0704b7493076f847abf64c251eafc3
+SHA1: 5256d844e7d28c836b9ac6439d34893d70ccf206
+MD5sum: c8a2641cdad7bd8e7c9c289dfbedd8fb
+Description: library to provide CD/DVD/BD writing functions
+ libburn is a library for reading and writing optical discs.
+ Supported media are: CD-R, CD-RW, DVD-RAM, DVD+RW, DVD+R, DVD+R/DL,
+ DVD-RW, DVD-R, DVD-R/DL, BD-R, BD-RE.
+
 Package: libbz2-1.0
 Source: bzip2 (1.0.8-5)
 Version: 1.0.8-5+b1
@@ -3958,6 +3979,31 @@ Description: library to handle creation and inspection of ISO-9660 file systems
  xorriso except the small initialization module xorriso/xorriso_main.c .
  .
  This package contains the shared object files for libisoburn.
+
+Package: libisofs6
+Source: libisofs
+Version: 1.5.4-1
+Architecture: amd64
+Maintainer: Debian Libburnia packagers <pkg-libburnia-devel@lists.alioth.debian.org>
+Installed-Size: 490
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.14), libjte2, zlib1g (>= 1:1.2.0)
+Multi-Arch: same
+Homepage: http://libburnia-project.org
+Priority: optional
+Section: libs
+Filename: pool/main/libi/libisofs/libisofs6_1.5.4-1_amd64.deb
+Size: 209232
+SHA256: c3786ebd1340a70d7c91bb489310e33aa48f1a33b219013b9dd44e417961cc7f
+SHA1: 0cd1544a34547f94e5c4e3dfbc91ac94866dcb8f
+MD5sum: 80ea5bc8304da70d35663e60669986ea
+Description: library to create ISO 9660 images
+ libisofs creates ISO 9660 (aka ECMA-119) filesystem images which can either
+ be written to POSIX file objects or handed over to libburn for being written
+ directly to optical media.
+ It can read metadata of ISO 9660 filesystems, manipulate them, and use them
+ to produce new complete filesystem images or add-on images to be appended
+ to the read filesystem image.
+ Supported extensions to ISO 9660 are Rock Ridge, Joliet, AAIP, zisofs.
 
 Package: libjansson4
 Source: jansson
@@ -8021,6 +8067,65 @@ Description: command line ISO-9660 and Rock Ridge manipulation tool
   xorriso source code comes with a release engineering test-suite called
   `releng', which aims to cover most of the functionality of the xorriso
   and the underlying libraries of libburn, libisofs, and libisoburn.
+
+Package: xorriso-dd-target
+Source: libisoburn
+Version: 1.5.4-4
+Architecture: all
+Maintainer: Debian Libburnia packagers <pkg-libburnia-devel@lists.alioth.debian.org>
+Installed-Size: 81
+Multi-Arch: foreign
+Homepage: http://libburnia-project.org
+Priority: optional
+Section: utils
+Filename: pool/main/libi/libisoburn/xorriso-dd-target_1.5.4-4_all.deb
+Size: 47404
+SHA256: f48b44a2099f44c2d6a50f6397425324053388c7bdec2c15dc0ade8f6d6a4f56
+SHA1: 6f3689c9f47a605f81aa540f014d8a8d19a1fecc
+MD5sum: 0409974c556be40d1f60e4d795c76c5c
+Description: Device evaluator and disk image copier for GNU/Linux
+ xorriso-dd-target is a command-line tool to evaluate block devices
+ of the Linux kernel whether they are suitable targets for a disk image
+ file and to optionally copy the image file to one of them.
+ It is specialized on the device names of the Linux kernel and uses the
+ capabilities of util-linux program lsblk. Therefore it refuses to run
+ on non-Linux kernels.
+ .
+ The main purpose of xorriso-dd-target is to inspect the device files of
+ disk-like storage  media and to judge whether they look like removable
+ devices with disposable content.
+ If a single plausible candidate is detected, then the program is
+ willing to copy a disk image file onto it. This will overwrite or make
+ inaccessible the previous partition table and all previous data content
+ of the target device.
+
+Package: xorriso-tcltk
+Source: libisoburn
+Version: 1.5.4-4
+Architecture: all
+Maintainer: Debian Libburnia packagers <pkg-libburnia-devel@lists.alioth.debian.org>
+Installed-Size: 225
+Depends: xorriso (>= 1.5.4-4), tk, bwidget
+Multi-Arch: foreign
+Homepage: http://libburnia-project.org
+Priority: optional
+Section: utils
+Filename: pool/main/libi/libisoburn/xorriso-tcltk_1.5.4-4_all.deb
+Size: 66788
+SHA256: 3e7f4450a99c44e15979b2f6e67fdee6c3cc55ebf6b776eefbed48ced18ef674
+SHA1: d66dd5caf08fac022b8b4a7ee2b7382f1fd3ebe2
+MD5sum: c61f6829cce88a2976fe77fbb8e6a913
+Description: educational GUI frontend for ISO-9660 manipulation tool xorriso
+ xorriso is a command line and dialog application, which creates, loads,
+ manipulates, and writes ISO-9660 file system images with Rock Ridge
+ extensions.
+ .
+ xorriso-tcltk offers the most important features in a single GUI window
+ together with help texts and references to xorriso's man page.
+ The xorriso commands which get triggered by GUI components are shown in a
+ scrollable text field or optionally may get logged to a file.
+ Click on any GUI component by the rightmost mouse button to see the
+ component's help text.
 
 Package: zlib1g
 Source: zlib

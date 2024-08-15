@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Thu, 15 Aug 2024 08:18:37 UTC
+Date: Thu, 15 Aug 2024 09:46:32 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9ud4ACgkQ5Vfn9vbt
-T6q4cA//US5fuQNUkD4f/IwVe+PZhdvmN07mXsNxxPUIVUtdhHusiaePHP580XzN
-bzn9FagdlU4DoUWnig4qSk4XniS9yJ5QXqiUEU7DD1asHK7aVNzU0ST5n6LRoPUG
-Fxpv2Pfh/+/G95r0kZGkaUHH5c3NGrdwCjmzRCHYiBWrr64rAZaD7R5YWu+dtrUZ
-TNffo8ks/69iKomfhObDMogEgClSDJ0PNF/7igrkmX2R6iRTLrdASTdK71n96fqH
-FAxJszs5CCa+PxBNN0G3u47837aR+n8jm85qzJAO+3TmM2SItijmm5igZ1zqCiEg
-p2mYahr8aDuFQeSOgNCAultRv1klANdrC9iQ9r95SPxlwYqCSh+PwNEhOhmL7LvO
-ClBAQK22MdAHo+yM6zWxxbt+V/FhZEFLnsuPRxIUxiLPx25pgSMbMKoIBZ805g5M
-ukf0NLi+aq3JwCUErrQPUNlyfKhT60o3a+J6lJ2TSN5/AXeLTZUBwhugetcB82bs
-XWVKDd4cp9zInBKvbRYplyFuaM36x8DnZDtv2a8eFTzndmjM3witui1BVPnm95hd
-4MDP96uE9sxc4TMkblnT/PjohpCj8lqYEc6UH3rp68RYpJEs/9PNkfFRtekLC/0S
-+mgdR6cYF4aKWd+CD/R888pOcXtuHR/RxjTcGBpRtSoFcnMHKjI=
-=1kod
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9znkACgkQ5Vfn9vbt
+T6rI9Q/+Pdn888E3N1rO6r3gzpwsyFzDMJ95XBYhY0W3+PX2ffJfNus0aRe0YLcY
+QoV6Lc9XfC6Kab14yyvQIxGNfb6al9xSrZV0xaf7h0HWB7PHLnh+PJ7Dd3Qnp+Y3
+O8kdn1WkDYMFnw3iEH6ReqZu3hXpdf4uJk2XQnz8dw/O4xxh2npgbZob6OZZtbpB
+l+QTc5AFKRoyb3cOCvdrMXyfdQKXIpbxDF+A22u784K+yTxKFFiKkQHpq/Clr8Ei
+BpXAFpbODGEpK0KfM0bsC7XSx8U5BS82padXxIEyfVbpxh/kI12WSDXaU3uDLJQZ
+DUzHYeii40hJmuQfGB5uZ9ZsC5snPQQqlrOCDZ0RIlsFpk7PyiNa+sMd7aAGT+cP
+KsK0OCUQQxBFhMogSAwbQc26+VlAiTH756nefrtzoEs1+vTOsNVUlAd9+tbA9pAZ
+3ZsCVsCq8+9wtOPs8b3RfpHy+vaaLeaNMXqWLDxoclQi2x10FQURfr2bgMjSXL/x
+6RUXGl/KZemxkZgY3RUWz+QD4FdQctcExSmxX1xy0LyQCQv93nkRiTWp78o35gYM
+H+NKhMQ5QZZ4Wcg91LZMYG1s3fuiZ5XPPGlqcPWa6B5+N2I7J+NmypHOXnH7mbA4
+e2/3gx3yeqlHYJVbBVABQSRS64jydNrMqjbzY6z0aO9z3W6m0IM=
+=/eNr
 -----END PGP SIGNATURE-----

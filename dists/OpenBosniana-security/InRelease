@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Thu, 15 Aug 2024 08:18:39 UTC
+Date: Thu, 15 Aug 2024 09:46:34 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9ueAACgkQ5Vfn9vbt
-T6rz2Q//fYrXbe+uwXfyWxffQXwLkyXPX1H0MEW7TFlqA1SBNM34kB7xBkt6HEnh
-l1E70oO8+ivVESsXfa52xzEPSpg4d3tJIRmvdvTRqOOkbQaNBlyjZTOoOvDn7V5U
-fhs6vJGAM1YpzV34AOYUyAWlkPw3SnrtdtuiNsNx3g5lqZC4JTzf+1J/j38y9eZ2
-2809iEkF8SFNdwdvEVu5e/m315NhAARfjuVFJormoX8YoYyn3gplsOBwaOn7zyiX
-52HwpwxOwZUNbhvx+yUGcqVTCGmDzx+ZZWtbZb+MKn6l0t8iQ52Tc63W/klpFcjE
-jMBcaSMim6EuCp94VI0E7xRFPHqA/pwurWHY2yWt+QyubqK8tDipVNoehQfvT5FU
-iaJvHvwCGg1ahakbkGRnWR0EJOgGtO77l1yOEijgRWo78cuUHDfIgfYZY3YO246N
-j9UT8ijI754XVHGzshE2YUaDlrbgA5cPxKYkV3w2V9VvCryd1+HOyDHxHk9CX8uR
-oT9pFcXEhF+Bpx2iiHsa22+x7wJcLflUi359E9oMwUKkeSvbEze/REJTbjb2wyfS
-gOE6Gs20flOhPSh60bkHKMpjk23DvQ8x/4GpL/7gT2ZHFmXcA/QSCufSwL8FpB57
-mP7P9ZKgeVk6pbx/7qXuxFUCRHDzn0cjqY33SgSc5wisFz7xG9w=
-=o2//
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9znoACgkQ5Vfn9vbt
+T6ohaQ/+OEk99BOerqf3NUR6Eur5Ee/bRgfpNz/EXCKTL+1lG4ca4c/heUGw6IxK
+3FPIdpUU/F5cDg4WQIt7DCJFuQzEg2XhTpzkX52T98hufzdZ+zCl2JBg61TP7f0U
+K0V25PaiY1pH7gvj8s+oHZ1dRjGGpQHr8Mjk62NqGjh8Q4nzDSMw7kAyhvWprR/J
+VnSNBCuCfQ8aBb0sCKymfgTXDNP06kdEowM1sFgNDFfJfa7OzGe2c/0isG89ENsV
+W3Hgv8OTo9dvjcdX0IuRTCmwCSG8zR/maAzQa/bbCb7IaHSMYdlxEQuTVi6ER630
+iMSLcDChoO8P1Dk/nhDDnE6jbwdspJMaQaLMNzxZCdphjnVJPKGhHzk+A0Mol58H
+ontovf5TI9pop9QK1ZZ5ay8FlK4b8j5Xdzxm7HvKaplI7O8u4zw/gznTx5Xl5+Ny
+md7rm8ZUgwcJVXOh6Uq79x1P/glIEFspHi5qQm89wyXarLg9eMtPkMfgyUkRxaQx
+Q5tG/UjWqL11ze3VEKZ2d8hJNgntZZ/K7/wJSbdoET42JwPTfGSrGfqD0KQOKxhL
+8wnD6YEnJURRJaN414zBM1AvfGgasB1D46mJQmNdO7tyjomSfYj6wZ8soGh1yuLc
+qw+zZtyiUpFwTOHWhrE9P2uKqGaCKjXKApD33abgDmtJFjvckBw=
+=R0Xg
 -----END PGP SIGNATURE-----

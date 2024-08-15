@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Thu, 15 Aug 2024 08:18:38 UTC
+Date: Thu, 15 Aug 2024 09:46:33 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9ud8ACgkQ5Vfn9vbt
-T6o2ZxAAgQ0LsS684VpNPeK/nvLAp/Tv3B2Wg9lEY0/40TUYdVDaP/jBH0HZETlO
-bAA7N2VA/g41Snz/Fik6EP4+WYFSydZajJPlYskDT+tJ8bT42/OQ24FxiSv8YoVA
-ENzivS2+SKCj7R+boNZodFrPd+aNsE2/rByjfB1j+BifOzqLBIX076+VyGPeIDZ+
-L8rE3qJQGDRo6y5aaV6M1/knrEsEe8dixwLiMyDfYOAGpTwTpz0HXyNkFimXbQPS
-dVPNER/2x8PPBhsT2nI2n5CEf6R9RwO5cS9DqwjhBg/u0MgdNH0gI4Bz8mcOe6wz
-CuiO5R7ttjonp1OMJEU++VGAfsGmEhd6KpTx8abvv4MIXBmrao0pCoq8Dq7A/CDq
-zSLRQu7g4vKJF2jjA9IzA3YyWqMk7yfulJyh6/eKkRnxcQ+iOx3PtFq181BPL5lJ
-KGzcZoHknvGUVsxCQi4tD9k3mdH/slN1LVs22MiOnoTdTjJGK8HGyvEGNX5kBVup
-pxmy5DuA01O0NAlePVLk29SaKUyZY6o/HIATR5ueqRP8R3+oubshE6HAQcN6TB/q
-pPS8gg+iLEy9zuff2CsFlW86YpSkpHeohe1yUhR8cRqIgbJqDX/vKflmMIRQy5Ri
-JQvSDF8RNt3+fz4KWKqgfufaOQNZXrQzCNAKG9Ot5kNsKtKYceQ=
-=XQq5
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9znoACgkQ5Vfn9vbt
+T6rlEQ//fhXnBJfE9OVIJIGpGC6Yt6XFW1NaYRDGixc5ZK5ObjgnLA+nH/GxLHmi
+UCd7AlwRnl/bpoWrGGu3On9OCQLnYCop5z4djs8ztaxogRBr67yh8A91t6eJ3d73
+SMvrOe/rnoB1MwrwZaTSTIVEr2Z+7+sGYP1SO5cfi8fX+Bk/mUfLgot6JhBl1tYU
+q3qoyxBIdTaLHcIvXHvOaH1YzAPCx0FFcG5gCjjdxTmcB/MshgEXl6ZuhJbiFUvv
+61g/3gaARE4jMsvjIJLT/2ik4Z9KaeoTVC7H+IWEeFEnLPq2rBV6j1aPXXTgH1K1
+BEGN1UjWZgxw/FxOdsswo55ZNaG7PdNBqAHxYsWANTqenANHO8cCAx6Pf2YvCkSy
+5pqTSz+RJFeUHmjK2FKr+pn1ekg6WHC1QpY6ihYby7bIEgjX9hsIm34GqsEVp3mk
+TlubcBGbBHoty8WcEuiauBDi5WKyaVWMDAxZjyH6pQgfSf+a8wmanb8YiU82DreQ
+OC+xWRbNHiEjJ/fxVExpv8tgrrZPMBb2mY7FymCmFmalZrikzwXpMqbca24UMjnW
+b0LB7uTA54xVANRwcJ0uQp7UNTJF4PJcY9TMblU+fPYLgfz2CbR6Qonf7KrzfL9x
+TxevuE3So2eFkV8C4odiaFjUbdlaX9eLsjnS/G3At+J5/CqZyqw=
+=yRa9
 -----END PGP SIGNATURE-----
