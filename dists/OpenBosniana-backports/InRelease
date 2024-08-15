@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Thu, 15 Aug 2024 00:01:45 UTC
+Date: Thu, 15 Aug 2024 06:49:37 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9RWkACgkQ5Vfn9vbt
-T6oXyA//ZRLdTg2jntEQSbF3YQdi8z6e+Us3zpMeNkuA1d16nsCPyk2MAYvnHK4I
-wiT9U5Ib39LiVIqeW5Y/0/IsYCdBgXcfwQhFa3xCbZplo544dEmE8HPS7Ff9okFV
-iQZxgbEVrWIjpNndidukZSq1X2BVRYZih5ncEW15djVbYqnj4NFCS82eRC7dnhOc
-RyUO+W3+TXIPsr5bYRQTY2glLbWCST0DZdaa0TGA2jQMfCJ60A6rA8eix2joRISo
-I6xZxjJsfXDKNv9GdEgvl6mogW7RhIZd3j+9vqdNdjX2owyoxCsukPR23/T4TDpV
-X+XzsBfvIGGL1MAT81sdJabog56mOrHWs9NMm2Eb1cStEYlSbOeSOt8Xg2ko36PB
-gwc4fhsKqTodMIfEO3gYmuCkxR8TRWXoL8Xoiv6HSRwB5BoUhb+zVtnsMLl5Eon8
-uOsRQkHeibNNG6bVRK/2xPHXDW+q+8rs2aiqESvhFtF0lMjOHSl9+eymBHRF/6bg
-Bs9oNIWBiqfvLtTjzVkS8Nwjg6D/0oKWbdItu76Yq6HLzf4lQWWzIt+ea79FlhVK
-RqB+aysAjknaWvDp//V1Dt1vlDl/cc9C3yq/l7WKBnxUqHABedaNOVdNQY0WU7XT
-eEYKA12XL/eE5jGjaOisZwd/dQj18FlT5clcf320c5XF7vaJuw0=
-=FN2P
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9pQEACgkQ5Vfn9vbt
+T6rEfg//QC8WiHTSXXJDFw0zLSU7EWME8Q8kt84iTbTNiSHKgNjC2kGkkNIaF1nL
+Tk9Er6lkBe9NRUEPxFJoYo5ST5NWWkAiTCJN3wC5W29/s0wXO0xzVHWmoPN6sWP4
+8ydhOiiaVVcFgbelWWLtw2QX+os5p9oVt+tSNRZnh0wsxpjJY/3dCUsPxjpbiITz
+FaheDLVrUSeXAdZHI1tcUA0cWSv1mP97DAnE4HTwh0KQjsj3mGcaOwAoKsA4Itim
+uZP9fPn0gMIaWrhPZ/2zVYID7OSgGxtX8QPx/zIAnBN4Jtmh6o3Lx+c0sbewzjyk
+gLa69W1YDsx2ECcEYoZgSYUAGuc5qE7nsHGm6ULkXT/ooxHx9s1uyMzTyDKHAPLt
+DJKRVgN4vwEH0QRCO6YLyn7WwO89ntQRyJD+rRB/1GdjtFTN/x2u27jplr3KMbf4
+S7DaBF6dOfjh5qbvhQ/HB1pQY0R0Fd/ve8SS6DrVCz8UA5895n18ztbsbSChL5Qk
+syKG6xObXxabsmhishaCF0XOvBpr0dMscGsQ2Vo3UeOhBFp8aNTXf/CrvzaA7mzE
+8aMyRRfR6TIAxyjuQSZ874NcqiMQAEnTsgG7PimyAi2zvIZw1A7K4GZlydYDIl/R
+31oRTJg3Ar9WzAUufLu5XaFpXRDFgEqIa2CW2Dl6wnjcWgfhIjQ=
+=ZvRn
 -----END PGP SIGNATURE-----

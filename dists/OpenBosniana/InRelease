@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Thu, 15 Aug 2024 06:36:53 UTC
+Date: Thu, 15 Aug 2024 06:49:36 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -16,8 +16,8 @@ MD5Sum:
  96cd2230bf404dfaf33f72ff6ccfa8cf 184 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
- 17cea5214546a75410aa6e6f82c84a24 319237 main/binary-amd64/Packages
- da8abffb77e636283d0bb724a7b23000 99999 main/binary-amd64/Packages.gz
+ 4b99ec337fa660bd0eace5c867082355 340186 main/binary-amd64/Packages
+ fbec1a52fa3ebd923342dc2460525447 104965 main/binary-amd64/Packages.gz
  b0d9e12f1ae63a1b0d1b394068735023 185 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
@@ -83,8 +83,8 @@ SHA1:
  ab992624680d1d04c2b06fa0e53e628a4c817399 184 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
- 78a836732dac4e940c0af8f4a5696f5146e20bd4 319237 main/binary-amd64/Packages
- 4771bc325c8f00eb48c2a5cfcae8bcf0e85438a7 99999 main/binary-amd64/Packages.gz
+ d4f208f3a33a82597cece00029aa1c73aa1045b3 340186 main/binary-amd64/Packages
+ 187742f5535f9dbb9b1ab594a158dd5ecb549338 104965 main/binary-amd64/Packages.gz
  2d122413bcff69dcea094395c604b68d0bf8ed24 185 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
@@ -150,8 +150,8 @@ SHA256:
  8ab63ea05bc30c9d05243caa4823d290af64469e22bf30285de8ce79da7a71bd 184 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
- cdcc93428511cae4ff3487ab6293f7335622c46703741b8188d9342911ac8d8c 319237 main/binary-amd64/Packages
- 83d383b73438f8cf54d4cf6411dc7fa326da5ae8d7cdf4bf42c25decbae87c74 99999 main/binary-amd64/Packages.gz
+ bb00e72f0f018ad4497ac9cdfbe5e768103c089ce78428a8f8d11906737f8678 340186 main/binary-amd64/Packages
+ 2c01762e260ae14ceb5f979addf61ba0a8febf1742c79d88e246e76fa1af247a 104965 main/binary-amd64/Packages.gz
  1f2ec1d7026705d80c7fea2c53f0a31517c91a62113552a8924f001cdd3ed587 185 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
@@ -213,17 +213,17 @@ SHA256:
  91f40351dbeb69ac40d6945dff04b9b478f362184c4c9012ed3500748c0da30c 186 udeb/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9ogsACgkQ5Vfn9vbt
-T6omiQ//S73e/a6QvprE8j+m3OkS6p93orfv591MsocKGA2buIVqzBNx6S4Hf1/w
-FfnZiTGEM76tcCGCYDyM66P3JmJZlzgwyxGC9sL+VuJGlZ1Hu1F0bywjaw3t88kS
-KOwsxy5nsIF8RBvcyruUWJ8l56u2YY5yy2LyeKsTmnqPYzoe6jPhwlxmVYTMspZN
-Z3qdh5NNGyKqFDedwOw+ynCNtp9WBteF9+xyrbkIJ6CSqYZFA8WrfZt5fhIt+3Bl
-VlLR5ejHIE4xqgaeQNSjhq0JiVeas4xdpKLE6lR9drU7ajxNnhCaDi0CE/yjDEyg
-DQQIV4j2k7yVR8+npFvgar6+pkXkasgIJg1Y4Jqtq0h7qbLuSdYl7ktdxTrPcz9S
-OFtOAZl7Ku9OKonpmK5ji4qfIvSGLJNqfxrKcGnWZ91VH3NOQP8Zguunj0yTGQKU
-QRjTCanS732ESZMpKvJkUEq4UJ9MHizTn6pt3QBUQAxsnc3ErE3wUnnF7myxmBiE
-55WHyiQ30nJuXiuy4LIiWIqgPzI9l4oB1sSTfu/djyG3tZfXpDRt2ZabN4t11hO/
-gTaojGxwFro1G0j3VHIxoEZWL+qHg9alVrnJiLBUiAAj4yduHtdiMuUSXUY8uamM
-zI4jo4aKqNvHcUJRbk1jKSzHY9v9QtEMX43nPIStAt1vWRre8kg=
-=P7Cs
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9pQAACgkQ5Vfn9vbt
+T6q7wQ//VPcomJbmmtE46aKu3rtB7U6RryaKDZ+I6E9s6vnip4dNT1JNsFhE8Ig5
+osAOpCNWTzItjUWzHCgIVGezuL0UKtkT+fEr0FwmjpjH3E6Ch8VecrQlfrFTVaVs
+8FZQRwlrcJK5s/wzIGyozsJnyISnD21viASSIgI82Jt1uOzbKzMdOMhIWshH7mGR
+3s0sokhUs572udCtsPKFpS89eDsv03mSY2w23NKz/CPuxxws2/wqFQvvm0WhybxG
+KsxjSF45ygE84OYRlVaOINcnk4a+L0fmeNQqR+9nWlL1tPNJbdbfdAs8xQZkGmzm
+oPUBHc2yDsl/z/jBqj1xtWn5o340OyU16r68Il5rOWRgnsBkWJePSbrJXXbh7nHu
+1Ao8wheLu9pu3dBLmHQqbcl43uLUphpRtCoakR8tCNTRmby4g0a9Xpn4etypLO3d
+U+fmmYN03KqF3fZus+n46S1ToM0tqn6cn/d2W1mgh9IU6HTiM+AZnztksytxd6jY
+UqcpNR+LLS8rvD2Za25EIzP/Ei3uCVJ/c8NPrxsgxFk3aHM7Xkh6SzEhxySd4Q+e
+vMdPnVnIK4p5WZ5jJy6PnogK8XC8bDN5lVxrD9rCqmQhffifMqUd5Yl1FvqD02Lq
+cf9bmeXsga6dVfnZkhttq/dDicDaoKoIFJJfyzY7YcXRjvyDdAI=
+=bCyC
 -----END PGP SIGNATURE-----

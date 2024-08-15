@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Thu, 15 Aug 2024 00:01:47 UTC
+Date: Thu, 15 Aug 2024 06:49:39 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9RWsACgkQ5Vfn9vbt
-T6pizA/+Paa1lIvli3X+rLjKOaucK3AhPWITrYA92vLXdbJ5kElWkYLLJRfQjD93
-4hXuInsnHecUAfcM2+eZlpR6Fa75/vsfUDavAlbVIR3BXReCeIeb2xPUWPb51KKC
-tawrtoMI29lZs6rgZ9NTrwzbNyc4DDAbSGG5OIRvEg8uBw4H0viW8NfckcVXAXei
-T0hj5Zq3npdodQmFbCA4y/eVC28eiF15e+Rl1gHXDaYKtprhZw2tzikoJzyC3IYe
-lNo4z2+6tnUq4qQJ8O7hCg/R4A1QXZMqafTJzJc89JIHuri9uSzdlUimhSoWwyu0
-b7Ho3EOEgpVr2ISd+P7OBK6UgfnMYhX2edFPSDN8hmskBKejSdUeEQ+tyDty8W2U
-iNXexgoV/JDzL7EPU3O5Q3kxS7rRJW4KXTuu2HlDe9jfIN4KbAcQlHEVpIvLSUAJ
-/nCXypQc1vhUvy2ZRWbmoPlIw7UKRdTfNI7aB4ovBoazfILOKXd8+xn7I6tUxg6Y
-BWoqitBgv2YCYTAArPJiQINOnx8by64lfJVBcICbmhpFcz/nAHKss6aEJ/AGGOKn
-aLN6Q0OMPVKprqp15jnoPdNgR0ozdncdUepXsMWMyJ2XlKO/ghMAxx/ChYH+o7G6
-hbd8x4Qge5joSrghGFflqobDAg0YDO6IKLTCGEbI08p1Mhbo4LQ=
-=UvrU
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9pQMACgkQ5Vfn9vbt
+T6o1fhAAiiN1xgOS//2iAbyqGfSsdbn6SnVoVCp1L4DHFnqVp3R3Sk3VplfTvfhr
+HQCfZNl8jVvENbB8a4wsl5/AhALML7jr1EHGF4kh3xWeXOg77XRzP813DclS/PBp
+295eszWo6W5b3bHzDtDpS1YFpr+uhxtPD2V4LH1cyTPZrBukWIFh/NXwGgKY00XB
+zXqybzjgXLvOTfpRf94WD/xDmYjmUff5QQCZtzZTEmFswRdGIg2rgrlpJXFt4cyB
+mV3ppvILCj2pcwctDcXSCKS4la9pKhLe1qp8VfvTqLaYNkPfIqqd2Zg3LsRj0rZP
+T3DoxhhLE8JgNaqDUjSTyQUthktfc2mBk2uCch6FwuDr4f4GKtTBiOdgCKzNT6uh
+ld4fNEbfOW/mAr327atjj1SwVLkMsCNUq545H4oyEyESYgG0e8Q0lR9mVFnyBRUr
+QRhthznOh/MnixRy3SOVCslhaEUsnwtwJrx8oOioRHjFdzxpRBx+Hr2EWxG54j5n
+6kmwRl/PezwRSyYDBfdkniLd/xHVJv5zPmNEUNU1bi4sED+k/QNSPviMX3MMQhn0
+Yft7Mlux0xZPjEoCDA7g2MlP9krLjWJwKCSToGJgpS89nthFPlMYEaiMEWqb+Zmw
+tk+xW4p7a4eN2lk7GN/fSwFws91RMQ7Dxg5bKQTljfzswk9llDY=
+=t2Nd
 -----END PGP SIGNATURE-----
