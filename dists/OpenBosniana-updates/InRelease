@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Wed, 07 Aug 2024 17:25:21 UTC
+Date: Thu, 15 Aug 2024 00:01:46 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmazrgIACgkQ5Vfn9vbt
-T6rn7g/9HhEGoj1O4jjdn0WOa1omBlS/EqCkS4eFwso3ykCWkj+cHJm1mDrNssJX
-eEA1/CCdAJuemq243+vjRAzhuXtvqeGxnBphfGAVrhdqpLNaKtwuaNByjmHjLUip
-VaTCweKYd00Tkp0DyN6rHilAa31LtMk6PlFx5cLRg6v36SilRlzW365T8B/edSQW
-FUQ1JRUKEzNzFaRGrzo7+m67b/4lpxE7TjR1oQDiHcgiyBaJQQa+sbNBp9czaWbp
-JI56ekijvNuWAzi+j02bYw/cTC01sCHo2qpi1XcjiG8m+Gpp0UIcTq6lF2gqfrfQ
-xwlQvOr96cCwjQYQC377MwAaoFjuW+TVNGKrnbbn4yw/s016BhVGp9gEABMJJs6Y
-ydrSxlOtEtJB+Gi0jw1kDeCRNxcI33as0RGZKUM//BKKfD8oBYFluXQDw/hPX0pq
-IdxjxnwBfSNYG0qroSzeF+Yy7u/ssQwaUIoUg2/U9V5UiwggMRUlmIArrRvddfPa
-dyQrPSifpomU7j96zteubs2D88XV00vU7lDIVBcSfRrx2Uj2q7gj9+eXCMG0eBji
-bHy6ysL05klgc3D2oO2qYQZb5cZ+LvmEVNpzJXLEfsR0rfh02NBCVDmJ/RU8eC9X
-d3Gvu21PLh5bsIfBMDZatZPuZjxto7pi9z7NHykDSXL9GUkn9Tg=
-=jyW3
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9RWoACgkQ5Vfn9vbt
+T6pT7A//dO0OUiYmTcKjHvN1/QJyXJn+7Ve4VGMjAYRbDiQ6AfNGEPaUGjTUMD1b
+SNKvKhJEagg2oYho0cybyFnRh1uAEU/HE2GWtCzRAN2aQSTZ97Yuw57DKL2PQqUn
+Zs21dnXncQKgdOmXNAamnUnP/6seak+q8fGAqzx+SkNCOxkhSAo8e81nYd+8f3ZJ
+NG/yOICUQ6E3H7gm5gmC2QxB0wnKIz1Vode+0UVh3tu0uu+Hz+Dnuq/rLNgV6pwY
+LP15aexIN/avvx97ILnVVrKRM+DZSdOo8lJK57UvQQ7MBLLy8YvVOPBOHgwUyWKr
+ejYagdh902XqgVuZVBpaXcvNoXya/rlM0TqK+DwqpTLwSLus7/a2CSaTJwxmmUqk
+B+UvQp4G9guKQIZ4wOXCzSRb7SPoQX1BB3na2an79f1aZxSLjE1cCf0S3h0DUEiD
+vE872EbGMgHLHuBddDsdqB9DcOOj85RMR1A66ho+NOsq2rGCg0TBAhI+s0sRTY1X
+tEG6vjumHm0qBRir7KxT+K1CA++TDbYj6PWLBYzB36KWgnsEbly2Og/9obT8oEsf
+mUTkEhhwNXnGebHIuhp3iGTEVPPY/2qtKY2jkyDTIZ9m8hK7aPObs6DQsKbKWBlG
+Bd/QWuqD/hEmcka34UIqqOd0ms5GC9yRsfmS+rGKLJ65/RKSsN0=
+=Y7fq
 -----END PGP SIGNATURE-----

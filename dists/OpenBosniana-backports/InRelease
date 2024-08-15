@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Wed, 07 Aug 2024 17:25:20 UTC
+Date: Thu, 15 Aug 2024 00:01:45 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmazrgEACgkQ5Vfn9vbt
-T6rPYg//ZtREvb8GVPouW9bEWnwmgIIjqLwVAKaQDHSPurWXhOXAgbRv1bA0jE0/
-0zVqyGb+Gx0OQ27dm/irvNiv/JlDb2guoiQPWroHdXXN/+iTDiiuHmJ8zAX/stkk
-NhNcF61v8lPCuPWNCqBiN9AtWsiAIaWp1FWo9vgYvbhEyBNpEV1TBISFoA3OV508
-4IfxRTqUIfg2TOEBpIQ0ClGenOxc5nCtIQWxh1B6vNPIWaSHfIIDPW65dWS6IgYP
-uBgg8mP+DRKTYWWWO7em1vcEGdUStcLEZeyKujtQWOxg0yKXdJUgkL3OQTod0+1J
-qL0aG2l0OTGGum0RJqhpNpa/Zb7TmBjRGSvTeYif9ERavkvfFW0exw1ksnRF7L27
-4cIZjFRvzPZZYUy/SNuGMKkHkon8hVDHrtkt6RIPzBI5ALpvR4Z3INcNYWoGbjgo
-f/av4jqfvF3iER3LXfTXmXRaGXz9sDxFCVvJo3J5tWZztvcRwJg8kvsp/M18FmLC
-9LT7jgbVz4+yL+q9Js0Kpp6gecvpV+xGFOTI/YYFkNuydeFz3kzWBSOOpbz+1ifa
-SjVC78CPEviyAxsRSnund5tYTUG2J1NCtSUQdAr6sXwJiHY3d9YRCC4DX4RJJOle
-6t3F7T05C43UnCTwl0JMBaCyhvBkKkLr5W148841lVcXudyw2Sg=
-=EKSc
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9RWkACgkQ5Vfn9vbt
+T6oXyA//ZRLdTg2jntEQSbF3YQdi8z6e+Us3zpMeNkuA1d16nsCPyk2MAYvnHK4I
+wiT9U5Ib39LiVIqeW5Y/0/IsYCdBgXcfwQhFa3xCbZplo544dEmE8HPS7Ff9okFV
+iQZxgbEVrWIjpNndidukZSq1X2BVRYZih5ncEW15djVbYqnj4NFCS82eRC7dnhOc
+RyUO+W3+TXIPsr5bYRQTY2glLbWCST0DZdaa0TGA2jQMfCJ60A6rA8eix2joRISo
+I6xZxjJsfXDKNv9GdEgvl6mogW7RhIZd3j+9vqdNdjX2owyoxCsukPR23/T4TDpV
+X+XzsBfvIGGL1MAT81sdJabog56mOrHWs9NMm2Eb1cStEYlSbOeSOt8Xg2ko36PB
+gwc4fhsKqTodMIfEO3gYmuCkxR8TRWXoL8Xoiv6HSRwB5BoUhb+zVtnsMLl5Eon8
+uOsRQkHeibNNG6bVRK/2xPHXDW+q+8rs2aiqESvhFtF0lMjOHSl9+eymBHRF/6bg
+Bs9oNIWBiqfvLtTjzVkS8Nwjg6D/0oKWbdItu76Yq6HLzf4lQWWzIt+ea79FlhVK
+RqB+aysAjknaWvDp//V1Dt1vlDl/cc9C3yq/l7WKBnxUqHABedaNOVdNQY0WU7XT
+eEYKA12XL/eE5jGjaOisZwd/dQj18FlT5clcf320c5XF7vaJuw0=
+=FN2P
 -----END PGP SIGNATURE-----

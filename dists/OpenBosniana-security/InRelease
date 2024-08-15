@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Wed, 07 Aug 2024 17:25:22 UTC
+Date: Thu, 15 Aug 2024 00:01:47 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmazrgMACgkQ5Vfn9vbt
-T6r9/Q/9GPKcegYqXpyagTOWRUuQkmOmJNGo/8uP/xUIe8WJLjIROm/HFu8peKpe
-s5kBXLTNLUqKDhuGqhPJtLZ4FaNCx1bPUF3N3iVWRBhnoLlCLeleQBRKa1KEeEhh
-dsxHUXup56nR62CuX2Iie3DhX1OyR7nm9pm2Q4UL2RwdogQ8GcsgPMO9+tVTWirq
-HJUrFLG0xM1c10xs63zKx6nNvL4pLtWT7+AdSaaox3vZlcGO3RFCUp5HFVeT/AnT
-lkm+bllGYUHczZQHg/dHApWKYEBxq+oN1xNZk6NOrNwfEzZGRT6ES+hCcGiK3doz
-NvuNC4zXHr2058xxRyIGYQMvCc874Jfyalm2UHPssDzrpVoc09dWL2ZfRJ1T/GlW
-OU9Aggo8HGGL7aTST54LXYkf2mpvBytXsXnxpRWj1HiMTHZ5Omtv7d7c5a66mw+0
-MCyCyTGJOTcQW7GQCkd2KchZ8xL1CJK0DgsBJm3fQi+/dRN+fXnkPDCQt6d691ML
-aVL1Cm+ktCAVWIP1W5dZLxj09ByQr0hD6j3xcZ9RF+L6EiL/3uZUcB+u+iFWYDss
-F3gL8u7mhUbtJPEMzER+Ly4ALuzKAl2pdd2aAomzbPkrl0D7v768w7GGuqTmSzrK
-KGhuALsNVwA7f6wXsOgte3pUlW4GiuNw9lpX88ZDs81avbAFZtk=
-=lFiC
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAma9RWsACgkQ5Vfn9vbt
+T6pizA/+Paa1lIvli3X+rLjKOaucK3AhPWITrYA92vLXdbJ5kElWkYLLJRfQjD93
+4hXuInsnHecUAfcM2+eZlpR6Fa75/vsfUDavAlbVIR3BXReCeIeb2xPUWPb51KKC
+tawrtoMI29lZs6rgZ9NTrwzbNyc4DDAbSGG5OIRvEg8uBw4H0viW8NfckcVXAXei
+T0hj5Zq3npdodQmFbCA4y/eVC28eiF15e+Rl1gHXDaYKtprhZw2tzikoJzyC3IYe
+lNo4z2+6tnUq4qQJ8O7hCg/R4A1QXZMqafTJzJc89JIHuri9uSzdlUimhSoWwyu0
+b7Ho3EOEgpVr2ISd+P7OBK6UgfnMYhX2edFPSDN8hmskBKejSdUeEQ+tyDty8W2U
+iNXexgoV/JDzL7EPU3O5Q3kxS7rRJW4KXTuu2HlDe9jfIN4KbAcQlHEVpIvLSUAJ
+/nCXypQc1vhUvy2ZRWbmoPlIw7UKRdTfNI7aB4ovBoazfILOKXd8+xn7I6tUxg6Y
+BWoqitBgv2YCYTAArPJiQINOnx8by64lfJVBcICbmhpFcz/nAHKss6aEJ/AGGOKn
+aLN6Q0OMPVKprqp15jnoPdNgR0ozdncdUepXsMWMyJ2XlKO/ghMAxx/ChYH+o7G6
+hbd8x4Qge5joSrghGFflqobDAg0YDO6IKLTCGEbI08p1Mhbo4LQ=
+=UvrU
 -----END PGP SIGNATURE-----
