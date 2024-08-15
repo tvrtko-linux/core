@@ -3061,7 +3061,7 @@ Description: GNU C Library: Binaries
 
 Package: libc6
 Source: glibc
-Version: 2.36-9+deb12u5
+Version: 2.36-9+deb12u7
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 12986
@@ -3074,11 +3074,11 @@ Multi-Arch: same
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: libs
-Filename: pool/main/g/glibc/libc6_2.36-9+deb12u5_amd64.deb
-Size: 2755044
-SHA256: 09e35bc1fd72759affa70cc806d4bfe54595a8b705f2dbf233be618d96d7a191
-SHA1: 2eb0ceea66403ee07cafe8798130fcc310301810
-MD5sum: 74b30c6225c97d51b3a6cd1b53adac34
+Filename: pool/main/g/glibc/libc6_2.36-9+deb12u7_amd64.deb
+Size: 2757936
+SHA256: eba944bd99c2f5142baf573e6294a70f00758083bc3c2dca4c9e445943a3f8e6
+SHA1: 370433cabd51dddecd7f601f6f31ff32e9388df2
+MD5sum: a9480b37954b1c6327b09526cc1974c3
 Description: GNU C Library: Shared libraries
  Contains the standard libraries that are used by nearly all programs on
  the system. This package includes shared versions of the standard C library
@@ -3642,10 +3642,10 @@ Description: GNU dbm database routines (runtime version)
 
 Package: libglib2.0-0
 Source: glib2.0
-Version: 2.74.6-2
+Version: 2.74.6-2+deb12u3
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4123
+Installed-Size: 4132
 Depends: libc6 (>= 2.34), libffi8 (>= 3.4), libmount1 (>= 2.35.2-7~), libpcre2-8-0 (>= 10.22), libselinux1 (>= 3.1~), zlib1g (>= 1:1.2.2)
 Recommends: libglib2.0-data, shared-mime-info, xdg-user-dirs
 Suggests: low-memory-monitor
@@ -3654,11 +3654,11 @@ Multi-Arch: same
 Homepage: https://wiki.gnome.org/Projects/GLib
 Priority: optional
 Section: libs
-Filename: pool/main/g/glib2.0/libglib2.0-0_2.74.6-2_amd64.deb
-Size: 1397720
-SHA256: 7e90ba4670377ae29f1a718798b4d5e088ac97d2dfa20a13b4b2ea357b61ec29
-SHA1: da87b31a981ea4eabffcaee1face1a923eababb1
-MD5sum: b4dfde64fbc458139728d6101b2af1db
+Filename: pool/main/g/glib2.0/libglib2.0-0_2.74.6-2+deb12u3_amd64.deb
+Size: 1400264
+SHA256: 6af323c020a4dff3cfe81ecd742522b33cbd75309f5baa264605e6e179320639
+SHA1: 2d842e54e1f4795b01209c9380b3e7fa4b77ca28
+MD5sum: f9b75999844eed7a79a0f57633f1eefb
 Description: GLib library of C routines
  GLib is a library containing many useful C routines for things such
  as trees, hashes, lists, and strings.  It is a useful general-purpose
@@ -3693,21 +3693,21 @@ Description: Multiprecision arithmetic library
 
 Package: libgnutls30
 Source: gnutls28
-Version: 3.7.9-2+deb12u2
+Version: 3.7.9-2+deb12u3
 Architecture: amd64
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
-Installed-Size: 3381
+Installed-Size: 3382
 Depends: libc6 (>= 2.34), libgmp10 (>= 2:6.2.1+dfsg1), libhogweed6 (>= 3.6), libidn2-0 (>= 2.0.0), libnettle8 (>= 3.7~), libp11-kit0 (>= 0.23.18.1), libtasn1-6 (>= 4.14), libunistring2 (>= 0.9.7)
 Suggests: gnutls-bin
 Multi-Arch: same
 Homepage: https://www.gnutls.org/
 Priority: optional
 Section: libs
-Filename: pool/main/g/gnutls28/libgnutls30_3.7.9-2+deb12u2_amd64.deb
-Size: 1404280
-SHA256: b602f906a8de4488ab75434633524b71b8b12952272d4c3326bd6be8126832c4
-SHA1: ec9d8b39d0c9faf2f83b41fcaf9ca00f4c26dd09
-MD5sum: 4b311b8de7875a2876d037475cffc32b
+Filename: pool/main/g/gnutls28/libgnutls30_3.7.9-2+deb12u3_amd64.deb
+Size: 1404688
+SHA256: cee417d4107bbe94ddcc124524366ea675e89d106b70969a7d508ef26e92a713
+SHA1: cbbbf535b615b3cd3db722b9c876600200381b3b
+MD5sum: 70939e1ee83d0a50027417006972029e
 Description: GNU TLS library - main runtime library
  GnuTLS is a portable library which implements the Transport Layer
  Security (TLS 1.0, 1.1, 1.2, 1.3) and Datagram
@@ -5299,20 +5299,20 @@ Description: GNU Standard C++ Library v3
 
 Package: libsystemd-shared
 Source: systemd
-Version: 252.23-1~deb12u1
+Version: 252.26-1~deb12u2
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 5333
+Installed-Size: 5341
 Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.24), libc6 (>= 2.36), libcap2 (>= 1:2.10), libcrypt1 (>= 1:4.4.0), libgcrypt20 (>= 1.10.0), libip4tc2 (>= 1.8.3), libkmod2 (>= 15), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.4.1), libselinux1 (>= 3.1~), libssl3 (>= 3.0.0), libzstd1 (>= 1.5.2)
 Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libsystemd-shared_252.23-1~deb12u1_amd64.deb
-Size: 1692088
-SHA256: dca9f4d6a84dc6fe1cc1ae4c650ceb9e1de5e5dbeb4f6c2da344889b01cd6d84
-SHA1: e94dbefa9cb2fc6932c26e13f3d78a16fb1e3d29
-MD5sum: 0cd4c5adf165202e97f89ee666c34025
+Filename: pool/main/s/systemd/libsystemd-shared_252.26-1~deb12u2_amd64.deb
+Size: 1692380
+SHA256: b1bbf59d929c2725235b88799b59a92836b23c98990e7167f519d378af96fc20
+SHA1: 659b7e9f7a14bd4a1628392480cd39e863cdac2b
+MD5sum: d0b5a0fc26bf73482de069a91129ae25
 Description: systemd shared private library
  This internal shared library provides common code used by various systemd
  components. It is supposed to decrease memory and disk footprint.
@@ -6949,26 +6949,26 @@ Description: collection of bootloaders (common)
  This package contains the common files.
 
 Package: systemd
-Version: 252.23-1~deb12u1
+Version: 252.26-1~deb12u2
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 9653
+Installed-Size: 9657
 Pre-Depends: libblkid1 (>= 2.24), libc6 (>= 2.34), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.10.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libmount1 (>= 2.30), libselinux1 (>= 3.1~), libssl3 (>= 3.0.0), libzstd1 (>= 1.5.2)
-Depends: libacl1 (>= 2.2.23), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.24.2), libcryptsetup12 (>= 2:2.4), libfdisk1 (>= 2.33), libkmod2 (>= 15), libp11-kit0 (>= 0.23.18.1), libseccomp2 (>= 2.3.1), libsystemd-shared (= 252.23-1~deb12u1), libsystemd0 (= 252.23-1~deb12u1), mount
+Depends: libacl1 (>= 2.2.23), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.24.2), libcryptsetup12 (>= 2:2.4), libfdisk1 (>= 2.33), libkmod2 (>= 15), libp11-kit0 (>= 0.23.18.1), libseccomp2 (>= 2.3.1), libsystemd-shared (= 252.26-1~deb12u2), libsystemd0 (= 252.26-1~deb12u2), mount
 Recommends: default-dbus-system-bus | dbus-system-bus, systemd-timesyncd | time-daemon
 Suggests: systemd-container, systemd-homed, systemd-userdbd, systemd-boot, systemd-resolved, libfido2-1, libqrencode4, libtss2-esys-3.0.2-0, libtss2-mu0, libtss2-rc0, polkitd | policykit-1
 Conflicts: consolekit, libpam-ck-connector, systemd-shim
 Breaks: less (<< 563), resolvconf (<< 1.83~), sicherboot (<< 0.1.6), udev (<< 247~)
-Provides: systemd-sysusers (= 252.23-1~deb12u1), systemd-tmpfiles (= 252.23-1~deb12u1)
+Provides: systemd-sysusers (= 252.26-1~deb12u2), systemd-tmpfiles (= 252.26-1~deb12u2)
 Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: important
 Section: admin
-Filename: pool/main/s/systemd/systemd_252.23-1~deb12u1_amd64.deb
-Size: 3034152
-SHA256: d194aa98ced5054af6d499f95ed256aedb71b443573c52983ec6a86830762443
-SHA1: 3b7152202659b6c1f09a2fc8902a69c57384747e
-MD5sum: 8915b1591c89f45caddcb371003cbe84
+Filename: pool/main/s/systemd/systemd_252.26-1~deb12u2_amd64.deb
+Size: 3034952
+SHA256: 481a0b837aa3ce9871773b59755e039c0fd15a801f84ce4e607b54596480f875
+SHA1: 560134833c2f3861659fbd34e92e19ea05181b27
+MD5sum: da9011d642351ddb1615d0b384cf386c
 Description: system and service manager
  systemd is a system and service manager for Linux. It provides aggressive
  parallelization capabilities, uses socket and D-Bus activation for starting
