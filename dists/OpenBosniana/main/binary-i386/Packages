@@ -573,6 +573,25 @@ Description: Common CA certificates
  Full responsibility to assess them belongs to the local system
  administrator.
 
+Package: ca-certificates-java
+Version: 20230710~deb12u1
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 43
+Depends: ca-certificates (>= 20210120)
+Breaks: openjdk-11-jre-headless (<< 11.0.19+7~1~), openjdk-17-jre-headless (<< 17.0.8~6-3~), openjdk-18-jre-headless (<< 18.0.2+9-2ubuntu1~), openjdk-19-jre-headless (<< 19.0.2+7-0ubuntu4~), openjdk-20-jre-headless (<< 20.0.1+9~1~), openjdk-21-jre-headless (<< 21~9ea-1~), openjdk-8-jre-headless (<< 8u382~b04-2~)
+Multi-Arch: foreign
+Priority: optional
+Section: java
+Filename: pool/main/c/ca-certificates-java/ca-certificates-java_20230710~deb12u1_all.deb
+Size: 11856
+SHA256: b90651d2079354ba26c950d387278697059b49c1be2b60181a6de546a0a97ef1
+SHA1: 006777cc742e684a7223d39b094e4300167faa88
+MD5sum: 8034e4ef454f7026cb3f5a4a18fa647c
+Description: Common CA certificates (JKS keystore)
+ This package uses the hooks of the ca-certificates package to update the
+ cacerts JKS keystore used for many java runtimes.
+
 Package: calamares-settings-openbosniana
 Version: 2024.04.15
 Architecture: all
@@ -805,6 +824,52 @@ Description: Debian Frequently Asked Questions
  .
  If you're new to Debian, and like to read documentation from your local system,
  without using the network, install this package.
+
+Package: default-mysql-client-core
+Source: mysql-defaults
+Version: 1.1.0
+Architecture: all
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Installed-Size: 9
+Depends: mariadb-client-core
+Priority: optional
+Section: database
+Filename: pool/main/m/mysql-defaults/default-mysql-client-core_1.1.0_all.deb
+Size: 2852
+SHA256: f5c88d74ff06802ba1ef034e90bfff58275de462216d0dd027e58171e2b3596c
+SHA1: db7b85fe550895a73b0f8124dbd1a5ce9cede117
+MD5sum: 5e6a1331db887051f0df1c7d29685f2d
+Description: MySQL database core client binaries (metapackage)
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package depends on the default implementation of the core client files,
+ as used by Akonadi.
+
+Package: default-mysql-server-core
+Source: mysql-defaults
+Version: 1.1.0
+Architecture: all
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Installed-Size: 9
+Depends: mariadb-server-core
+Priority: optional
+Section: database
+Filename: pool/main/m/mysql-defaults/default-mysql-server-core_1.1.0_all.deb
+Size: 2868
+SHA256: bca66f8a63cd0fa0bf60f2c3cb22a8f86fef547aa9c9242bdbc6a459f705b9f6
+SHA1: 4a57e790b08c6f0e28d23d7b82f94b4460f8ecda
+MD5sum: 375f401089c0124349947e1a687d6fdc
+Description: MySQL database server binaries (metapackage)
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package depends on the default implementation of the server binaries but
+ doesn't depend on all the infrastructure needed to setup system databases.
 
 Package: desktop-base
 Version: 2024.04.15
@@ -3923,6 +3988,101 @@ Description: GNU privacy guard - a free PGP replacement (dummy transitional pack
  This is a dummy transitional package that provides symlinks from gpg2
  to gpg.
 
+Package: golang-1.19-src
+Source: golang-1.19
+Version: 1.19.8-2
+Architecture: all
+Maintainer: Debian Go Compiler Team <team+go-compiler@tracker.debian.org>
+Installed-Size: 118541
+Multi-Arch: foreign
+Homepage: https://go.dev/
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-1.19/golang-1.19-src_1.19.8-2_all.deb
+Size: 18308084
+SHA256: 2dfa82fe4f08f4e0193c532e561af4c91871f5235608f04f2bb8d57bb288df5a
+SHA1: 3387075f6362ec2c26c7c0958ffb72b6f3a51185
+MD5sum: 724fbbb0a9c77e745783508a9c824286
+Description: Go programming language - source files
+ The Go programming language is an open source project to make programmers more
+ productive. Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of multicore
+ and networked machines, while its novel type system enables flexible and
+ modular program construction. Go compiles quickly to machine code yet has the
+ convenience of garbage collection and the power of run-time reflection. It's a
+ fast, statically typed, compiled language that feels like a dynamically typed,
+ interpreted language.
+ .
+ This package provides the Go programming language source files needed for
+ compilation.
+
+Package: golang-github-containers-common
+Version: 0.50.1+ds1-4
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 88
+Depends: container-network-stack, golang-github-containers-image
+Recommends: netavark
+Breaks: buildah (<< 1.19.2+dfsg1-2~~)
+Homepage: https://github.com/containers/common
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-containers-common/golang-github-containers-common_0.50.1+ds1-4_all.deb
+Size: 36208
+SHA256: 39d5c31902c4ce55bd419286946d0b291383169585f1b3509000f6bf57454181
+SHA1: 3b227ea7fbee740cce8d6d06adb65ce5cdec3335
+MD5sum: 18995f8db0bd560e736753b1c5fb91c9
+Description: Common files for github.com/containers repositories
+ This package contains common configuration files for use by
+ other container projects.
+
+Package: golang-github-containers-image
+Version: 5.23.1-4
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 55
+Replaces: buildah (<< 1.17.1+dfsg1-2)
+Homepage: https://github.com/containers/image
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-containers-image/golang-github-containers-image_5.23.1-4_all.deb
+Size: 31724
+SHA256: 2dc5697a30ae8de43221eeb7aa553d5187dbf97392d299ecb27ef51e46d159ca
+SHA1: 01992ec4c0e845422a59eb3199e3892035372932
+MD5sum: 067103740cd8ecab241c75b0f2f26149
+Description: Configuration files and manpages for github.com/containers repositories
+ This package contains documentation and configuration files for use by
+ other container projects.
+
+Package: golang-src
+Source: golang-defaults
+Version: 2:1.19~1
+Architecture: all
+Maintainer: Debian Go Compiler Team <team+go-compiler@tracker.debian.org>
+Installed-Size: 13
+Depends: golang-1.19-src
+Multi-Arch: foreign
+Homepage: https://golang.org
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-defaults/golang-src_1.19~1_all.deb
+Size: 5756
+SHA256: 15c5627e7f1ae650ea1103b864b77d874b5b1d2693802649b956efeed3ccb02f
+SHA1: f7f4871cecec94d373304fe540d0c9275387c1f3
+MD5sum: d36120c91468b3a6bfbbe38de26eb207
+Description: Go programming language - source files
+ The Go programming language is an open source project to make programmers more
+ productive. Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of multicore
+ and networked machines, while its novel type system enables flexible and
+ modular program construction. Go compiles quickly to machine code yet has the
+ convenience of garbage collection and the power of run-time reflection. It's a
+ fast, statically typed, compiled language that feels like a dynamically typed,
+ interpreted language.
+ .
+ This is a dependency package that depends on the default Go standard library
+ source code, which is needed for the go build process.
+
 Package: gsettings-desktop-schemas
 Version: 43.0-1
 Architecture: all
@@ -4207,6 +4367,26 @@ Description: collection of bootloaders (ISO 9660 bootloader)
  (EXTLINUX), PXE network boots (PXELINUX), or ISO 9660 CD-ROMs (ISOLINUX).
  .
  This package contains the bootloader for ISO 9660 CD-ROMs (ISOLINUX).
+
+Package: java-common
+Version: 0.74
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 28
+Suggests: default-jre
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/Java/
+Priority: optional
+Section: java
+Filename: pool/main/j/java-common/java-common_0.74_all.deb
+Size: 6388
+SHA256: 1133db3d800fce107089fbee5d435c67d30deed18978af2635c8e7bc45bfc550
+SHA1: 7749ddd9c1e753521b1aab70e1317b68a35932dc
+MD5sum: 3b4d8f8ee49f4dd56f113b0b254ef366
+Description: Base package for Java runtimes
+ This package provides common tools for the Java runtimes, such as
+ the update-java-alternatives mechanism used to switch between
+ different versions of Java.
 
 Package: javascript-common
 Version: 11+nmu1
@@ -4570,6 +4750,28 @@ Description: Configuration files and profiles for ALSA drivers
  This package contains configuration files for ALSA drivers.
  .
  ALSA is the Advanced Linux Sound Architecture.
+
+Package: libatk-wrapper-java
+Source: java-atk-wrapper
+Version: 0.40.0-3
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 78
+Depends: x11-utils
+Recommends: libatk-wrapper-java-jni
+Multi-Arch: foreign
+Homepage: https://ftp.gnome.org/pub/GNOME/sources/java-atk-wrapper/
+Priority: optional
+Section: java
+Filename: pool/main/j/java-atk-wrapper/libatk-wrapper-java_0.40.0-3_all.deb
+Size: 63444
+SHA256: e4d5a7978511291d598dafe04267ef031ed501a5bf1b9c55bbf08187d9777f6e
+SHA1: 62060eb0909585fc75f9df14d267f81dc96ae22d
+MD5sum: 8045c6be1f7966315636ee90fe995d56
+Description: ATK implementation for Java using JNI
+ Java ATK Wrapper is an implementation of ATK which uses JNI. It
+ converts Java Swing events into ATK events, and sends these events to
+ ATK-Bridge.
 
 Package: libaudit-common
 Source: audit
@@ -16671,6 +16873,36 @@ Description: API documentation for Node.js, the javascript platform
  HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
  .
  This package contains API documentation for Node.js.
+
+Package: npm
+Version: 9.2.0~ds1-1
+Architecture: all
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Installed-Size: 2941
+Depends: ca-certificates, node-abbrev, node-agent-base, node-aproba, node-archy, node-base64-js, node-binary-extensions, node-cacache (>= 17), node-chalk (>= 5.1.2-2~), node-chownr, node-ci-info, node-cli-table3, node-colors, node-columnify, node-cssesc, node-debug, node-depd, node-diff, node-emoji-regex, node-encoding, node-events, node-glob, node-got, node-graceful-fs, node-gyp, node-hosted-git-info (>= 6), node-http-proxy-agent, node-https-proxy-agent, node-ieee754, node-ini, node-ip, node-ip-regex, node-json-parse-better-errors, node-jsonparse, node-lru-cache, node-minimatch, node-minipass, node-mkdirp, node-ms, node-negotiator, node-nopt, node-normalize-package-data, node-npm-bundled, node-npm-normalize-package-bin, node-npm-package-arg (>= 10), node-npmlog, node-once, node-p-map, node-postcss-selector-parser, node-promise-retry, node-promzard, node-read, node-read-package-json, node-rimraf, node-semver, node-ssri, node-string-width, node-strip-ansi, node-tar, node-text-table, node-validate-npm-package-license, node-validate-npm-package-name, node-which, node-wrappy, node-write-file-atomic, node-yallist, nodejs:any
+Recommends: git, node-tap
+Suggests: node-opener
+Provides: arborist (= 6.1.5), node-libnpmaccess (= 7.0.1), node-libnpmdiff (= 5.0.6), node-libnpmexec (= 5.0.6), node-libnpmfund (= 4.0.6), node-libnpmhook (= 9.0.1), node-libnpmorg (= 5.0.1), node-libnpmpack (= 5.0.6), node-libnpmpublish (= 7.0.6), node-libnpmsearch (= 6.0.1), node-libnpmteam (= 5.0.1), node-libnpmversion (= 4.0.1), node-npm (= 9.2.0), node-npm-packlist (= 7.0.4), node-npmcli-arborist (= 6.1.5), node-npmcli-config (= 6.1.0), node-npmcli-disparity-colors (= 3.0.0), node-npmcli-git (= 4.0.3), node-npmcli-installed-package-contents (= 2.0.1), node-npmcli-map-workspaces (= 3.0.0), node-npmcli-metavuln-calculator (= 5.0.0), node-npmcli-mock-registry (= 1.0.0), node-npmcli-name-from-folder (= 1.0.1), node-npmcli-node-gyp (= 3.0.0), node-npmcli-package-json (= 3.0.0), node-npmcli-promise-spawn (= 6.0.1), node-npmcli-query (= 3.0.0), node-npmcli-run-script (= 6.0.0), node-npmcli-smoke-tests (= 1.0.0), node-pacote (= 15.0.7), node-qrcode-terminal (= 0.12.0), pacote (= 15.0.7), qrcode-terminal (= 0.12.0)
+Homepage: https://docs.npmjs.com/
+Priority: optional
+Section: javascript
+Filename: pool/main/n/npm/npm_9.2.0~ds1-1_all.deb
+Size: 669016
+SHA256: 1e31d6a0bd0bef04c2f1748ea776cd4e1f2c266ecf177c9539a8015e04d3a068
+SHA1: 46d0d041d582574bd6f9ddb7e284145c1b46032d
+MD5sum: 37423964cc413ac20a1f920f9e5aa0a2
+Description: package manager for Node.js
+ Node.js is an event-based server-side javascript engine.
+ .
+ npm is the package manager for the Node JavaScript platform.  It puts
+ modules in place so that node can find them, and manages dependency
+ conflicts intelligently.
+ .
+ It is extremely configurable to support a wide variety of use cases.
+ Most commonly, it is used to publish, discover, install, and develop
+ node programs.
+ .
+ Install also node-opener to have full npm features enabled.
 
 Package: nyx
 Version: 2.1.0-2.2
