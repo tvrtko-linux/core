@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 14 Sep 2024 01:13:24 UTC
+Date: Sat, 14 Sep 2024 03:49:01 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbk4zUACgkQ5Vfn9vbt
-T6pKOQ//S725/emjn3PCftm4mDuaDrue01vRUE8jjQctnOmu9qIvGhTcHP34F4Ve
-sEw0OydrXVBEz6y/P+XETLV1l6ic1Ra7VvA/b6jyQzwSVVsVK4H+hFqiWfK7RvMK
-2Z0/zMFrpnSXz0PvWIObmdUflzA5Xtck3jmptW/p05BTx77e2TqN6PKPF/cLQ7s6
-kUZ/uQ8EBljvtUx22amIXhAWzUPPrfgme8uqTzsz8o9yAlNadhpjutsnf/Mz3Tlo
-o7gvLAM1YtNLW/tqame+bZ7dv1vTLpsRTLhHz/bK4G9Z8Fg7sHAHVbZZq9B7/UMl
-u1p3NR1vqQBlHvR6sJOSuYgfh/QXYyHmwk6BoAwuLbEctLLpYgpWGl+CdRzODhhR
-juYio103mFL9Txf6cfW8s9mqCX0FGCNFdOCk6wcuNQOZfz+pvD+CFupvkiJJxwJd
-K1/VNFFcN4Pk0mKUweKzc2AQfFFvTqFSvkeEk2pZjz1GMCVOv5Pm4TsCB4eKMJmC
-5RwPx7X7rGCNUj7hVQ3vstqbUfVTR+ApBoFyzJj4BX1ZxoLvKSqiUoPrjc++lMr8
-8vLyU06v0+nCUKWINQmfX8TfRBF/jkilMs0ZJb5f9TkYkUsTTzWurJo61NaEaQrf
-0JtjJ0sKCCjYS8J0H71FQ5Xib8EkddrByq7zHsErqR7GysWluCI=
-=alhB
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmblB60ACgkQ5Vfn9vbt
+T6pq5Q/6AxmCTqgu7ZyhUSpetf3a5Pgink8nF+QT6yeD4CpzSFGwGlhYmjyXn171
+/SSGsOQPtnthY3m1uqZRQpg2Iaj3YgCI9ysUD7KJeTLVEL/ac191nK7Jrc+WKxIh
+v5nWwdNBRo/bI7mqbPR2/yh9NBJiZopYCObKh0GA4s6HdcC7xkALN5YGFsO8Lvl4
+Q11D+EoH1Mnk+2yswYQj8819TODiWjb6cuotNelSeSz/cBdS+uHD+0vm4RPSiNR/
+QgM6NobuNYwBN/mWZAIdYdVZB1l1yFCt762aD7OzsImvdVmL2oSfVktqrmqVmMjY
+UTyRCJt+KQCDipuiW25QqJmLU9xZ8Evp30oYVy3gqJvvA88h0wp4+tYkXo9YFn6o
+/HCeaxSoNYBOgsqJdGYvO+y31rlz5wf8y/YWlDTBOaVKIbAmi51kUftF2ZOajlGC
+Ju6B/998AlOzQgenlHvIi+hguXeecw7pz9a4F8CftPrKyey1W1k1E/umOt7oyAn9
+cju2C/RVIsjQY+PugX70C09liQvkSGn7hu3zpNDGzx9GhXPeDM3il8gCH4pUYztm
+DXM2MUI5/EAaEv/pkQShOxQ9qvnX1A86pvhRyrdabfmc2ut/M1apTtZDO2OdrwSd
+Xe0/gf1iouqFQlkdEgeTO5iH2kY+FVSN8SSrLIf8UUSbM7Nd+M4=
+=splc
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Sat, 14 Sep 2024 03:44:02 UTC
+Date: Sat, 14 Sep 2024 03:48:58 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -213,17 +213,17 @@ SHA256:
  91f40351dbeb69ac40d6945dff04b9b478f362184c4c9012ed3500748c0da30c 186 udeb/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmblBoIACgkQ5Vfn9vbt
-T6qgRw//cX5mfvcGvCuoIyyUKR/TnWc3GTpSRrFP7mu00Pt1yMBgSdipI7vbB39g
-Ce1XNHOpBcW4w3B8yJiMr5YTnIVqnQveqSwdZbKpsZh3+MSNUIjFcVugdFgpJxOv
-L3BcCmWRBBscJ2a26mgzrqV94TD4bHUVlSQK2MVoYL+QiX5ftlAdiT4AiQIO8/6n
-84vwrt5JWB9el8Suf8Redbnnu68xzGL7PPpMGZSIHzGRBIjoYMaa3wHgCl8+Ri1+
-TBTku1DgdBCpp05nux55KKliuRcwmsvimJyAvjqT8SqFhUy91FI0okjJUsObor/a
-GFsrS6c1UT27aDmUYA+FAntAhkDxtsK5McI8VaitYHx+1aSc4fcGog8XKO2sP9k5
-aS9AtxciiMv50YmHeI8D1Gqm0lMKeKfBVs+ciJgfoV5J7COnbcXZy8cMLDBzmY7A
-sEwlnf5JDMfYsGu7k4v6D0jSu3pp3Sbfw6ADh+fZDg1DbvJnPUCYcdM0fLuTzeI9
-WjGoa6yQmx4mWbNSXn+6ErKuTLmKHdCJ82FG1U0tZHqKSQldD7E9TxytAudzlLK0
-okZ5gEHD26NzjVqQaaVAx8V93Nt3h2XPE7oqrxkdpaw980ZTInutlrspNZQ+OWuk
-Mq1J0Uhvg+4guhHtXkYTO32cvrfCNk9U35lOGwOyszmZ+OodrzE=
-=82SC
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmblB6oACgkQ5Vfn9vbt
+T6omzhAAh+eG+mv6+1XFP0IlM3DzxCeTRzO76NMcCRQuXTTJFo8cOD0uV6RMHo/B
+VoWTsZfWWys3j+AMv+fFwJnsgsQuP+LqmwhX3BmGWZ4JOQueBG8uImm6YRwZhbDh
+3kO2/uhOAX8wpTCWcVHw0TQT6zT0rQ9qffOTg1j5Wr2GjuyOzg09AEHRK5r/r7nH
+gJ5AAH/v7vIAsANXIZZBohh15rdxwddBtzuaVH3ytyB9gdyWx3ReFLaP2rqVcOz6
+zlacPdNFHF+bTbYhwwSZoxTUz3KnIgCzjdp0AK39X8S9sb8Z+kMAVNkzrEzvoX96
+OPELWP4kbm4+QR5FlI2s2GhwMJ5PD+RbwNjoQGEZcCLvUFJIgnrq/h+y7L0a2oJE
+zKGUBGnzjI+f0VKBPpF16YQxS5Rf6ksoO4kjyFPZ0hf0cqP+MBq8ZddU0JokJum6
+2Mcub0r4r0DndSoPUyfXo14NqSop+4BjhTn8iIBPdcDl9Uh8OGyJ32qxcegWeRN9
+ZPq2VfzADx9ijzMNB8kcGBc6zflaRkLEonZsxwm0G2O2YKyzEsZ5/iEj8Kix4c01
+gBY0r5M0OGFD88sGeDdUng5SroLdU4ABPmfiZmAsjQETdmWiiiQ7I0eEGB1enJo8
+8hSG3SzfRfMEX2GksiICk7IyS1WNx4kHwfzjoePEnEUZtcTCS1c=
+=DFCm
 -----END PGP SIGNATURE-----

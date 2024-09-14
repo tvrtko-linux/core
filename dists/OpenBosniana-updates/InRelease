@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sat, 14 Sep 2024 01:13:24 UTC
+Date: Sat, 14 Sep 2024 03:49:00 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbk4zQACgkQ5Vfn9vbt
-T6oZ7A/+Nyvbokomy14W92b9NLG2rRUs7X1OGuvByHnRg+/GoLOLtFBZL6yellZS
-/ZB6pCeFnR3k8WI8C75DnmoWqGd0OkvaqPXRPEcTDGK0NveFCDGVKwc7y3hMIKIQ
-+4vU9CjMVlAYt+dCHmnudJlnzIYIAcMWxeAkZbewe8oqevTd+94HoEnb9DhpUND2
-vAWKYz59gx7lnYyDh0e1ZjrILIRhJAlXqs+HsVvVZSr+2VIRJ3aqgcsAr2pJsuUy
-3wYFOc+r89Gj5z6udVC3cul6uUGft8Hr6Y0AJXDjgexJ3nfCV3saY9kwCRHQZb6h
-gQVTd60E+sIZ5MTAtfNFAj3u6zRnxqNCNQbhcMwrDyg2LKiRcOJi0T5ZPSU6FOEW
-sU+Lz3rN60DlDn+Qtrli1KoI56j+iIuTSrslY0i4mJyvinYiJ6aMr1/T9mMAw/v4
-4J/4TBk4B9jEcJyTtHx6/1iZ9uhiSvC5y3h6uL6EKenuawBP/7WndqdoJVV7RRrR
-dMoYNr0aTZpmcFtM423Zk16T7KOV+pXD6ytmJJrfgwQAkXmh1m9Th+6Yv6/etkJj
-bmnSvYBIRGVY0uJfInhjmp9wD0PjbUsh9Gcyi08vOJQK8OHM4r1D2R5gbN0Nypi/
-TUMRPHE2QcevvYo1r3RVRhZWGWzsw3Dls6UIiY86VT/VVb+JQzo=
-=0MIh
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmblB6wACgkQ5Vfn9vbt
+T6oACw//cMlT7gmOhBCfig0F9eTp8ranIcQr9DR5YMvv7BG9mGCekVbL8nrFjUhb
+tNYKchb9Ct4s4hRgROMDhXOVWPiRvzn1eaCs60O3U19kyVuDB8Y3NdKiTU3BxnY5
+oXuhTeieywUPJijaOyrfMCbHFp0+WugiLcWYuMSj0y1z3Wslbphk4wIpQIPdlHkK
+XERnnG9HvNWn0pVZ9Ucz4lhZtozggpZ5RbrtAXk+qSc+BAskl2TfSUJ5kRNcsVBh
+2s3qA2ozjLkGxqMI0qpiKicu+iDoBCrTSASq6IVb603niL5DgZgDEP9/eD3jklXe
+sLr4S+GGGMi6bjmOD0Ahb+gCPNm47+za1kZRJQuAXvyK6y71Q8jC3YVJdd/bLMEO
+Jkw4UvHSE6XjObdDhWxWCh1brgPU3vBRH7rplZrmOPUn4YRixbrdd8BcG3lQCHA8
+5mQ8oS2Edo93weGTHwjtLuS8tvc/7YM8qL3Td4P7JMicXnxUBbkbbivB4Fuv+pm8
+H43bNzH5769I8aCQfaH4mZgXgMWHd+Ecmu63zx6HzTf3VbBy2MJJNivolBwR4M5j
+Qa2lgg1y94U2dFmK01pke9GK7lgXnNOuXaA0N/uP0kvwKJ2BdxF5q9uuvoyJAYB1
+u+uUqchqTQ/O4efu2rx3+ybvAn3cHUNzmicif+GMlO/2xXJhP0c=
+=HVjx
 -----END PGP SIGNATURE-----
