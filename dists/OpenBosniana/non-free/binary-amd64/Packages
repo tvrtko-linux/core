@@ -884,6 +884,951 @@ Description: Binary firmware for AMD/ATI graphics chips
   * Radeon HD 7700 series SMC microcode (radeon/verde_smc.bin)
 Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 
+Package: firmware-atheros
+Source: firmware-nonfree
+Version: 20230515-3+parrot1
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 59004
+Suggests: initramfs-tools
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-atheros_20230515-3+parrot1_all.deb
+Size: 16989240
+SHA256: adcd078dbc62e58475725268976c4e588543108db85ef79f8700b38e3ea440fa
+SHA1: a092c4d0bf6e93792033442b0bba6e84559140e6
+MD5sum: 08dc48ded9fa06909c0a608479b6074d
+Description: Binary firmware for Qualcomm Atheros wireless cards
+ This package contains the binary firmware for USB wireless network and
+ Bluetooth cards supported by the ar5523, ath3k, ath6kl_sdio, ath6kl_usb,
+ ath10k, or wilc6210 drivers.
+ .
+ Contents:
+  * Atheros AR3012 rev 01020001 patch (ar3k/AthrBT_0x01020001.dfu)
+  * Atheros AR3012 rev 01020200 patch (ar3k/AthrBT_0x01020200.dfu)
+  * Atheros AR3012 rev 01020201 patch, version 170
+    (ar3k/AthrBT_0x01020201.dfu)
+  * Atheros AR3012 rev 11020000 patch (ar3k/AthrBT_0x11020000.dfu)
+  * Atheros AR3012 rev 11020100 patch (ar3k/AthrBT_0x11020100.dfu)
+  * Atheros AR3012 rev 31010000 patch (ar3k/AthrBT_0x31010000.dfu)
+  * Atheros AR3012 rev 31010100 patch (ar3k/AthrBT_0x31010100.dfu)
+  * Atheros AR3012 rev 41020000 patch (ar3k/AthrBT_0x41020000.dfu)
+  * Atheros AR3012 rev 01020001 config (ar3k/ramps_0x01020001_26.dfu)
+  * Atheros AR3012 rev 01020200 26 MHz config
+    (ar3k/ramps_0x01020200_26.dfu)
+  * Atheros AR3012 rev 01020200 40 MHz config
+    (ar3k/ramps_0x01020200_40.dfu)
+  * Atheros AR3012 rev 01020201 26 MHz config
+    (ar3k/ramps_0x01020201_26.dfu)
+  * Atheros AR3012 rev 01020201 40 MHz config
+    (ar3k/ramps_0x01020201_40.dfu)
+  * Atheros AR3012 rev 11020000 config (ar3k/ramps_0x11020000_40.dfu)
+  * Atheros AR3012 rev 11020100 config (ar3k/ramps_0x11020100_40.dfu)
+  * Atheros AR3012 rev 31010000 config (ar3k/ramps_0x31010000_40.dfu)
+  * Atheros AR3012 rev 31010100 config (ar3k/ramps_0x31010100_40.dfu)
+  * Atheros AR3012 rev 41020000 config (ar3k/ramps_0x41020000_40.dfu)
+  * Atheros AR5523 firmware (ar5523.bin)
+  * Atheros AR7010 rev 1.0 firmware (ar7010.fw)
+  * Atheros AR7010 rev 1.1 firmware (ar7010_1_1.fw)
+  * Atheros AR9271 firmware (ar9271.fw)
+  * Qualcomm Atheros QCA4019 rev 1.0 board configuration
+    (ath10k/QCA4019/hw1.0/board-2.bin)
+  * Qualcomm Atheros QCA4019 rev 1.0 firmware, version 10.4-3.6-00140
+    (ath10k/QCA4019/hw1.0/firmware-5.bin)
+  * Qualcomm Atheros QCA6174 rev 2.1 board configuration, version 1
+    (ath10k/QCA6174/hw2.1/board.bin)
+  * Qualcomm Atheros QCA6174 rev 2.1 board configuration, version 2
+    (ath10k/QCA6174/hw2.1/board-2.bin)
+  * Qualcomm Atheros QCA6174 rev 2.1 firmware, version
+    SW_RM.1.1.1-00157-QCARMSWPZ-1 (ath10k/QCA6174/hw2.1/firmware-5.bin)
+  * Qualcomm Atheros QCA6174 rev 3.0 board configuration, version 1
+    (ath10k/QCA6174/hw3.0/board.bin)
+  * Qualcomm Atheros QCA6174 rev 3.0 board configuration
+    (ath10k/QCA6174/hw3.0/board-2.bin)
+  * Qualcomm Atheros QCA6174 rev 3.0 firmware, version
+    WLAN.RM.2.0-00180-QCARMSWPZ-1 (ath10k/QCA6174/hw3.0/firmware-4.bin)
+  * Qualcomm Atheros QCA6174 rev 3.0 firmware, version
+    WLAN.RM.4.4.1-00157-QCARMSWPZ-1
+    (ath10k/QCA6174/hw3.0/firmware-6.bin)
+  * Qualcomm Atheros QCA6174 SDIO rev 3.0 firmware, version
+    WLAN.RMH.4.4.1-00174 (ath10k/QCA6174/hw3.0/firmware-sdio-6.bin)
+  * Qualcomm Atheros QCA9377 rev 1.0 board configuration, version 1
+    (ath10k/QCA9377/hw1.0/board.bin)
+  * Qualcomm Atheros QCA9377 rev 1.0 board configuration, version 2
+    (ath10k/QCA9377/hw1.0/board-2.bin)
+  * Qualcomm Atheros QCA9377 rev 1.0 firmware, version
+    WLAN.TF.1.0-00267-1 (ath10k/QCA9377/hw1.0/firmware-5.bin)
+  * Qualcomm Atheros QCA9377 rev 1.0 firmware, version
+    WLAN.TF.2.1-00021-QCARMSWP-1 (ath10k/QCA9377/hw1.0/firmware-6.bin)
+  * Qualcomm Atheros QCA9377 rev 1.0 firmware, version
+    WLAN.TF.1.1.1-00061-QCATFSWPZ-1
+    (ath10k/QCA9377/hw1.0/firmware-sdio-5.bin)
+  * Qualcomm Atheros QCA9887 rev 1.0 board configuration, version 1
+    (ath10k/QCA9887/hw1.0/board.bin)
+  * Qualcomm Atheros QCA9887 rev 1.0 firmware, version 10.2.4-1.0-00041
+    (ath10k/QCA9887/hw1.0/firmware-5.bin)
+  * Qualcomm Atheros QCA9888 rev 2.0 board configuration, version 2
+    (ath10k/QCA9888/hw2.0/board-2.bin)
+  * Qualcomm Atheros QCA9888 rev 2.0 firmware, version
+    10.4-3.9.0.2-00131 (ath10k/QCA9888/hw2.0/firmware-5.bin)
+  * Qualcomm Atheros QCA988X board configuration, version 1
+    (ath10k/QCA988X/hw2.0/board.bin)
+  * Qualcomm Atheros QCA988X firmware, version 10.2.4.45
+    (ath10k/QCA988X/hw2.0/firmware-4.bin)
+  * Qualcomm Atheros QCA988X firmware, version 10.2.4-1.0-00043
+    (ath10k/QCA988X/hw2.0/firmware-5.bin)
+  * Qualcomm Atheros QCA9984 rev 1.0 board configuration, version 2
+    (ath10k/QCA9984/hw1.0/board-2.bin)
+  * Qualcomm Atheros QCA9984 rev 1.0 firmware, version
+    10.4-3.9.0.2-00131 (ath10k/QCA9984/hw1.0/firmware-5.bin)
+  * Qualcomm Atheros QCA99X0 board configuration, version 2
+    (ath10k/QCA99X0/hw2.0/board-2.bin)
+  * Qualcomm Atheros QCA99X0 firmware, version 10.4.1.00030-1
+    (ath10k/QCA99X0/hw2.0/firmware-5.bin)
+  * Qualcomm Atheros WCN3990 firmware
+    (ath10k/WCN3990/hw1.0/firmware-5.bin)
+  * Qualcomm Atheros WCN3990 board-2.bin firmware
+    (ath10k/WCN3990/hw1.0/board-2.bin)
+  * Qualcomm Atheros WCN3990 wlan DSP firmware
+    (ath10k/WCN3990/hw1.0/wlanmdsp.mbn)
+  * Qualcomm Atheros IPQ6018 802.11ax board-2.bin firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/board-2.bin)
+  * Qualcomm Atheros IPQ6018 802.11ax m3_fw.b00 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/m3_fw.b00)
+  * Qualcomm Atheros IPQ6018 802.11ax m3_fw.b01 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/m3_fw.b01)
+  * Qualcomm Atheros IPQ6018 802.11ax m3_fw.b02 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/m3_fw.b02)
+  * Qualcomm Atheros IPQ6018 802.11ax m3_fw.flist firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/m3_fw.flist)
+  * Qualcomm Atheros IPQ6018 802.11ax m3_fw.mdt firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/m3_fw.mdt)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b00 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/q6_fw.b00)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b01 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/q6_fw.b01)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b02 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/q6_fw.b02)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b03 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/q6_fw.b03)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b04 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/q6_fw.b04)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b05 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/q6_fw.b05)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b07 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/q6_fw.b07)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b08 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/q6_fw.b08)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.flist firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/q6_fw.flist)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.mdt firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ6018/hw1.0/q6_fw.mdt)
+  * Qualcomm Atheros IPQ8074 board firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/board-2.bin)
+  * Qualcomm Atheros IPQ8074 m3_fw.b00 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/m3_fw.b00)
+  * Qualcomm Atheros IPQ8074 m3_fw.b01 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/m3_fw.b01)
+  * Qualcomm Atheros IPQ8074 m3_fw.b02 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/m3_fw.b02)
+  * Qualcomm Atheros IPQ8074 m3_fw.flist firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/m3_fw.flist)
+  * Qualcomm Atheros IPQ8074 m3_fw.mdt firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/m3_fw.mdt)
+  * Qualcomm Atheros IPQ8074 q6_fw.b00 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/q6_fw.b00)
+  * Qualcomm Atheros IPQ8074 q6_fw.b01 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/q6_fw.b01)
+  * Qualcomm Atheros IPQ8074 q6_fw.b02 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/q6_fw.b02)
+  * Qualcomm Atheros IPQ8074 q6_fw.b03 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/q6_fw.b03)
+  * Qualcomm Atheros IPQ8074 q6_fw.b04 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/q6_fw.b04)
+  * Qualcomm Atheros IPQ8074 q6_fw.b05 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/q6_fw.b05)
+  * Qualcomm Atheros IPQ8074 q6_fw.b07 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/q6_fw.b07)
+  * Qualcomm Atheros IPQ8074 q6_fw.b08 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/q6_fw.b08)
+  * Qualcomm Atheros IPQ8074 q6_fw.list firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/q6_fw.flist)
+  * Qualcomm Atheros IPQ8074 q6_fw.mdt firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/IPQ8074/hw2.0/q6_fw.mdt)
+  * Qualcomm Atheros QCA6390 board-2 firmware, version
+    WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+    (ath11k/QCA6390/hw2.0/board-2.bin)
+  * Qualcomm Atheros QCA6390 amss firmware, version
+    WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+    (ath11k/QCA6390/hw2.0/amss.bin)
+  * Qualcomm Atheros QCA6390 m3 firmware, version
+    WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+    (ath11k/QCA6390/hw2.0/m3.bin)
+  * Qualcomm Atheros QCN9074 amss firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/QCN9074/hw1.0/amss.bin)
+  * Qualcomm Atheros QCN9074 board-2 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/QCN9074/hw1.0/board-2.bin)
+  * Qualcomm Atheros QCN9074 m3 firmware, version
+    WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+    (ath11k/QCN9074/hw1.0/m3.bin)
+  * Qualcomm Atheros WCN6750 board-2 firmware, version
+    WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1
+    (ath11k/WCN6750/hw1.0/board-2.bin)
+  * Qualcomm Atheros WCN6750 wpss.b00 firmware, version
+    WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1 (ath11k/WCN6750/hw1.0/wpss.b00)
+  * Qualcomm Atheros WCN6750 wpss.b01 firmware, version
+    WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1 (ath11k/WCN6750/hw1.0/wpss.b01)
+  * Qualcomm Atheros WCN6750 wpss.b02 firmware, version
+    WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1 (ath11k/WCN6750/hw1.0/wpss.b02)
+  * Qualcomm Atheros WCN6750 wpss.b03 firmware, version
+    WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1 (ath11k/WCN6750/hw1.0/wpss.b03)
+  * Qualcomm Atheros WCN6750 wpss.b04 firmware, version
+    WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1 (ath11k/WCN6750/hw1.0/wpss.b04)
+  * Qualcomm Atheros WCN6750 wpss.b05 firmware, version
+    WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1 (ath11k/WCN6750/hw1.0/wpss.b05)
+  * Qualcomm Atheros WCN6750 wpss.b06 firmware, version
+    WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1 (ath11k/WCN6750/hw1.0/wpss.b06)
+  * Qualcomm Atheros WCN6750 wpss.b07 firmware, version
+    WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1 (ath11k/WCN6750/hw1.0/wpss.b07)
+  * Qualcomm Atheros WCN6750 wpss.b08 firmware, version
+    WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1 (ath11k/WCN6750/hw1.0/wpss.b08)
+  * Qualcomm Atheros WCN6750 wpss.mdt firmware, version
+    WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1 (ath11k/WCN6750/hw1.0/wpss.mdt)
+  * Qualcomm Atheros WCN6855 amss firmware, version
+    WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.23
+    (ath11k/WCN6855/hw2.0/amss.bin, ath11k/WCN6855/hw2.1/amss.bin)
+  * Qualcomm Atheros WCN6855 board-2 firmware
+    (ath11k/WCN6855/hw2.0/board-2.bin, ath11k/WCN6855/hw2.1/board-2.bin)
+  * Qualcomm Atheros WCN6855 m3 firmware, version
+    WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3
+    (ath11k/WCN6855/hw2.0/m3.bin, ath11k/WCN6855/hw2.1/m3.bin)
+  * Qualcomm Atheros WCN6855 regdb firmware
+    (ath11k/WCN6855/hw2.0/regdb.bin, ath11k/WCN6855/hw2.1/regdb.bin)
+  * Atheros AR3011 firmware (ath3k-1.fw)
+  * ath6k/AR6003.1/hw2.1.1/athwlan.bin
+  * ath6k/AR6003.1/hw2.1.1/bdata.SD31.bin
+  * ath6k/AR6003.1/hw2.1.1/bdata.SD32.bin
+  * ath6k/AR6003.1/hw2.1.1/bdata.WB31.bin
+  * ath6k/AR6003.1/hw2.1.1/data.patch.bin
+  * ath6k/AR6003.1/hw2.1.1/endpointping.bin
+  * ath6k/AR6003.1/hw2.1.1/otp.bin
+  * ath6k/AR6003/hw1.0/athwlan.bin.z77
+  * ath6k/AR6003/hw1.0/bdata.SD31.bin
+  * ath6k/AR6003/hw1.0/bdata.SD32.bin
+  * ath6k/AR6003/hw1.0/bdata.WB31.bin
+  * ath6k/AR6003/hw1.0/data.patch.bin
+  * ath6k/AR6003/hw1.0/otp.bin.z77
+  * ath6k/AR6003/hw2.0/athwlan.bin.z77
+  * ath6k/AR6003/hw2.0/bdata.SD31.bin
+  * ath6k/AR6003/hw2.0/bdata.SD32.bin
+  * ath6k/AR6003/hw2.0/bdata.WB31.bin
+  * ath6k/AR6003/hw2.0/data.patch.bin
+  * ath6k/AR6003/hw2.0/otp.bin.z77
+  * ath6k/AR6003/hw2.1.1/athwlan.bin
+  * ath6k/AR6003/hw2.1.1/bdata.SD31.bin
+  * ath6k/AR6003/hw2.1.1/bdata.SD32.bin
+  * ath6k/AR6003/hw2.1.1/bdata.WB31.bin
+  * ath6k/AR6003/hw2.1.1/data.patch.bin
+  * ath6k/AR6003/hw2.1.1/endpointping.bin
+  * ath6k/AR6003/hw2.1.1/fw-2.bin
+  * ath6k/AR6003/hw2.1.1/fw-3.bin
+  * ath6k/AR6003/hw2.1.1/otp.bin
+  * ath6k/AR6004/hw1.2/bdata.bin
+  * ath6k/AR6004/hw1.2/fw-2.bin
+  * ath6k/AR6004/hw1.3/bdata.bin
+  * ath6k/AR6004/hw1.3/fw-3.bin
+  * Atheros AR7010 firmware, version 1.3.1 (htc_7010.fw)
+  * Atheros AR9271 firmware, version 1.3.1 (htc_9271.fw)
+  * Qualcomm WCN3990 Bluetooth firmware (qca/crbtfw21.tlv)
+  * Qualcomm WCN3991 RAM FW (qca/crbtfw32.tlv)
+  * Qualcomm WCN3990 Bluetooth NVM configuration (qca/crnv21.bin)
+  * Qualcomm WCN3991 Bluetooth NVM configuration (qca/crnv32.bin)
+  * Qualcomm WCN3991 Bluetooth NVM configuration (qca/crnv32u.bin)
+  * Qualcomm QCA6390 Bluetooth HTBFW20 firmware, version v2.0.0-00874
+    (qca/htbtfw20.tlv)
+  * Qualcomm QCA6390 Bluetooth HTNV20 firmware, version v2.0.0-00874
+    (qca/htnv20.bin)
+  * Qualcomm WCN6750 Bluetooth MBN RAM fw dump (qca/msbtfw11.mbn)
+  * Qualcomm WCN6750 Bluetooth TLV RAM fw dump (qca/msbtfw11.tlv)
+  * Qualcomm WCN6750 Bluetooth NVM fw dump (qca/msnv11.bin)
+  * Qualcomm Atheros QCA61x4 version 3.0 UART BT NVM configuration
+    (qca/nvm_00130300.bin)
+  * Qualcomm Atheros QCA61x4 version 3.2 UART BT NVM configuration
+    (qca/nvm_00130302.bin)
+  * Qualcomm Atheros QCA9377 Bluetooth firmware (qca/nvm_00230302.bin)
+  * Qualcomm Atheros QCA6174 BT NVM configuration (qca/nvm_00440302.bin)
+  * Qualcomm Atheros QCA6174 BT NVM firmware (qca/nvm_00440302_eu.bin)
+  * Qualcomm Atheros QCA6174 BT NVM firmware
+    (qca/nvm_00440302_i2s_eu.bin)
+  * Qualcomm Atheros QCA61x4 version 2.0 USB BT NVM configuration
+    (qca/nvm_usb_00000200.bin)
+  * Qualcomm Atheros QCA61x4 version 2.1 USB BT NVM configuration
+    (qca/nvm_usb_00000201.bin)
+  * Qualcomm Atheros QCA61x4 version 3.0 USB BT NVM configuration
+    (qca/nvm_usb_00000300.bin)
+  * Qualcomm Atheros QCA61x4 version 3.2 USB BT NVM configuration
+    (qca/nvm_usb_00000302.bin)
+  * Qualcomm Atheros QCA6174 firmware (qca/nvm_usb_00000302_eu.bin)
+  * Qualcomm Atheros WCN685x NVM BT firmware (qca/nvm_usb_00130200.bin)
+  * Qualcomm Atheros WCN685x 0104 NVM BT firmware
+    (qca/nvm_usb_00130200_0104.bin)
+  * Qualcomm Atheros WCN685x 0105 NVM BT firmware
+    (qca/nvm_usb_00130200_0105.bin)
+  * Qualcomm Atheros WCN685x 0106 NVM BT firmware
+    (qca/nvm_usb_00130200_0106.bin)
+  * Qualcomm Atheros WCN685x 0107 NVM BT firmware
+    (qca/nvm_usb_00130200_0107.bin)
+  * Qualcomm Atheros WCN685x 0109 NVM BT firmware
+    (qca/nvm_usb_00130200_0109.bin)
+  * Qualcomm Atheros WCN685x 0110 NVM BT firmware
+    (qca/nvm_usb_00130200_0110.bin)
+  * Qualcomm Atheros WCN685x NVM BT firmware (qca/nvm_usb_00130201.bin)
+  * Qualcomm Atheros WCN685x 010a NVM BT firmware
+    (qca/nvm_usb_00130201_010a.bin)
+  * Qualcomm Atheros WCN685x 010b NVM BT firmware
+    (qca/nvm_usb_00130201_010b.bin)
+  * Qualcomm Atheros WCN685x 0303 NVM BT firmware
+    (qca/nvm_usb_00130201_0303.bin)
+  * Qualcomm Atheros WCN685x gf NVM BT firmware
+    (qca/nvm_usb_00130201_gf.bin)
+  * Qualcomm Atheros WCN685x gf 010a NVM BT firmware
+    (qca/nvm_usb_00130201_gf_010a.bin)
+  * Qualcomm Atheros WCN685x gf 010b NVM BT firmware
+    (qca/nvm_usb_00130201_gf_010b.bin)
+  * Qualcomm Atheros WCN685x gf 0303 NVM BT firmware
+    (qca/nvm_usb_00130201_gf_0303.bin)
+  * Qualcomm Atheros WCN785x NVM Bluetooth firmware
+    (qca/nvm_usb_00190200.bin)
+  * Qualcomm Atheros QCA61x4 version 3.0 UART BT rampatch
+    (qca/rampatch_00130300.bin)
+  * Qualcomm Atheros QCA61x4 version 3.2 UART BT rampatch
+    (qca/rampatch_00130302.bin)
+  * Qualcomm QCA9377 BT rampatch (qca/rampatch_00230302.bin)
+  * Qualcomm Atheros QCA6174 BT rampatch (qca/rampatch_00440302.bin)
+  * Qualcomm Atheros QCA61x4 version 2.0 USB BT rampatch
+    (qca/rampatch_usb_00000200.bin)
+  * Qualcomm Atheros QCA61x4 version 2.1 USB BT rampatch
+    (qca/rampatch_usb_00000201.bin)
+  * Qualcomm Atheros QCA61x4 version 3.0 USB BT rampatch
+    (qca/rampatch_usb_00000300.bin)
+  * Qualcomm Atheros QCA61x4 version 3.2 USB BT rampatch
+    (qca/rampatch_usb_00000302.bin)
+  * Qualcomm Atheros WCN685x 0110 RAM BT firmware
+    (qca/rampatch_usb_00130200.bin)
+  * Qualcomm Atheros WCN685x RAM BT firmware
+    (qca/rampatch_usb_00130201.bin)
+  * Qualcomm Atheros WCN785x RAM Bluetooth firmware
+    (qca/rampatch_usb_00190200.bin)
+  * Qualcomm Atheros Wil62x0 default board parameters, version 5.2.0.18
+    (wil6210.brd)
+  * Qualcomm Atheros Wil62x0 firmware, version 5.2.0.18 (wil6210.fw)
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: firmware-bnx2
+Source: firmware-nonfree
+Version: 20230515-3+parrot1
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 466
+Suggests: initramfs-tools
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-bnx2_20230515-3+parrot1_all.deb
+Size: 134420
+SHA256: 69a7b2eb76f9291ae5309152fc4eccff79f7d9e33a33e78aa2e0987a5f6e6d94
+SHA1: 051e8decd7a83087e441515dddf2f12dd311f8c5
+MD5sum: c6343e729790a0600f94b93c41686ad6
+Description: Binary firmware for Broadcom NetXtremeII
+ This package contains the binary firmware for Broadcom NetXtremeII network
+ adapters supported by the bnx2 driver.
+ .
+ Contents:
+  * bnx2/bnx2-rv2p-06-6.0.15.fw
+  * Broadcom NetXtremeII 5709/5716 firmware (rv2p), version Linux 2.6.37
+    (bnx2/bnx2-rv2p-09-6.0.17.fw)
+  * Broadcom NetXtremeII 5709 A0/A1 firmware (rv2p), version Linux
+    2.6.37 (bnx2/bnx2-rv2p-09ax-6.0.17.fw)
+  * Broadcom NetXtremeII 5706/5708 firmware (mips), version Linux 3.3
+    (bnx2/bnx2-mips-06-6.2.3.fw)
+  * Broadcom NetXtremeII 5709/5716 firmware (mips), version Linux 3.3
+    (bnx2/bnx2-mips-09-6.2.1b.fw)
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: firmware-bnx2x
+Source: firmware-nonfree
+Version: 20230515-3+parrot1
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 2227
+Suggests: initramfs-tools
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-bnx2x_20230515-3+parrot1_all.deb
+Size: 1738928
+SHA256: 451d9894bf33111420627ba64f4279774b2e0b69713701dc8873afd67726a049
+SHA1: 57e2c682254980ac800384a265ac9be3d7d24106
+MD5sum: 4d0d845b9fbd5c309e555660d027d6b0
+Description: Binary firmware for Broadcom NetXtreme II 10Gb
+ This package contains the binary firmware for Broadcom NetXtreme II 10Gb
+ network adapters supported by the bnx2x driver.
+ .
+ Contents:
+  * Broadcom NetXtreme II 10Gb 57710, version 7.13.1.0
+    (bnx2x/bnx2x-e1-7.13.1.0.fw)
+  * Broadcom NetXtreme II 10Gb 57711, version 7.13.1.0
+    (bnx2x/bnx2x-e1h-7.13.1.0.fw)
+  * Broadcom NetXtreme II 10Gb 57712, version 7.13.1.0
+    (bnx2x/bnx2x-e2-7.13.1.0.fw)
+  * Broadcom NetXtreme II 10Gb 57710, version 7.13.15.0
+    (bnx2x/bnx2x-e1-7.13.15.0.fw)
+  * Broadcom NetXtreme II 10Gb 57711, version 7.13.15.0
+    (bnx2x/bnx2x-e1h-7.13.15.0.fw)
+  * Broadcom NetXtreme II 10Gb 57712, version 7.13.15.0
+    (bnx2x/bnx2x-e2-7.13.15.0.fw)
+  * Broadcom NetXtreme II 10Gb 57710, version 7.13.21.0
+    (bnx2x/bnx2x-e1-7.13.21.0.fw)
+  * Broadcom NetXtreme II 10Gb 57711, version 7.13.21.0
+    (bnx2x/bnx2x-e1h-7.13.21.0.fw)
+  * Broadcom NetXtreme II 10Gb 57712, version 7.13.21.0
+    (bnx2x/bnx2x-e2-7.13.21.0.fw)
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: firmware-brcm80211
+Source: firmware-nonfree
+Version: 20230515-3+parrot1
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 18100
+Suggests: initramfs-tools
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-brcm80211_20230515-3+parrot1_all.deb
+Size: 5355740
+SHA256: 11c97da03162d037beedc0403e37a8421b6f290e0d7bbad56fd852789cb65d81
+SHA1: 83d534eb536c84447963a525dfd3736ab194ee8d
+MD5sum: 4b0b7ab10f0344efdb7e5fdf2c12e878
+Description: Binary firmware for Broadcom/Cypress 802.11 wireless cards
+ This package contains the binary firmware for wireless network cards
+ supported by the brcmsmac or brcmfmac driver.
+ .
+ Contents:
+  * Broadcom 802.11 firmware, version 610.812 (brcm/bcm43xx-0.fw)
+  * Broadcom 802.11 firmware header, version 610.812
+    (brcm/bcm43xx_hdr-0.fw)
+  * Broadcom BCM43143 USB firmware (brcm/brcmfmac43143.bin)
+  * Broadcom BCM43143 SDIO firmware (brcm/brcmfmac43143-sdio.bin)
+  * Broadcom BCM43236 firmware (brcm/brcmfmac43236b.bin)
+  * Broadcom BCM43241 rev 0-3 firmware (brcm/brcmfmac43241b0-sdio.bin)
+  * Broadcom BCM43241 rev 4 firmware (brcm/brcmfmac43241b4-sdio.bin)
+  * Broadcom BCM43241 rev 5+ firmware (brcm/brcmfmac43241b5-sdio.bin)
+  * Broadcom BCM43242 firmware (brcm/brcmfmac43242a.bin)
+  * Broadcom BCM4329 firmware (brcm/brcmfmac4329-sdio.bin)
+  * Broadcom BCM4330 firmware (brcm/brcmfmac4330-sdio.bin)
+  * Broadcom BCM4330 Prowise PT301 tablet NVRAM
+    (brcm/brcmfmac4330-sdio.Prowise-PT301.txt)
+  * Broadcom BCM43340 Meegopad T08 HDMI stick NVRAM
+    (brcm/brcmfmac43340-sdio.meegopad-t08.txt)
+  * Broadcom BCM43340 PoV TAB-P1006W-232 tablet NVRAM
+    (brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt)
+  * Broadcom BCM43340 Predia Basic tablet NVRAM
+    (brcm/brcmfmac43340-sdio.predia-basic.txt)
+  * Broadcom BCM4334 firmware (brcm/brcmfmac4334-sdio.bin)
+  * brcm/brcmfmac4335-sdio.bin
+  * Cubietech Cubietruck Ampak AP6210 Wifi/BT NVRAM
+    (brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt,
+    brcm/brcmfmac43362-sdio.lemaker,bananapro.txt)
+  * Jumper EZpad mini 3 tablet AP6210 Wifi/BT NVRAM
+    (brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt)
+  * Broadcom BCM43430a Chuwi Hi8 (CWI509) tablet NVRAM
+    (brcm/brcmfmac43430a0-sdio.ilife-S806.txt)
+  * Broadcom BCM43430 rev 0 firmware (brcm/brcmfmac43430a0-sdio.bin)
+  * BCM43430 NRVAM AP6212 config (brcm/brcmfmac43430-sdio.AP6212.txt,
+    brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-plus.txt,
+    brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-ultra.txt,
+    brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt,
+    brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt)
+  * Broadcom BCM43430 Chuwi Vi8 Plus tablet NVRAM
+    (brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt)
+  * Broadcom BCM43430 Murata 1DX NVRAM
+    (brcm/brcmfmac43430-sdio.MUR1DX.txt)
+  * BCM43430 NVRAM for the Raspberry Pi 3 B
+    (brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt,
+    brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.txt)
+  * BCM43455 NVRAM for AzureWave AW-CM256SM
+    (brcm/brcmfmac43455-sdio.AW-CM256SM.txt,
+    brcm/brcmfmac43455-sdio.pine64,pinebook-pro.txt,
+    brcm/brcmfmac43455-sdio.pine64,pinephone-pro.txt,
+    brcm/brcmfmac43455-sdio.pine64,quartz64-b.txt)
+  * BCM43455 NVRAM for the Raspberry Pi 3 B+
+    (brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt,
+    brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt)
+  * BCM43455 NVRAM for the Raspberry Pi 4 B
+    (brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt)
+  * Broadcom BCM4350 rev 5+ firmware (brcm/brcmfmac4350c2-pcie.bin)
+  * Broadcom BCM4350 rev 0-4 firmware (brcm/brcmfmac4350-pcie.bin)
+  * Broadcom BCM43569 firmware (brcm/brcmfmac43569.bin)
+  * Broadcom BCM4356-PCIe NVRAM for GPD Pocket and Win
+    (brcm/brcmfmac4356-pcie.gpd-win-pocket.txt)
+  * Broadcom AP6356S WiFi module NVRAM
+    (brcm/brcmfmac4356-sdio.AP6356S.txt,
+    brcm/brcmfmac4356-sdio.firefly,firefly-rk3399.txt,
+    brcm/brcmfmac4356-sdio.khadas,vim2.txt,
+    brcm/brcmfmac4356-sdio.vamrs,rock960.txt)
+  * Broadcom BCM4358 firmware (brcm/brcmfmac4358-pcie.bin)
+  * Broadcom BCM43602 AP-mode firmware (brcm/brcmfmac43602-pcie.ap.bin)
+  * Broadcom BCM43602 firmware (brcm/brcmfmac43602-pcie.bin)
+  * Broadcom BCM4366 firmware (brcm/brcmfmac4366b-pcie.bin)
+  * Broadcom BCM4366 3x3 802.11 ac firmware
+    (brcm/brcmfmac4366c-pcie.bin)
+  * Broadcom BCM4371 firmware (brcm/brcmfmac4371-pcie.bin)
+  * Cypress CYW4373-USB firmware (brcm/brcmfmac4373.bin)
+  * Cypress CYW43012-SDIO firmware (cypress/cyfmac43012-sdio.bin,
+    brcm/brcmfmac43012-sdio.bin)
+  * Cypress CYW43012-SDIO CLM firmware
+    (cypress/cyfmac43012-sdio.clm_blob,
+    brcm/brcmfmac43012-sdio.clm_blob)
+  * Cypress CYW43340-SDIO firmware (cypress/cyfmac43340-sdio.bin,
+    brcm/brcmfmac43340-sdio.bin)
+  * Cypress CYW43362-SDIO firmware (cypress/cyfmac43362-sdio.bin,
+    brcm/brcmfmac43362-sdio.bin)
+  * Cypress CYW4339-SDIO firmware (cypress/cyfmac4339-sdio.bin,
+    brcm/brcmfmac4339-sdio.bin)
+  * Cypress CYW43430-SDIO firmware (cypress/cyfmac43430-sdio.bin,
+    brcm/brcmfmac43430-sdio.bin)
+  * Cypress CYW43430-SDIO CLM firmware
+    (cypress/cyfmac43430-sdio.clm_blob,
+    brcm/brcmfmac43430-sdio.clm_blob)
+  * Cypress CYW43455-SDIO firmware (cypress/cyfmac43455-sdio.bin,
+    brcm/brcmfmac43455-sdio.bin)
+  * Cypress CYW43455-SDIO CLM firmware
+    (cypress/cyfmac43455-sdio.clm_blob,
+    brcm/brcmfmac43455-sdio.clm_blob)
+  * Cypress CYW4354-SDIO firmware (cypress/cyfmac4354-sdio.bin,
+    brcm/brcmfmac4354-sdio.bin)
+  * Cypress CYW4354-SDIO CLM firmware (cypress/cyfmac4354-sdio.clm_blob,
+    brcm/brcmfmac4354-sdio.clm_blob)
+  * Cypress CYW4356-PCIE firmware (cypress/cyfmac4356-pcie.bin,
+    brcm/brcmfmac4356-pcie.bin)
+  * Cypress CYW4356-PCIE CLM firmware (cypress/cyfmac4356-pcie.clm_blob,
+    brcm/brcmfmac4356-pcie.clm_blob)
+  * Cypress CYW4356-SDIO firmware (cypress/cyfmac4356-sdio.bin,
+    brcm/brcmfmac4356-sdio.bin)
+  * Cypress CYW4356-SDIO CLM firmware (cypress/cyfmac4356-sdio.clm_blob,
+    brcm/brcmfmac4356-sdio.clm_blob)
+  * Cypress CYW43570-PCIE firmware (cypress/cyfmac43570-pcie.bin,
+    brcm/brcmfmac43570-pcie.bin)
+  * Cypress CYW43570-PCIE CLM firmware
+    (cypress/cyfmac43570-pcie.clm_blob,
+    brcm/brcmfmac43570-pcie.clm_blob)
+  * Cypress CYW4373-SDIO firmware (cypress/cyfmac4373-sdio.bin,
+    brcm/brcmfmac4373-sdio.bin)
+  * Cypress CYW4373-SDIO CLM firmware (cypress/cyfmac4373-sdio.clm_blob,
+    brcm/brcmfmac4373-sdio.clm_blob)
+  * Cypress CYW54591-PCIE firmware (cypress/cyfmac54591-pcie.bin,
+    brcm/brcmfmac54591-pcie.bin)
+  * Cypress CYW54591-PCIE CLM firmware
+    (cypress/cyfmac54591-pcie.clm_blob,
+    brcm/brcmfmac54591-pcie.clm_blob)
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: firmware-iwlwifi
+Source: firmware-nonfree
+Version: 20230515-3+parrot1
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 86078
+Suggests: initramfs-tools
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-iwlwifi_20230515-3+parrot1_all.deb
+Size: 9447956
+SHA256: d367bb12b241c66066c6bf07a114245612544c06c9c27f08080254c075171e8d
+SHA1: 72d9c14bc2a8dec01c6e2b11f41abd3a6fbd5357
+MD5sum: a17161d7c6af805bc2bd0c66fe22822a
+Description: Binary firmware for Intel Wireless cards
+ This package contains the binary firmware for Intel Wireless cards
+ supported by the iwl3945, iwl4965, and iwlwifi drivers.
+ .
+ Contents:
+  * Intel Wireless 8260 Bluetooth configuration, version 20.10.0.8
+    (intel/ibt-11-5.ddc)
+  * Intel Wireless 8260 Bluetooth firmware, version 20.100.0.3
+    (intel/ibt-11-5.sfi)
+  * Intel Wireless 8265 Bluetooth configuration, version 20.30.0.1
+    (intel/ibt-12-16.ddc)
+  * Intel Wireless 8265 Bluetooth firmware, version 21.10.0.6
+    (intel/ibt-12-16.sfi)
+  * Intel Wireless 9460/9650 (var 0 rev 1) Bluetooth configuration,
+    version 20.10 (intel/ibt-17-0-1.ddc)
+  * Intel Wireless 9460/9650 (var 0 rev 1) Bluetooth firmware, version
+    20.30.0.1 (intel/ibt-17-0-1.sfi)
+  * Intel Wireless 9460/9650 (var 16 rev 1) Bluetooth configuration,
+    version 20.60.0.2 (intel/ibt-17-16-1.ddc)
+  * Intel Wireless 9460/9650 (var 16 rev 1) Bluetooth firmware, version
+    22.200.0.2 (intel/ibt-17-16-1.sfi)
+  * Intel Wireless 9160/9260 (var 0 rev 1) Bluetooth configuration,
+    version 20.10 (intel/ibt-18-0-1.ddc)
+  * Intel Wireless 9160/9260 (var 0 rev 1) Bluetooth firmware, version
+    20.30.0.1 (intel/ibt-18-0-1.sfi)
+  * Intel Wireless 9160/9260 (var 16 rev 1) Bluetooth configuration,
+    version 20.60.0.2 (intel/ibt-18-16-1.ddc)
+  * Intel Wireless 9160/9260 (var 16 rev 1) Bluetooth firmware, version
+    22.200.0.2 (intel/ibt-18-16-1.sfi)
+  * Intel Bluetooth AX201 (var 0 rev 0) configuration, version
+    22.220.0.3 (intel/ibt-19-0-0.ddc)
+  * Intel Bluetooth AX201 (var 0 rev 0) firmware, version 22.220.0.3
+    (intel/ibt-19-0-0.sfi)
+  * Intel Bluetooth AX201 (var 0 rev 1) configuration, version
+    22.220.0.3 (intel/ibt-19-0-1.ddc)
+  * Intel Bluetooth AX201 (var 0 rev 1) firmware, version 22.220.0.3
+    (intel/ibt-19-0-1.sfi)
+  * Intel Bluetooth AX101 (var 0 rev 3) configuration, version
+    22.200.0.2 (intel/ibt-19-0-3.ddc)
+  * Intel Bluetooth AX101 (var 0 rev 3) firmware, version 22.200.0.2
+    (intel/ibt-19-0-3.sfi)
+  * Intel Bluetooth AX201 (var 0 rev 4) configuration, version
+    22.220.0.3 (intel/ibt-19-0-4.ddc)
+  * Intel Bluetooth AX201 (var 0 rev 4) firmware, version 22.220.0.3
+    (intel/ibt-19-0-4.sfi)
+  * Intel Bluetooth AX201 (var 16 rev 4) configuration, version
+    22.220.0.3 (intel/ibt-19-16-4.ddc)
+  * Intel Bluetooth AX201 (var 16 rev 4) firmware, version 22.220.0.3
+    (intel/ibt-19-16-4.sfi)
+  * Intel Bluetooth AX201 firmware, version 22.220.0.3
+    (intel/ibt-19-240-1.ddc)
+  * Intel Bluetooth AX201 firmware, version 22.220.0.3
+    (intel/ibt-19-240-1.sfi)
+  * Intel Bluetooth AX201 firmware, version 22.220.0.3
+    (intel/ibt-19-240-4.ddc)
+  * Intel Bluetooth AX201 firmware, version 22.220.0.3
+    (intel/ibt-19-240-4.sfi)
+  * Intel Bluetooth AX201 (var 32 rev 0) configuration
+    (intel/ibt-19-32-0.ddc)
+  * Intel Bluetooth AX201 (var 32 rev 0) firmware, version 22.220.0.3
+    (intel/ibt-19-32-0.sfi)
+  * Intel Bluetooth AX201 (var 32 rev 1) configuration, version
+    22.220.0.3 (intel/ibt-19-32-1.ddc)
+  * Intel Bluetooth AX201 (var 32 rev 1) firmware, version 22.220.0.3
+    (intel/ibt-19-32-1.sfi)
+  * Intel Bluetooth AX201 (var 32 rev 4) configuration, version
+    22.220.0.3 (intel/ibt-19-32-4.ddc)
+  * Intel Bluetooth AX201 (var 32 rev 4) firmware, version 22.220.0.3
+    (intel/ibt-19-32-4.sfi)
+  * Intel Wireless 22161 (var 0 rev 3) Bluetooth configuration, version
+    22.220.0.3 (intel/ibt-20-0-3.ddc)
+  * Intel Wireless 22161 (var 0 rev 3) Bluetooth firmware, version
+    22.220.0.3 (intel/ibt-20-0-3.sfi)
+  * Intel Wireless 22161 (var 1 rev 3) Bluetooth configuration, version
+    22.220.0.3 (intel/ibt-20-1-3.ddc)
+  * Intel Wireless 22161 (var 1 rev 3) Bluetooth firmware, version
+    22.220.0.3 (intel/ibt-20-1-3.sfi)
+  * Intel Wireless 22161 (var 1 rev 4) Bluetooth configuration
+    (intel/ibt-20-1-4.ddc)
+  * Intel Wireless 22161 (var 1 rev 4) Bluetooth firmware, version
+    22.220.0.3 (intel/ibt-20-1-4.sfi)
+  * Intel Wireless AX211 Bluethooth configuration, version 22.220.0.3
+    (intel/ibt-0040-0041.ddc)
+  * Intel Wireless AX211 Bluethooth firmware, version 22.220.0.3
+    (intel/ibt-0040-0041.sfi)
+  * intel/ibt-1040-0041.ddc
+  * intel/ibt-1040-0041.sfi
+  * Intel Wireless AX2100 Bluethooth configuration, version 22.220.0.3
+    (intel/ibt-0041-0041.ddc)
+  * Intel Wireless AX2100 Bluethooth firmware, version 22.220.0.3
+    (intel/ibt-0041-0041.sfi)
+  * Intel Wireless Bluetooth AX201 configuration, version 22.220.0.3
+    (intel/ibt-0040-4150.ddc)
+  * Intel Wireless Bluetooth AX201 firmware, version 22.220.0.3
+    (intel/ibt-0040-4150.sfi)
+  * Intel Wireless Bluetooth AX201 configuration, version 22.220.0.3
+    (intel/ibt-1040-4150.ddc)
+  * Intel Wireless Bluetooth AX201 firmware, version 22.220.0.3
+    (intel/ibt-1040-4150.sfi)
+  * Intel Wireless 3160 (B6) Bluetooth firmware patch, version 19.30
+    (intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq)
+  * Intel Wireless 3160 (B4) Bluetooth firmware patch, version 19.01
+    (intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq)
+  * Intel Wireless 7260 (B5) Bluetooth firmware patch, version 20.60.0.2
+    (intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq)
+  * Intel Wireless 7260 (B3) Bluetooth firmware patch, version 20.60.0.2
+    (intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq)
+  * Intel Wireless 7260 Bluetooth firmware generic patch
+    (intel/ibt-hw-37.7.bseq)
+  * Intel Wireless 7265 (C0) Bluetooth firmware patch, version 19.30
+    (intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq)
+  * Intel Wireless 7265 (D0) Bluetooth firmware patch, version 20.60.0.2
+    (intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq)
+  * Intel Wireless 7265 (D1) Bluetooth firmware patch, version 20.70.0.4
+    (intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq)
+  * Intel Wireless 7265 Bluetooth firmware generic patch
+    (intel/ibt-hw-37.8.bseq)
+  * Intel Wireless 100 firmware, version 39.31.5.1 (iwlwifi-100-5.ucode)
+  * Intel Wireless 105 firmware, version 18.168.6.1
+    (iwlwifi-105-6.ucode)
+  * Intel Wireless 135 firmware, version 18.168.6.1
+    (iwlwifi-135-6.ucode)
+  * Intel Wireless 1000 firmware, version 39.31.5.1
+    (iwlwifi-1000-5.ucode)
+  * Intel Wireless 2200 firmware, version 18.168.6.1
+    (iwlwifi-2000-6.ucode)
+  * Intel Wireless 2230 firmware, version 18.168.6.1
+    (iwlwifi-2030-6.ucode)
+  * Intel Wireless 3160 firmware, version 17.bfb58538.0
+    (iwlwifi-3160-17.ucode)
+  * Intel Wireless 3168 firmware, version 29.0bd893f3.0
+    (iwlwifi-3168-29.ucode)
+  * Intel Wireless 3945 firmware, version 15.32.2.9
+    (iwlwifi-3945-2.ucode)
+  * Intel Wireless 4965 firmware, version 228.61.2.24
+    (iwlwifi-4965-2.ucode)
+  * Intel Wireless 5100, 5300 and 5350 firmware, version 8.83.5.1
+    (iwlwifi-5000-5.ucode)
+  * Intel Wireless 5150 firmware, version 8.24.2.2
+    (iwlwifi-5150-2.ucode)
+  * Intel Wireless 6000 firmware, version 9.221.4.1
+    (iwlwifi-6000-4.ucode)
+  * Intel Wireless 6005/6205 firmware, version 18.168.6.1
+    (iwlwifi-6000g2a-6.ucode)
+  * Intel Wireless 6030 firmware, version 18.168.6.1
+    (iwlwifi-6000g2b-6.ucode)
+  * Intel Wireless 6250 firmware, version 41.28.5.1
+    (iwlwifi-6050-5.ucode)
+  * Intel Wireless 7260 firmware, version 17.bfb58538.0
+    (iwlwifi-7260-17.ucode)
+  * Intel Wireless 7265 firmware, version 17.bfb58538.0
+    (iwlwifi-7265-17.ucode)
+  * Intel Wireless 7265D firmware, version 29.0bd893f3.0
+    (iwlwifi-7265D-29.ucode)
+  * Intel Wireless 8000C firmware, version 36.ca7b901d.0
+    (iwlwifi-8000C-36.ucode)
+  * Intel Wireless 8265 firmware, version 36.ca7b901.0
+    (iwlwifi-8265-36.ucode)
+  * Intel Wireless 9000 firmware, version 34.ba501b11.0
+    (iwlwifi-9000-pu-b0-jf-b0-34.ucode)
+  * Intel Wireless 9000 firmware, version 38.755cfdd8.0
+    (iwlwifi-9000-pu-b0-jf-b0-38.ucode)
+  * Intel Wireless 9000 firmware, version 46.ff18e32a.0
+    (iwlwifi-9000-pu-b0-jf-b0-46.ucode)
+  * Intel Wireless 9260 firmware, version 34.ba501b11.0
+    (iwlwifi-9260-th-b0-jf-b0-34.ucode)
+  * Intel Wireless 9260 firmware, version 38.755cfdd8.0
+    (iwlwifi-9260-th-b0-jf-b0-38.ucode)
+  * Intel Wireless 9260 firmware, version 46.ff18e32a.0
+    (iwlwifi-9260-th-b0-jf-b0-46.ucode)
+  * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
+    50.3e391d3e.0 (iwlwifi-Qu-b0-hr-b0-50.ucode)
+  * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
+    59.601f3a66.0 (iwlwifi-Qu-b0-hr-b0-59.ucode)
+  * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
+    72.daa05125.0 (iwlwifi-Qu-b0-hr-b0-72.ucode)
+  * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
+    50.3e391d3e.0 (iwlwifi-Qu-b0-jf-b0-50.ucode)
+  * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
+    59.601f3a66.0 (iwlwifi-Qu-b0-jf-b0-59.ucode)
+  * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
+    72.daa05125.0 (iwlwifi-Qu-b0-jf-b0-72.ucode)
+  * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
+    50.3e391d3e.0 (iwlwifi-Qu-c0-hr-b0-50.ucode)
+  * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
+    59.601f3a66.0 (iwlwifi-Qu-c0-hr-b0-59.ucode)
+  * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
+    72.daa05125.0 (iwlwifi-Qu-c0-hr-b0-72.ucode)
+  * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
+    50.3e391d3e.0 (iwlwifi-Qu-c0-jf-b0-50.ucode)
+  * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
+    59.601f3a66.0 (iwlwifi-Qu-c0-jf-b0-59.ucode)
+  * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
+    72.daa05125.0 (iwlwifi-Qu-c0-jf-b0-72.ucode)
+  * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
+    50.3e391d3e.0 (iwlwifi-QuZ-a0-hr-b0-50.ucode)
+  * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
+    59.601f3a66.0 (iwlwifi-QuZ-a0-hr-b0-59.ucode)
+  * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
+    72.daa05125.0 (iwlwifi-QuZ-a0-hr-b0-72.ucode)
+  * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
+    50.3e391d3e.0 (iwlwifi-QuZ-a0-jf-b0-50.ucode)
+  * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
+    59.601f3a66.0 (iwlwifi-QuZ-a0-jf-b0-59.ucode)
+  * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
+    72.daa05125.0 (iwlwifi-QuZ-a0-jf-b0-72.ucode)
+  * Intel Wireless series (CC-A0) firmware, version 50.3e391d3e.0
+    (iwlwifi-cc-a0-50.ucode)
+  * Intel Wireless series (CC-A0) firmware, version 59.601f3a66.0
+    (iwlwifi-cc-a0-59.ucode)
+  * Intel Wireless series (CC-A0) firmware, version 72.daa05125.0
+    (iwlwifi-cc-a0-72.ucode)
+  * Intel Wireless (TY-A0-GF-A0) firmware, version 59.601f3a66.0
+    (iwlwifi-ty-a0-gf-a0-59.ucode)
+  * Intel Wireless (TY-A0-GF-A0) firmware, version 66.55c64978.0
+    (iwlwifi-ty-a0-gf-a0-66.ucode)
+  * Intel Wireless (TY-A0-GF-A0) firmware, version 72.a764baac.0
+    (iwlwifi-ty-a0-gf-a0-72.ucode)
+  * Intel Wireless (TY-A0-GF-A0) firmware, version 73.35c0a2c6.0
+    (iwlwifi-ty-a0-gf-a0-73.ucode)
+  * Intel Wireless (TY-A0-GF-A0) firmware, version 74.fe17486e.0
+    (iwlwifi-ty-a0-gf-a0-74.ucode)
+  * Intel Wireless (TY-A0-GF-A0) PNVM firmware, version 76.27f1c37b.0
+    (iwlwifi-ty-a0-gf-a0.pnvm)
+  * Intel Wireless (SO-A0-GF-A0) firmware, version 72.a764baac.0
+    (iwlwifi-so-a0-gf-a0-72.ucode)
+  * Intel Wireless (SO-A0-GF-A0) PNVM firmware, version 76.27f1c37b.0
+    (iwlwifi-so-a0-gf-a0.pnvm)
+  * Intel Wireless (SO-A0-GF4-A0) firmware, version 72.a764baac.0
+    (iwlwifi-so-a0-gf4-a0-72.ucode)
+  * Intel Wireless (SO-A0-GF4-A0) PNVM firmware, version 76.27f1c37b.0
+    (iwlwifi-so-a0-gf4-a0.pnvm)
+  * Intel Wireless (SO-A0-HR-B0) firmware, version 72.daa05125.0
+    (iwlwifi-so-a0-hr-b0-72.ucode)
+  * Intel Wireless (SO-A0-JF-B0) firmware, version 72.daa05125.0
+    (iwlwifi-so-a0-jf-b0-72.ucode)
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: firmware-libertas
+Source: firmware-nonfree
+Version: 20230515-3+parrot1
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 38052
+Suggests: initramfs-tools
+Breaks: libertas-firmware (<< 9.70.7.p0.0-2)
+Replaces: libertas-firmware
+Provides: libertas-firmware
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-libertas_20230515-3+parrot1_all.deb
+Size: 31222756
+SHA256: fcb0311ee50fc2ff4e962eb5809fdaa7b7aa430cb324046784ed85d3e791dbfb
+SHA1: 49c6876c8413de0f994394cdfeea65f78a3487c2
+MD5sum: faee154640b3966f2b0e147a16dbe8a9
+Description: Binary firmware for Marvell wireless cards
+ This package contains the binary firmware for wireless network cards with
+ Marvell and NXP 88W8xxx chips supported by the libertas_cs, libertas_sdio,
+ libertas_spi, libertas_tf_usb, mwifiex_pcie, mwifiex_sdio, mwifiex_usb,
+ mwl8k and usb8xxx drivers.
+ .
+ Contents:
+  * Libertas 88W8388 'Thinfirm' firmware (lbtf_usb.bin)
+  * Libertas 88W8381 main code (libertas/cf8381.bin)
+  * Libertas 88W8381 boot code (libertas/cf8381_helper.bin)
+  * Libertas 88W8385-CF main code (libertas/cf8385.bin, libertas_cs.fw)
+  * Libertas 88W8385-CF boot code (libertas/cf8385_helper.bin,
+    libertas_cs_helper.fw)
+  * 88W8686-GSPI main code, version 9.x (libertas/gspi8686_v9.bin,
+    libertas/gspi8686.bin)
+  * 88W8686-GSPI boot code, version 9.x
+    (libertas/gspi8686_v9_helper.bin, libertas/gspi8686_hlp.bin)
+  * 88W8688-GSPI main code (libertas/gspi8688.bin)
+  * 88W8688-GSPI boot code (libertas/gspi8688_helper.bin)
+  * Libertas 88W8385-SDIO main code (libertas/sd8385.bin, sd8385.bin)
+  * Libertas 88W8385-SDIO boot code (libertas/sd8385_helper.bin,
+    sd8385_helper.bin)
+  * 88W8686-SDIO main code, version 8.x (libertas/sd8686_v8.bin,
+    sd8686.bin)
+  * 88W8686-SDIO boot code, version 8.x (libertas/sd8686_v8_helper.bin,
+    sd8686_helper.bin)
+  * 88W8686-SDIO main code, version 9.70.20.p0 (libertas/sd8686_v9.bin)
+  * 88W8686-SDIO boot code, version 9.x (libertas/sd8686_v9_helper.bin)
+  * Libertas 88W8388 OLPC firmware, version 5.110.22.p23
+    (libertas/usb8388_olpc.bin)
+  * Libertas 88W8388 firmware, version 5.x (libertas/usb8388_v5.bin,
+    usb8388.bin)
+  * Libertas 88W8388 firmware, version 9.x (libertas/usb8388_v9.bin)
+  * 88W8682 firmware (libertas/usb8682.bin)
+  * Avastar 88W8897-PCIe firmware, version 15.68.19.p21 (WLAN) /
+    15.28.19.p21 (BT) (mrvl/pcie8897_uapsta.bin)
+  * Avastar 88W8997-PCIe firmware, version 16.68.1.p195
+    (mrvl/pcie8997_wlan_v4.bin)
+  * Avastar 88W8997-PCIe-UART firmware, version 16.68.1.p179 (WLAN) /
+    16.26.1.p179 (BT) (mrvl/pcieuart8997_combo_v4.bin)
+  * Avastar 88W8997-PCIe-USB firmware, version 16.68.1.p195 (WLAN) /
+    16.26.1.p195 (BT) (mrvl/pcieusb8997_combo_v4.bin)
+  * 88W8688-SDIO main code (mrvl/sd8688.bin, libertas/sd8688.bin,
+    sd8688.bin)
+  * 88W8688-SDIO boot code (mrvl/sd8688_helper.bin,
+    libertas/sd8688_helper.bin, sd8688_helper.bin)
+  * Avastar 88W8787 firmware, version 14.68.35.p66
+    (mrvl/sd8787_uapsta.bin)
+  * Avastar 88W8797-SDIO firmware, version 14.68.29.p59
+    (mrvl/sd8797_uapsta.bin)
+  * Avastar 88W8801-SDIO firmware, version 14.68.36.p204
+    (mrvl/sd8801_uapsta.bin)
+  * Avastar 88W8887 firmware, version 15.68.7.p189 (WLAN) / 15.26.7.p189
+    (BT) (mrvl/sd8887_uapsta.bin)
+  * Avastar 88W8897-SDIO firmware, version 15.68.19.17 (WLAN) /
+    15.26.19.17 (BT) (mrvl/sd8897_uapsta.bin)
+  * NXP 88W8977-SDIO firmware, version 16.68.1.p195 (WLAN) /
+    16.26.1.p195 (BT) (mrvl/sdsd8977_combo_v2.bin)
+  * NXP 88W8997-SDIO firmware, version 16.68.1.p179 (WLAN) /
+    16.26.1.p179 (BT) (mrvl/sdsd8997_combo_v4.bin)
+  * Avastar 88W8766 firmware, version 14.68.22.p16 (WLAN) / 14.28.22.p16
+    (BT) (mrvl/usb8766_uapsta.bin)
+  * Avastar 88W8797-USB firmware, version 14.68.29.p60
+    (mrvl/usb8797_uapsta.bin)
+  * Avastar 88W8801-USB firmware, version 14.68.36.p138
+    (mrvl/usb8801_uapsta.bin)
+  * Avastar 88W8897-USB firmware, version 15.68.4.p103 (WLAN) /
+    15.28.4.p103 (BT) (mrvl/usb8897_uapsta.bin)
+  * Avastar 88W8997-USB firmware, version 16.68.1.p183 (WLAN) /
+    16.26.1.p183 (BT) (mrvl/usbusb8997_combo_v4.bin)
+  * Prestera ASIC firmware (mrvl/prestera/mvsw_prestera_fw-v2.0.img)
+  * Prestera ASIC firmware (mrvl/prestera/mvsw_prestera_fw-v3.0.img)
+  * TopDog 88W8366 main code (mwl8k/fmimage_8366.fw)
+  * TopDog 88W8366 AP-mode main code (mwl8k/fmimage_8366_ap-2.fw)
+  * TopDog 88W8366 AP-mode main code, version 5.2.8.16
+    (mwl8k/fmimage_8366_ap-3.fw)
+  * TopDog 88W8687 main code (mwl8k/fmimage_8687.fw)
+  * TopDog 88W8764 AP-mode firmware, version 7.4.0.9
+    (mwl8k/fmimage_8764_ap-1.fw)
+  * TopDog 88W8366 boot code (mwl8k/helper_8366.fw)
+  * TopDog 88W8687 boot code (mwl8k/helper_8687.fw)
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
 Package: firmware-linux
 Source: firmware-nonfree
 Version: 20230515-3+parrot1
@@ -1684,5 +2629,323 @@ Description: Binary firmware for various drivers in the Linux kernel
   * Conexant CX23885 core firmware (v4l-cx23885-avcore-01.fw)
   * VIA VT6656 firmware (vntwusb.fw)
   * Silicon Labs WF200 firmware, version 3.12.1 (wfx/wfm_wf200_C0.sec)
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: firmware-myricom
+Source: firmware-nonfree
+Version: 20230515-3+parrot1
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 3869
+Suggests: initramfs-tools
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-myricom_20230515-3+parrot1_all.deb
+Size: 303320
+SHA256: 8216418105bdb3ce2b68b0f6b90d07088d6d1398dd966e5e8c20a8d7705577f8
+SHA1: 251c3815326c2bd6f261055b1f765b211f431747
+MD5sum: ac867fe0a8cb8a9806f0d5ea882c8f07
+Description: Binary firmware for Myri-10G Ethernet adapters
+ This package contains the binary firmware for Myricom Myri-10G Ethernet
+ adapters supported by the myri10ge driver.
+ .
+ Contents:
+  * Myri-10G firmware (aligned, big RX ring), version 1.4.57
+    (myri10ge_eth_big_z8e.dat)
+  * Myri-10G firmware (aligned), version 1.4.57 (myri10ge_eth_z8e.dat)
+  * Myri-10G firmware (unaligned, big RX ring), version 1.4.57
+    (myri10ge_ethp_big_z8e.dat)
+  * Myri-10G firmware (unaligned), version 1.4.57
+    (myri10ge_ethp_z8e.dat)
+  * Myri-10G firmware (aligned, RSS, big RX rings), version 1.4.57
+    (myri10ge_rss_eth_big_z8e.dat)
+  * Myri-10G firmware (aligned, RSS), version 1.4.57
+    (myri10ge_rss_eth_z8e.dat)
+  * Myri-10G firmware (unaligned, RSS, big RX rings), version 1.4.57
+    (myri10ge_rss_ethp_big_z8e.dat)
+  * Myri-10G firmware (unaligned, RSS), version 1.4.57
+    (myri10ge_rss_ethp_z8e.dat)
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: firmware-netxen
+Source: firmware-nonfree
+Version: 20230515-3+parrot1
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 2056
+Suggests: initramfs-tools
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-netxen_20230515-3+parrot1_all.deb
+Size: 1274556
+SHA256: fb9c7296f8017fcf1ba4a8f070766160a204a268491a20dfd6b80ed552225fbb
+SHA1: 4fa4b3ff51f30a597a5ae84c92212aebb9dc543e
+MD5sum: 5068414133f015b8b6f1674be90e77f1
+Description: Binary firmware for QLogic Intelligent Ethernet (3000 and 3100 Series)
+ This package contains the binary firmware for QLogic (formerly NetXen)
+ Intelligent network adapters supported by the netxen_nic and qlcnic
+ drivers.
+ .
+ Contents:
+  * QLogic Intelligent Ethernet (3000 and 3100 Series), version 4.0.590
+    (phanfw.bin)
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: firmware-qlogic
+Source: firmware-nonfree
+Version: 20230515-3+parrot1
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 7861
+Suggests: initramfs-tools
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-qlogic_20230515-3+parrot1_all.deb
+Size: 4241260
+SHA256: 3f22f31b31f8c151947b4ce20116f39f21f13bf0cd774047a2fda04a2d737ac3
+SHA1: 5855e936df6369babbf4a470aa7ab4319bdc56f5
+MD5sum: 3e6248517f3f7dec628516e87e4ea703
+Description: Binary firmware for QLogic HBAs
+ This package contains the binary firmware for QLogic Infiniband, SCSI,
+ Fibre Channel/FCoE adapters and Converged Network Adapters supported by
+ the bfa, bna, ip_iband, qed, qla1280 and qla2xxx drivers.
+ .
+ Contents:
+  * Brocade 425/825/42B/82B/415/815/41B/81B firmware, version 3.2.5.1
+    (cbfw-3.2.5.1.bin)
+  * Brocade 1860/1867/1869 firmware, version 3.2.5.1 (ct2fw-3.2.5.1.bin)
+  * Brocade 1010/1020/1007/1741/804 firmware, version 3.2.5.1
+    (ctfw-3.2.5.1.bin)
+  * QLogic QL45000 series firmware, version 8.10.10.0
+    (qed/qed_init_values_zipped-8.10.10.0.bin)
+  * QLogic QL45000 series firmware, version 8.33.1.0
+    (qed/qed_init_values_zipped-8.33.1.0.bin)
+  * QLogic QL45000 series firmware, version 8.33.11.0
+    (qed/qed_init_values_zipped-8.33.11.0.bin)
+  * QLogic QL45000 series firmware, version 8.37.2.0
+    (qed/qed_init_values_zipped-8.37.2.0.bin)
+  * QLogic QL45000 series firmware, version 8.42.2.0
+    (qed/qed_init_values_zipped-8.42.2.0.bin)
+  * QLogic QL45000 series firmware, version 8.59.1.0
+    (qed/qed_init_values_zipped-8.59.1.0.bin)
+  * QLogic QLA1040 firmware, version 7.65.06 (qlogic/1040.bin)
+  * QLogic QLA1080, 1240, 1280 firmware, version 8.15.11
+    (qlogic/1280.bin)
+  * QLogic QLA10160, 12160 firmware, version 10.04.42 (qlogic/12160.bin)
+  * QLogic IBA7220 serdes firmware (qlogic/sd7220.fw)
+  * QLogic QLA2100 firmware, version 1.19.38 (ql2100_fw.bin)
+  * QLogic QLA2200 firmware, version 2.02.08 (ql2200_fw.bin)
+  * QLogic QLA2300, ISP2312, SP202 firmware, version 3.03.28
+    (ql2300_fw.bin)
+  * QLogic ISP2322, SP212 firmware, version 3.03.28 (ql2322_fw.bin)
+  * QLogic ISP2422, ISP2432[M], SP222, SP232 firmware, version 8.07.00
+    (ql2400_fw.bin)
+  * QLogic ISP2532 firmware, version 8.07.00 (ql2500_fw.bin)
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: firmware-realtek
+Source: firmware-nonfree
+Version: 20230515-3+parrot1
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 8113
+Suggests: initramfs-tools
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-realtek_20230515-3+parrot1_all.deb
+Size: 1634912
+SHA256: a4cfaeddd907ef020a627a0c794dcb322e4ccbd3950d5ce2570314c2b1ccec77
+SHA1: af25d02f9685bed7a8f1b568b167b5e9b78ce6b4
+MD5sum: ea642c4367edc20c88f426546b7aee03
+Description: Binary firmware for Realtek wired/Wi-Fi/BT adapters
+ This package contains the binary firmware for Realtek Ethernet, Wi-Fi and
+ Bluetooth adapters supported by various drivers.
+ .
+ Contents:
+  * Realtek RTL8192E boot code (RTL8192E/boot.img)
+  * Realtek RTL8192E init data (RTL8192E/data.img)
+  * Realtek RTL8192E main code (RTL8192E/main.img)
+  * Realtek RTL8192EE Bluetooth firmware (rtl_bt/rtl8192ee_fw.bin)
+  * Realtek RTL8192EU Bluetooth firmware (rtl_bt/rtl8192eu_fw.bin)
+  * Realtek RTL8723AU rev A Bluetooth firmware (rtl_bt/rtl8723a_fw.bin)
+  * Realtek RTL8723BU rev B Bluetooth firmware (rtl_bt/rtl8723b_fw.bin)
+  * Realtek RTL8723BS Bluetooth config
+    (rtl_bt/rtl8723bs_config-OBDA8723.bin,
+    rtl_bt/rtl8723bs_config-OBDA0623.bin)
+  * Realtek RTL8723BS Bluetooth firmware (rtl_bt/rtl8723bs_fw.bin)
+  * Realtek RTL8723D Bluetooth config (rtl_bt/rtl8723d_config.bin)
+  * Realtek RTL8723D Bluetooth firmware (rtl_bt/rtl8723d_fw.bin)
+  * Realtek RTL8761A Bluetooth firmware (rtl_bt/rtl8761a_fw.bin)
+  * Realtek RTL8761B Bluetooth config (rtl_bt/rtl8761b_config.bin)
+  * Realtek RTL8761B Bluetooth firmware (rtl_bt/rtl8761b_fw.bin)
+  * Realtek RTL8761BU Bluetooth config (rtl_bt/rtl8761bu_config.bin)
+  * Realtek RTL8761BU Bluetooth firmware (rtl_bt/rtl8761bu_fw.bin)
+  * Realtek RTL8812AE Bluetooth firmware (rtl_bt/rtl8812ae_fw.bin)
+  * Realtek RTL8821A Bluetooth firmware (rtl_bt/rtl8821a_fw.bin)
+  * Realtek RTL8821C Bluetooth config (rtl_bt/rtl8821c_config.bin,
+    rtl_bt/rtl8821a_config.bin)
+  * Realtek RTL8821C Bluetooth firmware (rtl_bt/rtl8821c_fw.bin)
+  * Realtek RTL8822B Bluetooth config (rtl_bt/rtl8822b_config.bin)
+  * Realtek RTL8822B Bluetooth firmware (rtl_bt/rtl8822b_fw.bin)
+  * Realtek RTL8822CS Bluetooth config (rtl_bt/rtl8822cs_config.bin)
+  * Realtek RTL8822CS Bluetooth firmware (rtl_bt/rtl8822cs_fw.bin)
+  * Realtek RTL8822CU Bluetooth config (rtl_bt/rtl8822cu_config.bin)
+  * Realtek RTL8822CU Bluetooth firmware (rtl_bt/rtl8822cu_fw.bin)
+  * Realtek RTL8852AU Bluetooth config (rtl_bt/rtl8852au_config.bin)
+  * Realtek RTL8852AU Bluetooth firmware (rtl_bt/rtl8852au_fw.bin)
+  * Realtek RTL8852BU Bluetooth config (rtl_bt/rtl8852bu_config.bin)
+  * Realtek RTL8852BU Bluetooth firmware (rtl_bt/rtl8852bu_fw.bin)
+  * Realtek RTL8852CU Bluetooth config (rtl_bt/rtl8852cu_config.bin)
+  * Realtek RTL8852CU Bluetooth firmware (rtl_bt/rtl8852cu_fw.bin)
+  * Realtek RTL8851BU Bluetooth firmware (rtl_bt/rtl8851bu_fw.bin)
+  * Realtek RTL8851BU Bluetooth config (rtl_bt/rtl8851bu_config.bin)
+  * Realtek RTL8105E-1 firmware (rtl_nic/rtl8105e-1.fw)
+  * Realtek RTL8106E-1 firmware, version 0.0.1 (rtl_nic/rtl8106e-1.fw)
+  * Realtek RTL8106E-2 firmware, version 0.0.1 (rtl_nic/rtl8106e-2.fw)
+  * Realtek RTL8107E-1 firmware, version 0.0.2 (rtl_nic/rtl8107e-1.fw)
+  * Realtek RTL8107E-2 firmware, version 0.0.2 (rtl_nic/rtl8107e-2.fw)
+  * Realtek RTL8125 firmware (rtl_nic/rtl8125a-3.fw)
+  * Realtek RTL8125B firmware (rtl_nic/rtl8125b-1.fw)
+  * Realtek RTL8125B firmware (rtl_nic/rtl8125b-2.fw)
+  * Realtek RTL8152/RTL8153 firmware (rtl_nic/rtl8153a-2.fw)
+  * Realtek RTL8152/RTL8153 firmware (rtl_nic/rtl8153a-3.fw)
+  * Realtek RTL8152/RTL8153 firmware (rtl_nic/rtl8153a-4.fw)
+  * Realtek RTL8152/RTL8153 firmware (rtl_nic/rtl8153b-2.fw)
+  * Realtek RTL8153C firwmare (rtl_nic/rtl8153c-1.fw)
+  * Realtek RTL8156A firwmare (rtl_nic/rtl8156a-2.fw)
+  * Realtek RTL8156B firwmare (rtl_nic/rtl8156b-2.fw)
+  * Realtek RTL8111D-1/RTL8168D-1 firmware (rtl_nic/rtl8168d-1.fw)
+  * Realtek RTL8111D-2/RTL8168D-2 firmware (rtl_nic/rtl8168d-2.fw)
+  * Realtek RTL8168E-1 firmware (rtl_nic/rtl8168e-1.fw)
+  * Realtek RTL8168E-2 firmware (rtl_nic/rtl8168e-2.fw)
+  * Realtek RTL8168E-3 firmware, version 0.0.4 (rtl_nic/rtl8168e-3.fw)
+  * Realtek RTL8168F-1 firmware, version 0.0.5 (rtl_nic/rtl8168f-1.fw)
+  * Realtek RTL8168F-2 firmware, version 0.0.4 (rtl_nic/rtl8168f-2.fw)
+  * Realtek's RTL8168fp/RTL8117 firmware (rtl_nic/rtl8168fp-3.fw)
+  * Realtek RTL8168G-1 firmware, version 0.0.3 (rtl_nic/rtl8168g-1.fw)
+  * Realtek RTL8168G-2 firmware, version 0.0.1 (rtl_nic/rtl8168g-2.fw)
+  * Realtek RTL8168G-3 firmware, version 0.0.1 (rtl_nic/rtl8168g-3.fw)
+  * Realtek RTL8168H-1 firmware, version 0.0.2 (rtl_nic/rtl8168h-1.fw)
+  * Realtek RTL8168H-2 firmware, version 0.0.2 (rtl_nic/rtl8168h-2.fw)
+  * Realtek RTL8402-1 firmware, version 0.0.1 (rtl_nic/rtl8402-1.fw)
+  * Realtek RTL8411-1 firmware, version 0.0.3 (rtl_nic/rtl8411-1.fw)
+  * Realtek RTL8411-2 firmware, version 0.0.1 (rtl_nic/rtl8411-2.fw)
+  * Realtek RTL8188EE firmware (rtlwifi/rtl8188efw.bin)
+  * Realtek RTL8188EU firmware (rtlwifi/rtl8188eufw.bin)
+  * Realtek RTL8192CE/RTL8188CE firmware (rtlwifi/rtl8192cfw.bin)
+  * Realtek RTL8192CE/RTL8188CE B-cut firmware
+    (rtlwifi/rtl8192cfwU_B.bin)
+  * Realtek RTL8188CE A-cut firmware, version 4.816.2011
+    (rtlwifi/rtl8192cfwU.bin)
+  * Realtek RTL8192CU/RTL8188CU UMC A-cut firmware
+    (rtlwifi/rtl8192cufw_A.bin)
+  * Realtek RTL8192CU/RTL8188CU UMC B-cut firmware
+    (rtlwifi/rtl8192cufw_B.bin)
+  * Realtek RTL8192CU/RTL8188CU fallback firmware
+    (rtlwifi/rtl8192cufw.bin)
+  * Realtek RTL8192CU/RTL8188CU TMSC firmware
+    (rtlwifi/rtl8192cufw_TMSC.bin)
+  * Realtek RTL8192DE firmware (rtlwifi/rtl8192defw.bin)
+  * rtlwifi/rtl8192eu_ap_wowlan.bin
+  * Realtek RTl8192EU non-WoWLAN firmware (rtlwifi/rtl8192eu_nic.bin,
+    rtlwifi/rtl8192eefw.bin)
+  * Realtek RTl8192EU WoWLAN firmware (rtlwifi/rtl8192eu_wowlan.bin)
+  * Realtek RTL8192SE/RTL8191SE firmware, version 4.816.2011
+    (rtlwifi/rtl8192sefw.bin)
+  * Realtek RTL8192SU/RTL8712U firmware (rtlwifi/rtl8712u.bin)
+  * Realtek RTL8723AU rev A wifi-with-BT firmware
+    (rtlwifi/rtl8723aufw_A.bin)
+  * Realtek RTL8723AU rev B wifi-with-BT firmware
+    (rtlwifi/rtl8723aufw_B.bin)
+  * Realtek RTL8723AU rev B wifi-only firmware
+    (rtlwifi/rtl8723aufw_B_NoBT.bin)
+  * Realtek RTL8723BE firmware, version 36 (rtlwifi/rtl8723befw_36.bin)
+  * Realtek RTL8723BE firmware (rtlwifi/rtl8723befw.bin)
+  * Realtek RTL8723BS BT firmware (rtlwifi/rtl8723bs_bt.bin)
+  * Realtek RTl8723BU AP WoWLAN firmware
+    (rtlwifi/rtl8723bu_ap_wowlan.bin, rtlwifi/rtl8723bs_ap_wowlan.bin)
+  * Realtek RTl8723BU non-WoWLAN firmware (rtlwifi/rtl8723bu_nic.bin,
+    rtlwifi/rtl8723bs_nic.bin)
+  * Realtek RTl8723BU WoWLAN firmware (rtlwifi/rtl8723bu_wowlan.bin,
+    rtlwifi/rtl8723bs_wowlan.bin)
+  * Realtek RTL8723DE firmware (rtlwifi/rtl8723defw.bin)
+  * Realtek RTL8723AE rev B firmware (rtlwifi/rtl8723fw_B.bin)
+  * Realtek RTL8723AE rev A firmware (rtlwifi/rtl8723fw.bin)
+  * Realtek RTL8821AEFW firmware (rtlwifi/rtl8812aefw.bin)
+  * Realtek RTL8821AEFW wowlan firmware (rtlwifi/rtl8812aefw_wowlan.bin)
+  * Realtek RTL8821AE firmware, version 29 (rtlwifi/rtl8821aefw_29.bin)
+  * Realtek RTL8821AE firmware (rtlwifi/rtl8821aefw.bin)
+  * Realtek RTL8821AE firmware (rtlwifi/rtl8821aefw_wowlan.bin)
+  * Realtek RTL8822BE firmware (rtlwifi/rtl8822befw.bin)
+  * Realtek 8821C firmware (rtw88/rtw8821c_fw.bin)
+  * Realtek 8822BE firmware (rtw88/rtw8822b_fw.bin)
+  * Realtek 8822CE firmware (rtw88/rtw8822c_fw.bin)
+  * Realtek 8822C firmware (rtw88/rtw8822c_wow_fw.bin)
+  * rtw88/rtw8723d_fw.bin
+  * Realtek RTL8852A firmware, version v0.9.12.2 (rtw89/rtw8852a_fw.bin)
+  * Realtek RTL8852B firmware, version v0.27.32.1
+    (rtw89/rtw8852b_fw.bin)
+  * Realtek RTL8852B firmware (format-1), version v0.29.29.1
+    (rtw89/rtw8852b_fw-1.bin)
+  * Realtek RTL8852C firmware, version v0.27.56.13
+    (rtw89/rtw8852c_fw.bin)
+Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: firmware-ti-connectivity
+Source: firmware-nonfree
+Version: 20230515-3+parrot1
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 4687
+Suggests: initramfs-tools
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-ti-connectivity_20230515-3+parrot1_all.deb
+Size: 1069112
+SHA256: e4deb0ac6372f28b619c7a9df72ab316b9f45942497e7f3a426f8781947ef548
+SHA1: b5a327e0e408e72987f3e38c5d918c984004efca
+MD5sum: 502b8e67331ba36349d5cd0619f4ce01
+Description: Binary firmware for TI Connectivity Wi-Fi and BT/FM/GPS adapters
+ This package contains the binary firmware for Texas Instruments WL1251,
+ WL127x, WL128x and WL18xx wireless network chips supported by the wl1251,
+ wl12xx and wl18xx drivers and BT/FM/GPS chips supported by the st_drv
+ driver.
+ .
+ Contents:
+  * TI VPDMA firmare (ti/vpdma-1b8.bin)
+  * ti-connectivity/TIInit_6.2.31.bts
+  * ti-connectivity/TIInit_6.6.15.bts
+  * ti-connectivity/TIInit_7.2.31.bts
+  * TI WL1251 firmware (ti-connectivity/wl1251-fw.bin)
+  * TI WL1251 reference NVS (ti-connectivity/wl1251-nvs.bin)
+  * TI WL127x multi-role firmware, version 6.5.7.0.50
+    (ti-connectivity/wl127x-fw-5-mr.bin)
+  * TI WL127x PLT (calibration) firmware, version 6.3.10.0.142
+    (ti-connectivity/wl127x-fw-5-plt.bin)
+  * TI WL127x single-role firmware, version 6.3.10.0.142
+    (ti-connectivity/wl127x-fw-5-sr.bin)
+  * TI WL127x reference NVS (ti-connectivity/wl127x-nvs.bin,
+    ti-connectivity/wl1271-nvs.bin, ti-connectivity/wl12xx-nvs.bin)
+  * TI WL128x multi-role firmware, version 7.5.7.0.50
+    (ti-connectivity/wl128x-fw-5-mr.bin)
+  * TI WL128x PLT (calibration) firmware, version 7.3.10.2.142
+    (ti-connectivity/wl128x-fw-5-plt.bin)
+  * TI WL128x single-role firmware, version 7.3.10.0.142
+    (ti-connectivity/wl128x-fw-5-sr.bin)
+  * TI WL128x reference NVS (ti-connectivity/wl128x-nvs.bin)
+  * TI WL18xx firmware, ABI 2 (ti-connectivity/wl18xx-fw-2.bin)
+  * TI WL18xx firmware, ABI 3 (ti-connectivity/wl18xx-fw-3.bin)
+  * TI WL18xx firmware, ABI 4, version 8.9.0.0.79
+    (ti-connectivity/wl18xx-fw-4.bin)
 Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 

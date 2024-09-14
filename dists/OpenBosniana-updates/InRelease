@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Fri, 13 Sep 2024 23:42:59 UTC
+Date: Sat, 14 Sep 2024 00:03:05 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbkzgMACgkQ5Vfn9vbt
-T6rA1w/9HNZqjehOcS6fB6B0NYXZ13fE9Apg91UBeqG2WnF/FpCBa+PUs+Ww5Syc
-DV4qy1tKptJ6QPslO2FOqvrPJ//V3mQIC7fDWB2t95x7GlLYZAk23pXA5NGsUU1x
-1wZ4Ut1oUbNDOMb3K8SGkG4Y00LM/nGU6eoD8jKY27Vf4sZ1o2/PKsJ5W7Ia7ouW
-HdH/YtrYHQJsJkGUGdqo57+ZtKk3CfuC+LqDqwlWpWTbxpCOJMzTvVwQaedsCW1o
-V0bV0FK7MxoHu5Y4UMBSVVvGmpRctdXN2hkgODtJvnvgEOcHtWjVjzXtiWEda8UH
-5SouwfHCULUDaA/KuJeVpdEtb+ZLfSbr+WE8jzkEenWr8aIxf3tG/OPX7GOquvkV
-/DGi3ksMp+OPc5A5BWT51yDHtkmYbE8y+wmklS454zsHfRKmhSJZ28jEZNVTj7IE
-H3oLkoPmVbshmldGixycjfdqkcQl1sPrJOTsZRXOOERp6Nxd7avcHdnNhp9gdZOi
-sWbAPyyeHhpp5/8viQEU0nkm4GA8G7dy5FRKOK+eKUhiQp5sHod2nA7pyHxHJjiK
-/0AToCnr5FxcKk0e0EjUpHk66cjV49DKBmS/R+BzUsykoQ4LF1kb98dlL67ng1A3
-BK3fYaGrOM28vy9t0sax4mrpxsbZ0HmbyYvDJoQ89NKcdegbIKY=
-=ULb4
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbk0roACgkQ5Vfn9vbt
+T6rWVQ/7BFvo7hXmXu71iqPzGs1kd0ZIQA54dw8HNznLomDVBhIIvcaFEbg5FA7y
+jgZ2BXq2bam91wzJ58hz99SZBFnM5PqWU38qDbZPzFuXpXUG7823I0ROL02J0gI7
+oUEDpoTvrJTN+AfeivDh6r4XKGx9fIN1geVGi241pZJDK/dCyIW41chiXMwOCnwY
+dkzpsmunRdvnctmWd+UGiUDao3O1LYxAMKJZQL4WuwNb7MLoQeT0h8Urzy4BHVER
+AFpxL33+o+j9B5gFnSxd9MW+u7TpNUDy5WTcMwR6Cysd68Xo4Ola2u9TITlr0WiI
+2yASF9FnNUFBVZIA8U0X5qP5GcpD5WmohVmvl7V6W95em5yu8pYIDowuGj275FQ3
+HCVAwRergHPC+Jubx8JRzhC9wknL2FvC4Hl/FWeSt+KtOOfgSSIOx+1Kp8bDML35
+9b58xqLikZnmnRlNTBHbJ/yopp3OJiu/7twSKgouvEbGyaHzB+0iNriSi9NA2Ya5
+PGw9pf1PrZjdTVUTGVw4Id3+c4AH+zDpRxAIOd+ULMpbaAzjmbKzAGeoLbPXWaiU
+jzPv68OnF29KzhAgycq1ipesahGgkHkXY2F2qZeGQvgV1MEtQPcBcabEW/aaAE7Y
+0QeMI5XCVeoC3lSfwyz3EuuSRybvoD2eBonhzmURP/ktBc+AVRM=
+=t+BR
 -----END PGP SIGNATURE-----

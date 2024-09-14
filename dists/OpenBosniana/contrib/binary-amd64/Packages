@@ -81,6 +81,63 @@ Description: firmware installer for the b43legacy driver
   * BCM4306/2;
   * BCM4306.
 
+Package: realtek-rtl8188eus-dkms
+Version: 5.3.9~git20230921.3fae723-0parrot2
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 11776
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/aircrack-ng/rtl8188eus
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl8188eus-dkms/realtek-rtl8188eus-dkms_5.3.9~git20230921.3fae723-0parrot2_all.deb
+Size: 1493492
+SHA256: f069d0488ef57838ba6c2c203e67226d234786f7ca8419072390d9529171593d
+SHA1: 47a0b0c2ee2bd856e58ca8537f45c2f380bcc8c9
+MD5sum: 878dd17aaa80f743cd24bcb826457911
+Description: Realtek RTL8188EUS driver in DKMS format
+ This package provides the source code for RTL8188EUS Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl8814au-dkms
+Version: 5.8.5.1~git20240527.d8208c8-0parrot1
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 14341
+Depends: dkms (>= 2.1.0.0), bc
+Homepage: https://github.com/morrownr/8814au
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl8814au-dkms/realtek-rtl8814au-dkms_5.8.5.1~git20240527.d8208c8-0parrot1_all.deb
+Size: 1663208
+SHA256: a5219da3cca9ecf4502b1fb8091816c954796c157e4f6442f8986b3738399b73
+SHA1: e98c3d9a429ebb11d00249c034502bb38a623789
+MD5sum: 654f939c05892645cb2173974a70478e
+Description: Realtek RTL8814AU driver in DKMS format
+ This package provides the source code for RTL8814AU Linux driver (with monitor
+ mode and frame injection) to be build with dkms. Kernel sources or headers are
+ required to compile this module.
+
+Package: realtek-rtl88xxau-dkms
+Version: 5.6.4.2~git20240510.b44d288-0parrot1
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Installed-Size: 14888
+Depends: dkms (>= 2.1.0.0), realtek-rtl8814au-dkms
+Homepage: https://github.com/aircrack-ng/rtl8812au
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl88xxau-dkms/realtek-rtl88xxau-dkms_5.6.4.2~git20240510.b44d288-0parrot1_all.deb
+Size: 1783292
+SHA256: 3a4976dd1313e30f102ffca0433fd7a6ec0211fc8efc806a994700bf46d8daad
+SHA1: 6f0bbef032b1e45adbab550fea3c97987d93ce93
+MD5sum: 7155dbe11694de44c052a35b718388d6
+Description: Realtek RTL88xxAU driver in DKMS format
+ This package provides the source code for RTL8812AU/21AU Linux
+ driver (with monitor mode and frame injection) to be build with dkms. Kernel
+ sources or headers are required to compile this module.
+
 Package: virtualbox-guest-utils
 Source: virtualbox (7.0.14-dfsg-4)
 Version: 7.0.14-dfsg-4+b3

@@ -3055,6 +3055,32 @@ Description: Debian package management system
  For Debian package development tools, install dpkg-dev.
 Original-Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
 
+Package: dpkg-dev
+Source: dpkg
+Version: 1.21.22
+Architecture: all
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Installed-Size: 1728
+Depends: perl:any, libdpkg-perl (= 1.21.22), tar (>= 1.28-1), bzip2, xz-utils (>= 5.4.0), patch (>= 2.7), make, binutils
+Recommends: build-essential, gcc | c-compiler, fakeroot, gnupg | sq | sqop | pgpainless-cli, gpgv | sq | sqop | pgpainless-cli, libalgorithm-merge-perl
+Suggests: debian-keyring
+Breaks: debhelper (<< 10.10.1~), libsop-java-java (<< 4.0.7~), pgpainless-cli (<< 1.3.13~), sq (<< 0.25.0~), sqop (<< 0.27.2~)
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Priority: optional
+Section: utils
+Filename: pool/main/d/dpkg/dpkg-dev_1.21.22_all.deb
+Size: 1353268
+SHA256: 22a119e3abe0394d552a7d0ffb94b833d083c792ae371cf910f1b428289b9161
+SHA1: e5b1d44215f85d72fde6718c95d5189b48112f5e
+MD5sum: 9f7f9b3e168fd5efd9a5490b0a2a7baa
+Description: Debian package development tools
+ This package provides the development tools (including dpkg-source)
+ required to unpack, build and upload Debian source packages.
+ .
+ Most Debian source packages will require additional tools to build;
+ for example, most packages need make and the C compiler gcc.
+
 Package: drkonqi
 Version: 5.27.5-2
 Architecture: amd64
@@ -14629,6 +14655,75 @@ Description: routines to convert IEEE floats to and from strings
  and improved so that it can be used more easily in other projects.
  .
  This package contains a shared version of the library.
+
+Package: libdpkg-perl
+Source: dpkg
+Version: 1.21.22
+Architecture: all
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Installed-Size: 1987
+Depends: perl:any, dpkg (>= 1.18.11)
+Recommends: libfile-fcntllock-perl, liblocale-gettext-perl, bzip2, xz-utils (>= 5.4.0)
+Suggests: debian-keyring, gnupg | sq | sqop | pgpainless-cli, gpgv | sq | sqop | pgpainless-cli, gcc | c-compiler, binutils, patch, sensible-utils, git, bzr
+Breaks: dgit (<< 3.13~), libsop-java-java (<< 4.0.7~), pgpainless-cli (<< 1.3.13~), pkg-kde-tools (<< 0.15.28~), sq (<< 0.25.0~), sqop (<< 0.27.2~)
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Priority: optional
+Section: perl
+Filename: pool/main/d/dpkg/libdpkg-perl_1.21.22_all.deb
+Size: 603068
+SHA256: 2042031fa1a2a3cc5810f490a19e61c173bd9b374340706151c96449c6263617
+SHA1: 766610939666d7c1d6cadae07bb3d5a117ac57d9
+MD5sum: ede63f2eda8187eb9bab542ffde1ff4b
+Description: Dpkg perl modules
+ This package provides the perl modules used by the scripts
+ in dpkg-dev. They cover a wide range of functionality. Among them
+ there are the following public modules:
+ .
+  - Dpkg: core variables
+  - Dpkg::Arch: architecture handling functions
+  - Dpkg::BuildFlags: set, modify and query compilation build flags
+  - Dpkg::BuildInfo: build information functions
+  - Dpkg::BuildOptions: parse and manipulate DEB_BUILD_OPTIONS
+  - Dpkg::BuildProfiles: parse and manipulate build profiles
+  - Dpkg::Changelog: parse changelogs
+  - Dpkg::Changelog::Entry: represents a changelog entry
+  - Dpkg::Changelog::Parse: generic changelog parser for dpkg-parsechangelog
+  - Dpkg::Checksums: generate and parse checksums
+  - Dpkg::Compression: simple database of available compression methods
+  - Dpkg::Compression::FileHandle: transparently (de)compress files
+  - Dpkg::Compression::Process: wrapper around compression tools
+  - Dpkg::Conf: parse dpkg configuration files
+  - Dpkg::Control: parse and manipulate Debian control information
+    (.dsc, .changes, Packages/Sources entries, etc.)
+  - Dpkg::Control::Changelog: represent fields output by dpkg-parsechangelog
+  - Dpkg::Control::Fields: manage (list of known) control fields
+  - Dpkg::Control::Hash: parse and manipulate a block of RFC822-like fields
+  - Dpkg::Control::Info: parse files like debian/control
+  - Dpkg::Control::Tests: parse files like debian/tests/control
+  - Dpkg::Control::Tests::Entry: represents a debian/tests/control stanza
+  - Dpkg::Deps: parse and manipulate dependencies
+  - Dpkg::Deps::Simple: represents a single dependency statement
+  - Dpkg::Deps::Multiple: base module to represent multiple dependencies
+  - Dpkg::Deps::Union: list of unrelated dependencies
+  - Dpkg::Deps::AND: list of AND dependencies
+  - Dpkg::Deps::OR: list of OR dependencies
+  - Dpkg::Deps::KnownFacts: list of installed and virtual packages
+  - Dpkg::Exit: push, pop and run exit handlers
+  - Dpkg::Gettext: wrapper around Locale::gettext
+  - Dpkg::IPC: spawn sub-processes and feed/retrieve data
+  - Dpkg::Index: collections of Dpkg::Control (Packages/Sources files for
+    example)
+  - Dpkg::Interface::Storable: base object serializer
+  - Dpkg::Path: common path handling functions
+  - Dpkg::Source::Format: manipulate debian/source/format files
+  - Dpkg::Source::Package: extract Debian source packages
+  - Dpkg::Substvars: substitute variables in strings
+  - Dpkg::Vendor: identify current distribution vendor
+  - Dpkg::Version: parse and manipulate Debian package versions
+ .
+ All the packages listed in Suggests or Recommends are used by some of the
+ modules.
 
 Package: libdrm-amdgpu1
 Source: libdrm (2.4.114-1)
@@ -39336,6 +39431,26 @@ Description: OpenBosniana GNU/Linux custom menu
  .
  It is used by any destkop that complies with the Freedesktop menu
  specification at http://standards.freedesktop.org/menu-spec/menu-spec-1.0.html
+
+Package: openbosniana-meta-base
+Source: openbosniana-core
+Version: 2024.09.06
+Architecture: all
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 10
+Depends: anonsurf, tor, torbrowser-launcher, zulucrypt-cli, zulucrypt-gui, zulumount-gui, zulupolkit, git, python3, python3-pip, python3-venv
+Recommends: nyx, mat2, anonsurf-gtk, anonsurf-cli, gpa, sirikali, gocryptfs, cryfs
+Homepage: https://bosniana.org
+Priority: optional
+Section: metapackages
+Filename: pool/main/o/openbosniana-core/openbosniana-meta-base_2024.09.06_all.deb
+Size: 908
+SHA256: 2fb3a284e158e58f3990d4f2f0f5446e5863ec5da8309d23b0bb1075debdd757
+SHA1: 69e91434b7f930ff69f0b1659f25aed2f5c5822b
+MD5sum: df110c10a8cbd76dd10dbf965c256d44
+Description: OpenBosniana OS base apps
+ .
+ This metapackage provides the base tools.
 
 Package: openssh-client
 Source: openssh

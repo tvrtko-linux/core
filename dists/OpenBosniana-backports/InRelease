@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Fri, 13 Sep 2024 23:42:58 UTC
+Date: Sat, 14 Sep 2024 00:03:05 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbkzgIACgkQ5Vfn9vbt
-T6o4Zw/+LEjwglnwyy7FD7rViqVk2o2MOyNlSox18WVJuLbLnGlur+ZqISay+Uz3
-m+UOAifv7kfea36QiyLLb56UhdSqAy6gQTG3YIsWaD8LslwoGAfZ05Gzhp7Rlu98
-Q+iUcmjSr5VLUl/AVAVGNuyfO0mvlFHp+u47T8KLbuD5622q4A7vz2MIexAd2YhV
-fN5TiWJBXGfuPgr8C9gd7zPlSefydmmVqAkDGmsj+UZrK99IIFkBpNssrYktHPCG
-GsOHEiV54ZGflIIkevNitgdwmJnO2ygAwq7AbblKcCp8V1inpgZU5BhICwVbJ1eZ
-2WEMWBGlbtEBj6GdDqAqbR/UHIAWNHO3/nxlw3drWoyvPZdWaYNfPaJlmeYyE2uG
-SSjzvM8ZGhchiQxeKsOnDhTxPF2Ak4AFOFOEeVGEyNpFiV4YyTOn1KC4pOvKlFE2
-r6kcWaa1iHtxR9xORy3Bk6+0pIxT5uwIleguR5a3Ku79KjaSZNWX0diiK+Lf3IsF
-LI3Ph7VxIhmbvGN4F1VJuhrUhfvvGK6XaCv9NpgjwjX6heW3TUY2OaRsdibrcpga
-4POXfIFN1yu8oof/Hc4SAmDfqTIOAmMSgL+mYaNZH7DOyQW6E6DbFUHXeKRz4TyA
-WKF9LToSEkuwvOrRSSFn3Dlb2Hv3LPy4yX31QJQChn5AKvHFZDw=
-=10vd
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbk0rkACgkQ5Vfn9vbt
+T6rewA/+NRMgFINDybWKEXwhDPsgLKpsvMOyIVFP3HYrC+8u7aEvvUkbAz0VLVr+
+d0CUjXVQp6h68w2kG7XN/iWUMTBNcMxltXHbfR6GHDrzl7kzjxpZThGPkQYR92x4
+W1UgeUfxpbt8p3hd9af359eoniVdDi2hxEOW0W/O1mISEx344zk3K7L/botwCp18
+NONlJ1Mwa9OQBXXIUiE0jIPqgygvDoQwc0qlo3dbYrHedfbwfPKcpQdKn9db+Llh
+cm6NN5ckLZHKYHk0kRvj6EyxruqzIETGz0Mv499rRpXFU14Dbif9Co64MCjhpX/y
+xYbZsIwezovey47Yx65UFRJ499SO2qc96PuxNS5tgpNl9CK3E8Zb8l78wcYcsX2O
+GSo+jNsvp7eB6lDlHNiXtzcMcU6kS/7pBkRC2J9kIlIBnHDiCJKLRDo+4Yb1avtD
+CBTVy5GTX6Qk6KrS3n9mIhgKYIBrmQMUDZBcQEcZn72eg2TsOznvyndRw5sO7Vwt
+1Ij99/Kk2wq06f/lL0BeviOnCz12LzcWDH+T0/XaKNbEe0bGOUqxcP8Za1lg/sPZ
+R/s9qaAWAdP+cXpint+OIcLt+Wpi+PdvGv5Toqd3iNPLogXONPCUP957WgeuQPSw
+DHJLsLVcyF/zByZS1o6dA8mW0Hw1JN6RVl8+ZbZts2+BQUuIJJI=
+=dC7P
 -----END PGP SIGNATURE-----
