@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 14 Sep 2024 00:03:06 UTC
+Date: Sat, 14 Sep 2024 01:13:24 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbk0rsACgkQ5Vfn9vbt
-T6pY4RAAmY/T+GV/JHiikwv6w2bpNNUx25scvUykIV6eOGgMtGj3gLTMdEM9dV66
-n9fG6jdkmayQWSmLOZPGEkedx7EnFwVtVGOGhuesuOG7nMeMmOPC7BwWil7seyl9
-gTOJm+Hx2IaImyapqUSSkgtTJTxCbF65yYNrwQJtPeKNFnDOLpPa/bh703F5QZm7
-Y/KNufZe7btVTtBhUvw6CG+tYxstUr2YmtvU4En0yp5hSk902GbO0T8rvpMQrK6O
-rhdrFZOJR/6bvZy7ve9zIDnaYLMCI5hqnZC4C1Qr2UC7d/5KrBZkbVqSgYTUXOgu
-DJXK+cV0xd5V5v/yf0Gd4mfI/7LftNckXQGqauljf73VVFRFHk+mQbVKs46MwUjp
-Dk7mdA9uuCbaLriLyR3DkgHMd8AxD2b0yZRYs5ynXySsajL8zsxFOSGDBqUNly7g
-wrQysFcqGUmPy29zsQGu6PO9Ay9C66SwjMh2NEzdcs0aWmD6AbToi6L3Bw3tfRf8
-bwJA1tQojwd67WD9pONLxbtaHIzn8sXzMQPmsVHKY8++SV2mD1Xfg/4wHJy9imxW
-Jx7jnoSkJ9GClDMMHKJqbEfjDUcS1mYRrWOKadavMPeu2H1WwyAwSjrm5lAP2r8E
-XSzq2l26OaqdxnSzfbwtdQmWwC68sdNL83fqgMFP0PcyUY+pDrQ=
-=gEVN
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbk4zUACgkQ5Vfn9vbt
+T6pKOQ//S725/emjn3PCftm4mDuaDrue01vRUE8jjQctnOmu9qIvGhTcHP34F4Ve
+sEw0OydrXVBEz6y/P+XETLV1l6ic1Ra7VvA/b6jyQzwSVVsVK4H+hFqiWfK7RvMK
+2Z0/zMFrpnSXz0PvWIObmdUflzA5Xtck3jmptW/p05BTx77e2TqN6PKPF/cLQ7s6
+kUZ/uQ8EBljvtUx22amIXhAWzUPPrfgme8uqTzsz8o9yAlNadhpjutsnf/Mz3Tlo
+o7gvLAM1YtNLW/tqame+bZ7dv1vTLpsRTLhHz/bK4G9Z8Fg7sHAHVbZZq9B7/UMl
+u1p3NR1vqQBlHvR6sJOSuYgfh/QXYyHmwk6BoAwuLbEctLLpYgpWGl+CdRzODhhR
+juYio103mFL9Txf6cfW8s9mqCX0FGCNFdOCk6wcuNQOZfz+pvD+CFupvkiJJxwJd
+K1/VNFFcN4Pk0mKUweKzc2AQfFFvTqFSvkeEk2pZjz1GMCVOv5Pm4TsCB4eKMJmC
+5RwPx7X7rGCNUj7hVQ3vstqbUfVTR+ApBoFyzJj4BX1ZxoLvKSqiUoPrjc++lMr8
+8vLyU06v0+nCUKWINQmfX8TfRBF/jkilMs0ZJb5f9TkYkUsTTzWurJo61NaEaQrf
+0JtjJ0sKCCjYS8J0H71FQ5Xib8EkddrByq7zHsErqR7GysWluCI=
+=alhB
 -----END PGP SIGNATURE-----

@@ -39264,15 +39264,15 @@ Version: 2024.09.06
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 705
-Depends: openbosniana-drivers, apparmor, apparmor-profiles, apparmor-profiles-extra, apparmor-utils, screen, plymouth, plymouth-themes, openbosniana-apps-basics
+Depends: openbosniana-drivers, apparmor, apparmor-profiles, apparmor-profiles-extra, apparmor-utils, screen, plymouth, plymouth-themes, openbosniana-apps-basics, dpkg-dev, libdpkg-perl, openbosniana-meta-hardware
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
 Filename: pool/main/o/openbosniana-core-req/openbosniana-core-req_2024.09.06_all.deb
-Size: 924
-SHA256: b13c25cedfe1ec0c0edbc83d9cac4e3f698fb8d641408a0f1452cb7b38f59cd6
-SHA1: c1061e7216b953e3098945ebac2a88bd5ae3b4e6
-MD5sum: 8441b297b1c64a560424ff3346077b1d
+Size: 952
+SHA256: 0422680c1fad9dd31ba2462fb662779b303121dcabb04373dde652147aac55bc
+SHA1: 9e20ddfbd0b78ddb621dc87009d0de0c0f50a074
+MD5sum: 949cc8fd0e2e9bfa1db7460e0c404c3e
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
@@ -39451,6 +39451,24 @@ MD5sum: df110c10a8cbd76dd10dbf965c256d44
 Description: OpenBosniana OS base apps
  .
  This metapackage provides the base tools.
+
+Package: openbosniana-meta-hardware
+Source: openbosniana-core
+Version: 2024.09.06
+Architecture: all
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 10
+Depends: firmware-atheros, firmware-bnx2, firmware-bnx2x, firmware-brcm80211, firmware-iwlwifi, firmware-libertas, firmware-myricom, firmware-netxen, firmware-qlogic, firmware-realtek, firmware-ti-connectivity, realtek-rtl8188eus-dkms, realtek-rtl8814au-dkms, realtek-rtl88xxau-dkms
+Homepage: https://bosniana.org
+Priority: optional
+Section: metapackages
+Filename: pool/main/o/openbosniana-core/openbosniana-meta-hardware_2024.09.06_all.deb
+Size: 876
+SHA256: ee096703688a403ab8721fe133c969173c81c6c0740c60b1565be5bc9f1a4c59
+SHA1: 2097135cb58a8cf2e5785368a83b7c46b9cc8fb1
+MD5sum: 2e74cfde4c94c92912545dc4076ad56c
+Description: OpenBosniana OS meta
+ .
 
 Package: openssh-client
 Source: openssh

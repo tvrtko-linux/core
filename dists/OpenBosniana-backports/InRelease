@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sat, 14 Sep 2024 00:03:05 UTC
+Date: Sat, 14 Sep 2024 01:13:23 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbk0rkACgkQ5Vfn9vbt
-T6rewA/+NRMgFINDybWKEXwhDPsgLKpsvMOyIVFP3HYrC+8u7aEvvUkbAz0VLVr+
-d0CUjXVQp6h68w2kG7XN/iWUMTBNcMxltXHbfR6GHDrzl7kzjxpZThGPkQYR92x4
-W1UgeUfxpbt8p3hd9af359eoniVdDi2hxEOW0W/O1mISEx344zk3K7L/botwCp18
-NONlJ1Mwa9OQBXXIUiE0jIPqgygvDoQwc0qlo3dbYrHedfbwfPKcpQdKn9db+Llh
-cm6NN5ckLZHKYHk0kRvj6EyxruqzIETGz0Mv499rRpXFU14Dbif9Co64MCjhpX/y
-xYbZsIwezovey47Yx65UFRJ499SO2qc96PuxNS5tgpNl9CK3E8Zb8l78wcYcsX2O
-GSo+jNsvp7eB6lDlHNiXtzcMcU6kS/7pBkRC2J9kIlIBnHDiCJKLRDo+4Yb1avtD
-CBTVy5GTX6Qk6KrS3n9mIhgKYIBrmQMUDZBcQEcZn72eg2TsOznvyndRw5sO7Vwt
-1Ij99/Kk2wq06f/lL0BeviOnCz12LzcWDH+T0/XaKNbEe0bGOUqxcP8Za1lg/sPZ
-R/s9qaAWAdP+cXpint+OIcLt+Wpi+PdvGv5Toqd3iNPLogXONPCUP957WgeuQPSw
-DHJLsLVcyF/zByZS1o6dA8mW0Hw1JN6RVl8+ZbZts2+BQUuIJJI=
-=dC7P
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbk4zMACgkQ5Vfn9vbt
+T6rFIhAAjfhoQ5Ok13UCBdA0pKvKmnxw0Yhdvgivl6HAMI3NlC/U6MVT90b0/zIn
+jr8al4dgQ29gwwCYjN/d7X0hKVlMIV6UVlxErWnNCY4lNLP8lByKrSrFZHATXqHX
+h1I3xYVoeHndmuwp9zxcZ+MbpE4iDjTAx94RhAQ3Av0BGCwsecs6xWm3XZ3d2Zxq
+bomgzRRNz9F3TkN/cfiLV2zEoXzatjG1oyqsXnyfpcufpNLQ+NDPIkGD4fA/fFFb
+e5ZgjQuB9H/sHUA4YHLLEZ8MVR/6YZjPfVW/EenI/BwOeO8zWHyAemgvSH7A9OBH
+a3PJZYnXzFnphDEwihybn6nxxiUKZL0v9TKEXENZjaCSi3V4eq+xxQ5v8BFow5sX
+/aVitOwBY07LL33nkwbyxRXigsQSom0QZ2E4GDhgTifdctxWJAEjIao/XHff08Cr
+PDRQbJ3Gj9393RvudYrWFyOb8ev1zXmv6LPl34S9HHD45RXnyu+xFVYasWWYeseS
+6c5HmBt3KAgSSgSk0lITTDQFeE2TTq58faPN6Wa46PQ+2ZrN4ydmtEEzii26mgpv
+jFWbdKJbzF8imxpuIdyEwwvH7bhkSEhotUZl8jvxS4s3IVU2InFQURadqRhx17Hd
+JPEdsGnY/SsBzGht8BRFnpP+9f6UOs0yBPshXZf0DXEIgPmsVSY=
+=W1XU
 -----END PGP SIGNATURE-----
