@@ -1422,6 +1422,41 @@ Description: utility for unprivileged chroot and namespace manipulation
  bwrap executable setuid root, allowing it to create unprivileged
  containers even though ordinary user processes cannot.
 
+Package: build-essential
+Version: 12.9
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 20
+Depends: libc6-dev | libc-dev, gcc (>= 4:10.2), g++ (>= 4:10.2), make, dpkg-dev (>= 1.17.11)
+Priority: optional
+Section: devel
+Filename: pool/main/b/build-essential/build-essential_12.9_amd64.deb
+Size: 7704
+SHA256: bbfd38de41898a06326f2a6ce4cc43e8e399f5566381231065b01d70499d5ba5
+SHA1: 7b7fe8d3688d6f3056465d6e1fa26c13276afdaa
+MD5sum: 4f52ee9542b58fce300ae068b634d281
+Description: Informational list of build-essential packages
+ If you do not plan to build Debian packages, you don't need this
+ package.  Starting with dpkg (>= 1.14.18) this package is required
+ for building Debian packages.
+ .
+ This package contains an informational list of packages which are
+ considered essential for building Debian packages.  This package also
+ depends on the packages on that list, to make it easy to have the
+ build-essential packages installed.
+ .
+ If you have this package installed, you only need to install whatever
+ a package specifies as its build-time dependencies to build the
+ package.  Conversely, if you are determining what your package needs
+ to build-depend on, you can always leave out the packages this
+ package depends on.
+ .
+ This package is NOT the definition of what packages are
+ build-essential; the real definition is in the Debian Policy Manual.
+ This package contains merely an informational list, which is all
+ most people need.   However, if this package and the manual disagree,
+ the manual is correct.
+
 Package: bup
 Version: 0.33.2-1~deb12u1
 Architecture: amd64
@@ -1514,6 +1549,37 @@ SHA256: 438871b3f5c5c7a357a9840951dab9dab8db7eb1ff760a563226fafa111b99e5
 SHA1: 4909e22766191d428fd2bea4156ef4996d99e3db
 MD5sum: 0a6d457ccb2d12b5b56ef3330c7bdb63
 Description: high-quality block-sorting file compressor - utilities
+ bzip2 is a freely available, patent free, data compressor.
+ .
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding.  Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+ .
+ The archive file format of bzip2 (.bz2) is incompatible with that of its
+ predecessor, bzip (.bz).
+
+Package: bzip2-doc
+Source: bzip2
+Version: 1.0.8-5
+Architecture: all
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 612
+Replaces: bzip2 (<< 1.0.4-0ubuntu2)
+Multi-Arch: foreign
+Homepage: https://sourceware.org/bzip2/
+Priority: optional
+Section: doc
+Filename: pool/main/b/bzip2/bzip2-doc_1.0.8-5_all.deb
+Size: 514252
+SHA256: 3222df315ed312f63694b471d80eff42653934459c6751314d861349e0d2037f
+SHA1: 4908216b04a17a36fd0e33ea4b7f05554d02017c
+MD5sum: e81066ffa1a06024c630390b2d054990
+Description: high-quality block-sorting file compressor - documentation
+ This package contains the bzip2 user manual in HTML, PDF, PS and Texinfo
+ formats.
+ .
  bzip2 is a freely available, patent free, data compressor.
  .
  bzip2 compresses files using the Burrows-Wheeler block-sorting text
@@ -3421,6 +3487,31 @@ Description: lightweight Exim MTA (v4) daemon
  list if you are sure that your question is not Debian-specific. You
  can find the subscription web page on
  http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+
+Package: fakeroot
+Version: 1.31-1.2
+Architecture: amd64
+Maintainer: Clint Adams <clint@debian.org>
+Installed-Size: 208
+Depends: libfakeroot (>= 1.31-1.2), libc6 (>= 2.34)
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Filename: pool/main/f/fakeroot/fakeroot_1.31-1.2_amd64.deb
+Size: 66912
+SHA256: 194fd3750e6d647f300045a266c20cc3a3d47f84fd2fc8ff8830c55098b63c0d
+SHA1: 5272208f798e56635d1753a1c498d18442f602b5
+MD5sum: 8dc0b0aaf236ef916df7d7058ec28935
+Description: tool for simulating superuser privileges
+ fakeroot provides a fake "root environment" by means of LD_PRELOAD and
+ SysV IPC (or TCP) trickery. It puts wrappers around getuid(), chown(),
+ stat(), and other file-manipulation functions, so that unprivileged
+ users can (for instance) populate .deb archives with root-owned files;
+ various build tools use fakeroot for this by default.
+ .
+ This package contains fakeroot command and the daemon that remembers
+ fake ownership/permissions of files manipulated by fakeroot
+ processes.
 
 Package: fdisk
 Source: util-linux
@@ -6360,6 +6451,70 @@ Description: Tools to manage UEFI firmware updates (signed)
  This package contains just the signed version of the fwupd binary,
  needed if your system has UEFI Secure Boot enabled. It depends on the
  normal fwupd package for everything else.
+
+Package: g++
+Source: gcc-defaults (1.203)
+Version: 4:12.2.0-3
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 14
+Depends: cpp (= 4:12.2.0-3), gcc (= 4:12.2.0-3), g++-12 (>= 12.2.0-1~), gcc-12 (>= 12.2.0-1~)
+Suggests: g++-multilib
+Provides: c++-compiler, g++-x86-64-linux-gnu (= 4:12.2.0-3)
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-defaults/g++_12.2.0-3_amd64.deb
+Size: 1356
+SHA256: 26c451a660728cf7c15548a281e17eef2f36fab28499371e83fc2d3accb499d7
+SHA1: 181bc396e9374a47b1a832897d36043e1ee93c29
+MD5sum: ee1214564633e8a0ec102e218b4c66ca
+Description: GNU C++ compiler
+ This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
+ .
+ This is a dependency package providing the default GNU C++ compiler.
+
+Package: g++-12
+Source: gcc-12
+Version: 12.2.0-14
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 36161
+Depends: gcc-12-base (= 12.2.0-14), gcc-12 (= 12.2.0-14), libstdc++-12-dev (= 12.2.0-14), libc6 (>= 2.36), libgmp10 (>= 2:6.2.1+dfsg1), libisl23 (>= 0.15), libmpc3 (>= 1.1.0), libmpfr6 (>= 3.1.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Suggests: g++-12-multilib, gcc-12-doc (>= 12)
+Provides: c++-compiler, c++abi2-dev
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-12/g++-12_12.2.0-14_amd64.deb
+Size: 10694356
+SHA256: 097a2cb520881c29afa97c1bb0c381ce008aef362df2779677416a0981bcf165
+SHA1: 19f75e5b72203d97e6dbb964e5eabd2366d78bb8
+MD5sum: c7ddaa4c1a2490b837c9ee95198bc9d7
+Description: GNU C++ compiler
+ This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
+
+Package: gcc
+Source: gcc-defaults (1.203)
+Version: 4:12.2.0-3
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 47
+Depends: cpp (= 4:12.2.0-3), gcc-12 (>= 12.2.0-1~)
+Recommends: libc6-dev | libc-dev
+Suggests: gcc-multilib, make, manpages-dev, autoconf, automake, libtool, flex, bison, gdb, gcc-doc
+Conflicts: gcc-doc (<< 1:2.95.3)
+Provides: c-compiler, gcc-x86-64-linux-gnu (= 4:12.2.0-3)
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-defaults/gcc_12.2.0-3_amd64.deb
+Size: 5216
+SHA256: bb63b0fb2797e2a3a294dab8a02614930c557ec1f4ea96637c244b8b5f87e630
+SHA1: 24de4332578e63d815cf6fac2edfe2fb39d80d28
+MD5sum: f3dcf34728690484124bce954cc2c734
+Description: GNU C compiler
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.
+ .
+ This is a dependency package providing the default GNU C compiler.
 
 Package: gcc-12
 Version: 12.2.0-14
@@ -11249,6 +11404,79 @@ Description: Linux kernel AIO access library - shared library
  .
  This package contains the shared library.
 
+Package: libalgorithm-diff-perl
+Version: 1.201-1
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 129
+Depends: perl:any
+Recommends: libalgorithm-diff-xs-perl
+Multi-Arch: foreign
+Homepage: https://metacpan.org/release/Algorithm-Diff
+Priority: optional
+Section: perl
+Filename: pool/main/liba/libalgorithm-diff-perl/libalgorithm-diff-perl_1.201-1_all.deb
+Size: 43296
+SHA256: 3a8b61891f0ce9bd310088ce2d269d63b5afd88b9196fa4f046fd890faea4a17
+SHA1: d4a78a7a10bb872bfbc8807ab808603c83005e4f
+MD5sum: 642c8b02b67631807a3b8dd597e2b178
+Description: module to find differences between files
+ Algorithm::Diff is a Perl module that allows users to analyze text based on a
+ Longest Common Subsequence (LCS) algorithm. It can compare two files and find
+ the differences between them, which can produce the same information as the
+ common Unix tool 'diff'.
+ .
+ There is an XS-optimized implementation of the core loop, which accelerates
+ some types of diff output (see libalgorithm-diff-xs-perl).
+
+Package: libalgorithm-diff-xs-perl
+Source: libalgorithm-diff-xs-perl (0.04-8)
+Version: 0.04-8+b1
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 47
+Depends: perl (>= 5.36.0-4), perlapi-5.36.0, libc6 (>= 2.14), libalgorithm-diff-perl
+Multi-Arch: same
+Homepage: https://metacpan.org/release/Algorithm-Diff-XS
+Priority: optional
+Section: perl
+Filename: pool/main/liba/libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl_0.04-8+b1_amd64.deb
+Size: 11440
+SHA256: 7038b4d856aff8b4054f879c488c1298db5a83ecfa6280f85706f20e2e1935f1
+SHA1: 0d2c52d620d96d3816527343d20720f3e676e6a5
+MD5sum: 4beab63cdc4502cd0f43222ac5a17da2
+Description: module to find differences between files (XS accelerated)
+ Algorithm::Diff::XS is a Perl diff utility module based on Joe Schaefer's
+ excellent but not very well-known Algorithm::LCS module, with a drop-in
+ interface identical to Algorithm::Diff.
+ .
+ Note that only the LCSidx function is optimized in XS at the moment, which
+ means only compact_diff will get significantly faster for large data sets,
+ while diff and sdiff will run in identical speed as Algorithm::Diff.
+
+Package: libalgorithm-merge-perl
+Version: 0.08-5
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 43
+Depends: perl:any, libalgorithm-diff-perl
+Multi-Arch: foreign
+Homepage: https://metacpan.org/release/Algorithm-Merge
+Priority: optional
+Section: perl
+Filename: pool/main/liba/libalgorithm-merge-perl/libalgorithm-merge-perl_0.08-5_all.deb
+Size: 11788
+SHA256: 46dbe02369411b46f676ddb55fa8ee3a98f7a15607ddab785979c25bacb5d7db
+SHA1: b0e9e5ce2473d0adef4d963e252fbd1b80919013
+MD5sum: 8d546e4af326bb3b0d0c31c446d72eb1
+Description: Perl module for three-way merge of textual data
+ Algorithm::Merge provides three-way merge and diff functions, complementing
+ the functionality offered by Algorithm::Diff (libalgorithm-diff-perl). Given
+ three sets of items, known as the original, left and right, this module can
+ take a three-way difference or merge them. Taking a difference provides an
+ array reference that is very similar to the behaviour of Algorithm::Diff. One
+ can also implement custom conflict resolution using the CONFLICT callback.
+
 Package: libaom3
 Source: aom
 Version: 3.6.0-1
@@ -12932,6 +13160,38 @@ SHA1: de2145b625279bd6111961f9e9dfb09abf194154
 MD5sum: fe53af115b01a7225546ac9346bc47ee
 Description: high-quality block-sorting file compressor library - runtime
  This package contains libbzip2 which is used by the bzip2 compressor.
+ .
+ bzip2 is a freely available, patent free, data compressor.
+ .
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding.  Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+ .
+ The archive file format of bzip2 (.bz2) is incompatible with that of its
+ predecessor, bzip (.bz).
+
+Package: libbz2-dev
+Source: bzip2 (1.0.8-5)
+Version: 1.0.8-5+b1
+Architecture: amd64
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 95
+Depends: libbz2-1.0 (= 1.0.8-5+b1), libc6-dev | libc-dev
+Recommends: bzip2-doc
+Replaces: bzip2 (<< 0.9.5d-3)
+Multi-Arch: same
+Homepage: https://sourceware.org/bzip2/
+Priority: optional
+Section: libdevel
+Filename: pool/main/b/bzip2/libbz2-dev_1.0.8-5+b1_amd64.deb
+Size: 30868
+SHA256: df7204e188f7514ceae9c6f57c6c8b25ce8a642746fe284c6e89122ef26b7e57
+SHA1: ea0afa5359ce8a8905aac21469b24977821605a3
+MD5sum: 6932802b78ff96e87901b5a82254b4e7
+Description: high-quality block-sorting file compressor library - development
+ Static libraries and include files for the bzip2 compressor library.
  .
  bzip2 is a freely available, patent free, data compressor.
  .
@@ -14656,6 +14916,29 @@ Description: routines to convert IEEE floats to and from strings
  .
  This package contains a shared version of the library.
 
+Package: libdpkg-dev
+Source: dpkg
+Version: 1.21.22
+Architecture: amd64
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Installed-Size: 891
+Depends: libmd-dev, zlib1g-dev, liblzma-dev (>= 5.4.0), libzstd-dev (>= 1.4.0), libbz2-dev
+Multi-Arch: same
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/dpkg/libdpkg-dev_1.21.22_amd64.deb
+Size: 355060
+SHA256: 52c69bc3dad93f20a3285208ed48c50b153f8c4e872eb66e2cb93e34359d69cf
+SHA1: 17212c809b93fd082bfbbf3dcd04422659680f3d
+MD5sum: ee67d024549e2dcb54fd44e96f514e51
+Description: Debian package management static library
+ This package provides the header files and static library necessary to
+ develop software using libdpkg, the same library used internally by dpkg.
+ .
+ Note though, that the API is to be considered volatile, and might change
+ at any time, use at your own risk.
+
 Package: libdpkg-perl
 Source: dpkg
 Version: 1.21.22
@@ -15539,6 +15822,32 @@ Description: library for converting characters to X key-presses [runtime]
  .
  This package contains the libfakekey runtime library.
 
+Package: libfakeroot
+Source: fakeroot
+Version: 1.31-1.2
+Architecture: amd64
+Maintainer: Clint Adams <clint@debian.org>
+Installed-Size: 144
+Depends: libc6 (>= 2.34)
+Breaks: fakeroot (<< 1.20-2~)
+Replaces: fakeroot (<< 1.20-2~)
+Multi-Arch: same
+Priority: optional
+Section: utils
+Filename: pool/main/f/fakeroot/libfakeroot_1.31-1.2_amd64.deb
+Size: 28328
+SHA256: 539c1a013e6e90800b4c37877cf871e7583791b486a39e23f2466906bbe5061f
+SHA1: d44e732b8cc30f4170960df4de11eb66da4279c9
+MD5sum: 5e65b1e462dd93f8a975470dd8b93b8c
+Description: tool for simulating superuser privileges - shared libraries
+ fakeroot provides a fake "root environment" by means of LD_PRELOAD and
+ SysV IPC (or TCP) trickery. It puts wrappers around getuid(), chown(),
+ stat(), and other file-manipulation functions, so that unprivileged
+ users can (for instance) populate .deb archives with root-owned files;
+ various build tools use fakeroot for this by default.
+ .
+ This package contains the LD_PRELOAD libraries.
+
 Package: libfdisk1
 Source: util-linux
 Version: 2.38.1-5+deb12u1
@@ -15701,6 +16010,30 @@ Description: Perl module to handle freedesktop .desktop files
  specification was used:
  .
  <http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html>
+
+Package: libfile-fcntllock-perl
+Source: libfile-fcntllock-perl (0.22-4)
+Version: 0.22-4+b1
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 129
+Depends: perl (>= 5.36.0-4), perlapi-5.36.0, libc6 (>= 2.28)
+Suggests: gcc | c-compiler
+Homepage: https://metacpan.org/release/File-FcntlLock
+Priority: optional
+Section: perl
+Filename: pool/main/libf/libfile-fcntllock-perl/libfile-fcntllock-perl_0.22-4+b1_amd64.deb
+Size: 34848
+SHA256: 68aa3b3bdac8b34802df7e2e950bae64c40aa6c2b24fed356b832968f8305aa0
+SHA1: 3ac9e76e5efdd09258ca86a8bad6e2150af0dc32
+MD5sum: 8764ead5af17f16b7c0f66fe92092320
+Description: Perl module for file locking with fcntl(2)
+ File::FcntlLock is a Perl module to do file locking in an object oriented
+ fashion using the fcntl(2) system call. This allows locks on parts of a file
+ as well as on the whole file and overcomes some known problems with flock(2),
+ on which Perl's flock() function is based.
+ .
+ Furthermore due to its design it supports reliable locking over NFS.
 
 Package: libfile-listing-perl
 Version: 6.15-1
@@ -24873,6 +25206,33 @@ Description: Fast LZ compression algorithm library - runtime
  .
  This package includes the shared library.
 
+Package: liblzma-dev
+Source: xz-utils
+Version: 5.4.1-0.2
+Architecture: amd64
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 726
+Depends: liblzma5 (= 5.4.1-0.2)
+Suggests: liblzma-doc
+Multi-Arch: same
+Homepage: https://tukaani.org/xz/
+Priority: optional
+Section: libdevel
+Filename: pool/main/x/xz-utils/liblzma-dev_5.4.1-0.2_amd64.deb
+Size: 259788
+SHA256: 6853282a9aaad7f758972a7d52a1bcd9eeb26e224bf9a3d1efb8b3979d42cd4a
+SHA1: 1d997582107a64ec8626a09eda44e840e43f97e6
+MD5sum: b62171e0def0adc231e0d08be374f9fb
+Description: XZ-format compression library - development files
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ The native format of liblzma is XZ; it also supports raw (headerless)
+ streams and the older LZMA format used by lzma. (For 7-Zip's related
+ format, use the p7zip package instead.) This package provides the
+ development library needed to build programs using liblzma.
+
 Package: liblzma5
 Source: xz-utils
 Version: 5.4.1-0.2
@@ -25383,6 +25743,35 @@ Description: Utilities to use the MBIM protocol from the command line
  .
  This package contains the utilities that make it easier to use MBIM
  functionality from the command line.
+
+Package: libmd-dev
+Source: libmd
+Version: 1.0.4-2
+Architecture: amd64
+Maintainer: Guillem Jover <guillem@debian.org>
+Installed-Size: 205
+Depends: libmd0 (= 1.0.4-2)
+Multi-Arch: same
+Homepage: https://www.hadrons.org/software/libmd/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libm/libmd/libmd-dev_1.0.4-2_amd64.deb
+Size: 47036
+SHA256: fc755a2552c03653cb51575bf70d1aa0874f78d86fbc8ff7fb246b1c9e7e31c5
+SHA1: fb8b7e4005284b1e8b3fba14bebc9569bdc1b5e6
+MD5sum: 5f8c92e19824d96cfe55cd34b5b41fb3
+Description: message digest functions from BSD systems - development files
+ This package contains the header files and static library needed to
+ compile applications that use libmd.
+ .
+ The currently provided hashing algorithms are:
+ .
+  * MD2
+  * MD4
+  * MD5
+  * RIPEMD-160
+  * SHA-1
+  * SHA-2 (SHA-256, SHA-384 and SHA-512)
 
 Package: libmd0
 Source: libmd
@@ -32298,6 +32687,32 @@ Description: Secure Sockets Layer toolkit - shared libraries
  .
  It provides the libssl and libcrypto shared libraries.
 
+Package: libstdc++-12-dev
+Source: gcc-12
+Version: 12.2.0-14
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 19446
+Depends: gcc-12-base (= 12.2.0-14), libgcc-12-dev (= 12.2.0-14), libstdc++6 (>= 12.2.0-14), libc6-dev (>= 2.23-1~)
+Suggests: libstdc++-12-doc
+Provides: libstdc++-dev
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gcc-12/libstdc++-12-dev_12.2.0-14_amd64.deb
+Size: 2046372
+SHA256: a0f0f3fbeb661d9bda139a54f4bd1c30aa66cd55a8fa0beb0e6bc7946e243ca1
+SHA1: 1e485b2ca09273b3ddfa869e35198bf0861bd3df
+MD5sum: ebf5cd67cf8a1c4168144ad096723ed0
+Description: GNU Standard C++ Library v3 (development files)
+ This package contains the headers and static library files necessary for
+ building C++ programs which use libstdc++.
+ .
+ libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+ was included up to g++-2.95. The first version of libstdc++-v3 appeared
+ in g++-3.0.
+
 Package: libstdc++6
 Source: gcc-12
 Version: 12.2.0-14
@@ -37508,6 +37923,28 @@ Description: lightweight messaging kernel (shared library)
  .
  This package contains the libzmq shared library.
 
+Package: libzstd-dev
+Source: libzstd
+Version: 1.5.4+dfsg2-5
+Architecture: amd64
+Maintainer: RPM packaging team <team+pkg-rpm@tracker.debian.org>
+Installed-Size: 1224
+Depends: libzstd1 (= 1.5.4+dfsg2-5)
+Multi-Arch: same
+Homepage: https://github.com/facebook/zstd
+Priority: optional
+Section: libdevel
+Filename: pool/main/libz/libzstd/libzstd-dev_1.5.4+dfsg2-5_amd64.deb
+Size: 353844
+SHA256: 5d079cf5f96b724c97a611630ea428a1ebe793746db7bbf6e1455803b962b4ea
+SHA1: 09f9ef5439452db9afeb0126c1402447720a118f
+MD5sum: db75dc5bd1d630be0568f51ba644bbd2
+Description: fast lossless compression algorithm -- development files
+ Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
+ real-time compression scenarios at zlib-level compression ratio.
+ .
+ This package contains the headers and static library.
+
 Package: libzstd1
 Source: libzstd
 Version: 1.5.4+dfsg2-5
@@ -38227,6 +38664,36 @@ Description: Linux Logical Volume Manager
  by grouping arbitrary disks into volume groups. The total capacity of
  volume groups can be allocated to logical volumes, which are accessed as
  regular block devices.
+
+Package: make
+Source: make-dfsg
+Version: 4.3-4.1
+Architecture: amd64
+Maintainer: Manoj Srivastava <srivasta@debian.org>
+Installed-Size: 1592
+Depends: libc6 (>= 2.27)
+Suggests: make-doc
+Conflicts: make-guile
+Replaces: make-guile
+Multi-Arch: allowed
+Homepage: https://www.gnu.org/software/make/
+Priority: optional
+Section: devel
+Filename: pool/main/m/make-dfsg/make_4.3-4.1_amd64.deb
+Size: 395632
+SHA256: a1a83af8cbd854af887b72ad196b1f4af58387815e21ced1000253a116a46e2a
+SHA1: 3178850c82672525244b750776815e2ff4551fc2
+MD5sum: ad23a28085ea694f6677b80baca3ff34
+Description: utility for directing compilation
+ GNU Make is a utility which controls the generation of executables
+ and other target files of a program from the program's source
+ files. It determines automatically which pieces of a large program
+ need to be (re)created, and issues the commands to (re)create
+ them. Make can be used to organize any task in which targets (files)
+ are to be automatically updated based on input files whenever the
+ corresponding input is newer --- it is not limited to building
+ computer programs. Indeed, Make is a general purpose dependency
+ solver.
 
 Package: man-db
 Version: 2.11.2-2
@@ -47707,6 +48174,29 @@ MD5sum: ec42cc09e926444a817ddd913057af67
 Description: compression library - runtime
  zlib is a library implementing the deflate compression method found
  in gzip and PKZIP.  This package includes the shared library.
+
+Package: zlib1g-dev
+Source: zlib
+Version: 1:1.2.13.dfsg-1
+Architecture: amd64
+Maintainer: Mark Brown <broonie@debian.org>
+Installed-Size: 1310
+Depends: zlib1g (= 1:1.2.13.dfsg-1), libc6-dev | libc-dev
+Conflicts: zlib1-dev
+Provides: libz-dev
+Multi-Arch: same
+Homepage: http://zlib.net/
+Priority: optional
+Section: libdevel
+Filename: pool/main/z/zlib/zlib1g-dev_1.2.13.dfsg-1_amd64.deb
+Size: 916272
+SHA256: f9ce531f60cbd5df37996af9370e0171be96902a17ec2bdbd8d62038c354094f
+SHA1: 567a7afe8a9399ebe3668f97581311582ade6d6f
+MD5sum: 1786e234d8245882ccac5a8defa5ff5f
+Description: compression library - development
+ zlib is a library implementing the deflate compression method found
+ in gzip and PKZIP.  This package includes the development support
+ files.
 
 Package: zstd
 Source: libzstd

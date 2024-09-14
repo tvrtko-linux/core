@@ -516,6 +516,37 @@ Description: highly efficient file backup system based on git (documentation)
  .
  This package contains the documentation.
 
+Package: bzip2-doc
+Source: bzip2
+Version: 1.0.8-5
+Architecture: all
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 612
+Replaces: bzip2 (<< 1.0.4-0ubuntu2)
+Multi-Arch: foreign
+Homepage: https://sourceware.org/bzip2/
+Priority: optional
+Section: doc
+Filename: pool/main/b/bzip2/bzip2-doc_1.0.8-5_all.deb
+Size: 514252
+SHA256: 3222df315ed312f63694b471d80eff42653934459c6751314d861349e0d2037f
+SHA1: 4908216b04a17a36fd0e33ea4b7f05554d02017c
+MD5sum: e81066ffa1a06024c630390b2d054990
+Description: high-quality block-sorting file compressor - documentation
+ This package contains the bzip2 user manual in HTML, PDF, PS and Texinfo
+ formats.
+ .
+ bzip2 is a freely available, patent free, data compressor.
+ .
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding.  Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+ .
+ The archive file format of bzip2 (.bz2) is incompatible with that of its
+ predecessor, bzip (.bz).
+
 Package: ca-certificates
 Version: 20230311
 Architecture: all
@@ -4438,6 +4469,54 @@ Description: KDE window manager data files
  of windows and switching between them.
  .
  This package contains the data files
+
+Package: libalgorithm-diff-perl
+Version: 1.201-1
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 129
+Depends: perl:any
+Recommends: libalgorithm-diff-xs-perl
+Multi-Arch: foreign
+Homepage: https://metacpan.org/release/Algorithm-Diff
+Priority: optional
+Section: perl
+Filename: pool/main/liba/libalgorithm-diff-perl/libalgorithm-diff-perl_1.201-1_all.deb
+Size: 43296
+SHA256: 3a8b61891f0ce9bd310088ce2d269d63b5afd88b9196fa4f046fd890faea4a17
+SHA1: d4a78a7a10bb872bfbc8807ab808603c83005e4f
+MD5sum: 642c8b02b67631807a3b8dd597e2b178
+Description: module to find differences between files
+ Algorithm::Diff is a Perl module that allows users to analyze text based on a
+ Longest Common Subsequence (LCS) algorithm. It can compare two files and find
+ the differences between them, which can produce the same information as the
+ common Unix tool 'diff'.
+ .
+ There is an XS-optimized implementation of the core loop, which accelerates
+ some types of diff output (see libalgorithm-diff-xs-perl).
+
+Package: libalgorithm-merge-perl
+Version: 0.08-5
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 43
+Depends: perl:any, libalgorithm-diff-perl
+Multi-Arch: foreign
+Homepage: https://metacpan.org/release/Algorithm-Merge
+Priority: optional
+Section: perl
+Filename: pool/main/liba/libalgorithm-merge-perl/libalgorithm-merge-perl_0.08-5_all.deb
+Size: 11788
+SHA256: 46dbe02369411b46f676ddb55fa8ee3a98f7a15607ddab785979c25bacb5d7db
+SHA1: b0e9e5ce2473d0adef4d963e252fbd1b80919013
+MD5sum: 8d546e4af326bb3b0d0c31c446d72eb1
+Description: Perl module for three-way merge of textual data
+ Algorithm::Merge provides three-way merge and diff functions, complementing
+ the functionality offered by Algorithm::Diff (libalgorithm-diff-perl). Given
+ three sets of items, known as the original, left and right, this module can
+ take a three-way difference or merge them. Taking a difference provides an
+ array reference that is very similar to the behaviour of Algorithm::Diff. One
+ can also implement custom conflict resolution using the CONFLICT callback.
 
 Package: libarchive-zip-perl
 Version: 1.68-1
