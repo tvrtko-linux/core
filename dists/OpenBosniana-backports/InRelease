@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sat, 14 Sep 2024 03:48:59 UTC
+Date: Sat, 14 Sep 2024 16:57:14 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmblB6sACgkQ5Vfn9vbt
-T6rXNRAAh/6a3Omb9wNRNScTmYrKZ/D7eSabbgUxxpFtvrshCQZ6jma/F339eWZz
-e9nG6YFBUmuTgB/lIRae73Em5ssB/zEfYiNZmx1fmAVONVRP8k/1J3N97OIBo8tH
-YvoAvVRDNNpx1MlUJ9mDKmr4w88tENjQqnMOrmjizqzCABYy7XGBcQJ6DjISszC8
-dNVMQ0Qh0qVE3moyU5k+b81EOfYJWiZ3iJ6vwOSMK9Lts0b5CFUmRsBLGTJV/ae6
-K96LWOqzwlcI3gFPpeoKojwHQ6fqu3/jLKaf8F9I/zeWxq3yMTzq+ZD3yFjNfygl
-bkrHwYeSEL4ikTKINc7jn8ocpiLFh8Hl4Cd7WKwfw57vFEWsNOBZMeK2dX+AeGmq
-15TwqUopcCNd/sBLNO5rk2jy6ekbvrX33GP/eGFi4DnzMEarBocq24mfNXW2ZjxP
-crKdEgjmFH1OYGjIYw5VCKhWZYQ3DB8yw1OYHcOuUKoM/o+1Z5/5vJ54f1800tnt
-14AQh57RWth9jT6OC8cUbDIrsTzHIZPYJh8fRGKXzh4Kw0z9+0VgZsUyJNbhh4c8
-bPHEkb4SLe862FlvjVEQS6tAcXm9I7sMYNQ2eBlLJlIqDeRxIXwYquuwbqGkYf20
-AbJJDB4Mns013Db+1Yuj0+fqo9YOdsw/m+zFekJo0/Uf2VYscb8=
-=eJuF
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmblwGsACgkQ5Vfn9vbt
+T6r22g//QEUMcIU44c0WG1b9vW07eksDa5YHaqZm9rR1V8+5xb0HZ5Na8OA+vMlW
+OsMGz8kgLhkNzPc3hrcwOmMLXg52TF+aqcpiP1c+ldE+2PfCEs9/KzTEw7E+bQqm
+PaXS7LD7ihv5iTxR4msJhekaIAPfJCiJuO2AeZsxXsWOlXu6w/cKxIEAux/wEgN6
+/MsLlz93f0n/IEPeYAoUEC6MEhMToVpNLXyxAs+rXRLXDcfa555FIjA2dj0eKl7t
+r2tdiTALuJq8PvWHe+Ly6PcTnEXlNH4C6SOQ+YmqQD8ytmnF9G73VGvmhWW1v+N4
+hvNjTfmExq57RnZDeBOUIwIrUTa4jFe6dFs304aBiKZ1XafYEA+SYipQPsz6Uaw4
+EAHnz4ggT6NdF/4Km5+10dluAB4rPTocnjawC8wGVkmE8VRL5vztoPyi5fv0f1SX
+7jJZQoQ0tTeONgSvNGkJ9IPNopUnpXEsbwTxpuIZR5+IjtFr4oSUroc7yHQ9VUph
+L124dNgbh2vJZ0hXkDIp1mBrjN7WFO8gWicdSWu4+cH0PP3K3u0LhVxhmhn0z5lb
+yePSHGXnPsyOnZhUWeC9dt1J8pI+S5uXhnAkqWFYcCvq0KEaY95b1HVJw1zi2Lix
+ig72ySs/I9V7L+YkhlAnF4EosJokYg+xSiSCcEXMKJ82JkhA/B4=
+=qiOa
 -----END PGP SIGNATURE-----

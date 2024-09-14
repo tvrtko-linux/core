@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 14 Sep 2024 03:49:01 UTC
+Date: Sat, 14 Sep 2024 16:57:16 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmblB60ACgkQ5Vfn9vbt
-T6pq5Q/6AxmCTqgu7ZyhUSpetf3a5Pgink8nF+QT6yeD4CpzSFGwGlhYmjyXn171
-/SSGsOQPtnthY3m1uqZRQpg2Iaj3YgCI9ysUD7KJeTLVEL/ac191nK7Jrc+WKxIh
-v5nWwdNBRo/bI7mqbPR2/yh9NBJiZopYCObKh0GA4s6HdcC7xkALN5YGFsO8Lvl4
-Q11D+EoH1Mnk+2yswYQj8819TODiWjb6cuotNelSeSz/cBdS+uHD+0vm4RPSiNR/
-QgM6NobuNYwBN/mWZAIdYdVZB1l1yFCt762aD7OzsImvdVmL2oSfVktqrmqVmMjY
-UTyRCJt+KQCDipuiW25QqJmLU9xZ8Evp30oYVy3gqJvvA88h0wp4+tYkXo9YFn6o
-/HCeaxSoNYBOgsqJdGYvO+y31rlz5wf8y/YWlDTBOaVKIbAmi51kUftF2ZOajlGC
-Ju6B/998AlOzQgenlHvIi+hguXeecw7pz9a4F8CftPrKyey1W1k1E/umOt7oyAn9
-cju2C/RVIsjQY+PugX70C09liQvkSGn7hu3zpNDGzx9GhXPeDM3il8gCH4pUYztm
-DXM2MUI5/EAaEv/pkQShOxQ9qvnX1A86pvhRyrdabfmc2ut/M1apTtZDO2OdrwSd
-Xe0/gf1iouqFQlkdEgeTO5iH2kY+FVSN8SSrLIf8UUSbM7Nd+M4=
-=splc
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmblwG0ACgkQ5Vfn9vbt
+T6rSgA/8C6SI/bz9VTEiGMrgzQpnSxvZnjFGpU7UmbxcBsvBpABxK3ofgATFl65i
+mYQIAPhfZjAPVkaxOvpzrs1P4yS6b0EeH13SC7YWUymQPvLhMqnokp7KtepjS9Y1
+jvZE6B6//3mdKafqhPeVXxs2riKmSTFW6KQnap3sGPSaIyEIMex5Gzfe1BTti3BT
+1AtCdVpnRlwrQO8TEP+6qzqURXnPJdNqvUDkBFfAzhiIcXK/QG1bYudtSlpX53xJ
+DPgrzubgrd5lfvn6vywHwh1SupLlJs+NhUURxrNckXu6PgoJV7uWwefJ5NjuiwfR
+Pn3Po+iX4Ec+EnHwjkozwm7olIqJti/ovclFxVm209h/63SrbMixFfj1V4IbTCq4
+JDZDcRScLM/BxsaO3g00Jo66LSJ+yRpG2VFF6nh2HryJ5i8A1pzVlK3lxRwRrlur
+Y+fT8UjlGbMquK1Bi7A4BgLupYPBrsnwEtm95OFJy9WbueHUR9XdamMN9QcbOw+U
+j7zrNztfqiyvsOO0SevQj19FUbm3V+5wP0ml2pdKAnpnhIVWZ3gEoQ+aqyWQH15o
+Fea2gYLYvJk109u6Rh6qT1XEi3ylYTqKCqRqEmfQwwVJomrW9XVhluZCtNOkV1U6
+r+heP0vXh+wp+6N5rkr7XnJ/rRnFk3P2iRWau1WZ4Jqr9qJl7IY=
+=GBkf
 -----END PGP SIGNATURE-----

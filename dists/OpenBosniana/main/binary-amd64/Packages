@@ -8030,33 +8030,6 @@ Description: OpenType text shaping engine (GObject introspection data)
  .
  This package contains introspection data for the GObject bindings library.
 
-Package: gir1.2-javascriptcoregtk-4.0
-Source: webkit2gtk
-Version: 2.44.3-1~deb12u1
-Architecture: amd64
-Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 301
-Depends: libjavascriptcoregtk-4.0-18 (= 2.44.3-1~deb12u1), gir1.2-glib-2.0
-Multi-Arch: same
-Homepage: https://webkitgtk.org/
-Priority: optional
-Section: introspection
-Filename: pool/main/w/webkit2gtk/gir1.2-javascriptcoregtk-4.0_2.44.3-1~deb12u1_amd64.deb
-Size: 47960
-SHA256: a2506e1219354837576dac08d67b05fa28ca881b7aae713ace7f366bd1531af8
-SHA1: eb723f5bc7b2587dc6f3a9bceb38fab97a35e5b2
-MD5sum: 2545e8ba1c635dce2363ab4cbc5a1257
-Description: JavaScript engine library from WebKitGTK - GObject introspection data
- JavaScriptCore is the JavaScript engine used in WebKit. It consists
- of the following building blocks: lexer, parser, start-up interpreter
- (LLInt), baseline JIT, a low-latency optimizing JIT (DFG), and a
- high-throughput optimizing JIT (FTL).
- .
- This build comes from the GTK port of WebKit (API version 4.0).
- .
- This package contains the introspection data, which can be used by
- packages using the GIRepository format to generate dynamic bindings.
-
 Package: gir1.2-notify-0.7
 Source: libnotify
 Version: 0.8.1-1
@@ -14129,35 +14102,6 @@ Description: FFmpeg library containing media filters - runtime files
  .
  This package contains the runtime files.
 
-Package: libavformat59
-Source: ffmpeg
-Version: 7:5.1.5-0+deb12u1
-Architecture: amd64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2801
-Depends: libavcodec59 (= 7:5.1.5-0+deb12u1), libavutil57 (= 7:5.1.5-0+deb12u1), libbluray2 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.35), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30 (>= 3.7.5), libopenmpt0 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.1), libssh-gcrypt-4 (>= 0.8.0), libxml2 (>= 2.7.4), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libs
-Filename: pool/main/f/ffmpeg/libavformat59_5.1.5-0+deb12u1_amd64.deb
-Size: 1102088
-SHA256: 96e5151884664201c5a8bb314c4d396e6a29b3ca37d6d71d7bd694e8d78d05f5
-SHA1: f260fda18d1a8b8a13d6be76537c6b126ff50f72
-MD5sum: 329cbf72e43fb236c8b335f7c6c3dc1f
-Description: FFmpeg library with (de)muxers for multimedia containers - runtime files
- FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
- mux, demux, stream, filter and play pretty much anything that humans and
- machines have created. It supports the most obscure ancient formats up to the
- cutting edge.
- .
- This library provides a generic framework for multiplexing and demultiplexing
- (muxing and demuxing) audio, video and subtitle streams. It encompasses
- multiple muxers and demuxers for multimedia container formats. It also
- supports several input and output protocols to access a media resource.
- .
- This package contains the runtime files.
-
 Package: libavif15
 Source: libavif
 Version: 0.11.1-1
@@ -14179,37 +14123,6 @@ Description: Library for handling .avif files
  Image File Format as described in https://aomediacodec.github.io/av1-avif/.
  .
  This package provides the shared library files.
-
-Package: libavutil57
-Source: ffmpeg
-Version: 7:5.1.5-0+deb12u1
-Architecture: amd64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 1021
-Depends: libc6 (>= 2.35), libdrm2 (>= 2.4.66), libmfx1 (>= 18.4.0), libva-drm2 (>= 1.3), libva-x11-2 (>= 1.3), libva2 (>= 2.1.0), libvdpau1 (>= 0.2), libx11-6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libs
-Filename: pool/main/f/ffmpeg/libavutil57_5.1.5-0+deb12u1_amd64.deb
-Size: 363356
-SHA256: e0ff2b085320a4688df1138289c4732a55bfbcb7f3428d3308cd057209853de8
-SHA1: 1b3946d6685f134cd9e02a685494f4d4d250eb70
-MD5sum: 51b6d9497431946e36dbfc96c6b77e61
-Description: FFmpeg library with functions for simplifying programming - runtime files
- FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
- mux, demux, stream, filter and play pretty much anything that humans and
- machines have created. It supports the most obscure ancient formats up to the
- cutting edge.
- .
- This library is a utility library to aid portable multimedia programming.
- It contains safe portable string functions, random number generators, data
- structures, additional mathematics functions, cryptography and multimedia
- related functionality (like enumerations for pixel and sample formats).
- It is not a library for code needed by both libavcodec and libavformat.
- The goal for this library is to be modular, small, efficient and useful.
- .
- This package contains the runtime files.
 
 Package: libbdplus0
 Source: libbdplus
@@ -21538,32 +21451,6 @@ Description: JavaScript engine library from WebKitGTK
  high-throughput optimizing JIT (FTL).
  .
  This build comes from the GTK port of WebKit (API version 4.0).
- .
- This package contains the shared libraries.
-
-Package: libjavascriptcoregtk-4.1-0
-Source: webkit2gtk
-Version: 2.44.3-1~deb12u1
-Architecture: amd64
-Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 28799
-Depends: libatomic1 (>= 4.8), libc6 (>= 2.34), libgcc-s1 (>= 7), libglib2.0-0 (>= 2.65.1), libicu72 (>= 72.1~rc-1~), libstdc++6 (>= 12), libsystemd0
-Multi-Arch: same
-Homepage: https://webkitgtk.org/
-Priority: optional
-Section: libs
-Filename: pool/main/w/webkit2gtk/libjavascriptcoregtk-4.1-0_2.44.3-1~deb12u1_amd64.deb
-Size: 7620080
-SHA256: 7d5d42e97fdf735fa58f4497c96cce72fcfa29f3e42fb336e679940a2e544581
-SHA1: 9c9f182c75fe299d363c20e43e97a912440ebfcd
-MD5sum: fe603a1711c953a3b6f8df97d5496b58
-Description: JavaScript engine library from WebKitGTK
- JavaScriptCore is the JavaScript engine used in WebKit. It consists
- of the following building blocks: lexer, parser, start-up interpreter
- (LLInt), baseline JIT, a low-latency optimizing JIT (DFG), and a
- high-throughput optimizing JIT (FTL).
- .
- This build comes from the GTK port of WebKit (API version 4.1).
  .
  This package contains the shared libraries.
 
@@ -31247,55 +31134,6 @@ Description: interactive high-level object-oriented language (default python3 ve
  This package is a dependency package, which depends on Debian's default
  Python 3 version's standard library (currently v3.11).
 
-Package: libpython3.11
-Source: python3.11
-Version: 3.11.2-6+deb12u2
-Architecture: amd64
-Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 7623
-Depends: libpython3.11-stdlib (= 3.11.2-6+deb12u2), libc6 (>= 2.35), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
-Multi-Arch: same
-Priority: optional
-Section: libs
-Filename: pool/main/p/python3.11/libpython3.11_3.11.2-6+deb12u2_amd64.deb
-Size: 1986884
-SHA256: 3210a8d7640b1096a2bf4c6deaca27e92de2479b5853406caf75ffb0eff600a1
-SHA1: 83ae323224c9d031c0f9febacb1271d0e5b5b4ff
-MD5sum: 8a8dfc0fb16f099bf1d13609b6c9e07a
-Description: Shared Python runtime library (version 3.11)
- Python is a high-level, interactive, object-oriented language. Its 3.11 version
- includes an extensive class library with lots of goodies for
- network programming, system administration, sounds and graphics.
- .
- This package contains the shared runtime library, normally not needed
- for programs using the statically linked interpreter.
-
-Package: libpython3.11-dev
-Source: python3.11
-Version: 3.11.2-6+deb12u3
-Architecture: amd64
-Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 25786
-Depends: libpython3.11-stdlib (= 3.11.2-6+deb12u3), libpython3.11 (= 3.11.2-6+deb12u3), libexpat1-dev, zlib1g-dev
-Recommends: libc6-dev | libc-dev
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Filename: pool/main/p/python3.11/libpython3.11-dev_3.11.2-6+deb12u3_amd64.deb
-Size: 4733692
-SHA256: 794c32a561dbab8e8e770cf243af3af6c77b68493bc15c6610bdb96824c773c3
-SHA1: 48c45c943bab6232c0270904660a2bf580ec80c8
-MD5sum: db4872a8ca4dddfc251f4ca1648200b6
-Description: Header files and a static library for Python (v3.11)
- Header files, a static library and development tools for building
- Python (v3.11) modules, extending the Python interpreter or embedding
- Python (v3.11) in applications.
- .
- Maintainers of Python packages should read README.maintainers.
- .
- This package contains development files. It is normally not
- used on it's own, but as a dependency of python3.11-dev.
-
 Package: libpython3.11-minimal
 Source: python3.11
 Version: 3.11.2-6+deb12u2
@@ -31316,31 +31154,6 @@ MD5sum: 8831aece65780fb2fb9ee42461efbba5
 Description: Minimal subset of the Python language (version 3.11)
  This package contains some essential modules. It is normally not
  used on it's own, but as a dependency of python3.11-minimal.
-
-Package: libpython3.11-stdlib
-Source: python3.11
-Version: 3.11.2-6+deb12u2
-Architecture: amd64
-Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 8323
-Depends: libpython3.11-minimal (= 3.11.2-6+deb12u2), media-types | mime-support, libbz2-1.0, libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libnsl2 (>= 1.0), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libtirpc3 (>= 1.0.2), libuuid1 (>= 2.20.1)
-Breaks: python3-gdbm (<< 3.9.9-1~)
-Replaces: python3-gdbm (<< 3.9.9-1~)
-Multi-Arch: same
-Priority: optional
-Section: python
-Filename: pool/main/p/python3.11/libpython3.11-stdlib_3.11.2-6+deb12u2_amd64.deb
-Size: 1799080
-SHA256: 690ebcebabc4c1c3558fc06e3266842f0f26f5d9c3ec0d37a6663d013ae78468
-SHA1: 65e74ec277035fd51a36930b2be22d28bcee99bb
-MD5sum: 320b2694c052bfdc56c8bc65384c09ee
-Description: Interactive high-level object-oriented language (standard library, version 3.11)
- Python is a high-level, interactive, object-oriented language. Its 3.11 version
- includes an extensive class library with lots of goodies for
- network programming, system administration, sounds and graphics.
- .
- This package contains Python 3.11's standard library. It is normally not
- used on its own, but as a dependency of python3.11.
 
 Package: libqaccessibilityclient-qt5-0
 Source: libqaccessibilityclient (0.4.1-1)
@@ -34720,29 +34533,6 @@ Description: SSH2 client-side library
  keyboard-interactive authentication.
  .
  This package contains the runtime library.
-
-Package: libssl3
-Source: openssl
-Version: 3.0.13-1~deb12u1
-Architecture: amd64
-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
-Installed-Size: 6008
-Depends: libc6 (>= 2.34)
-Multi-Arch: same
-Homepage: https://www.openssl.org/
-Priority: optional
-Section: libs
-Filename: pool/main/o/openssl/libssl3_3.0.13-1~deb12u1_amd64.deb
-Size: 2021692
-SHA256: 8e88b98b3fc634721d0899f498d4cf2e62405faaab6582123c7923b1ec8129e1
-SHA1: 0ab5846e61d8d6869ce3ad60fa9699a2e000bab3
-MD5sum: 2e82f301e29b3cbffd7c1c44e49033e7
-Description: Secure Sockets Layer toolkit - shared libraries
- This package is part of the OpenSSL project's implementation of the SSL
- and TLS cryptographic protocols for secure communication over the
- Internet.
- .
- It provides the libssl and libcrypto shared libraries.
 
 Package: libstdc++-12-dev
 Source: gcc-12
@@ -56606,51 +56396,6 @@ Description: Interfaces for Python3
  .
  This is the Python 3 version.
 
-Package: python3.11
-Version: 3.11.2-6+deb12u2
-Architecture: amd64
-Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 649
-Depends: python3.11-minimal (= 3.11.2-6+deb12u2), libpython3.11-stdlib (= 3.11.2-6+deb12u2), media-types | mime-support
-Recommends: ca-certificates
-Suggests: python3.11-venv, python3.11-doc, binutils
-Breaks: python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)
-Multi-Arch: allowed
-Priority: optional
-Section: python
-Filename: pool/main/p/python3.11/python3.11_3.11.2-6+deb12u2_amd64.deb
-Size: 572784
-SHA256: b04f4deeedd43858d3078b0dd27fbc23c662797a6f621019e4a89d842b7d38a3
-SHA1: 6c56ff2f880ecbe6cd7835ff73603b0f122860f1
-MD5sum: 703a91bbd7a8a07712ce0e720f41eea4
-Description: Interactive high-level object-oriented language (version 3.11)
- Python is a high-level, interactive, object-oriented language. Its 3.11 version
- includes an extensive class library with lots of goodies for
- network programming, system administration, sounds and graphics.
-
-Package: python3.11-dev
-Source: python3.11
-Version: 3.11.2-6+deb12u3
-Architecture: amd64
-Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 615
-Depends: python3.11 (= 3.11.2-6+deb12u3), libpython3.11-dev (= 3.11.2-6+deb12u3), libpython3.11 (= 3.11.2-6+deb12u3)
-Recommends: libc6-dev | libc-dev
-Multi-Arch: allowed
-Priority: optional
-Section: python
-Filename: pool/main/p/python3.11/python3.11-dev_3.11.2-6+deb12u3_amd64.deb
-Size: 615876
-SHA256: 9dfa04a72d805888a6080ad755c8722d3e21c55b764e1fa532d9dc63a5ca963a
-SHA1: 1d40b950479ab7b88be1c4b0d9cf7bfa36d31540
-MD5sum: 9709bb55dce08c3a21e265a77952ddea
-Description: Header files and a static library for Python (v3.11)
- Header files, a static library and development tools for building
- Python (v3.11) modules, extending the Python interpreter or embedding
- Python (v3.11) in applications.
- .
- Maintainers of Python packages should read README.maintainers.
-
 Package: python3.11-minimal
 Source: python3.11
 Version: 3.11.2-6+deb12u2
@@ -56676,29 +56421,6 @@ Description: Minimal subset of the Python language (version 3.11)
  See /usr/share/doc/python3.11-minimal/README.Debian for a list of the modules
  contained in this package.
 Cnf-Visible-Pkgname: python3.11
-
-Package: python3.11-venv
-Source: python3.11
-Version: 3.11.2-6+deb12u3
-Architecture: amd64
-Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 28
-Depends: python3.11 (= 3.11.2-6+deb12u3), python3-pip-whl (>= 22.2), python3-setuptools-whl, python3.11-distutils
-Breaks: python3-pip (<< 1.5.6-4)
-Multi-Arch: allowed
-Priority: optional
-Section: python
-Filename: pool/main/p/python3.11/python3.11-venv_3.11.2-6+deb12u3_amd64.deb
-Size: 5896
-SHA256: a30d5e6189772f358635e0174e91041c6fecdb04144e5a6e47d8e48aea80de16
-SHA1: a16ab8b9f0273b21365600adff325b9357b2a929
-MD5sum: 3e0e55e9f76d23189caf5f9ed8b05d6e
-Description: Interactive high-level object-oriented language (pyvenv binary, version 3.11)
- Python is a high-level, interactive, object-oriented language. Its 3.11 version
- includes an extensive class library with lots of goodies for
- network programming, system administration, sounds and graphics.
- .
- This package contains the pyvenv-3.11 binary.
 
 Package: qdbus-qt5
 Source: qttools-opensource-src

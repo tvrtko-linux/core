@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sat, 14 Sep 2024 03:49:00 UTC
+Date: Sat, 14 Sep 2024 16:57:15 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmblB6wACgkQ5Vfn9vbt
-T6oACw//cMlT7gmOhBCfig0F9eTp8ranIcQr9DR5YMvv7BG9mGCekVbL8nrFjUhb
-tNYKchb9Ct4s4hRgROMDhXOVWPiRvzn1eaCs60O3U19kyVuDB8Y3NdKiTU3BxnY5
-oXuhTeieywUPJijaOyrfMCbHFp0+WugiLcWYuMSj0y1z3Wslbphk4wIpQIPdlHkK
-XERnnG9HvNWn0pVZ9Ucz4lhZtozggpZ5RbrtAXk+qSc+BAskl2TfSUJ5kRNcsVBh
-2s3qA2ozjLkGxqMI0qpiKicu+iDoBCrTSASq6IVb603niL5DgZgDEP9/eD3jklXe
-sLr4S+GGGMi6bjmOD0Ahb+gCPNm47+za1kZRJQuAXvyK6y71Q8jC3YVJdd/bLMEO
-Jkw4UvHSE6XjObdDhWxWCh1brgPU3vBRH7rplZrmOPUn4YRixbrdd8BcG3lQCHA8
-5mQ8oS2Edo93weGTHwjtLuS8tvc/7YM8qL3Td4P7JMicXnxUBbkbbivB4Fuv+pm8
-H43bNzH5769I8aCQfaH4mZgXgMWHd+Ecmu63zx6HzTf3VbBy2MJJNivolBwR4M5j
-Qa2lgg1y94U2dFmK01pke9GK7lgXnNOuXaA0N/uP0kvwKJ2BdxF5q9uuvoyJAYB1
-u+uUqchqTQ/O4efu2rx3+ybvAn3cHUNzmicif+GMlO/2xXJhP0c=
-=HVjx
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmblwGwACgkQ5Vfn9vbt
+T6rPeA//RQCnxFwuIvD3CjQJ1me/FKw/7Qf0h8jXO1EbiB0Rytaigr+5iptNYJpH
+LdL1fhkY6QXvKqO5R5uOC7oBlTDvZK9893lfHXFk6DKVlokixZETyDyYC5Ut2MmL
+MM+I9ltMD+rQR8c6ak/3WuAdI0hPJdLKmTMDO8yCfxUc8uj7zqBNqmhaPIg5JUUH
+ClVCsAUcgpKhEBYD5Ol/XtJ6NLjR/17gfUaKZUP25cbsZHuVIsjCzCK8Dke2OLtK
+izJ4m4kJNAhpODmwPusUo9gaJQtI3+Ae1PK156+KZ1K3TOe9ji8MGel/xsvGabPw
+kRUWb0ksXV353VbYYuscIFOOpDL1DxKmB2Cx70hYODuqAlTvmCoPkj43T20EkzVZ
+RhC/cuX9EDt1zrnOMFe/zBYppqNc78Wm0a5tAgp+JKw8qcOBbxyT/ANfYkZLkiWz
+RAcfBinvspTS6GFlKwSvrXI3sSWqG/EyQW0FadTvhgwjGaAGYHoWsj8Ee3Qk+B4W
+zWUgo96DFVollSSGArnRpCRuJLODG8ifnqX9k10uB7a5JFb2cGBwNxlo5gnWcOpL
+C9gU2QfPwlu9Xkle4XPUWm0yqiKYMXaoPatRyOCFtxOab+b5CNu/HK+7ZBBIB7jV
+8XaJkUoDtI8ZZ/Itq4BhXJbgLxMtgsGc0cQZOUhMmsh14WxlBHY=
+=LCgi
 -----END PGP SIGNATURE-----
