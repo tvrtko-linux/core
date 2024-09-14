@@ -50753,10 +50753,10 @@ Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
 Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.09.06_amd64.deb
-Size: 125556
-SHA256: a75a79aa4bb9464c741054392a09c2d913d3fd56fec45108739d631bbd9519db
-SHA1: a34a2c6915ccd4bdc8e1f1e010c5bb5e257dbc7b
-MD5sum: 6e96892fa86d4c03993445c8d383cbe8
+Size: 125620
+SHA256: e2ce0f399fc5909d27e6fc092c39c8c2845440a68756e6a6b33c4a230ccaffb9
+SHA1: cdde756811d476115ad5d3e4f6c71232371bc202
+MD5sum: f50db6fc85999471b6db9f65c89d0e7c
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
