@@ -1,3 +1,29 @@
+Package: alsa-firmware-loaders
+Source: alsa-tools
+Version: 1.2.5-3
+Architecture: amd64
+Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+Installed-Size: 177
+Depends: fxload, udev, libasound2 (>= 1.0.24.1), libc6 (>= 2.34)
+Homepage: https://www.alsa-project.org/
+Priority: optional
+Section: contrib/sound
+Filename: pool/contrib/a/alsa-tools/alsa-firmware-loaders_1.2.5-3_amd64.deb
+Size: 24116
+SHA256: efc7309b4e55465055aed896e099e60a46e3c5bc51591affb1f6c46f82faa0be
+SHA1: b1522b8dfee5e197ade240797700aeab0a531cb3
+MD5sum: bbd5c4026f8f4d12f2c4253d7a6712df
+Description: ALSA software loaders for specific hardware
+ A collection of software loaders for specific hardware:
+ .
+  cspctl - Sound Blaster 16 ASP/CSP control program
+  hdsploader - firmware loader for the RME Hammerfall DSP cards
+  mixartloader - firmware loader for Digigram's miXart board sound drivers
+  pcxhrloader - firmware loader for Digigram pcxhr compatible soundcards
+  sscape_ctl - SoundScape control utility and firmware loader
+  usx2yloader - firmware loader for Tascam USX2Y USB soundcards
+  vxloader - firmware loader for Digigram VX soundcards
+
 Package: b43-fwcutter
 Version: 1:019-8
 Architecture: amd64
@@ -81,6 +107,27 @@ Description: firmware installer for the b43legacy driver
   * BCM4306/2;
   * BCM4306.
 
+Package: gobi-loader
+Source: gobi-loader (0.6-1)
+Version: 0.6-1+b2
+Architecture: amd64
+Maintainer: Mark Hymers <mhy@debian.org>
+Installed-Size: 28
+Depends: libc6 (>= 2.2.5)
+Homepage: http://www.codon.org.uk/~mjg59/gobi_loader/
+Priority: extra
+Section: contrib/admin
+Filename: pool/contrib/g/gobi-loader/gobi-loader_0.6-1+b2_amd64.deb
+Size: 6346
+SHA256: a8ccf8505ec6a7a66042abe7563f62091c79e7114652db697b1627cf86d60ab9
+SHA1: 2b64bcb86ffbff3e0cf871f74b9239d981d3db67
+MD5sum: 7eb1138778880a9f36d650041ccc14b6
+Description: Firmware loader for Qualcomm Gobi USB chipsets.
+ gobi-loader is a firmware loader for Qualcomm Gobi USB chipsets. These devices
+ appear in an uninitialised state when power is applied and require firmware to
+ be loaded before they can be used as modems. gobi-loader adds a udev rule that
+ will trigger loading of the firmware and make the modem usable.
+
 Package: realtek-rtl8188eus-dkms
 Version: 5.3.9~git20230921.3fae723-0parrot2
 Architecture: all
@@ -137,6 +184,37 @@ Description: Realtek RTL88xxAU driver in DKMS format
  This package provides the source code for RTL8812AU/21AU Linux
  driver (with monitor mode and frame injection) to be build with dkms. Kernel
  sources or headers are required to compile this module.
+
+Package: torbrowser-launcher
+Version: 0.3.6-2
+Architecture: amd64
+Maintainer: Debian Privacy Tools Maintainers <pkg-privacy-maintainers@lists.alioth.debian.org>
+Installed-Size: 235
+Depends: python3:any, ca-certificates, gnupg, libdbus-glib-1-2, libgtk-3-0, python3-gpg, python3-packaging, python3-pyqt5, python3-requests, python3-socks
+Recommends: tor
+Suggests: apparmor
+Homepage: https://github.com/micahflee/torbrowser-launcher
+Priority: optional
+Section: contrib/web
+Filename: pool/contrib/t/torbrowser-launcher/torbrowser-launcher_0.3.6-2_amd64.deb
+Size: 54124
+SHA256: 8bab5a759f0de00677f961e6a259438867d3960b44688db81d4fa5ef2ba17f04
+SHA1: d22e8bec83c093d077d6adaafd89ce717a78432a
+MD5sum: 5630603cd7a573c3498c6e111f926515
+Description: helps download and run the Tor Browser Bundle
+ Tor Browser Launcher is intended to make the Tor Browser Bundle (TBB) easier
+ to maintain and use for GNU/Linux users. torbrowser-launcher handles
+ downloading the most recent version of TBB for you, in your language and for
+ your architecture. It also adds a "Tor Browser" application launcher to your
+ operating system's menu.
+ .
+ When you first launch Tor Browser Launcher, it will download TBB from
+ https://www.torproject.org/ and extract it to ~/.local/share/torbrowser,
+ and then execute it.
+ Cache and configuration files will be stored in ~/.cache/torbrowser and
+ ~/.config/torbrowser.
+ Each subsequent execution after installation will simply launch the most
+ recent TBB, which is updated using Tor Browser's own update feature.
 
 Package: virtualbox-guest-utils
 Source: virtualbox (7.0.14-dfsg-4)

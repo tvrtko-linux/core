@@ -451,6 +451,26 @@ Description: Debian Pure Blends tasks for new installations
  The package is intended to be installed in the base system. Later
  (un)installation is harmless, but has no effect.
 
+Package: bluetooth
+Source: bluez
+Version: 5.66-1+deb12u2
+Architecture: all
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 68
+Depends: bluez
+Suggests: bluez-cups, bluez-obexd, bluez-meshd
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluetooth_5.66-1+deb12u2_all.deb
+Size: 38876
+SHA256: 442de645c7d7bb45b3f392aff554e27d9c15409cb05e06a86b1b7f1aa364b2b6
+SHA1: 7575625f12a6b7aa0b33c0cade25e3291df8a008
+MD5sum: 838b2a852afbe27550a1af7f27cfff1b
+Description: Bluetooth support (metapackage)
+ This package provides all of the different plugins supported
+ by the Bluez bluetooth stack.
+
 Package: breeze-cursor-theme
 Source: breeze
 Version: 4:5.27.5-2
@@ -614,6 +634,61 @@ Description: OpenBosniana OS theme and settings for the Calamares Installer
  package provides the latest OpenBosniana OS artwork as well as scripts that
  supports EFI installations.
 
+Package: console-setup
+Version: 1.221
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 428
+Pre-Depends: debconf | debconf-2.0
+Depends: console-setup-linux | console-setup-freebsd | hurd, xkb-data (>= 0.9), keyboard-configuration (= 1.221), debconf (>= 0.5) | debconf-2.0
+Suggests: lsb-base (>= 3.0-6), locales
+Conflicts: console-setup-mini
+Breaks: lsb (<< 2.0-6), lsb-base (<< 3.0-6), lsb-core (<< 2.0-6)
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Filename: pool/main/c/console-setup/console-setup_1.221_all.deb
+Size: 101732
+SHA256: 2041b0f9c6b2d3dc2d0ca458854bdb1fc392f39ec1422c1580f2176d3378ce42
+SHA1: 48ab6496b31eaab9fd0c86cd5c9d87e837ce6b57
+MD5sum: 41bad81d226246f73cc4b9e20c303d25
+Description: console font and keymap setup program
+ This package provides the console with the same keyboard
+ configuration scheme as the X Window System. As a result, there is no
+ need to duplicate or change the keyboard files just to make simple
+ customizations such as the use of dead keys, the key functioning as
+ AltGr or Compose key, the key(s) to switch between Latin and
+ non-Latin mode, etc.
+ .
+ The package also installs console fonts supporting many of the
+ world's languages.  It provides an unified set of font faces - the
+ classic VGA, the simplistic Fixed, and the cleaned Terminus,
+ TerminusBold and TerminusBoldVGA.
+
+Package: console-setup-linux
+Source: console-setup
+Version: 1.221
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 2192
+Depends: kbd (>= 0.99-12) | console-tools (>= 1:0.2.3-16), keyboard-configuration (= 1.221), init-system-helpers (>= 1.29~) | initscripts
+Suggests: console-setup
+Conflicts: console-setup-freebsd
+Breaks: console-cyrillic (<= 0.9-11), console-setup (<< 1.71), console-terminus
+Replaces: console-setup (<< 1.71), console-terminus
+Provides: console-terminus
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Filename: pool/main/c/console-setup/console-setup-linux_1.221_all.deb
+Size: 1882036
+SHA256: 65fac4777b0d36e48d90c577ba296c9ceeb051210aa1bf405925e2bf6bc6fecd
+SHA1: b248864c426404d6d54e03fdadb75d550e25e24d
+MD5sum: a98b4b6035387b67ad6e7e67e1e288de
+Description: Linux specific part of console-setup
+ This package includes fonts in psf format and definitions of various
+ 8-bit charmaps.
+
 Package: cron-daemon-common
 Source: cron
 Version: 3.0pl1-162
@@ -640,6 +715,79 @@ Description: process scheduling daemon's configuration files
  .
  This package provides configuration files which must be there to
  define scheduled process sets.
+
+Package: cryptsetup-initramfs
+Source: cryptsetup
+Version: 2:2.6.1-4~deb12u2
+Architecture: all
+Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>
+Installed-Size: 107
+Depends: busybox | busybox-static, cryptsetup (>= 2:2.6.1-4~deb12u2), initramfs-tools (>= 0.137) | linux-initramfs-tool, debconf (>= 0.5) | debconf-2.0
+Recommends: console-setup, kbd
+Conflicts: lvm2 (<< 2.03.15-1)
+Breaks: cryptsetup (<< 2:2.0.3-1)
+Replaces: cryptsetup (<< 2:2.0.3-1)
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+Priority: optional
+Section: admin
+Filename: pool/main/c/cryptsetup/cryptsetup-initramfs_2.6.1-4~deb12u2_all.deb
+Size: 35648
+SHA256: 721c8c77529f71f806e467e6e5aed05d9e98f8b0439782574d728288a4a81e58
+SHA1: 4fea3be1b833b3e94c5636f6b0f6539de39dc3ee
+MD5sum: 0b9c2b3a3f9744266d6cc07c16514870
+Description: disk encryption support - initramfs integration
+ Cryptsetup provides an interface for configuring encryption on block
+ devices (such as /home or swap partitions), using the Linux kernel
+ device mapper target dm-crypt. It features integrated Linux Unified Key
+ Setup (LUKS) support.
+ .
+ This package provides initramfs integration for cryptsetup.
+
+Package: cups-common
+Source: cups
+Version: 2.4.2-3+deb12u7
+Architecture: all
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Installed-Size: 4238
+Multi-Arch: foreign
+Homepage: https://github.com/OpenPrinting/cups/
+Priority: optional
+Section: net
+Filename: pool/main/c/cups/cups-common_2.4.2-3+deb12u7_all.deb
+Size: 256112
+SHA256: 545bc1fdb28cbc52df745d6d7ba7e9f2b1fd6367c7e0a5c6ea21708a9ac6290b
+SHA1: 6cd6a00b32797e5deade67bfaf4a2aefc06054c4
+MD5sum: 5f386f269d2dee031311e6d1572e73f3
+Description: Common UNIX Printing System(tm) - common files
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ This package provides common files for CUPS server and client packages.
+
+Package: cups-server-common
+Source: cups
+Version: 2.4.2-3+deb12u7
+Architecture: all
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Installed-Size: 2381
+Multi-Arch: foreign
+Homepage: https://github.com/OpenPrinting/cups/
+Priority: optional
+Section: net
+Filename: pool/main/c/cups/cups-server-common_2.4.2-3+deb12u7_all.deb
+Size: 413020
+SHA256: f8053d48cafb90c358c6c8e9e0296a40645536602adafaafcdb6c1c53bc1266c
+SHA1: 1b2095b9598a9726b3ccc448ccd9fc4dbac89aa7
+MD5sum: 12ecdbd2c0b666ed2ad306dd53f12b93
+Description: Common UNIX Printing System(tm) - server common files
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ This package provides common files for CUPS server.
 
 Package: dbus-session-bus-common
 Source: dbus
@@ -945,6 +1093,31 @@ Description: information about the distributions' releases (data files)
  .
  This package contains the data files.
 
+Package: dkms
+Version: 3.0.10-8+deb12u1
+Architecture: all
+Maintainer: Dynamic Kernel Module System Team <dkms@packages.debian.org>
+Installed-Size: 186
+Pre-Depends: lsb-release
+Depends: kmod | kldutils, gcc | c-compiler, dpkg-dev, make | build-essential, patch
+Recommends: fakeroot, sudo, linux-headers-generic | linux-headers-686-pae | linux-headers-amd64 | linux-headers
+Suggests: menu, e2fsprogs
+Breaks: blcr-dkms (<< 0.8.6~b3-1.0), blktap-dkms (<< 2.0.93-0.10.0), oss4-dkms (<< 4.2-build2020-1~), sl-modem-dkms (<< 2.9.11~20110321-16.0)
+Provides: dkms-autopkgtest (= 3.0.10-8+deb12u1)
+Multi-Arch: foreign
+Homepage: https://github.com/dell/dkms
+Priority: optional
+Section: kernel
+Filename: pool/main/d/dkms/dkms_3.0.10-8+deb12u1_all.deb
+Size: 48716
+SHA256: 12da620048a926afa72f1f46f3477fb9ad3d2a6b3446da56cc43fe1a413b6944
+SHA1: 165efbf376f8d6bbb6d5730d5abf40178844bca6
+MD5sum: d7ba143de15d19bd6e723875c385371b
+Description: Dynamic Kernel Module System (DKMS)
+ DKMS is a framework designed to allow individual kernel modules to be upgraded
+ without changing the whole kernel. It is also very easy to rebuild modules as
+ you upgrade kernels.
+
 Package: dns-root-data
 Version: 2024041801~deb12u1
 Architecture: all
@@ -1084,6 +1257,27 @@ Description: stylesheets for processing DocBook XML to various output formats
  The stylesheets are modular in the sense that you can extend and, to some
  extent, customize them. The documentation is included in a separate package.
 
+Package: docker-compose
+Version: 1.29.2-3
+Architecture: all
+Maintainer: Docker Compose Team <team+docker-compose@tracker.debian.org>
+Installed-Size: 525
+Depends: python3-cached-property (>= 1.2.0) | python3 (>> 3.8), python3-distro (>= 1.5.0), python3-docker (>= 5), python3-dockerpty (>= 0.4.1), python3-docopt (>= 0.6.1), python3-dotenv (>= 0.13.0), python3-jsonschema, python3-requests (>= 2.20.0), python3-texttable (>= 0.9.0), python3-websocket (>= 0.32.0), python3-yaml (>= 3.10), python3:any, python3-distutils
+Recommends: docker.io (>= 1.9.0)
+Provides: python3-compose
+Homepage: https://docs.docker.com/compose/
+Priority: optional
+Section: admin
+Filename: pool/main/d/docker-compose/docker-compose_1.29.2-3_all.deb
+Size: 122800
+SHA256: 440943efa28c1fa6c785c61de98413dcf6ba9052e712199f1b0be7a08d4b4963
+SHA1: bc43b7a50b4773f3976c37ebabb0edcce295e1a9
+MD5sum: ca5a7743425d78b4520b349113c265f4
+Description: define and run multi-container Docker applications with YAML
+ docker-compose is a service management software built on top of docker. Define
+ your services and their relationships in a simple YAML file, and let compose
+ handle the rest.
+
 Package: dpkg-dev
 Source: dpkg
 Version: 1.21.22
@@ -1158,6 +1352,40 @@ MD5sum: a6eb6b8921f977740f03b2bcee477c95
 Description: Common facilities for all emacsen
  This package contains code that is needed by all the (x)emacs
  packages.  It will be automatically installed when needed.
+
+Package: eslint
+Version: 6.4.0~dfsg+~6.1.9-7
+Architecture: all
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Installed-Size: 2948
+Depends: node-ajv, node-concat-stream, node-debug, node-doctrine, node-eslint-visitor-keys, node-eslint-scope, node-espree (>= 7.3.0), node-esquery, node-estraverse, node-eslint-utils, node-esutils, node-file-entry-cache, node-functional-red-black-tree, node-glob-parent, node-globals, node-import-fresh, node-imurmurhash, node-ignore (>= 5.2.0), node-is-glob, node-json-stable-stringify, node-levn, node-lodash, node-memfs, node-mkdirp, node-optionator, node-progress, node-regenerate-unicode-properties (>= 10), node-regexpp, node-semver, node-strip-json-comments, node-types-estree, node-types-json-schema, node-v8-compile-cache, nodejs:any (>= 12.22.0)
+Recommends: node-chalk, node-js-yaml, node-strip-ansi, node-text-table
+Suggests: node-babel-eslint, node-esprima, node-esprima-fb, node-inquirer
+Breaks: node-mysticatea-eslint-plugin (<< 12)
+Provides: node-eslint (= 6.4.0~dfsg+~6.1.9-7), node-eslint-config-eslint (= 5.0.1~6.4.0~dfsg+~6.1.9-7), node-types-eslint (= 6.1.9~6.4.0~dfsg+~6.1.9-7)
+Homepage: https://eslint.org/
+Priority: optional
+Section: javascript
+Filename: pool/main/e/eslint/eslint_6.4.0~dfsg+~6.1.9-7_all.deb
+Size: 605828
+SHA256: 828bc72bd508a3a1ca830d210f786fe0c3a49bba6793f57b444f804eeb836339
+SHA1: f46df50a902c66d56061b7efe5526617e407e402
+MD5sum: 44779b52264c5573feca5ba9fadc1854
+Description: AST-based pattern checker for JavaScript
+ ESLint is a tool for identifying and reporting on patterns
+ found in ECMAScript/JavaScript code.
+ In many ways, it is similar to JSLint and JSHint
+ with a few exceptions:
+ .
+  * ESLint uses Espree for JavaScript parsing
+  * ESLint uses an AST to evaluate patterns in code
+  * ESLint is completely pluggable,
+    every single rule is a plugin and you can add more at runtime
+ .
+ Some uses of ESLint require additional packages:
+  * Use of parsers other than the default (Espree) require that parser,
+    e.g. node-babel-eslint, node-esprima, or node-esprima-fb.
+  * Use of option --init require package node-inquirer.
 
 Package: exim4-config
 Source: exim4
@@ -4124,6 +4352,75 @@ Description: transitional dummy package (gsfonts -> fonts-urw-base35)
  This package is a dummy package to enable the gsfonts to fonts-urw-base35
  transition. It can be safely removed.
 
+Package: gufw
+Source: gui-ufw
+Version: 22.04.0-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 3585
+Depends: gir1.2-gtk-3.0, gir1.2-webkit2-4.0, pkexec, python3-gi, ufw, python3:any
+Homepage: https://costales.github.io/projects/gufw/
+Priority: optional
+Section: admin
+Filename: pool/main/g/gui-ufw/gufw_22.04.0-1_all.deb
+Size: 890148
+SHA256: e21443c9fe835b85f35029f905e5ee4daad6f8ede157d4add825ea185acc8204
+SHA1: 4f76336b64cf23ea07fa94cfb58dd35c3a74484f
+MD5sum: e498496b0c66bdd5ee1498d33c6ace0a
+Description: graphical user interface for ufw
+ gufw is an easy and intuitive way to manage your Linux firewall. It supports
+ common tasks such as allowing or blocking pre-configured, common p2p, or
+ individual port(s), and many others!
+
+Package: gvfs-common
+Source: gvfs
+Version: 1.50.3-1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 3602
+Depends: desktop-file-utils
+Recommends: gvfs
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/gvfs
+Priority: optional
+Section: libs
+Filename: pool/main/g/gvfs/gvfs-common_1.50.3-1_all.deb
+Size: 479584
+SHA256: 10fc05e16d4899f7c1a1f7384a8cceae7c5670163f9fc71d65842d2e000c6cfa
+SHA1: db4e4ff84051b8e73c37ffa63f5faab5d0bcf02a
+MD5sum: abf253ce34ece85de7bd3fb23e3adfc3
+Description: userspace virtual filesystem - common data files
+ gvfs is a userspace virtual filesystem where mounts run as separate
+ processes which you talk to via D-Bus. It also contains a gio module
+ that seamlessly adds gvfs support to all applications using the gio
+ API. It also supports exposing the gvfs mounts to non-gio applications
+ using fuse.
+ .
+ This package contains the data files and translations used by all gvfs
+ components.
+
+Package: gyp
+Version: 0.1+20220404git9ecf45e-2
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1168
+Depends: python3:any, python3-pkg-resources, python3-six
+Multi-Arch: foreign
+Homepage: https://chromium.googlesource.com/external/gyp/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gyp/gyp_0.1+20220404git9ecf45e-2_all.deb
+Size: 237380
+SHA256: 5cf722c60da617a9b7c4b2f2fc8709e9e67eba99acd31c457868c7935abdd496
+SHA1: 311122b5de0c54a543302465fc568f5a28d6b4e8
+MD5sum: c46bb2f2c529ad64a9f359efdb4a3e6f
+Description: Cross-platform build script generator
+ GYP (Generate Your Projects) is a tool to generate native Visual Studio,
+ Xcode, SCons and make build files from a description of a project in a
+ simple JSON-inspired format. Its syntax is a universal cross-platform
+ build representation that still allows sufficient per-platform flexibility
+ to accommodate irreconcilable differences.
+
 Package: hicolor-icon-theme
 Version: 0.17-2
 Architecture: all
@@ -4319,6 +4616,26 @@ Description: generic modular initramfs generator (core tools)
  create a bootable initramfs for a Linux kernel.  The initramfs should
  be loaded along with the kernel and is then responsible for mounting
  the root filesystem and starting the main init system.
+
+Package: intltool-debian
+Version: 0.35.0+20060710.6
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 106
+Depends: gettext, perl:any
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Filename: pool/main/i/intltool-debian/intltool-debian_0.35.0+20060710.6_all.deb
+Size: 22884
+SHA256: 058900c66cbc0d8b60139bdecc9a06cb9c3b479a03117354a78e5fa72aecd90c
+SHA1: ed449d06d1e84c56deb2487977971e46ba5cf699
+MD5sum: e02891cff3d522b54477df07f67d19fb
+Description: Help i18n of RFC822 compliant config files
+ Intltool is a bunch of scripts written by the GNOME project to
+ internationalize many different file formats. This package is
+ a slightly modified version which adds support for RFC822
+ compliant config files, e.g. Debconf templates files.
 
 Package: iso-codes
 Version: 4.15.0-1
@@ -4649,6 +4966,25 @@ Description: KDE window manager data files
  of windows and switching between them.
  .
  This package contains the data files
+
+Package: laptop-detect
+Version: 0.16
+Architecture: all
+Maintainer: Simó Albert i Beltran <sim6@probeta.net>
+Installed-Size: 20
+Recommends: dmidecode
+Homepage: https://gitlab.com/debiants/laptop-detect
+Priority: optional
+Section: utils
+Filename: pool/main/l/laptop-detect/laptop-detect_0.16_all.deb
+Size: 7238
+SHA256: 6537d8cfcd7cdd869050b935c660ca83337502ff3b2589d39dc428c9b01c1512
+SHA1: 5c7161da1b673b21d3e92dcf8264eb519dad4878
+MD5sum: 123ae92972688ba839f8d36bad5af8a5
+Description: system chassis type checker
+ This package provides a simple shell script which attempts to determine
+ whether it is being run on a laptop (or similar portable machine). It is
+ mainly useful for installers.
 
 Package: libalgorithm-diff-perl
 Version: 1.201-1
@@ -7282,6 +7618,58 @@ Description: Regular expression for IPv6 addresses
  IPv6 address as described in "RFC 2373 - 2.2 Text Representation of
  Addresses" but ::. Any string not compliant with such RFC will be rejected.
 
+Package: libreoffice-common
+Source: libreoffice
+Version: 4:7.4.7-1+deb12u4
+Architecture: all
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 58642
+Depends: libreoffice-style-colibre, ure, ucf (>= 0.8), libnumbertext-data
+Recommends: fonts-liberation2 | ttf-mscorefonts-installer, apparmor (>= 2.13.1~), poppler-data, xdg-utils, python3-uno (>= 4.4.0~beta2), libexttextcat-data
+Suggests: libreoffice-style
+Conflicts: broffice, libreoffice-base (<< 1:7.0.0~alpha~), libreoffice-base-nogui (<< 1:7.0.0~alpha~), libreoffice-calc (<< 1:7.0.0~alpha~), libreoffice-calc-nogui (<< 1:7.0.0~alpha~), libreoffice-draw (<< 1:7.0.0~alpha~), libreoffice-draw-nogui (<< 1:7.0.0~alpha~), libreoffice-evolution (<< 1:7.0.0~alpha~), libreoffice-filter-mobiledev, libreoffice-gnome (<< 1:7.0.0~alpha~), libreoffice-impress (<< 1:7.0.0~alpha~), libreoffice-impress-nogui (<< 1:7.0.0~alpha~), libreoffice-l10n (<< 7.0), libreoffice-l10n-4.3, libreoffice-l10n-4.4, libreoffice-librelogo (<< 1:7.0.0~alpha~), libreoffice-math (<< 1:7.0.0~alpha~), libreoffice-math-nogui (<< 1:7.0.0~alpha~), libreoffice-report-builder (<< 1:7.0.0~alpha~), libreoffice-sdbc-postgresql (<< 1:7.0.0~alpha~), libreoffice-wiki-publisher (<< 1.2.0+LibO5.4.0~rc2), libreoffice-writer (<< 1:7.0.0~alpha~), libreoffice-writer-nogui (<< 1:7.0.0~alpha~), openoffice.org-unbundled, python3-uno (<< 1:7.0.0~alpha~)
+Breaks: libreoffice-base (<< 1:6.4.0~beta1-2~), libreoffice-core (>= 4:7.5~), libreoffice-core (<< 4:7.4~), libreoffice-core-nogui (>= 4:7.5~), libreoffice-core-nogui (<< 4:7.4~), libreoffice-evolution (<< 1:7.0.0~alpha), libreoffice-gnome (<< 1:7.0.0~alpha), libreoffice-help (<< 5.4), libreoffice-help-5.2, libreoffice-l10n (<< 7.0), libreoffice-librelogo (<< 1:7.0.0~alpha), libreoffice-report-builder (<< 1:7.0.0~alpha), libreoffice-sdbc-postgresql (<< 1:7.0.0~alpha), libreoffice-style-andromeda (<< 1:7.4~), libreoffice-style-crystal (>= 1:7.5~), libreoffice-style-crystal (<< 1:7.4~), libreoffice-style-galaxy (>= 1:7.5~), libreoffice-style-galaxy (<< 1:7.4~), libreoffice-style-hicontrast (>= 1:7.5~), libreoffice-style-hicontrast (<< 1:7.4~), libreoffice-style-tango, libreoffice-writer2latex (<< 1.0.2-9), libreoffice-writer2xhtml (<< 1.0.2-9), openclipart-libreoffice (<= 1:0.18+dfsg-17), python3-uno (<< 1:7.0.0~alpha)
+Replaces: libreoffice-base (<< 1:6.4.0~beta1-2~), libreoffice-pdfimport (<< 1:5.4~), openclipart-libreoffice (<= 1:0.18+dfsg-17)
+Provides: libreoffice-l10n-en-us
+Homepage: http://www.libreoffice.org
+Priority: optional
+Section: editors
+Filename: pool/main/libr/libreoffice/libreoffice-common_7.4.7-1+deb12u4_all.deb
+Size: 24467580
+SHA256: 7c46896b04ca93a39ac87fd0234218bab56be619d7dfcf4b0506da42b9208f80
+SHA1: f2671035d9dcab8dddffa06a203240813e81dc90
+MD5sum: bb7517513c594a0d6e1bb9569bedd01a
+Description: office productivity suite -- arch-independent files
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the architecture-independent files of
+ LibreOffice.
+
+Package: libreoffice-style-colibre
+Source: libreoffice
+Version: 4:7.4.7-1+deb12u4
+Architecture: all
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 11543
+Recommends: libreoffice-common
+Enhances: libreoffice-core
+Provides: libreoffice-style
+Homepage: http://www.libreoffice.org
+Priority: optional
+Section: editors
+Filename: pool/main/libr/libreoffice/libreoffice-style-colibre_7.4.7-1+deb12u4_all.deb
+Size: 7173188
+SHA256: 80ed5f07af5062b69b7896e11a8358a53c348eaa1c0d557ccc98e33cb2a00b3a
+SHA1: 9c17d2088e4e1c5e16102e64e3c52895ae54148e
+MD5sum: 54a864bf83513e4094ea5694ae1cc9b9
+Description: office productivity suite -- colibre symbol style
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the "colibre" symbol style - a icon theme
+ which follow Microsoft(R) Offices color scheme.
+
 Package: libsecret-common
 Source: libsecret
 Version: 0.20.5-3
@@ -8126,6 +8514,40 @@ Description: Linux Standard Base version reporting utility (minimal implementati
  This package contains a bare-bones implementation that uses the
  information in /etc/os-release instead of relying on LSB packages.
 
+Package: mailcap
+Version: 3.70+nmu1
+Architecture: all
+Maintainer: Mime-Support Packagers <team+debian-mimesupport-packagers@tracker.debian.org>
+Installed-Size: 86
+Depends: perl, media-types
+Recommends: bzip2, file, xz-utils
+Breaks: mime-support (<< 3.65)
+Replaces: mime-support (<< 3.65)
+Provides: run-mailcap
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Filename: pool/main/m/mailcap/mailcap_3.70+nmu1_all.deb
+Size: 31968
+SHA256: d6c1e3c60a4b6feb107bd2d4134ea01694e9e8c9fd513639d58b649705a18fcf
+SHA1: 9bb9abbadb77ef88d4dea6ee8539d64f6728343b
+MD5sum: db7326ba560cffc97a72ae2e9431c6b8
+Description: Debian's mailcap system, and support programs
+ The mailcap system associates media types with programs that can handle them,
+ using system and user configuration files.  A file's media type is determined
+ by its extension or by running the "file" command if available.
+ .
+ Other packages register their programs as viewers/editors/composers/etc by
+ placing mailcap entry files or FreeDesktop menu entries in predetermined
+ directories monitored by this package's dpkg triggers.
+ .
+ This package provides a "run-mailcap" program to open arbitrary files, and in
+ addition the "see", "edit", "compose", and "print" aliases to display, alter,
+ create, and print (respectively).
+ .
+ This package also provides the "debian-view" utility to handle Debian packages
+ interactively.
+
 Package: manpages
 Version: 6.03-2
 Architecture: all
@@ -8181,6 +8603,30 @@ Description: Manual pages about using GNU/Linux for development
   2 = Linux system calls.
   3 = Library calls (note that a more comprehensive source of information
       may be found in the glibc-doc and glibc-doc-reference packages).
+
+Package: mariadb-common
+Source: mariadb
+Version: 1:10.11.6-0+deb12u1
+Architecture: all
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Installed-Size: 65
+Depends: mysql-common (>= 5.6.25)
+Multi-Arch: foreign
+Homepage: https://mariadb.org/
+Priority: optional
+Section: database
+Filename: pool/main/m/mariadb/mariadb-common_10.11.6-0+deb12u1_all.deb
+Size: 24380
+SHA256: 16f84dca6fdf5d19da295fde10978bef7cce97ff434dae46010eaf9963c7e777
+SHA1: 30451a3ef6070fb3a61a491f7d775daac2a1d396
+MD5sum: 69b2eebcd7420eac3598a7d7d19f3d78
+Description: MariaDB common configuration files
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes configuration files common to all MariaDB programs.
 
 Package: mat2
 Version: 0.13.3-1
@@ -8299,6 +8745,25 @@ Description: List of standard media types and their usual file extension
  The /etc/mime.types file is compiled by hand using mostly information provided
  by the Internet Assigned Numbers Authority (IANA).
 
+Package: mime-support
+Version: 3.66
+Architecture: all
+Maintainer: Mime-Support Packagers <team+debian-mimesupport-packagers@tracker.debian.org>
+Installed-Size: 17
+Depends: mailcap, media-types
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Filename: pool/main/m/mime-support/mime-support_3.66_all.deb
+Size: 10916
+SHA256: b964e671e6c47674879a3e54130b6737e8760fbd3da6afcc015faa174af98ba0
+SHA1: b47831959eb182e371f3d8cb004a42622407b339
+MD5sum: 70f7f4f6c213664480ae79fedd3687f5
+Description: transitional package
+ This is a transitional package. It will be possible to remove it
+ safely once its dependency chain has adjusted to depend on mailcap
+ or media-types directly.
+
 Package: mobile-broadband-provider-info
 Version: 20230416-1
 Architecture: all
@@ -8321,6 +8786,33 @@ Description: database of mobile broadband service providers
  .
  The database contains information relevant to mobile networks access point
  usage, such as APN (access point name), username, password, etc.
+
+Package: mysql-common
+Source: mysql-defaults (1.1.0)
+Version: 5.8+1.1.0
+Architecture: all
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Installed-Size: 33
+Conflicts: mariadb-server-5.5, mysql-common-5.6, mysql-server-5.5, percona-xtradb-cluster-common-5.5
+Breaks: mariadb-common (<< 10.0.20-3~)
+Replaces: mariadb-server-5.5, mysql-common-5.6, mysql-server-5.5, percona-xtradb-cluster-common-5.5
+Provides: mysql-common-5.6
+Multi-Arch: foreign
+Priority: optional
+Section: database
+Filename: pool/main/m/mysql-defaults/mysql-common_5.8+1.1.0_all.deb
+Size: 6636
+SHA256: 4ed466bda89528440ba41f46dbac4336aef2a0fcc074645c3320d82b114a2741
+SHA1: 57b34b2b4d44c52d3d2914163217ec2c17ae75d5
+MD5sum: 2cf95538b4e438afdcce35dac5ccac1f
+Description: MySQL database common files, e.g. /etc/mysql/my.cnf
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes files needed by all versions of the client library,
+ e.g. /etc/mysql/my.cnf.
 
 Package: ncurses-base
 Source: ncurses
@@ -16933,6 +17425,58 @@ Description: terminal status monitor for tor
  .
  nyx was previously named tor-arm (which is now a transitional package).
 
+Package: onionshare
+Version: 2.6-5~deb12u1
+Architecture: all
+Maintainer: Debian Privacy Tools Maintainers <pkg-privacy-maintainers@lists.alioth.debian.org>
+Installed-Size: 3146
+Depends: onionshare-cli, python3-pyside2.qtwidgets, python3-pyside2.qtcore, python3-qrcode, python3-werkzeug, python3:any
+Homepage: https://onionshare.org
+Priority: optional
+Section: net
+Filename: pool/main/o/onionshare/onionshare_2.6-5~deb12u1_all.deb
+Size: 1201940
+SHA256: 2e3853e45c06b5dd2dc58344e80fc70653bf1914fccd514bc97b0fa8bab90188
+SHA1: e17a2eae28cd71df69337f7026e7170f87f7b361
+MD5sum: 3ad1ca99976c3f8cde60374b08545c06
+Description: Share a file over Tor Hidden Services anonymously and securely
+ OnionShare lets you securely and anonymously share a file of any size with
+ someone. It works by starting a web server, making it accessible as a Tor
+ hidden service, and generating an unguessable URL to access and download
+ the file. It doesn't require setting up a server on the Internet somewhere
+ or using a third party filesharing service. You host the file on your own
+ computer and use a Tor hidden service to make it temporarily accessible
+ over the Internet. The other user just needs to use the Tor Browser and
+ TO Enter the URL to download the file from you.
+
+Package: onionshare-cli
+Source: onionshare
+Version: 2.6-5~deb12u1
+Architecture: all
+Maintainer: Debian Privacy Tools Maintainers <pkg-privacy-maintainers@lists.alioth.debian.org>
+Installed-Size: 617
+Depends: tor, python3-click, python3-colorama, python3-eventlet, python3-flask (>= 2.0.0), python3-flask (<< 3.0.0), python3-flask-socketio, python3-gevent-websocket, python3-nacl, python3-pkg-resources, python3-psutil, python3-requests, python3-socks, python3-stem (>= 1.8.1), python3-unidecode, python3-urllib3, python3-werkzeug, python3:any
+Recommends: obfs4proxy
+Homepage: https://onionshare.org
+Priority: optional
+Section: net
+Filename: pool/main/o/onionshare/onionshare-cli_2.6-5~deb12u1_all.deb
+Size: 151004
+SHA256: 3582094bb420dda1671565faef0245621b7b6f700bd368d7a9be7bd5a25ab4a4
+SHA1: 51152306fda740c5c42bd8546d7152b00acf7ebe
+MD5sum: 79d9e19c2d27ee85e4a47be4a34c4c44
+Description: Share a file over Tor Hidden Services anonymously and securely - cli
+ OnionShare lets you securely and anonymously share a file of any size with
+ someone. It works by starting a web server, making it accessible as a Tor
+ hidden service, and generating an unguessable URL to access and download
+ the file. It doesn't require setting up a server on the Internet somewhere
+ or using a third party filesharing service. You host the file on your own
+ computer and use a Tor hidden service to make it temporarily accessible
+ over the Internet. The other user just needs to use the Tor Browser and
+ TO Enter the URL to download the file from you.
+ .
+ This package is the Commandline interface of Onionshare.
+
 Package: openbosniana-apps-basics
 Source: openbosniana-core
 Version: 2024.09.06
@@ -17455,6 +17999,31 @@ Description: Python interface to libapt-pkg (locales)
  variety of functions.
  .
  This package contains locales.
+
+Package: python-babel-localedata
+Source: python-babel
+Version: 2.10.3-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 29217
+Built-Using: unicode-cldr-core (= 41-0.1)
+Multi-Arch: foreign
+Homepage: https://babel.pocoo.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-babel/python-babel-localedata_2.10.3-1_all.deb
+Size: 5614700
+SHA256: 36d531622abd2d8b4b2ff020f18af159064ebde281cd585615c0c95f6803f2a1
+SHA1: 856f97d9dc21b56578a8eb8229e6ce29df8ba7ee
+MD5sum: 9abe43df5385f973d736fefec6d3ed24
+Description: tools for internationalizing Python applications - locale data files
+ Babel is composed of two major parts. First tools to build and work with
+ gettext message catalogs. Second a Python interface to the CLDR (Common
+ Locale Data Repository), providing access to various locale display
+ names, localized number and date formatting, etc.
+ .
+ This package contains the locale data files used by both python-babel and
+ python3-babel.
 
 Package: python3-anyio
 Source: python-anyio
@@ -20230,6 +20799,27 @@ Description: freedesktop.org sound theme
  .
  These sounds come from various sources: KDE, Ekiga, Pidgin/Purple, ALSA.
 
+Package: ssl-cert
+Version: 1.1.2
+Architecture: all
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Installed-Size: 64
+Depends: debconf (>= 0.5) | debconf-2.0, openssl (>= 0.9.8g-9), adduser
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Filename: pool/main/s/ssl-cert/ssl-cert_1.1.2_all.deb
+Size: 21120
+SHA256: 397c14e111ac8c537c795ee3c41a6ebf969fcbbfc6f01a9c819df0136e32205c
+SHA1: ac67a75533262a5ca73cdbfba95d75ae4357e7c9
+MD5sum: 0f9eafe25094dad2b0687dd4d40942df
+Description: simple debconf wrapper for OpenSSL
+ This package enables unattended installs of packages that
+ need to create SSL certificates.
+ .
+ It is a simple wrapper for OpenSSL's certificate request utility that
+ feeds it with the correct user variables.
+
 Package: syslinux-common
 Source: syslinux
 Version: 3:6.04~git20190206.bf6db5b4+dfsg1-3
@@ -20400,6 +20990,41 @@ Description: official tasks used for installation of Debian systems
  This package contains data about the standard tasks available on a Debian
  system.
 
+Package: terser
+Source: node-terser
+Version: 5.16.5-2
+Architecture: all
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Installed-Size: 32
+Depends: node-commander (>= 7), node-terser (= 5.16.5-2), nodejs:any
+Recommends: node-source-map-support
+Suggests: node-acorn
+Breaks: uglifyjs.terser (<< 4.8.0-1~)
+Replaces: uglifyjs.terser (<< 4.8.0-1~)
+Multi-Arch: foreign
+Homepage: https://terser.org/
+Priority: optional
+Section: javascript
+Filename: pool/main/n/node-terser/terser_5.16.5-2_all.deb
+Size: 16532
+SHA256: 76868241b725cd8fe1f9f154dcac96e561509930979f01f7de60d694896c5155
+SHA1: 028cb6e4e79c1cf461c3eb3f0503485a293868de
+MD5sum: 4167320a921e460b05892e297420f619
+Description: parser/mangler/compressor for ES6+ - CLI tool
+ Terser is a parser, mangler, optimizer and beautifier toolkit
+ for ECMAScript 2015 and newer (ES6+).
+ .
+ terser is a fork of uglify-es
+ that retains API and CLI compatibility with uglify-es
+ (Debian packages node-uglify-js, libjs-uglify-js, and uglifyjs).
+ .
+ ECMAScript 2015 (ES2015) a.k.a. ECMAScript 6 (ES6)
+ is the 6th formal definition of JavaScript -
+ a high-level, interpreted programming language
+ most notably used in web browsers and in Node.js.
+ .
+ This package provides command-line tool terser.
+
 Package: timgm6mb-soundfont
 Version: 1.3-5
 Architecture: all
@@ -20424,6 +21049,28 @@ Description: TimGM6mb SoundFont from MuseScore 1.3
  MuseScore 1.3, but dropped from MuseScore 2.0.
  .
  This package will be installed into /usr/share/sounds/sf2/.
+
+Package: toilet-fonts
+Source: toilet
+Version: 0.3-1.4
+Architecture: all
+Maintainer: Sam Hocevar <sho@debian.org>
+Installed-Size: 793
+Suggests: toilet
+Replaces: caca-utils
+Priority: optional
+Section: text
+Filename: pool/main/t/toilet/toilet-fonts_0.3-1.4_all.deb
+Size: 724400
+SHA256: fc04f698bf1d4b4377429d3a2619ad700b7f166e0711ac9b7035858d2312bab4
+SHA1: 2047cd24b75f294b6d1080b535a949bc586f29ad
+MD5sum: b568f6150c1a5fc1ac4747721bbcdb56
+Description: collection of TOIlet fonts
+ TOIlet prints text using large characters made of smaller characters.
+ It is similar in many ways to FIGlet with additional features such as
+ Unicode handling, colour fonts, filters and various export formats.
+ .
+ This package contains a set of TOIlet-specific fonts.
 
 Package: tor-geoipdb
 Source: tor
@@ -20537,6 +21184,49 @@ Description: Update Configuration File(s): preserve user changes to config files
  installation time. Indeed, the transitioning facility is better than the
  one offered by dpkg while transitioning a file from a non-conffile to
  conffile status.
+
+Package: ufw
+Version: 0.36.2-1
+Architecture: all
+Maintainer: Jamie Strandboge <jdstrand@ubuntu.com>
+Installed-Size: 857
+Depends: iptables, ucf, python3:any, debconf (>= 0.5) | debconf-2.0
+Suggests: rsyslog
+Breaks: iptables-persistent, netfilter-persistent
+Homepage: https://launchpad.net/ufw
+Priority: optional
+Section: admin
+Filename: pool/main/u/ufw/ufw_0.36.2-1_all.deb
+Size: 167940
+SHA256: 8c49b7e010b046717eb9a910d14ba2185bc1342be7a2201dd63bfb536676426c
+SHA1: 693f75cc6a60fe8ad3c73fd96551ee93d357978e
+MD5sum: 94fc6321a84b611c669703a875c5b760
+Description: program for managing a Netfilter firewall
+ The Uncomplicated FireWall is a front-end for iptables, to make managing a
+ Netfilter firewall easier. It provides a command line interface with syntax
+ similar to OpenBSD's Packet Filter. It is particularly well-suited as a
+ host-based firewall.
+
+Package: update-inetd
+Version: 4.53
+Architecture: all
+Maintainer: Guillem Jover <guillem@debian.org>
+Installed-Size: 80
+Depends: debconf (>= 0.5) | debconf-2.0, perl:any
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Filename: pool/main/u/update-inetd/update-inetd_4.53_all.deb
+Size: 27052
+SHA256: cd32ae7e500015b30bd45642358ddc02f2d97b24bcc6cfbdc1e978650cc722ea
+SHA1: fab3b04095fe3df323b10dec3ae8b4ef395e4d42
+MD5sum: 4013e9f2c70aea55cb4c7ca42f021b53
+Description: inetd configuration file updater
+ This package provides a program used by other packages to
+ automatically update /etc/inetd.conf, the configuration file shared
+ by all implementations of the Internet super-server.
+ .
+ Note that xinetd is not supported by this package.
 
 Package: usb-modeswitch-data
 Version: 20191128-5
@@ -20657,6 +21347,29 @@ Description: Vi IMproved - Common files
  available in Debian.  Examples of such shared files are: manpages and
  configuration files.
 
+Package: vlc-data
+Source: vlc
+Version: 3.0.21-0+deb12u1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 959
+Multi-Arch: foreign
+Homepage: https://www.videolan.org/vlc/
+Priority: optional
+Section: video
+Filename: pool/main/v/vlc/vlc-data_3.0.21-0+deb12u1_all.deb
+Size: 420688
+SHA256: 078cfdcb7891024346d1eb6976dc9dc2ccb26de3c1c74bffcb28b7061478ba6e
+SHA1: 27206a4b2a538820bcd3b435600fa013a80f6f3f
+MD5sum: 2e9eb2a619816dc63767b6f772c2a343
+Description: common data for VLC
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains HTTP interface files, and Lua scripts for VLC media
+ player.
+
 Package: vlc-l10n
 Source: vlc
 Version: 3.0.21-0+deb12u1
@@ -20704,6 +21417,86 @@ Description: American English dictionary words for /usr/share/dict
  .
  There are also -small, -large, and -huge versions of this word list,
  and there are wbritish* and wcanadian* packages as well.
+
+Package: webext-form-history-control
+Source: form-history-control
+Version: 2.5.1.0-1
+Architecture: all
+Maintainer: Debian Mozilla Extension Maintainers <pkg-mozext-maintainers@lists.alioth.debian.org>
+Installed-Size: 1888
+Recommends: firefox-esr (>= 60) | firefox (>= 60)
+Enhances: firefox
+Breaks: xul-ext-form-history-control
+Replaces: xul-ext-form-history-control
+Provides: firefox-form-history-control
+Built-Using: datatables.js (= 1.10.20+dfsg-1), jquery (= 3.3.1~dfsg-3), node-jquery-mousewheel (= 1:3.1.13-2)
+Homepage: https://stephanmahieu.github.io/fhc-home/
+Priority: optional
+Section: web
+Filename: pool/main/f/form-history-control/webext-form-history-control_2.5.1.0-1_all.deb
+Size: 430676
+SHA256: 88a61a81054c8b379dad120a14f476b4190a14c0823c822357ceb27b4ae24979
+SHA1: 972faf144e42b054e3d21af7de982296cb7799af
+MD5sum: dd387a4e5b1c246864a7dc9599ff1cc7
+Description: extension to manage form history
+ An extension to View and Manage all form data that has been saved by the
+ web browser giving you full control over what is stored, what is cleaned up
+ or not, and when to perform a cleanup. This extension even allows you to
+ control selectively for which webpages form history data is stored (either
+ blacklist or whitelist). Also stores text from editor fields as you type
+ for easy recovery in case of disaster.
+ .
+ This extension enables you to selectively delete privacy sensitive
+ information without having to delete the entire history. With the help of
+ powerful regular expressions, information can simply and effectively be
+ retrieved, edited or deleted. Use it to correct misspelled entries, get rid
+ of sensitive data like private banking info or delete passwords that were
+ entered into the wrong formfield.
+ .
+ This plugin also stores text from editor fields as you type, so you never
+ have to loose your work when disaster strikes. Recover your lost work after
+ session timeouts, network failures, browser crashes, power failures and all
+ other things that will destroy the hard work you just put into writing that
+ important email, essay or blog post.
+ .
+ Form History Control can filter data either by keyword, active page, active
+ field or cleanup criteria. Powerful advanced search options allows you to
+ find information by name, value, timeframe, usage or host. Optional regular
+ expressions provide a very effective way to retrieve any information you
+ might look for. The advanced search option comes with a list of predefined
+ regular expressions which can be altered or extended to fit any need.
+ .
+ The extension also offers the possibility to export/import form history
+ data and configuration settings, allowing you to exchange data between
+ multiple browser configurations or import history data into your own
+ application of choice.
+ .
+ Form History Control can also be used to easily autofill textfields in a
+ web form using either the most used or the last used formhistory data.
+
+Package: webext-foxyproxy
+Source: foxyproxy-firefox-extension
+Version: 7.5.1+dfsg-3
+Architecture: all
+Maintainer: Daniel Baumann <daniel.baumann@progress-linux.org>
+Installed-Size: 644
+Depends: fonts-font-awesome
+Recommends: firefox (>= 57) | firefox-esr (>= 57)
+Enhances: firefox, firefox-esr
+Homepage: https://github.com/foxyproxy/firefox-extension
+Priority: optional
+Section: web
+Filename: pool/main/f/foxyproxy-firefox-extension/webext-foxyproxy_7.5.1+dfsg-3_all.deb
+Size: 318112
+SHA256: af9bc8728cfcbc379d7753726a9a6b70831d1b5179d164b8a7b7c14f041d5ab7
+SHA1: 197c7d4ca5c0ed59921252929a1f94049cb54e65
+MD5sum: 13647ee1da862c3ef9d025a9870e344e
+Description: Advanced proxy management for Firefox
+ FoxyProxy is an advanced proxy management tool that completely replaces
+ Firefox's limited proxying capabilities.
+ .
+ It features automatically switching the internet connection across one or more
+ proxy servers based on URL patterns.
 
 Package: webext-ublock-origin
 Source: ublock-origin
@@ -20775,6 +21568,31 @@ Description: lightweight and efficient ads, malware, trackers blocker (Firefox)
  having a smaller memory and CPU footprint.
  .
  This package provides the Firefox version of the addon.
+
+Package: webpack
+Source: node-webpack
+Version: 5.75.0+dfsg+~cs17.16.14-1+deb12u1
+Architecture: all
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Installed-Size: 5162
+Depends: node-acorn (>= 8.5.0+ds+~cs24.17.6~), node-browserslist, node-chrome-trace-event, node-colorette, node-commander (>= 7~), node-enhanced-resolve, node-es-module-lexer, node-eslint-scope, node-eslint-visitor-keys, node-events, node-graceful-fs, node-import-local, node-interpret (>= 2.2~), node-jest-worker, node-json-parse-better-errors, node-loader-runner, node-mime-types, node-neo-async, node-p-limit, node-rechoir, node-schema-utils, node-serialize-javascript, node-source-map, node-tapable (>= 2.0~), node-types-eslint, node-watchpack, node-webassemblyjs, node-webpack-sources (>= 3.2.1~), nodejs:any, terser
+Breaks: node-mini-css-extract-plugin (<< 2.0~)
+Provides: node-discoveryjs-json-ext (= 0.5.7), node-envinfo (= 7.8.0), node-terser-webpack-plugin (= 5.3.6), node-webpack (= 5.75.0), node-webpack-cli (= 5.0.0), node-webpack-cli-configtest (= 2.0.0), node-webpack-cli-generators (= 3.0.0), node-webpack-cli-info (= 2.0.0), node-webpack-cli-serve (= 2.0.0)
+Homepage: https://github.com/webpack/webpack
+Priority: optional
+Section: javascript
+Filename: pool/main/n/node-webpack/webpack_5.75.0+dfsg+~cs17.16.14-1+deb12u1_all.deb
+Size: 756080
+SHA256: a1deae5e5884939189a0eb196072c707e41a0e49049ff325b89ced21aede5703
+SHA1: 6699d44b8a6d2249637b62caa3c742ddc964e5a6
+MD5sum: 7045c43a067f24adb13cff6ba66d9c25
+Description: Packs CommonJs/AMD modules for the browser
+ Webpack takes code targeted at node.js and makes it run in the browser.
+ Node.js comes with API of its own that is not available in the browsers.
+ Webpack exposes this code to programs that are unaware they are running in a
+ browser.
+ .
+ Node.js is an event-based server-side JavaScript engine.
 
 Package: wireless-regdb
 Version: 2024.05.08-1
@@ -21088,6 +21906,24 @@ Description: Core documentation for the X.org X Window System
  System. This currently includes only a set of manpages which are
  standard for the system.
 
+Package: xorg-sgml-doctools
+Version: 1:1.11-1.1
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 89
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-sgml-doctools/xorg-sgml-doctools_1.11-1.1_all.deb
+Size: 22064
+SHA256: 168345058319094e475a87ace66f5fb6ae802109650ea8434d672117982b5d0a
+SHA1: d469d86db695296d17af345849d5aab2231290a4
+MD5sum: 7a8ad0604863e24061bb1bd9965d189f
+Description: Common tools for building X.Org SGML documentation
+ This package contains tools for building the X.Org SGML documentation.
+ Currently it only includes various entity definitions for the current
+ release.
+
 Package: xserver-common
 Source: xorg-server
 Version: 2:21.1.7-3+deb12u7
@@ -21108,4 +21944,288 @@ SHA1: 3aa7e518a844dd5d113b998ff12a89eeccd78e70
 MD5sum: fd2f2dc15739f1a3993f030b3a5c7f95
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
+
+Package: yt-dlp
+Version: 2023.03.04-1
+Architecture: all
+Maintainer: Unit 193 <unit193@debian.org>
+Installed-Size: 9610
+Depends: python3-brotli, python3-certifi, python3-mutagen, python3-pycryptodome, python3-websockets, python3:any, python3-pkg-resources
+Recommends: aria2 | wget | curl, ca-certificates, ffmpeg, python3-pyxattr, rtmpdump
+Suggests: libfribidi-bin | bidiv, mpv | mplayer, phantomjs
+Homepage: https://github.com/yt-dlp/yt-dlp
+Priority: optional
+Section: web
+Filename: pool/main/y/yt-dlp/yt-dlp_2023.03.04-1_all.deb
+Size: 1777736
+SHA256: f3fec8f9041a2d346bf13304780baa767ab2d2cf3a1e5c84229a51c21a3cb7e5
+SHA1: 45eee75014d030394314b37d3e4153a1d0d294d0
+MD5sum: 576ec316e08c7fb37a4b23cc239d815f
+Description: downloader of videos from YouTube and other sites
+ yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc.
+ The main focus of this project is adding new features and patches
+ while also keeping up to date with the original project.
+ .
+ yt-dlp is a small command-line program to download videos from
+ YouTube.com and other sites that don't provide direct links to the
+ videos served.
+ .
+ yt-dlp allows the user, among other things, to choose a specific video
+ quality to download (if available) or let the program automatically
+ determine the best (or worst) quality video to grab. It supports
+ downloading entire playlists and all videos from a given user.
+ .
+ Currently supported sites (or features of sites) are:
+ .
+ 17live, 1News, 1tv, 20min, 23video, 247sports, 24tv.ua, 24video,
+ 3qsdn, 3sat, 4tube, 56.com, 6play, 7plus, 8tracks, 91porn, 9c9media,
+ 9gag, 9now.com.au, abc.net.au, abcnews, abcotvs, AbemaTV, AbemaTVTitle,
+ acast, AcFunBangumi, AcFunVideo, ADN, AdobeConnect, adobetv, AdultSwim,
+ aenetworks, AeonCo, afreecatv, AirMozilla, AirTV, AitubeKZVideo,
+ AliExpressLive, AlJazeera, Allocine, AlphaPorno, Alsace20TV,
+ Alsace20TVEmbed, Alura, AluraCourse, Amara, AmazonMiniTV, AmazonReviews,
+ AmazonStore, AMCNetworks, AmericasTestKitchen, AmericasTestKitchenSeason,
+ AmHistoryChannel, AnchorFMEpisode, anderetijden, Angel,
+ AnimalPlanet, Anvato, aol.com, APA, Aparat, AppleConnect, AppleDaily,
+ ApplePodcasts, appletrailers, archive.org, ArcPublishing, ARD,
+ ARDBetaMediathek, Arkena, arte.sky.it, ArteTV, ArteTVCategory,
+ ArteTVEmbed, ArteTVPlaylist, AsianCrush, AsianCrushPlaylist,
+ AtresPlayer, AtScaleConfEvent, ATTTechChannel, ATVAt, AudiMedia,
+ AudioBoom, audiomack, Audius, AWAAN, AZMedien, BaiduVideo, BanBye,
+ BanByeChannel, bandaichannel, Bandcamp, BannedVideo, bbc, bbc.co.uk,
+ BBVTV, BBVTVLive, BBVTVRecordings, BeatBumpPlaylist, BeatBumpVideo,
+ Beatport, Beeg, BehindKink, Bellator, BellMedia, BerufeTV, Bet, bfmtv,
+ BibelTV, Bigflix, Bigo, Bild, BiliBili, Bilibili category extractor,
+ BilibiliAudio, BilibiliAudioAlbum, BiliBiliBangumi, BiliBiliBangumiMedia,
+ BiliBiliPlayer, BiliBiliSearch, BilibiliSpaceAudio, BilibiliSpacePlaylist,
+ BilibiliSpaceVideo, BiliIntl, BiliLive, BioBioChileTV, Biography, BIQLE,
+ BitChute, BitChuteChannel, BlackboardCollaborate, BleacherReport,
+ BleacherReportCMS, blerp, blogger.com, Bloomberg, BokeCC, BongaCams,
+ BooyahClips, BostonGlobe, Box, BoxCastVideo, Bpb, BR, BravoTV, Break,
+ BreitBart, BRMediathek, Bundesliga, BusinessInsider, BuzzFeed,
+ BYUtv, CableAV, Callin, Caltrans, CAM4, Camdemy, CamdemyFolder,
+ CamModels, Camsoda, CamtasiaEmbed, CamWithHer, CanalAlpha, canalc2.tv,
+ Canalplus, Canvas, CanvasEen, CarambaTV, CarambaTVPage, CartoonNetwork,
+ cbc.ca, CBS, CBSInteractive, CBSLocal, CBSLocalArticle, cbsnews,
+ cbssports, CCMA, CCTV, CDA, Cellebrite, CeskaTelevize, CGTN, channel9,
+ CharlieRose, Chaturbate, Chilloutzone, Chingari, ChingariUser, chirbit,
+ cielotv.it, Cinchcast, Cinemax, CinetecaMilano, CiscoLiveSearch,
+ CiscoLiveSession, ciscowebex, CJSW, cliphunter, Clippit, ClipRs,
+ Clipsyndicate, ClipYouEmbed, CloserToTruth, CloudflareStream,
+ Cloudy, Clubic, Clyp, cmt.com, CNBC, CNBCVideo, CNN, CNNArticle,
+ CNNBlogs, CNNIndonesia, ComedyCentral, ComedyCentralTV, CondeNast,
+ CONtv, CookingChannel, Corus, Coub, CozyTV, cp24, cpac, Cracked,
+ Crackle, Craftsy, CrooksAndLiars, CrowdBunker, CrowdBunkerChannel,
+ crunchyroll, CSpan, CSpanCongress, CtsNews, CTV, CTVNews, cu.ntv.co.jp,
+ CultureUnplugged, curiositystream, CWTV, Cybrary, CybraryCourse, Daftsex,
+ DagelijkseKost, DailyMail, dailymotion, DailyWire, DailyWirePodcast,
+ daum.net, DBTV, DctpTv, DeezerAlbum, DeezerPlaylist, defense.gouv.fr,
+ democracynow, DestinationAmerica, DetikEmbed, DeuxM, DeuxMNews, DHM,
+ Digg, DigitalConcertHall, DigitallySpeaking, Digiteka, Discovery,
+ DiscoveryLife, DiscoveryNetworksDe, DiscoveryPlus, DiscoveryPlusIndia,
+ DiscoveryPlusIndiaShow, DiscoveryPlusItaly, DiscoveryPlusItalyShow,
+ Disney, DIYNetwork, Dotsub, Douyin, DouyuShow, DouyuTV, DPlay, DRBonanza,
+ Drooble, Dropbox, Dropout, DropoutSeason, DrTuber, drtv, DTube, duboku,
+ Dumpert, dvtv, dw, EaglePlatform, EbaumsWorld, Ebay, EchoMsk, ehftv,
+ eHow, EinsUndEinsTV, EinsUndEinsTVLive, EinsUndEinsTVRecordings,
+ Einthusan, eitb.tv, EllenTube, EllenTubePlaylist, EllenTubeVideo,
+ Elonet, ElPais, Embedly, EMPFlix, Engadget, Epicon, EpiconSeries, Epoch,
+ Eporner, EroProfile, ertflix, Escapist, ESPN, ESPNArticle, ESPNCricInfo,
+ EsriVideo, Europa, EuroParlWebstream, EuropeanTour, Eurosport, EUScreen,
+ EWETV, EWETVLive, EWETVRecordings, ExpoTV, Expressen, ExtremeTube,
+ EyedoTV, facebook, FacebookPluginsVideo, faz.net, fc2, Fczenit,
+ Fifa, Filmmodu, filmon, Filmweb, FiveThirtyEight, FiveTV, Flickr,
+ Folketinget, FoodNetwork, FootyRoom, Formula1, FOX, FOX9, FOX9News,
+ Foxgay, foxnews, FoxNewsVideo, FoxSports, fptplay, FranceCulture,
+ FranceInter, FranceTV, francetvinfo.fr, FranceTVSite, Freesound,
+ freespeech.org, FreeTvMovies, FrontendMasters, FrontendMastersCourse,
+ FrontendMastersLesson, FujiTVFODPlus7, Funimation, Funk, Fusion, Fux,
+ FuyinTV, Gab, GabTV, Gaia, GameInformer, GameJolt, GameJoltCommunity,
+ GameJoltGame, GameJoltGameSoundtrack, GameJoltSearch, GameJoltUser,
+ GameSpot, GameStar, Gaskrank, Gazeta, GDCVault, GediDigital, gem.cbc.ca,
+ generic, Genius, GeniusLyrics, Gettr, GettrStreaming, Gfycat, GiantBomb,
+ Giga, GlattvisionTV, GlattvisionTVLive, GlattvisionTVRecordings, Glide,
+ Globo, GloboArticle, glomex, Go, GoDiscovery, GodTube, Gofile, Golem,
+ GoogleDrive, GoPlay, GoPro, Goshgay, GoToStage, GPUTechConf, Gronkh,
+ Groupon, Harpodeon, hbo, HearThisAt, Heise, HellPorno, Helsinki,
+ HentaiStigma, hetklokhuis, HGTVDe, HGTVUsa, HiDive, HistoricFilms,
+ hitbox, HitRecord, hketv, Holodex, HotNewHipHop, hotstar, Howcast,
+ HowStuffWorks, hrfernsehen, HRTi, HRTiPlaylist, HSEProduct, HSEShow,
+ html5, Huajiao, HuffPost, Hungama, HungamaAlbumPlaylist, HungamaSong,
+ Hypem, Hytale, Icareus, IflixSeries, ign.com, IGNArticle, IGNVideo,
+ IHeartRadio, Iltalehti, imdb, Imgur, Ina, Inc, IndavideoEmbed,
+ InfoQ, Instagram, InstagramIOS, Internazionale, InternetVideoArchive,
+ InvestigationDiscovery, IPrima, IPrimaCNN, iq.com, iqiyi, IslamChannel,
+ IslamChannelSeries, IsraelNationalNews, ITProTV, ITProTVCourse, ITTF,
+ ITV, ITVBTCC, ivi, ivideon, IVXPlayer, Iwara, Ixigua, Izlesene, Jable,
+ JablePlaylist, Jamendo, JamendoAlbum, JeuxVideo, Joj, Jove, JWPlatform,
+ Kakao, Kaltura, Kanal2, KankaNews, Karaoketv, KarriereVideos,
+ Katsomo, KeezMovies, KelbyOne, Ketnet, khanacademy, Kick, Kicker,
+ KickStarter, KickVOD, KinjaEmbed, KinoPoisk, Kommunetv, KompasVideo,
+ KonserthusetPlay, Koo, KrasView, KTH, Ku6, KUSI, la7.it, laola1tv, LastFM,
+ LastFMPlaylist, LastFMUser, lbry, LCI, Lcp, LcpPlay, Le, Lecture2Go,
+ Lecturio, LecturioCourse, LecturioDeCourse, LeFigaroVideoEmbed,
+ LeFigaroVideoSection, LEGO, Lemonde, Lenta, LePlaylist, LetvCloud,
+ Libsyn, life, likee, limelight, LineLive, LineLiveChannel, LinkedIn,
+ LinuxAcademy, Liputan6, ListenNotes, LiTV, LiveJournal, livestream,
+ Livestreamfails, Lnk, LnkGo, loc, LocalNews8, LoveHomePorn, LRTStream,
+ LRTVOD, Lumni, lynda, m6, MagentaMusik360, mailru, MainStreaming,
+ MallTV, MangoTV, ManotoTV, ManotoTVLive, ManotoTVShow, ManyVids, MaoriTV,
+ Markiza, MarkizaPage, massengeschmack.tv, Masters, MatchTV, MDR, MedalTV,
+ media.ccc.de, Mediaite, MediaKlikk, Medialaan, Mediaset, MediasetShow,
+ Mediasite, MediasiteCatalog, MediasiteNamedCatalog, MediaStream,
+ MediaWorksNZVOD, Medici, megaphone.fm, megatvcom, Meipai, MelonVOD,
+ META, metacafe, Metacritic, mewatch, Mgoon, MiaoPai, MicrosoftEmbed,
+ microsoftstream, mildom, minds, MinistryGrid, Minoto, miomio.tv, mirrativ,
+ MirrorCoUK, MiTele, mixch, mixcloud, MLB, MLBArticle, MLBTV, MLBVideo,
+ MLSSoccer, Mnet, MNetTV, MNetTVLive, MNetTVRecordings, MochaVideo,
+ MoeVideo, Mofosex, MofosexEmbed, Mojvideo, MonsterSirenHypergryphMusic,
+ Morningstar, Motherless, MotherlessGroup, Motorsport, MotorTrend,
+ MotorTrendOnDemand, MovieClips, MovieFap, Moviepilot, MoviewPlay,
+ Moviezine, MovingImage, MSN, mtg, mtv, mtv.de, mtv.it, mtvjapan,
+ MTVUutisetArticle, MuenchenTV, Murrtube, MurrtubeUser, MuseScore,
+ MusicdexAlbum, MusicdexArtist, MusicdexPlaylist, MusicdexSong, mva, Mwave,
+ MwaveMeetGreet, Mxplayer, MxplayerShow, MyChannels, MySpace, MySpass,
+ Myvi, MyVideoGe, MyVidster, MyviEmbed, n-tv.de, N1InfoAsset, Nate,
+ NateProgram, NationalGeographicTV, Naver, navernow, NBA, NBAChannel,
+ NBAEmbed, NBAWatchEmbed, NBC, NBCNews, nbcolympics, NBCSports,
+ NBCSportsStream, NBCSportsVPlayer, NBCStations, ndr, NDTV, Nebula,
+ NerdCubedFeed, NetPlusTV, NetPlusTVLive, NetPlusTVRecordings, Netverse,
+ NetversePlaylist, NetverseSearch, Netzkino, Newgrounds, NewsPicks,
+ Newstube, Newsy, NextMedia, NextMediaActionNews, NextTV, Nexx, NexxEmbed,
+ NFB, NFHSNetwork, nfl.com, NhkForSchoolBangumi, NhkForSchoolProgramList,
+ NhkForSchoolSubject, NhkVod, NhkVodProgram, nhl.com, nick.com, nick.de,
+ nickelodeonru, nicknight, niconico, NiconicoUser, Nintendo, Nitter, njoy,
+ NJPWWorld, NobelPrize, NoicePodcast, NonkTube, NoodleMagazine, Noovo,
+ Normalboots, NOSNLArticle, NosVideo, Nova, NovaEmbed, NovaPlay, nowness,
+ Noz, npo, Npr, NRK, NRKPlaylist, NRKRadioPodkast, NRKSkole, NRKTV,
+ NRKTVDirekte, NRKTVEpisode, NRKTVEpisodes, NRKTVSeason, NRKTVSeries,
+ NRLTV, ntv.ru, Nuvid, NYTimes, NYTimesArticle, NYTimesCooking,
+ nzherald, NZOnScreen, NZZ, ocw.mit.edu, OdaTV, Odnoklassniki, OfTV,
+ OfTVPlaylist, OktoberfestTV, OlympicsReplay, on24, OnDemandChinaEpisode,
+ OnDemandKorea, OneFootball, OnePlacePodcast, onet.pl, onet.tv, OnetMVP,
+ OnionStudios, Ooyala, OoyalaExternal, Opencast, OpencastPlaylist,
+ openrec, OraTV, OsnatelTV, OsnatelTVLive, OsnatelTVRecordings,
+ OutsideTV, PacktPub, PacktPubCourse, pandora.tv, Panopto, PanoptoList,
+ PanoptoPlaylist, ParamountNetwork, ParamountPlus, ParamountPlusSeries,
+ Parler, parliamentlive.tv, Parlview, Patreon, PatreonCampaign, pbs,
+ PearVideo, PeekVids, peer.tv, PeerTube, peloton, People, PerformGroup,
+ periscope, PhilharmonieDeParis, phoenix.de, Photobucket, Piapro,
+ Picarto, PicartoVod, Piksel, Pinkbike, Pinterest, PinterestCollection,
+ Pladform, PlanetMarathi, Platzi, PlatziCourse, play.fm, player.sky.it,
+ PlayPlusTV, PlayStuff, PlaysTV, PlaySuisse, Playtvak, Playvid, PlayVids,
+ Playwire, pluralsight, PlutoTV, PodbayFM, PodbayFMChannel, Podchaser,
+ podomatic, Pokemon, PokemonWatch, PokerGo, PokerGoCollection, PolsatGo,
+ PolskieRadio, Popcorntimes, PopcornTV, PornCom, PornerBros, Pornez,
+ PornFlip, PornHd, PornHub, PornHubPagedVideoList, PornHubPlaylist,
+ PornHubUser, PornHubUserVideosUpload, Pornotube, PornoVoisines, PornoXO,
+ PornTop, PornTube, Pr0gramm, Pr0grammStatic, PrankCast, PremiershipRugby,
+ PressTV, ProjectVeritas, prosiebensat1, PRXAccount, PRXSeries, PRXStory,
+ puhutv, Puls4, Pyvideo, QingTing, qqmusic, QuantumTV, QuantumTVLive,
+ QuantumTVRecordings, Qub, R7, R7Article, Radiko, RadikoRadio, radio.de,
+ radiobremen, radiocanada, radiofrance, RadioJavan, radiokapital,
+ RadioZetPodcast, radlive, Rai, RaiNews, RaiPlay, RaiPlayLive,
+ RaiPlayPlaylist, RaiPlaySound, RaiPlaySoundLive, RaiPlaySoundPlaylist,
+ RaiSudtirol, RayWenderlich, RayWenderlichCourse, RbgTum, RbgTumCourse,
+ RBMARadio, RCS, RCSEmbeds, RCSVarious, RCTIPlus, RCTIPlusSeries,
+ RCTIPlusTV, RDS, RedBull, RedBullEmbed, RedBullTV, RedBullTVRrnContent,
+ Reddit, RedGifs, RedGifsSearch, RedGifsUser, RedTube, RegioTV, RENTV,
+ RENTVArticle, Restudy, Reuters, ReverbNation, RICE, RMCDecouverte,
+ RockstarGames, Rokfin, RoosterTeeth, RoosterTeethSeries, RottenTomatoes,
+ Rozhlas, RozhlasVltava, RTBF, RTDocumentry, RTDocumentryPlaylist, rte,
+ rtl.nl, rtl2, RTLLuLive, RTLLuRadio, RTNews, RTP, RTRFM, RTS, RTVNH,
+ RTVS, rtvslo.si, RUHD, Rule34Video, Rumble, RumbleChannel, RumbleEmbed,
+ Ruptly, rutube, RUTV, Ruutu, Ruv, safari, Saitosan, SAKTV, SAKTVLive,
+ SAKTVRecordings, SaltTV, SaltTVLive, SaltTVRecordings, SampleFocus,
+ Sangiin, Sapo, savefrom.net, SBS, schooltv, ScienceChannel, Screen9,
+ Screencast, Screencastify, ScreencastOMatic, ScrippsNetworks,
+ Scrolller, SCTE, SCTECourse, Seeker, SenateGov, SenateISVP, SendtoNews,
+ Servus, Sexu, SeznamZpravy, SeznamZpravyArticle, Shahid, ShahidShow,
+ Shared, ShareVideosEmbed, ShemarooMe, ShowRoomLive, ShugiinItvLive,
+ ShugiinItvLiveRoom, ShugiinItvVod, SibnetEmbed, simplecast, Sina, Skeb,
+ sky.it, SkylineWebcams, SkyNewsAU, Slideshare, SlidesLive, Slutload,
+ Smotrim, Snotr, Sohu, SonyLIV, SonyLIVSeries, soundcloud, SoundcloudEmbed,
+ soundgasm, southpark.cc.com, southpark.de, southpark.lat, southpark.nl,
+ southparkstudios.dk, SovietsCloset, SovietsClosetPlaylist, SpankBang,
+ SpankBangPlaylist, Spankwire, Spiegel, Sport5, SportBox, SportDeutschland,
+ spotify, Spreaker, SpreakerPage, SpreakerShow, SpreakerShowPage,
+ SpringboardPlatform, Sprout, SRGSSR, SRGSSRPlay, stanfordoc, StarTrek,
+ startv, Steam, SteamCommunityBroadcast, Stitcher, StitcherShow,
+ StoryFire, StoryFireSeries, StoryFireUser, Streamable, Streamanity,
+ streamcloud.eu, StreamCZ, StreamFF, StreetVoice, StretchInternet,
+ Stripchat, Substack, SunPorno, SVT, SVTPage, SVTPlay, SVTSeries,
+ SwearnetEpisode, SWRMediathek, Syfy, SYVDK, SztvHu, t-online.de,
+ Tagesschau, Tass, TBS, TDSLifeway, Teachable, TeachableCourse,
+ teachertube, TeachingChannel, Teamcoco, TeamTreeHouse, TechTalks,
+ techtv.mit.edu, TedEmbed, TedPlaylist, TedSeries, TedTalk, Tele13, Tele5,
+ TeleBruxelles, TelecaribePlay, Telecinco, Telegraaf, TeleMB, Telemundo,
+ TeleQuebec, TeleQuebecEmission, TeleQuebecLive, TeleQuebecSquat,
+ TeleQuebecVideo, TeleTask, Telewebion, Tempo, TennisTV, TenPlay, TF1,
+ TFO, TheHoleTv, TheIntercept, ThePlatform, ThePlatformFeed, TheStar,
+ TheSun, ThetaStream, ThetaVideo, TheWeatherChannel, ThisAmericanLife,
+ ThisAV, ThisOldHouse, ThisVid, ThisVidMember, ThisVidPlaylist, ThreeSpeak,
+ ThreeSpeakUser, TikTok, tinypic, TLC, TMZ, TNAFlix, TNAFlixNetworkEmbed,
+ toggle, toggo, Tokentube, ToonGoggles, tou.tv, Toypics, ToypicsUser,
+ TrailerAddict, TravelChannel, Triller, TrillerUser, Trilulilu, Trovo,
+ TrovoChannelClip, TrovoChannelVod, TrovoVod, TrtCocukVideo, TrueID,
+ TruNews, Truth, TruTV, Tube8, TubeTuGraz, TubeTuGrazSeries, TubiTv,
+ TubiTvShow, Tumblr, TuneInPodcast, TuneInPodcastEpisode, TuneInStation,
+ TunePk, Turbo, tv.dfb.de, TV2, TV2Article, TV2DK, TV2DKBornholmPlay,
+ tv2play.hu, tv2playseries.hu, TV4, TV5MondePlus, tv5unis, tv8.it,
+ TVA, TVANouvelles, TVANouvellesArticle, TVC, TVCArticle, TVer, tvigle,
+ TVIPlayer, tvland.com, TVN24, TVNet, TVNoe, TVNow, TVNowAnnual, TVNowFilm,
+ TVNowNew, TVNowSeason, TVNowShow, tvp, TVPlayer, TVPlayHome, Tweakers,
+ TwitCasting, TwitCastingLive, TwitCastingUser, TwitchCollection,
+ TwitchVideos, TwitchVideosClips, TwitchVideosCollections, twitter,
+ Txxx, udemy, UDNEmbed, UFCArabia, UFCTV, ukcolumn, UKTVPlay,
+ Unistra, Unity, UnscriptedNewsVideo, uol.com.br, uplynk, Urort,
+ URPlay, USANetwork, USAToday, ustream, ustudio, Utreon, Varzesh3,
+ Vbox7, VeeHD, Veo, Veoh, Vesti, Vevo, VevoPlaylist, VGTV, vh1.com,
+ Viafree, vice, Vidbit, Viddler, Videa, video.arnes.si, video.sky.it,
+ VideoDetective, videofy.me, VideoKen, VideoKenCategory, VideoKenPlayer,
+ VideoKenPlaylist, VideoKenTopic, videomore, VideoPress, Vidio, VidioLive,
+ VidioPremier, VidLii, viewlift, Viidea, viki, vimeo, ViMP, Vimple, Vine,
+ Viqeo, Viu, ViuOTTIndonesia, Vivo, vk, vm.tiktok, Vocaroo, Vodlocker,
+ VODPl, VODPlatform, VoiceRepublic, voicy, VolejTV, Voot, VootSeries,
+ VoxMedia, VoxMediaVolume, vpro, Vrak, VRT, VrtNU, vrv, VShare, VTM,
+ VTXTV, VTXTVLive, VTXTVRecordings, VuClip, Vupload, VVVVID, VVVVIDShow,
+ VyboryMos, Vzaar, Wakanim, Walla, WalyTV, WalyTVLive, WalyTVRecordings,
+ washingtonpost, wat.tv, WatchBox, WatchESPN, WatchIndianPorn, WDR,
+ WDRElefant, WDRPage, Webcamerapl, Webcaster, WebcasterFeed, WebOfStories,
+ WebOfStoriesPlaylist, Weibo, WeiboMobile, WeiqiTV, WeTvSeries, whowatch,
+ wikimedia.org, Willow, WimTV, WinSportsVideo, Wistia, WistiaChannel,
+ WistiaPlaylist, wnl, WorldStarHipHop, wppilot, WrestleUniversePPV,
+ WrestleUniverseVOD, WSJ, WSJArticle, WWE, WyborczaPodcast, Xanimu, XBef,
+ XboxClips, XFileShare, XHamster, XHamsterEmbed, XHamsterUser, ximalaya,
+ xinpianchang, XMinus, XNXX, Xstream, XTube, XTubeUser, Xuite, XVideos,
+ XXXYMovies, Yahoo, YandexDisk, YandexVideo, YandexVideoPreview, YapFiles,
+ Yappy, YesJapan, YleAreena, Ynet, YouJizz, youku, YouNowChannel,
+ YouNowLive, YouNowMoment, YouPorn, YourPorn, YourUpload, youtube,
+ YoutubeLivestreamEmbed, YoutubeYtBe, Zapiks, Zattoo, ZattooLive,
+ ZattooMovies, ZattooRecordings, ZDF, ZDFChannel, Zee5, ZeeNews, ZenYandex,
+ ZenYandexChannel, Zhihu, zingmp3, zoom, Zype, generic,
+
+Package: zenity-common
+Source: zenity
+Version: 3.44.0-1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 11440
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/Zenity
+Priority: optional
+Section: gnome
+Filename: pool/main/z/zenity/zenity-common_3.44.0-1_all.deb
+Size: 2973500
+SHA256: aa1ed5d687a6ec6563103e3005cc9329c39ca76f86154a7b5e9bbc5ba94f40ae
+SHA1: 26fdf80e2d3e857d0165d7941897688bfba231a9
+MD5sum: 1143b3fb1f98bd9fb77e16a38a70a551
+Description: Display graphical dialog boxes from shell scripts (common files)
+ Zenity allows you to display GTK+ dialogs from shell scripts; it is a
+ rewrite of the `gdialog' command from GNOME 1.
+ .
+ Zenity includes a gdialog wrapper script so that it can be used with
+ legacy scripts.
+ .
+ This package contains architecture independent files.
 

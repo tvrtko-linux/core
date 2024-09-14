@@ -1,3 +1,19 @@
+Package: bluez-firmware
+Version: 1.2-9
+Architecture: all
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 345
+Priority: optional
+Section: non-free-firmware/kernel
+Filename: pool/non-free-firmware/b/bluez-firmware/bluez-firmware_1.2-9_all.deb
+Size: 185424
+SHA256: 56b0e07fae17253ccade97cac4bf344a47a89648f61198f33718c3b02f137af9
+SHA1: 6b02ec63d2698ca54f2bc3f8a1036dd81b6c295b
+MD5sum: 1df7b3dfd661823836485b3269fd070a
+Description: Firmware for Bluetooth devices
+ This firmware is required for operation of Bluetooth dongles based on
+ the Broadcom BCM203x and Raspberry Pi chipset.
+
 Package: firmware-realtek
 Source: firmware-nonfree
 Version: 20230210-5
@@ -142,4 +158,33 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
     (rtw89/rtw8852b_fw.bin)
   * Realtek RTL8852C firmware, version v0.27.56.10
     (rtw89/rtw8852c_fw.bin)
+
+Package: firmware-zd1211
+Source: zd1211-firmware
+Version: 1:1.5-10
+Architecture: all
+Maintainer: Christian Kastner <ckk@debian.org>
+Installed-Size: 60
+Suggests: initramfs-tools
+Breaks: zd1211-firmware (<< 2.21.0.0-2~)
+Replaces: zd1211-firmware (<< 2.21.0.0-2~)
+Provides: zd1211-firmware
+Homepage: https://sourceforge.net/projects/zd1211/
+Priority: optional
+Section: non-free-firmware/kernel
+Filename: pool/non-free-firmware/z/zd1211-firmware/firmware-zd1211_1.5-10_all.deb
+Size: 12608
+SHA256: 5e87a7c7e9d3cc9f17098511226c7b23799135a3c2ad09b1fdb8a8c71ecb4a9a
+SHA1: db8639c3b19710401e1c5ed465af6638de9bce16
+MD5sum: 947b26d1fc1e79f4921d925aee8f6304
+Description: binary firmware for the zd1211rw wireless driver
+ This package contains the firmware to be used with the zd1211rw Linux kernel
+ driver for USB wireless dongles based on the following chipsets:
+ .
+  * ZyDAS ZD1211
+  * ZyDAS ZD1211B
+  * Atheros AR5007UG (alternatively known as AR2524/AR5524)
+ .
+ For more information, see also:
+ http://wiki.debian.org/zd1211rw
 

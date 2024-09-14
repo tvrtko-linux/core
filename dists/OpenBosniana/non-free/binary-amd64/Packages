@@ -1,3 +1,35 @@
+Package: broadcom-sta-dkms
+Source: broadcom-sta
+Version: 6.30.223.271-23
+Architecture: all
+Maintainer: Eduard Bloch <blade@debian.org>
+Installed-Size: 14141
+Depends: dkms (>= 2.1.0.0)
+Recommends: wireless-tools
+Conflicts: broadcom-sta-modules
+Provides: broadcom-sta-modules
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-23_all.deb
+Size: 2205688
+SHA256: 9666238f1d174963d0037efe11685426e2fc6303e0bd6c669e4b880f19e07b32
+SHA1: 24a5e845d53814e8fa3ac20850538a1ded01542d
+MD5sum: 42f8d68a8534a886cf910a6f67f646eb
+Description: dkms source for the Broadcom STA Wireless driver
+ Broadcom STA is a binary-only device driver to support the following IEEE
+ 802.11a/b/g/n wireless network cards: BCM4311-, BCM4312-, BCM4313-,
+ BCM4321-, BCM4322-, BCM43142-, BCM43224-, BCM43225-, BCM43227-, BCM43228-,
+ BCM4331-, BCM4360-, and BCM4352-based hardware.
+ .
+ This package provides the source code for the wl kernel modules and makes use
+ of the DKMS build utility to install them for the running kernel. The
+ alternative package broadcom-sta-source can be used instead in case of build
+ problems.
+ .
+ The wireless-tools package is also required in order to make use of these
+ modules. Kernel source or headers are required to compile these modules.
+
 Package: firmware-amd-graphics
 Source: firmware-nonfree
 Version: 20230515-3+parrot1
@@ -2948,4 +2980,83 @@ Description: Binary firmware for TI Connectivity Wi-Fi and BT/FM/GPS adapters
   * TI WL18xx firmware, ABI 4, version 8.9.0.0.79
     (ti-connectivity/wl18xx-fw-4.bin)
 Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+
+Package: hfsprogs
+Source: hfsprogs (540.1.linux3-5)
+Version: 540.1.linux3-5+b1
+Architecture: amd64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 394
+Depends: libc6 (>= 2.33), libssl3 (>= 3.0.0)
+Homepage: https://opensource.apple.com/source/diskdev_cmds/
+Priority: optional
+Section: non-free/otherosfs
+Filename: pool/non-free/h/hfsprogs/hfsprogs_540.1.linux3-5+b1_amd64.deb
+Size: 156640
+SHA256: 705714dca92c95c646233b84e872366e95f7051015800e160834a4492a358b5c
+SHA1: e9f2bcdf4430e3bf23fb318fcac099fb1abe7b4d
+MD5sum: 06c16432b9873dbe1c89ff08ead0eb1f
+Description: mkfs and fsck for HFS and HFS+ file systems
+ The HFS+ file system used by Apple Computer for their Mac OS is
+ supported by the Linux kernel.  Apple provides mkfs and fsck for
+ HFS+ with the Unix core of their operating system, Darwin.
+ .
+ This package is a port of Apple's tools for HFS+ filesystems.
+ .
+ For users, HFS+ seems to be a good compromise to carry files between
+ MacOS X and Linux Machines, as HFS+ doesn't suffer the problems of
+ FAT32 like:
+ .
+  * huge space waste (in slack space as devices grow faster);
+  * ability to create files that are more than 4GB in size (especially
+    good for those working with multimedia and that need to carry large
+    ISO files);
+  * ability to use case preserving (and even sensitivity!);
+  * ability to use uid's and gid's on the filesystem.
+ .
+ Users in general can enjoy such benefits since it is expected to have
+ more HFS+ filesystems in use, as Apple has announced Macintoshes for
+ ix86-64, besides the filesystem being already supported by PowerPC
+ systems since the beginning.
+
+Package: rar
+Version: 2:6.23-1~deb12u1
+Architecture: amd64
+Maintainer: Martin Meredith <mez@debian.org>
+Installed-Size: 1365
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Suggests: unrar
+Homepage: https://www.rarlabs.com/
+Priority: optional
+Section: non-free/utils
+Filename: pool/non-free/r/rar/rar_6.23-1~deb12u1_amd64.deb
+Size: 358724
+SHA256: be108f47cd819d4ce6d691c444d427073848d3ebfe3667821eff7467e6f71dea
+SHA1: de39ce8964f607b24147dde4cc51ea43e9617d42
+MD5sum: 07c136cd8ca3f47fe58c255d8ff4ed09
+Description: Archiver for .rar files
+ This is the RAR archiver from Eugene Roshal. It supports multiple volume
+ archives and damage protection. It can also create SFX-archives. There are
+ versions which run on DOS, Windows, FreeBSD, BSDI.
+ .
+ This program is shareware and you must register it after 40 days of use.
+
+Package: unrar
+Source: unrar-nonfree
+Version: 1:6.2.6-1+deb12u1
+Architecture: amd64
+Maintainer: UnRar maintainer team <team+unrar-nonfree@tracker.debian.org>
+Installed-Size: 333
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Homepage: https://www.rarlab.com/
+Priority: optional
+Section: non-free/utils
+Filename: pool/non-free/u/unrar-nonfree/unrar_6.2.6-1+deb12u1_amd64.deb
+Size: 140636
+SHA256: b0720bf69a7651faad33328a21c6769df2c4cf10dd60637ef619e695b5c1730b
+SHA1: 8a0a9d1bac10d53dae3e9f0d14cbffcafe9c17c4
+MD5sum: 04368f6039bf60ec914814eb66e60725
+Description: Unarchiver for .rar files (non-free version)
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
 
