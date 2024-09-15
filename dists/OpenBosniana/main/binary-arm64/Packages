@@ -19616,7 +19616,6 @@ Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 149
 Depends: python3-greenlet, python3-msgpack (>= 0.5.0), python3:any
-Recommends: neovim
 Breaks: neovim (<< 0.2.1), python3-neovim (<< 0.4.0~)
 Replaces: python3-neovim (<< 0.4.0~)
 Provides: python3-neovim (= 0.4.2-2), vim-python3
@@ -19624,10 +19623,10 @@ Homepage: https://github.com/neovim/python-client
 Priority: optional
 Section: python
 Filename: pool/main/p/python-pynvim/python3-pynvim_0.4.2-2_all.deb
-Size: 32492
-SHA256: 8ed2da63bf99a8bff0b272fe26a1d7664a7058ebd4866b886364e55a92591989
-SHA1: afa4037140f7f56f905200b52f100883bd2da80d
-MD5sum: 640ba8261c6403ddc8f758954ec7edb5
+Size: 32508
+SHA256: 10fb78445e026173bfc26833e56ea503179ef09feb3e9a8b25823b8a26cd4cde
+SHA1: 44a5dffeba2cda7820de6b8ff3a9b0d5b2c42614
+MD5sum: 6edfa3b08d984b2e040e80b16306f089
 Description: Python3 library for scripting Neovim processes through its msgpack-rpc API
  Neovim is a Vim fork that focuses on refactoring, extensibility and
  simplification of the original code base.
@@ -21523,17 +21522,15 @@ Version: 1.54.0+dfsg-1openbosniana1
 Architecture: all
 Maintainer: Debian Mozilla Extension Maintainers <pkg-mozext-maintainers@lists.alioth.debian.org>
 Installed-Size: 12291
-Recommends: chromium
-Suggests: ublock-origin-doc
 Multi-Arch: foreign
 Homepage: https://github.com/gorhill/uBlock
 Priority: optional
 Section: web
 Filename: pool/main/u/ublock-origin/webext-ublock-origin-chromium_1.54.0+dfsg-1openbosniana1_all.deb
-Size: 2396540
-SHA256: 04661c45c6a5517770f50991ff0d6ac92a1cad84def894ce5e3fc42f5e5fe0ca
-SHA1: d266846afeac730e899a57582791361f9ac4da8b
-MD5sum: 6a362d405f58810ce7751aabd2d6149b
+Size: 2396504
+SHA256: ba2a60bdf2562395559f04cd978c32aa85cce7f859e33ad1584efb9e43403f7f
+SHA1: 2a8f00904f4b0f3795161da834b805d833615e46
+MD5sum: 0c78bf80baf2ffbe53a551c73295ed34
 Description: lightweight and efficient ads, malware, trackers blocker (Chromium)
  uBlock is a small footprint blocker for against web ads, malware, trackers,
  analytics and similar invasive items.

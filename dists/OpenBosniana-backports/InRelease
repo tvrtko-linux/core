@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sat, 14 Sep 2024 19:08:03 UTC
+Date: Sun, 15 Sep 2024 08:56:54 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbl3xQACgkQ5Vfn9vbt
-T6r4tBAAiVIMOq98+LhdKMMoOM+Cnigq+Sh4NWJjdnTBZkKry8+cZ/JTlg9qn+ti
-kl3NZNgTn/ASo6QHt2O6VKMXdHpdEaT+M4+JabHKf5Q1p5+XBczUXst/5L4IsCcp
-EFNYbkXOp15y586N3svDZckBjpfszlDbtvfP51o4TcdfN8CYVGdtxD7M1vL6I0pB
-rE+dzMG6gWPYXC3mISs/ofXfWKfOh6+lgC4JMVnwFC5RaruH3M6k8cxZbakqSjXh
-WmwjfdMXWy/9bSwF7fZbJd+uzYY9S1dn9Z4aTT9icssDbgBmDdnd+F0RRTkZsSdx
-YtwhCtLdZOlzpG+IUTRZsS2xhhptrAiZ6BM4+FSRiZNfd3+5783e9Y8wzWNjZic3
-HL7T3CdNFOQApQTyrlkEOgQ9xdAJCuZKaEzcvHRnNssh8QQUxU7zqmYt2tjYWiju
-QWd9tPSBuczICBvM0hU4GszeW+UPGuPAq71SQ9xxEAuxgFmHrxP9QpQop8+KOKjC
-vmoxDqKKQkz/Ji/5TfRrNldUXPcMC3G1huQXf98j+pCvySsDLoIoE1dxc8cD5wrq
-3q6k4ZPvT5pTBIPP2im5ESI/0VgD+EnJFGnoN9QkQG/h6ZVTSbEIC+RuYNedCfEC
-XgK6eTuzkYZmsjkaYfCPot0/fn/EGq4TY2wacdDmwBmLUxzmK9w=
-=boQ3
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbmoVYACgkQ5Vfn9vbt
+T6pR1g//XXXfKqblLLTOx4grmRccbAbtlPqMWGgeoRE52vbS2zRs7rrBxlfwFevt
+m8QRSC3GaKwCvzYIqCvgsUsCjeftAo+hD/1SBKxFtOejWzZQTiegENaO6rabWKWR
+bdZKndhohSzRP8HlFHvJq6Tf5f3c+0QUDNTVaHACzaCF1SBnYmZG3FAnOc3Et10/
+m9oidJ1xl61d5bWk27Tnm6dNQ99lVXw/TPk38ql52EO2QarkRbcnTf01DfYzV6PY
+jqh40LhnwCnuPPxcPB3L/SDWm6ZwP6kjWYFzRVsyIGkTPuNLQecWrNTVYGmGmwkX
+RhnFMzrlxEMnzmhCwZaNGqworn8dCwAJaExYj6LCuoKibJBs4zltxNNn0S4wNXXF
+678iUd8iX8JHa0PoZLoAsnWNQs0ZVlv/jqMwrWfiJJhEI84vemup69BZ79SU6pU5
+jRnVvlBxR9vhPrj8afFElK41MlrgRDb3APFUQpii43F8BtmLWv4lNhrZmVIqhkzh
+OUBUYO8Q9xnydiMIo6VypS3bsI/0vKl22QSdBgyybwpSPFVSBjljNXAnPXpmvHit
+as+VtcKaBiKbc0FFekmEMXS4RC1U51Wt0J4UwmtYrZ0fpbFLBbodi4OJE2Zeo+6v
+xDF0RwSYQ/vv1Px54ZvBFUXnwbxmwFU/EOssxqp3f9qL5gYs540=
+=yJBn
 -----END PGP SIGNATURE-----

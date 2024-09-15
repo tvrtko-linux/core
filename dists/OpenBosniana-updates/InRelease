@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sat, 14 Sep 2024 19:08:04 UTC
+Date: Sun, 15 Sep 2024 08:56:55 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbl3xQACgkQ5Vfn9vbt
-T6pV5Q/9EeRKqp9TpA8cPUz7lZjeITfliqs75ifMYyqFr+tVSBmbTrWQGJvL7PWc
-DulkbRV5PA+85+N+KPynRPs00z7A939K8AqBa/+Le/X0i7hb9GUIgJCO5H89/cBa
-QfR+0Uz8OgCqPwOiGdH1xOwWyCrSndiiMPtIp0P49qzZJ6LyQJLtE8lXpmfz+8YO
-DSTRVKqVz6cKxRJWN/2p2jMsfgXAEBkpECAjq3rterozW8vJxJ7UPMY2OYfuLh7G
-sLrhtqNQ3PlmbC2CDdqTdq6rGtxcXZ+k9/HxYmsSR/8GxqRZe/z39Bq5J3aXDGdd
-+IOGwmMnfFc582rh9Rj9cC74kIcXc5m8MM8PgLF5U96tszy4LjVVqGKVfP/6uPNz
-CxXkuRbrq9KY4fv+5NPe6wDKgFu3R+5j2dWYXDiiXC+BtLzmrAGstKkFHnvGlhyY
-qX7x55nxa2uK5YicdYGdl7nFFnYQh6dZaGKzLzs18PAgfcrekROcLrfgPYUeInLs
-KAksptL8vsrMlrGMrJaG4bOkiCWiNBWzqmH6mhcAFkGSuxvHpPixO0M9GSUgruPa
-8o/yrALq6G+0BqTz9YUX6//wlNfP78E2iL6fYQvslYkLS9RwH/FiGod1ZlxbPLav
-FRfqhOy1zwX0pPd0M3M6ezI1Hd6t+y1Z4yV2i20qQHUgCU1p/lo=
-=Z+et
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbmoVcACgkQ5Vfn9vbt
+T6q6JxAAoJK43T3r1XPjddT0V/+Oi673YJqBQKleLmoxzfY/O/W1SXEcyR1SqFLn
+5u5YfIHv1jTLm/mbNvpgcEbnnxTYqJYEdf7HElv6hOkc6MLTawsCV8IEeluuEFfm
+8ISQyn/akgaz636upyqpcY9Fpg5n6ohjo7q6dWnEM+OKTRnX5n7/jCAn+TBRT9Ku
+BpZt/UWTIXvkzrlxcz2JnpuqlZ3oWRKn/wNYtuIVxynl3f8JRTNbAzkgxlPYHGrF
+yqSe69QABHEpHQLJJN3HMIIQG7LZYjESpyxm5EFlk5AqUuWV+xSbQiCkYWqfG9xL
+RMz/asaxCkI2zyBMZ+6Rnc8hzR8fT9YfZ4ePr0huHeRIg0UUQaiPcFSDEYsreP0X
+nFLIrXQg2FMMAtCxDJkCOtas96tE2tnXEhCD3ivj/fifzzhsddN6+qlmAL/+bhdJ
+Ken1MiPo5C/GkxuPBWpcew5oO8hWZEJwP9X4+YvcE05yw+jbd0pGmWs+pH/smkuq
+fbssCk9q6Ra2mIJTxr7TyfhQ9J39jqu5jaOUG7pE37rd1fc4II+Fo8kuAaltEOT7
+VmWaYWs99SAuvO7Qhyb5arzw/Za0dUtXTuKhkmFYEckDY4lSE86MACdKVGz3AGyI
+IYMttvl1+jCZG7aorVlbbyMEaCbAm8Py4C6iklG+13FO7K+WQaI=
+=K+NR
 -----END PGP SIGNATURE-----

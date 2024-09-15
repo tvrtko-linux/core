@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 14 Sep 2024 19:08:05 UTC
+Date: Sun, 15 Sep 2024 08:56:56 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbl3xUACgkQ5Vfn9vbt
-T6rU9g/9HVe2W5e0wEjk5rwCMxRsyLK/8EFtFU0g9YiTxGpuk6EDWpDfecyaSrfJ
-jFDohKNY7VyNsjUfXX2gKKpAg/q0L4lgm3mk5EUjs2gBEOoMxLEUfXpfTVapAYiz
-oNMKqwsCa1eWWRLASuYC50V99D1MxgQ3va94vNPLtpRW/t8JOJn9cvoiqWExdPB7
-ByXewprX9ehWKYjHha8CJT0ykFqhwB/4ajQU3wHrOBTX764E0purhD6rzNn0AX6f
-KESjNrTh32nI7wpCyX3YzF/OEkxHk2OCRfSFGATVrUq8WkE891pCnDLthnnEChsZ
-tvWrN/jp3Z17rmk0v1Bq1DW9huwO0lKHDkaIJynTPoMMelTq24AhTbjeVXdJmNuS
-sg7nWdoOquezbPB1TZ313oXC10zxqZRq5GKEk9PK6089/fKYNeFvYEeZWepz6vAv
-TCHkiFpaXfn/6JLr+JOfqeyjX6H6AW9M9d55hkNECxC75kNRB5o3eBpt9STOVmYv
-LCuPtXFfxzCfcKMroAqkhkutX1H8tyTWIwRWLK6njwCBrBTprWdgqs2LxXkEHZlJ
-R5FX0H3STvKp2wpZ4Amf12a/oyzusMQjCe0uh5MLDswrghiK2lnR8lLYx4E7BPzt
-rr12ottTHULuQODTRKMVMCPJSP0tHFk0gv9rad76m6vVaySIVRQ=
-=xd9X
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbmoVgACgkQ5Vfn9vbt
+T6rXqw/+M9uZ1S3Q1gNQRO8KrLqMrD2lgn/onmZalJH/txH+I3vsRKmE4kLyLYJG
+gDAK1xpMczqmqW5Xv/vEqy4FIrOtdYqz8b/yHW3azXqp1W8F0ebyAQkVpoXMGmdr
+San9QqRW98+1DqCcaDXUg+u9goaf2KyCSZFitSvKzv+5WgyZ6JVIoGWhthTKiox7
+fH2++t7I71Dts3MECG/vps5q+PeKV6VKVHKQMg+mxTUMVmhzgGs3J7+x+EcQ2Yhh
+EFjMvi4qEcXM3syPIh71u3pV0IKDoZDSHOaiUVAPetiCJG8Ry3vCesblJvNm0/8M
+RPPxfQ2ne3NdsxinjZef9HBvP1U24IB9+cVHCNA6RovwQsGxo/6iPvtzdoVvz+/f
+lWkqftue8sYHd/72rVbU7j3dvCTzBlUtRxQBw2g95IJdJXmtlHT8eWZYmcAUpb7j
+T+SmO5DZawOeA3ggycNpNYxciX+tz7nJ80ju+lBn9sMt55+v5/bN5MWoSGm7nL5K
+I67SAHZGWUeV23rZcFnQgE+xKf65Wwb2r6SjsvQBDBNl46x17uhb8JE2FJ/22XTh
++hTzqfavN6QY5ueY42nepzI/1HXTrB3Vio4KxBg1OI83XDtL3koCWNT1SX1ZXHyf
+RY2XFPZVQWFWXo3y/6g03FTi6/24sFFhSzSxZqHdqNcimJPVyuk=
+=0Mux
 -----END PGP SIGNATURE-----
