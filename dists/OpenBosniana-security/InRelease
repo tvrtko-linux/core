@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sun, 15 Sep 2024 12:19:46 UTC
+Date: Mon, 16 Sep 2024 00:32:14 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbm0OIACgkQ5Vfn9vbt
-T6o0ug/+MtKbKfobU+3/sR1PSS8f8u4XlbgmnzzYY80hj7MmgbhyOtMh7iHgJWUW
-/BdDRnIPpSNz4i3oD3BLTGEOL3CaPLbWPkdXno4BIyENz7mKOqiqBDszNjs2r1Uj
-/gKCYOlWomM5b0K4izfK9JrqVifeVav9kw7pwB+ieVIGxI9776V+1gMoXpKGmsGi
-WTkkXkPWuRw6cxW3yY00+7naoep0NnumZTT7Ne0mmRSALDzR86f/iMINFlO0y/qb
-Vf8uXfcY/sYVRWAuAbY2wnKkYRAbVahG3gFkVI+gZetzlYHY3GOPYMHJW/wGLOu5
-79O+AEb/bDhQbYXnRsGa29VKdpWEWzO5+qChwu2u989z0Ge+BSGSwMa2tx2kbMPT
-nqVpLqjvwPCrujW3fpObjHNtA4f1i7mP/HdUxuYPvLcSDczoCfxTvZJQ9IuJ5fxO
-mX9+EH9VFTfLEpaqeh6bZSaIR4utxdqViYRfm/rGxBkGm0MZEMpHFx2ZSloQTY9X
-IeKHSHwMGu4Ad0oyUffPE1z/6Ggc2O1XL71pEsEuf4VLdlq5jybtlCWhrDQbyKmn
-bkokLGpHA97sQyrY2EnCrDdjIkA3BpgED2e4rI86fgOqotLNPHZJbGw62TuUgvDQ
-/JfAFfGsaOWtHrG3qhnm+CaKZu48CxRkP2LIGR+9Lfm7DTT0rlQ=
-=Q6r7
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbnfI4ACgkQ5Vfn9vbt
+T6piQBAAgZL5fAisTFgCjcsG43JIrRE8eXg7tKZ/oE/upAx/2H7fp1EjE7ZoZnlM
+1LkeGkNvzlUAtlh4N0uuMDI/iRhaHTf+w7H/VhiwxqRlZ7+Fg4AQgrS/MKoV7HAk
+rVN9w9gmYbS3kriphPH8XxBOFjxqqgY2PLRwVHRWfaxvkn+d/jfwLlKMTFhpmh8N
+JNXgBQXe2Arp8CzhNIcXnk2mEMQtmODXjFMi2DEl0VijmqiDtXBiMbDBjPwBBSCE
+HhC4NMkKWVhV3o6xUit2k447uWDsss7JMp1oE/oLAFYRPZ8aE3V6vo2uavL7PB53
+LvHIYEWTh+6PY7jaEkdyV+GcsIFHUH1MF1iGdjqEoGw3lzsi7zdFYi4HdP7nYfOq
+USV/KoUn4zlx4re7KNgzzyuPGRi1bgH9YalKd3Y5VMIZvMEPAnnEMZYwjb2SOHj2
+Jn2DLuwRVvTRBB+0ZCJS2Zi3d1i97fzVhduzDq1KG1eUm6Cv854q0W0xyb6C8PFd
+X1BS7qp79bkshjoecYF56k1UkNgGGgEFgLxdR3zre0z8L8d9o50olBssvkxldtCN
+ohI66Ev9bvNcEXzHnoRZPimlpn8jiXVjEnvvo4oxe3PQoLM2GbTYGdW96bZVc3XT
+AVSPHNhuuKVJuP3vp79F4W4a5wwMRd5qtNTpqMzwKpvAlOPcRlk=
+=54PE
 -----END PGP SIGNATURE-----

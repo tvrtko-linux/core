@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sun, 15 Sep 2024 12:19:45 UTC
+Date: Mon, 16 Sep 2024 00:32:13 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbm0OEACgkQ5Vfn9vbt
-T6o9SQ//ZBOjIx+5/VM4uvANq6XWh443c71KM2yCCqL1PSPK8BjLiTxz35+FbROj
-lQWE4VfFqICSdD1u//3ymnNpkqP+r9cefHxXcqdXOOudvMGNtq24X3+VYvBUvEIn
-L8I1zbVctBSZtoJVbxk7MYkDbvhSNjtAU/XTbk5+uvqFLgRXMgSlGtjXGJmSy7hq
-2ovi45z1/Sx+iCgb8pOsZWS2TaPM1b8Kxh7I0Hm7m/MEl66sb5zAN9mW92uIip0M
-ykDHAsIKw3BId0ZwVNNY25MCn6mEeA8ZQUZFPae87DRiQd2/TkT9pdnR4RO0WRm/
-W+217VdUtbkJMN/SmEVtwFvwiddEZsaG5utbo0MlGtcf0U8cmiLVSRjTZu98xWVs
-DsF0dZwRmnXMjGEfUWCY0Gw1FZ6YdssT0Cr0aKfzuA55Pc/u+ZTrGqiIpGqYQx/O
-ixPecwVkQ/VVF3RqJXUhIkvxycW0dU1kPjS3WNlISSmaNmCTjHiY+eXz6HR11/hk
-i85YdrMqccgZfZ0gHOYeWYffJPd4JTzMmugl0i9k/5XnOn/2wpPOEbI2Bd0Wfzy+
-1UHQlVymOe9kHpCUBKxWBIqjShiFuYxdCtomZ3gBW4FpyuSnzLIOMGX4BUQOixW0
-kj0XMXFH4FM1+ot+9OHEzPjtKgMJnbxaIz/oZwT245JWz/u5SKo=
-=e8vC
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbnfI4ACgkQ5Vfn9vbt
+T6quQQ//Xz008hYuxSokwGnrSY6VK4AlWY4Bap3j+uFM4+mC5rBhRehjtRgWWfrQ
+u3Mjo1Rk2Nq0BzAYcdyiI2YwWMFQxJljzFH11pM2Sp97edP9/UhHf+hCTxx4psO+
+0FpnFQdUfH2CF5ZSHN1zXr/UKU27CpbkdMxs1jn0OzfZIcKCE7hgxb+ZYWhDq+CH
+QzM5Zh7kWUV/4qhnzfJdVxGwJB6bLcvaP/nvN9qvH1QiwkKQdzIWeRwiKLH1eCI+
+sbYjCOjsfpt3KZ4w3AuLbKVCqRTh6HLpoJbx2H+P8o+qi7J3OGqgZe7Ux2NfPf01
+SAhh0ssWKrABVvA9wPv0YqjvG1qPrv89In6KLvHCK2YKR5BHNIDONUwy91FEbvP9
+KozEXqKoWlXn/pAvREJdA2+Hz2blpILwcFpUBLZvnqr9VMVxhaGFJ+J+KFEfvnzY
+yq2TEr30DkAdNWNNHg9XXRkLedBF/CI1djCxfCkisqvpORRDvkqccu7oGsauY81d
+1M5HWQcMWK6QOL//iazEv7ZOzcLDM3oURIpqLenyAAGZ78jtXu3S0K82Xi9rxQgW
+D8qCS+G+m+NQc1zgsdj2G1tfgNxo8SKAfpvznyHzcv6clLaboQzMU4GJxnmXLR25
+ppSWo03m7EKs9OAfwe0bfKUpwwdMpUi8AG969GZg6I/5gzaZRIU=
+=6i1A
 -----END PGP SIGNATURE-----

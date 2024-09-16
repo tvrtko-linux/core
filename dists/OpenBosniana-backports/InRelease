@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sun, 15 Sep 2024 12:19:44 UTC
+Date: Mon, 16 Sep 2024 00:32:12 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbm0OAACgkQ5Vfn9vbt
-T6qRZhAAn4igH+jB5IyDXIyh/5epKuJIdZ0t6Rfk22q/sbZZFI3WQjOVil8EZI+3
-aYM3YZHlzI/hs3jtnXIM3RKBr7Cq8Tb85SEYvzcthBUgGZLYhq63AUtxDQ9PHbQ2
-Qvkf/LdllBjndJzkQwJphFOGiCnanLB5xRKd3DAoPmj2PP2tIXnjSRmxB2Kk/F5y
-z9RcCufA4vyWQPycUbb9nnidfECfMu+StFyvUaSj1MwlUtTH1N84Jz31yTYp3Drx
-HyivKhFL/9/GvlHccBBDNZS8tOP+QZJ1sH4D0mCyBpySRiEVz1S8FnXjGy6e+cCy
-YZ3YPEFkgXexFzZ9Q4tdnQed2gRlumv2XTEmlaZmSPfICkQzCln7Lnq8bdSepVq8
-z020hX1WfDL05iKuTrFuwLujBEr+47hwRmnAjUIbWOcAGejzXDEj1GQ5RVnUxdYb
-fb71CRP+NMiVOBVG4+gwzrOPS//4862DeNtSJWt2i6B6RRtJIboYpwzRgr8Md46x
-U42tbE43ZInENH60FYZQfCuIsJHGtgOtKnXt3lYritKjsJ/yjgyOSzN1S5LDeAVA
-MsqEYz7hNJwgeU+DJUmaW4ZXGUNhLi0YPxuz86kRpPdCLII6+N+zDA0lru3olFxP
-dZpsjO2YrYaB4enkMnds1Cnu0q/ZR1mVnK0rTXM5bfSkvpVfPC0=
-=qOyK
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbnfI0ACgkQ5Vfn9vbt
+T6oeLxAAmpQ3eEIqkwjlnml7bsox/NyBQ2zgj5IMMkKNWPeyq3ptIkuJTAnIZwl6
+NsucfYSce9s5D2Kww/cMR+PvAqhUiF+KA43XpG9u6ujGVAK0lO5PexXX7s0v270U
+CV5UlnZ0wub/FjqIYBCSQTGw1aPREIiKahOxW40kCjf2lrMFe+TT0bxDYueuNGpP
+dfG0QgVZaWW5r37BQc8oxNphCCvOPvn/SDDyuurA8svxxmyY7HjU6UN0xtfPAdS7
+JEIxcucQLfKFPCifgbTlmXDt/HTcABHaTMD5+3gKWoxUGT26StApH55KRRdwY+aw
+QiaOTFY80OHIeylppQIt+PModEUEpXN2mYepgkewon1WnESuxL/iqCDX7rTYtTf9
+ZU7QuvC23tyCtD2yhxggRCX+8dGNQeJxlavdpXWaNKBzgpeXZ9s75MsayiZcnbdv
+yByvVYCXUSLCbar9Ybdyt7nFPO/kck8kZywnu8IPe3RJCcvRUZnlfQQBEgtdOAnv
+KgeZ62vgF3z6Bh8MCrAD9e7iDTuQtWkzbMHyIgQSh/5VTOQCcsEpzKBBgvMde8wn
+tglXZbHvgrzfYJcMwLO2CcebbFEjQEXxGyEK1mXbnQbR7eojHE0dFUJW6cHTlMT2
+EVISZugMkEAa8dQ0JVz4gCjwyQvOll1PYFEujGrGlxXMytBtCmo=
+=mMIU
 -----END PGP SIGNATURE-----
