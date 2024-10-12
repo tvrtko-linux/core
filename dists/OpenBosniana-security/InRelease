@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Mon, 16 Sep 2024 00:32:14 UTC
+Date: Sat, 12 Oct 2024 04:08:30 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbnfI4ACgkQ5Vfn9vbt
-T6piQBAAgZL5fAisTFgCjcsG43JIrRE8eXg7tKZ/oE/upAx/2H7fp1EjE7ZoZnlM
-1LkeGkNvzlUAtlh4N0uuMDI/iRhaHTf+w7H/VhiwxqRlZ7+Fg4AQgrS/MKoV7HAk
-rVN9w9gmYbS3kriphPH8XxBOFjxqqgY2PLRwVHRWfaxvkn+d/jfwLlKMTFhpmh8N
-JNXgBQXe2Arp8CzhNIcXnk2mEMQtmODXjFMi2DEl0VijmqiDtXBiMbDBjPwBBSCE
-HhC4NMkKWVhV3o6xUit2k447uWDsss7JMp1oE/oLAFYRPZ8aE3V6vo2uavL7PB53
-LvHIYEWTh+6PY7jaEkdyV+GcsIFHUH1MF1iGdjqEoGw3lzsi7zdFYi4HdP7nYfOq
-USV/KoUn4zlx4re7KNgzzyuPGRi1bgH9YalKd3Y5VMIZvMEPAnnEMZYwjb2SOHj2
-Jn2DLuwRVvTRBB+0ZCJS2Zi3d1i97fzVhduzDq1KG1eUm6Cv854q0W0xyb6C8PFd
-X1BS7qp79bkshjoecYF56k1UkNgGGgEFgLxdR3zre0z8L8d9o50olBssvkxldtCN
-ohI66Ev9bvNcEXzHnoRZPimlpn8jiXVjEnvvo4oxe3PQoLM2GbTYGdW96bZVc3XT
-AVSPHNhuuKVJuP3vp79F4W4a5wwMRd5qtNTpqMzwKpvAlOPcRlk=
-=54PE
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcJ9j8ACgkQ5Vfn9vbt
+T6o9ZhAAssqUsC+1yYpsmGw4jx/YKtBRf5n3jEwdGwD5rjZ5ul3KtpmbNaplF+1B
+YnQRyLPL6W+EITCP8VFjrkVKR7/+fybyQT2tH35BY3mCAGT+kocge6fOCOkkKbSg
+ONDdCVeNzVo5SJryW7DYUc3a4eooFl4aCJvXgK4miK/ckK50o2eioYB6MIZKmDP5
+Vf1+CuROHxGZYv6M+gaIjSKvZvdOqx5lKzR6nUlbqhovBiurncFZcUA16xAOQSgj
+OPyNQSRMDj+M5zuMGF9s7aN5NeO1EM8vp4nzKIjpJnQ7hIkFXj1S+O/nX8/Q9Qq6
+aNQUzUaARYEy/Ds0tPBKpluegEwGbtnP9BgGxVmmrbFvPTLPXAjWdZrzG29MpuBD
+IYFJouRllq9hI71amFQN9IK6Th3DDUGijtMiPwY5oW+wxVd6eVVvIAr0GhgvEn/b
+acNlErfTDsNQptB4Mp2IWpqEPXx7hqWM0xD8e2KrGm0K58ei7B6A37mjOKlDBcXJ
+hR7TTVASTq17Cc0Fy2BuYCTgLkAG9g7RAPPHGGUu9OjUdjic9/ODSjuybEqrkir1
+AYw6w3Uo3dpEMAaXusrcfp3M0TVhwbDC2DLYJNQFCamZVjf7rCkOUJvl8v8SNM6w
+iScsNzSalqLHMqgGfpOKGW6JtWzIA52W4MF5Qb42zOb4BLFdmzk=
+=O8nP
 -----END PGP SIGNATURE-----

@@ -1343,10 +1343,10 @@ Homepage: https://invent.kde.org/?p=breeze.git/breeze
 Priority: optional
 Section: kde
 Filename: pool/main/b/breeze/breeze_5.27.5-2_amd64.deb
-Size: 46834964
-SHA256: c9bd1db4743ba405b6bf909d2270657217eb18bded05a132c506b85ff67e8b91
-SHA1: 9808396b529d6e5afba47a36772e3147c521dd34
-MD5sum: d94ab98523662b8af40db4466dd542be
+Size: 24214044
+SHA256: 8e64bf518b3a901bc36920cda896486afc200707685bd719eec785e9fd65b779
+SHA1: d69225840de7206d12a7b6a83fcc0eae407737cf
+MD5sum: 69a93ecd947190c6050708dafe5f63f7
 Description: Default Plasma theme (Metapackage)
  This is the default theme for the KDE Plasma desktop.
  .
@@ -11687,10 +11687,10 @@ Homepage: https://invent.kde.org/?p=breeze.git/breeze
 Priority: optional
 Section: kde
 Filename: pool/main/b/breeze/kde-style-breeze_5.27.5-2_amd64.deb
-Size: 228256
-SHA256: 6818fa231247048a060d8c8fb8c91608b1d428f5f6ab41f35b0dc728afedb892
-SHA1: f925fbd15dbf7eb00c9c436f7c8511185a27ab52
-MD5sum: a55b00d475622188743b9aebde96a34d
+Size: 221144
+SHA256: 30821c2c31e03f51d452776a376dc8d187a31bd9369ce18758f25e4262b61e79
+SHA1: e66355b118f2c5fc50fcd900aa4ec33a08280146
+MD5sum: 101a3f29eaacd335eb29f837e0f89910
 Description: Widget style for Qt and KDE Software
  This is the default widget style for KDE's Plasma desktop.
  .
@@ -50745,10 +50745,10 @@ Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
 Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.09.06_amd64.deb
-Size: 125620
-SHA256: e2ce0f399fc5909d27e6fc092c39c8c2845440a68756e6a6b33c4a230ccaffb9
-SHA1: cdde756811d476115ad5d3e4f6c71232371bc202
-MD5sum: f50db6fc85999471b6db9f65c89d0e7c
+Size: 106300
+SHA256: 61b968ed148b25ac58a0a72b58718f6079beb9804e89ce64e40a6399d1e495fe
+SHA1: 1aa7f0cf9c318ddc0c43447ea2c09c6eacedc1a8
+MD5sum: 6c154cd032b00a1f68409a313e68e27c
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
@@ -58331,10 +58331,10 @@ Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: kde
 Filename: pool/main/p/plasma-workspace/sddm-theme-breeze_5.27.5-2+deb12u2_amd64.deb
-Size: 447972
-SHA256: 0cb5bd054888ed17e4e4ebd6a1ac8fb464867d3d2b4203d8c5cd0850c0381b85
-SHA1: 6b54c2fcf1863966579a40f2d1ea33a854a9dfbc
-MD5sum: 723e4d99ebf6721d573f7566957bffd8
+Size: 711068
+SHA256: c6f0b30433854d9b043487ed23e2bb6abeb2166632668207ff10d78d09c2186a
+SHA1: 9bd778a0df0f1ffbe60c38f004cef871d151b0fc
+MD5sum: 26bc3196a751709419544a467535253a
 Description: Breeze SDDM theme
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -58356,10 +58356,10 @@ Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: kde
 Filename: pool/main/p/plasma-workspace/sddm-theme-debian-breeze_5.27.5-2+openbosniana2_amd64.deb
-Size: 2191800
-SHA256: a63e44d59c9b584296096715c75d1fb505b79373a26a49ce2efcf0a04256068c
-SHA1: 4ed61ed0c9d6472f76aa8eef5443da9e2a74eecd
-MD5sum: 768a038268d9a54a975a761de2c7207f
+Size: 1032
+SHA256: a2ef027668d3b8fca93800683ef0b0dd4dc454a05ee8c8ae2b0a7fa45c1c9545
+SHA1: ea43c48bf0d79d45b7ae8bae8d87663b3f29ffda
+MD5sum: f3342115cad27b2d9afa9c42200f6d2a
 Description: Debian Breeze SDDM theme
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,

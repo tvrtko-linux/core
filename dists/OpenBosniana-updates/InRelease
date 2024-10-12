@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Mon, 16 Sep 2024 00:32:13 UTC
+Date: Sat, 12 Oct 2024 04:08:29 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmbnfI4ACgkQ5Vfn9vbt
-T6quQQ//Xz008hYuxSokwGnrSY6VK4AlWY4Bap3j+uFM4+mC5rBhRehjtRgWWfrQ
-u3Mjo1Rk2Nq0BzAYcdyiI2YwWMFQxJljzFH11pM2Sp97edP9/UhHf+hCTxx4psO+
-0FpnFQdUfH2CF5ZSHN1zXr/UKU27CpbkdMxs1jn0OzfZIcKCE7hgxb+ZYWhDq+CH
-QzM5Zh7kWUV/4qhnzfJdVxGwJB6bLcvaP/nvN9qvH1QiwkKQdzIWeRwiKLH1eCI+
-sbYjCOjsfpt3KZ4w3AuLbKVCqRTh6HLpoJbx2H+P8o+qi7J3OGqgZe7Ux2NfPf01
-SAhh0ssWKrABVvA9wPv0YqjvG1qPrv89In6KLvHCK2YKR5BHNIDONUwy91FEbvP9
-KozEXqKoWlXn/pAvREJdA2+Hz2blpILwcFpUBLZvnqr9VMVxhaGFJ+J+KFEfvnzY
-yq2TEr30DkAdNWNNHg9XXRkLedBF/CI1djCxfCkisqvpORRDvkqccu7oGsauY81d
-1M5HWQcMWK6QOL//iazEv7ZOzcLDM3oURIpqLenyAAGZ78jtXu3S0K82Xi9rxQgW
-D8qCS+G+m+NQc1zgsdj2G1tfgNxo8SKAfpvznyHzcv6clLaboQzMU4GJxnmXLR25
-ppSWo03m7EKs9OAfwe0bfKUpwwdMpUi8AG969GZg6I/5gzaZRIU=
-=6i1A
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcJ9j4ACgkQ5Vfn9vbt
+T6oD/Q/+I5b+OkXAspAW/fVmQokeXk25kUfotUFSfZkuPPSluvh5QWF7OFi5UMez
+drmGbcHLHT18KX6uuecKyw9PNdmQmrr0S4PrTDjTci2kFarjxRXt3LsJLkhjFetY
++w+hT79GDsmgqkHAsTkO/B1K6Etft1wX1VdjlfiUBsX093QyAJmaVNdl7KV8fAv3
+3xInqPTpW+E9cgOCXwjlcdDUVsBvf/2SdT+oeVg6m8K/YgGE7xcOwW9F2rfxRHWb
+OSVGfiKDdrJWbYlBcJr1LfMdEQBV1Q+afmPMANw0YycisQZ5KgFCqIImxRxoDPJz
+Rz7NVwqWzdk5v6IzxnC1gUT7rXRaz9Z/RRCbLTAESxZmxaFgpto62sEvHXdNdGIX
+NkoeQpkg7qvJsgzXzFciPN1n8845wc4JyRnVdFALOld/WCWRQYCd8KSOTCjusl9Y
+g86lnpQffxgkSrH/bQ6WfsrKBx6Yh/QqU4ZYESVE/3kjy2+8qC3gD8cg0K9NBaDG
+akoRPD9XgGiZtVoEMTMCNmxJ7nczblr5lhV4nqjN7P2RzMR7+rvzlo3DMSbnePO6
+OfQzE2xXg7xb2x25bJPdiy5ek7XApaZ5cVIC1NG8t+yVptOPW8W4jT8ecnXWo4uw
+UbcHhUAJflEwpE4Yq0jSEJfQ7zHTgQQwCANYQGqV152qrnkGIjU=
+=qyG2
 -----END PGP SIGNATURE-----
