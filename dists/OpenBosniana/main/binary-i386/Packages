@@ -17870,37 +17870,6 @@ Description: Core Perl modules
  Other packages should not depend on `perl-modules-5.36' directly, they
  should use `perl' (which depends on `perl-modules-5.36') instead.
 
-Package: plasma-desktop-data
-Source: plasma-desktop
-Version: 4:5.27.5-2
-Architecture: all
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 28568
-Depends: python3:any
-Recommends: plasma-framework (>= 4:5.27.5~), plasma-workspace (>= 4:5.27.5~), qml-module-org-kde-activities, qml-module-org-kde-kwindowsystem, qml-module-org-kde-newstuff, qml-module-qt-labs-platform, qml-module-qtquick-dialogs
-Breaks: baloo-kf5 (<< 5.5), kactivities, kde-config-touchpad (<< 4:5), kde-l10n-ar (<< 4:17.08.3-3~), kde-l10n-ast (<< 4:17.08.3-3~), kde-l10n-bg (<< 4:17.08.3-3~), kde-l10n-bs (<< 4:17.08.3-3~), kde-l10n-ca (<< 4:17.08.3-3~), kde-l10n-cavalencia (<< 4:17.08.3-3~), kde-l10n-cs (<< 4:17.08.3-3~), kde-l10n-da (<< 4:17.08.3-3~), kde-l10n-de (<< 4:17.08.3-3~), kde-l10n-el (<< 4:17.08.3-3~), kde-l10n-engb (<< 4:17.08.3-3~), kde-l10n-eo (<< 4:17.08.3-3~), kde-l10n-es (<< 4:17.08.3-3~), kde-l10n-et (<< 4:17.08.3-3~), kde-l10n-eu (<< 4:17.08.3-3~), kde-l10n-fa (<< 4:17.08.3-3~), kde-l10n-fi (<< 4:17.08.3-3~), kde-l10n-fr (<< 4:17.08.3-3~), kde-l10n-ga (<< 4:17.08.3-3~), kde-l10n-gl (<< 4:17.08.3-3~), kde-l10n-he (<< 4:17.08.3-3~), kde-l10n-hi (<< 4:17.08.3-3~), kde-l10n-hr (<< 4:17.08.3-3~), kde-l10n-hu (<< 4:17.08.3-3~), kde-l10n-ia (<< 4:17.08.3-3~), kde-l10n-id (<< 4:17.08.3-3~), kde-l10n-is (<< 4:17.08.3-3~), kde-l10n-it (<< 4:17.08.3-3~), kde-l10n-ja (<< 4:17.08.3-3~), kde-l10n-kk (<< 4:17.08.3-3~), kde-l10n-km (<< 4:17.08.3-3~), kde-l10n-ko (<< 4:17.08.3-3~), kde-l10n-lt (<< 4:17.08.3-3~), kde-l10n-lv (<< 4:17.08.3-3~), kde-l10n-mr (<< 4:17.08.3-3~), kde-l10n-nb (<< 4:17.08.3-3~), kde-l10n-nds (<< 4:17.08.3-3~), kde-l10n-nl (<< 4:17.08.3-3~), kde-l10n-nn (<< 4:17.08.3-3~), kde-l10n-pa (<< 4:17.08.3-3~), kde-l10n-pl (<< 4:17.08.3-3~), kde-l10n-pt (<< 4:17.08.3-3~), kde-l10n-ptbr (<< 4:17.08.3-3~), kde-l10n-ro (<< 4:17.08.3-3~), kde-l10n-ru (<< 4:17.08.3-3~), kde-l10n-sk (<< 4:17.08.3-3~), kde-l10n-sl (<< 4:17.08.3-3~), kde-l10n-sr (<< 4:17.08.3-3~), kde-l10n-sv (<< 4:17.08.3-3~), kde-l10n-tr (<< 4:17.08.3-3~), kde-l10n-ug (<< 4:17.08.3-3~), kde-l10n-uk (<< 4:17.08.3-3~), kde-l10n-wa (<< 4:17.08.3-3~), kde-l10n-zhcn (<< 4:17.08.3-3~), kde-l10n-zhtw (<< 4:17.08.3-3~), kde-workspace-bin, kde-workspace-data, kdeplasma-addons-data (<< 4:5.17.5~), plasma-widget-kimpanel, plasma-widgets-addons (<< 4:5.25.70~)
-Replaces: baloo-kf5 (<< 5.5), kactivities, kde-config-touchpad (<< 4:5), kde-l10n-ar (<< 4:17.08.3-3~), kde-l10n-ast (<< 4:17.08.3-3~), kde-l10n-bg (<< 4:17.08.3-3~), kde-l10n-bs (<< 4:17.08.3-3~), kde-l10n-ca (<< 4:17.08.3-3~), kde-l10n-cavalencia (<< 4:17.08.3-3~), kde-l10n-cs (<< 4:17.08.3-3~), kde-l10n-da (<< 4:17.08.3-3~), kde-l10n-de (<< 4:17.08.3-3~), kde-l10n-el (<< 4:17.08.3-3~), kde-l10n-engb (<< 4:17.08.3-3~), kde-l10n-eo (<< 4:17.08.3-3~), kde-l10n-es (<< 4:17.08.3-3~), kde-l10n-et (<< 4:17.08.3-3~), kde-l10n-eu (<< 4:17.08.3-3~), kde-l10n-fa (<< 4:17.08.3-3~), kde-l10n-fi (<< 4:17.08.3-3~), kde-l10n-fr (<< 4:17.08.3-3~), kde-l10n-ga (<< 4:17.08.3-3~), kde-l10n-gl (<< 4:17.08.3-3~), kde-l10n-he (<< 4:17.08.3-3~), kde-l10n-hi (<< 4:17.08.3-3~), kde-l10n-hr (<< 4:17.08.3-3~), kde-l10n-hu (<< 4:17.08.3-3~), kde-l10n-ia (<< 4:17.08.3-3~), kde-l10n-id (<< 4:17.08.3-3~), kde-l10n-is (<< 4:17.08.3-3~), kde-l10n-it (<< 4:17.08.3-3~), kde-l10n-ja (<< 4:17.08.3-3~), kde-l10n-kk (<< 4:17.08.3-3~), kde-l10n-km (<< 4:17.08.3-3~), kde-l10n-ko (<< 4:17.08.3-3~), kde-l10n-lt (<< 4:17.08.3-3~), kde-l10n-lv (<< 4:17.08.3-3~), kde-l10n-mr (<< 4:17.08.3-3~), kde-l10n-nb (<< 4:17.08.3-3~), kde-l10n-nds (<< 4:17.08.3-3~), kde-l10n-nl (<< 4:17.08.3-3~), kde-l10n-nn (<< 4:17.08.3-3~), kde-l10n-pa (<< 4:17.08.3-3~), kde-l10n-pl (<< 4:17.08.3-3~), kde-l10n-pt (<< 4:17.08.3-3~), kde-l10n-ptbr (<< 4:17.08.3-3~), kde-l10n-ro (<< 4:17.08.3-3~), kde-l10n-ru (<< 4:17.08.3-3~), kde-l10n-sk (<< 4:17.08.3-3~), kde-l10n-sl (<< 4:17.08.3-3~), kde-l10n-sr (<< 4:17.08.3-3~), kde-l10n-sv (<< 4:17.08.3-3~), kde-l10n-tr (<< 4:17.08.3-3~), kde-l10n-ug (<< 4:17.08.3-3~), kde-l10n-uk (<< 4:17.08.3-3~), kde-l10n-wa (<< 4:17.08.3-3~), kde-l10n-zhcn (<< 4:17.08.3-3~), kde-l10n-zhtw (<< 4:17.08.3-3~), kde-workspace-bin, kde-workspace-data, kdeplasma-addons-data (<< 4:5.17.5~), plasma-widget-kimpanel, plasma-widgets-addons (<< 4:5.25.70~)
-Homepage: https://invent.kde.org/plasma/plasma-desktop
-Priority: optional
-Section: kde
-Filename: pool/main/p/plasma-desktop/plasma-desktop-data_5.27.5-2_all.deb
-Size: 13887792
-SHA256: 87f96ffedbdc0e76430fbe283a074b18128608a0d1caa9c535b994a99a280207
-SHA1: 4f741330cdc4c7a96dbdeff003e8ec4926790b79
-MD5sum: 8d8e43279756f8ffa9b22f7add19a66a
-Description: Tools and widgets for the desktop data files
- Plasma Desktop offers a beautiful looking desktop
- that takes complete advantage of modern computing technology.
- Through the use of visual effects and scalable graphics,
- the desktop experience is not only smooth but also pleasant
- to the eye. The looks of Plasma Desktop not only provide beauty,
- they are also used to support and improve your computer
- activities effectively, without being distracting.
- .
- This package is part of the KDE Plasma.
- .
- This package contains the data files
-
 Package: plasma-discover-common
 Source: plasma-discover
 Version: 5.27.5-2
@@ -17920,29 +17889,6 @@ Description: Discover software manager suite (common data files)
  .
  This package contains data files shared by various parts of the
  Discover suite.
-
-Package: plasma-workspace-data
-Source: plasma-workspace
-Version: 4:5.27.5-2+deb12u2
-Architecture: all
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 38541
-Breaks: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:5.24.0), plasma-desktop-data (<< 4:5.27.0)
-Replaces: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:5.24.0), plasma-desktop-data (<< 4:5.27.0)
-Homepage: https://invent.kde.org/plasma/plasma-workspace
-Priority: optional
-Section: kde
-Filename: pool/main/p/plasma-workspace/plasma-workspace-data_5.27.5-2+deb12u2_all.deb
-Size: 16718224
-SHA256: c0b172bf9036dd47caa6c9689c340727e8ee607e0580ebe2f659cf542cb7282f
-SHA1: ee275753426f8f9415c38fc1afce5d4532b82740
-MD5sum: d04382704bdbdd37dab24b0f2241714d
-Description: Plasma Workspace for KF5 - data files
- Plasma Workspace for KF5. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- .
- This contains the data files for the Plasma workspace.
 
 Package: pocketsphinx-en-us
 Source: pocketsphinx
