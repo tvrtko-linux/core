@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 12 Oct 2024 04:08:30 UTC
+Date: Sat, 12 Oct 2024 10:32:38 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcJ9j8ACgkQ5Vfn9vbt
-T6o9ZhAAssqUsC+1yYpsmGw4jx/YKtBRf5n3jEwdGwD5rjZ5ul3KtpmbNaplF+1B
-YnQRyLPL6W+EITCP8VFjrkVKR7/+fybyQT2tH35BY3mCAGT+kocge6fOCOkkKbSg
-ONDdCVeNzVo5SJryW7DYUc3a4eooFl4aCJvXgK4miK/ckK50o2eioYB6MIZKmDP5
-Vf1+CuROHxGZYv6M+gaIjSKvZvdOqx5lKzR6nUlbqhovBiurncFZcUA16xAOQSgj
-OPyNQSRMDj+M5zuMGF9s7aN5NeO1EM8vp4nzKIjpJnQ7hIkFXj1S+O/nX8/Q9Qq6
-aNQUzUaARYEy/Ds0tPBKpluegEwGbtnP9BgGxVmmrbFvPTLPXAjWdZrzG29MpuBD
-IYFJouRllq9hI71amFQN9IK6Th3DDUGijtMiPwY5oW+wxVd6eVVvIAr0GhgvEn/b
-acNlErfTDsNQptB4Mp2IWpqEPXx7hqWM0xD8e2KrGm0K58ei7B6A37mjOKlDBcXJ
-hR7TTVASTq17Cc0Fy2BuYCTgLkAG9g7RAPPHGGUu9OjUdjic9/ODSjuybEqrkir1
-AYw6w3Uo3dpEMAaXusrcfp3M0TVhwbDC2DLYJNQFCamZVjf7rCkOUJvl8v8SNM6w
-iScsNzSalqLHMqgGfpOKGW6JtWzIA52W4MF5Qb42zOb4BLFdmzk=
-=O8nP
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcKUEYACgkQ5Vfn9vbt
+T6or+A/7BTeY6+0BdJ+/FSwQd3QKHAfI+fTvqadZCnnlEf9BwJioD7JK441W/eeY
+NmJdOV2yKESTMZ+IjPyWlBzg66tZsSncoCytv471XDSBFpEgabasQK+ToJPOo2VP
+kO+dph+zikbVacot7maEbQAB07G7D/c7kaqo6EaPA7t6DDvwNSgr3PkkhMc0Rkod
+yRr75H2fN+HBHbqEmVkrXMzgZ0idzcSLHwYnygJYz+fm/Z/wWBpwxIUi3K4pYtj/
+Z0BTYZTvTrs2j9afqualwVgeOtF1aXnzWW271Wi6JZ++KEDeDf2QVUQHyTVF3tb4
+a1mRDQbGh+jM1h9SpsZEFkiftmq8S+9RlvRBPQRyMwrkdvsUeZaMXMBHWOZqs1RT
+MH6n89e6y4gzmUHzN/mntqWDVupQ+HJRwI3cohTN2sml9eefgoBbX7pgqAv5ipa2
+uxRFG00pzxDxiQtrsBVIE4p2jz85iWxm0cPC5C/6ib4Hxw6JQDDHHRP73tv/mw05
+JlGR1kmlPY0IF4sFQicuJxiGDyQnJ6Xi/4uUV4yqu0UlwHeLuEDVZJph/iaQ1hly
++X/9VvApExvMy22Js8l3hxn3eOypDzyp7lA0Ie1BHKMVuZz2B/kxiqRDMmVDqzW8
+S3KJp0lxWqrTv0BKKjAU1XPAg0iY8eWNXGP/F6+1/yIAYZTyDvg=
+=jJDA
 -----END PGP SIGNATURE-----
