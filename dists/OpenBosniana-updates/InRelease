@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sat, 12 Oct 2024 10:32:37 UTC
+Date: Sat, 12 Oct 2024 17:24:39 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcKUEUACgkQ5Vfn9vbt
-T6qRhg//bHMHLfg33TkndFUpTv7dVLCp72xkyvV1K0fn1wfIUPUK9Lcm+/1v8F49
-wMf7/X7T3QgIWdffNqf/fdszF4LMzXEjttUvKCPnuSsdZSLYZ3Z5k3HEFGr7Eesy
-uKdjHw/eUWqI4hGt8ycMxE6TwJ/IG9oGhTcB8WuHwr3cRZGLybEwwYfrZkLsz2sn
-f+kNvuD89G6OwSLsqv5H6bnELQVEyAqvSRNqfR7CHj6KJU+BgcLimR3dCXFBAjdo
-pnllxXroMWFVZdhq2B0TH23DT+JZiA/i9HcEJEh+81QJBDwR1tEGiWKXy5B0H+Es
-kJoBKirM0d0+nRmgCpAI5VCBI20VTWftNMQo6tqXj2qxyxOestYeOa2QOOzLAhib
-e1kofYVEKHSBENHY+yjI4/ZacVKyFDBoCSRgIvXAfTw/BY0M/yKuGXiC4jO17zBW
-tFzgJUc7wpGR2H7d8XUF5X3scf8fRV2u0D5GIhFMLhIA2767dLDkSLBsxXom3PaR
-ypiNazbqw8/+yk479nVThUr6WoZSsfgIUNt7iiAzSyWdvGnjrVe9eZjrBmbOIAsD
-fap/GIlJtsV3jCo564uVs9Vu2hyAhF5Um7VD9Sh+1LiJ0KDRdPuxAI6bTOjYYzlV
-XUjKSFQ3CcolsS+mHMyn5umGKleryZ7zhZwVQU1zzE3DMiFSnqg=
-=uZBv
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcKsNgACgkQ5Vfn9vbt
+T6o7Mg//bNvf6cuPJUkIkZr37s2+ASLh6rLo55j27l10uusgngm3zAdhfMggvHGA
+FNA39Do9tFuQij+d/uy1EOdMZ/XvhA8cB+Yp3Q0m0/Kxs/wpuj2MMAg/N3ePmSGe
+yj3xGJxNNbAvX+IxnOH/ybfx49T3IgRLB5W3B3Lv8aJiWaeq5R8IzNhD6bApSpJb
+AWAHnjWqki6NAeosRfr5jbj5oi+EwI6oLiUtDjxu0v70g/ZGpHcBIAnpIktngg2/
+Ub9O5aOu5MrrMiewvnTUOmfOFWIzBSpa+wKwLEf8Y5xNhYi5tcEnJgUPP67/+cZE
+WbTtUW6wfEP5VZoi1JL5qNTZd7V45ykYZI+xNVSKJG0qh2YuF3q/iBTsdadlA9Lb
+QtUMj8Jw3lByLbEQIaneFgz6lHuYGbdFM++0kG6RUBvg7nO7HsUDrGBqUuyiguX8
+s9SOa4S24y/SoFPN26Nq3Ux/VJcNUum5kasGeajWr8ZG9BFt7INq2aLVbRpcV//i
+Lh2CApGSWf/MkJuBii6FpFoMbOsDBGTQmR48KoT/R3z2YDdxtMb3x6OvXvCtUAHI
+cT4yF+6tcTVEr20yg2It54SLjj4ySop+NktLMpArU3uUrfHqtX0bXWF9dqWsu2y6
+pvp/Wr4z2Z8f1msWy+j6dB5hPv071NaB3IGF2plyuBxwyEvHDc4=
+=OEOI
 -----END PGP SIGNATURE-----
