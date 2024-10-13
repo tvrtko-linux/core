@@ -6,23 +6,23 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Sat, 12 Oct 2024 17:24:37 UTC
+Date: Sun, 13 Oct 2024 00:10:11 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
 MD5Sum:
- 5ca31a7f277d58e31d7bcc07d057f7f9 958271 main/binary-i386/Packages
- 9d1d1f37f245ce6ac9aa3d43b7f4cc2f 275873 main/binary-i386/Packages.gz
+ a20dcbc5935924b268b26dbfeffd0c37 958263 main/binary-i386/Packages
+ fba2cb08db60983355a21d9949c0a9f2 275879 main/binary-i386/Packages.gz
  96cd2230bf404dfaf33f72ff6ccfa8cf 184 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
- 3a4040bbf9ecab1cbeb69a757e1d3a9d 2840851 main/binary-amd64/Packages
- 2d93cfb5ef31284268f4239294a532c7 798059 main/binary-amd64/Packages.gz
+ 52dfa5f90fd65ef0fdf07ae186f59679 2840843 main/binary-amd64/Packages
+ eeab5c5e1464515a150fee9717b7d276 798057 main/binary-amd64/Packages.gz
  b0d9e12f1ae63a1b0d1b394068735023 185 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
- 5ca31a7f277d58e31d7bcc07d057f7f9 958271 main/binary-arm64/Packages
- 9d1d1f37f245ce6ac9aa3d43b7f4cc2f 275873 main/binary-arm64/Packages.gz
+ a20dcbc5935924b268b26dbfeffd0c37 958263 main/binary-arm64/Packages
+ fba2cb08db60983355a21d9949c0a9f2 275879 main/binary-arm64/Packages.gz
  8451cd63335203e9d32ac21f6531f52c 185 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
@@ -78,18 +78,18 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 udeb/source/Sources.gz
  641ebbb2e645a387c35d2ec6e98d6ce1 186 udeb/source/Release
 SHA1:
- 3fe63f1ae2d0377205670860251ffa68827ad2a8 958271 main/binary-i386/Packages
- 6983b44ef87af3ffbd1f7f498e3469a425e7f69e 275873 main/binary-i386/Packages.gz
+ 415a9cf307116de1d30902157a72d974e2824cf2 958263 main/binary-i386/Packages
+ 34bd6b36d0edfcb7dc98046b1ef2f46b0cd627cd 275879 main/binary-i386/Packages.gz
  ab992624680d1d04c2b06fa0e53e628a4c817399 184 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
- 9a274d1fe74dc4f889685e499b6b5cd5027944ab 2840851 main/binary-amd64/Packages
- 04ef3424a0601c2d4138b1d46800af20a74229da 798059 main/binary-amd64/Packages.gz
+ 22acc42eec58751fe2c56e008d93c712b25fb6e1 2840843 main/binary-amd64/Packages
+ e8d2a24b9f8c70c130b30be4cc2b0ef0b867ed55 798057 main/binary-amd64/Packages.gz
  2d122413bcff69dcea094395c604b68d0bf8ed24 185 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
- 3fe63f1ae2d0377205670860251ffa68827ad2a8 958271 main/binary-arm64/Packages
- 6983b44ef87af3ffbd1f7f498e3469a425e7f69e 275873 main/binary-arm64/Packages.gz
+ 415a9cf307116de1d30902157a72d974e2824cf2 958263 main/binary-arm64/Packages
+ 34bd6b36d0edfcb7dc98046b1ef2f46b0cd627cd 275879 main/binary-arm64/Packages.gz
  2cd8545f631d6b8b81ba0222d81cfe3cae44a844 185 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
@@ -145,18 +145,18 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 udeb/source/Sources.gz
  ce2050fad6d697bab7fb6e74c05a32c532ca5f9a 186 udeb/source/Release
 SHA256:
- 542ad30a8b2d4bcf6279b7f42353b32bf08ba9dfdee4a4c8384d21fa13046aa1 958271 main/binary-i386/Packages
- ca877fec41f75a9d0aaf170fd8759259fc6020cab1a6402c6c087d2724f39661 275873 main/binary-i386/Packages.gz
+ ae01db8b6f325d69235ae236ebc572cbbafc077c20ebfdc8a816f965eee6601d 958263 main/binary-i386/Packages
+ 50f3b41a65f3fc366ffbd000d2ab8f704208941771f735c2077948019654b8df 275879 main/binary-i386/Packages.gz
  8ab63ea05bc30c9d05243caa4823d290af64469e22bf30285de8ce79da7a71bd 184 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
- 621419aac1d025794def8d13434b96a30d497032c04d52cf9650434c737fd8b3 2840851 main/binary-amd64/Packages
- 6b0352e1a83c4174fce2439bb9c083813d8cadce2dece25fca81c31f8eb687d6 798059 main/binary-amd64/Packages.gz
+ dfa3aaa5834b62a27bfda7b737c8deb32cf0adf652485eb07334f49ca123ec77 2840843 main/binary-amd64/Packages
+ 193e5db722c4aec274b010e36101c554219644398ecc319c5d7619852ebbeed1 798057 main/binary-amd64/Packages.gz
  1f2ec1d7026705d80c7fea2c53f0a31517c91a62113552a8924f001cdd3ed587 185 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
- 542ad30a8b2d4bcf6279b7f42353b32bf08ba9dfdee4a4c8384d21fa13046aa1 958271 main/binary-arm64/Packages
- ca877fec41f75a9d0aaf170fd8759259fc6020cab1a6402c6c087d2724f39661 275873 main/binary-arm64/Packages.gz
+ ae01db8b6f325d69235ae236ebc572cbbafc077c20ebfdc8a816f965eee6601d 958263 main/binary-arm64/Packages
+ 50f3b41a65f3fc366ffbd000d2ab8f704208941771f735c2077948019654b8df 275879 main/binary-arm64/Packages.gz
  ec7d989f889476c520990393acfbe603e211c58320ce591cd33d9c293dccd82a 185 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
@@ -213,17 +213,17 @@ SHA256:
  91f40351dbeb69ac40d6945dff04b9b478f362184c4c9012ed3500748c0da30c 186 udeb/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcKsNUACgkQ5Vfn9vbt
-T6q9ABAAk8jU3ZZ7xOR8obBW03deXt4Kq/KoquPz0IBqaU1P+RAzDJgK4bKAb7oC
-UeMkasvgh9wsmil/9plhAton3i3M45KJYArC5upvHghcZvUfJdQtAdGoer+U5ULj
-QrBapSeDh5Xx8CRNEjc62LFbjfG2QiMYSxiT5hpghTpOpSxHOOjSDL4fJfeILt9O
-3mhK1yrnLOlOWdLRI/ku4infPHmRI5Wzopn9FtSJJp0C4MkDg3+dhEvRVURDDX6n
-Kr/hqoza8yj6OSc1Po5qcXSKdVLlunnzbcWy8EmA4XBzktBm7D3A/EkEAfTvmSJg
-/6qc8OlxbwSCTV64z4WOsJjnNoU+Qdkcz7RkfYwWsVcOB83uTI+QzogF/qK85FFE
-Th0Xc1RWoDaj+355dUhKyg/klC4F1duq+zRt72IV2mWfeezwnDThQi1X1siL9CKw
-FcXv4pnjXDpqf5Rtb28L/ZojqjIIp5RFU9TgGat9NTPXmadNxdM/eOW7Wd+CrdUH
-B30O5Hq5JcfvBuVR+JjYd07hy9v+a+zNwkoldJu03UnNkvIsr/Q98hGwx1/uqjNG
-eL+plpiwCbL0VBHFna6Rm50NvZ4AK7DMazP+NsGpGG+1xmf7hVqWel3O1D7dZ0RR
-6yjc7jsHbno8t/IDHTnlxJQhbQk91P6s5W1Mrvd160PfP6m1AG0=
-=wZSk
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcLD+MACgkQ5Vfn9vbt
+T6r1chAAjKu9Hh+XstVbvkjwuNR/Nm0Akg1IMQ+chpZEoAgAKvAGApa6sMxi0s9Z
+/m19h6vEu8c9700m/HwfXNeiirytSP70c47VO0CXSayn4lHdSbIe/CRJik85Iitt
+3j9V75Z9U4x6zSW4Q91M4b+I5Ag4vGC4/QfBYQh9R6S7XEt9izsXgxmTIRWUWerk
+uC7k5CMgw3J57g9E7E0XRQzVTJ5moxQwavbEESpbKy/LghnnemHOlBs28V29gGwK
+c5uw+GZp+aPigx3zKvgL8y3P8EUpJDI7KU68GleDU8Q+4AJueichxxFnD1FoUNT0
+2XUFFCxXRAzoefGWCSnciZuxo0GQPFKEh6Zm05Zc7JYV2ah44+WQevWbopr0Bsu6
+OXig3gkToXLIhqByxQB81j8hnkUxtGJKruD9UDzPHDFC10ed3BSOZzehOXAh1mih
+rOwursTmwh/MLo/kb+6QtSTqg0tq3RVwdrVio1i1YCaSe++/+Eb4fpvSYW38f4R9
+NMdHIdi+9XgVWMoHcyyuboT5MJ483Zdle2RrqDDzWtUZHYKSU2Hhl9EvoFx4P0u4
+PQ5mFCLYkJwJe0ip7TdI81JVLRX5Ce77xa/59KyhaRVQRV+bHPCfoTWCD/1KEU0k
+El9yoGvNpPsWaJ/oGsxGsXFTfak+oAmykblK8hhbsM2LMj/Uiys=
+=hG4a
 -----END PGP SIGNATURE-----

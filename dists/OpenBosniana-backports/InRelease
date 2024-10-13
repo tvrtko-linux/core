@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sat, 12 Oct 2024 17:24:38 UTC
+Date: Sun, 13 Oct 2024 00:10:13 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcKsNcACgkQ5Vfn9vbt
-T6rE2xAAwc7iozSoS1pHnoeL3DsRh7hmokugKJtlanrA3uW4ErJYD85+nUiqUSHF
-ylAyCNRgGyFrtg1iXBALP4ZOk2qu1OkeiBhHyLqGYf470znXQFADDS7GWBvQc4b9
-lQLbEgix53H2wVu1HPhIgjfAyb7LnbMbZF/68Dg1SntvCdRG8fU6lQqp9w5y2oIy
-UrawZpAwVbqUPA2nC6LA1fDp5gT4he77pTENy7a9jOWFHCozVs3xyRVk0ucQBVCG
-IlFrjnqvAX/skEAdoYMUHiLFIuK97SdF20DbtLWp4lnX1u32AE8hAWWL3jSmB9/R
-eHdFLccfTs1+PlZ7xDrHK5alj+ZaCKsXHRaRGV1PwjGU74rvAQaOBRPl/b4auKoP
-8SMA7a7Ew1/WXfnhPwbEvcAtUmDT49Qyfr0KoKJ9Jp2ijIHHQZdmujtP2UfHkXji
-m+qaYQAIYo99EI6vWXLS/YMqD9wk3s7FgfrMTA2EXAHFB+LKc9E8HddW0in928cM
-v+2topQuzPxmFdNWhgLA+qfon0/iLSfSdWjOLfa+jr+zmwLUbr7E/8HSxIH5/nab
-Agy9qMSki0UcR8O3Hwh1DatnHDm7wR5IMNH1YE35qQoe2av9D3W29GdLhMbUJ0FC
-LUwqieeVDFDxJednmwVp0WvE0ZZe7eFftcD/y47CiHzMPo9YnNI=
-=q50G
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcLD+UACgkQ5Vfn9vbt
+T6rlxhAAwmabKrgYSaJR7vRO78AcVTpUVYTEeHdTahF8JnUoIEjfe8p/Z6wy8Sya
+rHwhUG+XlkZCOR1vYyZFXAoz1/3mS0/opSMcgxZvdKi4Yb1LfnJJeyTecvgw2ULX
+RUHv2WMsX1uqJlEIgG8IBNRWekmv0HGSOqj07xSZfnDLfAOZIZdwxm8XqvIJ+9ry
+3IoDLUlKNFvs9YQxHB4JtILS7++uZuDUuCwVVMu/wPzBZ6+k+avTsoHWlJXnfopu
+h8rRdamJlISkiwV1CdKeQPMUMjSpCLceKrFo4EU6lFEcjdl+Z8a9nXY6pbreBUES
+oaktNnAePaMTLwnL1zO/matzgDmPAWtQxSmX7qGdaz4uvM1jk6URlW0Uq6TqGKJR
+fXfY+EHPTWD8ffJ/ncUM4s6jaMESqjIBa66HLliHR2YT+RN5fDhfUucMuSrURvhB
++n71F0tNB58SgmNksx52JB8Rz7gwA2IKakH0ENZ2ts44lvS53VDsndBmqOTsgCKC
+hj9hQ8zpbWiUvEMmxxBHpKAGLzLrP+EkdMdLqYzVT6HIsTDKGnav8RaxmqhSsptI
+v4iNvyn3onwuCn3stYcKtUqariIxtHMFX/61sMu98ox9cDkBB+3eZdW++SZMj0wO
+EbmWpdqtmUYotxh2Ek/UYzXACTfyddO/hw1/eqIRYE1uYgeYyy8=
+=mpqH
 -----END PGP SIGNATURE-----

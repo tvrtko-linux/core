@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 12 Oct 2024 17:24:40 UTC
+Date: Sun, 13 Oct 2024 00:10:15 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcKsNkACgkQ5Vfn9vbt
-T6rKQg/+KLbO2Ar8i0M6poVJSKkTVqRtKbF7yZU0CRe0dpZd+K3cFBW0F3Lz5bgQ
-WVlu/zmCDZuMmRKYWre0PeZ1vWee+I0t5QfzVDrGbhDmLKN2qhcaYLHkFXr72Vny
-LpRoMbnqaJe8Qqb3Jma4Pd4xM21dMQ2bO/D/I0kI6JczrKcxvYfMIKzuIy9gNIVl
-wtR++IJ443A3e9eRzbz00xIRriOjxqA5IIEyhejw0+4Lpk2Ouoe/XvE5ACMDXEZv
-qP9AlY2LqA9zupopii1uISLtaC1BAOLbYRuU4TD3JxHNh8Wb6TY21M263Rk2eEK/
-eBKZJJy8D8VS1rCS+MwkQMxBxk76iYgy6SW69CyvGLS6aqerz+5NGwc5qrAyzUfN
-MR4pW+To/B/GTDj23q12ImaEajDMzzquNLp1JAz3YGc3P/FbflKUjKObMvJs4oC2
-ZkuXQaEWtAs8HFIqgfMiitjxcZAAwSisOUog/XRQDO3o/ZKV5w7olgozcDZljnXW
-8fvW1caxrK6+s2lkFmZdu91iCGSY199OxyeO2jJpic2Xm92C4pz2VflFYjODFMDf
-2QyVx/cfP+2M3TvYZM/0yBtHH80qyl3poeQhOGFwZ+h3IzmNJ7z3pgr+kuWXYBLe
-a/jwwa96HvyhmJGIXkFLj//ZrBfzYWJ7WXx8I9joiybfgdC7ux8=
-=4d17
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcLD+cACgkQ5Vfn9vbt
+T6rtVw//QYAvEuCVEWyXFKymp1TAG3paXEiEx3coVeh6xK60uqTcEPbgAqq9hfjj
+rl/w7WlSUcPComFQ7VvOcJCi5RyYMsbHvtSite1Fi8gwz7CCoWZKrsdmK6pz2a9t
+3sBVoMB9O/4EraM2B1BM3ALP7neVk4zfuooqe8qR0jpKry69xKLlxfh/zY4ymF8w
+3DKEjHGrmdONKTXhGgdBHgSULyo5/IYUXrfM5bvxkLcvX1QDjZYyUP2wo6jl/3+h
+g8+RqnAhOGKFrVwS7A5VaTuL8BjShWPT8FCCih3H01LOqKO3YZPAuI17IDlae8JM
+jh7cjykXs4ZswUqAHCjTIb6pCt9H1jA0CoMRA8Qkv0oMJiIDyLx+csCK0AyOJn/j
+CMJNtJGngvENO8kJr2zh9Mzutgto6/ethdb0B0kR5Tjg5TGG3PaJqpxYyv8f9r1h
+/IVQYMXg/hT+c5+WEQMhlUIsCjqvNLDMjmH8ZumlYlYUH02Bzwao5v4dxZav5vHe
+KU/EUybZpI9GEKFBhiriv5SYe4D1BG3QjcBLXj/HWtUq1CK0CP/0pAF7NXglNv2I
+p7T/d82k1ggTHjSltDKe+112hmiHLddqxXYlZBdwpGQwgEmuV1wMRMiEPqbhbYIg
+2y6kNDyhFbxmkg6xz7xt8PN+Lek+N4SgU63RIZQq/4qX1vRKVGY=
+=VE63
 -----END PGP SIGNATURE-----

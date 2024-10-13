@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sat, 12 Oct 2024 17:24:39 UTC
+Date: Sun, 13 Oct 2024 00:10:14 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcKsNgACgkQ5Vfn9vbt
-T6o7Mg//bNvf6cuPJUkIkZr37s2+ASLh6rLo55j27l10uusgngm3zAdhfMggvHGA
-FNA39Do9tFuQij+d/uy1EOdMZ/XvhA8cB+Yp3Q0m0/Kxs/wpuj2MMAg/N3ePmSGe
-yj3xGJxNNbAvX+IxnOH/ybfx49T3IgRLB5W3B3Lv8aJiWaeq5R8IzNhD6bApSpJb
-AWAHnjWqki6NAeosRfr5jbj5oi+EwI6oLiUtDjxu0v70g/ZGpHcBIAnpIktngg2/
-Ub9O5aOu5MrrMiewvnTUOmfOFWIzBSpa+wKwLEf8Y5xNhYi5tcEnJgUPP67/+cZE
-WbTtUW6wfEP5VZoi1JL5qNTZd7V45ykYZI+xNVSKJG0qh2YuF3q/iBTsdadlA9Lb
-QtUMj8Jw3lByLbEQIaneFgz6lHuYGbdFM++0kG6RUBvg7nO7HsUDrGBqUuyiguX8
-s9SOa4S24y/SoFPN26Nq3Ux/VJcNUum5kasGeajWr8ZG9BFt7INq2aLVbRpcV//i
-Lh2CApGSWf/MkJuBii6FpFoMbOsDBGTQmR48KoT/R3z2YDdxtMb3x6OvXvCtUAHI
-cT4yF+6tcTVEr20yg2It54SLjj4ySop+NktLMpArU3uUrfHqtX0bXWF9dqWsu2y6
-pvp/Wr4z2Z8f1msWy+j6dB5hPv071NaB3IGF2plyuBxwyEvHDc4=
-=OEOI
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcLD+YACgkQ5Vfn9vbt
+T6qaihAAoDfeK9sm9fd7p6PWVBIzsr32sYjK5pAt+7BCy2ieIuTMwzb48tNZfX8F
+94ilidRXa7g4PAGpYpjk2+4Ykv6722jm/onK75EYnQ7aUDDBLv0urmDhqm/6zA1I
+Whm0T2PfM6lwUfstlfca09gGASBTt6w7yZC5Ng+IW1jYVR9+sPihlvqP0ufloBHf
+gEhJcaq7M18iK9jbyQ7WhAkRcg/bTWCzlQ1s9qCGKG8ZayZplSJ3AtgvBxbDHdVJ
+w0uJ7Pmf5u+XhvY0tr38P4IwHZnbutXRuSzQ4QJ8+NZZHvO4HlJLN7Eg/c2Ko1EJ
+A6BqpXSv7ZLsfENRj+8FtT6durJLayB5EySZd1BFBB0D01YH1NoFll7/QbIixdAK
+L4kBgb/JGxrMlafzWfGD9cIR0C/Y+3f6nUf8ah0CJr3AygPAhypr1fEV+8APYt1t
+yxPOvOVtxxU7DH4Fvt6Ac8VPWCx6g03BiBeag8JWi27sxLagr5Ktu648zXVHkrh/
+Ii0y5ZNL8W/Ey8cDIJPs/uw2DpX0CJGoUfKdIqDoSIOapNGyEDG/QW2nGtInZol1
+cDGIh6uTQouEE6DugzxelYUsERCsj8naQHRTvNyNs1OYhRaxUPs3p5muZjnzGU1C
+V7Cf3aqh4KN7cur6xdvxftV8FtFrVysIAwM3xGz+O2Kpt9Uqk+Q=
+=R0b8
 -----END PGP SIGNATURE-----
