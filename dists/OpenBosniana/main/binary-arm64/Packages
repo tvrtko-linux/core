@@ -1020,7 +1020,7 @@ Description: MySQL database server binaries (metapackage)
  doesn't depend on all the infrastructure needed to setup system databases.
 
 Package: desktop-base
-Version: 2024.09.18
+Version: 2024.09.19
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 16548
@@ -1030,11 +1030,11 @@ Suggests: openbosniana-desktop-mate | openbosniana-desktop-kde
 Homepage: https://www.debian.org/devel/debian-desktop/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2024.09.18_all.deb
-Size: 2820652
-SHA256: 01eb4fafaf3551ba7416f5e57d72cd1c22b5da9c150f4ff607538ca033c6e0a6
-SHA1: b7b38e0885028b074bbf3115dc5f1bf0ff6f2667
-MD5sum: 731df8ea94bde8a5f4ca6af65feffd25
+Filename: pool/main/d/desktop-base/desktop-base_2024.09.19_all.deb
+Size: 2820752
+SHA256: cfde70da841a26834998d49b651907a5031da0cffcead44ea3a2ec3dec618a6c
+SHA1: 93ef2e7bcb2169cf756b2a89f41079504fa02d4a
+MD5sum: a40fc84041e82d21867eb11da0e4c2f3
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
@@ -17460,7 +17460,7 @@ Description: terminal status monitor for tor
  nyx was previously named tor-arm (which is now a transitional package).
 
 Package: ob-welcome-kde
-Version: 2024.10.21
+Version: 2024.10.22
 Architecture: all
 Maintainer: Denis Maslo <denni@lists.debian.org>
 Installed-Size: 15252
@@ -17468,11 +17468,11 @@ Depends: isa-support, sse3-support, libb2-1, libqt6core6, libqt6dbus6, libts0, l
 Homepage: https://bosniana.org
 Priority: optional
 Section: kde
-Filename: pool/main/o/ob-welcome-kde/ob-welcome-kde_2024.10.21_all.deb
-Size: 1957916
-SHA256: c7a28133e993bdded17a7f3ed65759e26880b4e9a6df8ee33f2b0dfd28bcb8d2
-SHA1: 10a7a76d361fc3f2fa09c03a985116dfb6811cbb
-MD5sum: 0cfc45ec67160df6bbf0b0dfd3505635
+Filename: pool/main/o/ob-welcome-kde/ob-welcome-kde_2024.10.22_all.deb
+Size: 1972260
+SHA256: 917e12d750e9377ee9374569ed057d7166d9622b0688e8353ef45f230ffc1233
+SHA1: 9d7bd3da0fb58adf5e2b9f92a2eb298d67af60dd
+MD5sum: cd75f3f84b7bad58452bcd7e3f0d1129
 Description: Welcome app OpenBosniana OS
   For KDE Plasma
 
@@ -17705,7 +17705,7 @@ Description: OpenBosniana drivers metapackage.
 
 Package: openbosniana-firefox-profiles
 Source: openbosniana-interface
-Version: 2024.05.25
+Version: 2024.05.26
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 90
@@ -17713,11 +17713,11 @@ Breaks: openbosniana-interface-common (<= 5.1.7)
 Homepage: https://www.bosniana.org/
 Priority: optional
 Section: metapackages
-Filename: pool/main/o/openbosniana-interface/openbosniana-firefox-profiles_2024.05.25_all.deb
-Size: 6320
-SHA256: e7336184f16018272ce8ff67dd162a70694affb46b57167f1da906c194226cde
-SHA1: ebb0bba6cda84c564ef440ab4873f1d6659a083d
-MD5sum: 4e828a54a20bbd8898f7e489c3720ec5
+Filename: pool/main/o/openbosniana-interface/openbosniana-firefox-profiles_2024.05.26_all.deb
+Size: 6532
+SHA256: 66854f29c31d78c507ec1915fe4d751a20e66dc11267b5d300a142208d4f61b2
+SHA1: d2a5027cee178b58b0bcbbb0085fa1dd1c20dd14
+MD5sum: c1f79ee711fb9e5b40d85751a6d62f49
 Description: OpenBosniana Firefox profiles
   A meta package that contains default custom profile for Firefox-ESR
 
