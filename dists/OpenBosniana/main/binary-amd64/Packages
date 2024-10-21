@@ -50732,29 +50732,6 @@ MD5sum: d4ac806deb7c12f3ee0cd26f73a14e4b
 Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
 
-Package: openbosniana-core
-Version: 2024.09.06
-Architecture: amd64
-Maintainer: Denis Maslo <denni@bosniana.org>
-Installed-Size: 705
-Depends: bash-completion, user-setup, dnsutils, moreutils, net-tools, whois, curl, wget, dconf-cli, rsync, openbosniana-core-lite
-Conflicts: apt-openbosniana, openbosniana-skel
-Breaks: apt-openbosniana, openbosniana-skel, r8168-dkms, realtek-rtl8723cs-dkms
-Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbosniana-interface-common, openbosniana-skel, openssl, powershell, samba-common, vim, vim-common, xrdp, xterm
-Homepage: https://bosniana.org/
-Priority: optional
-Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.09.06_amd64.deb
-Size: 106824
-SHA256: 9f58b2bba883e11fee5da2d4f1e0047101d8b228e559444f1cbbbc0f958092d7
-SHA1: 87484fdf3507b2e7c719d3b48f88dae1e1f39427
-MD5sum: 506b5ce16f8d272da5fbc177e64d57de
-Description: Core package for OpenBosniana OS
-  Core package for the OpenBosniana Debian distribution.
-  .
-  This package provides essential configuration files and base dependencies for
-  the OpenBosniana Security operating system and its flavors.
-
 Package: openbosniana-core-lite
 Source: openbosniana-core
 Version: 2024.09.06
