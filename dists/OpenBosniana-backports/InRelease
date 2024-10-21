@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Mon, 21 Oct 2024 01:21:53 UTC
+Date: Mon, 21 Oct 2024 08:50:15 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcVrLEACgkQ5Vfn9vbt
-T6qO8w/8DtDeUQtn6ZmbbvyOuBZX+7d3vlT0eFWp5C5eCVZUsJ9KQttiyewBk5yz
-En3ziSNvdDIkCAVyKKfj5In9Y9tTnAIXZ4Q9YHXA7nf/7/qLo68aMSEppr9lqj7G
-FysTHGlOPQYmfArYk6lBFwajy6xE5tXqEd7MNyQ99/S2MTahdpOlFBnMZ/xr5pJp
-g7Couse+cvt3XX/DQIhObF1A9b1Uqsf3UiCaXJ/uP8YRdgJCAZ2+Se/r3vMXWD/Z
-ZPmRGZVypL3rcxe8AC0XsZc2lsXTpGR78JUJxnZ5zc3U7laATTw8rxFl0W0IFr5N
-nOTuja5KaZvKU3muCYVZeCyoZ88T4nbIBemuPKyvF99GBqmR3Jv6u7aq7YwciBor
-Gv87impqVKRaeZ9oyD3VOSi6GylFeJw8SbsrMyfv5X9P92a7a3SFr5Ft/prxCHCW
-nax9DJ0yV0QAQJhSavQOu8uPpaQcz9sPRXmmqIP+WNC4o+v2WdOuN4svXleGlrQ0
-k7/jr0ZAH6RoVc0WycDeUafBe1qkbkG8+gGHlLCC2kaod7u89YjC1nu6kfmoARNj
-r8ttTHJddGD0U/K/RsS6wUEGO3rVi03SU7Dt38rmALRP+75WJG16R3dOzbM2Ri+W
-yWASiSRtkMeCZR3UES50Dzb5gWExaVeQMvT1zyrwjMGUkeUdNgg=
-=0o7Y
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWFcgACgkQ5Vfn9vbt
+T6pyVg/7BsM4mFAvb5G+QVCqVaJoDA2xvl1z0PUR75JpPUJ9FsFJblPdj7xJ4Rwz
+5A9lvjGIBJDoGoH9fZMNYrR5yiBO2miyTmAmbScubgnWigEkQwiKyt9A+CfqytrL
+zXzBo1w0kI8So8/+9ZVq6D9nEqYWskEhXZpIdycmYAC8k8KBYKfaQuakJb4OkLrS
+DfQsedFb0YWKngUa+2O7Od8OqMPOhpx8o9rowCfmw83/l6PMue1FiUYhQMj9EbSW
+3umRBHMYV8/Lh8qbC1AIcvJ5iygAa8HcIPLFaiBm0XXE5q67k5mCwnO0Ni7EPpIj
+KbqqE63Ivw69zzC9f/B4Ju26iZ/KKAy7IuEa3y7Ps3J7gDKx2enX87KcvpEyEYWq
+J2BX9RhwOBdBaQtX3FpPz0U8XvHxXtI5zNuUsW5ZJXQ9OoejIFXxjPnPgqs8C8Ow
+5do8mxII7taBjzxCs2RBKN6eJ6FECprPcaCwRwjVz0O9XJh88Gt5/BYgGBZgq10B
+mvWKJXK4W+phAlvxPKn+jiBpnYB3owvgr8jqVoG8cPnuX0Hgq2YUlhlzjH0UdMjY
+DgDvNlMZqClAW6XkcvqJ2ntSDUqagP7nCFRvq7biqw5uZYJV+ErChDjCxxtjgRLf
+3ipmf08p9WCwx0Msh7UzI0E5T1VdAGTF0fTZDtNm7se8l42UT5w=
+=qyaK
 -----END PGP SIGNATURE-----

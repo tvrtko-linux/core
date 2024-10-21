@@ -1019,30 +1019,6 @@ Description: MySQL database server binaries (metapackage)
  This package depends on the default implementation of the server binaries but
  doesn't depend on all the infrastructure needed to setup system databases.
 
-Package: desktop-base
-Version: 2024.09.16
-Architecture: all
-Maintainer: Denis Maslo <denni@bosniana.org>
-Installed-Size: 16548
-Depends: librsvg2-common, fonts-quicksand
-Recommends: plymouth-label
-Suggests: openbosniana-desktop-mate | openbosniana-desktop-kde
-Homepage: https://www.debian.org/devel/debian-desktop/
-Priority: optional
-Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2024.09.16_all.deb
-Size: 3069568
-SHA256: e6722e912311f56b5bc3decef8a601227b84b4c97ce1aac7c2b4c1c9b7759727
-SHA1: 541e0f6b8675e8c83bb4907ec4c7fcb264dd9d7a
-MD5sum: cedc0c1db257398dc6bec106c37ac99e
-Description: common files for the OpenBosniana Desktop
- This package contains various miscellaneous files which are used by
- Debian Desktop installations.  Currently, it provides some
- Debian-related artwork and themes, .desktop files containing links to
- Debian related material (suitable for placement on a user's desktop),
- and other common files between the available desktop environments
- such as GNOME and KDE.
-
 Package: dictionaries-common
 Version: 1.29.5
 Architecture: all

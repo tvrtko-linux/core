@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Mon, 21 Oct 2024 01:21:55 UTC
+Date: Mon, 21 Oct 2024 08:50:17 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcVrLMACgkQ5Vfn9vbt
-T6ogPw//X7Jum7IXKYaHvvcywKaEBhau0njJqCjOqVnTSgSzUkaecsUWW3RjtqRw
-QolXy5CEbhyj8MbKAWQN0JJREw8ni+ap5Lg638k3v72r9UoLH2nGA41cATa7k9FU
-luJ6Bx0wVIqeHARoiwN1OELAQhP93yz7WiDT8md0Gas0Got6uDSzSdGN4IS6FQvI
-TlJDztoaaJNTkRc/waBIJfNj8t7p3s4zpf0b7LD3pu8dl+IiNcDKgN8VZO3m5xwV
-+5ffDnxQ8hISD5d1lT5gPy9/70kmNT4CCG9k/eiKskViqrAiLdQGXef0lVBQJ8uJ
-DtulArqYtL5NahNgqdij7FigrCD8JyqgKZ3bBkWPpzfcOdmkTYwPzYc+YWbFX540
-KTup35dvN5FBBIhvjaI9Fh963SAJmzCeiHktVllnxgp5/wL39pGK3+fv2I6rxn4/
-ELYtQs5VDre0WuaE2aKpglmdVkwwgHL3R/NHUfNHn994gU+YT//pbFSA27nZJzFe
-Rqd7uuomc8wyZpYvBTGlFRAD9VPljooNFv5luJ2YRdtxryPjHUJoYMw+TOMwqx87
-gIQXwEhp6vK3WHRzYIOt14uiCeeYCvxHIZGqF8ffSsZ6TiRC18uIC512WoxuIeDm
-eDA3hjS2TcIrXFrZp0q1V2olS2iCd42HtFisQZhpE3jVUwuIsrA=
-=fwpG
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWFckACgkQ5Vfn9vbt
+T6opVg//epqs8LZ1rb3ILLV08GzBntNXne16cpt0J7YGhhPo3xycq6Q7tIhOAE47
+ZGZj6XgwXVTtP3W0UHHk6DrIM9WeDj4Ab20iNTAedNE4MHoHMQ/B4nEPoTCZc6yR
+b3rmiHHkURDQ8WL+ErbUFGzB1KtFEuxSB5Unh0JXh7oqXlf3MCreGpnNEz+L1Dkf
+jPqEjCqGZb/nm9TlgvOGEK4wfmLM36PaBKI5H5aStN0t5pvDYLt3Ru2qiOSv3TmE
+bkaUNBBKQ2EDfs/dyfCyr2kictRH811wLvUP8I026bQxQFRVO70WDekaj2B1r+rw
+T+z87weqY1OpC7xLE4TwUQfZupjVh98VN3lCRM2zI1eEcyfuESWltN1CSabiaHL1
+qnopGWsVnekAWsjQNMfIsXCaInZGFKF7JOy6SwxI7AjUSBr79WqQqs5QRQXZ1rnA
++hj0fXojaEFxsj/pCcMCHAVUWG3Gs6GOZt/OMLnOjvnTvnTnG5wjSGghOzraXsKw
+P6NhMoMblHPinEs9OHwzv8IHAk5H+Ry4P/hyn8q2xuo1T1/lPlx0Zy+sF4OtR/Lc
+04hmEYv353dKi/ZbMZ/Lyqe3/hiKVN5jyLqocvFVUOl52kWq/rfI+8N6Ebow4qwE
+BubLVJFqW+Imwa3g6IoiIlZn7SP3F/Wnbarjqh6ovfmuSbPF7JI=
+=mTZG
 -----END PGP SIGNATURE-----
