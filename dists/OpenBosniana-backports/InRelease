@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Mon, 21 Oct 2024 08:50:15 UTC
+Date: Mon, 21 Oct 2024 08:51:33 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWFcgACgkQ5Vfn9vbt
-T6pyVg/7BsM4mFAvb5G+QVCqVaJoDA2xvl1z0PUR75JpPUJ9FsFJblPdj7xJ4Rwz
-5A9lvjGIBJDoGoH9fZMNYrR5yiBO2miyTmAmbScubgnWigEkQwiKyt9A+CfqytrL
-zXzBo1w0kI8So8/+9ZVq6D9nEqYWskEhXZpIdycmYAC8k8KBYKfaQuakJb4OkLrS
-DfQsedFb0YWKngUa+2O7Od8OqMPOhpx8o9rowCfmw83/l6PMue1FiUYhQMj9EbSW
-3umRBHMYV8/Lh8qbC1AIcvJ5iygAa8HcIPLFaiBm0XXE5q67k5mCwnO0Ni7EPpIj
-KbqqE63Ivw69zzC9f/B4Ju26iZ/KKAy7IuEa3y7Ps3J7gDKx2enX87KcvpEyEYWq
-J2BX9RhwOBdBaQtX3FpPz0U8XvHxXtI5zNuUsW5ZJXQ9OoejIFXxjPnPgqs8C8Ow
-5do8mxII7taBjzxCs2RBKN6eJ6FECprPcaCwRwjVz0O9XJh88Gt5/BYgGBZgq10B
-mvWKJXK4W+phAlvxPKn+jiBpnYB3owvgr8jqVoG8cPnuX0Hgq2YUlhlzjH0UdMjY
-DgDvNlMZqClAW6XkcvqJ2ntSDUqagP7nCFRvq7biqw5uZYJV+ErChDjCxxtjgRLf
-3ipmf08p9WCwx0Msh7UzI0E5T1VdAGTF0fTZDtNm7se8l42UT5w=
-=qyaK
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWFhYACgkQ5Vfn9vbt
+T6rCoBAAnRRJ+8TjBio77pIi8sHcsRc4/xJE6uua7RmnxUyLqwS2vbDbiRhgjAq7
+rfBaauSyWmWNeZ0LSqEhLJYGa6WmHkvkvIuyZqFGco8Y0Z4f9Iuhk/6Vfl8PCnV9
+muaXD/kBxb0+o4BxwbhJt7J05ikYyP7dpZvlK4p1WE/fVawCbonfzb0G15+c+BQl
+lKrzBaxZOW9Vf6mlw7PtynNyfcWpxtZJboKSLsCspH5zcBijD7qTXZ6KSKJmwGit
+9FaOFgKwSi/3yTbdoOaM/OQsIctyHevSmtIzhYRQvEDr6HmgoixxhBIDGOAAn8MP
+MBi3N36lbRvxJmCrfhc1j12rkW4dRLbSOa0wvrDLe5SA4ZaarfFHMH3bxxwma++k
+aMeuovBu63YSQmXOQRDf6OVpkv3zY4CtUd+UxCmcJMh0AVb/eWXAMZ2OR02nx55k
+DYZEiVJveO4NCBeZ5x9zTfF0vQjORw7RyVRHGGLBS0exmlZNazIscB7lcjGp3/yd
+jLi+Ys9pZIktDtv4EUy8K2TrlNtYFKAMo2i6Le26tqn7vdWFB5ay6RKmUdBp26eU
++wKQ7fL3F6QIERgF3VPntkHeTgDtvysfU/FJO+t6GQ6dOxfZfRWCaoxd7XRnsATR
+ZjYkEoccbIk8GMlhv9caWj2JoIL3dTtxQ19tKIrhMfQrYJy1D54=
+=Unty
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Mon, 21 Oct 2024 08:50:16 UTC
+Date: Mon, 21 Oct 2024 08:51:34 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWFcgACgkQ5Vfn9vbt
-T6qZjBAApH3wuvFf8f73XOO8QpD2TvDCh9LwvCaQUTA/t1Zm/PoKfouX5JRdfalA
-GfrOk54Ke92UtjY2mM/KmyL0t/DPk8fw9of3WAv/DOeOQveEdDxsIEDMXheVMdf5
-zLrlfRqUytQl+Se6ep5oHZ6WeIfkR82OmdZ8HRiSopXl7tc3FFb+K2YdUKVJrshO
-i+ynkVInAgxXyv+draWxKjLs9unCtnWm+Xco5PGWwwcZuf4P5YEWKN9JK3bKr/TT
-xBSRxVV9+7IeWRcvbAN7brnPaobGhBzzH+DDWm3dP/mNUG0bqs3x7NdKAUS3buK6
-VELmgb+j3+71cNwha7JbFGQ14I7qn3tFvKIAkT0/zOhQi6zHvJRhOyFoa/m+rTO+
-I/gDSmXeAiwvbAXzr0Fx/INhsUUQLQ+6kmgMgz5n0GHBYpFe2TTWJ+TSthp8uZBN
-PmYPa/If55ChKKYMEHAtfGAiyUC1ZVixvJAoVDPizXzl0byjOINsaFPI+3sCb9w9
-Wns2NmgzadZlUfZNcXK9y0Wenjbe9oxwCSdQKKAdQZNKBrDanApYQrrkUdUYfD6h
-9sqZvF5rYBliZu10NviRi0+C3BbthVJ3C5a/MyEN20ir7/UIv7gMl8hUXy9IGwSc
-iFqREaR77iOEYs+dmpDN5W25DSspsy+I39UJfsrBNd/tDEPmliI=
-=9pqq
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWFhcACgkQ5Vfn9vbt
+T6ob1xAAgtT0Ei72zqAuMJSb/6G5RsYBHJNNFyblo+kt0HYHXuM94NEvaWYI1xSN
+/hu3rZGtTg+a1G9ctHpqW4pRiBW8Qd06ElwR/2S+sIw8XiTyQasnrmc95p9JfSHB
+jfghcwgSXosICdNFa1GRlQOlOGH5vmlkJTR+klagf55LnIYZj1KZ3hysOQTMezcD
+9Wh3GAha9hdv+Y2h6KcFcO/cs0YILKx6h1YnsmFj2N5Aixtmx/W4wybeEEgPPF+R
+DSQj8Iq86LjNcsqk5f1FeFGwUFGG+2fODoDG357VOv7GDGBpt5BLB/WUDapvX9TQ
+CwvJUUlehUr6BUQlE8kqXNwRCUXbkW65jIss3hYqw7RV83SX3pgXYn5vVjkNq2L4
+jXVZgUdSidGeNxe3lCMoCuLbSfMiePtYxH77UQgKi51gCH2B9uQb+/F+tEzXhkU1
+89vy/ihertG3GVv7rDVsAzQgH55M0vPFqhoDuA9M/fvAj+XcAcBoqkFRHNWHtEL7
+O1uym81BECVC8OUjS0Bpp8OmJCdfB8CMqfCIDoJJ6H1wxlDPuPXMNEFg9cIoIRf0
+HWVK55L96QfCclZoqPmpS0aU0/TZ0vzVe7I34jmz+Tjy6V/T8k6V23Ick4SvVRKr
+9A3BzpZBkY9EsbvnBE+G0/YooX4QkBZ8YEVpfKJ1mZRbkB5JxAE=
+=MrFK
 -----END PGP SIGNATURE-----

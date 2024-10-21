@@ -3427,6 +3427,30 @@ Description: MySQL database server binaries (metapackage)
  This package depends on the default implementation of the server binaries but
  doesn't depend on all the infrastructure needed to setup system databases.
 
+Package: desktop-base
+Version: 2024.09.17
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 16548
+Depends: librsvg2-common, fonts-quicksand
+Recommends: plymouth-label
+Suggests: openbosniana-desktop-mate | openbosniana-desktop-kde
+Homepage: https://www.debian.org/devel/debian-desktop/
+Priority: optional
+Section: x11
+Filename: pool/main/d/desktop-base/desktop-base_2024.09.17_all.deb
+Size: 3121312
+SHA256: 53f12caaddb7d2a9858c90096c87dee790ef8688438524d825b315ba9e7da8a2
+SHA1: 2dde8ba0817c16083cd89bb503ca044b798b2a66
+MD5sum: 290b0c2718066d4e1d5ba3b220b7d879
+Description: common files for the OpenBosniana Desktop
+ This package contains various miscellaneous files which are used by
+ Debian Desktop installations.  Currently, it provides some
+ Debian-related artwork and themes, .desktop files containing links to
+ Debian related material (suitable for placement on a user's desktop),
+ and other common files between the available desktop environments
+ such as GNOME and KDE.
+
 Package: desktop-file-utils
 Version: 0.26-1
 Architecture: amd64
@@ -50468,6 +50492,23 @@ Description: terminal status monitor for tor
  .
  nyx was previously named tor-arm (which is now a transitional package).
 
+Package: ob-welcome-kde
+Version: 2024.10.21
+Architecture: all
+Maintainer: Denis Maslo <denni@lists.debian.org>
+Installed-Size: 15252
+Depends: isa-support, sse3-support, libb2-1, libqt6core6, libqt6dbus6, libts0, libqt6gui6, libqt6network6, libqt6opengl6, libqt6positioning6, libqt6widgets6, libqt6printsupport6, libqt6qml6, libqt6qmlmodels6, libqt6quick6, libqt6quickwidgets6, libqt6webchannel6, libqt6webengine6-data, libqt6webenginecore6, libqt6webenginecore6-bin, libqt6webenginewidgets6, qt6-gtk-platformtheme, qt6-qpa-plugins, qt6-translations-l10n
+Homepage: https://bosniana.org
+Priority: optional
+Section: kde
+Filename: pool/main/o/ob-welcome-kde/ob-welcome-kde_2024.10.21_all.deb
+Size: 1957916
+SHA256: c7a28133e993bdded17a7f3ed65759e26880b4e9a6df8ee33f2b0dfd28bcb8d2
+SHA1: 10a7a76d361fc3f2fa09c03a985116dfb6811cbb
+MD5sum: 0cfc45ec67160df6bbf0b0dfd3505635
+Description: Welcome app OpenBosniana OS
+  For KDE Plasma
+
 Package: obfs4proxy
 Source: obfs4proxy (0.0.14-1)
 Version: 0.0.14-1+b4
@@ -50707,6 +50748,29 @@ SHA1: 67cefedc539cf505159c28f33349b9cd55201fa7
 MD5sum: d4ac806deb7c12f3ee0cd26f73a14e4b
 Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
+
+Package: openbosniana-core
+Version: 2024.09.06
+Architecture: amd64
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 705
+Depends: bash-completion, user-setup, dnsutils, moreutils, net-tools, whois, curl, wget, dconf-cli, rsync, openbosniana-core-lite
+Conflicts: apt-openbosniana, openbosniana-skel
+Breaks: apt-openbosniana, openbosniana-skel, r8168-dkms, realtek-rtl8723cs-dkms
+Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbosniana-interface-common, openbosniana-skel, openssl, powershell, samba-common, vim, vim-common, xrdp, xterm
+Homepage: https://bosniana.org/
+Priority: optional
+Section: openbosniana
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.09.06_amd64.deb
+Size: 102752
+SHA256: dcbc4d2ee9573ccf6ef1736eb9ce28b7b7423ecfda3525a477d7fcc738cbc90f
+SHA1: b6e8186c01aaecfc0730b15df9c6bf09eab39e48
+MD5sum: 570366b83946ae1923270275bdbaf713
+Description: Core package for OpenBosniana OS
+  Core package for the OpenBosniana Debian distribution.
+  .
+  This package provides essential configuration files and base dependencies for
+  the OpenBosniana Security operating system and its flavors.
 
 Package: openbosniana-core-lite
 Source: openbosniana-core
@@ -58270,6 +58334,31 @@ Description: modern display manager for X11
  SDDM is a modern display manager for X11 aiming to be fast, simple
  and beautiful. It uses modern technologies like QtQuick to create
  smooth, animated user interfaces.
+
+Package: sddm-theme-breeze
+Source: plasma-workspace
+Version: 4:5.27.5-2+deb12u2
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 597
+Depends: plasma-framework, plasma-workspace
+Recommends: sddm
+Provides: sddm-theme
+Homepage: https://invent.kde.org/plasma/plasma-workspace
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-workspace/sddm-theme-breeze_5.27.5-2+deb12u2_amd64.deb
+Size: 488596
+SHA256: a6a34beb36910006383f8c7b4c33403e9a3119e56644c0a516452a7764f7ad13
+SHA1: 0af9777875cbcdb5e0e8f758adb492a0a9bb9c40
+MD5sum: 33bc1874bc177bce004e3a1fb13a91fa
+Description: Breeze SDDM theme
+ Plasma Workspace for KF5. Workspaces provide
+ support for KDE Plasma Widgets, integrated search,
+ hardware management and a high degree of customizability.
+ Taskmanager library.
+ .
+ This package contains the files for the breeze SDDM theme.
 
 Package: sddm-theme-debian-breeze
 Source: plasma-workspace

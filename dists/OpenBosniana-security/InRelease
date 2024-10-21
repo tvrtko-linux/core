@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Mon, 21 Oct 2024 08:50:17 UTC
+Date: Mon, 21 Oct 2024 08:51:35 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWFckACgkQ5Vfn9vbt
-T6opVg//epqs8LZ1rb3ILLV08GzBntNXne16cpt0J7YGhhPo3xycq6Q7tIhOAE47
-ZGZj6XgwXVTtP3W0UHHk6DrIM9WeDj4Ab20iNTAedNE4MHoHMQ/B4nEPoTCZc6yR
-b3rmiHHkURDQ8WL+ErbUFGzB1KtFEuxSB5Unh0JXh7oqXlf3MCreGpnNEz+L1Dkf
-jPqEjCqGZb/nm9TlgvOGEK4wfmLM36PaBKI5H5aStN0t5pvDYLt3Ru2qiOSv3TmE
-bkaUNBBKQ2EDfs/dyfCyr2kictRH811wLvUP8I026bQxQFRVO70WDekaj2B1r+rw
-T+z87weqY1OpC7xLE4TwUQfZupjVh98VN3lCRM2zI1eEcyfuESWltN1CSabiaHL1
-qnopGWsVnekAWsjQNMfIsXCaInZGFKF7JOy6SwxI7AjUSBr79WqQqs5QRQXZ1rnA
-+hj0fXojaEFxsj/pCcMCHAVUWG3Gs6GOZt/OMLnOjvnTvnTnG5wjSGghOzraXsKw
-P6NhMoMblHPinEs9OHwzv8IHAk5H+Ry4P/hyn8q2xuo1T1/lPlx0Zy+sF4OtR/Lc
-04hmEYv353dKi/ZbMZ/Lyqe3/hiKVN5jyLqocvFVUOl52kWq/rfI+8N6Ebow4qwE
-BubLVJFqW+Imwa3g6IoiIlZn7SP3F/Wnbarjqh6ovfmuSbPF7JI=
-=mTZG
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWFhcACgkQ5Vfn9vbt
+T6pNbw//XJjN21P2dDI3xSbMWNNe25me5C2E6hOowvpscfZVqlImFr1Aj3d/wsZz
+izTKXKH3GnR+YOq44N2HkRT0+eji+PW4+k2jyVWXKrYvbWZHvN/Z7Ce9acEbBRYX
+fwSXy79txY2QzYRsYk2p2cY/LdLJIa5XRt4f8iEHH3Y7bR8sOLDIOySWSjYh0qEt
+Et52lm5urCUDd02vBunbQ0gQvvcQJO3JBpDv1kWouNKRAhG9IW3org5VbDWnAFAz
+uhG+tFntYGe2mhrIQc/3yU9seIZsO/9q2Pz1Sd0IGM8SAAn9aYFOpnQIBD2p6H5e
+TKwyDwZ/WYgZu4VcZlTC1GujAjf0wI/vTgNhDt8rFOSa3l1heEznHO61zP0ZfYvf
+RnfN6sBH0raPV51qmi7ZQ2dLLESLK6s1obCXjSMM+cHu1YLjrjOVEeNZ/saWJbQj
+I5vBOTUcBTeS4Ko+Yemcu9VluOxCbdvm7KOoilbf9bLVFmfleVjfWq8UoWXqwnYP
+fzllPTXA9a2lsAcpUXm2dVDGSaUHOq0M1TMImdOLuv9ERUoDuuYZdY0OsDQcS7Rt
+n5gwrn/7JrFRYL9oZZQgAlT6BvVCuDkTEBVeRKh9eCD6rp0V5W9p3+Uc58ClvBxw
+n3tEuDeqTH09BTkLJwQ60xU4sIRxAhS+NvjRroYp50kmeTwRFw0=
+=L0b9
 -----END PGP SIGNATURE-----
