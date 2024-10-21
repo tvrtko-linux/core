@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Mon, 21 Oct 2024 08:51:35 UTC
+Date: Mon, 21 Oct 2024 08:59:04 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWFhcACgkQ5Vfn9vbt
-T6pNbw//XJjN21P2dDI3xSbMWNNe25me5C2E6hOowvpscfZVqlImFr1Aj3d/wsZz
-izTKXKH3GnR+YOq44N2HkRT0+eji+PW4+k2jyVWXKrYvbWZHvN/Z7Ce9acEbBRYX
-fwSXy79txY2QzYRsYk2p2cY/LdLJIa5XRt4f8iEHH3Y7bR8sOLDIOySWSjYh0qEt
-Et52lm5urCUDd02vBunbQ0gQvvcQJO3JBpDv1kWouNKRAhG9IW3org5VbDWnAFAz
-uhG+tFntYGe2mhrIQc/3yU9seIZsO/9q2Pz1Sd0IGM8SAAn9aYFOpnQIBD2p6H5e
-TKwyDwZ/WYgZu4VcZlTC1GujAjf0wI/vTgNhDt8rFOSa3l1heEznHO61zP0ZfYvf
-RnfN6sBH0raPV51qmi7ZQ2dLLESLK6s1obCXjSMM+cHu1YLjrjOVEeNZ/saWJbQj
-I5vBOTUcBTeS4Ko+Yemcu9VluOxCbdvm7KOoilbf9bLVFmfleVjfWq8UoWXqwnYP
-fzllPTXA9a2lsAcpUXm2dVDGSaUHOq0M1TMImdOLuv9ERUoDuuYZdY0OsDQcS7Rt
-n5gwrn/7JrFRYL9oZZQgAlT6BvVCuDkTEBVeRKh9eCD6rp0V5W9p3+Uc58ClvBxw
-n3tEuDeqTH09BTkLJwQ60xU4sIRxAhS+NvjRroYp50kmeTwRFw0=
-=L0b9
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWF9kACgkQ5Vfn9vbt
+T6pjoQ//WS1ANZViVceZBRUnvOknJ/SiDFSSZvSC4IuQ0i0/p0ofrAdKhEJOfgUs
+Ecv1hfX8VlCM9pXTtvfj8jAAw/0AeOTnRqu3+WBzYv4acSQkYDoca81cgUx/Yary
+6fzvGGEZABOoW3Ar3bb+lTlajazzKGuVekI+T7k/TPQvmkbqlMrw5V/4kpYLpt1Y
+vnfy3oRAbPbrYeuZJydFAdGegK4aIGBAm8TD9zYZ3Y8P3pDXacWQ7LpNFcBsGqGd
+XzFiOR/zsr9D9jtqRoe5Adj1MvA5PzscSoKZVXhKVNprvVJcq0CVan07fWNUaqSB
+/t9rHzUzgZt2QXW9UssL+1ULfz4ECnyO/f75QSimm204nAQhoRQ96eOAfeulkYvj
+vBpqvFyfnkOtYe4w3F5Bgy/FVvGMMIcpfWTQ5U8vSd5hZnltOcfiWcbV7WoWTTa3
+zFgo2L62LBRcHeU93dM6h9DWWrZvwLSwiqSy6rDVVf2IBWagOcPswkyu95a+PnJ9
+5NqfgCsgjv2pAntAsGxSngkd4XZXnNB28I1k4M6qzQbw734Vf9azHhenXfrWJDfV
+FmBxEaDP43fYrjf2VYQ303QmK3h3hqz6zl+TwQLpNx/Ni5aOz9VWfcfVVorGWGOU
+opZTryw3WR+xrx35QWg3QZMha48QN+03TB0R9CdBsspXFBuM/P4=
+=LjP5
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Mon, 21 Oct 2024 08:51:33 UTC
+Date: Mon, 21 Oct 2024 08:59:02 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWFhYACgkQ5Vfn9vbt
-T6rCoBAAnRRJ+8TjBio77pIi8sHcsRc4/xJE6uua7RmnxUyLqwS2vbDbiRhgjAq7
-rfBaauSyWmWNeZ0LSqEhLJYGa6WmHkvkvIuyZqFGco8Y0Z4f9Iuhk/6Vfl8PCnV9
-muaXD/kBxb0+o4BxwbhJt7J05ikYyP7dpZvlK4p1WE/fVawCbonfzb0G15+c+BQl
-lKrzBaxZOW9Vf6mlw7PtynNyfcWpxtZJboKSLsCspH5zcBijD7qTXZ6KSKJmwGit
-9FaOFgKwSi/3yTbdoOaM/OQsIctyHevSmtIzhYRQvEDr6HmgoixxhBIDGOAAn8MP
-MBi3N36lbRvxJmCrfhc1j12rkW4dRLbSOa0wvrDLe5SA4ZaarfFHMH3bxxwma++k
-aMeuovBu63YSQmXOQRDf6OVpkv3zY4CtUd+UxCmcJMh0AVb/eWXAMZ2OR02nx55k
-DYZEiVJveO4NCBeZ5x9zTfF0vQjORw7RyVRHGGLBS0exmlZNazIscB7lcjGp3/yd
-jLi+Ys9pZIktDtv4EUy8K2TrlNtYFKAMo2i6Le26tqn7vdWFB5ay6RKmUdBp26eU
-+wKQ7fL3F6QIERgF3VPntkHeTgDtvysfU/FJO+t6GQ6dOxfZfRWCaoxd7XRnsATR
-ZjYkEoccbIk8GMlhv9caWj2JoIL3dTtxQ19tKIrhMfQrYJy1D54=
-=Unty
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWF9cACgkQ5Vfn9vbt
+T6qXaQ/9FZ7KbJtsq/Nn4NqxfrHKKkH/TJ/ZfFFo+EWWWeJK4Ic/FxnH8S5jBITt
+7k9VmbgYtxFrtaVf0BQoHcBx69NAKUS/gykbRukgxrwlDV1U2hO+9KdJPmxhr19y
+yAYYNx1hYCnrvYbH73PSqcTigzUuq9vUaHfUtuUqDdwWbQOh3rxURn5KuwX39Krl
+EBcjXx6hKm2dVUtsD7LBEkJpDpcQ/FIC/TKe9mIWq81ACpxxhGwtzWGRLTtAib8B
+4e3A8gkxE5j5+i/jyvY+rUMMzbO6RVju/M1j0Mto2y7++fkbtJImtop25jqIqDlK
+8FPR5An4StZkyzW/n0/++HTAaUXWzKtk+419UvZyvyTzloc2yjT9d78PAAMCUc/n
+kduC61mwbje1zg2fif2uRRw+3vb2xw1Md1AbY5RoaKC59LsIpniw6iYMWzejnl/Q
+uCXJaOqh+KhVjg5XEnpXONvLszg0Hh6cfcxtpKrkDZlgxH26ev2V8nyJmKHvVEq+
+xgaX6nSOdwjr8tv+aZrP3BPixKm1CgzUgzk0faNzjUoWyHVVwmhISWtJFvXBRliE
+JdgmfkteMKB8Y0kZt6pdJ56MiK58YCpQ++jAuPF/NdMQK/GScA19C2LidSmv6Vdj
+Ry90K28xTbsTtV2Adxw5L1/7CJoVagx4uHFVPztvkpHO7zZ73Nw=
+=clQB
 -----END PGP SIGNATURE-----

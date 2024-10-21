@@ -3428,7 +3428,7 @@ Description: MySQL database server binaries (metapackage)
  doesn't depend on all the infrastructure needed to setup system databases.
 
 Package: desktop-base
-Version: 2024.09.17
+Version: 2024.09.18
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 16548
@@ -3438,11 +3438,11 @@ Suggests: openbosniana-desktop-mate | openbosniana-desktop-kde
 Homepage: https://www.debian.org/devel/debian-desktop/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2024.09.17_all.deb
-Size: 3121312
-SHA256: 53f12caaddb7d2a9858c90096c87dee790ef8688438524d825b315ba9e7da8a2
-SHA1: 2dde8ba0817c16083cd89bb503ca044b798b2a66
-MD5sum: 290b0c2718066d4e1d5ba3b220b7d879
+Filename: pool/main/d/desktop-base/desktop-base_2024.09.18_all.deb
+Size: 2820652
+SHA256: 01eb4fafaf3551ba7416f5e57d72cd1c22b5da9c150f4ff607538ca033c6e0a6
+SHA1: b7b38e0885028b074bbf3115dc5f1bf0ff6f2667
+MD5sum: 731df8ea94bde8a5f4ca6af65feffd25
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
