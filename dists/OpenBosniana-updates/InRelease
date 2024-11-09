@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sat, 09 Nov 2024 03:56:11 UTC
+Date: Sat, 09 Nov 2024 04:48:17 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcu3VsACgkQ5Vfn9vbt
-T6q1Og//f/PbmaNLuqTu+Zmx7Rjo/kYADtFEgTrT2ciVxWHUArdowkglgu38zFTi
-ZBcULdrzzn6W0C6wD36ytoWFttGSBuBDHlAc//l8zw34kd9VBQ0Cx5VJ1Pf4eB+R
-JpwM0A3NEqw9/AaEnJbQyA3O0n3+7qtWSNFEWukwm22n8NXGVPwPsZQU7kqjUUcJ
-fqsBSjqSem4SzdxTnvLYfksxPg//oNHztma2mYh+U3H+ul8NPYsjuFDNvB9aQzfG
-vYCK0Mzt0GIOOmoEzikvyqq7//WGCj8Od2xvmGENt9cnD/aJSr7oUq4NHvm1CUu2
-OomAA7RegEeFz51e0bzbjFYaTI0Ud6HpeHD/lxkYYaE0Kjb+5wb6q8E+xQIMF+qk
-lyltTNo0c6YVB0Od93cAHPtiIUbnH9jpSsZznn5A+o1qLoMI9ytvpS5SacRR51GU
-ETod1ZP/HTfeLMsfWFcASvGpr/1rn7NsWNexooQWgyR2aix7fH2+/+lcvmxxdrPG
-rqL4YV/1JRv//eizolPFeSw6ykfWqQ5xH4Lip2HLba/xqqhXrGSbthN+nTt3Yj/e
-SHna1tb23HkfSk995lZ7MiV+63z3iYgVviUSOvmtgKn/tgjKmN/mD4+x8FTKyHEB
-cvwbq5qHB7/eDBDXxtDPgvLnEtx0IHm2OYTcSV9uvW/1pTMlUG4=
-=3mDm
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcu6ZEACgkQ5Vfn9vbt
+T6pvlg//a48DgGxo/pDdX5zAwz8muz5aELjucZ5tkAX/MUEma0msobnMqm/tuqTy
+t+bPBUxy/kl5cMfbjfMVzBFVDqd6UW/eu+QKqdmc4iZkpYXWiVN3F7DM9yWbL6WZ
+efoH9uAJm2Pjnj+qdZ4iDYYp6MZVdIscemrLhaHl0eyd6aFtMloIB0UhvvjxMaNF
+TPlewPsl2TIjBVwbe7jiKUrNkg0GaNgw90y3ru6qCj+6sRBLyPV+2WMr3S07wqDL
+NerG7guqYtDZVlZAwpUY8DcUOz8b0fFg19NQyz8DOv91oLS8hDa7+Jz9sfz/sOt/
+5mIekQa78njPknSydmIxUslSRTRC1r/i4lWK2mCTOjyxMeXOwQBUTfFouIlAvY+/
+K85wvk5vS/WVZYnecTkQZQeq7flmyPk9fyWi4vE32cthxApydgLgYfkT37YTfwlm
+4BQvWoqDIxe8cY5xQIx8AYhcrdRWcoefCrYUqzLE/lPcCu+ACaDq5XpqTm9nvUBx
+2UJlvF2UqTBplaax785Q6APEZkpMyEnyqDnba7C1xLuz3oaeA0wafi1EZUqLf/cT
+URtq6jjG11Nl/Vg71ZFAyEFrO1ywSyJv0k9vOtrGuTXii5OA2U5d7Jw1dDSDmqcF
+mY5NswJQOPPeo7ebbzpoOvMyBCKw9xL8+YOxVHwIdHYRnYfdId4=
+=1rfy
 -----END PGP SIGNATURE-----

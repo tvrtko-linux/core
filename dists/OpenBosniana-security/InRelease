@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 09 Nov 2024 03:56:12 UTC
+Date: Sat, 09 Nov 2024 04:48:17 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcu3VwACgkQ5Vfn9vbt
-T6pyAQ//e0VhVORmaSEa7ims25tD2TxSLpRBZohgpcvdui9dk1Ipgcosy5BYJZDk
-mxfTu8TGbJqIqY77lRj6RIhu27IhUN0v2K/shqOJgG4IpXaLZ6n2tL7ZhHW66+lW
-pN6LbYJ9cC+cVJ0G2sRCw4itqFrxuM/lmvOqcNjZDv6UORM6QufTnE5ffyglBnm9
-ZP/OUvcLppvNOVbJAujCNBVs1hOMNDnmWAvBALg9FD3RwWtRQpt9KET6smS7nWSR
-5wmf8SGjR5OHefyPpSxiFIF7xUroiSJT/rudT2zoF09O449Gxj2vDcTqVdyjXe2k
-56ioP27Usx02z5gsd4H/hAeMPqZt6fLhmhWUNZGmj9G3aFY3irYqxoExu+A4pMk/
-ehH7bjBX48/OgL1V6GYgIzIPsRYyn1ItGWWP1UwevFI+8enB+PvejRoyefy2TWy1
-5141SxIoqtQ5K5V9E4Vyeft8hILxAp62wXQz5t/4avPVA5nRvMgm/yZ4506WWTI3
-NG+Iv1wr1oV3H3+aWNwo4BvfMWwTxBYTybmcUJodauZf2QEz+ctHpVkHvXt+4YXs
-Q62FbFncB+J47i+FTKfN8sJ9VVVWJuVrsIPSozrXK7ZJOyTi74hPdWC6DepRf7SH
-DCaJLI7MJ2eKASGOpM/4PSYS2PyBF2wcRCl4NurDU9zAe56OKiI=
-=etCk
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcu6ZIACgkQ5Vfn9vbt
+T6pTxw/+Muc2gGTJnUYfpq6fqsn+fbITU5kBIApPCuY2aaTOi1AeSRpHR1DLD9QW
+XvkfZ/RYP5NyEtdEzFnhYFpzlQjykSUaRXD4X2kIIo1Ctt0BYq1keSEvtC3XpsME
+f0oNVVKy16JUXfk1kuF23qDT2gLZoyKOIixfJWe4sITF/TKlMd5FcuvqStbTQHWg
+38YoBq+5tX5EmbdsZkLPTylIm3Ytj+ywaR1RxAEWQLFqBK7obCZrsjxi9+hR3nCv
+xVFcNNHCIkU7OJ1dGygsPh0FoQlVTt/b/oNzSnS7gYN88HAMqE8GwbOdbWsL77Xt
+CEnxpYwgw7mfnRLiOvqVt9vILOH5oLx32r1w2TEnFdxLvmLpmwCZuklLIaw3iZBH
+40Z9VyYtoSX1aaILRwYjobQt7ehmevAFqVIyd2EGv/jgSh2y+v/kFOU30B5+YqPM
+015NWdPyuYIpe3lIgIgxpmiO8pwDp1f0YFUlE/8Fje6dUhREiMwOdmhSTroYmWjs
+79NkQ4iA3do7tCT8FmPYFzGDk6f3s/7Lq+kZ3yYEGcrYRI48SCyeDupM5AXV88eK
+6iZOkiAxMmD23EA2gTI/wWA0SU9kqEASs4v2Coj+gCdBWzfoEMevpVh9UVdIGa3E
+ABUocBIczb+CdJwBtN3brcn8mFlPwJvg+020bRVBsbIVwKGFsgA=
+=y+lj
 -----END PGP SIGNATURE-----

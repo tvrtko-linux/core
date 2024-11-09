@@ -1323,19 +1323,19 @@ Description: DNS root hints and DNSSEC trust anchor
 
 Package: dnsutils
 Source: bind9
-Version: 1:9.18.24-1
+Version: 1:9.18.28-1~deb12u2
 Architecture: all
 Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
-Installed-Size: 266
+Installed-Size: 269
 Depends: bind9-dnsutils
 Homepage: https://www.isc.org/downloads/bind/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/b/bind9/dnsutils_9.18.24-1_all.deb
-Size: 261148
-SHA256: 9be3273e336c155f7b59dd9f239eb864e37a26d7e42297405e30191e870be4c1
-SHA1: b62ee293572197f946f4028de31c7707829b8094
-MD5sum: 07085847625bab7b262a53c6f9a945e7
+Filename: pool/main/b/bind9/dnsutils_9.18.28-1~deb12u2_all.deb
+Size: 263656
+SHA256: 54b29a9c225a31d5b101d65d91261f28731ffd190bd06a36da9f357ff66b2d60
+SHA1: 717ad8a778791921c3f7b07f0379743a1e295693
+MD5sum: 44750cb40cd2c7621d36fcbe82b821cd
 Description: Transitional package for bind9-dnsutils
  This is a transitional package. It can safely be removed.
 
@@ -4696,7 +4696,7 @@ Description: Intelligent Input Bus - data files
 
 Package: imagemagick-6-common
 Source: imagemagick
-Version: 8:6.9.11.60+dfsg-1.6+deb12u1
+Version: 8:6.9.11.60+dfsg-1.6+deb12u2
 Architecture: all
 Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
 Installed-Size: 537
@@ -4707,11 +4707,11 @@ Multi-Arch: foreign
 Homepage: https://www.imagemagick.org/
 Priority: optional
 Section: graphics
-Filename: pool/main/i/imagemagick/imagemagick-6-common_6.9.11.60+dfsg-1.6+deb12u1_all.deb
-Size: 166244
-SHA256: 0511151fede5ee00defb3a96a8122e3b14c961f7e4349d9e4ddc35462d90142b
-SHA1: d10303ba8bab1f5ed009c2f947a1d09e79fa0fcb
-MD5sum: fc748e234b7917bd4678abeb83e1542c
+Filename: pool/main/i/imagemagick/imagemagick-6-common_6.9.11.60+dfsg-1.6+deb12u2_all.deb
+Size: 166252
+SHA256: 87d97bf44f19aebd77f5a73cbd0baf74f4e68cb9a5b8ac1333a4044d245930ea
+SHA1: 881b3a9b4de065431260280d602723d908151642
+MD5sum: ef1170af8e119c83f5536667bed0d68d
 Description: image manipulation programs -- infrastructure
  imagemagick-common contains the filesystem infrastructure required for
  further installation of imagemagick in any configuration; it does not provide
@@ -4751,11 +4751,11 @@ Description: helper tools for all init systems
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 
 Package: initramfs-tools
-Version: 0.142
+Version: 0.142+deb12u1
 Architecture: all
 Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
-Installed-Size: 113
-Depends: initramfs-tools-core (= 0.142), linux-base
+Installed-Size: 58
+Depends: initramfs-tools-core (= 0.142+deb12u1), linux-base
 Suggests: bash-completion
 Conflicts: linux-initramfs-tool, usplash (<< 0.5.50)
 Breaks: e2fsprogs (<< 1.42.13), initscripts (<< 2.88dsf-59.3~), upstart
@@ -4763,11 +4763,11 @@ Provides: linux-initramfs-tool
 Multi-Arch: foreign
 Priority: optional
 Section: utils
-Filename: pool/main/i/initramfs-tools/initramfs-tools_0.142_all.deb
-Size: 72864
-SHA256: dd1b867f0000d967471b0f775fdb3b4a534d4ae70bdb56a93b1ffcf60965813b
-SHA1: ba01dc9edf69ba1198534ccad10d53b50a45816a
-MD5sum: b00b1c4ad31046ed1f80852bf20161f2
+Filename: pool/main/i/initramfs-tools/initramfs-tools_0.142+deb12u1_all.deb
+Size: 15844
+SHA256: 7b33612f92a67c713f334abea509b66ec37cc7d26a34270c24ce3a7774405803
+SHA1: d95ebbccaab3f7d6188ac0a4bcf7a473d92ccaa2
+MD5sum: ab2550cc819f1021b0244f7cf2d40c95
 Description: generic modular initramfs generator (automation)
  This package builds a bootable initramfs for Linux kernel packages.  The
  initramfs is loaded along with the kernel and is responsible for
@@ -4775,10 +4775,10 @@ Description: generic modular initramfs generator (automation)
 
 Package: initramfs-tools-core
 Source: initramfs-tools
-Version: 0.142
+Version: 0.142+deb12u1
 Architecture: all
 Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
-Installed-Size: 215
+Installed-Size: 161
 Depends: klibc-utils (>= 2.0.4-8~), cpio (>= 2.12), kmod, udev, coreutils (>= 8.24), logsave | e2fsprogs (<< 1.45.3-1~)
 Recommends: busybox (>= 1:1.22.0-17~) | busybox-static (>= 1:1.22.0-17~), zstd
 Suggests: bash-completion
@@ -4787,11 +4787,11 @@ Replaces: initramfs-tools (<< 0.121~)
 Multi-Arch: foreign
 Priority: optional
 Section: utils
-Filename: pool/main/i/initramfs-tools/initramfs-tools-core_0.142_all.deb
-Size: 104720
-SHA256: 133079a3634cbc94e83141745204adf510eb02e4f1912f6a297090256f8d2138
-SHA1: 4d183a52ff7f27315c12571437841236bfe6a2a4
-MD5sum: 9db60e62fc2e417428d673281d93217b
+Filename: pool/main/i/initramfs-tools/initramfs-tools-core_0.142+deb12u1_all.deb
+Size: 47864
+SHA256: 03faa15bd61d9a943802c7ddacc6f682b5c6a01fd103a6790c525ce9a2e7023f
+SHA1: 0f57d0fb4bcc3ba6d2340f6c164116b11088dc61
+MD5sum: 3b1a4b7347e1acbb7f1e00bda7c9a2e3
 Description: generic modular initramfs generator (core tools)
  This package contains the mkinitramfs program that can be used to
  create a bootable initramfs for a Linux kernel.  The initramfs should
@@ -5345,19 +5345,19 @@ Description: Authen::SASL - SASL Authentication framework
 
 Package: libc-l10n
 Source: glibc
-Version: 2.36-9+deb12u7
+Version: 2.36-9+deb12u8
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 4347
+Installed-Size: 4348
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/libc-l10n_2.36-9+deb12u7_all.deb
-Size: 674852
-SHA256: 4a4f346843515c985772b4111dd4b79b83e3e0e2c3abc4a1bcdd8f8f5b40647a
-SHA1: ab6cb093fffb39926164bb2e113d5e63813a994c
-MD5sum: e75e55a85d9ba5704cb9c2a16e882970
+Filename: pool/main/g/glibc/libc-l10n_2.36-9+deb12u8_all.deb
+Size: 674472
+SHA256: fbde9e26d9a799b06d7a449bcb968d8828ce98204cf44cd8bd61b104154e8b68
+SHA1: d875bc9a0db5ca7f4bd2c74cefaff4375c999035
+MD5sum: f60be66d56d7f9bb81b228d58d21c7cc
 Description: GNU C Library: localization files
  This package contains the translation files for the GNU C library and
  utility programs.
@@ -5857,7 +5857,7 @@ Description: interpreter for the PostScript language and for PDF - common files
 
 Package: libgtk-3-common
 Source: gtk+3.0
-Version: 3.24.38-2~deb12u1
+Version: 3.24.38-2~deb12u2
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 26504
@@ -5869,11 +5869,11 @@ Multi-Arch: foreign
 Homepage: https://www.gtk.org/
 Priority: optional
 Section: misc
-Filename: pool/main/g/gtk+3.0/libgtk-3-common_3.24.38-2~deb12u1_all.deb
-Size: 3895124
-SHA256: e6f19a7cfffb5dda05cd5895e4b1cebb95b2e8dc92f9a1d053036b6fa5000289
-SHA1: 71060d11d8fff8c21ebae097d5f7f970cf920e20
-MD5sum: 9ceca7dc96c0d39a7609c14d194e3d0e
+Filename: pool/main/g/gtk+3.0/libgtk-3-common_3.24.38-2~deb12u2_all.deb
+Size: 3893028
+SHA256: 44bac66c53b0e5ae534828abef0a57160d2a1759eb83bd7ed5cc5f8e94a7a584
+SHA1: 9a4aa666710708320d8246da17819dfc4110ac16
+MD5sum: a07788820c9bf5cc68cbbf4269e3e59c
 Description: common files for the GTK graphical user interface library
  GTK is a multi-platform toolkit for creating graphical user
  interfaces. Offering a complete set of widgets, GTK is suitable
@@ -5909,20 +5909,20 @@ Description: common files for the GTK graphical user interface library
 
 Package: libgtk2.0-common
 Source: gtk+2.0
-Version: 2.24.33-2
+Version: 2.24.33-2+deb12u1
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 19922
+Installed-Size: 19884
 Recommends: libgtk2.0-0
 Multi-Arch: foreign
 Homepage: http://www.gtk.org/
 Priority: optional
 Section: misc
-Filename: pool/main/g/gtk+2.0/libgtk2.0-common_2.24.33-2_all.deb
-Size: 2700012
-SHA256: a65e7e4c0bbb5f50062ac8605291bfaf6281baf32bebaf4d1c70284f5cb85c3e
-SHA1: 1223a6e2e4032fcd30af4f4ae59393a2ccf39cff
-MD5sum: e02174c4bbffe955b02c98fdc74cf42d
+Filename: pool/main/g/gtk+2.0/libgtk2.0-common_2.24.33-2+deb12u1_all.deb
+Size: 2659900
+SHA256: f55a9800d3721b1de246e4bfaf94a63ca50efdfa49eb5fa2362ed4fa79258299
+SHA1: 261f62c5d3547680f336b66c6dddf6cec609b9f9
+MD5sum: 8333a0a523233b47bce56373a58be653
 Description: common files for the GTK graphical user interface library
  GTK is a multi-platform toolkit for creating graphical user
  interfaces. Offering a complete set of widgets, GTK is suitable
@@ -8626,19 +8626,19 @@ Description: Live System Extra Components
 
 Package: locales
 Source: glibc
-Version: 2.36-9+deb12u7
+Version: 2.36-9+deb12u8
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 15844
+Installed-Size: 15845
 Depends: libc-bin (>> 2.36), libc-l10n (>> 2.36), debconf (>= 0.5) | debconf-2.0
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/locales_2.36-9+deb12u7_all.deb
-Size: 3902268
-SHA256: 62fd9893812f61b0f431de6cd7882b52fd3e99778c1272afec579f6284a39b23
-SHA1: 70d72d21e641225497158a3027d1b357c6637423
-MD5sum: 864a38e07fd1d0bf60c6a968f1d7d68a
+Filename: pool/main/g/glibc/locales_2.36-9+deb12u8_all.deb
+Size: 3901488
+SHA256: 937105d99c505eb2b2239afcbe6f11adb1a42512c6e18a7983cfa0df8183bbfd
+SHA1: c21112c7d78d543b13b5744f45d517a3ac6c341b
+MD5sum: a80ba683c234c9ad499d388a02baa4ef
 Description: GNU C Library: National Language (locale) data [support]
  Machine-readable data files, shared objects and programs used by the
  C library for localization (l10n) and internationalization (i18n) support.
@@ -19220,20 +19220,20 @@ Description: Pure-Python3 HTTP/2 framing code
 
 Package: python3-idna
 Source: python-idna
-Version: 3.3-1
+Version: 3.3-1+deb12u1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 302
+Installed-Size: 335
 Depends: python3:any
 Multi-Arch: foreign
 Homepage: https://github.com/kjd/idna
 Priority: optional
 Section: python
-Filename: pool/main/p/python-idna/python3-idna_3.3-1_all.deb
-Size: 39368
-SHA256: 86f4642d0b30ecc56aa2422bf46771a207dbc2298471676d2e1efc1ec06d7860
-SHA1: 4b0baf048a12200e92c28be529e921180ba9ce18
-MD5sum: 4c0cf9455209cbb5d5dbfde66465f37f
+Filename: pool/main/p/python-idna/python3-idna_3.3-1+deb12u1_all.deb
+Size: 40956
+SHA256: 0bf81fb1906d3aa607482d09aa3bcbab5c263242b1fd1d93be39658fa783af1a
+SHA1: 7dc4d19060954683bb3d6a360a096254ada6a36e
+MD5sum: 2fcf372b2b48105540ead8249d474fa6
 Description: Python IDNA2008 (RFC 5891) handling (Python 3)
  A library to support the Internationalised Domain Names in Applications (IDNA)
  protocol as specified in RFC 5891. This version of the protocol is often
@@ -20935,22 +20935,22 @@ Description: common SGML and XML data
  building documentation without any further effort.
 
 Package: shim-signed-common
-Source: shim-signed (1.39)
-Version: 1.39+15.7-1
+Source: shim-signed (1.44~1+deb12u1)
+Version: 1.44~1+deb12u1+15.8-1~deb12u1
 Architecture: all
 Maintainer: Debian EFI Team <debian-efi@lists.debian.org>
-Installed-Size: 47
+Installed-Size: 50
 Depends: debconf (>= 0.5) | debconf-2.0, mokutil
 Breaks: shim-signed (<< 1.32+15+1533136590.3beb971-5)
 Replaces: shim-signed (<< 1.32+15+1533136590.3beb971-5)
 Multi-Arch: foreign
 Priority: optional
 Section: utils
-Filename: pool/main/s/shim-signed/shim-signed-common_1.39+15.7-1_all.deb
-Size: 12796
-SHA256: 77d7f15eb590b17296abf3a2fb5638dd3661409a081994683f92b254f551fbe5
-SHA1: 076795b361df29c9f454bb31d540ad24623031df
-MD5sum: f57c0d2a27eda61b85fc290a3f1ec83e
+Filename: pool/main/s/shim-signed/shim-signed-common_1.44~1+deb12u1+15.8-1~deb12u1_all.deb
+Size: 13636
+SHA256: 7f7be3b25d27af154e5c83961d0b7b11d6a2188f048ba7fafd932c802facf843
+SHA1: bfed69dcf20dd440dca61a28d64ad566645c0da6
+MD5sum: 9c086c95cc42d5f500a50320c317d9de
 Description: Secure Boot chain-loading bootloader (common helper scripts)
  This package provides a minimalist boot loader which allows verifying
  signatures of other UEFI binaries against either the Secure Boot DB/DBX or
@@ -21513,21 +21513,21 @@ Description: mode switching data for usb-modeswitch
  This package contains the commands data needed for usb-modeswitch.
 
 Package: usb.ids
-Version: 2024.01.20-0+deb12u1
+Version: 2024.07.04-0+deb12u1
 Architecture: all
 Maintainer: Aurelien Jarno <aurel32@debian.org>
-Installed-Size: 724
+Installed-Size: 727
 Breaks: usbutils (<< 1:008-1)
 Replaces: usbutils (<< 1:008-1)
 Multi-Arch: foreign
 Homepage: http://www.linux-usb.org/usb-ids.html
 Priority: optional
 Section: admin
-Filename: pool/main/u/usb.ids/usb.ids_2024.01.20-0+deb12u1_all.deb
-Size: 207508
-SHA256: 31a24b27cfe73644eb938fa435ad683a5a812303f5efb576055623f65c6bffc8
-SHA1: 2403e2937589656c7b1225c8ff61124a8e9aff78
-MD5sum: c050bb359aeabadab87f3ca73ea5ebe9
+Filename: pool/main/u/usb.ids/usb.ids_2024.07.04-0+deb12u1_all.deb
+Size: 208340
+SHA256: 91c04202af9b4464f7674507739ac76539cccbea4593a64dde6115bad8bbf3d0
+SHA1: dc5d72cec153c0677877c374e95fd0ee11ce3523
+MD5sum: 542dd5fb46c6cd1e9dd7c420cb66c96d
 Description: USB ID Repository
  This package contains the usb.ids file, a public repository of all known
  ID's used in USB devices: ID's of vendors, devices, subsystems and device
