@@ -1866,6 +1866,231 @@ Description: text extractor for MS-Office files
  package will use wordview if X is running, or catdoc directly if it
  is not.
 
+Package: celestia-gtk
+Source: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Architecture: amd64
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 249
+Depends: libcelestia1.7 (= 1.7.0~git20241107+62716d8c-1), celestia-common (= 1.7.0~git20241107+62716d8c-1), celestia-data (>= 1.7.0~), libc6 (>= 2.34), libegl1, libfmt9 (>= 9.1.0+ds1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.9.10), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 11)
+Suggests: stellarium
+Conflicts: celestia (<< 1.4.1), celestia-gnome (<< 1.7.0~)
+Replaces: celestia (<< 1.4.1), celestia-gnome (<< 1.7.0~)
+Homepage: https://github.com/CelestiaProject/Celestia
+Priority: optional
+Section: science
+Filename: pool/main/c/celestia/celestia-gtk_1.7.0~git20241107+62716d8c-1_amd64.deb
+Size: 93568
+SHA256: 3ab8b5d64541b0bb069649a5f093873d3f1b887a5b17fa3e59b0a4301af2b625
+SHA1: 6a23180127f96bec92184dc1f47a83db63a393af
+MD5sum: 9b6096fbcb648c17d1f17a6a6b8eaeb4
+Description: real-time visual space simulation (Gtk frontend)
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package contains the Gtk2 frontend for Celestia.
+
+Package: celestia-gtk-dbgsym
+Source: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 6212
+Depends: celestia-gtk (= 1.7.0~git20241107+62716d8c-1)
+Priority: optional
+Section: debug
+Filename: pool/main/c/celestia/celestia-gtk-dbgsym_1.7.0~git20241107+62716d8c-1_amd64.deb
+Size: 6236344
+SHA256: afe83c1650b760658442bddbfada67e08471137aa97b04cf15fe7fa192f9d221
+SHA1: 9bcb46145fd2a9a663ed7adce6b13c8df5253341
+MD5sum: 9875b3a71dd68ddab6ff1be732291ef0
+Description: debug symbols for celestia-gtk
+Build-Ids: 989fc35d3bc0cebd1e0ac4b0a5b965fbc49788c7
+
+Package: celestia-qt5
+Source: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Architecture: amd64
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 637
+Depends: libcelestia1.7 (= 1.7.0~git20241107+62716d8c-1), celestia-common (= 1.7.0~git20241107+62716d8c-1), celestia-data (>= 1.7.0~), libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.5.0), libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0)
+Suggests: stellarium
+Conflicts: celestia (<< 1.4.1)
+Replaces: celestia (<< 1.4.1)
+Homepage: https://github.com/CelestiaProject/Celestia
+Priority: optional
+Section: science
+Filename: pool/main/c/celestia/celestia-qt5_1.7.0~git20241107+62716d8c-1_amd64.deb
+Size: 243100
+SHA256: b279f1277062dd7e0ee758dc85e22475179b3702deec46f45428b4aa2bd67734
+SHA1: 4385386a35090466242c9b24479601cecb65dab4
+MD5sum: 5fe02b0882bb58d819e1a18a925ec57d
+Description: real-time visual space simulation (Qt5 frontend)
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package contains the Qt5 frontend for Celestia.
+
+Package: celestia-qt5-dbgsym
+Source: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 11477
+Depends: celestia-qt5 (= 1.7.0~git20241107+62716d8c-1)
+Priority: optional
+Section: debug
+Filename: pool/main/c/celestia/celestia-qt5-dbgsym_1.7.0~git20241107+62716d8c-1_amd64.deb
+Size: 11542568
+SHA256: 65d3bc9b967c0ff3b3fecca642f491ca678e098c3fdf6d8aacc14c04a8bd1d3c
+SHA1: a02b61d64df9889c20fd8ce8fd4355085f718f0c
+MD5sum: 40f09e03b3d7451060a99efa2dbdbb48
+Description: debug symbols for celestia-qt5
+Build-Ids: 49726c8e235a5517181abd85fc6df1eb330c8de7
+
+Package: celestia-qt6
+Source: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Architecture: amd64
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 660
+Depends: libcelestia1.7 (= 1.7.0~git20241107+62716d8c-1), celestia-common (= 1.7.0~git20241107+62716d8c-1), celestia-data (>= 1.7.0~), libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6openglwidgets6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0)
+Suggests: stellarium
+Conflicts: celestia (<< 1.4.1)
+Replaces: celestia (<< 1.4.1)
+Homepage: https://github.com/CelestiaProject/Celestia
+Priority: optional
+Section: science
+Filename: pool/main/c/celestia/celestia-qt6_1.7.0~git20241107+62716d8c-1_amd64.deb
+Size: 247428
+SHA256: 4dcc16ab17fc7241a32a23afef9684dbc70b329750dce9854b4f60c1daae0b23
+SHA1: 62526752a7d09804f17f8c64634e17901a0ff769
+MD5sum: 892b56bc80fdeba4266dfa05372f5b42
+Description: real-time visual space simulation (Qt6 frontend)
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package contains the Qt6 frontend for Celestia.
+
+Package: celestia-qt6-dbgsym
+Source: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 11857
+Depends: celestia-qt6 (= 1.7.0~git20241107+62716d8c-1)
+Priority: optional
+Section: debug
+Filename: pool/main/c/celestia/celestia-qt6-dbgsym_1.7.0~git20241107+62716d8c-1_amd64.deb
+Size: 11915004
+SHA256: c77ae634885bf25d8968d227f97f90f6f428ca71d0840760e08d62ac5ffb0f9a
+SHA1: 6286a9903c9888694d9adc76cf67c60766bc66d0
+MD5sum: 0c7bf65b63d9023f0145a6ec7b840963
+Description: debug symbols for celestia-qt6
+Build-Ids: 9f736419bd8c6afe3f2f3da668ab0d599f645bf5
+
+Package: celestia-sdl
+Source: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Architecture: amd64
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 91
+Depends: libcelestia1.7 (= 1.7.0~git20241107+62716d8c-1), celestia-common (= 1.7.0~git20241107+62716d8c-1), celestia-data (>= 1.7.0~), libc6 (>= 2.34), libepoxy0 (>= 1.0), libfmt9 (>= 9.1.0+ds1), libsdl2-2.0-0 (>= 2.0.12), libstdc++6 (>= 9)
+Suggests: stellarium
+Conflicts: celestia (<< 1.4.1)
+Replaces: celestia (<< 1.4.1)
+Homepage: https://github.com/CelestiaProject/Celestia
+Priority: optional
+Section: science
+Filename: pool/main/c/celestia/celestia-sdl_1.7.0~git20241107+62716d8c-1_amd64.deb
+Size: 47304
+SHA256: 6268e04bdd6ed51684e07dcfc6314e5efd0c3c885abc5929de331fe8bc8b4a23
+SHA1: 52bc085b6fffeb25a470abd84f58309e075b0498
+MD5sum: 81d53e0df03e4d8ecfa4aa8740c61680
+Description: real-time visual space simulation (SDL frontend)
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package contains the SDL frontend for Celestia.
+
+Package: celestia-sdl-dbgsym
+Source: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 847
+Depends: celestia-sdl (= 1.7.0~git20241107+62716d8c-1)
+Priority: optional
+Section: debug
+Filename: pool/main/c/celestia/celestia-sdl-dbgsym_1.7.0~git20241107+62716d8c-1_amd64.deb
+Size: 844208
+SHA256: abb42247e5841ad94739eb93abae7372fafec5d3b389c733abe584474c422806
+SHA1: acb8db432d8c69f0d5fc32cadd217b3be63d9cf5
+MD5sum: d2eea153a38646a3add3dc409d37c492
+Description: debug symbols for celestia-sdl
+Build-Ids: 800de8366c6c876013932df153367a49d8c72008
+
+Package: celestia-tools
+Source: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Architecture: amd64
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 2357
+Depends: libcelestia1.7 (= 1.7.0~git20241107+62716d8c-1), libc6 (>= 2.34), libepoxy0 (>= 1.0), libfmt9 (>= 9.1.0+ds1), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5widgets5 (>= 5.4.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.3.0), libqt6openglwidgets6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 11)
+Suggests: stellarium
+Conflicts: celestia (<< 1.4.1)
+Replaces: celestia (<< 1.4.1)
+Homepage: https://github.com/CelestiaProject/Celestia
+Priority: optional
+Section: science
+Filename: pool/main/c/celestia/celestia-tools_1.7.0~git20241107+62716d8c-1_amd64.deb
+Size: 737412
+SHA256: 68b1af32d5bb6e0e9c53a162b5890b6376610660b3e58bc6eec0ddfc9a4da49e
+SHA1: f934c86fdefe403ddf9bd2e1eab3776517f282ae
+MD5sum: 6016527792633e3f2582d5c8e28555eb
+Description: real-time visual space simulation (tools)
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package contains tools required to create data files for Celestia.
+
+Package: celestia-tools-dbgsym
+Source: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 12452
+Depends: celestia-tools (= 1.7.0~git20241107+62716d8c-1)
+Priority: optional
+Section: debug
+Filename: pool/main/c/celestia/celestia-tools-dbgsym_1.7.0~git20241107+62716d8c-1_amd64.deb
+Size: 12337844
+SHA256: 3932d1359bfc0bca3fb40b2694c34b922582f1d5a8690b3971515c4ace6632a2
+SHA1: 6a68ee18761b22e3e9ecc15438c7da62fe82d5f8
+MD5sum: 7aefa363f4e7de5ed831ec5e6b91411c
+Description: debug symbols for celestia-tools
+Build-Ids: 341448c0e43cc9e255ffd0ee33034038b20f015b 3c10622f02dcfc098ec5a4be4e26e15f9ad896a9 3f8144ce618107529067a19bf567d09a31477c81 4827be3864f5a77c69f787eccfc5ed1a8c9f74b5 4e5f10be5cec4713066119a5b183af182fa197c0 608500d467287f8de9add59de3615d684d5fe075 678bcd9b42af7c94853af6e5045d70e0d29b76cd 786b128564ac4d53543dd263a1d50e9e5f70b12d 9a163eb6447346e340663061befa70d854f40eb7 9adaa868d4ddd8a6a5d6eeecb8a514f3f1c3ea13 add4e833d1076aa22f2315932e5c2bbc4f66a7e9 cb20f4f5f9328e05e9b4e62845d54d8c922c8156 cef05587c03db2f1a1bb15e5884bc64531a81aad ecfb609c0272b4610b9e0740aa152e96098dfe0d f861e8596f7537a764a6e489c3741f0f9e6d82b0 fed4970d45f3db204092039910aabe00f4ac3d53
+
 Package: chromium
 Version: 128.0.6613.84-1~deb12u1
 Architecture: amd64
@@ -15426,6 +15651,44 @@ Description: audio extraction tool for sampling CDs (library)
  .
  This package contains the library of cdparanoia, so that its routines
  can be used by other programs.
+
+Package: libcelestia1.7
+Source: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Architecture: amd64
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 5424
+Depends: libavcodec59 (>= 7:5.0), libavformat59 (>= 7:5.0), libavif15 (>= 0.11.1), libavutil57 (>= 7:5.0), libc6 (>= 2.35), libepoxy0 (>= 1.0), libfmt9 (>= 9.1.0+ds1), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libjpeg62-turbo (>= 1.3.1), libluajit-5.1-2 (>= 2.0.4+dfsg) | libluajit2-5.1-2 (>= 2.1~), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 11), libswscale6 (>= 7:5.0)
+Recommends: tzdata
+Homepage: https://github.com/CelestiaProject/Celestia
+Priority: optional
+Section: science
+Filename: pool/main/c/celestia/libcelestia1.7_1.7.0~git20241107+62716d8c-1_amd64.deb
+Size: 1899124
+SHA256: 41d02186f041a093afc887d8bca85a7ec845fbf4cd6e26e2de4e7097602ef396
+SHA1: 1c9fbf0495b81b8ddde79cab60808c7b3751e89c
+MD5sum: a607337b52b3081b18bfdc514829b103
+Description: Library for the Celestia space simulator
+ This package includes the libcelestia library, which is
+ necessary to run Celestia.
+
+Package: libcelestia1.7-dbgsym
+Source: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 64886
+Depends: libcelestia1.7 (= 1.7.0~git20241107+62716d8c-1)
+Priority: optional
+Section: debug
+Filename: pool/main/c/celestia/libcelestia1.7-dbgsym_1.7.0~git20241107+62716d8c-1_amd64.deb
+Size: 65260384
+SHA256: fea67c79813c3df6fe180e183f6756bdb86fae221475dc72e70e09c9955acd03
+SHA1: 3fad540fb14b43277072ff30548d9e787b2a513e
+MD5sum: 7609f8f4f968e60289a4e0c369b86577
+Description: debug symbols for libcelestia1.7
+Build-Ids: 5dbad07d6fedab3b55312cefb8bb993e17a122e4
 
 Package: libcfitsio10
 Source: cfitsio
