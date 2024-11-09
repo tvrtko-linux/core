@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sat, 09 Nov 2024 00:54:27 UTC
+Date: Sat, 09 Nov 2024 02:29:41 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcussMACgkQ5Vfn9vbt
-T6rzzw//cRR8bxk6NuB8xI27ROVyVM7tl21onANdlqi6cHAvNFypQO/4X7+eVt+7
-V31z01ZSa1W1iUdaLgg629Q/7cHkmiYK5HSOfp1JUZogfYScK97EXjDAQzQ/Bm0f
-eyJfun4/MUt97TOQksKTLFZtPY3/bD8kMdzS9toDqoHLAQSSjE/hfQUJCnDmSQRd
-hGM4fZMxmKb9Q8OgiMZDBKsXkE6DztJ2Qtj9k0aqR+tPl2cdLflm0iC97MxXp3g/
-BvcnV/b19x4Wc3tmmy1atk5MpeClig2zmDywUH0KV2DCv+zXi5S3KPCElCo8BXmo
-56ohHRjYBlW1y12z2SFuklVy9SscqggW2nIrhSZL3QQLO4P4UrKYRzOa4uOg9rqG
-UYSjlaYQyemXoSZEaKDlwq5aKKV0u/p2E47/T5PX9WHHiMNokBvJcgM5uKFM8O6n
-Lv2r3nzt0cDAkEe1Vqv8gs7fdTCoUvnoNBmRgy7MdMTKXGH5GdvWHqhYeV1tW5r1
-dIUgJSAutjWCrD1unV5zd/fIYxLSav1TMUQ7qmeEY9nAuN28jqkN3tqh3GV87SXJ
-iJMj1qK9GAKcg6TzdA8lik9+tj43t0RQgo4up+D+J/iPR2IN7mhO9ObCi5OqrdXQ
-R5jkiKLw13tkb27KezvFvEmMt0BP9gIPLKX9uWFzQjnOaubJ0ME=
-=ksMw
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcuyRYACgkQ5Vfn9vbt
+T6oLzg//ShBo5bodeTLGCg3Gwobijl4EB2M4E/DQ/nxz2MnqtPtybkJ8qy08yGNp
+w9ZeePkWjv5x6VyknBucrEAJX1buGgXsmSFHtDomicFag8VQw4EMH1IlNGwNi6tC
+a71T2Fc2NFkk4Rz+N+hNkj4JusV/1tSDkUvKdG+qeS1dTbkhOPiaANLzqYMqs7XD
+ojfMqoY9vNPxhQmwDcSis6tKXoZ8An9Jm22tpgJK0Q/EmoFl9AGUM/xaH8oLX8qi
+YbJStK12mxyhk5IJl9wtZ6ZHU4tUGhbV4BV9KaMWYaABhrgX9fGXI+cZ5mB7Jlir
+mzrRU6Ns5ZMVIZ+5TX5IIU+gwgWMSdMsb51/XL+txACqXpNh6xKQ7N6Xc4xeEgtA
+70kXDtR6iUEyxkIbVRvG4gSRXQG4SObooDx5rI2gL9ydsFrH09iVkPv4F1jjZOBR
+Rm0TlZOSW4/r3WhVlDengqx22eDVIAaNwAa271ptqWp6vzc9Ye4Nx5geIS+FDBAj
+zwWoZRj3M+RctmwxCDRVbGOAoEGEG1RAIKzvU/SiwcepfDE9oixHOTc0t5S0exBm
+1UXMWqYDJqNnRtDdfwOj7Vr/SvDAvMp5LQUAUQoHhSo+BaADKHNFoOTyznSn5g7d
+t/5zqFcUvHPS2FLSCzvEdMZ3CjFcp8lHH6YNBhL0MJTpKa87484=
+=DH+B
 -----END PGP SIGNATURE-----

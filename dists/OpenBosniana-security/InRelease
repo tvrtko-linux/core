@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 09 Nov 2024 00:54:30 UTC
+Date: Sat, 09 Nov 2024 02:29:42 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcussYACgkQ5Vfn9vbt
-T6odMA//Ta8i5iu9isBgea/B8q4hFl9PUCqG9uDM4P6Zg9IoL2yNEwJiXRT4Wxjl
-gc6PBwus2yFFB89j8zusYSTv4gSi3K90aW+BjaIRt+4Yyer3m98w+WSGPNb6kvPQ
-u42qYjE3/M0mRlDxQq68eJbA2EXcBLhD12mE66o0oMEP5jCE3fxkKtrM1RiAaKct
-bEOnI7ZTKUxAyj/lY3jKJGWHbGUsDvT3Hp/A7L+ZuBTfkBUf86PLpB4cLc63C71M
-YUitDXfiK0PwGZSah56nP2dDfd9mFhNIP0QAWYvo+6KLnoDyZqNAT6el6X7LiDeh
-BJmF2VjYdLrY2MbNSd9WEXJwmYQym1FTgu9vrp3JdZCmaT3/jncmFr3MSKLAe4/T
-me4WozmgGSx47uWOV5QS+v1lKlsyN6JF0jh4Q1T4II/VvjQCqBjjYM1rBSPJXj2E
-m435iP/ckaq37OTipFC1Zp8R94eNIu/oLIdTV+AdpSEYOxIOu5QIZwS9/zC2aAYY
-zX9++Uqh8PJtx0FPbU9VVvVGK5xpbCTIR4pegtfymiZa+0hW+y7Tv4Z2NB7u6OkL
-hg5gRgfHC7OueItLPo8EYQSoHT6OTN+rt8N7ZIgjs4SWy4JTC2H4aINIGQFnhdbH
-omuPxBFtTebmDyNw6TMQX/2ibY4M/90Hhk+WLnDiTLRkMa+8tww=
-=0Eod
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcuyRcACgkQ5Vfn9vbt
+T6qeAg/+PCEQFCU8pwRncplN3vg9zAyK27ypHp8TdGpcjGq+BqMkNjtTqefEFzzE
+EvYxdtnRK+PT4ns+0k3R2SOZnbs++Nw18lj4/hxicNZKIwXtAGxFKHjtfsn0rkMZ
+0uT6fAbX/NSIgQPUieLePknyGJWlLnnBJxUTvyCJti3hESxHlvT3mTEbDKvMrdEq
+8KWeu0Xb/SEmTTNQnF9gdcJ3tdRetHv6SqgAqHt3Tbqizdyh06/szPmLI2AF6IBY
+trOZPi6E/Vx59u8aQBppRlhrD75RGyhRpCFWKRuylmHF/xai1rXcIwFcihJI5Z/J
+jIzjFUCOo2qs2zpsmAZ4kvBeMI3zPVDdqiAmpsbJmAduzS6h9Lfm7H7nZfRylM+M
+FLQA3NnJdlNuJdwd15pBV7YBpAoV5bGn1hu4q6ifSZYj1SMnjU1O90+KcDMftkVn
+WnRPQTA3hvHXm29ieDftmGfsGpr7rD6vjPs3ZnvilG2g1nIik6aHDfuiyQAQ45LD
+5h4OhCBA7IjGumIwQP+CbCqmeSy56lnqqDLer8GeOSNGtBPtddEXBTW4hFPX7Lu6
+FYF1TqctiGH6ifN6ClIwrRf/Gto9tgno4N22Wetw5WmNcqFKWkdQ0x8Vpbj3h6qO
+Q6+Zj2e9LEUWSvj7EKuzvhVQj0a1W5PjjAKCS/m4Ea6PrlSjbeM=
+=rXgb
 -----END PGP SIGNATURE-----
