@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Mon, 21 Oct 2024 08:59:02 UTC
+Date: Sat, 09 Nov 2024 00:54:26 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWF9cACgkQ5Vfn9vbt
-T6qXaQ/9FZ7KbJtsq/Nn4NqxfrHKKkH/TJ/ZfFFo+EWWWeJK4Ic/FxnH8S5jBITt
-7k9VmbgYtxFrtaVf0BQoHcBx69NAKUS/gykbRukgxrwlDV1U2hO+9KdJPmxhr19y
-yAYYNx1hYCnrvYbH73PSqcTigzUuq9vUaHfUtuUqDdwWbQOh3rxURn5KuwX39Krl
-EBcjXx6hKm2dVUtsD7LBEkJpDpcQ/FIC/TKe9mIWq81ACpxxhGwtzWGRLTtAib8B
-4e3A8gkxE5j5+i/jyvY+rUMMzbO6RVju/M1j0Mto2y7++fkbtJImtop25jqIqDlK
-8FPR5An4StZkyzW/n0/++HTAaUXWzKtk+419UvZyvyTzloc2yjT9d78PAAMCUc/n
-kduC61mwbje1zg2fif2uRRw+3vb2xw1Md1AbY5RoaKC59LsIpniw6iYMWzejnl/Q
-uCXJaOqh+KhVjg5XEnpXONvLszg0Hh6cfcxtpKrkDZlgxH26ev2V8nyJmKHvVEq+
-xgaX6nSOdwjr8tv+aZrP3BPixKm1CgzUgzk0faNzjUoWyHVVwmhISWtJFvXBRliE
-JdgmfkteMKB8Y0kZt6pdJ56MiK58YCpQ++jAuPF/NdMQK/GScA19C2LidSmv6Vdj
-Ry90K28xTbsTtV2Adxw5L1/7CJoVagx4uHFVPztvkpHO7zZ73Nw=
-=clQB
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcussIACgkQ5Vfn9vbt
+T6ooSQ/9GrpBTo/L6dWXQTtVcYONk1lu/WqJfedKqXGEr23gB5ht0x9HF3mrGpf8
+Rz9YZEpXSDykZu8u57sCYPzpBGe9oNSlMwr61ZQqLEp39Dl6v4REcYMyAe3HynW8
+OMU8nPXFIlMjK0J8Trwh96TzI6n9A2gZ/vQvmCB1CTQslgexLm6ne14fXsOL/A3u
+1rXOQYC1N+kcTKWfx8ZUDkK4Zwp6r6jPi2rhS5/PxiAJwoBslJCtTCUAeh5z7N+G
+4TmXk+DqZdQrLdNchJojGLJ7/EnEQHvU2HmLPAz4HsGvMtX9ax/JY4+dP0YSqhCJ
+cOq9HYVUq5KtvWZEfUVzxiXVvK5qZWfYngswMg+Q61h1HRO/H1lKvyTn8kkeNBTv
+ciE9/NhDyhEmOwSKVrJT4uNWXSVppnL6DBU3Jqza+mizgbQ4DLctPG9eK17Y2h6M
+TcdrGmgss7skEgoj/hyBcKunxeoKGpfL2g7i6DOefbY3ukgEj7vU1zWKl7dvd4DQ
+rityk+mo/VIig2wzoROaRp82yDAbEhpUOl2PibDrrnUR7QHJSvkSA1YBBZajzUPi
++DbE26050Qhh+s79/dwOWhs27BjoXOTFL4VSyUX0QAP3avGfNW2KPPpD/m8/V9MR
+yez8vChJCwbWEjOl908AUdF2w4CGhBId61Yo1R5xzG9fmKaa2W8=
+=U0WB
 -----END PGP SIGNATURE-----

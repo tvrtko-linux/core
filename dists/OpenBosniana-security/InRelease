@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Mon, 21 Oct 2024 08:59:04 UTC
+Date: Sat, 09 Nov 2024 00:54:30 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWF9kACgkQ5Vfn9vbt
-T6pjoQ//WS1ANZViVceZBRUnvOknJ/SiDFSSZvSC4IuQ0i0/p0ofrAdKhEJOfgUs
-Ecv1hfX8VlCM9pXTtvfj8jAAw/0AeOTnRqu3+WBzYv4acSQkYDoca81cgUx/Yary
-6fzvGGEZABOoW3Ar3bb+lTlajazzKGuVekI+T7k/TPQvmkbqlMrw5V/4kpYLpt1Y
-vnfy3oRAbPbrYeuZJydFAdGegK4aIGBAm8TD9zYZ3Y8P3pDXacWQ7LpNFcBsGqGd
-XzFiOR/zsr9D9jtqRoe5Adj1MvA5PzscSoKZVXhKVNprvVJcq0CVan07fWNUaqSB
-/t9rHzUzgZt2QXW9UssL+1ULfz4ECnyO/f75QSimm204nAQhoRQ96eOAfeulkYvj
-vBpqvFyfnkOtYe4w3F5Bgy/FVvGMMIcpfWTQ5U8vSd5hZnltOcfiWcbV7WoWTTa3
-zFgo2L62LBRcHeU93dM6h9DWWrZvwLSwiqSy6rDVVf2IBWagOcPswkyu95a+PnJ9
-5NqfgCsgjv2pAntAsGxSngkd4XZXnNB28I1k4M6qzQbw734Vf9azHhenXfrWJDfV
-FmBxEaDP43fYrjf2VYQ303QmK3h3hqz6zl+TwQLpNx/Ni5aOz9VWfcfVVorGWGOU
-opZTryw3WR+xrx35QWg3QZMha48QN+03TB0R9CdBsspXFBuM/P4=
-=LjP5
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcussYACgkQ5Vfn9vbt
+T6odMA//Ta8i5iu9isBgea/B8q4hFl9PUCqG9uDM4P6Zg9IoL2yNEwJiXRT4Wxjl
+gc6PBwus2yFFB89j8zusYSTv4gSi3K90aW+BjaIRt+4Yyer3m98w+WSGPNb6kvPQ
+u42qYjE3/M0mRlDxQq68eJbA2EXcBLhD12mE66o0oMEP5jCE3fxkKtrM1RiAaKct
+bEOnI7ZTKUxAyj/lY3jKJGWHbGUsDvT3Hp/A7L+ZuBTfkBUf86PLpB4cLc63C71M
+YUitDXfiK0PwGZSah56nP2dDfd9mFhNIP0QAWYvo+6KLnoDyZqNAT6el6X7LiDeh
+BJmF2VjYdLrY2MbNSd9WEXJwmYQym1FTgu9vrp3JdZCmaT3/jncmFr3MSKLAe4/T
+me4WozmgGSx47uWOV5QS+v1lKlsyN6JF0jh4Q1T4II/VvjQCqBjjYM1rBSPJXj2E
+m435iP/ckaq37OTipFC1Zp8R94eNIu/oLIdTV+AdpSEYOxIOu5QIZwS9/zC2aAYY
+zX9++Uqh8PJtx0FPbU9VVvVGK5xpbCTIR4pegtfymiZa+0hW+y7Tv4Z2NB7u6OkL
+hg5gRgfHC7OueItLPo8EYQSoHT6OTN+rt8N7ZIgjs4SWy4JTC2H4aINIGQFnhdbH
+omuPxBFtTebmDyNw6TMQX/2ibY4M/90Hhk+WLnDiTLRkMa+8tww=
+=0Eod
 -----END PGP SIGNATURE-----

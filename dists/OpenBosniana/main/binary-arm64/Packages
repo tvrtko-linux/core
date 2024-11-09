@@ -634,6 +634,187 @@ Description: OpenBosniana OS theme and settings for the Calamares Installer
  package provides the latest OpenBosniana OS artwork as well as scripts that
  supports EFI installations.
 
+Package: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Architecture: all
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 50
+Depends: celestia-qt5 | celestia-qt6 | celestia-gtk | celestia-sdl
+Homepage: https://github.com/CelestiaProject/Celestia
+Priority: optional
+Section: science
+Filename: pool/main/c/celestia/celestia_1.7.0~git20241107+62716d8c-1_all.deb
+Size: 35528
+SHA256: bceb164f51fc4dc7f7b03b88d2a63093accb74a1004520be5f1b9ea6f1fb9e56
+SHA1: 52cc5f68f6517e22ad7c5c87bf7d4c426424bb5a
+MD5sum: a15fea4fa6e8c673b12a5535185ef129
+Description: real-time visual space simulation
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This is a dummy package that selects at least one frontend for Celestia.
+
+Package: celestia-common
+Source: celestia
+Version: 1.7.0~git20241107+62716d8c-1
+Architecture: all
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 2908
+Depends: fonts-dejavu-core
+Conflicts: celestia (<< 1.4.1), celestia-common (<< 1.7.0~)
+Replaces: celestia (<< 1.4.1), celestia-common (<< 1.7.0~)
+Homepage: https://github.com/CelestiaProject/Celestia
+Priority: optional
+Section: science
+Filename: pool/main/c/celestia/celestia-common_1.7.0~git20241107+62716d8c-1_all.deb
+Size: 937352
+SHA256: 18dda3629892edafea47218c4fda3c9d1b9b88439087c5d145dd5bb81e560922
+SHA1: f60fe5915ddeb090417203caef8d92a404713773
+MD5sum: ef022ba4e37d879777c2b21d1815078e
+Description: common files for Celestia, a real-time visual space simulation
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package contains the files common for all Celestia frontends.
+
+Package: celestia-data
+Version: 1.7.0~git20241103+c3104d9-1
+Architecture: all
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 167606
+Pre-Depends: celestia-tools
+Depends: celestia-textures-medres | celestia-textures-hires | celestia-textures-lores
+Recommends: celestia
+Conflicts: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Replaces: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Homepage: https://github.com/CelestiaProject/CelestiaContent
+Priority: optional
+Section: science
+Filename: pool/main/c/celestia-data/celestia-data_1.7.0~git20241103+c3104d9-1_all.deb
+Size: 78819608
+SHA256: 9fc3b56b3e68fd4a38103b9138a583cb6f71a8bc46ac6dc041e843da6515068a
+SHA1: d21fb1caf297ebda540c477f345e996e9bee4815
+MD5sum: a560a54a821a366f14885f3bdd83e638
+Description: data files for Celestia, a real-time visual space simulation
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package installs the data files for Celestia.
+
+Package: celestia-textures-hires
+Source: celestia-data
+Version: 1.7.0~git20241103+c3104d9-1
+Architecture: all
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 137534
+Pre-Depends: celestia-tools
+Depends: celestia-textures-hires-openbosniana
+Recommends: celestia
+Conflicts: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Replaces: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Homepage: https://github.com/CelestiaProject/CelestiaContent
+Priority: optional
+Section: science
+Filename: pool/main/c/celestia-data/celestia-textures-hires_1.7.0~git20241103+c3104d9-1_all.deb
+Size: 86668884
+SHA256: 079f6bbb7df9bed9b44566b868745bb9d1dbe8621a985a03d0075c8d0060d9c0
+SHA1: b36334ee5b8e0f813d959400d1ca2f139418a19b
+MD5sum: a4d6216856c6d84d8147081ab4c56d72
+Description: data files for Celestia, a real-time visual space simulation
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package contains the high resolution textures for Celestia.
+
+Package: celestia-textures-hires-openbosniana
+Version: 1.0.0
+Architecture: all
+Maintainer: Denis Maslo <dd@bosniana.org>
+Installed-Size: 50534
+Recommends: celestia
+Homepage: https://github.com/CelestiaProject/CelestiaContent
+Priority: optional
+Section: science
+Filename: pool/main/c/celestia-textures-hires-openbosniana/celestia-textures-hires-openbosniana_1.0.0_all.deb
+Size: 52707608
+SHA256: 9d48dbd931a0c2c28a986e66ef907be53c66ccd04a2e3c4f4e3f1c4386b41dea
+SHA1: f081407c9d7f20f13fec896968753e4fc8e83aa2
+MD5sum: 6a36b86b9d3e9c6f9f9984bc8e5c05ed
+Description: data files for Celestia, a real-time visual space simulation
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package contains the high resolution textures for Celestia.
+
+Package: celestia-textures-lores
+Source: celestia-data
+Version: 1.7.0~git20241103+c3104d9-1
+Architecture: all
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 12997
+Pre-Depends: celestia-tools
+Recommends: celestia
+Conflicts: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Replaces: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Homepage: https://github.com/CelestiaProject/CelestiaContent
+Priority: optional
+Section: science
+Filename: pool/main/c/celestia-data/celestia-textures-lores_1.7.0~git20241103+c3104d9-1_all.deb
+Size: 12846688
+SHA256: 258e44d213b1d699e38a388ba38509a7026c1ae069a3daa430b7ee55e959bec3
+SHA1: 082d3084c00ad4a4d695d6f148936a5fba6cb09b
+MD5sum: 4478a9067948e9de5a481b373eddcab9
+Description: data files for Celestia, a real-time visual space simulation
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package contains the low resolution textures for Celestia.
+
+Package: celestia-textures-medres
+Source: celestia-data
+Version: 1.7.0~git20241103+c3104d9-1
+Architecture: all
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Installed-Size: 43113
+Pre-Depends: celestia-tools
+Recommends: celestia
+Conflicts: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Replaces: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Homepage: https://github.com/CelestiaProject/CelestiaContent
+Priority: optional
+Section: science
+Filename: pool/main/c/celestia-data/celestia-textures-medres_1.7.0~git20241103+c3104d9-1_all.deb
+Size: 43448220
+SHA256: 10f4926e56e8700d5c8e94bbba2bee9a44fb3a6e9cd96c7b78c405e5cb8122f8
+SHA1: 0e490ba361754016777fd7d3bdbc002b1e7ca048
+MD5sum: 161d106ba1cb7b13e35c50d5c839c068
+Description: data files for Celestia, a real-time visual space simulation
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package contains the medium resolution textures for Celestia.
+
 Package: console-setup
 Version: 1.221
 Architecture: all

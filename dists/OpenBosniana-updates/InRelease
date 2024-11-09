@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Mon, 21 Oct 2024 08:59:03 UTC
+Date: Sat, 09 Nov 2024 00:54:27 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcWF9gACgkQ5Vfn9vbt
-T6ow1hAAnRyEBcHGnStCWA7mnCwRPbFb1wLIExPzVXsqQXJXdbUZuBDzbvdzoO70
-p/1v9jYfafiOUTQ3ytrDWnGa+JjGSsfxbLynm8h+RzluD9ZXhQAjW6OZHwdG55nP
-orxlvmi6T+RNpeBpnmM/s2TwDdaVvbnN/MC3ld+S7wzK2liT0Uuko/ql1150CMyB
-I3HcChPb+goj7sdUssDxadkjZ9bK7arXqGX2k9j3fo4+ta1M94bzsmGrWvlRdpEk
-vkPL0QQRJ84Nb0rij/mH8laB2354AFWWPy/2NJLwjNAfNRCtcpsn031sp4NOQjIx
-SGkGp2lX2EzW3O5IuVMi/vHrp4EcBeQJrvBXSOuLN0YiUglCcbNZONLpv25eO2ln
-mgoSAn7S94tx01GWrs+4wN3SZJ6bNRcM1TtzqX3dzs9SyQaJ3/6RFlwL99wiMJqV
-ed/4zcIh4nXy7g2SqgLZ1C7zmC6iwSJaqkj4J9MXo8cqPqzZyN0hB7z0hS2VJYva
-Cp2uXzna67Dl1F3fShtaz30yBvfFeX1UkFcqpA7iOhr4yoFTfNe/nRWdywSgMvIQ
-bUG2Hd7aqFrwanskUajWVwWPUpO9Oe5r0GGMRtHFdgdhXGtKiq/6yAmCa8Cnvp8s
-8YHvlM3qQC6X2BCD96De5SpjHLoyIcRu1h5GHpCqVA5X7MqnpcE=
-=JkPk
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcussMACgkQ5Vfn9vbt
+T6rzzw//cRR8bxk6NuB8xI27ROVyVM7tl21onANdlqi6cHAvNFypQO/4X7+eVt+7
+V31z01ZSa1W1iUdaLgg629Q/7cHkmiYK5HSOfp1JUZogfYScK97EXjDAQzQ/Bm0f
+eyJfun4/MUt97TOQksKTLFZtPY3/bD8kMdzS9toDqoHLAQSSjE/hfQUJCnDmSQRd
+hGM4fZMxmKb9Q8OgiMZDBKsXkE6DztJ2Qtj9k0aqR+tPl2cdLflm0iC97MxXp3g/
+BvcnV/b19x4Wc3tmmy1atk5MpeClig2zmDywUH0KV2DCv+zXi5S3KPCElCo8BXmo
+56ohHRjYBlW1y12z2SFuklVy9SscqggW2nIrhSZL3QQLO4P4UrKYRzOa4uOg9rqG
+UYSjlaYQyemXoSZEaKDlwq5aKKV0u/p2E47/T5PX9WHHiMNokBvJcgM5uKFM8O6n
+Lv2r3nzt0cDAkEe1Vqv8gs7fdTCoUvnoNBmRgy7MdMTKXGH5GdvWHqhYeV1tW5r1
+dIUgJSAutjWCrD1unV5zd/fIYxLSav1TMUQ7qmeEY9nAuN28jqkN3tqh3GV87SXJ
+iJMj1qK9GAKcg6TzdA8lik9+tj43t0RQgo4up+D+J/iPR2IN7mhO9ObCi5OqrdXQ
+R5jkiKLw13tkb27KezvFvEmMt0BP9gIPLKX9uWFzQjnOaubJ0ME=
+=ksMw
 -----END PGP SIGNATURE-----
