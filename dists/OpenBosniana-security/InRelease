@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 09 Nov 2024 02:29:42 UTC
+Date: Sat, 09 Nov 2024 02:31:51 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcuyRcACgkQ5Vfn9vbt
-T6qeAg/+PCEQFCU8pwRncplN3vg9zAyK27ypHp8TdGpcjGq+BqMkNjtTqefEFzzE
-EvYxdtnRK+PT4ns+0k3R2SOZnbs++Nw18lj4/hxicNZKIwXtAGxFKHjtfsn0rkMZ
-0uT6fAbX/NSIgQPUieLePknyGJWlLnnBJxUTvyCJti3hESxHlvT3mTEbDKvMrdEq
-8KWeu0Xb/SEmTTNQnF9gdcJ3tdRetHv6SqgAqHt3Tbqizdyh06/szPmLI2AF6IBY
-trOZPi6E/Vx59u8aQBppRlhrD75RGyhRpCFWKRuylmHF/xai1rXcIwFcihJI5Z/J
-jIzjFUCOo2qs2zpsmAZ4kvBeMI3zPVDdqiAmpsbJmAduzS6h9Lfm7H7nZfRylM+M
-FLQA3NnJdlNuJdwd15pBV7YBpAoV5bGn1hu4q6ifSZYj1SMnjU1O90+KcDMftkVn
-WnRPQTA3hvHXm29ieDftmGfsGpr7rD6vjPs3ZnvilG2g1nIik6aHDfuiyQAQ45LD
-5h4OhCBA7IjGumIwQP+CbCqmeSy56lnqqDLer8GeOSNGtBPtddEXBTW4hFPX7Lu6
-FYF1TqctiGH6ifN6ClIwrRf/Gto9tgno4N22Wetw5WmNcqFKWkdQ0x8Vpbj3h6qO
-Q6+Zj2e9LEUWSvj7EKuzvhVQj0a1W5PjjAKCS/m4Ea6PrlSjbeM=
-=rXgb
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcuyZgACgkQ5Vfn9vbt
+T6qLyQ/8D0db7SNeuF1yPkcqI3p43cCiOqM5NEu5jPA9JXxcXA0pdch6rH9x7bIM
+wGQxXim8mnkKUzz7VLS6NgKhm+nSJU+o9SdqwSCi6hbfIukZmIhu6q8M2zoTumoD
+qfi3mWDr95eIzQ+u9PWosdSrCELSJ87M690YsR8y/DcLHQvaKa7zDl/k63ZWr8SN
+4DBt72iZnm1NzPGFSa59k2WKPOzDZl3T7jOyziDehF42rOzYruRdKk78QBAhCqhi
+jpNOH/Z1p5M0wpCkwPO/8bZ+0r2Ml9uPAiQNviLkbLSiFuMIZfBZl8gx2eUhrfjJ
+gzpWJh3rM/qtJMJEuEQagupuX97m1BqMqxviwZ/0g4IVa9/WWPY4WCt98AK7cz2D
+o2qzkOzbSQrPN5WC3OpquU4IMd1Bai8ApdQ/XIrAo/aeP36J/mMYadypQLAk0Shp
+FSHijpcy48vyBnAvdVN+Dk/hwT5IQHNB2T/zfcuQyOdXqj3ugeEmn0GUf7UeKX8o
+kpv+FjAB6tyRv1S7TLPra3mqSkwfwedmUyLwGCMDQagy3G5K8MCp9lFVBIQOOYnk
+ZCHNHS6/n16JWDcjQvJI8llog4/o9r92t/XKv8VEcAEWqqUM9CRIXrm5yEM+/ZNy
+vkF2ln9NbhW2GY5C2sij/WtI9RiMuJ0D+8qx3uvWxYQT1dkX5/U=
+=wkRc
 -----END PGP SIGNATURE-----
