@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sat, 09 Nov 2024 02:56:45 UTC
+Date: Sat, 09 Nov 2024 03:56:11 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcuz24ACgkQ5Vfn9vbt
-T6r2Yw/+KZvr4CFaHA2tO4CfDGKcptBt9tmlwLaadtfhUhBBybbPJbkCFx3fWZAR
-zTdjwF4qJNFS8DO35hqqTSwYotUWLIuWrm9fiMJh4n/MKTRkBWC3n38RIa6ETjgb
-BAKzYf3RYprblAKFUXJgPBWwUZ5EcQ924WylpUxe3jOuqfC6I9C9T2nWgq7HRJv+
-f2R8r24X/6Qn525Qk1bFbi3+xx5PfDaCO4zlx53Jb7JJLJ/QbFK1WkykgFCQ26sr
-2V2YkOtzrRNMvQ7FQzyLPowa1gRpxGv9ZwpGBCU0AWIB4zHFDmuX+7egPVL9bWIJ
-Sjg7vLmWRoPVf9gOZ1kuLpK24sQ1b2NPIkFwYJP7+xrNdNh9gs9ubrQD+L0PV4rH
-Ccngdt6DhcAFGnrmLXPJ8g+95Te1zqytKbc1UA4xUjLhkbDb1c/kh7SDxmRVVZIq
-kvIlNyhZpT1SOyPpN/iOYHmdkMyEIceY6BiFvc+imMLQFBuPtFDj+HvmTGcRgWQ6
-igmPl6eXFkFanwJrCevwCL3V83eIOfUofidS5fSTwsGwr23hIIvcRuLTiTmCyjlx
-/L41B7whLVbCme5uzDJ+qdjVtMxIcRbEKJFpiV9CEc3Ns1CBzkFEIvQcNiqF3noa
-HqzrnPP2O9sqhXFTYCr6RXTC0zI2WpjQYb/2U8/wfLqLCO2r2kw=
-=lnXK
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcu3VsACgkQ5Vfn9vbt
+T6q1Og//f/PbmaNLuqTu+Zmx7Rjo/kYADtFEgTrT2ciVxWHUArdowkglgu38zFTi
+ZBcULdrzzn6W0C6wD36ytoWFttGSBuBDHlAc//l8zw34kd9VBQ0Cx5VJ1Pf4eB+R
+JpwM0A3NEqw9/AaEnJbQyA3O0n3+7qtWSNFEWukwm22n8NXGVPwPsZQU7kqjUUcJ
+fqsBSjqSem4SzdxTnvLYfksxPg//oNHztma2mYh+U3H+ul8NPYsjuFDNvB9aQzfG
+vYCK0Mzt0GIOOmoEzikvyqq7//WGCj8Od2xvmGENt9cnD/aJSr7oUq4NHvm1CUu2
+OomAA7RegEeFz51e0bzbjFYaTI0Ud6HpeHD/lxkYYaE0Kjb+5wb6q8E+xQIMF+qk
+lyltTNo0c6YVB0Od93cAHPtiIUbnH9jpSsZznn5A+o1qLoMI9ytvpS5SacRR51GU
+ETod1ZP/HTfeLMsfWFcASvGpr/1rn7NsWNexooQWgyR2aix7fH2+/+lcvmxxdrPG
+rqL4YV/1JRv//eizolPFeSw6ykfWqQ5xH4Lip2HLba/xqqhXrGSbthN+nTt3Yj/e
+SHna1tb23HkfSk995lZ7MiV+63z3iYgVviUSOvmtgKn/tgjKmN/mD4+x8FTKyHEB
+cvwbq5qHB7/eDBDXxtDPgvLnEtx0IHm2OYTcSV9uvW/1pTMlUG4=
+=3mDm
 -----END PGP SIGNATURE-----

@@ -3155,20 +3155,20 @@ Description: Common UNIX Printing System(tm) - server common files
  This package provides common files for CUPS server.
 
 Package: curl
-Version: 7.88.1-10+deb12u5
+Version: 7.88.1-10+deb12u7
 Architecture: amd64
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Installed-Size: 488
-Depends: libc6 (>= 2.34), libcurl4 (= 7.88.1-10+deb12u5), zlib1g (>= 1:1.1.4)
+Depends: libc6 (>= 2.34), libcurl4 (= 7.88.1-10+deb12u7), zlib1g (>= 1:1.1.4)
 Multi-Arch: foreign
 Homepage: https://curl.se/
 Priority: optional
 Section: web
-Filename: pool/main/c/curl/curl_7.88.1-10+deb12u5_amd64.deb
-Size: 314852
-SHA256: e3f80e7399b9ea2e78eaf68a96db7062ca1c22717f63437198464d2eee66d650
-SHA1: 9e809cbfff69c87f843aab1bc872fcb86246d1f8
-MD5sum: 1b723bb247b12dbe2ee99f6d7a0e4459
+Filename: pool/main/c/curl/curl_7.88.1-10+deb12u7_amd64.deb
+Size: 314508
+SHA256: 8c9eba97c73372bb31ec3e6219c900e353fbd69f8edbb2d6691920fd84a78864
+SHA1: 739521d3ba4ee0dbc7769ef174c1ef442f138c27
+MD5sum: 42d8a6e0a702ed84cbf8a6eace11e390
 Description: command line tool for transferring data with URL syntax
  curl is a command line tool for transferring data with URL syntax, supporting
  DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3,

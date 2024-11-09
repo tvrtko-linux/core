@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 09 Nov 2024 02:56:46 UTC
+Date: Sat, 09 Nov 2024 03:56:12 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcuz28ACgkQ5Vfn9vbt
-T6oKChAAwb049rRyqmaw4CIBnd4mPB3kgBsgG3XT9tBO7bWnoEzOtDkfDl0E5T0c
-iQLc87saG3Y5WTeIl1za9bE307mK8TVtanh7k7g+2ttTNSEQyEXHZPAnU3JVq0AL
-bb84l7Cz+tVOGTdyKa3siaDPbj/nKPNvfVcRlG+B06DxsXlkYdAo4hMSP9G1ehjX
-WJRLSZh27LtLUV2CqHuaTz2Avh72HaC4ecECOlfDrbhdBzhHNE6IAMIP6JtJlP/o
-xdoM2wHah45pM5oq4/tao7QStTz788hl9jmWde3YnluJW0fHILdABD1XStLn+kCp
-YUjnv77cwCjB3N2+LEpzPg/ro+duTT+bX3QP86s8Ua4AL13fg04EvlqBsxIrr+Wr
-znxMsQmT/Bwe2FnD6GdUH01C94OSEM+rZu/5auR0db3SeXqlFnyOquIZ3fFDcYQn
-LGEOtw87jKCcdurqTvufRaKYTdTQ5JLKgEM8UERCzWfc4MIEatPfsuMOpaFGn4to
-viFO8H7rOpUarf4o0OztQeYle1s4lVoRDuKidxWJwEJmvIKvSUAd1y+eBUaIdqwZ
-h7AtX1IqEB3LdIejxiqKKEj2MCSMsmz8psNfggK7GnEXM3ND/7Dvzn9whwagkJVo
-qX70xsw2ihwPP9y65/rV74eT0xykcuKxg4kDaO9KbZDBZPuYcvU=
-=tLTo
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcu3VwACgkQ5Vfn9vbt
+T6pyAQ//e0VhVORmaSEa7ims25tD2TxSLpRBZohgpcvdui9dk1Ipgcosy5BYJZDk
+mxfTu8TGbJqIqY77lRj6RIhu27IhUN0v2K/shqOJgG4IpXaLZ6n2tL7ZhHW66+lW
+pN6LbYJ9cC+cVJ0G2sRCw4itqFrxuM/lmvOqcNjZDv6UORM6QufTnE5ffyglBnm9
+ZP/OUvcLppvNOVbJAujCNBVs1hOMNDnmWAvBALg9FD3RwWtRQpt9KET6smS7nWSR
+5wmf8SGjR5OHefyPpSxiFIF7xUroiSJT/rudT2zoF09O449Gxj2vDcTqVdyjXe2k
+56ioP27Usx02z5gsd4H/hAeMPqZt6fLhmhWUNZGmj9G3aFY3irYqxoExu+A4pMk/
+ehH7bjBX48/OgL1V6GYgIzIPsRYyn1ItGWWP1UwevFI+8enB+PvejRoyefy2TWy1
+5141SxIoqtQ5K5V9E4Vyeft8hILxAp62wXQz5t/4avPVA5nRvMgm/yZ4506WWTI3
+NG+Iv1wr1oV3H3+aWNwo4BvfMWwTxBYTybmcUJodauZf2QEz+ctHpVkHvXt+4YXs
+Q62FbFncB+J47i+FTKfN8sJ9VVVWJuVrsIPSozrXK7ZJOyTi74hPdWC6DepRf7SH
+DCaJLI7MJ2eKASGOpM/4PSYS2PyBF2wcRCl4NurDU9zAe56OKiI=
+=etCk
 -----END PGP SIGNATURE-----
