@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sat, 09 Nov 2024 02:31:48 UTC
+Date: Sat, 09 Nov 2024 02:56:45 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcuyZQACgkQ5Vfn9vbt
-T6pJmBAArUdkIpn1oLQurgR3jL7GjMpX2i7WVOd/jE3iBNU7b9DlBrSjf3JKnzJ0
-atxv7beI0iCzdonibEEJWSA3tPymxK+dG2s5vEOIYa0C1gpc+/WaYLX/28U7AQAm
-98X+c3Vk45jQHYvmp220qZKD3ItpAufpfYop3Q40zKWlZsZ5sIvDri3TW4YHBvAn
-Kjo/L70hGlyCucdQN7zvETwX/1UvSMJPmMGM/lqe/52zuUsugTupKXc8nAB/QwP+
-n1yyZ5Qhi0PkbVj8Z3DT4sQXKE/rN3vCfjsDVuCzHzz7JIu/AeBFZAagMIWWr4e1
-3VR//CaHK3ZgHRDpYpCbnBx151ceQC44f+uwPgHd1awwc/u5jzh+axv3tbCvL13F
-bHYnY4v+kY3aQ2fyWT3wg7JeGylK83LupZQd2yuZZE/1sYytCuI86/zkJzrqXVbg
-yoztFm6O2HTag+kbyLkFDc3EEM+zeczOBuoU5RjdqACcWK6Ksi+JDwY0WMlt247j
-/3s94yUhJC7Q1b+0DlFgUf42Ot6JiDq5KddqDqn5ledBQOzeJ0TaZXcDKBRDd2Rf
-6KWcvZjzMaC4S5biB/pDH3+NIz/hDMjUFOvghlrtHdFXqoqPgGo2pHQVlL/SihAj
-aZvY7UF84DyXtRzsjqJnxSvatdCxdnBhxByQyjfuZR6C1KdctIk=
-=4rDJ
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcuz24ACgkQ5Vfn9vbt
+T6r2Yw/+KZvr4CFaHA2tO4CfDGKcptBt9tmlwLaadtfhUhBBybbPJbkCFx3fWZAR
+zTdjwF4qJNFS8DO35hqqTSwYotUWLIuWrm9fiMJh4n/MKTRkBWC3n38RIa6ETjgb
+BAKzYf3RYprblAKFUXJgPBWwUZ5EcQ924WylpUxe3jOuqfC6I9C9T2nWgq7HRJv+
+f2R8r24X/6Qn525Qk1bFbi3+xx5PfDaCO4zlx53Jb7JJLJ/QbFK1WkykgFCQ26sr
+2V2YkOtzrRNMvQ7FQzyLPowa1gRpxGv9ZwpGBCU0AWIB4zHFDmuX+7egPVL9bWIJ
+Sjg7vLmWRoPVf9gOZ1kuLpK24sQ1b2NPIkFwYJP7+xrNdNh9gs9ubrQD+L0PV4rH
+Ccngdt6DhcAFGnrmLXPJ8g+95Te1zqytKbc1UA4xUjLhkbDb1c/kh7SDxmRVVZIq
+kvIlNyhZpT1SOyPpN/iOYHmdkMyEIceY6BiFvc+imMLQFBuPtFDj+HvmTGcRgWQ6
+igmPl6eXFkFanwJrCevwCL3V83eIOfUofidS5fSTwsGwr23hIIvcRuLTiTmCyjlx
+/L41B7whLVbCme5uzDJ+qdjVtMxIcRbEKJFpiV9CEc3Ns1CBzkFEIvQcNiqF3noa
+HqzrnPP2O9sqhXFTYCr6RXTC0zI2WpjQYb/2U8/wfLqLCO2r2kw=
+=lnXK
 -----END PGP SIGNATURE-----

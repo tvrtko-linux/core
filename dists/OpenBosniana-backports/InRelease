@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sat, 09 Nov 2024 02:31:47 UTC
+Date: Sat, 09 Nov 2024 02:56:44 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcuyZMACgkQ5Vfn9vbt
-T6r6dBAAm+CyOsdICCPi74kKAfC5E/9BR8ecYO5lUiGIGQH8nXTvv9DpLzP0LzRX
-aerwHofKSL3F3oF0druH9HZGlWzPjb7Bci6JYHD9a2j4VFqHEnc9/vEtubUydsNC
-JTGztZ0toDYwyq2eeGh8U/fio1LKizhFNyMVlk0Fq0uYm8gsfPDExDYf0ZC/1WGC
-RXfueUtlT27LY98Xg8nXLhRNbPQBCCY5KqIiqhQb7ZDwo0DTdbDOUDBLrbqrOnm4
-EuxJ08UgUZPnN60ih87AoBMnTgsrPKO2WPAym0jKt5lLefSu6ASvPtg+v70GzKCb
-9+HWPIy8jp870S6dfaKfHtrv6myPvzlfXXXHeVXocceE808dUdHwsFsPBBY+W5vs
-ynsA4ovNwI91FA2P3felJ1obshtDUY7ZN5gEuiA+c5o8fKDOz8KenLzacqdCXPJw
-p4GBKE3LZn0mxHVgpHONLukgaxFZPVnMlNX281wqkTpDdgjy3UuyK4KYoCdVMK5Z
-9uXLBvGTno1eWXBRI2eu4A5VHYGkKWGVyGhvnPaWacXyqFOrqDOvqvkMbKHFFRne
-BR3tFBTwOXwqzRbDknK9vel8sGqSqCL/y3s60qH/5Q8YqHaVPRMMhcL5Z9Bipp+5
-EFcPBUp5Dzh9Nycha+AxJlQk+kbuT/cAzkOEAaw+rP7ZTWxl5wQ=
-=gZij
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcuz20ACgkQ5Vfn9vbt
+T6p08RAAwK1zYoUHmllfYADYE7GCckq1NhTM+qZx81u3/ZUBR4mbz6NnWRa+DCda
+N8UMlrnETyCH+66BJNrVaMILF2C3FVxDBinANcxMPLWSGScJdUMXTGfzn4GLLgRs
+C5MaRMw+Vj51zBKui5zMPJHUFXUWY69Z9waYEUR1ZzECelHmdChi25u3IkQ2+4Zd
+qHA9QxEyS91VbirrbDIY6+kxp7MPcZz2e2YpwHoaJU3YasPajWwy1g5S29apme7C
+GJQeyFt1YwzBRByn6MtbOrJhhK+B7h9viB+w1zyNzPucyLUFUwydgiPuseiLiZBC
+w8yfp0tMnv2a7tTQuDu2R6b+qnB2W15zXe7tp4CSY0J3T+BmbSrSydFufF5wqGCU
+80b9c4pUtkHleV6Vcu7A8dtqkJzClOt8vSRimyLo1mbmTR5zOSaATKTDP9h/RVDT
+6ixyndmUrg4tfYIbiaxiEcxdZGJDcWDOW5Amqo9VA4hJf/1bh1dpFEGLWiEpj08S
+1c9ZgRlInLW1wkqajbPwcfHzr92bV7mupGAxCaQAtQDzZfQ+eW7rMxM5g9h1l/6y
+tuZwghpgF32F24zv9cZLzeg0WfjYEi8pf9phu71mBfIARpDkQcZa6mysql8dUXwh
+5lxZ70AnzrUYM17Lrp9cqCHJG0sVTwzChf0ggLiQJt3KOR9EH0E=
+=CxTy
 -----END PGP SIGNATURE-----

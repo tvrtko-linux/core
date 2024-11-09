@@ -13580,6 +13580,30 @@ Description: Perl module for three-way merge of textual data
  array reference that is very similar to the behaviour of Algorithm::Diff. One
  can also implement custom conflict resolution using the CONFLICT callback.
 
+Package: libaom3
+Source: aom
+Version: 3.6.0-1+deb12u1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 5550
+Depends: libc6 (>= 2.34)
+Multi-Arch: same
+Homepage: https://aomedia.googlesource.com/aom/
+Priority: optional
+Section: libs
+Filename: pool/main/a/aom/libaom3_3.6.0-1+deb12u1_amd64.deb
+Size: 1851372
+SHA256: ecf6cf0bf793b4c3eb735e7c98f5e8e98caaf19ef7fcbdbfd3c8bfd10ce0eae6
+SHA1: 39c69d4e4e44f73369985dd6afe847a9ede120f5
+MD5sum: bb2b6040eecf0a650c85eac83e3d71ad
+Description: AV1 Video Codec Library
+ AOMedia Video 1 (AV1) is an open and royalty free video encoding format
+ optimized for the Internet and the successor of VP9. aom is the
+ reference encoder and decoder implementation published by the Alliance
+ for Open Media.
+ .
+ This package contains the shared library.
+
 Package: libapparmor1
 Source: apparmor
 Version: 3.0.8-3
@@ -16306,6 +16330,41 @@ Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
  successful companies and numerous applications.
  .
  SSL support is provided by GnuTLS.
+
+Package: libcurl4
+Source: curl
+Version: 7.88.1-10+deb12u7
+Architecture: amd64
+Maintainer: Alessandro Ghedini <ghedo@debian.org>
+Installed-Size: 839
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.34), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 0.6), libldap-2.5-0 (>= 2.5.4), libnghttp2-14 (>= 1.50.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1 (>= 1.7.0), libssl3 (>= 3.0.0), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Recommends: ca-certificates
+Conflicts: libcurl3
+Replaces: libcurl3
+Multi-Arch: same
+Homepage: https://curl.se/
+Priority: optional
+Section: libs
+Filename: pool/main/c/curl/libcurl4_7.88.1-10+deb12u7_amd64.deb
+Size: 389804
+SHA256: c8aed7bad5f6bf1ad8715d91290a697601b39fab392712399e01b705883c9966
+SHA1: cc2c476de76ecf940a3fdcb8414699cbe3f9f801
+MD5sum: 20a7c7da9aebac30c8149fb48323c551
+Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
+ libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
+ FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S,
+ RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
+ .
+ libcurl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP
+ form based upload, proxies, cookies, user+password authentication (Basic,
+ Digest, NTLM, Negotiate, Kerberos), file transfer resume, http proxy tunneling
+ and more!
+ .
+ libcurl is free, thread-safe, IPv6 compatible, feature rich, well supported,
+ fast, thoroughly documented and is already used by many known, big and
+ successful companies and numerous applications.
+ .
+ SSL support is provided by OpenSSL.
 
 Package: libdaemon0
 Source: libdaemon
@@ -19988,6 +20047,35 @@ Description: Shared libraries for GSM speech compressor
  on most SPARCstations.  The implementation has been verified against the
  ETSI standard test patterns.
 
+Package: libgssapi-krb5-2
+Source: krb5
+Version: 1.20.1-2+deb12u2
+Architecture: amd64
+Maintainer: Sam Hartman <hartmans@debian.org>
+Installed-Size: 424
+Depends: libc6 (>= 2.33), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.20), libkrb5-3 (= 1.20.1-2+deb12u2), libkrb5support0 (>= 1.15~beta1)
+Suggests: krb5-doc, krb5-user
+Breaks: moonshot-gss-eap (<= 1.0)
+Multi-Arch: same
+Homepage: https://web.mit.edu/kerberos/
+Priority: optional
+Section: libs
+Filename: pool/main/k/krb5/libgssapi-krb5-2_1.20.1-2+deb12u2_amd64.deb
+Size: 134544
+SHA256: 454eb2ecb79e03682b176f04a54b8820ccf8868c074995d96fb6f4736f546cec
+SHA1: 8c2486d487184e4eb995f51de87542d805eaf035
+MD5sum: 3c089282d742e5b32b47685198a98e01
+Description: MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ Kerberos is a system for authenticating users and services on a network.
+ Kerberos is a trusted third-party service.  That means that there is a
+ third party (the Kerberos server) that is trusted by all the entities on
+ the network (users and services, usually called "principals").
+ .
+ This is the MIT reference implementation of Kerberos V5.
+ .
+ This package contains the runtime library for the MIT Kerberos
+ implementation of GSS-API used by applications and Kerberos clients.
+
 Package: libgssdp-1.6-0
 Source: gssdp
 Version: 1.6.2-2
@@ -22327,6 +22415,35 @@ Description: JPEG-XR lib - libraries
   - Progressive Decode
   - Advanced Decoding Features (tile-based layout, for efficient
     region-of-interest access.)
+
+Package: libk5crypto3
+Source: krb5
+Version: 1.20.1-2+deb12u2
+Architecture: amd64
+Maintainer: Sam Hartman <hartmans@debian.org>
+Installed-Size: 260
+Depends: libc6 (>= 2.33), libkrb5support0 (>= 1.20)
+Suggests: krb5-doc, krb5-user
+Breaks: libgssapi-krb5-2 (<= 1.18~), libkrb5-3 (<= 1.18~)
+Multi-Arch: same
+Homepage: https://web.mit.edu/kerberos/
+Priority: optional
+Section: libs
+Filename: pool/main/k/krb5/libk5crypto3_1.20.1-2+deb12u2_amd64.deb
+Size: 78728
+SHA256: de8ae0c2bb31c926b24c374c1159e8b8d5f9817421f45dd29f22cd201982ee3d
+SHA1: d162d28fa9b42d9022ee4f764a2e9ae8c4a10ee4
+MD5sum: 53580e71098a53d7081fa52f105355b4
+Description: MIT Kerberos runtime libraries - Crypto Library
+ Kerberos is a system for authenticating users and services on a network.
+ Kerberos is a trusted third-party service.  That means that there is a
+ third party (the Kerberos server) that is trusted by all the entities on
+ the network (users and services, usually called "principals").
+ .
+ This is the MIT reference implementation of Kerberos V5.
+ .
+ This package contains the runtime cryptography libraries used by
+ applications and Kerberos clients.
 
 Package: libkaccounts2
 Source: kaccounts-integration
@@ -26245,6 +26362,36 @@ Description: KDE Partition Manager Core
  It is used in the generic system installer called Calamares
  and may be used in more interfaces in the future. Right now it
  is unlikely to be useful installed on its own.
+
+Package: libkrb5-3
+Source: krb5
+Version: 1.20.1-2+deb12u2
+Architecture: amd64
+Maintainer: Sam Hartman <hartmans@debian.org>
+Installed-Size: 1076
+Depends: libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.20), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.20.1-2+deb12u2), libssl3 (>= 3.0.0)
+Recommends: krb5-locales
+Suggests: krb5-doc, krb5-user
+Breaks: libapache2-mod-auth-kerb (<= 5.4-2.4), libsmbclient (<= 2:3.6.1-2), sssd (<= 1.2.1-4.3)
+Multi-Arch: same
+Homepage: https://web.mit.edu/kerberos/
+Priority: optional
+Section: libs
+Filename: pool/main/k/krb5/libkrb5-3_1.20.1-2+deb12u2_amd64.deb
+Size: 331864
+SHA256: 9ce3d67db89417e1539f33a62ce85959dc96e3865ecad77606e2af1e6680d6da
+SHA1: 7a67188f7d2b4f4fe5df3dc70da9cb866aed02f5
+MD5sum: 103f90d3a6bf6c8c41ad925c7a9a5e2f
+Description: MIT Kerberos runtime libraries
+ Kerberos is a system for authenticating users and services on a network.
+ Kerberos is a trusted third-party service.  That means that there is a
+ third party (the Kerberos server) that is trusted by all the entities on
+ the network (users and services, usually called "principals").
+ .
+ This is the MIT reference implementation of Kerberos V5.
+ .
+ This package contains the runtime library for the main Kerberos v5 API
+ used by applications and Kerberos clients.
 
 Package: libkrb5support0
 Source: krb5
