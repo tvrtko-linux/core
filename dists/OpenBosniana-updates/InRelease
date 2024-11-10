@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sun, 10 Nov 2024 00:30:22 UTC
+Date: Sun, 10 Nov 2024 00:55:09 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcv/p4ACgkQ5Vfn9vbt
-T6o90A//S9hWAWlUVbFxSXJjNvnhn/SRNURrouCgaX2Qo593xjBqLIULNao6cTUY
-NRFcHQKo8fmDPJVPWGACcS0MqnzKF6lOjB0oOfg6Z+OXnXkfKK9TI2TOGUSYicvf
-oDVSqT2zuZz9gBkJNggeK5r2mg9xSXmqeQodOUOHjLMdZKIGYO8nCnNd/I1Sfz/n
-A5AbUGhOMG+FXi+bUfYSAsm6wsVIIve0JP8ynL5UVHUtUII7Qm/j47r5QdPlLNXj
-Ar65w+tkRgG0MII67ImJgEkLx3qxq6KUpfnTRNW6Wfen0O8W5v3gdsL+kTiKIoy6
-ueFeps3NYiAMhqLY1CCjH+tyX0N/4nHXLhfqg0b/XHVlxo2ARHHkbkyD+RZDiAPG
-XFg6573ojfvXhiEtesLrbjIckMYgJPXftX5WUGtitP0HczSfDBo22+KnZ+W1CejP
-Ov3f6Gj8ZQNhR8sdzOinWycdD5bgsxJqGNc6hYpeyMqU7Q0+uJ2wl+8HWBPNcFy0
-CngzI5yaZfaGdwXiLdbTVUhDtfG54ANPqS7yoR/pai2n+J1rLezXJ35r0CqiVApm
-9TI+m8eIkRPAjI34zZdLEugLFb1bD2Y6pfE8lGod7C879bFcdVhPzSM8t8xdSiZw
-U40Nvg4kwOipDQ3s95LEGtHKdOz64Z8YPHmbZEZAoBYR1PGddMA=
-=FQcG
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwBG0ACgkQ5Vfn9vbt
+T6pOSw/7Byz1Y9Zug+KqCcWyneuU/dVhipvwTPyBykitnxWPF9JwPSLoIoKmweRL
+OVUpk+/Tl9S2DTI/W0jWcmwcRhbSM40nr5QARrj6XpTYckq0TgGH34g5xKJABO/i
+2q45WkThTzEfSDcetFYRQm9JBSPX9soITyR9eV+MsmGaN51nJpsA8xKKIcyK5Gvx
+K95D6Yq6MwHMLC+Mc+ZNUM/xH0eHFXd1hkW5sKETYzXPD1Ch/iy2aF0e7Vm7btkL
+ZYLp5FlI0OsvSWWPe9gVh1cz5PuMJz8qnbjVzbA5j3obJxaJ8siR8vpjSJodSyIe
+SQ/qHMxhdM/HIWiPLTDIGiCV04Vj/AJRnFc9AzMHFrM4xEfRcyXibC9ViQs/PRZm
+hOWApqogJ9i2tpFZkdoc6Qdax9MbWypomvMGruu5DsDr1UIMDB/F/8ED6dJwTr+O
+5WyaQmcSHfcI33KFCLqVcn87waZLYCsmpoQj5qqanAf7eMbhkkhTrrN/LlsJgmQH
+ivqAzsbpB3Hno6b49/rEgxkCMes55VYCOS+yxs102BpXqGbAfXrGQj+rhMPZI9WX
+zjBHab1nf54jjQ/XVc136m8SWgotG1XoYROU63UUyu5uOIHkLetGCySGe0s38XFY
+YbiRFohceD9TIPjhn/SyxDh3/GstRMGxurAuIfLcCcQTE5pAZ7M=
+=iCYO
 -----END PGP SIGNATURE-----

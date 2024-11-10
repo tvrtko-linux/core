@@ -51377,7 +51377,7 @@ Description: OpenBosniana drivers metapackage.
 
 Package: openbosniana-education-kde
 Source: openbosniana-education-kde
-Version: 2024.11.09
+Version: 2024.11.10
 Architecture: amd64
 Maintainer: Denis Maslo <dd@debian.org>
 Installed-Size: 133
@@ -51385,11 +51385,11 @@ Depends: kstars, stellarium, celestia, chemtool, gelemental, mypaint, blender, l
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-education-kde/openbosniana-education-kde_2024.11.09_amd64.deb
-Size: 1048
-SHA256: 1773f34fdbf04ab866d9f0fb8414edb6203bf49123eae535d3c3d2c8495b58a5
-SHA1: 3e5e796b086c8f6f096b7d0dbf61d5d473866744
-MD5sum: 5175421cda31d4cdf70fd9a97fd662a2
+Filename: pool/main/o/openbosniana-education-kde/openbosniana-education-kde_2024.11.10_amd64.deb
+Size: 2748
+SHA256: ad6519ca744773c065a698a2f3dc0363360f1e29836d0d9f356499d2a56c1088
+SHA1: f77894a892bdfbb1eb67176d4bdcc88aea503c8f
+MD5sum: 6cf1244deaf976f1bc084fb05cd814db
 Description: OpenBosniana OS EDU KDE
 
 Package: openbosniana-firefox-profiles
@@ -51477,10 +51477,10 @@ Replaces: libgarcon-common, mate-menus
 Priority: optional
 Section: tasks
 Filename: pool/main/o/openbosniana-menu/openbosniana-menu_2024.10.11_amd64.deb
-Size: 8652536
-SHA256: 4415b679ad57bd21b1c1eb28a26eef00ea7a60b05ecab358f8cc8af723069f13
-SHA1: 4d74c4ea78c925949e8841d5d1b6de34503768be
-MD5sum: 653b11ee4dcbcd6a81161e4f9f8e6e9b
+Size: 8652700
+SHA256: a728961d23c2786171ccdb2c04159e383e1c24602170fc21ea77547be47218c7
+SHA1: 531745447a24025aa8481ad2073fb4ea8b979518
+MD5sum: 2d98a8df2dece72127f4828ce65f35c9
 Description: OpenBosniana GNU/Linux custom menu
  This package provides a custom menu for OpenBosniana GNU/Linux.
  .
