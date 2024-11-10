@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Sun, 10 Nov 2024 00:55:06 UTC
+Date: Sun, 10 Nov 2024 01:37:31 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -213,17 +213,17 @@ SHA256:
  91f40351dbeb69ac40d6945dff04b9b478f362184c4c9012ed3500748c0da30c 186 udeb/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwBGoACgkQ5Vfn9vbt
-T6rylA//aAVzjK7u+OGCPuGhKnAFt58j1e9OvWal7zdobCz1zKOLGCx18E6rmH6q
-/UWYJCvVSd3udetZqdtGlf41MoWT0YxP2BaShDR66MqYHazpvt3wuTUDEVSU7zs6
-+ubPO6+8QWm6DNdORrUEnD+7T59qwIL3FdITPy0zJ2/B45MFXKjBHnF2jJHsuJ4a
-6g4BAehszC7rbL/Dlfm6Y72LFemoGJD/fVDpORINO4EtXEpc11CoI4VPhTv0ufvz
-Jt2baKpIb/xLjcEIRbVEBoF8w6Ew/iqrtbTUm2IzYdmOi+IHdna3AuGM1trHRWZf
-5afL9wkVxXtnBKnNU3EZB1Wne9h8T5mfh8r7U6BITrTBgXZ/AJc57EPGOLqjxzEt
-mLYy+8HbQa4qvhOqr2GwUpcOY/1uzpAZELmMEcucFTCIfa/WBvpKTVRlFr2LdxtO
-GVwHioVAlbav/tJ1FMndcB9nprbkQgCt8IDhMfpDzQZzWpEHqIoI6alwrVBAmYBE
-oKhSmslR/dVpOaZ62Fsm5YqwDzqAtxRR+549qSrlkvfUUgp6IAVg8xFaHBYHCrTt
-gd7OWQp6uweU34LWOTzvgrdd2/6Cy9ijxU8vdo3rcOHQw3KUGFaLWYc7TOuHGXOq
-g49GR9KNViEVo9sxOfE45NdGRkPegqlsRQZd5jNT73ESBH9s62c=
-=xzvL
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwDmAACgkQ5Vfn9vbt
+T6rGFw/+MxdOlQx9r3G92JQDG7i0jxODQdfSivgUl+nkOlvBubpfbz7Fg10Yfaky
+PkuqkEdrJZxdR3Cw6bYEOm4304Bw4t9sWuxLENBX626QOziFVMir+O5GpZe8QRDB
+5xEKAQUhKWpFciI/Fd0+ecypOKcn1fmTryEBUHBSCSkXtX0KVMgxgMDOs3ITN+lP
+G68KuV0eNMofx+hBCKQK+LO5FFd+MIXXcp2AZsbFNUSA13/8R522VqvjOB99noBD
+Tfug96n1nsuP/Fdj73lU9B/6HpNcMdCBcT0OnlL+LKILZ81D5MV+CaDtaKO31TMP
+3Xe5Jq7JLy0kPeu/s3d9i3/9dYrGK15VQKwGlG1i1tBqJnoujwo2Q3/FADr/KroB
+cmC7cIUhFohriI/kGaQKeJQxqmVVvHFqg1yarhiWOB4oZaHBABNhulnpysgIDrwY
+rhW22Jax2+OhQ0NijL9R2DWD6M+R/2j+/cBEGRszBKJgFdKO7W0LY98AWuriDAsE
+bBgZjGW57e9QlrrKmjilcBnYiVIJoI0zkepUwfQ/7UJyYZxFMYdC2/Omofrt+UnX
+rcz9klbSc4d6V5JtYpyP2l85eJJ1yy0CRLMCjwKxX3f9l7zC0gDk2Lqa7KJVXQy+
+mRYmRhjpkSRjqZpFx7jVmS/0eNQ/aDnXk1aSgq3zbfmi5foeZoM=
+=ryxx
 -----END PGP SIGNATURE-----

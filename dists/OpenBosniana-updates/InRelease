@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sun, 10 Nov 2024 00:55:09 UTC
+Date: Sun, 10 Nov 2024 01:37:37 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwBG0ACgkQ5Vfn9vbt
-T6pOSw/7Byz1Y9Zug+KqCcWyneuU/dVhipvwTPyBykitnxWPF9JwPSLoIoKmweRL
-OVUpk+/Tl9S2DTI/W0jWcmwcRhbSM40nr5QARrj6XpTYckq0TgGH34g5xKJABO/i
-2q45WkThTzEfSDcetFYRQm9JBSPX9soITyR9eV+MsmGaN51nJpsA8xKKIcyK5Gvx
-K95D6Yq6MwHMLC+Mc+ZNUM/xH0eHFXd1hkW5sKETYzXPD1Ch/iy2aF0e7Vm7btkL
-ZYLp5FlI0OsvSWWPe9gVh1cz5PuMJz8qnbjVzbA5j3obJxaJ8siR8vpjSJodSyIe
-SQ/qHMxhdM/HIWiPLTDIGiCV04Vj/AJRnFc9AzMHFrM4xEfRcyXibC9ViQs/PRZm
-hOWApqogJ9i2tpFZkdoc6Qdax9MbWypomvMGruu5DsDr1UIMDB/F/8ED6dJwTr+O
-5WyaQmcSHfcI33KFCLqVcn87waZLYCsmpoQj5qqanAf7eMbhkkhTrrN/LlsJgmQH
-ivqAzsbpB3Hno6b49/rEgxkCMes55VYCOS+yxs102BpXqGbAfXrGQj+rhMPZI9WX
-zjBHab1nf54jjQ/XVc136m8SWgotG1XoYROU63UUyu5uOIHkLetGCySGe0s38XFY
-YbiRFohceD9TIPjhn/SyxDh3/GstRMGxurAuIfLcCcQTE5pAZ7M=
-=iCYO
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwDmIACgkQ5Vfn9vbt
+T6qjqA//Qv8pwUZWmlGynCrAUodg9s/qh/rFFz+SidtRQQauUiTtYQyH4qFqTBL/
+zhoTCe3kHLzyr/qujOdBdbuEcFMmHiwSyylVVUNjqTFbZIU4jSdEBcxLrXb+at3m
+sPv/kybvhty333WELVZ5UhUN1pI+Jt0tV0hG5B3J32qUwa0Nj1vqItvDzRhpxO8R
+LKZy/GhQV6/1NtUEgqkrJQ3BFKg76Xf+4TkjdrBoH9IOb11gT8yoaPxOpASg4yx5
+XY9vBpL41AhMvAqhQc/yvdBQTpok2teV4YcYU5DZlWRHtE37tJDz5xeWWnY+mX+N
+Lg/qoBxZSfLr2SspET4JJwQO9fRckzbTmlkuLlRpocoRyikDnlrRxy45rs08tNDm
+tSYjoO8AtyrMTH74zLRbIaP6k3OSzldQ6+U8xgwe/GrrxdKtLfSmBAS1U4fmdQRO
+GByRxuAcAVyBZzLD7Djto7SA9C6xaQgUX9IDXxrUfxq/AhErNK6ZcZhxrx7BJEPY
+dVmSWKsAFpAdbrlVHSw2R1puET+WbYw59zzToIswr8UvAd0E0uH3nKCYaKPvq8VA
+qY9ewIk91ybkS4kPs6BbWCr2VRHRigeMssAWeFoa05zSSBbRsJMl8CdBkC/zNUYT
+UhfevBQ4CPJDS4z2Po4kQzrUADzmleijNx+PsPlm6AQpGZCYDTg=
+=IA3m
 -----END PGP SIGNATURE-----
