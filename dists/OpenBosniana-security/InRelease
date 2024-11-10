@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 09 Nov 2024 04:48:17 UTC
+Date: Sun, 10 Nov 2024 01:08:45 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcu6ZIACgkQ5Vfn9vbt
-T6pTxw/+Muc2gGTJnUYfpq6fqsn+fbITU5kBIApPCuY2aaTOi1AeSRpHR1DLD9QW
-XvkfZ/RYP5NyEtdEzFnhYFpzlQjykSUaRXD4X2kIIo1Ctt0BYq1keSEvtC3XpsME
-f0oNVVKy16JUXfk1kuF23qDT2gLZoyKOIixfJWe4sITF/TKlMd5FcuvqStbTQHWg
-38YoBq+5tX5EmbdsZkLPTylIm3Ytj+ywaR1RxAEWQLFqBK7obCZrsjxi9+hR3nCv
-xVFcNNHCIkU7OJ1dGygsPh0FoQlVTt/b/oNzSnS7gYN88HAMqE8GwbOdbWsL77Xt
-CEnxpYwgw7mfnRLiOvqVt9vILOH5oLx32r1w2TEnFdxLvmLpmwCZuklLIaw3iZBH
-40Z9VyYtoSX1aaILRwYjobQt7ehmevAFqVIyd2EGv/jgSh2y+v/kFOU30B5+YqPM
-015NWdPyuYIpe3lIgIgxpmiO8pwDp1f0YFUlE/8Fje6dUhREiMwOdmhSTroYmWjs
-79NkQ4iA3do7tCT8FmPYFzGDk6f3s/7Lq+kZ3yYEGcrYRI48SCyeDupM5AXV88eK
-6iZOkiAxMmD23EA2gTI/wWA0SU9kqEASs4v2Coj+gCdBWzfoEMevpVh9UVdIGa3E
-ABUocBIczb+CdJwBtN3brcn8mFlPwJvg+020bRVBsbIVwKGFsgA=
-=y+lj
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwB54ACgkQ5Vfn9vbt
+T6pn8Q/8CeCuXFSIlrcvoTeBkQVdpsJvrAz2eYhpbYzmZjs0XUeciG1oLyRVaT03
+xGwVZPSRwO7IrJxZRSXWOGOqPHLJrMycCYuw20JcRG3tJrYLFJpNPymubHtdIJ+M
+b1jwlOb/FpguUVMdNTheLyO7Qv/VXp3J8JYYFHyIkjDPBZiIhHnSiBDeQDXAgHqp
+pfYNQukC1H8r8gw35pI+W9JqyDdhC1/kYIyA+bpYLx3Da/8twJ4XpCMJfv8YMmV2
+F+dJC4XNIAQXaaXGTCUpE3aw0aM8wyNrUBVuvdzhMAwScfbOc+/9jTehlVpHbOH/
++OGu80vSieStdFrgAwTNqAZct0eH4tHYi6w3T0KyZtNKrLDeVsYpH8DZjyIYs2gl
+bEvOzz5+sG+0NLkKEYVASizgYGq7qR1vS+wJ4mVT0NVu9D6cuy1KYOqegeARvpET
+sblMegQSB2EzavzKq1OyIufrvghIcY40VHgtL2MiC0yFr7WKrakq/DKvmOe+f4cX
+4UCXeNmK1dOUShWqZir1/DJNo1U7w54s+YoFrI5baUJsnv3TEMQsTwuy8gvbpdGn
+Qei6k99RFBdYOm7UdbYubRxK/9jxXDvwsLy6ESNrylsHHA14X/YxePUfNi2SbJnr
+opZI4IalFaVqp2/1ndmKdVk8CAMTza1I0hYgsLzxo/rWd3Xs1ME=
+=6tkq
 -----END PGP SIGNATURE-----

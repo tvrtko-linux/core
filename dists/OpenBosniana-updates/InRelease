@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sat, 09 Nov 2024 04:48:17 UTC
+Date: Sun, 10 Nov 2024 01:08:45 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcu6ZEACgkQ5Vfn9vbt
-T6pvlg//a48DgGxo/pDdX5zAwz8muz5aELjucZ5tkAX/MUEma0msobnMqm/tuqTy
-t+bPBUxy/kl5cMfbjfMVzBFVDqd6UW/eu+QKqdmc4iZkpYXWiVN3F7DM9yWbL6WZ
-efoH9uAJm2Pjnj+qdZ4iDYYp6MZVdIscemrLhaHl0eyd6aFtMloIB0UhvvjxMaNF
-TPlewPsl2TIjBVwbe7jiKUrNkg0GaNgw90y3ru6qCj+6sRBLyPV+2WMr3S07wqDL
-NerG7guqYtDZVlZAwpUY8DcUOz8b0fFg19NQyz8DOv91oLS8hDa7+Jz9sfz/sOt/
-5mIekQa78njPknSydmIxUslSRTRC1r/i4lWK2mCTOjyxMeXOwQBUTfFouIlAvY+/
-K85wvk5vS/WVZYnecTkQZQeq7flmyPk9fyWi4vE32cthxApydgLgYfkT37YTfwlm
-4BQvWoqDIxe8cY5xQIx8AYhcrdRWcoefCrYUqzLE/lPcCu+ACaDq5XpqTm9nvUBx
-2UJlvF2UqTBplaax785Q6APEZkpMyEnyqDnba7C1xLuz3oaeA0wafi1EZUqLf/cT
-URtq6jjG11Nl/Vg71ZFAyEFrO1ywSyJv0k9vOtrGuTXii5OA2U5d7Jw1dDSDmqcF
-mY5NswJQOPPeo7ebbzpoOvMyBCKw9xL8+YOxVHwIdHYRnYfdId4=
-=1rfy
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwB50ACgkQ5Vfn9vbt
+T6oOhQ//U4iqtLPtrgy6cWi77PEjH5JhxfnMWtDUdUFTDVlWdb9vDKpZWZ+A9xGb
+LoXZpT/RpgMnGJReFrdPolM6ugP+i3EsSlB5/jkqpr0fzbct1Q2GL0dUDJ9q8LVX
+KAQP4THou3YnL9KX/0dc84QnddATztU7dfILWT91sbKPfEtUbqZXmgS/A2V5f0DO
+Z/bXn//U7NGyf6f7TJd16CSm8SrPStFrcHCDzvvmtxw778zhqhgix7lIdkGMpQAz
+UBGE2NaisADfTmowiGx4LlfZBEeoG8a2L1/Gg8azrPowU6wxZAIAm5dmARSC9CYn
+JTNc4Y5cU99Pc0pbMs7ZC/HTtLRVFtw2sqtsv0QytL08EABR6wPVjNRigKrMgXGo
+AyI22U9tv5cktKY5mteLH6oy/0y/erP66lG/plRFEYwvnRn8+YStEEssdH41AKs/
+NM2iBYE+/1Zn90T1dg67I7Au4oSFHXnTy7g0Ym45ZnOsgJMvgaznMTG4a6f5kmeC
+cHn69CN0LKorSiHFVYVNrHJPyL7pecRWqvewMaE+iVRjW4zsP1kOBJrjBzjxxDna
+WzJd1x9//BFUnekoHLmPjTDsUvQ414ZN8+XX1NjiWtBcHy28+YengcrzBkZeBR62
+I/c1z9n0bQD9GsodpBJ957vnlAt8S/lnNxf5N14MEvKmS8bGdR8=
+=VBrQ
 -----END PGP SIGNATURE-----
