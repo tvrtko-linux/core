@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sun, 10 Nov 2024 01:08:44 UTC
+Date: Sun, 10 Nov 2024 00:30:21 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwB5wACgkQ5Vfn9vbt
-T6pdvBAAhVxhrYV4G+/UMmEmutJoiJ65cMzM9vnnSGyPgZSOzkSq0Yl+cAaNIlaB
-QY7IsnNSeYyNpi++ddrLWLsrU5AX+jFF3fYrAbtmHs2jak5jdfsTbxNOMQA0j+nB
-gpksLWOD0LIdYmnDnxQ7xlm8jfqWv8zmlMIypxZk9fSGqdWbgORaKPd0WLMZ3adZ
-42QvP5h2cL8hz1CJxghMBLQh2qSjXqZaV+2MfmmPhy6Gh1Q0QgKY7kIelq4PDOnX
-XO1uKhjQbd4mRd3ClOR7TwXwWtHkiLKU9QeGMhv0HHuGITGqtHeDTxXBY0vXcnpJ
-2xRpfaXBp3/uUeNGHapZJhk7Axn993AOMh/xg4YETTIPZmmxY8fFJuJF9OTh31P4
-VCEVAT3x7MTDshsCnR4iliIBaKpha48GP3JnmYpo0b+63uepGnk3ap4RGTrjOZca
-K4pXToB7Pm81Nkr1VM61S/nT+2JqJgiYbvQdUztbHHfAv+O4Fqpq3vsVs5on2oHq
-4nw+Ab5fQCKHTwGET1vvh/ObSxFexEvCqISorOqBnugCC2Su+0AM2M8TvWSjNPQo
-k4DKym5cMtpSOmYTIW+iOTfsKuaxbOX21+pLEDOcLUY8BzDqgsyWPp2QjuYwGVwI
-h8XhSUThhujZMWd67HY2jWCTEfdf9qXjL9NebdvzAfjAr/9I668=
-=EyhB
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcv/p0ACgkQ5Vfn9vbt
+T6quURAAgArHYDnXV5awg0QUIzX/ABmNrjR4OWRI142P5NKTfOoun3Yq4pbOPrGY
+ouCUZG6oWO+TFV6c5U33qNPoEyBe6SdhjLRhEPdAEoNDs3NgLBNoXhGSd0QvKmNi
+gaASXe/9NpJ/6G0SgqvDFwj02erl7quuOsOgzlW7nIBdk6rlSoNr/LhlX/dL6aSG
+omN4p/GmTlF55/fE2JDn/2hSpds0WyrVYRk5ph5z17KYKNPKZFcEgh6Ddzc/xk3z
+Qn5VOM8NRxoup3ALtWLzDAjJXPDNuCaoaEuepB+JSUOw8TwCyyIp3+g2Eb6i9nDg
+DP9iz7n8Jal+e2fJ/wUgvbb7BX5TRXgw7Wrt3qVjdye8ETnQmBz8nuFXp9OQPj1j
+SThqxArBq/LbtqHX6xB7bAsgG/+nz3USqXPFMgLGZUZsR0aFfM3WCwFYEF7bvKk7
+AiLlLGd5UjQ2bc6bB+c6/lPxsUyqZxHamrbeURw1xgsLKC2r7Q1PlzImmb44Syt2
+at94N5AiFy6A0/nmM8mkMrrKXcYlfj2v7noG3ze/jgjCcCMKbcnlhkOozfdFOoco
+Wv+uAcUjuy7McCZEi7ZasuBViRz/wg0GDvJ1rRdTuH9SCbVevJi7qQ0IeTrycRiE
+BZyljDquCRisA0JTrx/5d2g5/GghwXNBi0gIQ/+L0Vc0R86aLT4=
+=Nmnn
 -----END PGP SIGNATURE-----

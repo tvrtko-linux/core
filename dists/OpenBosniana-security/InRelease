@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sun, 10 Nov 2024 01:08:45 UTC
+Date: Sun, 10 Nov 2024 00:30:23 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwB54ACgkQ5Vfn9vbt
-T6pn8Q/8CeCuXFSIlrcvoTeBkQVdpsJvrAz2eYhpbYzmZjs0XUeciG1oLyRVaT03
-xGwVZPSRwO7IrJxZRSXWOGOqPHLJrMycCYuw20JcRG3tJrYLFJpNPymubHtdIJ+M
-b1jwlOb/FpguUVMdNTheLyO7Qv/VXp3J8JYYFHyIkjDPBZiIhHnSiBDeQDXAgHqp
-pfYNQukC1H8r8gw35pI+W9JqyDdhC1/kYIyA+bpYLx3Da/8twJ4XpCMJfv8YMmV2
-F+dJC4XNIAQXaaXGTCUpE3aw0aM8wyNrUBVuvdzhMAwScfbOc+/9jTehlVpHbOH/
-+OGu80vSieStdFrgAwTNqAZct0eH4tHYi6w3T0KyZtNKrLDeVsYpH8DZjyIYs2gl
-bEvOzz5+sG+0NLkKEYVASizgYGq7qR1vS+wJ4mVT0NVu9D6cuy1KYOqegeARvpET
-sblMegQSB2EzavzKq1OyIufrvghIcY40VHgtL2MiC0yFr7WKrakq/DKvmOe+f4cX
-4UCXeNmK1dOUShWqZir1/DJNo1U7w54s+YoFrI5baUJsnv3TEMQsTwuy8gvbpdGn
-Qei6k99RFBdYOm7UdbYubRxK/9jxXDvwsLy6ESNrylsHHA14X/YxePUfNi2SbJnr
-opZI4IalFaVqp2/1ndmKdVk8CAMTza1I0hYgsLzxo/rWd3Xs1ME=
-=6tkq
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcv/p8ACgkQ5Vfn9vbt
+T6rnQBAAgZb9niDGRvGqqyWh33JNET+GYtMbylY63OcdMPkTmGpO2Bh7F+tiKX2A
+Ld6iRMMmZP/ElpbNtFv8Tfz3u4YRglHTbgztroqW4XLtQ9BviIm7yNqqjjfH+Kmb
+PGue7O0Ue+WUsl0LOiC07VZ6acFZjSMInVIntqX+GS6w10+P6nRlX8WomU90rjYS
+PzzF/PUPdX/TlCXJZFtbs9FkvBCTN7g7YzJ+1MKQiBNj/PXtYFP702yDhnpO2ulh
+a2jqnCuC//Z02sq5KHiyDsZDQA3yhxCwjBT7dhegf8MmHvMfHURzDnjtSAnKUwhL
+Jp3qC9zJqQyxfM4oXJtJVta55PrdUomh8S9iF4nCZorc7s9JHnZbHYXl7CeFtzen
+/KLy1mXenOvXeYi0RWkccyBbuVMrzSvKTXEe80AH8XKbiXBQJYdH1xmizid0fM0H
+Y9QxGDE5+SvCizIilfoNdXi2wfXx7rLWvQt5vAweMfFHV7Gu8bPXIuj1+PTVn2uN
+a4RnRufNOKHsIvxIuMb8NWYHn1ZrJYWjEeHDskDTP4xGzYgRIO6UCmeTJTm92exy
+RqqXorVyW2jcLq818M7OomJSGrqI+Sfrrcz9esRkIlUCLejrxcOPHWESOCSQHTlm
+TW2o0FmNrgTNeD9lIV8Kbh1bN4jQA81RqHfVO6Cg6RErpV78pHs=
+=BJw5
 -----END PGP SIGNATURE-----
