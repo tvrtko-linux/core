@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sun, 10 Nov 2024 01:37:36 UTC
+Date: Sun, 10 Nov 2024 02:10:03 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwDmEACgkQ5Vfn9vbt
-T6p1dA/9E0F2UIDMq5bor42WBjHsbQOS5gLqmBucCcx5prJaD/ypj1ICl+QmOMiF
-Chazm0xGMwwz0rx8o1RhF+Q57eCYE4ZN9oMiMLfpRAxDxAsC6lk7tzI0NPHfDugj
-MMdea5wFQFtFvx36J+5hdomy3glJQSYTwSI7By5GULWnyQbGW2ocwenafgVJbopu
-j0ahOYpfV4V0F6rk5v8Sw+GX9VvNKWVD3hoSFTXhEKzegQhiFfgXIR7lD28LGqEo
-W03AO1xbfO/PETCqWCrNs/QKLCjxL31oTig2Pice8keTO6/19vDzcc2I1K/2nsfR
-sP9OGx/ni+L5gn3pD9PoXvAeTxRDmrZ9fxJjqieQEQa0Q1lpDPJ7yejdg0HePzYT
-RhJQYUpuzUkCv+l1p3aAqx66l/U8qEu5L3G0/opHDh1/XuIdsa20ybqpZYRptxAq
-a09c69TWZCJ8x6BWMMMTCRRoicGgoKNi/BM5PvI8uHPIlBec/7OeaMETA5Ck2r9U
-isEiyz9upxXPYvz4x3TYDF1DtwNEw9/XexIScsLIP2K3RcwjT/3YV/79Jfx5FtHp
-Q2dlOjDRZtQH9/dj1Y4UIVxmn5eck5gp1fyNba1ZgtMFQTGDJdbPPWnhHOIIM5X+
-9icD8m08AhU1ZTNGN7wtbLF0M3xtp29gW432hvl0F/AVm6L1G4s=
-=LKM9
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwFfsACgkQ5Vfn9vbt
+T6rjrBAAvr4E+TQtjYo1LfKuCL2lh04d7+E5Ir3kNc/4508hMG2acLOEeakehUc7
+bV1zppYA9pZHVeUOzWLz0pSgmYk8w66iAqUb4eeRo+4nyTLnqOYIudtsPCZqcN4l
+e0oS6L8msz3+uoW1arY3Ss53hO2lsPzPxVilpxSeaFV3Zt6le1OBTI3cDa20k11j
+MCQToZio8rEqBvM9ux80+9BYu4saRAKOmKqdoGqcv3FP8/rzRtdF9jj6knvCEMoj
+fp6RiBXA0ia70zTvgbJk1LUW1ouPSWvxf8WVgnyr5lGAzR6eTgIYxsVjwdRtBxzt
+egCkmN+Fkz8CD3Mo/mdc3V5ZqcxsZFK+ArGBlYngU0JSyGDpCfFebfl9N53iUaW/
+xwL4PQeUjwMmWiNxY3fEjopTCk+Zq+0tKWuqNKY0lqMRl1h1SInAXz8RSx894Dpw
+N52hWK3pbhS3LLNJLaFGGVkh5b3zsnNXDirgNTsz4HhmCFOKjuDLNU7uDYYdpHso
+RUdMRbEo+VAHMoQeKq8AZUMlj0C40ZQitAt9OLWPYP9zFlvT4oDnCDPe92eZV924
+125wdN+3PCYch/qq3EvZHg+VgXsh1R+zTGYBS2AqmVx3tuuw+Z7KGe2AorISjayy
+7esODagjtz+PIinJuF/Wxwd7U7BHFSML+Egz4lYsWrlpjw3Gm3A=
+=F4Bh
 -----END PGP SIGNATURE-----

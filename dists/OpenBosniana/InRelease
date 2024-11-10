@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Sun, 10 Nov 2024 02:08:44 UTC
+Date: Sun, 10 Nov 2024 02:10:01 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -213,17 +213,17 @@ SHA256:
  91f40351dbeb69ac40d6945dff04b9b478f362184c4c9012ed3500748c0da30c 186 udeb/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwFbMACgkQ5Vfn9vbt
-T6pW5Q/8CcnJAKvtl1rzJe2RqyO2sO1jlXvjGB3y+txoMwZN/UpBJ2P9Pz+a6NaJ
-+Tx8cszEUS89VO0nvRjofTiX8GtzEt/6p/JEhbMl0p/rqb3YmRUjGHLuWR31OJK8
-yB/DWYnUCBc8MpozBaRBiOwHbCPnXdKxc31xwqumLIPLu6k1fVCVDPLPKBLvelO5
-z2o4Dn9ROff/MplVfrOWxZrdzxlzjG4gSawKGMG1f+A6CnWsLg49sgEAc0LVbHC6
-ERu7fE7zcshR6rtwxGR48l0Qr0V06i3o+1uT0SKXzT9FhMLqbqashnRyc1zF2ZDy
-d48mbaUnw3B+J9BSTsK8iSoD8aLoCdHyrYoZL16IZ18yGt+3ye5TS1qciKV3kWkT
-vmh3xONVeECzcuIddNht7LzoOMn+JIyGDGx45ANrgMUU9IQ0FdZ5xqzXzxLjka/t
-PAClfSa883e+EgRpg5Y2atN6g2unmfDjBMcyE1z0Sh1nW0j3HpwJj4BqE4xCgBrw
-PJtUbaDGVDteIexwBzDCeff9SFpnaHEgEklGsIXPratoyH6s6MDmDYAxinTeSsEW
-32mTaFZ9NrOkWu4VzU2YEQqd0KLgWd0X0y/gArORPCQhssrHum7ZzR29oHpWTXFM
-vOaDbGPk+xA7OliGzL/e5SioAqCB0vLFjW59oq/Pdkw3QuzqpsU=
-=LqgR
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwFfkACgkQ5Vfn9vbt
+T6omXxAAqvuoQ4k8zL8fbV0lSFi1aUWRNQd09QxsZj030Y7R+6/q38hR9hRWx2RE
+Qkaj18xdO8bUpJ/dtKy5CqU79yXwVoInrrUvNUBYO5SC4TRh2/etuPliYIsWwwd+
+ypBATnxyBhBeth0ofIeIj0yWUaz1+ryQ+i6WWRd5t4sm5rSB44rmchV+dzxK1Hya
+80bn+647JeE88ndm6g/ho8hSo2jBKGBhJqEGcZoBRiTQ1NWPt4yg09YyPlMcjqyG
+Z2eJzxRrK2pIe9EveyeKZFmmW+YqMWwLr56HLYmI5duDroW7itmRiFeh1fvaa7zc
+q7rcXQScRwRcHMwxTTtQuAYuxkRWLHYMzZAeessSIYpwTzj2OKnUjYyT0GHvch/a
+dPTFCuFY2ULm/gHi2mb1Wap29PL5Yu8dSjc2e+f9C4Lr4rJ2V98bjD/pZfGIUFM2
+wurzciuUJGRk9VVPupIRvluYSvey2UZ8CJWPNKu6aYWssK8OmMOHrsuWnwgxx0Ra
+8k3w4STXf0UUDZrnCbJ1+EeDKAWjCP2iA/nOCCH2FpV84v0DNbSsB4u/zWB1oFxY
+cGhaIFZSWZKu/m7VCVddHPQTgGhADMMP6iktLZNMA5ESiv0SadJ68I60o4PjgYO2
+53CE3d6jbZuQwhfSWz7HIa2jDH8XXI0nOUGQa6uFqk+VqMNBwo8=
+=sMJh
 -----END PGP SIGNATURE-----

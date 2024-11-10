@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sun, 10 Nov 2024 01:37:38 UTC
+Date: Sun, 10 Nov 2024 02:10:04 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwDmMACgkQ5Vfn9vbt
-T6rR8BAApknarUnBcCoTUVovHKRmYlXUoY6Y17JGohigv13JxfDUjpLGyNz1Fkwx
-lQLLPqDY+jLnW2+EltFbp88ghJqH7UOX2K+ikek5gHUBx5R/6uRNKdJmYzP3aVnZ
-2Aa44zDvla/tsfQGuIiT5RtQYevvokO2YDICn8hThAcq5y+J2n2GCik0XaETJhwY
-K9gM4FieDP7WuXyarz7p+Bp0MVvKNRZjWIoMLbUs+v+r4Qkls4VRmFlYZmlWBSPs
-0wNYy1VBEOg7DQWCurMD8G93WoyqfP0IU9EVHlhcqABSpha1OITpu6YmyDTKl7MM
-cudOyxkEdtOygIserC9m7lkzVj91tVF73/5Fxpd1XMaeYrGMBGeZ+R4W8zsWwDGm
-4bUnZAntfiLr0utrRE2nyD1M6ighT6OQR0RPZJW/xMdu9BMq5hMDYQPi0sweBmCX
-payj8lPdDxHJ63JlQwkCLuRy1Akcpa3qQ3MHG/ggtY6T27MEOh095Y/leJPY7zmZ
-EjIR8M0zu+RE58zkuyx+2ikmZJlMC2nJ1qHmGqs3bJ+MZoHoXXyZ0R5lY7U7j0Vu
-wUtrWKkr5uwuvR/txFobJgIsmgOoMb8GsNj95Rhmo+bDKlo8DePWRuKxKo5Kykqn
-9ys10+mHvj5m/+nwBcoGxAIXRylGKHxiqbq4w9IFGmS/gkSeizY=
-=hyHY
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwFf0ACgkQ5Vfn9vbt
+T6rqQQ//cHXY7XgeC/aBm9EdwlfOGqUSqpFGR8lvvOPp3mcXG2V/96V5wt0Edevv
+G2Lrmb3swaqqR7OROUIGowJGq69CXR0QPlwdNwm7SVbeVy/YINzVlxT6TEgYINrz
+3PyWD5f/lUzfXrfvtsbK6aYyLyakfGEyXmKU9AnAv7VV6N5yZ/NIIV1ruvGCZAZ2
+L4f5sCF8Y0MqDItSoJcYKJakkOsfSDvp4mfamFQOqlfkTX9q8BD7C2UfYbbZ5coV
+CWT0oot2D9rJwbjUguzcmoa01sLNTUJHJ13m2SnnYrJErkRe/ox+BcRkPzT8cRlv
+021A3YrlaTfAGarqqXzqm4xe+YYHQcX2F9+02CPJ5WyvtJ4qOulYkhUCiOXXWB6S
+sTtWRhABU1SsA+wuiBEKks8ZmPzSbmOlpHALAvKyVOfIKqVek0RZYALtcEHVLV8x
+64a4rPxXVGk2zX+EhS1Mi11moI6RDgX956Ovpbar4XTUU/ykmedXfZqLGq7JXQLB
+vMSYkBAeviAj78eFuuuCn3TlkC9lICzME3BHFQb14lGonIy9AW9ZWLAVbTBaIFnh
+de9YwFIMR5JxlmhWmGUuxGmCDsgk7rIF4bFE+e/W+DTaB2NXX7QQSIlnFnICH0Px
+dWHsTDEcfm219A2dt06zliBUWaPA1ZOthd4gl6LUJkp0q9OGPmY=
+=QUin
 -----END PGP SIGNATURE-----
