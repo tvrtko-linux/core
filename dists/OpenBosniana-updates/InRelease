@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sun, 10 Nov 2024 02:10:03 UTC
+Date: Sun, 10 Nov 2024 02:30:51 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwFfwACgkQ5Vfn9vbt
-T6ryxw//aktpFDv5ptVNpCpZhRYL6J5kc6ghzzRuZqWpmHqPUuiuHv9HPfDOwZIN
-DxB3Vm8zQ9ncc3rgLU9r+eVvjNfE3YO+MqO9+CoRiQyhhnMEeRHfPEt8WRh9NJhp
-XAwmNumN1HH0BmoH6t8IQoGiu2ClE8KJmhnnqi8rT4OxCJ6QysyUUbvzMKDoO39W
-m6OdiP4HmWxSARK46FBQk1GwNqkLaJnDVNTFlkjfzfQ9aRBMs8Fbq1AEDYO1AbE4
-lldIiqg+SYqwlmgNoydIG10Wj5EAIz+R3fsTK/nv5aoBMsZkgYF1vOsiA8UYvLhk
-iJYSTH/mGbhmrv7v3RaE2g7GbTvlya9WXibyi5kNRekXt6SRbFIuKtTWP/sOlTMk
-SqhB8wClbm1Ke0kPhouQm52XksV3IKzVfOooBiJlYJw+R2+ztvq2HuzV/7NwgZSL
-W51d8NTAceKPD6eeCHzHYD8fNzRmYQLrL3aJoIeaEgR8lalpn08njCKKm99cvpyB
-hY+4lD6jwQ1QpetktmLaYCDdeM1+IOYN2gGl4lhmDuNbM1EgRzYuYrR+fopJ6gf/
-Yi31hbIT09sozrb+fgUlmky7LImguEB1qvpbmb8OO6Yc62lSTBJ4GOwR3GoOoZkG
-KyM04wP3k10VzSYsfEXThqoqJ7zEL/6Pe1Uty8HVXoWz+QcMcyc=
-=HNnJ
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwGtsACgkQ5Vfn9vbt
+T6r5cg/6AkcRaMMOoDr+qx4a4+596OOkWdHWdK1HvESOFrYDv5s37T8zdQfi/1EF
+qpYgPBhS4ARbmAd5QkbyqrZJCnpwRBILbfSgm0DfS6N8p4Sym1u708guVW0MhXIf
+/MYdJNX8n99MPR1/V3DN+8oXeZ4n2XfBRLycJ999m6gRIq8x0Ok14V/CN7WNi4sO
+01Fa+uKlQ96jjjNSYySkNIhDCiUZw6BUpgbkvJP5fOVaOBfjsyvq4ijh1rfTeq6X
+MyvAKsOG3ilUUotYR+JAUHPEerFwAN0H/K4gzVfpUzk71ji/9pVAjzsayf5ziNBl
+4X1AtvpAO7gcagIEWsc+WyBuu60FMPyBfSq6BmSEIADoQ7h3PU4JTwIn84Qy578q
+ojOGrBKmEOd53eQpINua/aBwlo/rO1fysKSMSopPFjr15HMww86stcgRQl65Kh73
+p5wgs12GU5UWLoXzQxr6eWMLOFUYNp/ZCklrPWKejgkAGPFJPDDMXk54poJz7GnJ
+C46yufi01lKcb5eOMLfmHgpNXCkdyyMyM6aw2abJmqaVnPGBHlee9d24nJxL9kbS
+3TxbsM3D+Pd/y530kjMaBIfr5YvksSlph+WiLubqun4nSX+k4faRTJSB7vr5Y9JJ
+guVkeLWoNjXcYm3v+rZD/lM+s+O1M3S2MdPINJxE5ainVUyJxVM=
+=M8rC
 -----END PGP SIGNATURE-----

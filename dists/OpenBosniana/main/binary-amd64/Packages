@@ -60524,21 +60524,21 @@ Description: abstraction for power management
 
 Package: ure
 Source: libreoffice
-Version: 4:7.4.7-1+deb12u4
+Version: 4:7.4.7-1+deb12u5
 Architecture: amd64
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 4197
-Depends: uno-libs-private (= 4:7.4.7-1+deb12u4), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libicu72 (>= 72.1~rc-1~), liblangtag1 (>= 0.4.0), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha), libuno-purpenvhelpergcc3-3 (>= 1.4.0), libuno-sal3 (>= 6.4.0~beta), libuno-salhelpergcc3-3 (>= 3.6.0~beta), libxml2 (>= 2.8)
+Depends: uno-libs-private (= 4:7.4.7-1+deb12u5), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libicu72 (>= 72.1~rc-1~), liblangtag1 (>= 0.4.0), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha), libuno-purpenvhelpergcc3-3 (>= 1.4.0), libuno-sal3 (>= 6.4.0~beta), libuno-salhelpergcc3-3 (>= 3.6.0~beta), libxml2 (>= 2.8)
 Breaks: libjuh-java (<< 1:6.4.0~rc1-6), libjurt-java (<< 1:6.4.0~rc1-6), libreoffice-common (<< 1:4.5.0), libreoffice-core (<< 1:7.4.0~), libreoffice-core-nogui (<< 1:7.4.0~), libridl-java (<< 1:6.4.0~rc1-6), libunoloader-java (<< 1:6.4.0~rc1-6), ure-java (<< 1:7.1.1~rc2-1)
 Replaces: libjuh-java (<< 1:6.4.0~rc1-6), libjurt-java (<< 1:6.4.0~rc1-6), libreoffice-common (<< 1:4.5.0), libreoffice-core (<< 1:5.3.0~beta1~), libridl-java (<< 1:6.4.0~rc1-6), libunoloader-java (<< 1:6.4.0~rc1-6), ure-java (<< 1:7.1.1~rc2-1)
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: libs
-Filename: pool/main/libr/libreoffice/ure_7.4.7-1+deb12u4_amd64.deb
-Size: 1225812
-SHA256: 70a95cc6d0c0ee267a70bba6d457265fef7a2d06e8d5b81da5a89bd489b61297
-SHA1: 73314cca3e046c9fa6a47245dc6e4be57a216ed9
-MD5sum: 465dbcc33abd49755f0eb7dc6e74a6d8
+Filename: pool/main/libr/libreoffice/ure_7.4.7-1+deb12u5_amd64.deb
+Size: 1224396
+SHA256: 4c8c5418fd4c58aa8de1b634b2b0eef9e8b9fb260b399b3bb60248e8fea497b5
+SHA1: c89f6627f8bdbc48e25336283735a06dd3700351
+MD5sum: e40ecffb8bc57116d1b6067546ef5bdf
 Description: LibreOffice UNO runtime environment
  The Uno Runtime Environment (URE) is the well-known UNO component model
  of LibreOffice, packaged up as an individual product.

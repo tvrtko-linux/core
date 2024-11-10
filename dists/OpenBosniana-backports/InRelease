@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sun, 10 Nov 2024 02:10:03 UTC
+Date: Sun, 10 Nov 2024 02:30:50 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwFfsACgkQ5Vfn9vbt
-T6rjrBAAvr4E+TQtjYo1LfKuCL2lh04d7+E5Ir3kNc/4508hMG2acLOEeakehUc7
-bV1zppYA9pZHVeUOzWLz0pSgmYk8w66iAqUb4eeRo+4nyTLnqOYIudtsPCZqcN4l
-e0oS6L8msz3+uoW1arY3Ss53hO2lsPzPxVilpxSeaFV3Zt6le1OBTI3cDa20k11j
-MCQToZio8rEqBvM9ux80+9BYu4saRAKOmKqdoGqcv3FP8/rzRtdF9jj6knvCEMoj
-fp6RiBXA0ia70zTvgbJk1LUW1ouPSWvxf8WVgnyr5lGAzR6eTgIYxsVjwdRtBxzt
-egCkmN+Fkz8CD3Mo/mdc3V5ZqcxsZFK+ArGBlYngU0JSyGDpCfFebfl9N53iUaW/
-xwL4PQeUjwMmWiNxY3fEjopTCk+Zq+0tKWuqNKY0lqMRl1h1SInAXz8RSx894Dpw
-N52hWK3pbhS3LLNJLaFGGVkh5b3zsnNXDirgNTsz4HhmCFOKjuDLNU7uDYYdpHso
-RUdMRbEo+VAHMoQeKq8AZUMlj0C40ZQitAt9OLWPYP9zFlvT4oDnCDPe92eZV924
-125wdN+3PCYch/qq3EvZHg+VgXsh1R+zTGYBS2AqmVx3tuuw+Z7KGe2AorISjayy
-7esODagjtz+PIinJuF/Wxwd7U7BHFSML+Egz4lYsWrlpjw3Gm3A=
-=F4Bh
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwGtoACgkQ5Vfn9vbt
+T6qjARAAsKRP6bG9WpBM8oOce2fPuO0bY4AAFSZ3c6tKG+4FX+jovdEARJOLMtiX
+TfjyAZdgoUDiunfwsMeXu1vwTeLrlT61NOZ4FHw135BUXvRvS2yc0V/kMd8JqA5Y
+guQ7oOEL98QFJSrArxlHL+5zANIRN9mI08GCBDMNg2d6NUF65p8o4fBevLMr9Rpy
+jBtGDYjXQMsYq9lAhU23wmtI+fLgDQHKnV9QSjdpPkvYKJv4X7yC9X/qxiGRkzaQ
+9rRgIkL5VDKqhKio394dS4VqNn8tJ49NKh2jhX0cbu0rhMmO37lrlY5jp4VEGhbJ
+AshYDNmbOF/FM+/1uQkkOIETCZkXdVIRRAVYXnjdND2FgwEFRFx0Do+LKI2vTiDy
+hS31ts8JFDPvzpjS219H7s5yOV6lN+onZb0rYGslIkhAOOPvFRXsbAW/nf1dTBFX
+CDusYTEKEQSbjK0Vg+9ulZabpgJNhOm1tsxdH8XW2d2TpJLj6xBlgaMqh2hNMaOZ
+/mPyWIdmETDUgr4utuDe+XQLPvoIIMFeuM/TtzCTpVMqeEQ2DygOdW4C9BorSQG5
+vleJET4qHCp5yNxCx4FW03Xnaqb5ByUda9AB1q3qZ7eoqwve1ZFKFgvr8L3+YiXF
+oSjdKw3uxNtOkifoDovCcC1lnsQrHR/jyrduH6XrcSJ0o/uPIRY=
+=sOo9
 -----END PGP SIGNATURE-----
