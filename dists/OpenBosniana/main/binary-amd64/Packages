@@ -1397,7 +1397,7 @@ Description: GTK theme built to match KDE's Breeze
 
 Package: breeze-icon-theme
 Source: breeze-icons
-Version: 4:5.104
+Version: 4:5.105
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 32259
@@ -1407,11 +1407,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.104_all.deb
-Size: 9303172
-SHA256: c886d7e7ff31ac3706aae555e3b2bb4de157883e9c7601992686b7df1c802188
-SHA1: ee9245a7e3f1bf6233e069f94ae2321fbd387a29
-MD5sum: 7b4d30d3f9fc36c817e8d2f04874b387
+Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.105_all.deb
+Size: 9264548
+SHA256: e898f9fdee2f1de20fe957e1f6435d0fb7a77cac7c68d0cefcbcd33bd95f3a1b
+SHA1: d938c6e22459c7873054575001d1ff8eceb91a62
+MD5sum: c4d2f7dbcd3d9009f8808dce0e8bb4d7
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 5 desktop.
  .
@@ -17852,20 +17852,20 @@ Description: EXIF/IPTC/XMP metadata manipulation library
 
 Package: libexpat1
 Source: expat
-Version: 2.5.0-1
+Version: 2.5.0-1+deb12u1
 Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 387
-Depends: libc6 (>= 2.25)
+Depends: libc6 (>= 2.36)
 Multi-Arch: same
 Homepage: https://libexpat.github.io/
 Priority: optional
 Section: libs
-Filename: pool/main/e/expat/libexpat1_2.5.0-1_amd64.deb
-Size: 99340
-SHA256: fe36a7f35361fc40d0057ef447a7302fd41d51740d51c98fb3870bbed5b96e56
-SHA1: 0ddbb0ff909c123824e1c2d2ef47ed816bc2f49c
-MD5sum: 90141378f5741f454e8494bc69febfb5
+Filename: pool/main/e/expat/libexpat1_2.5.0-1+deb12u1_amd64.deb
+Size: 98936
+SHA256: c2bd305125bcece5816b2521f293a99499d674cd2dd744416caa4952158ad99d
+SHA1: fbab3c40101f8af372869db5060cc5df489c70e4
+MD5sum: 5e550700a77f434e39fc198ed3594ffb
 Description: XML parsing C library - runtime library
  This package contains the runtime, shared library of expat, the C
  library for parsing XML. Expat is a stream-oriented parser in
@@ -31662,21 +31662,21 @@ Description: interactive high-level object-oriented language (default python3 ve
 
 Package: libpython3.11-minimal
 Source: python3.11
-Version: 3.11.2-6+deb12u2
+Version: 3.11.2-6+deb12u4
 Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 5202
+Installed-Size: 5205
 Depends: libc6 (>= 2.14), libssl3 (>= 3.0.0)
 Recommends: libpython3.11-stdlib
 Conflicts: binfmt-support (<< 1.1.2)
 Multi-Arch: same
 Priority: optional
 Section: python
-Filename: pool/main/p/python3.11/libpython3.11-minimal_3.11.2-6+deb12u2_amd64.deb
-Size: 814448
-SHA256: 97abc912bde891d6b5e1e893c063070aba5bb4234df606193a8e998244e045ff
-SHA1: ac854f34e5a72a71fabe3f8b6798fe024c936c04
-MD5sum: 8831aece65780fb2fb9ee42461efbba5
+Filename: pool/main/p/python3.11/libpython3.11-minimal_3.11.2-6+deb12u4_amd64.deb
+Size: 814592
+SHA256: c468203e66bb2a1f1a1fff31412b465446138c102b93377ad5f91182843bf838
+SHA1: 96d325eca20339bcdb7a7d93ade3342d4ec3ea17
+MD5sum: 7d3c0afb31766d240b6c191a84706ac8
 Description: Minimal subset of the Python language (version 3.11)
  This package contains some essential modules. It is normally not
  used on it's own, but as a dependency of python3.11-minimal.
@@ -57101,23 +57101,23 @@ Description: Interfaces for Python3
 
 Package: python3.11-minimal
 Source: python3.11
-Version: 3.11.2-6+deb12u2
+Version: 3.11.2-6+deb12u4
 Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 6770
+Installed-Size: 6766
 Pre-Depends: libc6 (>= 2.35)
-Depends: libpython3.11-minimal (= 3.11.2-6+deb12u2), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Depends: libpython3.11-minimal (= 3.11.2-6+deb12u4), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
 Recommends: python3.11
 Suggests: binfmt-support
 Conflicts: binfmt-support (<< 1.1.2)
 Multi-Arch: allowed
 Priority: optional
 Section: python
-Filename: pool/main/p/python3.11/python3.11-minimal_3.11.2-6+deb12u2_amd64.deb
-Size: 2067088
-SHA256: c54fa106f753553fa5026ddbaec6194d72bff0a0769936e0ac34e26159218996
-SHA1: 793b97dd20cbdcb8a132065a5c92695b8f022beb
-MD5sum: 59cbbefe8fd575f4b2877af1ba67126b
+Filename: pool/main/p/python3.11/python3.11-minimal_3.11.2-6+deb12u4_amd64.deb
+Size: 2065936
+SHA256: 1c104e4804a7bc312b235ce7297a5f6aafac8a436cfd37f3ded8279bd2e837fe
+SHA1: 12fdbeaea06551bf6f8c04c431bee4efa77dd42b
+MD5sum: a48cf0abff83f61f6e27580b3e31b449
 Description: Minimal subset of the Python language (version 3.11)
  This package contains the interpreter and some essential modules.  It can
  be used in the boot process for some basic tasks.
@@ -60427,7 +60427,7 @@ Description: Unarchiver for a variety of file formats
 
 Package: uno-libs-private
 Source: libreoffice
-Version: 4:7.4.7-1+deb12u4
+Version: 4:7.4.7-1+deb12u5
 Architecture: amd64
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 660
@@ -60437,11 +60437,11 @@ Replaces: uno-libs3
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: libs
-Filename: pool/main/libr/libreoffice/uno-libs-private_7.4.7-1+deb12u4_amd64.deb
-Size: 227076
-SHA256: ac1f62de382a11ec711558728f29b41b693a3f8756b7d3168a25584a9cc5b478
-SHA1: 4c5516562f6fda1b9ee8a08d4a9707c470136e19
-MD5sum: d659e6b215727ecc119832ced00d377b
+Filename: pool/main/libr/libreoffice/uno-libs-private_7.4.7-1+deb12u5_amd64.deb
+Size: 227224
+SHA256: 45133ddea410deb18568d45a81a89656daee1aa61b808df1bdf3ac274ea4b3e2
+SHA1: fb047a9fe75af2f5d975fb006bf468def60c46ed
+MD5sum: acb39d7e7111e5d55d5f7ff354516f5f
 Description: LibreOffice UNO runtime environment -- private libraries used by public ones
  The Uno Runtime Environment (URE) is the well-known UNO component model
  of LibreOffice, packaged up as an individual product.
