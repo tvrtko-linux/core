@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Wed, 13 Nov 2024 14:13:51 UTC
+Date: Wed, 13 Nov 2024 13:32:31 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmc0tCAACgkQ5Vfn9vbt
-T6quEQ/9FBRz8g/W5JGQyJzpCqeLO/oxht1zC5N/KrBM76JaZq4/hxowimmt0b7F
-eHzm5c+ECmnEE+Ddiv0k2j/LxB9RwVUtAlzVCgvM7XW1o7A1U/nTTrGhGoZd98Yn
-brWTEDVueqgHGrSmqGsg2+yb4h0ZMRLtgv4bPDkguqyg/jzeqFc0mGePFU8wYH4V
-+C5Q5hs79UFLOjfjjzDCqjGZgPkQv6FULYGUZ7s07ZKRcp/cPgB6x0CiXunUz2sP
-aFMFn+WJgaL7SYJbzhkWzc6uep8XsHSIHwtNzkE6l8JltsPCoprmlN/oPep6RCXa
-8ABjIlo3iOa5BQ6pKbNvKk6mAPdl8Xii6JAoVX3p157DiVaYWe8OImmdH6NelJE1
-tbQW4yib+yuWLv4V55PHr5QAtB7tQAdJPgLkg07nBw4dQwxzkmFekNsUWz0fBMUm
-8U5gHyGiUUJfXxg2bN/LUaUQ5ymriV2ENZKcvEreb3Yi4s8wpXFzR2zYkXqeA/AG
-1ykfHmk2ReL18q2oVcYu3NngWvzzSC5p7SBNegGF33StLJTUHPfVXM0vtQae1j8N
-AtRLL1gAooPls7nov7rnDXEVsdxuTl/EBNT9p5bioiU6uMJoi6M7QkXLoaMfJ8yQ
-tK2iqbnmpWfZYu2XwR9fxETGs6IHUZSpwvAmu1syK97JoWArISQ=
-=yVEr
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmc0qm8ACgkQ5Vfn9vbt
+T6oQSw/+OKDZ3W95vaOgrUfNjJwz4YgQGy36j55aDdfHK3S5HYlxuYBPiS893+CK
+Nz3szQ30Qt482ba9RvAwOzrBxUp86/hVx7bDdfBkNj6EkPOB84eeVJMc2huoNtBo
+1/BkEp6VPL+rMPvwPa0qN5aRexWzM+SZKHuFjhN1I36lHN5hwBqu4/8x0nT3sGzM
+OL/kZYXo+bctmX9GI3ReY5ZmHxOh+NqrUDZhhx14VpouZ+5nmjbgxTJdWEYdGEwJ
+2s+G4g6TsAFz0Oy11jfn78hVclkAwZLO0LUwP58ugAkVWQ6xjJ45Y2MfIFaEsLOP
+SFT4USQnp/TJq0h0PmPxzVCFNe/3TizHcayy0lukCTDWa4KxGcFwsOh7TtEs+zHj
++twbrj0ourCMWsy8wkMTf0N0laY5m6gi+fcLJQbxwyHBDenZ5V68A/byTnEop3z+
+BM5Tl/JSHrXRGn6FU0yECjV96QwCqQGethwOz3ys310/mfKfjlAEnmnbCosXtwgJ
+TtCm/F3FxIG7XPcH54ETthS6D9JufiZDSahTz2gq+h080IQTc0/2BQTJLkDFQcTL
+62yND0cckxwAxZe38qzw6uGq2ZfR9gIc5E8cNzA+dXuQZ5d9yzR12byckCClJcqB
+BlKfU/sCavq1UCwcSQAo53CJNW1Uv9OORMG05rOFSHChZ++AdpM=
+=0zsC
 -----END PGP SIGNATURE-----

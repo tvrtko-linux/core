@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Wed, 13 Nov 2024 14:13:49 UTC
+Date: Wed, 13 Nov 2024 13:32:28 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -213,17 +213,17 @@ SHA256:
  91f40351dbeb69ac40d6945dff04b9b478f362184c4c9012ed3500748c0da30c 186 udeb/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmc0tB4ACgkQ5Vfn9vbt
-T6qj6xAApHpiveaD9kE1n2cwM/jWyyd98JxLI7x+GbqSGaZ+aC7tVygiXo0NPlzU
-OzXDjxA1GCaPZsKtgAewQWSiXws2TKOWEaRbteDlizEP/4ArWkCJK8VuS+Ikh4tm
-fMAUGO8ms06mdx1+BFN/6Bj18i4wHujU8CIHtAHrWBDYJDvQnHE+5XcGc0nfFBwM
-r1ZwRwiUbRNxaYn6st8spNyfFC2yrjiPagp+tNjShIQ9nB7q2u0tygWqrwWnCEIz
-tTD7j7vq2NLLeT0zdXqrzccwk+nScdubnuRdKEgUdz+9AZyJATgkOMen2sU74C53
-ziseC1IWa/k0sU1yYA8MYi3DrNJ2u5HEuTJu09pb+3sHUxkQdkQX5WejU3HYLbTW
-uD2IPRp2d4RjTWovJpOb8lpklMqK06vqkOrmkpEZZhXMSy2QpnEUeFWAI7Aqp7/W
-emx4uVBzi1f1HFwQVBU8GkKDsuAyrGzc5qhhIQQpAgQKun3ALSIpWQVIyocrDklT
-CGLb66C/Rgf26ClZVl5n9NXVr2vmo6oaK4mfQ/ZNbpsPR+qCRqYUkDAxXzW3SZsm
-o0/ZVKjLSi1oi2AaBtCsBLWiiE8Ix/nPETTjfhjnqOQ3cun8P9i0nTAWohOn0U9V
-Z2G8EZgtmoA3niI+EcdU1v9ZeEZozcGZkpTl9QPVlnZywgTfHEA=
-=EOgl
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmc0qm0ACgkQ5Vfn9vbt
+T6plcQ/+Mon8P2jbxal8J/tkxdaEFhPXgXGIowtVaKLjsvjS6qxbH3XvtRVQUysg
+T+dr8IrUnPBe+dpYexeCCvcAKo2xiElgEsKIZT2SRpz1n9L6MJhC56avGix/CUon
+4TLclTfzxAvqw7ojMT0yKclUkBEBMosGpYnstaKkk9Ill5b9yC6/9YAFpidy2d3x
+MC4bDMDbvmdxTdDWSRLDIyy5B4MLQ4V0oge2Lld9WFKMbpgyeNNj3UPMc1SdPf/9
+9g2kcACpKP+Y7/o4HO2nQQnLBBOJkBKrIDsRnnUZS0yRczn3koYpt6Nlxb3w+w9c
+PqY4JP4uTJmexOha1ZOAOYZOL8/of4fj50NOVWFxCGfUMy5uKcxLqupy+hhIiRiq
+h0eST9HMue2k1Xrb/luuJg9jcsR9akqz2ZlM4U69U9gG8P6bUtgGiwx2iyFW2Ex7
+yg1t1iC2qulibZ7EDU1oykt8ytj0rSEhLXA7GV3rGpfI12v0qvGTqy+uhKYXyLKg
+AnFL4r1heelLdWCso8d5kQ7TtK8cH4pmzLtMqpZUDimmeB2aJigT5H46CpsZDe1S
++B6B4Q9NQ9d610SLXz9yAnzxWsLLf+rPVsi4R4gCs6T87PpFQWmJQp3Tqi15c2bS
+LaMNW6fUvQz4KfA6P2xDaaUvyvO3sPQb30L6/9MHo4vDwr/z1+M=
+=0RiX
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Wed, 13 Nov 2024 14:13:52 UTC
+Date: Wed, 13 Nov 2024 13:32:32 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmc0tCEACgkQ5Vfn9vbt
-T6q+DhAAnIHgUYUpaIzKkhsUmLeP+1OuIOW6dbSSLjoRM6SDewRqfOrzN08WniKX
-TqyaNPTpLvXSUEIbR4zfF4jTt1Syj5Dh4YF3ChEQcCbQUV0ANkhvIcXaYD7HCpCp
-lBluhA2Akpm2KQWSsVj66dkLUGbIsni0vm1rcbQren3womm6MIKKdz5NUbICsg/j
-peHwGRiLbLpVD8i3SMaD/iGTTeF1w4x0cMi27XRJoniyMpeth9X/1wRfopUNu0X6
-kp+JPM3DsZZ9Di9qGKL3Ka13KqJ67znnNBrC8/Ch45j2ZzdGCk2iziF6/6BN30NR
-b1C5cMMAEhzYgnhL8P9hHFngutGMd/kghspxFaVqaX2XLTxsmuuBx33NeooRjz31
-6OkG3H69g5F9YoZ5pkvnISNU/JW1yik1lYcx0GP8+woii767/ApplcPruGdy/NpT
-KvUGD5UvicL6zWg6xMtWUjcqMyq1XzriI8hBU8oxywEY2Zef1PVrGqFHdMOP4PAJ
-eiLG6gMzgiI4gSngrK06J/zSpbUk+Dv/yVNnFA7yiZi+tfXKRsqOJKc882bxThMA
-GVCRl+ALHp1SdS68x31eCIOhAPGzJokZ9czBgbxQ9wfGuUCU7dahjYseJMrmvRY/
-XxLiJ4LEYpnD9ObDWfFPteF3KjlOuMuEPwU5h0z/BQ7zOzS23qk=
-=lKNW
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmc0qnAACgkQ5Vfn9vbt
+T6pyIxAAm+UPtEqbFelsfNJdXOU4Hc1mXLMsSl3eWtSFdOL+ASONprXEDyEI6mAx
+tPVd+SjZ+WOk5L7eoqe5Bqdu6wO1eHHOtZjNRBLhuVfmm0c05dSJ2p5RILiiMUA1
+/9TaSRscSR1/FVyTWm7bLQAdA4ZQ/WJk7hyPb2iXxx9jibhSm8P01tHK4Cz1lLuq
+vFtMT/bojZCPtqDNXsGvODK9j5yCwHwDIb3Poj577Jwet1+LTtjJuedmAvUMHRh5
+MxwaFxxrBRjfS9rPtmfoGAVuZHAqMRGKueJusmi0072HsyMC5chT1QD1Q9cDeCvH
+9hkSKfGARmj1T6fGlIk3ak6vItaKYsSP7mplb7YmEH/SnHPvcGiaYPxLCdlFAPp2
+NFyLzZ+OgPX43mKqjqYg6JVNcfewAZusPGS9g3oBEXwugFJA+AOaYtR77+OteL8m
+iOMd8v/JzvNsh3/U+OfUJKoE3W9ceq0mUUGPVPqzBa5k640V09ppkEfiQd27vhLC
+JrIHLxlNHgocjK92dEjDho2JSTiI+sAogq9zHaXgVg8ON8+0+WR9pZ7+vt84ZlIm
+Z3XnSkSVq2cCWUiUWpYUcZVYGqErcRLaTP74kfcpDx+6Aw+RoP8LIC/n89ravfDX
+N21QAFWM3S9d3fJzb/xESjZ8+dySajzXYyRqeB+vpNqGTbG6XcI=
+=96BG
 -----END PGP SIGNATURE-----
