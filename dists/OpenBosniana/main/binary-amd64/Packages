@@ -1397,7 +1397,7 @@ Description: GTK theme built to match KDE's Breeze
 
 Package: breeze-icon-theme
 Source: breeze-icons
-Version: 4:5.105
+Version: 4:5.107
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 32259
@@ -1407,11 +1407,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.105_all.deb
-Size: 9264548
-SHA256: e898f9fdee2f1de20fe957e1f6435d0fb7a77cac7c68d0cefcbcd33bd95f3a1b
-SHA1: d938c6e22459c7873054575001d1ff8eceb91a62
-MD5sum: c4d2f7dbcd3d9009f8808dce0e8bb4d7
+Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.107_all.deb
+Size: 9196276
+SHA256: 356436c47ea277c7076b8d2b55ba8fb70d23463d24e0ad53d605924cd178b081
+SHA1: 554c686d00e84a706b656055b9a859988cbce115
+MD5sum: a4b18cf6e0f2137c302ac2d838546db0
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 5 desktop.
  .
@@ -4820,6 +4820,22 @@ Description: lightweight Exim MTA (v4) daemon
  list if you are sure that your question is not Debian-specific. You
  can find the subscription web page on
  http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+
+Package: extra-xdg-menus
+Version: 1.0-8
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 62
+Conflicts: hamradiomenus (<< 1.2)
+Replaces: hamradiomenus
+Priority: optional
+Section: misc
+Filename: pool/main/e/extra-xdg-menus/extra-xdg-menus_1.0-8_all.deb
+Size: 756
+SHA256: 1c44cffd16700c1425d226dcd07f271f7d7134084105059941123511ff6a848c
+SHA1: af1cb7861c00f7a04c49ec6aa477c51b773bed24
+MD5sum: 209d651eeaa0475b3b37ef19cc263c93
+Description: Empty package
 
 Package: fakeroot
 Version: 1.31-1.2
@@ -51467,7 +51483,7 @@ Description: OpenBosniana FULL Interface metapackage
  office suite etc.
 
 Package: openbosniana-menu
-Version: 2024.10.11
+Version: 2024.11.13
 Architecture: amd64
 Maintainer: Denis Maslo <denism@bosniana.org>
 Installed-Size: 10669
@@ -51476,11 +51492,11 @@ Breaks: dradis (<< 3.1.0~rc2)
 Replaces: libgarcon-common, mate-menus
 Priority: optional
 Section: tasks
-Filename: pool/main/o/openbosniana-menu/openbosniana-menu_2024.10.11_amd64.deb
-Size: 8652700
-SHA256: a728961d23c2786171ccdb2c04159e383e1c24602170fc21ea77547be47218c7
-SHA1: 531745447a24025aa8481ad2073fb4ea8b979518
-MD5sum: 2d98a8df2dece72127f4828ce65f35c9
+Filename: pool/main/o/openbosniana-menu/openbosniana-menu_2024.11.13_amd64.deb
+Size: 8680420
+SHA256: b621d3fe8006f39af225f92f5c30105fd51d512164ba4d0a5d64e09665a9da82
+SHA1: eee54b0231550d4707b21efa35f6eb59f6a6eb60
+MD5sum: 642098cbcf5347c839d9567bc2db698d
 Description: OpenBosniana GNU/Linux custom menu
  This package provides a custom menu for OpenBosniana GNU/Linux.
  .

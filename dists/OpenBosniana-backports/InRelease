@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sun, 10 Nov 2024 02:30:50 UTC
+Date: Wed, 13 Nov 2024 14:13:50 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwGtoACgkQ5Vfn9vbt
-T6qjARAAsKRP6bG9WpBM8oOce2fPuO0bY4AAFSZ3c6tKG+4FX+jovdEARJOLMtiX
-TfjyAZdgoUDiunfwsMeXu1vwTeLrlT61NOZ4FHw135BUXvRvS2yc0V/kMd8JqA5Y
-guQ7oOEL98QFJSrArxlHL+5zANIRN9mI08GCBDMNg2d6NUF65p8o4fBevLMr9Rpy
-jBtGDYjXQMsYq9lAhU23wmtI+fLgDQHKnV9QSjdpPkvYKJv4X7yC9X/qxiGRkzaQ
-9rRgIkL5VDKqhKio394dS4VqNn8tJ49NKh2jhX0cbu0rhMmO37lrlY5jp4VEGhbJ
-AshYDNmbOF/FM+/1uQkkOIETCZkXdVIRRAVYXnjdND2FgwEFRFx0Do+LKI2vTiDy
-hS31ts8JFDPvzpjS219H7s5yOV6lN+onZb0rYGslIkhAOOPvFRXsbAW/nf1dTBFX
-CDusYTEKEQSbjK0Vg+9ulZabpgJNhOm1tsxdH8XW2d2TpJLj6xBlgaMqh2hNMaOZ
-/mPyWIdmETDUgr4utuDe+XQLPvoIIMFeuM/TtzCTpVMqeEQ2DygOdW4C9BorSQG5
-vleJET4qHCp5yNxCx4FW03Xnaqb5ByUda9AB1q3qZ7eoqwve1ZFKFgvr8L3+YiXF
-oSjdKw3uxNtOkifoDovCcC1lnsQrHR/jyrduH6XrcSJ0o/uPIRY=
-=sOo9
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmc0tB8ACgkQ5Vfn9vbt
+T6pD6hAAkqqmzqtZ1WXWZPS6vGGtuh3NuyDMs2Gw0bgyInjASvpwBiQYTnAfE/L8
+SEy8fqvKvFLI8IUN5nEVonIaqOCzET2ebWcjKMqkZfByCcoQZYE23ef8/Jt9lx63
+6vYohyFGwUKzmekOLvo0ZaG76TNth8yievWdcXzNIuEDrJihuvi8Yvh+ZYHCKPgQ
+ZMETfG+d1CJ3ViiqIBXqxnZ7B8eZgadpjC78zjuldcgYodsIDD9RIoZ0Nvze333A
+CYUqGjEmRZuIWXLr+rLYyoXcqU6Aa70nMNHnnMCbrYrJilxWHxkZhGZt6etLMUcP
+y96a84oy4uJFzga1HtmDyQ/N6ryOqnUzw/McrChkMAyk9PtrDxmGblR0W4SBWsG1
+PG//l18lUniwBtUOWXJQytBJYUW+72TI/8HJzdqv3IRkGpHb4rryEEJ8MXFYrTKh
+gYBgxz4pRYMxmz4Mad4x7YaOQhGBeiOy2V0oS1ELXZC2hreUcdVPqCBPy4p3VT9a
+GPijg/WBKvXjltOvjg+J7gpglYo4qLZ3rXn3NZ7XWI1G+m5Y+j0moQWI2fEH74ik
+mRkEs6ezUEi8c5CnxVPmKCFpO/RepOGnPf54+TMrgUSKxqiMkDf8LaIfLVPiNjZw
+tmH8O2JPr5oij9sBmmD4Jj2BG2VvNKIsTdmPEoqsw4GgJfsyTKM=
+=fiFU
 -----END PGP SIGNATURE-----

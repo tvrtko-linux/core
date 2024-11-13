@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sun, 10 Nov 2024 02:30:51 UTC
+Date: Wed, 13 Nov 2024 14:13:51 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmcwGtsACgkQ5Vfn9vbt
-T6r5cg/6AkcRaMMOoDr+qx4a4+596OOkWdHWdK1HvESOFrYDv5s37T8zdQfi/1EF
-qpYgPBhS4ARbmAd5QkbyqrZJCnpwRBILbfSgm0DfS6N8p4Sym1u708guVW0MhXIf
-/MYdJNX8n99MPR1/V3DN+8oXeZ4n2XfBRLycJ999m6gRIq8x0Ok14V/CN7WNi4sO
-01Fa+uKlQ96jjjNSYySkNIhDCiUZw6BUpgbkvJP5fOVaOBfjsyvq4ijh1rfTeq6X
-MyvAKsOG3ilUUotYR+JAUHPEerFwAN0H/K4gzVfpUzk71ji/9pVAjzsayf5ziNBl
-4X1AtvpAO7gcagIEWsc+WyBuu60FMPyBfSq6BmSEIADoQ7h3PU4JTwIn84Qy578q
-ojOGrBKmEOd53eQpINua/aBwlo/rO1fysKSMSopPFjr15HMww86stcgRQl65Kh73
-p5wgs12GU5UWLoXzQxr6eWMLOFUYNp/ZCklrPWKejgkAGPFJPDDMXk54poJz7GnJ
-C46yufi01lKcb5eOMLfmHgpNXCkdyyMyM6aw2abJmqaVnPGBHlee9d24nJxL9kbS
-3TxbsM3D+Pd/y530kjMaBIfr5YvksSlph+WiLubqun4nSX+k4faRTJSB7vr5Y9JJ
-guVkeLWoNjXcYm3v+rZD/lM+s+O1M3S2MdPINJxE5ainVUyJxVM=
-=M8rC
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmc0tCAACgkQ5Vfn9vbt
+T6quEQ/9FBRz8g/W5JGQyJzpCqeLO/oxht1zC5N/KrBM76JaZq4/hxowimmt0b7F
+eHzm5c+ECmnEE+Ddiv0k2j/LxB9RwVUtAlzVCgvM7XW1o7A1U/nTTrGhGoZd98Yn
+brWTEDVueqgHGrSmqGsg2+yb4h0ZMRLtgv4bPDkguqyg/jzeqFc0mGePFU8wYH4V
++C5Q5hs79UFLOjfjjzDCqjGZgPkQv6FULYGUZ7s07ZKRcp/cPgB6x0CiXunUz2sP
+aFMFn+WJgaL7SYJbzhkWzc6uep8XsHSIHwtNzkE6l8JltsPCoprmlN/oPep6RCXa
+8ABjIlo3iOa5BQ6pKbNvKk6mAPdl8Xii6JAoVX3p157DiVaYWe8OImmdH6NelJE1
+tbQW4yib+yuWLv4V55PHr5QAtB7tQAdJPgLkg07nBw4dQwxzkmFekNsUWz0fBMUm
+8U5gHyGiUUJfXxg2bN/LUaUQ5ymriV2ENZKcvEreb3Yi4s8wpXFzR2zYkXqeA/AG
+1ykfHmk2ReL18q2oVcYu3NngWvzzSC5p7SBNegGF33StLJTUHPfVXM0vtQae1j8N
+AtRLL1gAooPls7nov7rnDXEVsdxuTl/EBNT9p5bioiU6uMJoi6M7QkXLoaMfJ8yQ
+tK2iqbnmpWfZYu2XwR9fxETGs6IHUZSpwvAmu1syK97JoWArISQ=
+=yVEr
 -----END PGP SIGNATURE-----
