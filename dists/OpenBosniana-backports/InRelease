@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Mon, 09 Dec 2024 11:15:46 UTC
+Date: Mon, 09 Dec 2024 13:19:51 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdW0WIACgkQ5Vfn9vbt
-T6pP7w//c256+CT11/7FY20KKjZ3Z5fgvDJ+Yeyov9qbTDvFY1TQiJ7XMFXfJKTG
-v8CSbaakfuqdF8bpVcy+rxmkaFfuXrcXb64zVm3/NWGrDKKsNQ1oJ2SLWKiMnXf/
-jxhm5G4droQDorJXlp2bjWNcEMkvpbY5nnmAik0gsMftJZ6Fx6RMeIjKQe3G8rFU
-VLMd03aWJaN5NkOs+YemPUISlBHar3HGMX/JR54DCBgVOYKIeoIrzjcGOCRb/63M
-oWDcJQ74W80NXVQrZunxNaoq/G3TuQtNOwVFIeszmGQ71+fqggX1PvhzHQYyItCd
-T6CBLqIbcLj4LlWnpdRBcqyabka2+zoR6sXzA6pDMBM/F8GPl/FnaJuR94dTKZdd
-wSz85HNhbtmfYWonG16BIcYPEoHnunuk9QoBQj7qvU8hF0IXZIbKnCHiuWBBQnkQ
-QMuLIzsUPrixIVZ3Q/q6f8YKVvp9dtWDNFBN7OwBV44P0glFLN3NH/XwTKTySKkc
-7hmIil1p+NL841rHfPmR6OlPd4I1kZIFLtaOft1KCn9L5Q+4NlUZtbVwc1EiJEu/
-ENav8Z7xd8d8obUnTJe5gYZoup5R5T8I1fjlunpQ0ZObltwF3IJrf9KjtD2qkvxL
-ouBelK1BH7jG/II4gY1ylITwInwTwZY5OKwk/JHGcana+JAHMo8=
-=CA/k
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdW7ngACgkQ5Vfn9vbt
+T6o/UQ/+NbBRcYfV7jaoWz9FkrnU5JB5zVL5MiaTQq7txCj/yk+6HF/B+u+Uvoij
+suwnawLEPvEyvyB2Ui29kSSQFQE9XrCGgBELckAqhkxlZuROWpa8vHUlv0fOZVe7
+36UK754qluX/64I9cYFjFf4Rmjpc/gV92kBxF+YqThLZy8Tn0mEMswNa6IAYz4UE
+VzolezjiwjbbaFUNOcKIpXH/KTY1w9Dv9C29+qeoKNxW6vRroiNj/bRfh3JgjA24
+uKGQRRfQ86T1wZfznDt4Iqqtx2wSKJwDXV+DlN/2exxaK/fRZcD4KC9LEvHN/Y8E
+SveppAcKyMD7aW4vzDdaZzFkZcteAe5JL5clg0VNTTLiclAwWJxCUwgngaB2eYwi
+ED66tgmAi+Lnp6ZjisNQAMe/ZEFmEU6JXkC7ZyPilQQOOALxioIuP9QlUbZUUQYd
+Z+FgTRy0Ftq/woMcgJJ6HZ5b1Vi2wzjnEGQuCoqunCUOeglUrS6IQ1qMekaHyGv3
+YyrVPXECVnrc8FMOAuqKgvpW7zxa1Rb0icQqsxDwfJPrxda5y0XX8wJYc/4tUjiV
+gWICKqweTErxuTmwvxq7080oDjiep7qA8g1xrHwpBo30LJpUN1Lc6EQCJ1J4Qb3+
+0kMsCc6yorVy4h4MVDU3jkGKzqXKrWr92esAkMlUAzpycmJmDXI=
+=Eg8F
 -----END PGP SIGNATURE-----
