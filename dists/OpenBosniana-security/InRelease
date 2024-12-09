@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Mon, 09 Dec 2024 08:52:17 UTC
+Date: Mon, 09 Dec 2024 11:15:48 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdWr8EACgkQ5Vfn9vbt
-T6qfDxAAtUIFxPZlfSgtb/a3RvBQiu4aEgudbVfab/mqPPsWEIF4Opx0bV+QOWh/
-6LbOM7GRm8vgv2rC4gO8+WMVJ7D4DAsSjLQG002Eg+tPu/76Vm9LzNjR49371/05
-3yKWnzlFWn+qBZarK7nxCr63fu7y/T8nie8ucuJFWcybecv5MHcJHxrVsYhwC2fz
-8vaswm7Dv95iM8JYvL1HfK24irru1dc6am893TPIXUvL/Ol551qkE5LsY/v3Kw5W
-C2zdrammsRlcg/bISwr63qlcgVL/C+/7j3tnI0tFSaZbkSQ8kVabU/Kdivjw2LD7
-w9wLxlaCB1amyGhqhnwGkL3PscbWPqLgD1g0npemQwTCV7LeiQDw2uSkmkRWHILJ
-fLKpbPimPchbmyucusSeoTHj3zik87T4LuAwHKIB/QvdoNbOxef1wdN8a9hbQLgj
-0v9QVQtOfJHiiezvT5+kkMkCORpDXaIVbtIUKVKYBD8l+3243xqf8xeJSbaKhp9L
-BT3RsqtEYd2vPxVxopAr/SUiZa9yfFI4kGhfJ0ufeULoUTrHCL3zatnCucIriouA
-w1gWyAYzhJU/U9Iq6HAn8YzTPa9Hpy/fH9vq7NTZvHcTW/VjzCKi52f+8OJI/ZBr
-NGpabtF2tAg2Nvtz7NCxA4cLNTRyuRsxrZDLheOocop2c+Ek8EY=
-=9m1d
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdW0WQACgkQ5Vfn9vbt
+T6oQsQ//W3rkmv90oDqG4We6NL23oUEIcglX6aZLcQL/QktHgoNaJkNBSFVf+gSL
+SgVdAmmaFX11G33i7ox3si9SNp8YhkXsFZLE6Aj7z7VIjd1+cgtljjsHAfIvbg+e
+zqiaY1Aj6yw0nc1bcuohVYNWi4ILSuXX4bXwzom8okivaIcdYSIyabj1xPVLohyB
+U6OHZa5M9ZJ9+NGNbGe7F8redraa5jp5qwYkKCUcYxNH9HlMeJkykyq7hLD03qGu
+eXe1sH6/UUgS+Tt6zmPgbk+AkRFalaLZyOavGy9lU38D6Qhoje6nEQ78fLa45ASD
+zyKcJ50Jxm2051WQNEVm9G/2RRy77F7qZ10IIR69W6LGbVN3RG9J2RAXxuIwUxJZ
+LDfmjQuL3fgT5VCHQHAAJTL3p5Oy5nFZD4ocWNKrNELE7j9GTNxLXPaxioACzFor
+MJoNNy/ni6b0MRUo9ucgZ8YOmkZS/J4KM0U32Cc7+ltaXNqiH2yc18cGLwoIsVww
++dtRXq2I8jo4BDmdk9xwXRFSDUpMww0j3OxC+KlagBlXZZwQcVv/V4qweCBdI1OJ
+Lz0Y1w0uKEON6sIFY9hBbNKFYDYza9Nu89ipLqJE3JKko0ZdN/jYtOt0VzoYfWb5
+bHY32ClusPV7F/4n7ymiyA8lA0nZZw1uFBDDp2YMi9yh+w8cS7k=
+=IC+k
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Mon, 09 Dec 2024 08:52:15 UTC
+Date: Mon, 09 Dec 2024 11:15:46 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdWr8AACgkQ5Vfn9vbt
-T6qjrQ//ZuEur8M8HLAmmKvEcwCCh2dd7OtMMAldu+LZMCJPrclA3FoVJ7ng5YwC
-Q2HGNB92uXDtGDh15MmNq9459RwjsuFo81Fw55HHSQec05RhuwHBOWh/DuVSuR2T
-PNHWTt+Cl3FJbj9Ht2RiehX18vU5RogpNEAxlRK3zAcEwKnZ87bjR+ZLh8bot1j1
-P3P58DzscUpzPVipLmv5iShqPhuSMF5wgdJS7h+smoqc9UrjYKK2I2domb011H84
-oQMytsRTvCfmiytyiuFblf7c/jMNWxUgAJygAwl5S1VWK7pZlyus702D2/lLsbs7
-D8RvgxWvTzx7mW1ndgy/U88tdA8RYbXho5b3oUnSN6BTEQqAm8i33n+sXKRehLQ9
-w3Ti7UEqJDyjGLMNrgMu3Dfz/wdeg1BPoLnbAhPcpz4ub4bl/JkJovdg01EuAn3P
-yXjBBA80oHQZuXzUBV+Y6NaiPnmDuD9DIR4hC/xgjOlZJIPHkjGCeDDPQibbMu+M
-foHx3indE9mWoyLtZ/Ml8fzZshu6m9ujvB9NOJ3gsDIRqY5HqIaya2qzMObAFn5n
-NPd3ydT8nNVf5gbrQBOBDDigQAOAeRBve/lGdgStv+wHYMFPmFIxn3awd24LdM42
-RF5fPB4SmS5eRWxRB0sJpT8QWSwvwx8sgUOR1wSH2rTR3g1GtdU=
-=44rG
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdW0WIACgkQ5Vfn9vbt
+T6pP7w//c256+CT11/7FY20KKjZ3Z5fgvDJ+Yeyov9qbTDvFY1TQiJ7XMFXfJKTG
+v8CSbaakfuqdF8bpVcy+rxmkaFfuXrcXb64zVm3/NWGrDKKsNQ1oJ2SLWKiMnXf/
+jxhm5G4droQDorJXlp2bjWNcEMkvpbY5nnmAik0gsMftJZ6Fx6RMeIjKQe3G8rFU
+VLMd03aWJaN5NkOs+YemPUISlBHar3HGMX/JR54DCBgVOYKIeoIrzjcGOCRb/63M
+oWDcJQ74W80NXVQrZunxNaoq/G3TuQtNOwVFIeszmGQ71+fqggX1PvhzHQYyItCd
+T6CBLqIbcLj4LlWnpdRBcqyabka2+zoR6sXzA6pDMBM/F8GPl/FnaJuR94dTKZdd
+wSz85HNhbtmfYWonG16BIcYPEoHnunuk9QoBQj7qvU8hF0IXZIbKnCHiuWBBQnkQ
+QMuLIzsUPrixIVZ3Q/q6f8YKVvp9dtWDNFBN7OwBV44P0glFLN3NH/XwTKTySKkc
+7hmIil1p+NL841rHfPmR6OlPd4I1kZIFLtaOft1KCn9L5Q+4NlUZtbVwc1EiJEu/
+ENav8Z7xd8d8obUnTJe5gYZoup5R5T8I1fjlunpQ0ZObltwF3IJrf9KjtD2qkvxL
+ouBelK1BH7jG/II4gY1ylITwInwTwZY5OKwk/JHGcana+JAHMo8=
+=CA/k
 -----END PGP SIGNATURE-----

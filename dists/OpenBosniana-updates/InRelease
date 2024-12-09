@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Mon, 09 Dec 2024 08:52:16 UTC
+Date: Mon, 09 Dec 2024 11:15:47 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdWr8AACgkQ5Vfn9vbt
-T6owpw//aq3eVshYBkiFvmtsr19GV4jTJ6vokOrdeLkkjMZ2DeKE2Bvw6PgNUTW1
-VOouRTqlwNASxaKn7WmBU0/eCHjsZPAT9GOVvQRfWGIcNZkdKyHeJjtXokqJeACR
-pJoFWgOLYTO0nMcrX/M03jeULCXnjJqtTU3yPKorRIDSasPHtQkUD3kxYqzeiCxk
-1znvJOb4Urs5Q/i4htbpCnxxL4aeblqO/aVP+lyXu3jqhGfzaCUeBh4Vtv+JXlVq
-BfXvTt5fqtroKU9F+Z7sti84qfPxpFRNypQbH59O0g4WxcO8pt3tq6VNCtlA7Brg
-2CcRhjMBKGFP7sf3KrfF4/8vVnrrY/zLHxSIpkbnkLO8Y1vWszYuHcI/Mkb2zTgu
-55YJ0MPvKi0a81CYniiY9y6e9lnmzL2hVP15IW9OWUUqDgvmM/AIgxBgE6G1y/+M
-aXg/mUwmWPuCdXUZ5Krv5aLr6PDMaDg+0XGbennd8cxoeDUkEc2lpeCuHos4ltJz
-cq7ElxnDNNsvGIWcZMLWUrXJvuiR6DTlQIVlIw/cRsmhP2xnPhgrQ3u2hDATkW24
-UAEaR8LjcNrD5R9g4TPS7noG5UIxaj8JYp7L1hM+Kpc5Q4Bb4ImSlLziK/lAYhUo
-PYuRVvBFqkG8KND2qr6H4VogcIwueMWneQBo4NDan/uEf7RDba8=
-=tO5v
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdW0WMACgkQ5Vfn9vbt
+T6qUxw//UHGLlMdJt8DePx/+CqDBvy5Erx7TyuFEThLkS5zWn1KHGfTogEipM4f+
+lYI555yw32UGq+TG8K3RF5LR3BJZhWWOyWEC2UAewY/l3YFQHOi1y2a1NxvvIdGC
+/IYf8xsowqWIyRvlw9E306Gmks58Q5hIaPlC+QYSzOshaT07WVW90zZNQQvk1/vW
+XUTL/1hDtonaV/JcN51kHhnXV93Wd21bHHZuYs2RQncMGJxMtniDGARPBdgOsVM/
+5OZHCHTcVNDxsH4vZLu4iz7aPkq09tiYUir6db8qtaldOiBhjlIt2rlBxOOIJN8L
+XG6dtipbegWucxOKbXb451XwBMRm8cprBAkHEyQ6ObvI9o8pp3JaMXVYith0zDJR
+S9/ViBsGjiXVgXyKjUupmdWKDN/+2A4V0LBpDWyj9oOZ03gIGYlSmubgMti1bUGo
+HO8UexQ8Bf0SFjQk1ubBSPGUlxrnVAoFOo5cmaKhqrW3rSMsoTRy9uFBrLA9oEyK
+FKTeegdJvQ3WstZZng3OVttSqjizMocbj4mnz12n0XTEOVXQXMXUWLpTBvYghEj8
+r4nRN5hqUkDQGMgsEzB2Yvlg4AIpSdZEYs3qyKBHlfJpdJFLeqNtM7Q8NR3WV/6Z
+VqB+1zVnuoyl22rnw+lP0wIk2cgM2Yk26BhHQQOaHqO+usA5vqU=
+=MDXK
 -----END PGP SIGNATURE-----
