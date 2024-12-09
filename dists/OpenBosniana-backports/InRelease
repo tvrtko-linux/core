@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Wed, 13 Nov 2024 13:32:30 UTC
+Date: Mon, 09 Dec 2024 08:52:15 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmc0qm4ACgkQ5Vfn9vbt
-T6qxgRAAweJgFmDQsFZ7U6YTwirfEH8294Aau4VeKXtBVqOaYVEHA2EvyHQuNPFu
-B1RGmgAUsA1bjFXXiQcTnxVfAiBSHIByfNF5Stk97xV9r3jj1k0u0+aRmJA64Fao
-rZ0Bjs+LAdMjKpwcfiXLN5hDwuxm2AyH0Zq4wjopjzEQ5K9yED+sr9AC/t05p4xL
-W0VrKeBOboWNEJs8ejifWAWm1SNbB3a6bdQ++VE+jplRxCjQAXiklYM+rNvZaCfN
-Q2E3R0g5rm0fzL0yKMTB3edo6gNLXQNzilkctHnu6Rr7gqDQxCIeo7GlXn6logE3
-ykvSIRNzepZ4+WNLiM5F5hvd6hHGYm4kyaNVdszZlitlyCnHIRnpN/vo8kXC4RQR
-6oh5YLSe5zbLY/+JKM5F8EcbipsL9mnY+MQItEWrWAMtHPyEZCHaRRh78/zWs0xa
-f67WvNTtW2fDfhvlrP6nzuTq/ASpoo0FJBLkaMNJWEY3fPi6AW6P7as5XrIeOVFI
-YjqxD1k6eDPAJV5CD+Zjem9Tg7rxsBRYoQ9G6uxx3ji7PxXdFFMrPlM1JpgYEu2s
-oMltuovsjM8a4xr8B5lziZ4xUEUZREGe96+Zju12to00DwHBX4x6MdtmARHpt93Q
-xuVB4s3T7gioOPmRnIXIoMkqfY+zTPBEzX8fYcUfnvM6A3MR9j0=
-=O5gc
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdWr8AACgkQ5Vfn9vbt
+T6qjrQ//ZuEur8M8HLAmmKvEcwCCh2dd7OtMMAldu+LZMCJPrclA3FoVJ7ng5YwC
+Q2HGNB92uXDtGDh15MmNq9459RwjsuFo81Fw55HHSQec05RhuwHBOWh/DuVSuR2T
+PNHWTt+Cl3FJbj9Ht2RiehX18vU5RogpNEAxlRK3zAcEwKnZ87bjR+ZLh8bot1j1
+P3P58DzscUpzPVipLmv5iShqPhuSMF5wgdJS7h+smoqc9UrjYKK2I2domb011H84
+oQMytsRTvCfmiytyiuFblf7c/jMNWxUgAJygAwl5S1VWK7pZlyus702D2/lLsbs7
+D8RvgxWvTzx7mW1ndgy/U88tdA8RYbXho5b3oUnSN6BTEQqAm8i33n+sXKRehLQ9
+w3Ti7UEqJDyjGLMNrgMu3Dfz/wdeg1BPoLnbAhPcpz4ub4bl/JkJovdg01EuAn3P
+yXjBBA80oHQZuXzUBV+Y6NaiPnmDuD9DIR4hC/xgjOlZJIPHkjGCeDDPQibbMu+M
+foHx3indE9mWoyLtZ/Ml8fzZshu6m9ujvB9NOJ3gsDIRqY5HqIaya2qzMObAFn5n
+NPd3ydT8nNVf5gbrQBOBDDigQAOAeRBve/lGdgStv+wHYMFPmFIxn3awd24LdM42
+RF5fPB4SmS5eRWxRB0sJpT8QWSwvwx8sgUOR1wSH2rTR3g1GtdU=
+=44rG
 -----END PGP SIGNATURE-----
