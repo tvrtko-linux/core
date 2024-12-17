@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Tue, 17 Dec 2024 11:13:26 UTC
+Date: Tue, 17 Dec 2024 10:29:19 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdhXNYACgkQ5Vfn9vbt
-T6qmNBAAn7Q7ev43eAh9jWy5ew9nmck4oRPe9pUOdRkvvcmwZSlEZANYy+3UBWTb
-0oHL8SlgibzX5fPKCTX6qNHypxruS/p29Y/adob2QPzwkug67vhNh2asPd7o4DSA
-QjPzJtRFw4X2K7vPDt/f4IUNtCRE0TopMk7Jy3vJFhf6M8oLzqWUT95T3sg8H73A
-Fw6kpVGvCX3WH2nmc+HoE+VEBTTckwGwPkr629ZqjrxA+okvr1pj2RGkMEG1Ib66
-9p0Ianvtro5KR00u3+2g/rE2bxvt+ZsJbuRig3rFW/B17QI0I7GuM7hHFQzaDzr0
-xF8meQ5N04e1J1oXU/hM5lYjmhy0GKw00mUiczQC4cdAgvkIdStchYTGae/9WWEN
-bSi25ruhn1jWxOO65Bz13vn+auF3FMDjA0DPU/Ycd+f65hZWJfob1iIjFt2jjTo7
-FsoiIPbfolqpjZ+kBujL2wHEwjXNisDh8jIdLuKLS3YS3Ki8TrgivUj9IUObHBbm
-wlyYT8oMtkzL0S5ARUWlIY8ruCErMrQZS6DobkCZ5CAgEFEpMMa00IfQlP/d0neW
-SFu3Dn/tTgTXO9oOFTJfL/8hjYgEeo8WKiTA6Z0fFprpy5mCQdsJyNv+Orq1CZzk
-fp4c9xJcHAYeUMVbvFD9m+tV84SAFtuYXM+84wQaxRmL+LMwwrA=
-=+EvR
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdhUn8ACgkQ5Vfn9vbt
+T6oMbw//V3AlmYBfvh6qbZsQ+Euid3LS4PyVA+ztRsSvt5LyX0KDwllVHDkQ6JC4
+1Kou2iv3Ds0zWoiN5qCctigYjAW2pVISDo6ilvPA6mPvwNpBA/s9uAC+CuSgmJC5
+JKrPJnvZdqP4meJ6rjEbrLFZny04CUKpcnZqB578OgNSIV4FHgsLNguSxGUavPzb
+6P3qFK3qLe82U0Fwjihe6q46QQ3kMoK4mtr9oKpukINrAPxHqp1NuYFXnIhkhIRA
+83LZeq7Mn83K0f9jUg3e3l9alejVciTcTr/+JSxAtTzQBrbX6lb6vH997xeaCyTg
+r4dm7PtlUvFFmGvdVaqNx7Wov+RBPHmwoCkdHZ2Fj0UU9haJ9IjL1an9DiSa2Dbv
+9n9jUk401i+28YtJqSyv7krT6IXymlBfp2ZO0enQM0OE5AylIxoJzpU4SlZhW0Jp
+Rk/QrQrPG8RbS3KyXE9iOwiUDi/cYHOlL7g6lkmNPilcblP8K1bVDrMe8hy8rR+w
+a9zhL/CKoY4PZnLa68qA5cMv6PUN2bjbHGtx3BfPQpqAZ0MuXe+79F5RB346AVkN
+3V4mn7lgUYNxF3jIFVY2F4My6y07i4+UFcc5EQl+kcnaGSIDk4RGOuLgDmT1wXec
+q657DLiyq0kyK5r1q67S3Nb9HMwxhos/x/YxoUJ2PXOMqMmtol8=
+=6c0I
 -----END PGP SIGNATURE-----

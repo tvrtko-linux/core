@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Tue, 17 Dec 2024 11:13:24 UTC
+Date: Tue, 17 Dec 2024 10:29:17 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdhXNQACgkQ5Vfn9vbt
-T6rQ6w/+JY9x7Tp4+EYE8gmgS6iTeX1swQZAwfgTlN1XsA0eU/PSlOEz44tu2Kjh
-w55l30K+ltAoK5frX9e90PYFev29wtMcXqpO8gZ3hpJqHyVNDtWwWRgKBaOG1CjV
-+f+lddqzK2R9K5khPdNiZZlMAQgizv0Hj2MpHRT5UxmRpACuqtrJmqwCG/biXZRN
-2prQdH1BFQPAxaodHR9SBvwvXqBcXRz4a1dp6HQ54osc6a6ADsJwpLOL6qk1lJk4
-KspWBrdZQVCzQr3GQ1SQlA2y5VrV9Bat1Aqb491F3RajisGW1jey4avCa4Jv91ld
-iyPefheyKC8JGLDSqHOvQ5NFlKBxapNroX8DQcbpx0oMak9vbpAUGCnkAhqaPKdx
-Lrg4EytxawXCIsesp8xdEVNUSxU0cG1JKjZ6hXXKeBxyh7hL1iexjjta1tQ4U0J7
-lmrGxNVPlJxhCSzDfwL5cbhIBgF7VsnH1TofrSYL7qvZ7jz44ixrBdI/HZvURRDs
-ckUMrHIIF8XQOW0pR3mT1KcgtuK6e+1M78bKmMxHLPKurd7dC/mWo+fRfQxSctlq
-Mi+YqiT2buxsbO8WwHoElr0lHrsDa0G4LWK9OigbR7qAh4BUj+BG02V/Q7KAffvT
-VPQfNi10/r/jmBt2akKWKHXOgPM7Ihhj7Yg40DzsAlri6KtFpUM=
-=7Ix/
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdhUn0ACgkQ5Vfn9vbt
+T6qHew/9FNL83UqHBAzObYSxlo5rJujjsMCMpQayN6UsJFnUeNCFR2UVAc6gfyRe
+ftZI0bd/BACOtWumwRRsRDWzo2B3n3xozKLvWrE9U/By4g0fvsopJyzqIATm73CX
+9PNiDWSiy8mDrP9lhUXHPirq/quGFlKELRterSzVH8BfFiJL9RZi4faem/Xxd22+
+TcolQ7x2ptf3eZ499NaqL/eX8Fo4oJvR76l78rcxBuoj7U9aO62uB1/mhxGKjcrj
+BOhzf4uma9i+DxOJAQ3y9JrxBvSIkvVTN4G8YPiKz5RaM80EQ/7W1DkWcaQ/Ze85
+/zAFNWCzfup9drerxanXtPiF3d15lwcckyoQyUDaaIBnEHcKYXZ3KN7TeNk684Ep
+zIM5kNg07O/Z3NvfkCHgojj5Lo+nfG4YkpSB6VCuL5FY0BxHv8ukZRUGd1rNpamQ
+yv3B5yjiGUP7EUz3PbEeag00187D9wCcNSbrqy5OF9P3yi4xbiRC9mMzjBH5Nggp
+lcO+ICf1rF3wuuupBH2N6HxydasLGJyN0dsrP/Fe8qlqqnOOsYR3YC5keSLBaCD9
+mSTjizaKPDbWHPcrKYXDyS4H7LLsJCz/dL06RTNRVsY1UZtrzHfam274JzhON9LV
+hBJyJRIYjt3Mxo1GEhEIaozDwaZdIIJX1hr3a+V8He5RRVR78vQ=
+=vnGz
 -----END PGP SIGNATURE-----

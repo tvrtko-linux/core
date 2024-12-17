@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Tue, 17 Dec 2024 11:13:23 UTC
+Date: Tue, 17 Dec 2024 10:29:16 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -213,17 +213,17 @@ SHA256:
  91f40351dbeb69ac40d6945dff04b9b478f362184c4c9012ed3500748c0da30c 186 udeb/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdhXNMACgkQ5Vfn9vbt
-T6rvKQ//Zx4/xVJ3VY+dBudliLFz2y8yatL2S3hB0p/V8baUAqj18BslPk75RJ+b
-aTb77fl6lBHe34iGAJODgtSGUgXb/OoS87kzvxufJc+AY1gbSezsMNwfUSH+BUcd
-G3FkWia/UT8rTc1sHhNq+87tzXfovBqB9yCKB0bPNyBy00S68MjHu6tEMhXTVb7E
-t7G8HFXiFotG36me430Rl12bfOGWgbTpVbWqM0HH0TFK5GGx4Sm0HiMyJpM3saIW
-Wem8Pdvf2UvQ6fgxyK/Sac5VhhQOLW+DZaBBJlaiTJh9XW3OAI+yni9CN8v8GRq/
-b0x6QFO3uep+bZDvQRnGFUg+WswMCsInXDa4UbCn42X+iVBrq0w3ZIMqVgN4sbAz
-bSJkKJSDgpg1C/yDbKH1y2SAcLQXnoqcLOodMDEUNrV0++6ZxsLl3f0wPHyV6+8H
-Y4hURdLZD9OCOza/HPBUFErTrWw5G/CEh11Jod78IAkHcbJNKDHTvD+hKSGPOcgt
-UnaT0zSsan7dCfsBuQV+bfEhboXujgxydcIKyPRgHainy4G2na4qWBZsmYZ/Sgxm
-9rfX7/VpD2k9UZzGvJU+XdTaOEh+SjN2/s+Jo+/xIzId0uYSGYVp9LRjXYfVhLIK
-MY/irZzH7DQ8M2/EaqoatdpC4Rtf6S2w79KL9o+x2nkaH5pNm48=
-=5jbZ
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdhUnwACgkQ5Vfn9vbt
+T6rckxAAm9en6DnxcdV0B4c9GmCuc/6UHh73eDEZflqYxIPApTllmGmDPwnPTQyC
+WMnqKpXVU35nmGD/LULzKzPdJlGarFgVT4UOvQ2xuJHWD+hywmS2u4RHgUGXilEt
+brnzr1GHCtFnZsM6TSUhE4/ERbIhLBsQ/DY69PGp5cJWniRUeEGEh/rDRUqcnat7
+2mkEnhoroGBD9BDEU6skig8ft7wv6Wrb8VHlINA3OGAqYhq4seyFuVCh337amAQ2
+7+uQEtsMPA3RR1fCpLC1bN7T5jFlJYXrwSPZ7kV9rsJlRVzRSxPhLjtvBj4kIzry
+AK2tyzkwJ8OU9/zZgt4axRu5OJhgRaP/EdC1QQhUnNdBJKHS+Jg3FhBUNsXxTtyL
+JZmQhUdL5fZ+qVzfZMTlCf7XhZeDrHx/c5WC0xqGgHUtKPkltnTCIuk6tfeMJS47
+ZRf37nkhKfDITS6o+oAMDCZOOL9wPV5kV5ly85/GwVDiaw5Jyel44u+kNNoSdgKO
+oVxU4XbvFINivXTMW/2+GmbG0ZyD9YbUyem8cw+lfOWH8aaHhmO37OPperLV8KQO
+z0OPnXo6H6T4j/ZfiGIFvyTme/enXzLS8s7ChOISK0dO+EgkJtuPrjxngxSLRELr
+rHzfePTk2IIWlqYUD/xDdW/I7NyWumUuYYdXVnBVpikXlIw/K9s=
+=rYYT
 -----END PGP SIGNATURE-----
