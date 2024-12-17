@@ -1397,7 +1397,7 @@ Description: GTK theme built to match KDE's Breeze
 
 Package: breeze-icon-theme
 Source: breeze-icons
-Version: 4:5.109
+Version: 4:5.111
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 32259
@@ -1407,11 +1407,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.109_all.deb
-Size: 9194660
-SHA256: 2989d72dea8ff82b80282e86ce758db1b6019759ebb8dbb0416013f504bc02a1
-SHA1: 139c4441efb48358687e117e5bfa8dc05afcd978
-MD5sum: 387c1647b88156e086c2de177e4f81ea
+Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.111_all.deb
+Size: 9210116
+SHA256: 69deb1ab9363f7f9515b72f5851030bf417f01f48b9803f2073a47312cb2a2e2
+SHA1: b737860d06ba63388bc414ef362fab3049aa8392
+MD5sum: bc4c94f155da4ad226f79109c1c4e542
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 5 desktop.
  .
@@ -50976,22 +50976,36 @@ Description: terminal status monitor for tor
  .
  nyx was previously named tor-arm (which is now a transitional package).
 
+Package: ob-welcome
+Version: 2024.10.12
+Architecture: all
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 292
+Priority: optional
+Section: utils
+Filename: pool/main/o/ob-welcome/ob-welcome_2024.10.12_all.deb
+Size: 66448
+SHA256: 1b858fdc383effb25c1cadd925ed45e19704428787d3fd2460f91f01180a3826
+SHA1: aec2c1e76f4e6e709b0b3dfaec64a563a163f8ef
+MD5sum: 56ac01fb6bf3e70ef28ac0c5328b9cb7
+Description: OB Welcome tool
+ A tool to manage welcome settings and configurations.
+
 Package: ob-welcome-kde
-Version: 2024.10.22
+Version: 2024.12.12
 Architecture: all
 Maintainer: Denis Maslo <denni@lists.debian.org>
 Installed-Size: 15252
-Depends: isa-support, sse3-support, libb2-1, libqt6core6, libqt6dbus6, libts0, libqt6gui6, libqt6network6, libqt6opengl6, libqt6positioning6, libqt6widgets6, libqt6printsupport6, libqt6qml6, libqt6qmlmodels6, libqt6quick6, libqt6quickwidgets6, libqt6webchannel6, libqt6webengine6-data, libqt6webenginecore6, libqt6webenginecore6-bin, libqt6webenginewidgets6, qt6-gtk-platformtheme, qt6-qpa-plugins, qt6-translations-l10n
+Depends: ob-welcome, openbosniana-control-center, openbosniana-welcome, dbus-x11, isa-support, sse3-support, libb2-1, libqt6core6, libqt6dbus6, libts0, libqt6gui6, libqt6network6, libqt6opengl6, libqt6positioning6, libqt6widgets6, libqt6printsupport6, libqt6qml6, libqt6qmlmodels6, libqt6quick6, libqt6quickwidgets6, libqt6webchannel6, libqt6webengine6-data, libqt6webenginecore6, libqt6webenginecore6-bin, libqt6webenginewidgets6, qt6-gtk-platformtheme, qt6-qpa-plugins, qt6-translations-l10n
 Homepage: https://bosniana.org
 Priority: optional
 Section: kde
-Filename: pool/main/o/ob-welcome-kde/ob-welcome-kde_2024.10.22_all.deb
-Size: 1972260
-SHA256: 917e12d750e9377ee9374569ed057d7166d9622b0688e8353ef45f230ffc1233
-SHA1: 9d7bd3da0fb58adf5e2b9f92a2eb298d67af60dd
-MD5sum: cd75f3f84b7bad58452bcd7e3f0d1129
-Description: Welcome app OpenBosniana OS
-  For KDE Plasma
+Filename: pool/main/o/ob-welcome-kde/ob-welcome-kde_2024.12.12_all.deb
+Size: 944
+SHA256: 9399348b69d4602132cd55a9de7f6e9938f9f0e72e974fd3e6f4a2355ab9630f
+SHA1: 6b14b1ab5c03c3bdb7c615400af6d10da133576e
+MD5sum: 1c2ad71b1d5288eaacd6cf3c2161b13b
+Description: Meta package
 
 Package: obfs4proxy
 Source: obfs4proxy (0.0.14-1)
@@ -51232,6 +51246,21 @@ SHA1: 67cefedc539cf505159c28f33349b9cd55201fa7
 MD5sum: d4ac806deb7c12f3ee0cd26f73a14e4b
 Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
+
+Package: openbosniana-control-center
+Version: 2024.12.13
+Architecture: all
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 582
+Priority: optional
+Section: utils
+Filename: pool/main/o/openbosniana-control-center/openbosniana-control-center_2024.12.13_all.deb
+Size: 123268
+SHA256: 4d14432c52a627ea0413bc49523db7deaadaa3bd1a29c90cc3971a61c8f2f979
+SHA1: 3c57aba73d3c257887dfa4d332876d3a3fbaa2a0
+MD5sum: fcb99b64c59da74998df1a1a87cff53d
+Description: OB Control Center
+ A control center application for OpenBosniana, supporting multiple translations.
 
 Package: openbosniana-core
 Version: 2024.09.06
@@ -51540,6 +51569,40 @@ SHA1: 2097135cb58a8cf2e5785368a83b7c46b9cc8fb1
 MD5sum: 2e74cfde4c94c92912545dc4076ad56c
 Description: OpenBosniana OS meta
  .
+
+Package: openbosniana-welcome
+Version: 2024.11.12
+Architecture: amd64
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 52
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6webenginecore6 (>= 6.2.2), libqt6webenginecore6-bin (>= 6.2.2), libqt6webenginewidgets6 (>= 6.2.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5)
+Priority: optional
+Section: utils
+Filename: pool/main/o/openbosniana-welcome/openbosniana-welcome_2024.11.12_amd64.deb
+Size: 14068
+SHA256: 5f0a176e9e182f8f78257ab1859e885ce3dc4d3d65262743532cdacd8650d2d0
+SHA1: 0c7f5078efd32834becce9f38cf8ccf083620ab1
+MD5sum: c1dbdfa674f48f5a54e1546a1b961a3d
+Description: OpenBosniana Welcome Application
+ A welcome application for OpenBosniana, built with Qt and modern C++.
+
+Package: openbosniana-welcome-dbgsym
+Source: openbosniana-welcome
+Version: 2024.11.12
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 457
+Depends: openbosniana-welcome (= 2024.11.12)
+Priority: optional
+Section: debug
+Filename: pool/main/o/openbosniana-welcome/openbosniana-welcome-dbgsym_2024.11.12_amd64.deb
+Size: 447544
+SHA256: 83df935e02f61c99a237b61f67b5d831854d2058234e1b33e44aaefb327c4bc3
+SHA1: 5ddf134c2b04aea08ed44022a65c244f3a4dfcec
+MD5sum: 4911ff16e2460fe48a3a012ea42fb7a9
+Description: debug symbols for openbosniana-welcome
+Build-Ids: ccec79a3c327d9a4633bcd416395008f8bdb4e4e
 
 Package: openjdk-17-jdk
 Source: openjdk-17

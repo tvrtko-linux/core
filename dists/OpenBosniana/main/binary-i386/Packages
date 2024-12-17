@@ -493,7 +493,7 @@ Description: Default Plasma cursor theme
 
 Package: breeze-icon-theme
 Source: breeze-icons
-Version: 4:5.109
+Version: 4:5.111
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 32259
@@ -503,11 +503,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.109_all.deb
-Size: 9194660
-SHA256: 2989d72dea8ff82b80282e86ce758db1b6019759ebb8dbb0416013f504bc02a1
-SHA1: 139c4441efb48358687e117e5bfa8dc05afcd978
-MD5sum: 387c1647b88156e086c2de177e4f81ea
+Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.111_all.deb
+Size: 9210116
+SHA256: 69deb1ab9363f7f9515b72f5851030bf417f01f48b9803f2073a47312cb2a2e2
+SHA1: b737860d06ba63388bc414ef362fab3049aa8392
+MD5sum: bc4c94f155da4ad226f79109c1c4e542
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 5 desktop.
  .
@@ -17656,22 +17656,36 @@ Description: terminal status monitor for tor
  .
  nyx was previously named tor-arm (which is now a transitional package).
 
+Package: ob-welcome
+Version: 2024.10.12
+Architecture: all
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 292
+Priority: optional
+Section: utils
+Filename: pool/main/o/ob-welcome/ob-welcome_2024.10.12_all.deb
+Size: 66448
+SHA256: 1b858fdc383effb25c1cadd925ed45e19704428787d3fd2460f91f01180a3826
+SHA1: aec2c1e76f4e6e709b0b3dfaec64a563a163f8ef
+MD5sum: 56ac01fb6bf3e70ef28ac0c5328b9cb7
+Description: OB Welcome tool
+ A tool to manage welcome settings and configurations.
+
 Package: ob-welcome-kde
-Version: 2024.10.22
+Version: 2024.12.12
 Architecture: all
 Maintainer: Denis Maslo <denni@lists.debian.org>
 Installed-Size: 15252
-Depends: isa-support, sse3-support, libb2-1, libqt6core6, libqt6dbus6, libts0, libqt6gui6, libqt6network6, libqt6opengl6, libqt6positioning6, libqt6widgets6, libqt6printsupport6, libqt6qml6, libqt6qmlmodels6, libqt6quick6, libqt6quickwidgets6, libqt6webchannel6, libqt6webengine6-data, libqt6webenginecore6, libqt6webenginecore6-bin, libqt6webenginewidgets6, qt6-gtk-platformtheme, qt6-qpa-plugins, qt6-translations-l10n
+Depends: ob-welcome, openbosniana-control-center, openbosniana-welcome, dbus-x11, isa-support, sse3-support, libb2-1, libqt6core6, libqt6dbus6, libts0, libqt6gui6, libqt6network6, libqt6opengl6, libqt6positioning6, libqt6widgets6, libqt6printsupport6, libqt6qml6, libqt6qmlmodels6, libqt6quick6, libqt6quickwidgets6, libqt6webchannel6, libqt6webengine6-data, libqt6webenginecore6, libqt6webenginecore6-bin, libqt6webenginewidgets6, qt6-gtk-platformtheme, qt6-qpa-plugins, qt6-translations-l10n
 Homepage: https://bosniana.org
 Priority: optional
 Section: kde
-Filename: pool/main/o/ob-welcome-kde/ob-welcome-kde_2024.10.22_all.deb
-Size: 1972260
-SHA256: 917e12d750e9377ee9374569ed057d7166d9622b0688e8353ef45f230ffc1233
-SHA1: 9d7bd3da0fb58adf5e2b9f92a2eb298d67af60dd
-MD5sum: cd75f3f84b7bad58452bcd7e3f0d1129
-Description: Welcome app OpenBosniana OS
-  For KDE Plasma
+Filename: pool/main/o/ob-welcome-kde/ob-welcome-kde_2024.12.12_all.deb
+Size: 944
+SHA256: 9399348b69d4602132cd55a9de7f6e9938f9f0e72e974fd3e6f4a2355ab9630f
+SHA1: 6b14b1ab5c03c3bdb7c615400af6d10da133576e
+MD5sum: 1c2ad71b1d5288eaacd6cf3c2161b13b
+Description: Meta package
 
 Package: onionshare
 Version: 2.6-5~deb12u1
@@ -17764,6 +17778,21 @@ SHA1: 67cefedc539cf505159c28f33349b9cd55201fa7
 MD5sum: d4ac806deb7c12f3ee0cd26f73a14e4b
 Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
+
+Package: openbosniana-control-center
+Version: 2024.12.13
+Architecture: all
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 582
+Priority: optional
+Section: utils
+Filename: pool/main/o/openbosniana-control-center/openbosniana-control-center_2024.12.13_all.deb
+Size: 123268
+SHA256: 4d14432c52a627ea0413bc49523db7deaadaa3bd1a29c90cc3971a61c8f2f979
+SHA1: 3c57aba73d3c257887dfa4d332876d3a3fbaa2a0
+MD5sum: fcb99b64c59da74998df1a1a87cff53d
+Description: OB Control Center
+ A control center application for OpenBosniana, supporting multiple translations.
 
 Package: openbosniana-core-lite
 Source: openbosniana-core
