@@ -17660,14 +17660,14 @@ Package: ob-welcome
 Version: 2024.10.12
 Architecture: all
 Maintainer: Denis Maslo <deni@bosniana.org>
-Installed-Size: 292
+Installed-Size: 1481
 Priority: optional
 Section: utils
 Filename: pool/main/o/ob-welcome/ob-welcome_2024.10.12_all.deb
-Size: 66448
-SHA256: 1b858fdc383effb25c1cadd925ed45e19704428787d3fd2460f91f01180a3826
-SHA1: aec2c1e76f4e6e709b0b3dfaec64a563a163f8ef
-MD5sum: 56ac01fb6bf3e70ef28ac0c5328b9cb7
+Size: 1121900
+SHA256: beaa077e86fd88419d632401096a6ff8fd7f8812847135af606b814cf128c96f
+SHA1: f2c3e3c0b2c0550eeccaac9e9425444f1faca52c
+MD5sum: ff739cc72dea922171a1f7911da7c0e6
 Description: OB Welcome tool
  A tool to manage welcome settings and configurations.
 

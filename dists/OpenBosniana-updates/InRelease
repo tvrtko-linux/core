@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Tue, 17 Dec 2024 10:29:18 UTC
+Date: Tue, 17 Dec 2024 14:08:57 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdhUn4ACgkQ5Vfn9vbt
-T6qOsg/+MiE9aHmMEZQxpleRSU2PB2xQsm64Y/9qL1hMWl7ruhUQBycS+yWiDBjR
-nFucWHsJ30iz0CMZRiSUhxVUrV7fmNqg41R2XGNUk/HGpC4t0VhDvA0jhwx5H/s1
-sLsJKj7BpOc48tIkNi3fgbTZixluZaDxy3hz2R1csGOe6ZFAeY8qEbKsHv94SjPl
-Au0I+aEEU2JmG+DJU5EXxqwdjk1TlBMXMaTFhqRk3E3LVrr5ipMVqCVyf2XKPagv
-3sxs7jx0E69XuLoWYTsqOwiQrEChdK2PLDzl4C8MMnD6EQW0rTY8nnTW4vpVaR/B
-0+PtEGXh3PXrlWNIxIhC4THbd9BvhGoKDCE57bzQn1RU1b3SJUqJdSttXqHObJy+
-abks4QkM+50kH2LwSFuOVOHJRmDcOPP6QVfBMJwu69RDtUu1BXEgqpuQzeE58ESO
-QvbUDxvrDi2yGeOafhkTkZaTJA6zEzYnN5VwoMBDAq6hILbmCPtfpS539/8tUXKL
-QptPwZP8Tlq0JPophYVIV/pydK55k4ZUmzafA5d1acjlJrQuhC1QNGSMQl3I1dGG
-jN2YnlNmOxkQ0VTyZjsXzj2Dmkix6ayKoT+ysadzX//Vgtrdd338CNlaNh8vX+7z
-XAuURLEWdaL6RSGeDPsyx5l+OF5gahJxSHpUBnglZAFvXkTYfMo=
-=MRPx
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdhhfoACgkQ5Vfn9vbt
+T6r8aA/9HwMLppxqlhjYTMSv41Uk+3bdZt/PCqxmtvay01Zqsyem9faWy3T7wdB7
+Bd+SuYsSoucCZh7jplTfGb4qmMEeBYz1npOnM1AgycD87zfRMtamS8LMeHTMka+O
+1ckd44X63zlNe3kEsGRl2B4Wrzbf/mw5VjEc8gphHkcf+L9MG3wtws35kU2/a+Ji
+zvAXuVBp0vrAM+z82Na4el3RNRXAJeZIxiJBgY+SLqVc0foKhu1iIHNO049cp22u
+UZ/5EZrjWALPhDAbQr0ZpPX8NXL4oxgz6j0HToZDPfqECQZaMPQSea+CpuVTDed5
+ogj6M6NCwp5tBkS7RJfJ/w3iQqvp9RnYZifG+hv1Z0YRRUKT/UCTH2UMkjMxCp38
+dIa09pOz4uFdYEIBj+jVsajh3cZstKvNfxel7NlZihNlhsmf9+g/THEshwkxZvqS
+B/OvsHaHUlUNPceJXPSRetdtiKry0TaYP4xY9q7tlJLs0+X/nrKJpFEFF6ssgLOi
+18UPKH8hb92yZovqqYvYRSZMJZvkRBGtNJbEtAcZhCDhPyKYMp0xe0SStJ6/a8dR
+sds0JCsNuOqKvSS6zcgnpknp3Kk2F/M4g9y+4K8OezJc3tM3SX/AtYMasX17a9V7
+/ftr77yPGuxLc9ToY0BOssjBFF0c91Ujjc1oRhqJ9y4sP20vkos=
+=1LBX
 -----END PGP SIGNATURE-----
