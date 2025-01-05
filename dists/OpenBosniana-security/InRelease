@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Tue, 17 Dec 2024 14:08:58 UTC
+Date: Sun, 05 Jan 2025 03:53:15 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdhhfoACgkQ5Vfn9vbt
-T6ql/RAAuq41fIzXe6CXd/gi7P4TvamFwuBKqvtBf+QNDYepAJ9IC5Hn58lFrvCy
-QMQDZyDaiJUzQyd/Mj5hi3VEWxqWKfZYOWY+i0k2HwgcvUOsV4lYKiDpwaBWYR0i
-UJxHNvhx4sQdN4890Y9g/h14/vobRs3i0HpSpyDU5Uf8reaLMarD0Aql+Ngcu2My
-/2RP82BW0ph+1PXozn2qYkAWSc6V01O1NxOrnS3jg+uMo+lKkrdzOPrl25QmHrW4
-bQinY+/2WPM7liaMaGJpcKNAlTMlkJp6l2+0xoAMkqTcxHdgNdPwfzmcOeOuuhrY
-1tNb7DeU+dnp4vPatOPhW3XDXCKthL3Jz1UfmxYAshFnQtxMQhBW7oT9h+TJBkDF
-geOrbSKZUq1CrY+hALJ9fClET36SrHQiEAi/HN/WFD8iuHACzVjK5kKtiPl64Ktk
-ucyHIUiU/K2Ijo8KCYJ7FZrxmMsAz/ZZExYnjMiT+ktyCWbSkpcwzK7wL8Cf5VyZ
-VZJ8ONet4emMcduN7cr4k/XiCi+tcUBj/USxwToakhVD/CgtEQz1P0qHN6jn+fZv
-nacQSldOznjtYH8Tiht2PAdcygGr0qV3bJIIWr2JJFsxCXQJGtM7QrI8Uc9+UbtQ
-Q4ObeSUIwan15RoOedcc5yJeTMVCv5UrlniTnICE2Fnxdk3Ybio=
-=KtBy
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmd6AiwACgkQ5Vfn9vbt
+T6qGQRAAnZ4cLKRvQcT6Zd+68ViIohFvYHDQQ9u8sSHgKkLTt98z4w70B0+lX/7N
+4ElKrkZRAcEVHvFYb0F4bfe0yqd+cdI1gNC2pFPS7VP13DhqiXWtA55vrDjVhGvV
+WDo0zO+w19O2U907M7epgDnuVk73hLy59QwKUevloR0WAha9PyQnx3xDHNLs3LIz
+6hO9hfjp1ecBcGQX+sdHjhtbyy6pfbMEIJ1gF7J6uQH/hBeTiKcAY8P40IER30WP
+UNPylPBcXzmyC8UHZjGCw+VtUmXbI6a2rqpWDi58qulFjI7i2eGHDPFNxt/n9wY4
+q1gAL0ZF/P7mlCNfkaLxAdqvrLKksIOXWtkNuy2hzE//aKMVADn6sjzUZQ+stZES
+TLRv3QUfsjdc+Wc1floZQquvS68a6NzXPm0moMYy4hSSh11mswYdJEvEUWAeFtqw
+Dfm+DXwjKv42ZM6BY106VpFpN7XlH/E3jDe/5GxJcBE37Oy7qGC5xVu0F/Uj+Hm5
+q4zFb2tg8pffNQaz0uq/UTrjF+UUDxgIMweZlIxLUDQ45g2EzC7w413t3B03ceWP
+6Qb6I27fu6D6VWkM1ieA5nnIE4gA1/rJeAfYOTMIQ/omCkE8T36V7CzwEHeS+yPG
+NrvZ0pumiAun7p0lcfhQ2yvLN/0kYhCwmySw3CJN95oYiiMBYGs=
+=nPId
 -----END PGP SIGNATURE-----

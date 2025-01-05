@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Tue, 17 Dec 2024 14:08:56 UTC
+Date: Sun, 05 Jan 2025 03:53:14 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdhhfkACgkQ5Vfn9vbt
-T6oirhAAvMlDF+V2Ay106SGjByjqn2VzY7M9ght5HEFOHnuVuIsXsl29X94F2rCr
-jIUBhOKuoUXLtegclWaigLDkb9+RM8A2p5KwJZQcSuy6e6TGbko5xQxM0yCrrlDo
-MbykJ0CyoBazxjHWgo8fYq+J18tpKGRd8xSklWpLzFS9cuCsosEKx3iMOEiCa0au
-a5QcxQPfAFBbVvkh4XvbUuU8nTU8x0+PyN9oi0ZU/g/okpOQtmoSw6pWBrkQUFi5
-uOSLoVdrrg52V5+CO+krWVrfJWtzR3XM3kYXFR0kXQlhBewrVGHWOohjuBh90pMm
-+tBzwPQ0nethPQaxyO/lbz0oa3pDdondAQpvvJXiFL/E+LsXr+knPuUBM8xFsBDX
-gN/Tf2gx3MRS5YHwnW5VaQQBqhRNHPTsXjX9uCUGQ2jyB2MENHFwJIqK8SdyMYkd
-eZx/LQfFog4ZELCzCz/yoJovVapSnXPIN6KJzCoAMW+bpP7r9Kwq61SVcK0gozVj
-NJezcW8CaNq/rjsUxIpyRsvMkE0oq0bNV34J/xUh7j8VW7QoBQTpb8QuS6Ifvqe2
-a2Eol1LlQCnWgG71Lr+holLV5GpKFtux/A9C2x031EJSA1MgSnLdNq/8U7s3xThf
-dLbocDUh5Dqc6x3nWpRSD8yFGROuDvvD72P0fXyg3RzrI2Km7mk=
-=c1QA
+iQIyBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmd6AioACgkQ5Vfn9vbt
+T6o7Dg/0C8+JdPg67vo/riXeYoNyfYQ33EXde8Us4Ja3E11dE3pdmplbx6MMtF8S
+5DsIpaFmgbD66K4r/womJdiHhFyVd/geT1fHJ8UUsKEC3pgEp9wmjOrXLByrnmZe
+ny1VyfE+VbYOJckSJavAX2ocYgBV5cii57a0FQ1NZS6IR03LuaVbd3/pmoPRKW55
+Qq63M5LX6YKeqR2L/czDskafLZLXjtnpO0MtFTWg/atxwrguLgn56y5haTZ6lq7v
+a9cBYSgKbPzKUwtLaJRKuyXYHxjPOG2rolLXIby5QwrdznFd6gg78WohtJO0kmPO
+HLlYOzwARxvzxHbMiD9XjKlJi/kj1srRjSvX7YsbjgJl4bfyTwSHQWZ+QeU10sZv
+hLU4054vCtMNTc4xGODHnlAzaJ6QwKERTEhLVWsRJEdD4j6CroGaZT3A8bKIC59B
+W0E7jWVpgTH/k0TmuA16cwbqMIodTR7wq7hllo0LhsXoopt4qk/VfSf0MKWlQ5y+
+c4a0GMapcm9h4aK269yjkUDz1cyWld7T71ts2OnEl3ri5QMvAeTNYCTdJtETQ9RZ
+ezh1w+Skvk11ul5i/yTIr59n8zdyEE+Xg4mlaS/CiJ1+8sQT2/XEYE4J+oas8VtY
+7RqmTKXN/JFuFqxEIRW8wNSOf6y77vLbFnOG/5T2XhcG+d4vzQ==
+=omE3
 -----END PGP SIGNATURE-----

@@ -50977,17 +50977,17 @@ Description: terminal status monitor for tor
  nyx was previously named tor-arm (which is now a transitional package).
 
 Package: ob-welcome
-Version: 2024.10.12
+Version: 2024.12.19
 Architecture: all
 Maintainer: Denis Maslo <deni@bosniana.org>
 Installed-Size: 1481
 Priority: optional
 Section: utils
-Filename: pool/main/o/ob-welcome/ob-welcome_2024.10.12_all.deb
-Size: 1121900
-SHA256: beaa077e86fd88419d632401096a6ff8fd7f8812847135af606b814cf128c96f
-SHA1: f2c3e3c0b2c0550eeccaac9e9425444f1faca52c
-MD5sum: ff739cc72dea922171a1f7911da7c0e6
+Filename: pool/main/o/ob-welcome/ob-welcome_2024.12.19_all.deb
+Size: 1122392
+SHA256: e5a1ef6d404cdf18dd345009ecbf383c4abff41e23297a57a531c6a3289bf2b8
+SHA1: db5a68789fabb468558218a116490e365a9b9f1f
+MD5sum: 99a076d8d4a9f94b3e4117a47d32472d
 Description: OB Welcome tool
  A tool to manage welcome settings and configurations.
 
@@ -51248,17 +51248,17 @@ Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
 
 Package: openbosniana-control-center
-Version: 2024.12.13
+Version: 2024.12.14
 Architecture: all
 Maintainer: Denis Maslo <deni@bosniana.org>
-Installed-Size: 582
+Installed-Size: 579
 Priority: optional
 Section: utils
-Filename: pool/main/o/openbosniana-control-center/openbosniana-control-center_2024.12.13_all.deb
-Size: 123268
-SHA256: 4d14432c52a627ea0413bc49523db7deaadaa3bd1a29c90cc3971a61c8f2f979
-SHA1: 3c57aba73d3c257887dfa4d332876d3a3fbaa2a0
-MD5sum: fcb99b64c59da74998df1a1a87cff53d
+Filename: pool/main/o/openbosniana-control-center/openbosniana-control-center_2024.12.14_all.deb
+Size: 123136
+SHA256: 1b97d05a76d9a3c5d0413275f509097a1cc68f0dda7ddd278e3fb0b7d4b5c1e2
+SHA1: c5bf499eb15f501e1944b1733e2cc4a322ba4f5f
+MD5sum: 36a9f4ca2b6c2bfce6ba5c0be9094da6
 Description: OB Control Center
  A control center application for OpenBosniana, supporting multiple translations.
 

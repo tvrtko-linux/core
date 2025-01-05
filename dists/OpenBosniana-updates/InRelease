@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Tue, 17 Dec 2024 14:08:57 UTC
+Date: Sun, 05 Jan 2025 03:53:15 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmdhhfoACgkQ5Vfn9vbt
-T6r8aA/9HwMLppxqlhjYTMSv41Uk+3bdZt/PCqxmtvay01Zqsyem9faWy3T7wdB7
-Bd+SuYsSoucCZh7jplTfGb4qmMEeBYz1npOnM1AgycD87zfRMtamS8LMeHTMka+O
-1ckd44X63zlNe3kEsGRl2B4Wrzbf/mw5VjEc8gphHkcf+L9MG3wtws35kU2/a+Ji
-zvAXuVBp0vrAM+z82Na4el3RNRXAJeZIxiJBgY+SLqVc0foKhu1iIHNO049cp22u
-UZ/5EZrjWALPhDAbQr0ZpPX8NXL4oxgz6j0HToZDPfqECQZaMPQSea+CpuVTDed5
-ogj6M6NCwp5tBkS7RJfJ/w3iQqvp9RnYZifG+hv1Z0YRRUKT/UCTH2UMkjMxCp38
-dIa09pOz4uFdYEIBj+jVsajh3cZstKvNfxel7NlZihNlhsmf9+g/THEshwkxZvqS
-B/OvsHaHUlUNPceJXPSRetdtiKry0TaYP4xY9q7tlJLs0+X/nrKJpFEFF6ssgLOi
-18UPKH8hb92yZovqqYvYRSZMJZvkRBGtNJbEtAcZhCDhPyKYMp0xe0SStJ6/a8dR
-sds0JCsNuOqKvSS6zcgnpknp3Kk2F/M4g9y+4K8OezJc3tM3SX/AtYMasX17a9V7
-/ftr77yPGuxLc9ToY0BOssjBFF0c91Ujjc1oRhqJ9y4sP20vkos=
-=1LBX
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmd6AisACgkQ5Vfn9vbt
+T6oKkQ/8CwXqFVwppPxFa7gFUiffk6yofKsKf/yQLZxMshIGksnyw12oEC+kFgtM
+Cg3fGZtbDVTS7sXH+VeLUFKpvj8wvlPNP/XIEU0YUf7XYfzFAJ4K0AvLCTJHzw54
+L8CPJV1skdfvNanAHy+FvVr528oL2raEj9N2sJwhm/zdnPgJpfty8ICYOYocxiYD
+Ii83BO+y6lpDgEETDV72SFGR5t0sC9WECJNWsn2ExbWEqM6r6YHo4YMM02VL1WcQ
+KkDJDQCFPGGgtCOZ3Hz90iSwFBPW46KfN4CziiBocZoRVHJTa8zNisQz0HTAIktY
+xtWmvWqNp6It0osQM+X0UBz8cXFX+GroPqwcq2snQkU5I3Ck/uk6uMg1aytFdB/R
+XdEmvu/IcKF83r5OAU31Jt9Am0FgNN2MbOtxP+dA2DoTJ0DaMhiXmDWy9ZBvlO5c
+bmwgTunLd7GEstNG+h9FhxvvYmPqszNoKeKphiiGVnlySZ3GoG3nPK12uM72e/UV
+V1XxWfbYXOFhKcBTevdKpLYXBbp5louznsniQMHj0mjuHEmiKW+aE+foyS1HlGvm
+9ZjO6/v+CId1RGEhhxC1MPDkkCFoteZe8VVSNAV1Hpxfx4g2X9t/OIdxO3BgwfF2
+4PMU6hUiDAPMQF6d3n7jNrYGYhadd/GeHpGWF3BCwf03ucrSjw4=
+=nA4w
 -----END PGP SIGNATURE-----
