@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sun, 05 Jan 2025 03:53:14 UTC
+Date: Thu, 09 Jan 2025 20:56:00 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIyBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmd6AioACgkQ5Vfn9vbt
-T6o7Dg/0C8+JdPg67vo/riXeYoNyfYQ33EXde8Us4Ja3E11dE3pdmplbx6MMtF8S
-5DsIpaFmgbD66K4r/womJdiHhFyVd/geT1fHJ8UUsKEC3pgEp9wmjOrXLByrnmZe
-ny1VyfE+VbYOJckSJavAX2ocYgBV5cii57a0FQ1NZS6IR03LuaVbd3/pmoPRKW55
-Qq63M5LX6YKeqR2L/czDskafLZLXjtnpO0MtFTWg/atxwrguLgn56y5haTZ6lq7v
-a9cBYSgKbPzKUwtLaJRKuyXYHxjPOG2rolLXIby5QwrdznFd6gg78WohtJO0kmPO
-HLlYOzwARxvzxHbMiD9XjKlJi/kj1srRjSvX7YsbjgJl4bfyTwSHQWZ+QeU10sZv
-hLU4054vCtMNTc4xGODHnlAzaJ6QwKERTEhLVWsRJEdD4j6CroGaZT3A8bKIC59B
-W0E7jWVpgTH/k0TmuA16cwbqMIodTR7wq7hllo0LhsXoopt4qk/VfSf0MKWlQ5y+
-c4a0GMapcm9h4aK269yjkUDz1cyWld7T71ts2OnEl3ri5QMvAeTNYCTdJtETQ9RZ
-ezh1w+Skvk11ul5i/yTIr59n8zdyEE+Xg4mlaS/CiJ1+8sQT2/XEYE4J+oas8VtY
-7RqmTKXN/JFuFqxEIRW8wNSOf6y77vLbFnOG/5T2XhcG+d4vzQ==
-=omE3
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeAN+AACgkQ5Vfn9vbt
+T6q/hhAAmFE2w9qadG4IbL+9StF1D8jnTgvDwDdE9Dit09JfDhCwr4TRLgS2A3Sl
+G7bRrJSruf1RSYExRaavFitp2+lhnesz/YcIyPAOPIsd5S0sCR7hIpxo9d8ISa4O
+sIqMMHFUJqizBWmT2xij4vTpSkaWidIqCCCuWY2RiRny79F671rutJxJP6zvBXPl
+ZrMqzsnjVT4IPt9/grkVTTJvFhASC6lRT3vnOFiEBlf2IUzjjU9EXSKW31z3wIQT
+QQhgXWtTjx4KOroyHJD5D7yeq4IKdgf8SvYvPkKvnpzc+AQPcg3L3tsoS73fbZ7h
+Mo2qkaj01TTQkCmIFJkhbgmrxrNlISDkaOadYA/pKmzCq/iv8gggzpRD8l+Cb8bQ
+hHEucT9FyaOOx/QS3dtg6/6PnLKo/JEFPAu+eM+ga0Ec+UvpmNK1N9RgNvESa7GO
+v7tVjCC9DPRF5pIry6QszOMWr1sorY+FYhpjDt3zqABefnzRabnQCzyeqcOpF8Hg
+gN3U/neikO9SU6cSAOp7D08JRjh9WBDsDxUUl+q8lZ+mfUXMB0phhV6XcRESnRqR
+11e0+MFZ5iWJktlKc6gLa/AgSMWt5eNu6bKWJOAv6RpBPXZdQVmrWH1cu5QwZ6hY
+XaU3Nce0oW+04Gb/eyj0nc4mTQ0BYkA/eISgBrNJ7IPe3ZdlvTc=
+=CBAU
 -----END PGP SIGNATURE-----

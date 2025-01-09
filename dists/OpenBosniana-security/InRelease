@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sun, 05 Jan 2025 03:53:15 UTC
+Date: Thu, 09 Jan 2025 20:56:01 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmd6AiwACgkQ5Vfn9vbt
-T6qGQRAAnZ4cLKRvQcT6Zd+68ViIohFvYHDQQ9u8sSHgKkLTt98z4w70B0+lX/7N
-4ElKrkZRAcEVHvFYb0F4bfe0yqd+cdI1gNC2pFPS7VP13DhqiXWtA55vrDjVhGvV
-WDo0zO+w19O2U907M7epgDnuVk73hLy59QwKUevloR0WAha9PyQnx3xDHNLs3LIz
-6hO9hfjp1ecBcGQX+sdHjhtbyy6pfbMEIJ1gF7J6uQH/hBeTiKcAY8P40IER30WP
-UNPylPBcXzmyC8UHZjGCw+VtUmXbI6a2rqpWDi58qulFjI7i2eGHDPFNxt/n9wY4
-q1gAL0ZF/P7mlCNfkaLxAdqvrLKksIOXWtkNuy2hzE//aKMVADn6sjzUZQ+stZES
-TLRv3QUfsjdc+Wc1floZQquvS68a6NzXPm0moMYy4hSSh11mswYdJEvEUWAeFtqw
-Dfm+DXwjKv42ZM6BY106VpFpN7XlH/E3jDe/5GxJcBE37Oy7qGC5xVu0F/Uj+Hm5
-q4zFb2tg8pffNQaz0uq/UTrjF+UUDxgIMweZlIxLUDQ45g2EzC7w413t3B03ceWP
-6Qb6I27fu6D6VWkM1ieA5nnIE4gA1/rJeAfYOTMIQ/omCkE8T36V7CzwEHeS+yPG
-NrvZ0pumiAun7p0lcfhQ2yvLN/0kYhCwmySw3CJN95oYiiMBYGs=
-=nPId
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeAN+IACgkQ5Vfn9vbt
+T6r1aA//dbJWnj9OgMwr9eo3ehtm3qIWO8Ko7EwPMISVNC1iyfDkD6e7+WRBmmh1
+6U5dpUkbW7nhDRbiQTqZGd4tSWrIrUQ+Hwew3cNNXzoFfZQk1GjA3w+cZ6cTThpA
+tcqtfZs6omgtL+hkOCE3j8xGx+KKayQh8lwmIZ08QcvC6XwoGTd3yUwThfqA38Mo
+SnWsekQNZ40UGfHEVV+knuonkJiP32Z7D+341F8yzVENJnb7OSqZADGpnMda5mc9
+QCAMFfBDdNNBdtFRMuibzyB8/s8TjxGttRBDoLfWkVN0w2IKV5TLcDrCtxUmKErk
+ao4lkL+i5JhPfL2+ctd+fXraffiX/Z8Jgw9EpeDK+dZ5nB3y/jnSjUwZ/6+Pd0KK
+YRBS7tl9u8ExLsAqNaRvk8Iq1IEcogi6ZMkHLCF8JsYfQsFMhBmU6k/1dEarDHBo
+hXeCAj/kYdkFR7ttvhFzN9jQrRlet6SlV9L/rOUSE54SSQA8RIYPNhUaVbtqi+XZ
+Qc1fnnM4+MSrtn6iIDcBCfQcXPVjztm42Hq3bLA+0onnkVhkt2wRuX/+jhRbRHxS
+cSJAONdD7yeCX1DWs9ZpQK0p9gXm5Fc0Vnr6vbBed0KmFAGbo2Tk5+BaOuWqkg4P
+LwqmtXjdBp5LAz9vZ9ufJSaeUA+sVBEzt/GPdtUwp9INpi1kfD8=
+=nOnN
 -----END PGP SIGNATURE-----
