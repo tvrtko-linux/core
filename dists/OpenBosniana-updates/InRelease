@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Fri, 10 Jan 2025 04:54:55 UTC
+Date: Fri, 10 Jan 2025 12:02:10 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeAqCAACgkQ5Vfn9vbt
-T6oEiw/8DGHG0xpP44efDrsTe9WaFuCRqWhOBDCsbC2XqttMMNoBz/gfv17G2byK
-LeFAEHQpIV8GjCCeZKf998beokjdyx8CHwEFjVNqbFCotk2VEevMyu4zoR5qGN3t
-wMMghFtV6kHp8WojIemcUm7Dn81NVoNijJkxfFQHW/nTyYNqLd0t0GBRd/acVdiG
-/DT9J3Qqd6a6tq//d7eRb1R05Hyn8une7cF/J6mcVxxT0ZtUrL3iTsiadpZqVeh7
-SEg0RJhuyFeBjtRW0+XPZS+IWHzlgrBBmx8PPfFd0TZ538hEnyBqdrmozV39LQDA
-ydZZKla21T8vXavxWZMjklU1HIZHjPdTqXrtEfKw54xlXUEXs/brUSMmNPLALkJQ
-mYcdgHWBJBUlCdx9EQc/vUFJyjPLXdnY4dsU/RIt1cJTU9mGmA4y3GTuDdAjasub
-swTot4L+9b/mpcj0wkGHiXoEP9vPD2kkmKLZw6Og3Bz6hmGLvC8EnBy+9U+4KfZY
-7asE2W8hLK7oaSTIiLhbHZVFvQKHpuL7gTZbPe0GyW69Ituo+us1gF+alUxVbYhe
-Dgb7jNoqbwX0sZ7Juu3oZhDkx4cvRLDh9PVltc275VXi3Ifa4FODR11pWU/rjM7h
-ZAgqtqB3Qy2xV+Q1Oze61FiCC3sBZ2DYfcZnIjUCyo12pJQ+7N4=
-=/qzm
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeBDEIACgkQ5Vfn9vbt
+T6oqfRAAuw7f+1c+J+jL6gGgMRXzjZqLTE63VPx+F6Vj4n98xZVfl6PZ7JtpXWUD
+T4T5ZvJTZAx3ggryHRsQDGMR1jFrceZ26eEto/nNAIKT7g0KHoIxuZRDtphPtcMv
+RKgJkZi8HDUDJRtfM9EHaG6lI3SGzwnhpzVtx74ZMvfQZ3fytyg/r2xejq0Iubl/
+pgw2Z4eNwCcCHJybXyqht5Pbw5kAjxaC+MTgRqALwdCA3o8w3wes2H+LdSi3VbyR
+9YPTMGqjF0ZcE/bqT+xuanrcb9kPlhkJlK3r2Ag161hSKC/FsC12qJ2JJQr9rAo9
+7hxFnaILRiVhes8VArUdB0HHnzJJtCce66MVqPJSKYeEvcnJgdsMpiftMiJ1yvD/
+iRtgHwucMN7yu/veVnCdb7J+kBtCrawKvhlP9d2jI2Vy6RN1EvsZGsu8gEX/Tay5
+893GioaZBX6ON/uhQf/v3J8/FjBFaWQWs8ztnIMEIhXZ7hreQ7PZxuMKMeOZ8/k6
+yLVWwetbl8YCIQLRi6lVLRGGaHWrx26XAjMn5yINpL/nPx6TbiSY3q8Gyi9ef9tr
+sPx0FABLHI13kXR1YviVQ24ZiNc6suyTW03LrrjYf3tvgBcIoEYudcqu7FmfJeSF
+3UaOmYlK6fQ8IbXYpAA0gRBrkL0bjopjP81BUcbxMi8Wj1XhVaI=
+=ZAIR
 -----END PGP SIGNATURE-----

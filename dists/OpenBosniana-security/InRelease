@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Fri, 10 Jan 2025 04:54:56 UTC
+Date: Fri, 10 Jan 2025 12:02:11 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeAqCEACgkQ5Vfn9vbt
-T6oWtxAAueZmbabWptqf8hOJizK+rKB/o/49jhp6p3p3Kr/d9t0Ddi3JCqTu0APJ
-nnBsM0QqKCBzeP0cr/M7ur2ijRAv+qF4NW6atTPURmvjPHu7G7o8crMmOCaexMmT
-vFxwfiPRixovv0L6Lf9RPQBSB0vIvtBXCzdkTr6KmdoOXvjBhycOqRBZQQlurOR6
-iT67CgrCiY8H0yRwppalqK2YYR1YXGwQ16tEO37r6ILQK+Tc+Ss9/1rb9Ht8S4BB
-dIPxd2vri4vzBX5mK7/o61o70NlP+GW7iCXTwaz1/PW6xLjZdpdKmvCuPZeZIBei
-9SgCXYOq1a9kP/q499zB5ldi+uY5lFbRqW6HV5ifZFe/ZcPN9+2XbxElMoeMjq/z
-XMr9dums9cbcmsPavoi6JcU9yNpF8MeizAI1dYFirCOfxZL/XMmThfSrGyxwJPpv
-LhMbSgLowhhCnG9X3Yt/hGbtmtum+usMcI8dLyeIXx+KAcgFd1AjmN2dj7uanasG
-RjclkieOa3Am2W5b9oEV/srGmSapCzAL0EwerwWvKpmieizLv9mMnCLXMSIkPkeo
-Qh8Bc8oYynzuHOYkVfy5rhRm0rmsdyF6Dky7JIA5H2iPMaBy7C4OUNf7iHe4n0aE
-yESk1MjaLDjP0qToM5AOt2p1hZQJNF4ZZniC84bhPn+OtUB5qOg=
-=KPUv
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeBDEMACgkQ5Vfn9vbt
+T6pCGw/+OeG3tb87mvgRaHC5gjXmdTX46dngpEuFXdQgB248Gzdmetk4iMOI9sk2
+7nKoYhwf3ca/9o8bAUJmIlBe46KxsOF24ev1gXW89tPHx/UGAVycdyfR1z0TdX4Z
+uZ4R5dUIT4AkDsuEd/qbWU8VEWzqCsfooYuPLL7rekICshbkeQwZzNWLeJ2puQWq
+ODIYOwEyx+cqimW2A74LMhHuqkaBjaEnjvMc0GY+e9R6fhXumO7sIbn2HTJRhrHu
+ES/lg2RZ6MA0+gz0AQFxtS1OfsBHXVnfWbou7b3daPDvA6QlgOkPNpG2wdxVoLAP
+hViF6vRa+5SF3d2axpkTxd9m1mrCiNo8VyHozF3ACj1IbPtEImWgaWVkVd85UvJa
+mya/FlxJSMy0BrWG1bWZ4JwPTCC6KSLhdK4vJRWCgTYL7EFCbRvEd2EdukQqvCLo
+rWzgghS3yVpWyBwcdvakXu/PhPP/dU4/vaymqsA2oOICk5jFJODnXjukX3LIcz8d
+d5fNiRe7yjMYf7e7sYvDBBzP9R0HGasJKI3FMfQXVGJ7StfA0OPCAGnjqHx2kBN6
+EjdjKGM94j5L0Z6RZq1/EE8y8CESIe9PyM9XQ5SZyQFGbmyHDScTRSVbUvFtGZmO
+GpeGhWq/+jaXjSiq1o4nUaTh32TGjrF8KI7guhIOCl0JSIUz3G4=
+=k25V
 -----END PGP SIGNATURE-----
