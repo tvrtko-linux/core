@@ -7967,28 +7967,6 @@ Description: HTTP library implementation in C -- Common files
  .
  This package contains architecture-independent files such as translations.
 
-Package: libsoup2.4-common
-Source: libsoup2.4
-Version: 2.74.3-1
-Architecture: all
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 451
-Multi-Arch: foreign
-Homepage: https://wiki.gnome.org/Projects/libsoup
-Priority: optional
-Section: devel
-Filename: pool/main/libs/libsoup2.4/libsoup2.4-common_2.74.3-1_all.deb
-Size: 56032
-SHA256: 9408804fed678a110ffa56297f4d36627392f00ddda7883ce85b8bb7b4042d60
-SHA1: fd394224527ae664dcc2be77ed7c8ddec68c8523
-MD5sum: 39fe0e5fa60aa0445f08f24566dc6841
-Description: HTTP library implementation in C -- Common files
- It was originally part of a SOAP (Simple Object Access Protocol)
- implementation called Soup, but the SOAP and non-SOAP parts have now been
- split into separate packages.
- .
- This package contains architecture-independent files such as translations.
-
 Package: libtext-wrapi18n-perl
 Version: 0.06-10
 Architecture: all

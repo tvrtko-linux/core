@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Fri, 10 Jan 2025 12:02:10 UTC
+Date: Sun, 12 Jan 2025 21:00:56 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeBDEIACgkQ5Vfn9vbt
-T6oqfRAAuw7f+1c+J+jL6gGgMRXzjZqLTE63VPx+F6Vj4n98xZVfl6PZ7JtpXWUD
-T4T5ZvJTZAx3ggryHRsQDGMR1jFrceZ26eEto/nNAIKT7g0KHoIxuZRDtphPtcMv
-RKgJkZi8HDUDJRtfM9EHaG6lI3SGzwnhpzVtx74ZMvfQZ3fytyg/r2xejq0Iubl/
-pgw2Z4eNwCcCHJybXyqht5Pbw5kAjxaC+MTgRqALwdCA3o8w3wes2H+LdSi3VbyR
-9YPTMGqjF0ZcE/bqT+xuanrcb9kPlhkJlK3r2Ag161hSKC/FsC12qJ2JJQr9rAo9
-7hxFnaILRiVhes8VArUdB0HHnzJJtCce66MVqPJSKYeEvcnJgdsMpiftMiJ1yvD/
-iRtgHwucMN7yu/veVnCdb7J+kBtCrawKvhlP9d2jI2Vy6RN1EvsZGsu8gEX/Tay5
-893GioaZBX6ON/uhQf/v3J8/FjBFaWQWs8ztnIMEIhXZ7hreQ7PZxuMKMeOZ8/k6
-yLVWwetbl8YCIQLRi6lVLRGGaHWrx26XAjMn5yINpL/nPx6TbiSY3q8Gyi9ef9tr
-sPx0FABLHI13kXR1YviVQ24ZiNc6suyTW03LrrjYf3tvgBcIoEYudcqu7FmfJeSF
-3UaOmYlK6fQ8IbXYpAA0gRBrkL0bjopjP81BUcbxMi8Wj1XhVaI=
-=ZAIR
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeELYgACgkQ5Vfn9vbt
+T6o68Q//WIeB3TR77qeNCnLwh+Oe6DCs7j4TOHaz5QxWxMrTKAfRF2ysrgi+vnKU
+kh2OPIGxJStP7pulsKtfdadO2JMrVJtVdABK7ZBzvmV6iuI8XdmjnizvmiUzFjRZ
+B8RChh9fRiKhm1jVboUarzYXFZOZBvz1Ehvg4h4XESVDRHNXmhd+0KyUeBoO/6e5
+AKx94JJZSIgA5i1g7OQ6olXg4CEYLFbMlkQ5uckLlsL3fcNwnR70llGllD6VWnL4
+WYCwumwmdUIeB/ZhS1DUtQcbbqO/mfq9hXOKwI8iY3Ke40tkVhePChuRiwPbSecj
+t0pKCgbtXEaCJ/GGm02esYV/0++Z7iSbR3riYUyCQcHgfukNpclq48ITD3soKaiz
+bpWSgGBv5JTg4/MKNUWnHgUirBGpNIXcmcbGgU6QjGE0WcCr+vuGnTTfYeOp3Ot/
+T/3WnqUWvkLdmSqP5A01WTSNuE21wPzAL+dN4hXFXxTmw7E7kBCc4tSZ9V6Qks2y
+uq+Gc8/JG6axGtu7k+KEJashtGxtHN094YSNxJJb1LCtBkXKz08s3A4/d36V1sHF
+iuvh4FJ5rUnOt92UhK+/x7PywRAoL7hoV8ZhABfFJ6KBC0uilUgjQUclhFeP7EZp
+p7CzSVlZlqcQVPw90QGEdAI8AE5TAQ7UMiFguELwin4UTCEmO7E=
+=wdgV
 -----END PGP SIGNATURE-----

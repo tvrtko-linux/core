@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Fri, 10 Jan 2025 12:02:11 UTC
+Date: Sun, 12 Jan 2025 21:00:56 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeBDEMACgkQ5Vfn9vbt
-T6pCGw/+OeG3tb87mvgRaHC5gjXmdTX46dngpEuFXdQgB248Gzdmetk4iMOI9sk2
-7nKoYhwf3ca/9o8bAUJmIlBe46KxsOF24ev1gXW89tPHx/UGAVycdyfR1z0TdX4Z
-uZ4R5dUIT4AkDsuEd/qbWU8VEWzqCsfooYuPLL7rekICshbkeQwZzNWLeJ2puQWq
-ODIYOwEyx+cqimW2A74LMhHuqkaBjaEnjvMc0GY+e9R6fhXumO7sIbn2HTJRhrHu
-ES/lg2RZ6MA0+gz0AQFxtS1OfsBHXVnfWbou7b3daPDvA6QlgOkPNpG2wdxVoLAP
-hViF6vRa+5SF3d2axpkTxd9m1mrCiNo8VyHozF3ACj1IbPtEImWgaWVkVd85UvJa
-mya/FlxJSMy0BrWG1bWZ4JwPTCC6KSLhdK4vJRWCgTYL7EFCbRvEd2EdukQqvCLo
-rWzgghS3yVpWyBwcdvakXu/PhPP/dU4/vaymqsA2oOICk5jFJODnXjukX3LIcz8d
-d5fNiRe7yjMYf7e7sYvDBBzP9R0HGasJKI3FMfQXVGJ7StfA0OPCAGnjqHx2kBN6
-EjdjKGM94j5L0Z6RZq1/EE8y8CESIe9PyM9XQ5SZyQFGbmyHDScTRSVbUvFtGZmO
-GpeGhWq/+jaXjSiq1o4nUaTh32TGjrF8KI7guhIOCl0JSIUz3G4=
-=k25V
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeELYkACgkQ5Vfn9vbt
+T6qgWg/+I1FmhO0gmUhuKP0V19YjNg2NwjpVzUMJ248zDarY44OuxaD440uibkUt
+u24bKDLgAybwdHP+G0hst3N4XnmqCqy2FcXZcyC88eySCaJa5/Gm1aEFRzoKqhPA
+Hbacg8VtZhoB0yRwL1eZugOlUaQRZhdzjfMHGVJrP7DWX+gRkeFGcPPvqe5Zdv7p
+rH+aK14CQTW2mOzILSbes6tc2cWnvPGuKHi11OEJ2i753YeJcTwcUzmYaqOtaIwn
++hT5y01HBNVXyo/LTW1mC+ybIzWGHzjugMDtXRBzs34LRR0HHkUJtdnM4hglafyB
+u6MbMesm+btQfubk3GeROdZL09fwD+myr45l1k6LJGiWvxH3F1rKHURsHizdPwrO
+WTAqQt31TMqNMgeyLlE5XEq4JXuHVL22BXbt85bUi3YPPThNH5nGi9yjaeF8PAuJ
+lLAUvWHXLiuctUOT+C3RCw5U3KJdRSl6eTZIcYaSCG7tXc56dnOl7+BvO8he1Crt
+1DeWjIuvw5TR+v/jMGqp/IdmKAmn5P8PkmKfUbYlTrdiWBYXAwCGWmXn2oxdXaR6
+WYU6pM95iGNi/qDJAWPhoklmNtjmfCx5JycfhS8BcvzU4uNhF4YlXVC+p5MpDPEN
++gQCbkJsG3x/RAxuydVcV2PVqX8VRmGUJSOYetNZ0IPADWuG7II=
+=CHaG
 -----END PGP SIGNATURE-----
