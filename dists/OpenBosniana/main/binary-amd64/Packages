@@ -31676,27 +31676,6 @@ Description: interactive high-level object-oriented language (default python3 ve
  This package is a dependency package, which depends on Debian's default
  Python 3 version's standard library (currently v3.11).
 
-Package: libpython3.11-minimal
-Source: python3.11
-Version: 3.11.2-6+deb12u4
-Architecture: amd64
-Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 5205
-Depends: libc6 (>= 2.14), libssl3 (>= 3.0.0)
-Recommends: libpython3.11-stdlib
-Conflicts: binfmt-support (<< 1.1.2)
-Multi-Arch: same
-Priority: optional
-Section: python
-Filename: pool/main/p/python3.11/libpython3.11-minimal_3.11.2-6+deb12u4_amd64.deb
-Size: 814592
-SHA256: c468203e66bb2a1f1a1fff31412b465446138c102b93377ad5f91182843bf838
-SHA1: 96d325eca20339bcdb7a7d93ade3342d4ec3ea17
-MD5sum: 7d3c0afb31766d240b6c191a84706ac8
-Description: Minimal subset of the Python language (version 3.11)
- This package contains some essential modules. It is normally not
- used on it's own, but as a dependency of python3.11-minimal.
-
 Package: libqaccessibilityclient-qt5-0
 Source: libqaccessibilityclient (0.4.1-1)
 Version: 0.4.1-1+b1
@@ -57117,32 +57096,6 @@ Description: Interfaces for Python3
  Design By Contract methodology support in Python.
  .
  This is the Python 3 version.
-
-Package: python3.11-minimal
-Source: python3.11
-Version: 3.11.2-6+deb12u4
-Architecture: amd64
-Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 6766
-Pre-Depends: libc6 (>= 2.35)
-Depends: libpython3.11-minimal (= 3.11.2-6+deb12u4), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
-Recommends: python3.11
-Suggests: binfmt-support
-Conflicts: binfmt-support (<< 1.1.2)
-Multi-Arch: allowed
-Priority: optional
-Section: python
-Filename: pool/main/p/python3.11/python3.11-minimal_3.11.2-6+deb12u4_amd64.deb
-Size: 2065936
-SHA256: 1c104e4804a7bc312b235ce7297a5f6aafac8a436cfd37f3ded8279bd2e837fe
-SHA1: 12fdbeaea06551bf6f8c04c431bee4efa77dd42b
-MD5sum: a48cf0abff83f61f6e27580b3e31b449
-Description: Minimal subset of the Python language (version 3.11)
- This package contains the interpreter and some essential modules.  It can
- be used in the boot process for some basic tasks.
- See /usr/share/doc/python3.11-minimal/README.Debian for a list of the modules
- contained in this package.
-Cnf-Visible-Pkgname: python3.11
 
 Package: qdbus-qt5
 Source: qttools-opensource-src

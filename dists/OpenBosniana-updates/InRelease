@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sun, 12 Jan 2025 21:00:56 UTC
+Date: Sun, 12 Jan 2025 21:29:50 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeELYgACgkQ5Vfn9vbt
-T6o68Q//WIeB3TR77qeNCnLwh+Oe6DCs7j4TOHaz5QxWxMrTKAfRF2ysrgi+vnKU
-kh2OPIGxJStP7pulsKtfdadO2JMrVJtVdABK7ZBzvmV6iuI8XdmjnizvmiUzFjRZ
-B8RChh9fRiKhm1jVboUarzYXFZOZBvz1Ehvg4h4XESVDRHNXmhd+0KyUeBoO/6e5
-AKx94JJZSIgA5i1g7OQ6olXg4CEYLFbMlkQ5uckLlsL3fcNwnR70llGllD6VWnL4
-WYCwumwmdUIeB/ZhS1DUtQcbbqO/mfq9hXOKwI8iY3Ke40tkVhePChuRiwPbSecj
-t0pKCgbtXEaCJ/GGm02esYV/0++Z7iSbR3riYUyCQcHgfukNpclq48ITD3soKaiz
-bpWSgGBv5JTg4/MKNUWnHgUirBGpNIXcmcbGgU6QjGE0WcCr+vuGnTTfYeOp3Ot/
-T/3WnqUWvkLdmSqP5A01WTSNuE21wPzAL+dN4hXFXxTmw7E7kBCc4tSZ9V6Qks2y
-uq+Gc8/JG6axGtu7k+KEJashtGxtHN094YSNxJJb1LCtBkXKz08s3A4/d36V1sHF
-iuvh4FJ5rUnOt92UhK+/x7PywRAoL7hoV8ZhABfFJ6KBC0uilUgjQUclhFeP7EZp
-p7CzSVlZlqcQVPw90QGEdAI8AE5TAQ7UMiFguELwin4UTCEmO7E=
-=wdgV
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeENE4ACgkQ5Vfn9vbt
+T6qs7w/+NZue9JEkTJ3MOof8ngDorT5W8iiwvnjZI1SeRmyyUBDaTZx5+NqV5c+3
+U3lhQsiANyGB+feKOPvoEWuYjb56YHEOY83YNqabpaejGJfk6eOeeK7Xoezng/KZ
+3AHPPTmFbgOYR77lPHpOl1h0cCz6POe1XLVw78zKG6lk6uTZonCuHeNr80Cu3M1Q
+x/cwnC4QR8guq+AVYy7svmue2znJLkhkaRsTKsa3kZHyxerp0hdNKwtxyvipPLjk
+PJbH86Yf0fLS9cZYsNHP0hJoPVSiwRjP+oLL+YX5enrQmjgozCTOMFIFEWMigxjb
+E6y6zysPS8G8KSxH2tLHzfAqpD5hhmsRWAXCAZ3TlPpv8WU/9HCyMm44bEqKFcn2
+GoPx2dwRzDD6YraYlcas9BB0f12Xh+ZxvRsZktnhSBCagFlhIcvf6YFMjaKt4xDD
+ehbr4bcmWL6An/jPW+aoT61JK3sx+b3LvTEjNvGmvRqJW9AyJ9U9r0+xOBg+tePe
+IR0ZpUyVnTE29lYE3fOFVza8ncs6Y+Ria4w3ubpYjlfTtazL52f8LOlS4R2ZB6Pp
+ExcRqFUk1d3YpOXqLKHVuQWTDqBDd+6B8m6HNRgyXr03WQjtRUbykT6fS5g7n9qv
+C9l4ZcP4aK5tKW1R9sK7r1FmyKZlEWjqaFzAWoTFgBxYXkbYbL0=
+=UCME
 -----END PGP SIGNATURE-----
