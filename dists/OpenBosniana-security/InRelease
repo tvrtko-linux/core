@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Mon, 13 Jan 2025 12:52:47 UTC
+Date: Mon, 13 Jan 2025 13:27:59 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeFDKAACgkQ5Vfn9vbt
-T6rY9A/+IvNAxVVN43g0HE3YQxg01/hHqET0WpAQSvLbixfvAy45IfUqauM1iZ+d
-niEuZVQBzxJCqEGJEde3CRxR4MHBMXtDgVLy5R9AJVdQWlBLjaUCMSAmXTRqueta
-2U6bsPXqMXUWndeo9HNSwxjcNZwkSC8ThrwIiXYcj7TDqq+XVMZrCeeaYniyo3GG
-Q1k/d5wo1Wkyo5I4KGOpb/HaB0wfO+gx1uTeX5OB31VLNzr3tgQZcYsWsdEnoiIC
-fd0QJmivPeUYvDPx7AgAxPgmTxMdpE1xonllct0Svkkj2DcFm1ExlSz49TcDZ2Cs
-dFNoC+T/xN3jjTi7TaKcvJ06iSc4J9IOb153o7aPMja/vlIRlYRnAA/2uHAyyZ7d
-8Y57zcrOQAQvG/E+LuSF0m2YKeCNos1fWhnv0vOMt8XZPnMY/80p1B7stDrNz64R
-qg2jDWv9SC6TXz6DfvcU6T7EzenLGwqOeMgNab4OTyKVXKz133gaM3q0wFS3TD3n
-HiUN1GVNA8TMvrZ82ONA9kkGiMaajG6nM2TiaPUBMEGYlDKPl0ytqSuzKiYHRaaC
-+4iRJH1dVFhk9XVHXstGi2O9mLcfMvverY4pmOU+6J3phyfuuCWPU0gxuw62VOWD
-eUzbdLMIx3r523XI3UHqZEDqw0xua0lrlbUUwckfzen1h6ZtUVA=
-=dpd+
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeFFN8ACgkQ5Vfn9vbt
+T6rv8xAAkZ5ccDkDdUWoEpgX/n1dymXZ6OlAO6KZGJji5jmcpaJlqSCTWgbz3OdI
+hYYKq1TMVw5izVxOdAOflTb950kIe5/qgeOXyg9ztEpmhxbjA0FkERhWceKXex2F
+CeXKR18jiHJ4eCzbl4udiRzVISFritLUmnpkH+gwDSlglVcGLY9sX2MYlt2AxOCx
+6+j+HUdptlevUKcHMk/ltlovqaKu+OjD9myL+By3kY3/CPNVvJeoapVvxAdcX/3F
+KZlReTmDt8N6mYgBYHiZX8yXmpPaEYBVWvQxCroxSGLKAVw7uPVuaI6iA/kP8a5n
+Idct/NtPCMhInmE+hM8A8dWJIxjjnDEE7ZkDyz+tDDSWjVCciIGsGri8DptwPkHA
+sc5YbMecGeporADNAr5uxFNoHtu0nT+uRWN7kFSXHngsdW7Zt+uRAJ3juWINVEaY
+oHNaNzgUqVsM5Cm3HIqaeedWEpXOnpgsQ2nUtGsd1aHX6ApB3gYFwYluJNGnBpuA
+J/ha10y3O1Ud9X/AhMLXeS4xIvsnGU/mVjPdST229UabxIxYZ77s8KgmnRT8jOMO
+lYq0WiwozBmBok4C0HSxhygkefZ3YqwqFZNp3B1Fb2Kl7ICGmhsNozihGvWlcuQU
+zYxi2pUomsnt9PQnWBzexow50L9Z86kBbY1IPAvNFWVyzFBsbVc=
+=oZVP
 -----END PGP SIGNATURE-----

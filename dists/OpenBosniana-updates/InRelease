@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Mon, 13 Jan 2025 12:52:47 UTC
+Date: Mon, 13 Jan 2025 13:27:58 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeFDJ8ACgkQ5Vfn9vbt
-T6r5nA/9GabdhQlHk/9xW1+dziLEj8P9Y2o+IdjU63KHdfnL2h86qV68I/yRinM4
-f1JiZM9kaIgY5yu6SNYZ1dyW7+emHK4Cld1ZeXkBB9et2BjFG91r0MPbv0VPUYTP
-w/XzQVroP+vpK7pUsOeM+wzH0rnioij3obiaB7M7YES+HfaXBSexUoQRhyMtKEQr
-/Ej0ulEmDkiLHUrZ8wSQzuLvSKfWmz6kHrpcxnS6AdLAjXhGfSuofItZBDc7xN1n
-qPy3RQCUrcS8bTA0Dp9H1aXZx81EhKazVd1nd0tDfEtZ220R5nhZmPp9nJ+7Jjgl
-so3uZNNrZ+mzK4/ZHy07WGvGhqik+Q1YGEVB4QeXzVCl48wSgDLfbokXLOPO83Sx
-nliy2l+xsrVwQiD8gmiGNGxQRLyVaevSfgeld4ey6GzQKpxHhZoYooyvuRNI72V5
-5+3PJzlSqnRizDiRkO8UzEVDToJ4euze5VOEOWaG+HbKtJ5Qy3Hw7IrJKfo5ldZj
-gx+Fgw3eXLKpG5iOVUKxNg6h7X3YWjRnIhSjIzeQ6T+YrEgWJ/TzNRZTY+ruTliq
-H8lh5CrqUkNMxuFmSFvWN1rKPZeS8+BTAAcKrSX+blmDaFLaGR2TY00PyybVPq2g
-jkNS7g9XILakbTtWnsanpnE6n8JkY6CEh4xPsTYYhnA9OrSeyRo=
-=9GFY
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeFFN4ACgkQ5Vfn9vbt
+T6r7GA//cFCUY+8fefUNToLA67xcMCBsiXCUOszjmOwss9fqE3Vi6t3rDAUuIOtC
+c7oGVjBm3R/gdWIt0jHUJ9xbSGvWU2KGlJNVznUAwK+EGSo9j3JAwac6Jt7/LyfL
+cucIMreJFKicihbuJqspDbeRSuOF3CAUg8U+MPXR9Rp959TbQ1PRavdbVrl00rxk
+4MCXmDc8kVZ6CTc/xJcAxQFBbUV1QbA2+KJqUm2a639enCQZfGv/r/59gYNRGpg/
+ZhoYTKmOrg8YvIxaFRdaiv2f3hbiONYzP9nzwfMbNKVNnkPPdGoHudVuTaaS9I5f
+tonNn0h3klDGto5tflNbj0RpIbVqa1DYIDo/cnd9VYcTag6Icz05lrfQnoVLuQ2P
+JX77n+YNY2mIAVesB5XCQzXUiEBLMchpd6SOS9b8gbY6hnlzXKTvgGHSFPKGXAbU
+63BFbzT8smbcIIAClDzobTP8wQi3mbrmJND+Lsp1zJuPPTMmwx5NjwB8Jbzypdj5
+Cdjm1ExKbcAdBUGgIz7skAOYMl8O2PZU0OTEjr1ImnXhgNpMKCTqOQ4kcsHsqgNP
+CynHGij+LlLfpdhaUNAhvR3zqIiEd7fyDX47Sux+yPhhtyWm9KcWuey5pWJCmqf2
+TrXP3ZkkKicm3oX2UEQTnpUP9mngBQHzEH2OXFQluxGPgW4iPV8=
+=VXND
 -----END PGP SIGNATURE-----
