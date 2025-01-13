@@ -63317,6 +63317,45 @@ Description: downloader of videos from YouTube and other sites
  ZattooMovies, ZattooRecordings, ZDF, ZDFChannel, Zee5, ZeeNews, ZenYandex,
  ZenYandexChannel, Zhihu, zingmp3, zoom, Zype, generic,
 
+Package: ytdownloader
+Version: 3.18.5
+License: GPL-3.0
+Vendor: Andrew <aandrew.me@pm.me>
+Architecture: amd64
+Maintainer: Andrew <aandrew.me@pm.me>
+Installed-Size: 308660
+Depends: ytdownloader-locales, libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Homepage: https://github.com/aandrew-me/ytDownloader
+Priority: optional
+Section: default
+Filename: pool/main/y/ytdownloader/ytdownloader_3.18.5_amd64.deb
+Size: 69331564
+SHA256: 549e1e284025a8b2daf461552c60f9bd0dc87d80670c2976ffc078c3ac5d6f2f
+SHA1: 79d81ee589b62b7c34dbec3bd3d97b502601ec27
+MD5sum: 695cfa30fb532793237bb6b8adc51100
+Description:
+  Download videos and audios from YouTube and many other sites
+
+Package: ytdownloader-locales
+Version: 3.18.5
+License: GPL-3.0
+Vendor: Andrew <aandrew.me@pm.me>
+Architecture: amd64
+Maintainer: Andrew <aandrew.me@pm.me>
+Installed-Size: 38800
+Depends: ytdownloader
+Homepage: https://github.com/aandrew-me/ytDownloader
+Priority: optional
+Section: default
+Filename: pool/main/y/ytdownloader-locales/ytdownloader-locales_3.18.5_amd64.deb
+Size: 50486132
+SHA256: 2bb0aaac3e996166e10c2400a811773fbee4e01a7086b3c79a68097a5e0935d6
+SHA1: 6e53bf81417467c2aaf29f60644a9beaca387b85
+MD5sum: 55afc716be6f5bd7e698d84e47c89390
+Description:
+  Download videos and audios from YouTube and many other sites
+
 Package: zenity
 Version: 3.44.0-1
 Architecture: amd64
