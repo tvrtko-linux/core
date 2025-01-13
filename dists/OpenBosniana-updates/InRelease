@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sun, 12 Jan 2025 21:29:50 UTC
+Date: Mon, 13 Jan 2025 05:59:02 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeENE4ACgkQ5Vfn9vbt
-T6qs7w/+NZue9JEkTJ3MOof8ngDorT5W8iiwvnjZI1SeRmyyUBDaTZx5+NqV5c+3
-U3lhQsiANyGB+feKOPvoEWuYjb56YHEOY83YNqabpaejGJfk6eOeeK7Xoezng/KZ
-3AHPPTmFbgOYR77lPHpOl1h0cCz6POe1XLVw78zKG6lk6uTZonCuHeNr80Cu3M1Q
-x/cwnC4QR8guq+AVYy7svmue2znJLkhkaRsTKsa3kZHyxerp0hdNKwtxyvipPLjk
-PJbH86Yf0fLS9cZYsNHP0hJoPVSiwRjP+oLL+YX5enrQmjgozCTOMFIFEWMigxjb
-E6y6zysPS8G8KSxH2tLHzfAqpD5hhmsRWAXCAZ3TlPpv8WU/9HCyMm44bEqKFcn2
-GoPx2dwRzDD6YraYlcas9BB0f12Xh+ZxvRsZktnhSBCagFlhIcvf6YFMjaKt4xDD
-ehbr4bcmWL6An/jPW+aoT61JK3sx+b3LvTEjNvGmvRqJW9AyJ9U9r0+xOBg+tePe
-IR0ZpUyVnTE29lYE3fOFVza8ncs6Y+Ria4w3ubpYjlfTtazL52f8LOlS4R2ZB6Pp
-ExcRqFUk1d3YpOXqLKHVuQWTDqBDd+6B8m6HNRgyXr03WQjtRUbykT6fS5g7n9qv
-C9l4ZcP4aK5tKW1R9sK7r1FmyKZlEWjqaFzAWoTFgBxYXkbYbL0=
-=UCME
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeEq6cACgkQ5Vfn9vbt
+T6pSOA//axC0NlE59/VbV1aIVHodboa1EcrpRGgPCNFal4viujMAOcjttmxzGJGh
+p25Q8yC+U0apck/WfSuuO7VF77x6FCdLskkIs36cciIBtv/nU+jPCs7pgXdavj2Y
+74Sw6p0b3e+/Nz/+TYnoSguHVsYGwpzR6VZBK9GYUFH3pO74+EiDqtsYf2nG85h3
+cCxuW/2ebcldu/Okj+1p66iPaZpQpO1CDYsCcpf6TEn80WiQbNn6RWJ7yOCWRje8
+N2fx9r1wUcg6FLDwJ0D8o22J8gHNRCQIoqiX/uWbeqqFp/afbjV1v18OO61+jOEp
+K5H+cysuMiNJGM/bAliikUADE7aRPK1CzCcDf4T6Zf4LtPaj8RiTEy5tXAhKXkGQ
+6EOq7z5fIdtDXXWXmFfKuhG6luPO8Os3SPaar90SUs4X8F1wpB9sE6LM5+u+dNkm
+O9cvb+FpQc1WIEUmB3alSlVvXnGp8tFyKRhDgXhyK4aPdwEONkNP7QpU52eK5+iI
+uXi0nxwkOf9OjOo68AQpJzPLpwSVaUWOKc8z84sQgC8MhDCQiBkDBYorTQm0JB9E
+lpt7eruBkGMkIsT/P2asZ0ATKVKu9lpkzAfs5pik8x9STxUTuEVlhFDDlnSXa2z2
+SQ4bTityXjRBeqXFE9I0FY25rLfLIhgWFxDzhMLBNDtmbg827uo=
+=3kdT
 -----END PGP SIGNATURE-----

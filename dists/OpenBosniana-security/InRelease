@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sun, 12 Jan 2025 21:29:50 UTC
+Date: Mon, 13 Jan 2025 05:59:03 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeENE8ACgkQ5Vfn9vbt
-T6p5Cg/+IjHB+U0eiDQqmf9eaTo0pW4x/leSjR6PVTRSJtVMKPv5hNbTjhGUuYhM
-jTr+RmQfe7vkKfw3DzWpG+XiRv/magAV1Tq7C8P0Xh6p38eUJKS2GWkeLqA1OSu/
-AGvS6Gjk2ElgxXVFDvP79b/qMzU6PyuufxRTfx8bYKOxsiWnq39h43pq9XvSI0H2
-iBzMHNGNVPCc4/O2j2poUeMd4I1Uj9YylGKR7gR1TUtuFhLrS3oFQYRTHzN72ru/
-X3+tBEL077ocNu3/c0f2XlWq0u8PdZhzDEHf9wWiKxXSTIwgeORmhNJdzeg2mz4n
-F30cBItaKJf7OOha7SlQI5xgPdJVZpN13ravCvdCEtxP1odS4moz8KLi1Rxq48a3
-3H5u/iS3oFmq0ZtYPqTAM0pulAXJTJGl/i1WwfuzDci8AzjIcAUPNfHNRBcF9O+n
-KdpfI5cCyf4lYoKTp8dOnISXMYhdcccWmkTRhr7v5RXajhIXuy6NVjbkhmrfJHie
-Ih3hxwEXrC+PSlVsoS7VkaE8awUj2IKACLQ5nqrr36ZQ1WSms99G0ZWbAcAvBqml
-PujT65yBut9t3fG6zcSVN6DRvJUOaIPjagXWTNFov4R+vSnYdohfYDH1zT3GSosH
-5WzEyCmbjl7aU516PcxIG996JIYgIgUkCZSpiv1Q/LbrZb+ujfI=
-=7OyZ
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeEq6gACgkQ5Vfn9vbt
+T6rVnBAAlxxmVEG2NsuQrxJtFhKfHo4ovvHFBmNSO7qZokOjJEGyQUW7XMvQbEJu
+Wr0egufvKkn5b0XBK58023/ntKh4qNzUxKvFTOoM5LAdzQtFYRWBkPwPRdeCoYfm
+CTxtE7or2UmNTGj5X3oag94zp7xMB9xiosz8gq+zGOt4HIgZM52oTtXllBIeYFK8
+iL395EtS7sPXV46t9jVM76LFwqqpkOSux5nO6HW7niGI+qzC8MUWOZ8J+/heuAhw
+l4BNYhm0ne0kweAtBNk92RXKV1jFmB4PGAlk862/HDkf7/ziKS51iCotaJsysJbM
+jW2jfSJjnGzYL6iPZp8fJTq0cGvdBMv/OgcuGSthdFhynMCukKGNgJJHEp07pdY/
+AlxOIJi+zYuamLqYqKmJKBv+CFYBqbQgTx59+zmRN8wmOLCzgNIkzLbPp2ZYra7v
+J7nZR3sfuRM9xggTk/dhtU3DDOulc4B7GrQISyp5BvaUiLm7qHDPOp3dnKGPET60
+6uSIIddqGj0KUaSKPNmpYdF7wwuklfS8eMgnRz+q9FcWkx0jyj/5IgN78Nmbkymo
+sPBJPkh3aMXKXJK9/0fr5E1Nsqtk/WRRnyQqqNwuBJAnBVCAtR5Vbkfjeics17u/
+4N8s5dxjtbzsfjgOnp6qQSOWJptj4b8g7DfwHz0qmodCR0i7N+E=
+=TobR
 -----END PGP SIGNATURE-----

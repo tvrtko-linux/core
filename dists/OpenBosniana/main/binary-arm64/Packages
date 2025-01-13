@@ -4334,6 +4334,32 @@ Description: network-related giomodules for GLib - data files
  This package contains data files and translations for the GIO network
  extensions in glib-networking.
 
+Package: gnome-packagekit-common
+Source: gnome-packagekit
+Version: 43.0-1
+Architecture: all
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 6586
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: gnome-packagekit (<< 3.32.0-4), gnome-packagekit-data (<< 3.32.0-4)
+Replaces: gnome-packagekit (<< 3.32.0-4), gnome-packagekit-data (<< 3.32.0-4)
+Multi-Arch: foreign
+Homepage: https://help.gnome.org/users/gnome-packagekit/stable/
+Priority: optional
+Section: gnome
+Filename: pool/main/g/gnome-packagekit/gnome-packagekit-common_43.0-1_all.deb
+Size: 900460
+SHA256: 335e2648bd423f7dd6420d3065d7e40d75e74154ecfab3200b72255748f87536
+SHA1: 5e160d5ec3a911b81e19365e2a27d635f3458b97
+MD5sum: ff59847a6bd1f946e3e12b999a2f8006
+Description: Common data files for GNOME PackageKit
+ PackageKit allows performing simple software management tasks over a DBus
+ interface  e.g. refreshing the cache, updating, installing and removing
+ software packages or searching for multimedia codecs and file handlers.
+ .
+ This package contains common shared files for all
+ GNOME PackageKit modules.
+
 Package: gnupg
 Source: gnupg2
 Version: 2.2.40-1.1

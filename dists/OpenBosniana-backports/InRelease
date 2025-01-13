@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sun, 12 Jan 2025 21:29:49 UTC
+Date: Mon, 13 Jan 2025 05:59:02 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeENE0ACgkQ5Vfn9vbt
-T6q4yxAAp9vZMrh5byKtB3c58SkXTSwB1FT8JPK/Jf9V5zayqji4KWJHMGzOjZh0
-yCQ4Sy/PLJzULqNUVq3VkbDDKWw6+jWPSRCo2kr3kVeM/1YC19Eg8CD59IFUVLLs
-w0OqgkPEahsYyO1y4nsJLgCw+z2jRxjgyKJGVcBfqUtjVgE7YKCYIdEcFIEDiMq1
-R5m/B7zXDtBlL00m66TUbyp+ME93ax1Zp8pfpoeFeG/9tSgtE7P1FM0vmB0VPjqW
-x2rFSGO8vejXvzqBZ376lt1bfi/DYTE5zMa1c+i19bWtw9H00oSErSveSTq4ulet
-rEGOf8reZteUs5jTwlv05GdOh+Aw4d1xN9t78KE000DjSuyPE28+X85ovOsb/kCL
-MO1x4i1xcaHwyaoP7nDqJKcOQwzpAIKdzAD+Vb05RuKCJmQ4F+IVUxbAxfs6xRbV
-MsUcGMk/eLUoHYj8pRpwvvVomHNWqTiLcFNQ5+dS+4sOeoZwbogB7EFX0cMKKl+Y
-Al398VRYbykgDwZuio7fNWbvJuQ6p9QuMhhMIYn3Lq4i/pkMK7lHErmAfVGqbKiV
-+NIr+1jxy4BVc47GQ8JDhhX3M6TQwvO3usY3hy7+tArX+MfQGWgTPUfv0mwmpKVX
-EF5OFoN3ordubmFvHf+VPUXKyVepFsnybvbPCcmnshqxuhloD0Y=
-=avrr
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeEq6YACgkQ5Vfn9vbt
+T6pvfxAAm1dfgE5tW2/Sl0xVzvnB7v6q1zP7DGzt8GIKxQM9hgUtKkhBvQn1gNMv
+Nstam4D0xDRPQPLXqbDZ1TlhCoVc1jOsvUTPiDG4nxDn/zqtaxDN+89MSl601iiu
+r8+cWGchlXgWcigmAJGjYPUS222WT5u/dFYHBkJ2H/h7WdO323I+W19stq3LMdev
+f1tLMKCavl+vIDosupJWqNbI9MTy+eRioMKkAyKBVFL1/NVpwlI5+lzS/2lbdjG/
+5kU8P6rF8Sa8VOgdEl1KkYAqKzfmnDRKWfFy3KDnx+g45H6FYft+HguPeacV9R+a
+qNTcxYV+mK6Cesvcbvkm8pE590TYGahV6RjWksu4M0YNM9JznAbiIZ+R7Egwynh2
+7y4VdEQ0JW6ZGjfBygus6T14QRQrulDEd+FscxIpuXE6Pri8bjogyqWIAjsQrBfX
+1x8pPnVXwjPdzkghM2NlzOZp8/emcrKgf86p44qF/GLN8kEtAkuM7903r8565A7m
+WhAp3qTCQgF8p2T/HxnQJtluFKxPN34Djm2D3nIat0fYKUup/6ZcaGwdIQObvLhR
+KWpsyBoz1Z9Tx6b7VF2uv3pHkaGEbknn1xbmRd/XRaC6r23z/8MlQXysCJ8bE7WB
+1zkggAK5kbLRm9dz0mmfKr9WO+LYK7J0ywATp8TJqldq4S/wjhc=
+=PU2x
 -----END PGP SIGNATURE-----
