@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Mon, 13 Jan 2025 13:27:57 UTC
+Date: Mon, 13 Jan 2025 20:26:19 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeFFN0ACgkQ5Vfn9vbt
-T6rsqA/7BlnOTBIMzZ8Zo/2uP4MwBXehn9Ld29iNlM7O6H+uwMcLcfyVjIQA5oD1
-QoOIFiO9oe6JS4lNVaW8pd0UJhJo1INJTwWg6fr9ZBm+OcLW0lwgMXW0XvhH3grb
-OmKvkdIq/RP0JxocqSqODGJgzsWcXietORhWYGnP38V9WvFHXXf/1yNdiGsAwP6a
-+kINSngzKmiE695o9qWd3rrJVISiNf4OCZWvB6GIeQdW+UYKeFzxLb/DXGTR+NVB
-dN8B6qDrPdzodQ8Apmcq+LdFdfLPirJgVDKcx/k+Fhi3HY9HdtqdmR7ED3tF0z0w
-CEEMDkC9ZCzmwSMsvF9oWJFi4DLKT0I+sgyTcr+i85kvuVvoIi0ijNSTg02vxdKe
-3FsnBYPvMk86hr9B7UKLZ2L7WYbmUpoJtfbpfqkuFq1amNFM5ySQXlGKOeBkGcTw
-Y5erUF1CKyxILlCjWCASoT650O+7BHQ2aY8zav5NjIjM7pQG94yEK9hAo/aVOolX
-9nPR0JPpBsRZqtiOTx+IomsAA1RwqxnqOAbnafTgSbFC9Y3qj3hje5Lj+8LvA6xX
-L2RLpzaooJvplSoWjO17t52is8/vzuyKcfqkZUTzqGWB/lWqK5kY1N8dUwsvLUsD
-NLR0TlpgDK0YBdoGiAcF9QcD3DloCsMydIDY9FcCMIHnqswV97w=
-=BKEj
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeFdusACgkQ5Vfn9vbt
+T6pmsw//bYCVNTnI4efn3EZatI4pA2R/UKKIQ9EQx+Fi8CVIkOApHwD9HpIU2AXA
+vyH0XvVeMeP1msZgWYg8bDFfkIYag9wnIRPThqKSbHrZXKqeX5gh1oCud31a3+Jp
+oI4klzfHzBnvp2YMH5PQ3aZHBXE/xt2IF+3lIdWJrBuX45K8QksJi89SjRfUeewA
+OWS7x5p/eQokIR2NiKymj4Xz86o7ijw9qXHn4jC4WySoKBoRGaBH8jd4bLoJVJBR
+gjs6vt80K+kQPe8SRvM7gpME0FSzy8/NwhPy224mW2bgihlhFLbD/v+c3JDhwcje
+BemoQi55j8SuZ86gMeYlQuNV1NMtyD/QW146zazXT6c6bLk7P6Z4nsj4VywgCSs2
+bBmkkqfdx6w9q+Uvm9aH4aBgeISB1JwbVlO+k2bZHHFUsxxB3cCtG0oHgGyY86/Z
+8cvdd7/CHUj0cT1LpxI82GulI0hM6I2FzNj/Uam0UCLoqpUs3g0YQCjB/9+irLiU
+kGcqcHCGBHutcpDCp09hdYbPGRzrWnj9LSb8qEzyz3NKtLfDV4p4LF618CkO9+IL
+uJ3nniQBadEfAfsO/5GXpSGUk0QOccEedBjFmuaGPLENwxILOAnuqACFZ3ITKR8r
+VC2PyxTPoKdJTjzFbhu8MLmrfYwwrBz42x3Rb7dgL5jlrJWL6Ho=
+=rcck
 -----END PGP SIGNATURE-----

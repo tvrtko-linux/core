@@ -1397,7 +1397,7 @@ Description: GTK theme built to match KDE's Breeze
 
 Package: breeze-icon-theme
 Source: breeze-icons
-Version: 4:5.112
+Version: 4:5.113
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 32259
@@ -1407,11 +1407,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.112_all.deb
-Size: 9209600
-SHA256: ef216372abf72504a1e0604ec9320defe33f0be19af3a626354dabf892d52cd5
-SHA1: 3897fe7be4ae5875302e3309d9ee33c296a84b59
-MD5sum: 913e63fc8d5c77e391e6338d8ece6191
+Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.113_all.deb
+Size: 9208820
+SHA256: ee1d148068e7c8a431b85e0bba4ffe2500b9c07bc2aaed62a74c343f49359e3e
+SHA1: 1456b560d9b63b16e641879ced16e1d5303f28b6
+MD5sum: e84c341a249c28cfc557c7cfed326757
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 5 desktop.
  .
