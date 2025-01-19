@@ -3858,21 +3858,21 @@ Description: MySQL database server binaries (metapackage)
  doesn't depend on all the infrastructure needed to setup system databases.
 
 Package: desktop-base
-Version: 2024.12.10
+Version: 2024.13.10
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 16548
 Depends: librsvg2-common, fonts-quicksand
 Recommends: plymouth-label
 Suggests: openbosniana-desktop-mate | openbosniana-desktop-kde
-Homepage: https://www.debian.org/devel/debian-desktop/
+Homepage: https://www.bosniana.org/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2024.12.10_all.deb
-Size: 2806312
-SHA256: 53812695e80d92b7c358fbe18310e64611ec43b723e59d88aeb03081e8e5dea0
-SHA1: 33341161ca63dcbd4f34ef7aa68c64695060f61b
-MD5sum: 62322999298da7a30b16aa550984327a
+Filename: pool/main/d/desktop-base/desktop-base_2024.13.10_all.deb
+Size: 2862204
+SHA256: b730b696364f70c540b906f95153055bd75554990a53ef1444bd0b9e342e01ad
+SHA1: 92c050f17758f2ee2a86b59295e7f5e4f184ec9d
+MD5sum: 7bb887160e4e0bf496de05240664f57d
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
@@ -51208,7 +51208,7 @@ Description: OB Control Center
  A control center application for OpenBosniana, supporting multiple translations.
 
 Package: openbosniana-core
-Version: 2024.09.10
+Version: 2024.10.10
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 705
@@ -51219,11 +51219,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbos
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.09.10_amd64.deb
-Size: 103312
-SHA256: bc2a722578048409aa2e5d35559adaf750216704d244b29f7f630d419b0abdf0
-SHA1: 0d1a9807f1d8997f6a374cb71101d90efbe4aaaf
-MD5sum: daffddd25bf4e4de26f9b091f7369125
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.10.10_amd64.deb
+Size: 103824
+SHA256: aae8205d964fd3425b1279dc90437df3ef6680ad9990db3befe43f6af057ead3
+SHA1: 7ca04e801e660105f3909163695648313502868b
+MD5sum: 54f48c61de29cff6d45321e386245b1d
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .

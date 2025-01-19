@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Mon, 13 Jan 2025 20:26:20 UTC
+Date: Sun, 19 Jan 2025 09:12:04 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeFdu0ACgkQ5Vfn9vbt
-T6pwThAAp3UiX4lMQtu6QbQVgcndDHxU5b0cmuYrloF8aKrrRWKlRAEwOx5l5FkU
-HVgnox7xicmpyGR2kHN0ciViCvr9MPa7Nft+wM8nlH1dkCyP1dYBuIaE0sRZoQ4I
-6Vtg+77F9FJXbi2WTMa1wO1rMNvr4gkm+cj5EoCwjih+5pV8PAEXJabYE+wWyvgs
-MB+tIUNIoE6tSJqvbzaCOAiNamNj219wL1rUYTMgdu1Dysc3sJfcQGy75XlZXjgH
-Z0X6j9vHZo+P5aNw/Zu2oAlHq+anE3UezKT29ncmXKqPzGGTIgK0S9i06GUmEi0P
-Y99XkAS/nIPJ+f3PqFS3LW663Yyrsv6Su5w4oGdkJcDEDymTVFl4ZQ/qSb6yJJKA
-OT7ggCVEeDAyNrUduJLiZimwDVLL0kDowVIbbCNo76T2OmuXV0KSyR1uVyD8ndVi
-kIrSdCvF/suNIJtxaykfsztqQP8w09oJzML8CV9NSkthWXW0ab8iU6aAJonp0GgJ
-ccpGrPEBv8d4D6kJkTbHPogIkizpKoBLaNLu/hKGFH5Vy3FQvz/EXq/koSxDQMS5
-0DoVGSjJxtBBpKifFuusYuywz03CR1UolpcK4nzwLbvxjODC9sTNXFazA27mseuw
-f9LnyB8LKJIcw7wDOZLxwdEXC70vLv3gCG443mL41sFvmsApDCU=
-=jRkC
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeMweUACgkQ5Vfn9vbt
+T6qrvw/9EW8ah1ekBC4K5hueYUy55rlR9Gx9rEwyh0NpEod9JEQf7hMGJtvfblqP
+Dekq6KDe2kO29FNWg3Ba2daCv+6DiCKxyED93bFq+ZLR2r8LrHlyQHIa/Xk8nHL7
+sZRHJmy40ncQ3HRbMg668CjYWOdcZZNgqM/jxMjEPQKiuPxe9GbW8Bppcidpcn0R
+mamJMsSN0C6qfaXyhd9cOq1UIlmh61s4TB+uqrwE/TrBMgHimTOHP3fphPJS1Tx1
+rW5IzB+FlEpEc0d/0Fbaym3ikn4aw7ko92Uc/QE6Pv3nJXgGaPohHq1lBdW2O3QS
+Lw21AxocCSxVsq5BlV1HpAojxGelRNmGQosKcTgJ81sc7wX7h80agmgCymIs6JpT
+DOoe/7JwsS9B4dQFSgYQM6XFaodVP775+HKHNoWj31wjcmxIIqnRJJujGMSGALDo
+zGeXONvVdeAx9avMrAcYOyc9lxFxpwh3HItIOsNezG5AwwJe4opyUorowWrcUyTF
+0J0mXsJOIx/LXDlBs6v0rUdN3TqqVNwv7NNGRRd6n/BEw9Km7baXMk4FQZbO8duY
+RfHoqJO0c2oK51jTwOK2UQgPTFYjnlybLaqGo8S0rgYdmEhc90cmp0DonfsMI2UX
+KAzWenSmR6gzBZ7loiUhV6reW1/ZC4a50R4XrF4yhRs5+qOE8O4=
+=NI5q
 -----END PGP SIGNATURE-----
