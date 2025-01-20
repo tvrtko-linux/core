@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sun, 19 Jan 2025 09:12:03 UTC
+Date: Mon, 20 Jan 2025 02:03:44 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeMweQACgkQ5Vfn9vbt
-T6qyfA/7Bqk7YT8TutnqJZeqIVCdowUv+EyrBOi/+Pt47MlpGsAWfIl3MYB+zEHn
-eA1X1yEhZ86xfxTDBT2Onq14rKXWhdJ4Q3eTJoyJDTDd8vGfiCgkptVCY5gXkf1v
-aD40OeTs87SY2NqsCUXxnZYax/4xc1rPHNXUr3Muh7eqDC8GNbjUKnZ8dO/kehsB
-aeWifbfwdLbRwcY7wVzlDEDI0t4JmuxbDTOavl4ucO9lN0dHLcUZoYb4JGXrdd9n
-U3/K3uKatUO1tq62Y2ThtDmeJYYL8mpyEJkTbsVacAeATneE1JGwhTwU1pLv2Okc
-uZBzpgm9O5Ss+C0hdn8yMKhK+2QGPCdpcd41DGOlDpa5wUe2K+GN3F0xnVqeo32R
-dC4uTj7T+YrZ9QmDh7G91j1w2lt633KC79Jle9FrXUrWWEA6sUj12OzKp0Ol9Trw
-43V2rzLx2JBdgJ3ylX0dndMqCIT3mqJlPBlA5te+EVng8dRFv9k+XCWsXd99beVl
-YzExRiX89lTIJ1p26wokY3dHPOG+R5QttYBpe766P0F0o3nY7nYhQhI995fzdjtA
-NEE7aTSPfPWh0YoHE+5MNmztwlwLeIVbCPuI/n9ZN6ZfneuVzsYZb9JELvreYATo
-KuwTtZglstx0drZNt0oGb7HSqCEuu22grDYndYs3MmImFPMjGvY=
-=wSlO
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeNrwEACgkQ5Vfn9vbt
+T6qkzxAAqPALFRmUhMBXcyCjMVYI3/T5bYlOv3KQkM0xnwHoOicgP5ci7qP+tqzp
+lYga8if/VE2luA6CLP0hdJCe8d/KnWhQTyqXY7suEGzkhm63ToGGGzOTZ5s7VxZh
+du1lUPKLC3YYkS15cbaBXVEVvSTHore6m+SR9byzjDvQuiDtwHVrkNOR6QlZIhp0
+qWrG06d6PEodsU0DogK1N5aYAiV3DHhbAGOvSMOPwemllUC0/1maPFJ/MMbsqATU
+/sopZBNphs5mmH+bApdRWRU+3X+OhAt/HEUZTRHFqiQvrKxKhYsG4yiZ9kpu3cj8
+dc2z+JhMNI6AE/SAh8EjLemMfeB3E9SK0qUQJsWrdzhe9PIZ6Qse5jwsUXWeUtVr
+8AlN3Jz6g7D+H0fu2A0Zoa48CQuTw8iNAizgw3gkPuXBmtwQ1uYhPFI4E1OVbDkJ
+ePQhKcMJzQUWs5cTomN4O4M+6edneqUF2KHxZ/qDWJyRcKUntKmznZe3f25lidxn
+hGkHqe/+g6YnpcWQcjCADzvo04Hb1c1Lrjs8wRU6ppbgv/Icwsh9AMCGhdXPVaFE
+m6qni6ogtMe1tXSmvivTPzh+8BkjPDkU9xbeGu0ksDfJIpixqBwRHKgwZd/5iLu8
+SWgzR4cDwwD5Vpiv+8CUKHPLmeFYmfudKmXBseonNOG8qp8gfeQ=
+=1lXb
 -----END PGP SIGNATURE-----
