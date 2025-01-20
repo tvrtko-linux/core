@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Mon, 20 Jan 2025 02:03:43 UTC
+Date: Mon, 20 Jan 2025 03:16:46 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeNrwAACgkQ5Vfn9vbt
-T6q2gQ//XjQ0VIyHgwt0VmeQeIVwbrH8cMXNM+WNrlO66BtQyTrWPme/oyISyDe+
-Y5+NUgZZhw/sSgY8QnfNmb4xMlsuXtlMJMVuKzinPv4rfyxeG6tEFt36S8+iEujm
-CW7SZjFTWIUw+I2WVkJdk1ppQP7Wqd+PO85Z/xMBf22ITuKLBuumV6pThfYHp9SR
-nZralIUX9XO06A8KZdmWgHjgv2sW0p+ni/C4rKgPvsr9nRiUvhht42EtFL9EKpd/
-pgrHGFDsvxiAv3YPJMYBx0iSMPre6fnw+yvpqV4pDX+vNwcJ/JuOuxEA6JT/CXdt
-fxL67Y9F4jE+DvKI1/HPPCszm5Do5LT6kQTfpfLWf7JiZIFkQnUb3n054azVHLZu
-n7x/gre5fq47PGHd6Lqc/aa6tSNf56x3qMKeoQGVpmgOCbJJsWSiKlFFHFDx/NDK
-LJhf4c7rOrp3gjW0iFvdKgw0al35+MyHvG6VgOa3paR5mn9vhGaqUYmLLLpzixxe
-gg68IOBuM2rmC1tE/FZtM+1BoECI3KILsYKSLJFkS5r+tulIgH0pX9ZpJkqRo/9i
-8WzYW4ZKhIYY2W635zUaiqBs4PDNlSOeC0eUczYzPymFNzfq0awMIQXcQ9ncskYN
-X+lsPLbG4lV9gJgFBI+vdjfxiNSVpL4YqltXeWwYtW7mDVA8ccQ=
-=etM9
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeNwB8ACgkQ5Vfn9vbt
+T6ovABAAsFz0ti3YNPiVF4Rp5j0nP4o8ywnja5VnEf2xt/XGVEd2+Olq7tAwcLE1
+dr8aOtpZ00UsWmKN6nPNe2tSCmpE/lNMICS2mVhs30e765tFmVa2tlddJiW9LysP
+Tc7DnWpCFWshWFTAnz9HMfuLWBdBcGWKSrObfudw8jcB5iCkE83CEL1OelOZmjgl
+uLMIpLYAqLzInJczPa8S/0TKEuonKGREbRY7kszlKQW7pWV9sbp45Njo4rT25yAz
+SaQsYOi+bpm4OTV5KL9mZeeRLvQmgzUwJdJpn9pvKYuTAeKhasyRrejSBGfjaazf
+TpnRnC0mnqlHQprBP7qg/TTG7kdVXq+Pvu5CJiySygsAHiYow6H0iKFyXHTuLZR2
+M9yYLRD1OgQdYRqjIyckW9wfov2jpl7nbOiqdq240wFGMVKG8joMgENH84WxrZ1a
+/f/PVesHQmKI3XWrYpls8WRkcaUqvWYoWmQj7A8QJ39c2WYZwOgj+stbAZW/rCxl
+wkdML3f8K7AsDsstu3G65Q6cXOR8nMTjtCfHcwF+wFYKcRz2m0NcxxHeOCXJJjE0
+eBiIwcceW2dez88UTMnHTSinsTBgo3fylr3NmxuA/gpTSmjm5SZOMTo2nwIFq8yk
+vS8W4qKV0EF6QFBZ8K1BPFRmytzSHzjWmFbRJqtjH49e6XL4tpI=
+=IED5
 -----END PGP SIGNATURE-----

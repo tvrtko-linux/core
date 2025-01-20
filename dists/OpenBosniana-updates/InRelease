@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Mon, 20 Jan 2025 02:03:44 UTC
+Date: Mon, 20 Jan 2025 03:16:47 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeNrwEACgkQ5Vfn9vbt
-T6qkzxAAqPALFRmUhMBXcyCjMVYI3/T5bYlOv3KQkM0xnwHoOicgP5ci7qP+tqzp
-lYga8if/VE2luA6CLP0hdJCe8d/KnWhQTyqXY7suEGzkhm63ToGGGzOTZ5s7VxZh
-du1lUPKLC3YYkS15cbaBXVEVvSTHore6m+SR9byzjDvQuiDtwHVrkNOR6QlZIhp0
-qWrG06d6PEodsU0DogK1N5aYAiV3DHhbAGOvSMOPwemllUC0/1maPFJ/MMbsqATU
-/sopZBNphs5mmH+bApdRWRU+3X+OhAt/HEUZTRHFqiQvrKxKhYsG4yiZ9kpu3cj8
-dc2z+JhMNI6AE/SAh8EjLemMfeB3E9SK0qUQJsWrdzhe9PIZ6Qse5jwsUXWeUtVr
-8AlN3Jz6g7D+H0fu2A0Zoa48CQuTw8iNAizgw3gkPuXBmtwQ1uYhPFI4E1OVbDkJ
-ePQhKcMJzQUWs5cTomN4O4M+6edneqUF2KHxZ/qDWJyRcKUntKmznZe3f25lidxn
-hGkHqe/+g6YnpcWQcjCADzvo04Hb1c1Lrjs8wRU6ppbgv/Icwsh9AMCGhdXPVaFE
-m6qni6ogtMe1tXSmvivTPzh+8BkjPDkU9xbeGu0ksDfJIpixqBwRHKgwZd/5iLu8
-SWgzR4cDwwD5Vpiv+8CUKHPLmeFYmfudKmXBseonNOG8qp8gfeQ=
-=1lXb
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeNwB8ACgkQ5Vfn9vbt
+T6p+0RAApcKDPBTSuY7rfiITG1s+n0w69nkoZbDGZVAKdFDesLhMnHh3MF6OrsXR
+dlhtT+hhceXmP8XHCH0RU/9/yQs3crmOIVjgsQ2MuFZbwEtHjjtc8Ach+JMZnohE
+Z+01ogZoEYM2GyEcZlUztngfKTccduG2z/uoU16++MID6VqNyGcBgXFjnL18WliV
+vl0oSCdc3p3gZLwCVFzcCjgBRrZbPA+AUOiZcBT2GeqLLCTLllFqgmloO7aPWPoi
+s0a6iNfT3On1rI0fRVsVwA2LkD6Oj6skO9i1tLgyhsyqMqRswnVmjIAo3LgoiO05
+Lxbm7n1zqWSXxtwnmU7Q45E8pfrBdGlM2BaaVKEBEY8AESHa57Q2B7fUTVYFbIcF
+eECOVbzzrDXNHwPNmi3DbxUm/vhRoe7pK4rhtVb0qcT59GH6dJXOtKFIcvrsLDZG
+Tuhzd6FGxsrmRLpUzK+V6Ft6NcUHotPcMWMcVcJCFmGC1wXQDyD8xnGKc5UlelPg
+A5e3D1QISnKEFk8hJuuR0W5wFAqymUR8EEEdwX4pzps+KDGBdBi6thxPm6BgVIG4
+akB8wvN/LGPq363Tvzlh9mSH925SwuOocG7UJImVqfbhZQ8asltQZYwSyCSUSeTo
+XrxShsQiV+3mqtfghnVVQqOovwuGquzZqJqdcioMjNXsFnrgZ20=
+=YsN8
 -----END PGP SIGNATURE-----

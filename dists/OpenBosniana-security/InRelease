@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Mon, 20 Jan 2025 02:03:46 UTC
+Date: Mon, 20 Jan 2025 03:16:48 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeNrwMACgkQ5Vfn9vbt
-T6rl8RAAwJwhWcry7E0vy763Vrukzannyafox05+eZcAbuN9TVI1W6VR7iXlPm9D
-SEtDtEUl2Vsdhh1lzTXIT7fYfozuDcrv0hzvG70bhrcAF9gEL+POSZz5WRGxyfqq
-R0JB069KYoQc7uOSSMh6/JtJ31tNUzTiV9aE/s+O/6C2Ew8pFImaZG56ciCr+sEU
-/YQuJ+M+WrNAqCgtP2w+2TJFQf5zu00D2Ct/G9BjuXPoQ5k4DXkgNdJRVGSuNoQY
-HMStWVDz5+f9/ddTSXtdyoTHPS6LrLCHTDqDM7MC0Uz0BPC70iaLF9sY46uqE6xW
-rT4B8wKpDeRCjqsZR49dfkU13tAocgR3ALYHrZ8yLCgmRk7RtFT3EAqUrQvy/VGD
-IHRRaqUO/axgXpDLpnQg7B+e1g1q9CYhGw97VCsTG0We0w60Bp2Jrf6pf7zA0VYv
-3FZZFexERj7WXzg6J4pxNwifBrWh101Lrrjd+YMH7hRG9Y5GScadan9K8IaUUN3h
-AzYpLFyTgFg/1EgDr2BoRh09D+bktqvEIv5cn8qwIx0oSk7pDctcRtGH+SKqWtSE
-bjdsSn3PLDj7S0PWch4HTRND9EplTaQ+SZmmF8E9vrxk+rbVijVG7XhssXtPKhim
-yqrNlCsqYnhVKuyyBmNr9m95adkUL+uTxBur9O8pfDHjIY/Yn/E=
-=COby
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeNwCAACgkQ5Vfn9vbt
+T6rTVRAAhEkxUZrcD+DlfgWSbqa+kViUejWtlQki6/rf6AqwCO6WTtbtMPs0DTwx
+z7HBz82iL5o4sFSGA4VhUsDR1TOz9D1g4ztmQrH/C8Q6qZa9tcoiHPLjG41UXStA
+ig3cVkOIgbVOoEH1et7ff1xUql4wlleZKJzlM2zrcRvuKdHIuG9IP2/Lm4yFTzPp
+r8pYdmf4ytH2Iekm77/9PPmVCV3RUWIncI312M33g6HlcvSAVhVnu6CIAohCGpja
+wiEkShbvcNr377XXvSrm9EyakNJeQqSo7rixiwJM3RcoEiwpxweO9jTlVTo2J1gb
+TrftwUi+d277hSP7n+a13WVntAvUuCdZx9bZCLz+gKw56jRUFjtshc6k5sTvA7QR
+XIeElU5X1jh2iBnPSjzUAaCj2RmkiPe09yVojZc90he3rAGRQmj6zHdytHYHZvar
+tIsvTMWnYlSOc9tWNszRkBNbEAkO2IzFDteuE9gdGZlXDz5p8+gr+y3ayBWiAPvX
+ezKKZkUgKBocHp5j/WKiohEzZyA/dIdaVOo+tXuWlr+dVjMl+KaBbQDTAh7h3+cl
+vzl5xlML8TzwXm8VcxK8B9JypgG05vi5a6X5xg1YdTGMqLiM2sgkKZwkCtpt0Nbs
+czCG7+4TMs0348U7Z5nyok52dBmXOt7vkzEsffE5vERwVydZNU4=
+=MNXy
 -----END PGP SIGNATURE-----
