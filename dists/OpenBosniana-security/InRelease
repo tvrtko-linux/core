@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sun, 26 Jan 2025 18:06:30 UTC
+Date: Sun, 26 Jan 2025 20:49:05 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeWeaYACgkQ5Vfn9vbt
-T6rV3xAAvDn2lQQqMXZ3A7cYXd5/XqKpADl/hkXcMu6Ys4T/Fej4fN7ZWJ3o8enS
-yq3b+3TL4WebfVvL7sYU1HGRFdY8Z070bSts29VWPqpM5DleVP65tEchBMsffqqY
-1rpOb04ryi9VgU4Tq2d5qcnCCb7BsGRisqLf1wsUDHleWoU7DEPqRyNAY9IZGd44
-Z+CPQqfG6c+GAhqJkEBNWSzSFWfiSVaymogHaomiBULq9350rgBr6TXr7m2s0JOs
-51ewWyDPEbBwpw5A3n5Dy/WzAT5QciuG9AeBYgSJ4bIgtUmwZBYdaS82SfrBoPWi
-Dh/9lfWB0EQEYQKJ9bphPSS8GvCkshgGwgSkU7DAb/D0txoZvS7JOe9Zguaio3Ue
-7PUSOsLLyALmaQ2zqthjv/JV+UjXp2gZ5gaVgH5uEj0YFOmajmXZHvAKPKLLHune
-/68DMdtf/4y/P7JE7V7zwESygre7gBzGoDEYxBBxMa0ZQI2ZUp1X6jfe6f6Q5igb
-dictOJUdq3vn03irKOJ47077Sxc7jVniFV7IyJRNzFXIahDTShBTn3DJPVmCjWGg
-Y80gM74Fga8++qIfTLVppbtLAe21YA6fTUcbfcarak62MuqZpUj0EHoPPNSScx/a
-7xBjMKFg0qgalUJ0fq/6+3bSmgc5gHR80V7xbVuGBSZbUOYZLZs=
-=2GK0
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeWn8EACgkQ5Vfn9vbt
+T6pb5g/8CIIZTY8dj/9y+rmheyHduh4FG4GPWefu3sA0Mw49Jc+1VI8BfH1lNM/+
+EtkBHMRht7P3laLbFGhF9hIw7pu8eZ+QK+e4deyQ7XCK7wAaIhRIMKeNs9Y48iUX
+jwdcCymaE4+tcNvSVWJDVemvqjG+VHp11eXGUOKOLNzR2OjnJJ6nQHlDpM10xkkG
+9sBcsUSi2YrLXTdUo9w+kNAuV7gMS6JJOiEv0NOay1dsLMFXzIoMdM98s1pJgg3u
+NI3HRqHeyhMoScD8BPiLQQ7eHG76kySuieSq2oAHooexpd5YWKLA64YNOXY1kmyz
+7fiP8O16/ZP3GTs2XaXNv6YFVaaOn4z7xBq00P7P7361Iv7k3ZbdySDoMPRP/3Ay
+8quOC8vvWppSgVAvmeiLhujNDXgrrmF8EhdB9gPDyAsHXXdOJjby4cwj3iQeOIzS
+JhqyKKM5L/k3ll2TQQBTxMWrtn7LUkXvQCcXn9aPEN53sed1TMW8S+AqvPpgkqIu
+cTunFI0PqbvJ6OHRG0rID3OXlv0TkugrsJn7Nqnhsvk3QVa3niQUg4GVxdRJudWf
+qxwtCnLi8MpswHtuj9ib3esFFOGfURzp34ydZxTNEh9F/tqG82RnkxwsFTPgfr2m
+rvQqNBry6wnzoQkCbBqV9qhwNpxR5MQFucoIIVr6MKl7Kq+uakk=
+=jN42
 -----END PGP SIGNATURE-----

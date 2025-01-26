@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Sun, 26 Jan 2025 18:06:26 UTC
+Date: Sun, 26 Jan 2025 20:49:01 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -213,17 +213,17 @@ SHA256:
  91f40351dbeb69ac40d6945dff04b9b478f362184c4c9012ed3500748c0da30c 186 udeb/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeWeaIACgkQ5Vfn9vbt
-T6qp1g//aLv9c24F3ZaBtz8JooUoMrQ2TMqavkZYz8Rx5kvvgbUczfDS6FhKecCC
-ZFSnpGuS/DBCSOIYv9IAMaXmQgHOt4L4pI8v1rXJjJS+l7vVL6JNwvB4ucd5R8Vg
-aUDnR82DrsflnxeSYF5S+QShnLDNFOT5mDFABprbK2K5YtRCyfPwuDZYCWRdtvUG
-JkZ/c8PZ/9RoK45DWizGJeuA3KZmRVziq5XnlrzN9f/lid0+J/rQ63stHxRD1INz
-pPjfxbiBkLneASfD6ZARckJlygkrGNXtb1sfYoJfW1nCzD2AXSnZnWg+5Q5bmTjU
-PcnZ6Zo2KbmwsHiOiuSof7m0uylEoL7Tn7Iz56YC5pAYJYftm8KoJCW8Ix05vAtT
-GCdN3PTYvxueglunPSnxsVI+fPtcOAA4efmvb6IfQFyk//cityjJxVyGVuib1jMs
-TeFFBpYtt9h6vNMy/MfTrvb2fWny0gtqqb+97+BwZxX7aTUiyVSzziPy3PlBVhwj
-4hsjPDt2REHsGkdwz/mmLPiChWGcyPCeELLmaPrrRIqj/802/vNijtImTzKoZUW8
-mvw+kY6Mh8CNmWlvT6o+V1vAwOXsUV5SiA+PwCE7qc9+4s5HDAq6zLrW4hz5mmM4
-7op4PNdhXhcE9yEYhkXH9kXfLxNWxvoZcaguUS6AGikpKkHx9ig=
-=u66M
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeWn74ACgkQ5Vfn9vbt
+T6rs0A/9GrTE2Nbi9z61z7qqlwPiCZcPsHNYcKKTJGziXmKhD0C8RvFODb9QACXQ
+Ibylzvzy/CLox1H7qOGa7+MLOmkSbhyluNR6pgXSGQP8pp7uJ/NbnAeEilQJTVrE
+Q/2ILzNlHs1QEcKAxTUbzRhz5LNsXeuCyvsLRdlti4kmQ1Il5ArTRywAKI6oKitS
+hPvNdU8YS+fjaL3gNrSjn3hkDRI1bZi4cnaNUnkUb8T+NBAaGp2t0iKgOW8RCxKf
+dsvrPMw8kEJBeR0q8aBYPL6qIzBcSbZ4YA/1sR0ivbhVT2s1Vgyv6AzgL3MfIySZ
+/2KiOtTqb7Oex1aiefZ6Y4diTLY2Okk1ClSXC/Z+ERQXg2GbD4dJrs3oyOduRbDI
+NguqNkwb8A8i1+Gz/fjODvf1B90wAlkomgPtkpe5NuKh3LFovrhzWVmRfsppC4eM
+kTNgkb0Oy9Tt5QIhaswr+zsUPN8EA4/h4wqhpNVFGBV28PuSLJA4iCjb8AupPKHO
+C8ltA31wAM1HXh9iGotyRV+r7+Do6F3fzsJ/V4RdbdsnVzcoCf9zuGbCAuw8cpnz
+JKewGQs6JFEnXczoSTilVx/bLbV9tRrCNCndPYbYY3IuJs1ap7wxXoPBoIH7fj4w
+AbJNGrGCOULT+XTDdCqoCJbxPuJPGiBPNb8+6DbJ/H5sAPRI2Gg=
+=ffuc
 -----END PGP SIGNATURE-----

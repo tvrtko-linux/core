@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sun, 26 Jan 2025 18:06:29 UTC
+Date: Sun, 26 Jan 2025 20:49:04 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeWeaUACgkQ5Vfn9vbt
-T6pjfRAAhZEzFgXea5j7j0vlDpnaYyD8VPqsicbICG8fsnXcozhn7+nDuTv1IvFA
-RfDPzwtC/wqCyNA8/dEMnVIy7uElq9EARCquCKO4kAoluazRguhPfhNPM3VYcvuy
-AjaT5evbHp9cnYcp+lNZqsrj6wBPuL/Wd8TvkOUg+XEv0YDyWe04SCScaZrQ8QAQ
-MwdN2WTA8R2sLgEsSJUHQBDOd1dakIJVNxphUckup5j/rOSpX/GTkhhEZvZBtqLD
-4KFM/u3Z7/3UXy+NB8IgsiNvoQXBFUO6aahhKVmOcDLKd8eNpCgBRkdRFFvfaOko
-jSuXKUzeqQBf+ledbpN79k9+4bbWEMfZacl8Jwi4yC3HevuKze2rWcBpi0oihEuy
-EmxkBqq/XVv8tlLo43jL6bW/jH3MfptMg07D/Oodo5O6dqgXjl+58ENnDY52GbNX
-SrjUa9jAiOYtwlbiBmE9ENsblZVNl39V+qhl4GS7TaVd8d9l/SKdJsyv0tTbvr9i
-KbVIUqWBBG2xBp639F3vg8pMYZwGRoXsobe7N7DH4p+oG1a9A5f6Q4quAB+OBrdN
-y8O7U6FgTDZkv8GO/W62lOLZTQQjSLZbu/5ryhFD58Yy7B5d0PeTvPl4kVfM0C4g
-4Kih7OOJrsZrLFsE+qOLFyC/I+V6j4U4/D61+SZupbRWs+ms7Io=
-=0Ir5
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeWn8AACgkQ5Vfn9vbt
+T6oqMA/+J96jFvoN9DXR3e5dtgWuW7V+DeOygruyl0g3Ywxt0Y8BzWAMwh0TqgdS
+fc32rexTHOaawMd3Ip/jdFwn7fPrlsu4mtOIjCnERKZaVtpRjPJ0W1HwUh0FDB6G
+R5LV6VzGjW5/dfjfAdeFdxdMaf7j7AzfgRrrD+3szWBDY9crw8wQY9q+CBfgNF5o
+EUkschoSu3M3zwTFRmuTd1Sti4gf9JuDCMRqaXS7zrR8+EC7+S95X8+v5pVqAk/z
+13EQtl9cheR2FzHmLf3O96IAtKH2M2ESWhPcxZVCWs+MoZR87ilR1+CjgJsTjJ+5
+VqWSskyTCo3mUIm5d1IgAkjWvMADUXt86/xKWPV8CxrgeM6m1hYhA1JFei2cwqbf
+Qcqx7L1x38EPXPONLhqI7qo1dOZ+5Q27HKE6qog4KAryRVk1+G7pE0Rg294NHMUD
+b6u2s7+qpXueerFrjCFgKjwFyzZKOKPz/6YjL52TcVLXTFEYD2o0nFJxyJcrn+5l
+TzmHdaTF/pUxonCQ+JT+NqcZXiOVWAWXyV1BERcPvUeWYBzm9TwaKy4vPj/bYC/v
+i4RLYgNnHKZJI9YQrvJFpOGT3bp47ZhLpG/0vVTCqdOrx+RNPPaVeUKImmv+QrEs
+I/bxJyhrjzyZg39UH5ddFA2Sc0DWQI07TSqEx6tSl3f3im6h5i0=
+=n/4n
 -----END PGP SIGNATURE-----
