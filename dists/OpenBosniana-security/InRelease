@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Mon, 20 Jan 2025 03:16:48 UTC
+Date: Sun, 26 Jan 2025 07:09:13 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeNwCAACgkQ5Vfn9vbt
-T6rTVRAAhEkxUZrcD+DlfgWSbqa+kViUejWtlQki6/rf6AqwCO6WTtbtMPs0DTwx
-z7HBz82iL5o4sFSGA4VhUsDR1TOz9D1g4ztmQrH/C8Q6qZa9tcoiHPLjG41UXStA
-ig3cVkOIgbVOoEH1et7ff1xUql4wlleZKJzlM2zrcRvuKdHIuG9IP2/Lm4yFTzPp
-r8pYdmf4ytH2Iekm77/9PPmVCV3RUWIncI312M33g6HlcvSAVhVnu6CIAohCGpja
-wiEkShbvcNr377XXvSrm9EyakNJeQqSo7rixiwJM3RcoEiwpxweO9jTlVTo2J1gb
-TrftwUi+d277hSP7n+a13WVntAvUuCdZx9bZCLz+gKw56jRUFjtshc6k5sTvA7QR
-XIeElU5X1jh2iBnPSjzUAaCj2RmkiPe09yVojZc90he3rAGRQmj6zHdytHYHZvar
-tIsvTMWnYlSOc9tWNszRkBNbEAkO2IzFDteuE9gdGZlXDz5p8+gr+y3ayBWiAPvX
-ezKKZkUgKBocHp5j/WKiohEzZyA/dIdaVOo+tXuWlr+dVjMl+KaBbQDTAh7h3+cl
-vzl5xlML8TzwXm8VcxK8B9JypgG05vi5a6X5xg1YdTGMqLiM2sgkKZwkCtpt0Nbs
-czCG7+4TMs0348U7Z5nyok52dBmXOt7vkzEsffE5vERwVydZNU4=
-=MNXy
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeV35kACgkQ5Vfn9vbt
+T6oV1A//bp352pyx2QEupwgBR5toLHfu1k4UPscZYXexazbkIKtyldVLMkniPXmM
+uSzRp/ltlhJiWRZJfvYf1wZWBF403zFQ177tG1pt7bCmGYQR5zA9JG1avsGxkwFV
+ir5fANFsCUtLy7lbx6WTTRlQ4YYuerkm6UYauY9paRUBxMAJcyN6GRQX/f7nktZm
+vbJyvuaWMvMWWH7c2X4fts66lT0h5hYrUK2xDqS8t+3JuQxRR2IK9m92ftl3qKfk
+NbrDkEQFMgGsCe3UuJi89tyN+k4Zd21yyRjZ4JozpSTfZcBRl/vg5oJIVK601j5R
+XBoHsA64xLXX/aBYxGnhq2mbUDOrJKu7QrJbr45ighgK6UBXEwYTDRFn22VFzTvZ
+y/km7ig7yzfqG1V+qe8gVE1cRKflvIRHKMs6HC22tLj5pxhZOr8EMRVvRWFETu7m
++2SlQ2oA+RYf8y4uqzs7NgkU5zI/urG++H+S6HBYAwtk71dQ6t6WgSB1lXgrnKKE
+h6Og/OufzNPyxcoxXksOepsiGbY4H+aer/zxdiJUgVF73DG1fEZKB2xcvIlkO8Ke
+cq31jW0s1EDV90TMOxTl6PJHWnYrRzal+ONk3JT/5GDyutfM4PCYZS/NhKrrEKx7
+W/ZxO4Z+TnpQ+XXif6ZFqjp8AXDqPJmCkRlEMZL6UalLXetd71w=
+=BBP/
 -----END PGP SIGNATURE-----
