@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sun, 26 Jan 2025 07:09:13 UTC
+Date: Sun, 26 Jan 2025 18:06:30 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeV35kACgkQ5Vfn9vbt
-T6oV1A//bp352pyx2QEupwgBR5toLHfu1k4UPscZYXexazbkIKtyldVLMkniPXmM
-uSzRp/ltlhJiWRZJfvYf1wZWBF403zFQ177tG1pt7bCmGYQR5zA9JG1avsGxkwFV
-ir5fANFsCUtLy7lbx6WTTRlQ4YYuerkm6UYauY9paRUBxMAJcyN6GRQX/f7nktZm
-vbJyvuaWMvMWWH7c2X4fts66lT0h5hYrUK2xDqS8t+3JuQxRR2IK9m92ftl3qKfk
-NbrDkEQFMgGsCe3UuJi89tyN+k4Zd21yyRjZ4JozpSTfZcBRl/vg5oJIVK601j5R
-XBoHsA64xLXX/aBYxGnhq2mbUDOrJKu7QrJbr45ighgK6UBXEwYTDRFn22VFzTvZ
-y/km7ig7yzfqG1V+qe8gVE1cRKflvIRHKMs6HC22tLj5pxhZOr8EMRVvRWFETu7m
-+2SlQ2oA+RYf8y4uqzs7NgkU5zI/urG++H+S6HBYAwtk71dQ6t6WgSB1lXgrnKKE
-h6Og/OufzNPyxcoxXksOepsiGbY4H+aer/zxdiJUgVF73DG1fEZKB2xcvIlkO8Ke
-cq31jW0s1EDV90TMOxTl6PJHWnYrRzal+ONk3JT/5GDyutfM4PCYZS/NhKrrEKx7
-W/ZxO4Z+TnpQ+XXif6ZFqjp8AXDqPJmCkRlEMZL6UalLXetd71w=
-=BBP/
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeWeaYACgkQ5Vfn9vbt
+T6rV3xAAvDn2lQQqMXZ3A7cYXd5/XqKpADl/hkXcMu6Ys4T/Fej4fN7ZWJ3o8enS
+yq3b+3TL4WebfVvL7sYU1HGRFdY8Z070bSts29VWPqpM5DleVP65tEchBMsffqqY
+1rpOb04ryi9VgU4Tq2d5qcnCCb7BsGRisqLf1wsUDHleWoU7DEPqRyNAY9IZGd44
+Z+CPQqfG6c+GAhqJkEBNWSzSFWfiSVaymogHaomiBULq9350rgBr6TXr7m2s0JOs
+51ewWyDPEbBwpw5A3n5Dy/WzAT5QciuG9AeBYgSJ4bIgtUmwZBYdaS82SfrBoPWi
+Dh/9lfWB0EQEYQKJ9bphPSS8GvCkshgGwgSkU7DAb/D0txoZvS7JOe9Zguaio3Ue
+7PUSOsLLyALmaQ2zqthjv/JV+UjXp2gZ5gaVgH5uEj0YFOmajmXZHvAKPKLLHune
+/68DMdtf/4y/P7JE7V7zwESygre7gBzGoDEYxBBxMa0ZQI2ZUp1X6jfe6f6Q5igb
+dictOJUdq3vn03irKOJ47077Sxc7jVniFV7IyJRNzFXIahDTShBTn3DJPVmCjWGg
+Y80gM74Fga8++qIfTLVppbtLAe21YA6fTUcbfcarak62MuqZpUj0EHoPPNSScx/a
+7xBjMKFg0qgalUJ0fq/6+3bSmgc5gHR80V7xbVuGBSZbUOYZLZs=
+=2GK0
 -----END PGP SIGNATURE-----
