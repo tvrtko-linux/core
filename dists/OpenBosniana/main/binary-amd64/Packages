@@ -451,6 +451,21 @@ Description: utilities for controlling AppArmor
  It supports the use of templates and policy groups to quickly profile
  an application.
 
+Package: appimagelauncher
+Architecture: amd64
+Depends: libc6
+Priority: optional
+Section: devel
+Filename: pool/main/a/appimagelauncher/appimagelauncher_2.2.0-travis995~0f91801+bionic_amd64.deb
+Size: 5984412
+SHA256: e8d07be8cd0d9d9fc1d54063e52305cb5ec8d5024457a7f81c54546b4b7cc573
+SHA1: 71be9036dce268e9a5baa3aa0ef5df50d899f674
+MD5sum: 5d2a6710c34598327f655761b99d192a
+Description: AppImageLauncher built using CMake
+Maintainer: TheAssassin
+Version: 2.2.0-travis995~0f91801+bionic
+Installed-Size: 45192
+
 Package: appstream
 Version: 0.16.1-2
 Architecture: amd64
@@ -5139,6 +5154,23 @@ Description: xdg-open and xdg-email reimplementation for containerized apps
  If this package is installed in a non-Flatpak environment for testing,
  it will require the dbus-session-bus and xdg-desktop-portal packages
  (which would not be useful to install in a container).
+
+Package: fly-vkbd
+Version: 1.3.5
+Architecture: amd64
+Maintainer: Alexander Smirnov <asmirnov@astralinux.ru>
+Installed-Size: 359
+Depends: openbosniana-virtual-keyboard
+Homepage: http://rusbitech.ru
+Priority: optional
+Section: libs
+Filename: pool/main/f/fly-vkbd/fly-vkbd_1.3.5_amd64.deb
+Size: 146548
+SHA256: 16e1e9fa428bcb4ae34eab4b10ddd7b1c873ae1d53ec3f6c16c50b96affd879d
+SHA1: d8519b3bc346fe70572b7f317b76dec455207d76
+MD5sum: 6152d9573244204421861e0a237168ba
+Description: Virtual keyboard
+ Virtual keyboard for Fly desktop
 
 Package: fontconfig
 Version: 2.14.1-4
@@ -18394,6 +18426,23 @@ Description: Real-time MIDI software synthesizer (runtime library)
  real-time to the sound output device.
  .
  This package contains the runtime library.
+
+Package: libflyintegration1
+Source: libflyintegration
+Version: 1.5.2
+Architecture: amd64
+Maintainer: Alexander Volkov <support@rusbitech.ru>
+Installed-Size: 344
+Depends: libc6 (>= 2.14)
+Priority: optional
+Section: libs
+Filename: pool/main/libf/libflyintegration/libflyintegration1_1.5.2_amd64.deb
+Size: 128940
+SHA256: 7692199594368b7bb82c17c9e09579f4f14ba2386e7d99bb54a213e107071a9b
+SHA1: 8a8b999ed9c62268f4b969d5956d0082f6f0842a
+MD5sum: e042ca7bdae8e6906a62a47c8737d8ef
+Description: Qt library for integrating apps in Fly DE
+ A Qt library which allows apps to integrate in Fly DE.
 
 Package: libfmt9
 Source: fmtlib
@@ -32507,6 +32556,54 @@ Description: Qt Sensors module
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt Sensors module.
+
+Package: libqt5singleapplication5
+Source: qtsingleapplication
+Version: 1.0.0-0astra10
+Architecture: amd64
+Maintainer: Alexander Volkov <support@rusbitech.ru>
+Installed-Size: 51
+Depends: libc6 (>= 2.14)
+Homepage: https://qt.gitorious.org/qt-solutions
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtsingleapplication/libqt5singleapplication5_1.0.0-0astra10_amd64.deb
+Size: 13560
+SHA256: 119532b87b40e59732078be10c00986680684918f311c39d0b55d382386f69cd
+SHA1: e5e42ba824f98a97943df753a314fef39ecafdd3
+MD5sum: 493c80d861a34b13602f9a27d5405855
+Description: Qt library to start applications only once per user
+ For some applications it is useful or even critical that they are started
+ only once by any user. Future attempts to start the application should
+ activate any already running instance, and possibly perform requested
+ actions, e.g. loading a file, in that instance.
+ .
+ The QtSingleApplication class provides an interface to detect a running
+ instance, and to send command strings to that instance.
+
+Package: libqt5singlecoreapplication5
+Source: qtsingleapplication
+Version: 1.0.0-0astra10
+Architecture: amd64
+Maintainer: Alexander Volkov <support@rusbitech.ru>
+Installed-Size: 47
+Depends: libc6 (>= 2.14)
+Homepage: https://qt.gitorious.org/qt-solutions
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtsingleapplication/libqt5singlecoreapplication5_1.0.0-0astra10_amd64.deb
+Size: 13136
+SHA256: b72a133d841e99c1ee202ac39454d37f34f73f181e23ca12836ef2fa9e93b289
+SHA1: 63d821dd81809dfddaf865700e2cd4c0ffb4e2fe
+MD5sum: 39b5af6c78ed517e6480b5b9d97ec02d
+Description: Qt library to start applications only once per user
+ For some applications it is useful or even critical that they are started
+ only once by any user. Future attempts to start the application should
+ activate any already running instance, and possibly perform requested
+ actions, e.g. loading a file, in that instance.
+ .
+ The QtSingleCoreApplication class provides an interface to detect a running
+ instance, and to send command strings to that instance.
 
 Package: libqt5sql5
 Source: qtbase-opensource-src
@@ -51514,6 +51611,23 @@ SHA1: 2097135cb58a8cf2e5785368a83b7c46b9cc8fb1
 MD5sum: 2e74cfde4c94c92912545dc4076ad56c
 Description: OpenBosniana OS meta
  .
+
+Package: openbosniana-virtual-keyboard
+Version: 2024.01.30
+Architecture: amd64
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 359
+Depends: fly-vkbd, libflyintegration1, libqt5singleapplication5, libqt5singlecoreapplication5, libgl1, libkf5sonnetcore5, libkf5windowsystem5, libqaccessibilityclient-qt5-0, libstdc++6, libx11-6, libxtst6, libgcc-s1, libqt5gui5, libqt5widgets5, libqt5x11extras5, libxcursor1, libc6, libqt5core5a, libqt5network5
+Homepage: https://bosniana.org
+Priority: optional
+Section: libs
+Filename: pool/main/o/openbosniana-virtual-keyboard/openbosniana-virtual-keyboard_2024.01.30_amd64.deb
+Size: 920
+SHA256: ca7e87b4cdaaa8a145495ee0300a6dd9e2d687eca2c8fc84fb6e1fede84edba4
+SHA1: bb708983e4ae806e667d97d0d22dab844c37ed8e
+MD5sum: 07bebdd0b70a7d1e121a535c59bb83ca
+Description: OpenBosniana OS Virtual keyboard
+ Meta package
 
 Package: openbosniana-welcome
 Version: 2024.11.12

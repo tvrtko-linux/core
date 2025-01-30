@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sun, 26 Jan 2025 20:49:04 UTC
+Date: Thu, 30 Jan 2025 21:35:13 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeWn8AACgkQ5Vfn9vbt
-T6oqMA/+J96jFvoN9DXR3e5dtgWuW7V+DeOygruyl0g3Ywxt0Y8BzWAMwh0TqgdS
-fc32rexTHOaawMd3Ip/jdFwn7fPrlsu4mtOIjCnERKZaVtpRjPJ0W1HwUh0FDB6G
-R5LV6VzGjW5/dfjfAdeFdxdMaf7j7AzfgRrrD+3szWBDY9crw8wQY9q+CBfgNF5o
-EUkschoSu3M3zwTFRmuTd1Sti4gf9JuDCMRqaXS7zrR8+EC7+S95X8+v5pVqAk/z
-13EQtl9cheR2FzHmLf3O96IAtKH2M2ESWhPcxZVCWs+MoZR87ilR1+CjgJsTjJ+5
-VqWSskyTCo3mUIm5d1IgAkjWvMADUXt86/xKWPV8CxrgeM6m1hYhA1JFei2cwqbf
-Qcqx7L1x38EPXPONLhqI7qo1dOZ+5Q27HKE6qog4KAryRVk1+G7pE0Rg294NHMUD
-b6u2s7+qpXueerFrjCFgKjwFyzZKOKPz/6YjL52TcVLXTFEYD2o0nFJxyJcrn+5l
-TzmHdaTF/pUxonCQ+JT+NqcZXiOVWAWXyV1BERcPvUeWYBzm9TwaKy4vPj/bYC/v
-i4RLYgNnHKZJI9YQrvJFpOGT3bp47ZhLpG/0vVTCqdOrx+RNPPaVeUKImmv+QrEs
-I/bxJyhrjzyZg39UH5ddFA2Sc0DWQI07TSqEx6tSl3f3im6h5i0=
-=n/4n
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeb8JEACgkQ5Vfn9vbt
+T6q2IRAAlherQPkxe+fzpVNimp7XGd8kps7SP00c7iy+tqIMjvLz/w1PpoTh4BSB
+IYyEZLl4nuFJB2TSZncOYccqPYPxO7qhabT0EXmbNUPfxuCLK3sK97HX6jnRrTeD
+kyYZo3NjgnfYGXQKEMRZ5lc7tUIFjyf7JqKESbpb6AS77KjRmiuP1u+N01JXjT/g
+6/s9qM0DJTLHV0qmCHOXx3Ys3Wcceu+wLG83qmgbgIUSxKEKBvXX/b9HBsPrCpvl
+nKh4d/ZhXr4vgmx+8xxo6/IPtKmizU00aqkqCo46sVEDGKnKH0IYVUR1QMBwUz5n
+z2oeo0zqfpQt3+egzMS0r43FP5+cvxJ/rLhHk5uQXJXCZqCgze2KuzWYzwIWz43E
+GJk30sLINYeYZ+Vnw6db2q+27BKsNCmmUdGCjba3bjtdEFSHCziuqd+Ru6kaH2g6
+66Cl63Vh9lp2ftxM1hg2JqlsoVv9XeWWHHgHiHa3YJaxLwGhmly2IJ30202Ehrw6
+i7aVqFOMbKZgURQG3SROpxTJaarJj/diBVdOOxTTbw+E0iSaZEoHlrn4cCCuNybn
+l9bEP+3DPd8C5BOZAO8wH0nYEL4+eAw7UOabetFV2Ahfr4R6Si33zkrAa7Dbv889
+ogqjS4uT82T6kr4ngXCtSnGpBqf0J4hM4KI64hDr6V1aj5R1LWg=
+=et/e
 -----END PGP SIGNATURE-----
