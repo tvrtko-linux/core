@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Thu, 30 Jan 2025 21:35:14 UTC
+Date: Fri, 31 Jan 2025 00:12:43 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeb8JIACgkQ5Vfn9vbt
-T6osvw//UqV0XPgTdstfwa8xVDAkNo8cqF6ncyisQOHi5iDgcUBI9Sg/A+YVyIZR
-G1PNZOF1uEYirbkZJLbTcK7yrba2vhWpDP5AZM1co5L3BJeXfQ+/9P9JfBNGw3ke
-goKhA7m34lKOvZu/fLGAsXVRCMI7tFnQwk0w83OJzZKmTzDXLmVv6b2QQhcy9dlN
-K6L/rbbISMjomgTNhUl+kxxaTmMozcxpadcdjXqOgM9z4nYN4PM/5AlgGAMfJ/C8
-YmfhUfl0tq4ehruWbbD9WS0SfW0DDjaCObpYcyB8xlANnUHi3ZoQPgPszJEXfRIW
-3zfe2Mmw35lPFsefwFGM+wweW4X0hbgh2bofbKEuT1flonbRlpdIdEYPT2K44B0N
-kITU3TxQYOB6aaOkEkZbSHYeH9Djlck4saF/bu8u0jlgIoaAdI0m3nZLW1EQWJ+e
-qgFheF9ToUci5UWt2SEF6kh93+pmzNy1afsWNjpDgmTcE6u0bw14jqY1YX9nOyDf
-OiCYLwy3rU7kM7TdULH8L4hpUOAsNjdQo8owAPLOjxKbwBDhqk4qLk7QHxIWWHQn
-Z0QDyReBFPl+WyAGbJ2C51AE6he0DciG9cKl/Acq/x5pJwgk+dMwLVrp2dOLbX10
-aCUH8Rly46aQh40l2miOb4t7AEVzTyvmhM/NMEeVCuz9Dwz2TVw=
-=zh/L
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmecFXwACgkQ5Vfn9vbt
+T6pf9hAAlR8HellbU5uUsOYvudtWEPdoujWcf0I0S+ktfhuab4ASVaB7yI4K8kOF
+v7AFuyWwYD0d0kApMPaDk4FKuNr5OQfcvmmNjBXPlccpKVbStJIFRscsbb9Q5PLg
+TRar8P1tBaUZy/Y8ytwR8NaNQDReb8SW3TGgtnsaU5nVgNLPFlLXfxiq6zEG9urs
+IOfVcYWpIjw94qG0Q3LRqluoQq/cCPD9/2tbsgVNQcTCpuUz7XlAV9Y9LtY+RD7L
+VIq12EFAmrY/uBfSBlXHqBD9bDnNrgXtaSp0cU8KigpkM89ucobd/rtGlSFDK5uO
+YTIueS3j1FuXi/xCZNC0jFzs8D9cam/h2rDam8+gMX+Omhu5nE+Rk+w80nkylXYw
+oV0EbkO/Dh91lsYc3QEXvtYmb9llN+kScLP1VWuBln7Itv597ady/mKUjtr1bd/z
+gNs9rhHgR1v/XjnapHZUVMNlcG/92ATW9OvDWTdWckNrW/AH0By2a96y/U130pf6
+o1dmvmkERJhERWKFqYd6HSkKEQk9Nv59l0OBH8wMi4GV5V3sJfAw2y+ssOqDcFD+
+rXVHM4RP1vEwhcBOVOAN/2/nhd53/urXaKRDLgb14RBOIy5En/XLyza1EKdtkAob
+TFaqy+tRKejGbH08e8RksivGJnbvkJbHmSesoT7hRwwGcYCTC0E=
+=rijw
 -----END PGP SIGNATURE-----

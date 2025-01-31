@@ -5156,7 +5156,7 @@ Description: xdg-open and xdg-email reimplementation for containerized apps
  (which would not be useful to install in a container).
 
 Package: fly-vkbd
-Version: 1.3.5
+Version: 1.3.7
 Architecture: amd64
 Maintainer: Alexander Smirnov <asmirnov@astralinux.ru>
 Installed-Size: 359
@@ -5164,11 +5164,11 @@ Depends: openbosniana-virtual-keyboard
 Homepage: http://rusbitech.ru
 Priority: optional
 Section: libs
-Filename: pool/main/f/fly-vkbd/fly-vkbd_1.3.5_amd64.deb
-Size: 146548
-SHA256: 16e1e9fa428bcb4ae34eab4b10ddd7b1c873ae1d53ec3f6c16c50b96affd879d
-SHA1: d8519b3bc346fe70572b7f317b76dec455207d76
-MD5sum: 6152d9573244204421861e0a237168ba
+Filename: pool/main/f/fly-vkbd/fly-vkbd_1.3.7_amd64.deb
+Size: 146432
+SHA256: b6dce48641f046a011a5c867222258154a1d5a539e7c2f8c5ce2f72c18a8a56e
+SHA1: 73c7b7358fce2792001b45df3576e867e68f65ba
+MD5sum: 96f1b7d3f06a86565dbe42793406dd26
 Description: Virtual keyboard
  Virtual keyboard for Fly desktop
 
