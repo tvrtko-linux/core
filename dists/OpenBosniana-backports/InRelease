@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Fri, 31 Jan 2025 00:12:41 UTC
+Date: Fri, 31 Jan 2025 12:55:25 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmecFXoACgkQ5Vfn9vbt
-T6qA/g//bt60xP4Cy8Ij2uLa7RNvAPsHzEwoeH2KNEjyYwSOai/ybas7+1kxVtcM
-DAUtLkvlARI8bjIp//AndlDBHY18spn6rPKPFgzVOpwQ4FtB+aCjdGSoyz1vZL6D
-X/PHMUCocQqXhBbnTXNW4IgvShJkva6wuCNZ8D7dA+HWjtR5a5YhlpyIFwmr0MQD
-Pg7d7yXjMrcTHxbg/TxnCb83EbSkXefYAg909JUvazS4ZslHlVkdMv/R3R9by8r/
-iR95A//7AzDRXf3HaFTh7ua7GUaI/ZYTJ4qkdlbHAb+cUo4JvWFSHz2QRfi7xUNn
-lbwhLLdsVg1bTZlsEa2asTaMGmZ2W6YNe/f09T6VU03qDigpa7RU0znjhuO3Uk+U
-zRq6OcmUtJKW1Xtn+sgK2NBTR/UmayKBTBBxxdbqnsE98QvBI42fHOVbboLzWato
-HYVpQ9mf/PoTGngd5qjtYaSOTVlHxMRaJgnjF+7kqVv+nHojukE5m7e7jf8k2TAv
-WqQAVhH6jvgtuipfRvKf2FYwTWdW9AlB8f/yr73KJAMmew3D23QIS2bFmoB4YqdF
-AmCbheSlX51aiU3qOogRfZOUmf5PaJKMXRjXVw7CASVujfui3GdDZQ0hQwRwbzwC
-8YzskB41pa5XFh/1/LMMOarhkYiZtWOr05l07fO//EuZha1SgRA=
-=OzJE
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmecyD4ACgkQ5Vfn9vbt
+T6ohvhAAvglfHN0P3wCXGNRVtehwiU8gpsoqayh51BxIWuEkrUSEcSQK2P2wj1s8
+fi+p6/o1Z740SDFYiUvxhtpAwUAW35iiCwLm/VBVl147dUtZmZv87kYMjEUngamp
+FJJukr8Knb14Mnw2zhseHYIRFHtSqmPCAxoi//7NWD8vvgQd1VDcsOUkARAosSEE
+u60FjA0EU0tR4Yk9fYwm6Dt6Kx3tHtZakH+kohYoHE6FL8NN6D5Ign8BZhMGXnR+
+MoCLhshj0Fe7BqJlfZI2Fq3gb6v/z5Qs/w0VrM9hx3O/Q/0UZcNMPqlsTVullQzp
+8mZun7rxfnhDEzf9V1vxDabK0mTD93lmpiTdC+Hd3uNR1ws/cGOBIC4aKMSl5S95
+cWAbF4q1YWAjaxeOa+eN+ISP44M37D8H1pcDew6B4/fxBuRDXaXnthWWyadDszZm
+carIvaJ10XUYSmYN/08m8wKMOE/c/OpH9y59DQWGvlrUX8CYIsJJ9mEneNlfz05U
+SU+SvBjJc8CiRMV+9g9RVySHJvRmgaunuRKE3kH+ZvcIcY0RHJh+814biIcs5yUR
+duWA811pWCfMWqKXQJiaJ4gXcCPw/h0BprhdfBIVKi58gqXooHr+6dUaDiWO8R30
+5XYdps3Xf5f9+9xWzWcuENj080GpTmdj4I12OAbUX6aQTIBGwZQ=
+=c4M8
 -----END PGP SIGNATURE-----
