@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Fri, 31 Jan 2025 12:55:26 UTC
+Date: Thu, 06 Feb 2025 22:14:33 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmecyD8ACgkQ5Vfn9vbt
-T6oflw//VVtU1hmgfyEyzBDpzsFXZv1TuA2WtQQMqn76UQmltWaL1X+qfmtso/Sk
-im5VfywZgnEXVXkfyOzgr98ANplVCzKhHZc+bj9Ca+4eqZCPMK/RxZds8s6Ov8xh
-xvPoB5frP3Xe5eMGz3cokxq3TmKbtGYQkYKvGlho+LG7+yLS8+O/jJfYPPn3ibWU
-y9CohJ1QgoHkAbw0CoyZwsGIdIlf1V3CbR1Y49NHi0ALJqzqBKYvLXsF3CP6DkIj
-6Xukf15UW/d6O7VrBymP+ZgTQvDBo3VI28AHaoIFmXAa2U6WN1Jn7ybbsHjYcyP9
-7K4n1Dlt0WE5zSnppu3KNgYpS+q2wGT1ib4o4mZ56/CL2hqLamae+If9zEwvVw/2
-6aF6w+qR2F0oBGzPEh0vI/SHRtKYrkqPTGOcY8pXguJKXBK0GzY+s1e0O7A4dwOL
-tn3jD+CPoScd53VJAJdtDQLE3AOr2/ThK12qXhm+x2vhfGWNAmZnvHNlfL8x7kwG
-BkTcyUxG4aCb/u4h9PI4UVel5BaOMq1+100tC8FWJ1V9EyXoouUb5Xuwwhp8+98s
-SOhXKMszHKdWEy0nd0cnkER1IU5fZ+kQYDsW//Fd41BIEFH1V+rrtNuPBmZmx0+o
-nR2jQjEOtZ2skdAAcIiUVxc+FzIW8adoleH0v8hSWNr1tPoiRpU=
-=NR+A
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmelNEkACgkQ5Vfn9vbt
+T6oYTw/9HR8QpPodxVcnNHyjGRV3Gk86QpGFt4ywv3ZpnLvP1Q9RpEKGubSR/VnU
+2hFdI8b1UzxL0jjM8S20kLfATNI7WWZHaTp0i3BHSzn/qfHGE27Afrkj5d+3/jzy
+4YiAasZPPQazlyuV017MPJTWDlWoWfSmBLIzR4B5PSV8r+gJWx9sh5zvcO9iuVTM
+yZzfpaZt/YU0ZJvojB2B3SXKHovdf2wCehl1uxxU4ugjipPR91a3Mob32NwGArmr
+PWBmqQnKmvnBR7JXio5Fdg0iIAGdf05QSwf4hTHbvLy8vAHAXruPNV8hL9f8e7el
+XG1PtkAIYk32pYayhp93pwED0Fu7RpgxNJVMBdgjtnFL9Qo3XjrTwE5j1WOtuLvG
+ALJuBJ7/m9j9BXvo39LpTBjqlbBPOZrOwF4wgF8hIue9BwATYCYtFgSP+oY/zoCg
+Z2mxMXlkLk5H2pTgVb4kKuN8Ywv+Axi0+CtnwzTpn0u3gw0/UzboX3XnI/gRFMrC
+QGJ6g1pk5pSM208Ow6tPPPu9uP2tXQRprQ4V5awabq6LtbKPx0I4v0SFSVoN26Oe
+TNdLAyiypomaiFGHDUJWQlVLLDn7GmdH5WN7BamjzSRme9Si3AvgvVNfv7Pvqvpz
+8kxKitxpolp03mdlqMv4qVvlzDEey86g/JEKgKW66EBXAJXab+0=
+=IoHC
 -----END PGP SIGNATURE-----

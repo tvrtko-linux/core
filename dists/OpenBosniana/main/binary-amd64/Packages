@@ -1412,7 +1412,7 @@ Description: GTK theme built to match KDE's Breeze
 
 Package: breeze-icon-theme
 Source: breeze-icons
-Version: 4:5.116
+Version: 4:5.117
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 32259
@@ -1422,11 +1422,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.116_all.deb
-Size: 14820048
-SHA256: 8840dc569c8cf44025d037d56a400a1e4eff8caa516c2811f47112ee4b1a42f2
-SHA1: 47236d452d2afddc40a72901accc3bae220df018
-MD5sum: 0b900a229d2a23b3b1fba3ecc5e47f41
+Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.117_all.deb
+Size: 14764112
+SHA256: 14e318755b61c0822ddf463df59e4515f43962e81abc7545b8965799a9d44dd9
+SHA1: 126cea9f36383892beed25e6c5ba0ae11f9bdfee
+MD5sum: 430a07d2ef774ac1c7ece490c387dcfa
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 5 desktop.
  .
@@ -5154,23 +5154,6 @@ Description: xdg-open and xdg-email reimplementation for containerized apps
  If this package is installed in a non-Flatpak environment for testing,
  it will require the dbus-session-bus and xdg-desktop-portal packages
  (which would not be useful to install in a container).
-
-Package: fly-vkbd
-Version: 1.3.8
-Architecture: amd64
-Maintainer: Alexander Smirnov <asmirnov@astralinux.ru>
-Installed-Size: 359
-Depends: openbosniana-virtual-keyboard
-Homepage: http://rusbitech.ru
-Priority: optional
-Section: libs
-Filename: pool/main/f/fly-vkbd/fly-vkbd_1.3.8_amd64.deb
-Size: 146420
-SHA256: 91e4e76f6fabb72eb66461d2ce67059b33fb61f8ed198f3b982b0dc58182a71b
-SHA1: 92929c18b7750731c74eabd7af516d4c47181aef
-MD5sum: ae12f34db58f1b3db0201d9d35d97d7f
-Description: Virtual keyboard
- Virtual keyboard for Fly desktop
 
 Package: fontconfig
 Version: 2.14.1-4
@@ -18426,23 +18409,6 @@ Description: Real-time MIDI software synthesizer (runtime library)
  real-time to the sound output device.
  .
  This package contains the runtime library.
-
-Package: libflyintegration1
-Source: libflyintegration
-Version: 1.5.2
-Architecture: amd64
-Maintainer: Alexander Volkov <support@rusbitech.ru>
-Installed-Size: 344
-Depends: libc6 (>= 2.14)
-Priority: optional
-Section: libs
-Filename: pool/main/libf/libflyintegration/libflyintegration1_1.5.2_amd64.deb
-Size: 128940
-SHA256: 7692199594368b7bb82c17c9e09579f4f14ba2386e7d99bb54a213e107071a9b
-SHA1: 8a8b999ed9c62268f4b969d5956d0082f6f0842a
-MD5sum: e042ca7bdae8e6906a62a47c8737d8ef
-Description: Qt library for integrating apps in Fly DE
- A Qt library which allows apps to integrate in Fly DE.
 
 Package: libfmt9
 Source: fmtlib
@@ -51143,6 +51109,52 @@ Description: universal document viewer
  be found in the okular-backend-odt and okular-backend-odp packages.
  .
  This package is part of the KDE graphics module.
+
+Package: onboard
+Source: onboard (1.4.1-5)
+Version: 1.4.1-9
+Architecture: amd64
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 1903
+Depends: gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0 (>= 1.29.3), iso-codes, librsvg2-common, onboard-common (<< 1.4.1-5.1), onboard-common (>= 1.4.1-5), python3-cairo, python3-dbus, python3-gi-cairo, dconf-gsettings-backend | gsettings-backend, python3 (<< 3.12), python3 (>= 3.11~), python3:any, libc6 (>= 2.29), libcairo2 (>= 1.10.0), libcanberra0 (>= 0.2), libdconf1 (>= 0.14.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.9.10), libhunspell-1.7-0, libstdc++6 (>= 11), libudev1 (>= 183), libx11-6, libxi6 (>= 2:1.2.99.4), libxkbfile1 (>= 1:1.1.0), libxtst6
+Breaks: gnome-shell-extension-onboard
+Replaces: gnome-shell-extension-onboard
+Homepage: https://launchpad.net/onboard
+Priority: optional
+Section: gnome
+Filename: pool/main/o/onboard/onboard_1.4.1-9_amd64.deb
+Size: 343952
+SHA256: faa43ce4feded062a98c89af4346923fbbc55b8a6d9d76fe58c2826fcac0d5ba
+SHA1: 3af747bd36c5d4742e8e580c7c3ae94388bfcb1a
+MD5sum: 3857ccf4ba3172053971e5ab574c8cd7
+Description: Simple On-screen Keyboard
+ On-screen Keyboard with macros, easy layout creation and word suggestion.
+ .
+ This on-screen keyboard can be useful for tablet PC users, as well as
+ for mobility impaired users.
+
+Package: onboard-common
+Source: onboard
+Version: 1.4.1-5
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 3323
+Depends: python3
+Breaks: onboard (<< 1.3.0-1~)
+Replaces: onboard (<< 1.3.0-1~)
+Homepage: https://launchpad.net/onboard
+Priority: optional
+Section: gnome
+Filename: pool/main/o/onboard/onboard-common_1.4.1-5_all.deb
+Size: 395976
+SHA256: 8271c1cd314e1da53f595915eb3540a02e23d507a647d7fd173c943ca2447688
+SHA1: 3493c3325c5e5c3c71131cdf0fa7b08b879f25b3
+MD5sum: 549bd8642632c8d9f47d41588d10822e
+Description: Simple On-screen Keyboard (common files)
+ On-screen Keyboard with macros, easy layout creation and word suggestion.
+ .
+ This package ships the architecture independent files of the onboard
+ on-screen keyboard.
 
 Package: onionshare
 Version: 2.6-5~deb12u1

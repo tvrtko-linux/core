@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Fri, 31 Jan 2025 12:55:27 UTC
+Date: Thu, 06 Feb 2025 22:14:34 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmecyD8ACgkQ5Vfn9vbt
-T6o+Sg//VleLwNRO07UnbJE/ipZmnebERWczFz+twGHbKuUf5GIocvYdbmq7TU4k
-r3El9nwTkvX5n8UvAKAC+yzsK2dmIcYGt9zCnxkoipnkLgQEiz974+YKvYUzBa09
-oyu3ZXSVGnEXGok8F60uY4U5S6F8713rIK4Kx7Js+hBWZNcYtcYQ5XxR49BlYHj9
-4VZV//K/C9exYoDeXrhrWVBLY+srmOwDBGSQN/jtSDKHcNGdH3IgnPKwxL1qM1pJ
-5e62A9qXs5CY6xxmn82I+TrJ0rwdGiCoya9F+8c37C8nTEjd4GfgTb4sZ9BMrEel
-BGBxrahDn2JFcuOV1tvxWpF2l9KTYmh7cZw8xAyXyP7VA+2XeNsWN9X1FZLtFIrz
-nuoO1piaRTypuOZZTplSnNgOZRY6UUB0mBXRd2O4+IofVg43viv2RWPZ1SBMbgqO
-3WqHlwhqXshyvcGt1oBURymPDYlnmjIBb0TUSDMcTtEGT5uXuh6LlLXrkozsB7Uq
-YlPHLkhXOhnn9Dnztn2AZCfWau7QBscDsgyGVbogOAaH0ngBRwHD5iJh9NhSpm1E
-2tjKQ4NCPkIwSDbXiHlYMCVt7RdQ3RxYlUNsKk+keM5Dy702RSCthLd7IleBGyY+
-u6rMrtHp/U2Jy1XP/VQdKXggzzZ3zbVz06ltJYukt8dmbZR+T9k=
-=q5CF
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmelNEoACgkQ5Vfn9vbt
+T6pVeg//cdkMUb/4QsTlT5ls7XR4NOSfngT/YYZyGCdvLbp+kNHuJyZlVQyft5hT
+Voi1dFkGnM5Ek5ipejBNB7lgCkkG93v+FnkpgNvLhz27j3sT7zliW//yUrafqVpL
+hricKVNm3Q8lvNpwByDk5MO17U+tRPAFE/fv7a38Dehk/ZR9lf/wSj80N5Modj32
+bnXU5EaxyRZ5STgMFNKaRTNFwKWNYEF8y2cdrEbPdko7H57rFuWGVD4PJseyw0RR
+UmwmliECdIWLv0tyoy5eeoPdcdfL2O0oRlW4n+OZLdJxKISSi7y/4iWa5abe2I9E
+k1uEDQjUZeN/7iQL3q9aCbBvJwx2Bb7PtOAHFoKUrZ4zouzkBfWWZ53FpHs3oOEp
+EKsCZvLUsczkQQMu+TjsWoRHE4MVJiOEUDBNOy9fCcBTwU/cMYGKr5hgZjjE7Sz2
+ZeCRCEYgxqdD2n2zUcY1mKspBQXSD/xUc1SfEHyAzkPCvImCmAl78h0hlKY+3M98
+782ANXD9YPB55XdtSt0QDHTX4t5f1u6Sp5+0urfUld/kU2vdygAoKqSIf+4g0fFm
+F+fY40YBfX/haBTUiprHcV1W5xeCAPUUYNuR9Zn7sHJnls+9jvGmuEQTX0IrvrZn
+RalF241SD85qS7t3cLI+bOVaUU8yAsVZhRqwKDHDpAGwBMSRjDg=
+=+lzd
 -----END PGP SIGNATURE-----
