@@ -50984,6 +50984,26 @@ Description: terminal status monitor for tor
  .
  nyx was previously named tor-arm (which is now a transitional package).
 
+Package: ob-vkbd
+Version: 1.4.2
+Architecture: amd64
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 1903
+Depends: gir1.2-gdkpixbuf-2.0, python3:any
+Breaks: gnome-shell-extension-onboard
+Replaces: gnome-shell-extension-onboard, onboard
+Homepage: https://bosniana.org/onboard
+Priority: optional
+Section: gnome
+Filename: pool/main/o/ob-vkbd/ob-vkbd_1.4.2_amd64.deb
+Size: 341372
+SHA256: 8b006c787eb2b5c85d1481239d8876179d054174443352dccca9c86d03ca3396
+SHA1: 8cf7ed5ca024d8e7bd6a216ce1e7c2b4bf882be5
+MD5sum: f09aa192713ab9751e282b241afd2b25
+Description: Modified Onboard Simple On-screen Keyboard
+ This on-screen keyboard can be useful for tablet PC users, as well as
+ for mobility impaired users.
+
 Package: ob-welcome
 Version: 2024.12.19
 Architecture: all
@@ -51111,27 +51131,21 @@ Description: universal document viewer
  This package is part of the KDE graphics module.
 
 Package: onboard
-Source: onboard (1.4.1-5)
-Version: 1.4.1-9
+Version: 1.4.3
 Architecture: amd64
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
 Installed-Size: 1903
-Depends: gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0 (>= 1.29.3), iso-codes, librsvg2-common, onboard-common (<< 1.4.1-5.1), onboard-common (>= 1.4.1-5), python3-cairo, python3-dbus, python3-gi-cairo, dconf-gsettings-backend | gsettings-backend, python3 (<< 3.12), python3 (>= 3.11~), python3:any, libc6 (>= 2.29), libcairo2 (>= 1.10.0), libcanberra0 (>= 0.2), libdconf1 (>= 0.14.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.9.10), libhunspell-1.7-0, libstdc++6 (>= 11), libudev1 (>= 183), libx11-6, libxi6 (>= 2:1.2.99.4), libxkbfile1 (>= 1:1.1.0), libxtst6
-Breaks: gnome-shell-extension-onboard
-Replaces: gnome-shell-extension-onboard
-Homepage: https://launchpad.net/onboard
+Depends: ob-vkbd, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0 , iso-codes, librsvg2-common, onboard-common, python3-cairo, python3-dbus, python3-gi-cairo, dconf-gsettings-backend | gsettings-backend, python3:any, libc6, libcairo2, libcanberra0, libdconf1, libgcc-s1, libglib2.0-0, libgtk-3-0, libhunspell-1.7-0, libstdc++6, libudev1, libx11-6, libxi6, libxkbfile1, libxtst6
+Homepage: https://empty.package/
 Priority: optional
 Section: gnome
-Filename: pool/main/o/onboard/onboard_1.4.1-9_amd64.deb
-Size: 343952
-SHA256: faa43ce4feded062a98c89af4346923fbbc55b8a6d9d76fe58c2826fcac0d5ba
-SHA1: 3af747bd36c5d4742e8e580c7c3ae94388bfcb1a
-MD5sum: 3857ccf4ba3172053971e5ab574c8cd7
-Description: Simple On-screen Keyboard
- On-screen Keyboard with macros, easy layout creation and word suggestion.
- .
- This on-screen keyboard can be useful for tablet PC users, as well as
- for mobility impaired users.
+Filename: pool/main/o/onboard/onboard_1.4.3_amd64.deb
+Size: 988
+SHA256: a72f4c74d5bee98d9b6bda7f740e9f51171c6c5cb30841e29ae5a84ff8e1e73d
+SHA1: 70b6215b0b9ede7819a971457ee986144e5df676
+MD5sum: 33477ea3fee3bcc5bf2310be74a8a697
+Description: EMPTY PACKAGE
+  Simple On-screen Keyboard
 
 Package: onboard-common
 Source: onboard

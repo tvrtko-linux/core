@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Thu, 06 Feb 2025 22:14:33 UTC
+Date: Fri, 07 Feb 2025 02:36:29 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmelNEkACgkQ5Vfn9vbt
-T6oYTw/9HR8QpPodxVcnNHyjGRV3Gk86QpGFt4ywv3ZpnLvP1Q9RpEKGubSR/VnU
-2hFdI8b1UzxL0jjM8S20kLfATNI7WWZHaTp0i3BHSzn/qfHGE27Afrkj5d+3/jzy
-4YiAasZPPQazlyuV017MPJTWDlWoWfSmBLIzR4B5PSV8r+gJWx9sh5zvcO9iuVTM
-yZzfpaZt/YU0ZJvojB2B3SXKHovdf2wCehl1uxxU4ugjipPR91a3Mob32NwGArmr
-PWBmqQnKmvnBR7JXio5Fdg0iIAGdf05QSwf4hTHbvLy8vAHAXruPNV8hL9f8e7el
-XG1PtkAIYk32pYayhp93pwED0Fu7RpgxNJVMBdgjtnFL9Qo3XjrTwE5j1WOtuLvG
-ALJuBJ7/m9j9BXvo39LpTBjqlbBPOZrOwF4wgF8hIue9BwATYCYtFgSP+oY/zoCg
-Z2mxMXlkLk5H2pTgVb4kKuN8Ywv+Axi0+CtnwzTpn0u3gw0/UzboX3XnI/gRFMrC
-QGJ6g1pk5pSM208Ow6tPPPu9uP2tXQRprQ4V5awabq6LtbKPx0I4v0SFSVoN26Oe
-TNdLAyiypomaiFGHDUJWQlVLLDn7GmdH5WN7BamjzSRme9Si3AvgvVNfv7Pvqvpz
-8kxKitxpolp03mdlqMv4qVvlzDEey86g/JEKgKW66EBXAJXab+0=
-=IoHC
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmelca0ACgkQ5Vfn9vbt
+T6qhzRAAhBCLaxLzYESrnIN0o/ETX/KLDksOejo6zpY8NJaQNx9+00yXDYedZSKS
+z2JEhMRwuW5KJLKRI99iUCW0KZryM5R30XCCJysHbe1OnBzxqrz7LfWAeeI1CPgm
+xSLfoGqr6bWrJ36csojvOHdEL5DtCrmx5l3B2o2sDv5vrxyYQ8HzC5MHJiYSy1zr
+bl4bOPj0i03L1kMUk+O80B5wUOocGk/jjO7TjYWvJcvuzcgn53DObWhvo2Sx2c2g
+VwbdhkwF8Il52d0WEsFoJwgyf416c3GY/w52D6lQGEmCCuifEfCuunxBtO2hHl26
+KhyBATeHKqL3Z+k+mJbySuuspM+UM415Cp+G36oFstMe0Ad7I/+l7hUiXA6qqZGw
+iRbRjEycF1fh8uRv3Y+MorwdmgP97Z+rvT4cdjol2maflNAMAPo6H2vJBD/djUBP
+xHElcia9xUTfgO/6OVYru7Za091ljoV0Ix0sIRQAoI2jFQQ2IrbpC/DpR6cvKwDi
+XbtJzDJ5rJyRTC2ZbycXQhoB44Yf08smEe4+LW/joWzOEZCMR96BonIT3b76b656
+ypNl1fHKsCDU2jCiAE9JjI3hZs6hR+VolsGzajmN6ERUL/jhIdT3jXYvz9X+vzjI
+n3M14hmDZnfyJbuCPyDi+K+iV1YVdmR7tjDjtPxOBmEK+qtwHW0=
+=OAPj
 -----END PGP SIGNATURE-----
