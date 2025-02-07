@@ -50985,7 +50985,7 @@ Description: terminal status monitor for tor
  nyx was previously named tor-arm (which is now a transitional package).
 
 Package: ob-vkbd
-Version: 1.4.2
+Version: 1.4.3
 Architecture: amd64
 Maintainer: Denis Maslo <deni@bosniana.org>
 Installed-Size: 1903
@@ -50995,11 +50995,11 @@ Replaces: gnome-shell-extension-onboard, onboard
 Homepage: https://bosniana.org/onboard
 Priority: optional
 Section: gnome
-Filename: pool/main/o/ob-vkbd/ob-vkbd_1.4.2_amd64.deb
-Size: 341372
-SHA256: 8b006c787eb2b5c85d1481239d8876179d054174443352dccca9c86d03ca3396
-SHA1: 8cf7ed5ca024d8e7bd6a216ce1e7c2b4bf882be5
-MD5sum: f09aa192713ab9751e282b241afd2b25
+Filename: pool/main/o/ob-vkbd/ob-vkbd_1.4.3_amd64.deb
+Size: 343020
+SHA256: 7f5975f506fce2d36600670c09552d011926261846a991764ad66759e74f1a7d
+SHA1: d775c117b001e042621dbceb995990b86c76411d
+MD5sum: 80feb4d6e8bd7802e891ee1d419c7b4f
 Description: Modified Onboard Simple On-screen Keyboard
  This on-screen keyboard can be useful for tablet PC users, as well as
  for mobility impaired users.

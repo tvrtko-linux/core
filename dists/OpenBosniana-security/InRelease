@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Fri, 07 Feb 2025 02:36:29 UTC
+Date: Fri, 07 Feb 2025 05:44:32 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmelca4ACgkQ5Vfn9vbt
-T6pojhAAm/WqnIVsLvvurwwOvN1Iq4CD/aD0wtfj8+2QFGGxDy9jbLd4ylWi/mc5
-4RMtkZHj++6rHXelDfMk65dKsB1oUyTrroxR6boKGBHo3XnYuDZuiaIk/yhT6fKj
-KhFmoRV1VQNleGYu0ym4f+dVF2vKgpd6ehtwpqPQszG+mnn+J3yT9pwmiBWsxNHt
-XLfv4cC3FkWp7D7It60jo8syP5RKSzqDonRaMrpNu1J6J63yFZev8Fau1DI+sX1o
-9EXwORXZmTjKpxwUJpbD2tvGMJ8o3vrO1zfjJGU/2VeWFPxIRMl9BK4DG82EDT1q
-De1mi45Xc4S67kJ2f3uiM2B+mojBAANC2GYt+WfQqhg3/64NsNgfuqoVlUx4vlQa
-Q9LhkErZf00uagQNElbKylXMRKyB2nCjihsinKrzpNnZV+x4DF7YTOtGZh/1wDvV
-/1Y6ld+DeKqb9hdpHagn/vEFawt/0YH60KiEt9rfphRwouGKFdLEdqtya2O6jgi1
-AoAoV7i3x1bsJc/x+KVVyQ9Hvb84XuS2HpoM5M0zuryb7Nk5g1pX8JooAv6Bb2jE
-fVchcRaeppaNterlXn2zzLaQGPG+l34hU/nyE8H40FS8+gm058jcd9wCgsRgmrF+
-n5jOXmLNOOmd3UzMvY4AUAqjiqlFVhSkmc2yMHZRmlNe6gSQQgo=
-=gIRM
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmelncEACgkQ5Vfn9vbt
+T6pfbA//cTRsUZW/0tiAXndqCUVk6+nSU1WXS++k/bixXGkDN/JFennosD9wypgh
+Ce79tzRmX/dlv+8/lDNg4/4D/eEywqliDTv58Vng2eWb8ZNRagBemYD00pSwRLWy
+MMPtbObCDoXO8j2aC7PkXEsPk5j+wWFuPqEnS2MhOlK8q/5gt8tQ7nQbg3KldXS3
+E3nBVlEkGeDknIcDvG8YLA3yXmLsOO9ZtLlmKRPTkq70axjDdQI9qC2qDk4wfK/y
+/pOUZZZst8o+FuKfSoLWtoqB+LYioWX7xNX47svLTPAzIH+a/nDjWM7UK21zY9Co
+9PyT84Ibfrgyvuuh4wkH/luW96Jnls4ol9oaW2cCtehDpyGMTUhCExO6raA8OqNP
+ODHKqccNkzeQcPIKANJlr+MSGx2Hq6Eu/BBjZOJNy9dWmuKArrtVfHnib3Q+A5Jh
+ULNmA78lOA2y4Much+NRcdQgcSBOjqm+ziOFrHaJenIhS3qJf96qxfCsubgGJjOV
+sru172/QOHuRBV6JGYPsMhmYPmfVnk0tFz+/910M5vMxU36HyjWXpnr3tNkWmryZ
+eXPuEUtLNghVw4lSCPzUsLChlNJ+SYG4pli5J9F2B6v+iIiNMfECG4CtV/+XDs0b
+UZ/6dkOfkVMEp87UyC4XaJvVO+i1wbrwa0yiiTAyoEBDO3kCIWA=
+=TgAB
 -----END PGP SIGNATURE-----
