@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Fri, 07 Feb 2025 05:44:30 UTC
+Date: Thu, 13 Feb 2025 06:15:43 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmelnb8ACgkQ5Vfn9vbt
-T6oJ6w/+P43HBMdvrsT3ps7VeLgVT0pmFnY65yExbH4qeJFJtssIrS2dEXX4dZZ7
-6HDHFNboMT2/JOD0fQfC1HpTMgcLupqmScQ2qwvnlX+XqFcRWqgkIFvOJcJuOiAH
-NeY8Hxp9GFeEAd+ksSd707v6GTQnrDmZazHU+ABFDie+xfC6niKsf2UI8IKINwLn
-PKfvmZDG7Zu0LmMiBG5aSaj0iXCGCak40YAp6I6PxB6NAvVab3i2go+m+49GKxmT
-m75ML6Ob3nax8I2wH1iwb3psgEMyzWb8jHcJWHETvGiRWTtOHVtPoznJ67sPCo8R
-fqL5dnxkRml0IryhkwQwRt7MjXVRjpvmVOyMig6FxT8clvobqwkuwx1wCxF54GPl
-R0er4P4iifRPzolrNgkWU8D96LJ/sUVnIqUugkZ886AyKYAwg1Up1WCuJfEla7Gx
-yOHqiAlBRLujjhMMbONNv0iyr8UrRnEtZz/TD85qmewGQ532bH0Ea57VyaW4veU9
-OHpn2sIp9+mynIP8Qv4+cCzo9TtpVk/ipEHL3mS5q0N6Oi5UyLjd3iF34Yf0PkAZ
-OSKU1MZokq75fLx5tc1mBT7txW5ybkDsyRTdxc3z12vZVLbogiKSd3j/BlDPXHrP
-awaFDy5uwM7AKcZyHkhWyejm6fCj+No155NHqiZSHJF6FJNNUxY=
-=hmFZ
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmetjhAACgkQ5Vfn9vbt
+T6p2hxAAsaebnDiByfovkc4ieU1YmeQIYAZiqqjJfHE/Th3FxYMNEK97L3Xs1qm8
+PUCDx7MV5AM1B/MJ26yDDKAA4PeKkocNHao9I2WvrWOwo0fGjawBqqCuaVz6xxeU
+Zsdka9E6NapV/JZWR+MO+AR7wL0mhkrE0IpYtmaRZ29qNzmDRBKCJbFdPJ++dijf
+yDkZaI5uqnB2arprQSSLjOofwbQGe+p9kDFjhsegxWFi87uSWGuFx9QtZqt7k3Wu
+sOs+FRVHCy+NfIE/jZgwLQ72LqyN5D9AFPfkaFhhHWGLgfmJRgvMCMJ7kX2IYrLn
+/SEmmSWsGhYB/h/Playsnp9LXZOuC9Zmc0RCvWxyjCCr6rw3gyGRg7yPPg66NQCx
+bHXMRdSUaw4e7bSMNvgB2AURUG5WTuD6UmDD37YjCODVsiC7wZvBD1Vvmf6ivkRx
+QrKqL5ddJjfQrHWZmTuUifFz/qIRab5khKuDF8kFdDvReEbuH5nAeCdFvVi71NVM
+dOmtDtb/VwIdIomGt2jID9QCFttRaUrWotPI+wABFq3F9u6qu3AXp0cHq/Lt2N7N
+PSEFzQDtrFYWqiO9kcjXU0YYdxLOFFygaMOKC1XUkjtp5N/0QFq7el+MXptZ4l5e
+F3kqzpZLZMrp6vc/AQ4b84Sh58s8qtdVIXrINO8h52veLAhorYo=
+=dG96
 -----END PGP SIGNATURE-----

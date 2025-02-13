@@ -51656,38 +51656,38 @@ Description: OpenBosniana OS Virtual keyboard
  Meta package
 
 Package: openbosniana-welcome
-Version: 2024.11.12
+Version: 2024.11.13
 Architecture: amd64
 Maintainer: Denis Maslo <deni@bosniana.org>
 Installed-Size: 52
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6webenginecore6 (>= 6.2.2), libqt6webenginecore6-bin (>= 6.2.2), libqt6webenginewidgets6 (>= 6.2.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5)
 Priority: optional
 Section: utils
-Filename: pool/main/o/openbosniana-welcome/openbosniana-welcome_2024.11.12_amd64.deb
-Size: 14068
-SHA256: 5f0a176e9e182f8f78257ab1859e885ce3dc4d3d65262743532cdacd8650d2d0
-SHA1: 0c7f5078efd32834becce9f38cf8ccf083620ab1
-MD5sum: c1dbdfa674f48f5a54e1546a1b961a3d
+Filename: pool/main/o/openbosniana-welcome/openbosniana-welcome_2024.11.13_amd64.deb
+Size: 13848
+SHA256: 5fdb406e5b8f9b77c3ce480eca4a8e3843157da1cf3fdb45ef9ae05cacc1159b
+SHA1: 65bd55618fea6b13ae8b201d342b310f9e7baac1
+MD5sum: 60c9952a89c382693118fa586424f819
 Description: OpenBosniana Welcome Application
  A welcome application for OpenBosniana, built with Qt and modern C++.
 
 Package: openbosniana-welcome-dbgsym
 Source: openbosniana-welcome
-Version: 2024.11.12
+Version: 2024.11.13
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Denis Maslo <deni@bosniana.org>
-Installed-Size: 457
-Depends: openbosniana-welcome (= 2024.11.12)
+Installed-Size: 472
+Depends: openbosniana-welcome (= 2024.11.13)
 Priority: optional
 Section: debug
-Filename: pool/main/o/openbosniana-welcome/openbosniana-welcome-dbgsym_2024.11.12_amd64.deb
-Size: 447544
-SHA256: 83df935e02f61c99a237b61f67b5d831854d2058234e1b33e44aaefb327c4bc3
-SHA1: 5ddf134c2b04aea08ed44022a65c244f3a4dfcec
-MD5sum: 4911ff16e2460fe48a3a012ea42fb7a9
+Filename: pool/main/o/openbosniana-welcome/openbosniana-welcome-dbgsym_2024.11.13_amd64.deb
+Size: 462068
+SHA256: 83221b83b76c118b394d0ee32508948b700d41d3af529fe5bc7ea62df1c1ae68
+SHA1: 112f9ac605fab642e5c40f0ce4c434c889b58d11
+MD5sum: 9c93853aa18808dfbc8c5c2535ab4c78
 Description: debug symbols for openbosniana-welcome
-Build-Ids: ccec79a3c327d9a4633bcd416395008f8bdb4e4e
+Build-Ids: ad4f88e4405de39b681ef6ba32bb6c4327c2807d
 
 Package: openjdk-17-jdk
 Source: openjdk-17

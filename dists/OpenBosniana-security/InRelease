@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Fri, 07 Feb 2025 05:44:32 UTC
+Date: Thu, 13 Feb 2025 06:15:45 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmelncEACgkQ5Vfn9vbt
-T6pfbA//cTRsUZW/0tiAXndqCUVk6+nSU1WXS++k/bixXGkDN/JFennosD9wypgh
-Ce79tzRmX/dlv+8/lDNg4/4D/eEywqliDTv58Vng2eWb8ZNRagBemYD00pSwRLWy
-MMPtbObCDoXO8j2aC7PkXEsPk5j+wWFuPqEnS2MhOlK8q/5gt8tQ7nQbg3KldXS3
-E3nBVlEkGeDknIcDvG8YLA3yXmLsOO9ZtLlmKRPTkq70axjDdQI9qC2qDk4wfK/y
-/pOUZZZst8o+FuKfSoLWtoqB+LYioWX7xNX47svLTPAzIH+a/nDjWM7UK21zY9Co
-9PyT84Ibfrgyvuuh4wkH/luW96Jnls4ol9oaW2cCtehDpyGMTUhCExO6raA8OqNP
-ODHKqccNkzeQcPIKANJlr+MSGx2Hq6Eu/BBjZOJNy9dWmuKArrtVfHnib3Q+A5Jh
-ULNmA78lOA2y4Much+NRcdQgcSBOjqm+ziOFrHaJenIhS3qJf96qxfCsubgGJjOV
-sru172/QOHuRBV6JGYPsMhmYPmfVnk0tFz+/910M5vMxU36HyjWXpnr3tNkWmryZ
-eXPuEUtLNghVw4lSCPzUsLChlNJ+SYG4pli5J9F2B6v+iIiNMfECG4CtV/+XDs0b
-UZ/6dkOfkVMEp87UyC4XaJvVO+i1wbrwa0yiiTAyoEBDO3kCIWA=
-=TgAB
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmetjhIACgkQ5Vfn9vbt
+T6oNUxAAhPNQ2v9rLdzeMFfeS1x34YH1OX2HeeQlj0GcAWL5KH9xC/7Gp8ECMvO7
+1MrhlqUOXjt2bjETOU4Q98VTmvXE2uoLZFTa5wjVgPJ9ehGvq/JTX5t6p48eUxTp
+7Q3mIYFqpvGutaiRoSFSLSfz1we3BLak0PAqmxD2vrBjRgJC/ooMYaMfVRfotAzT
+m/cf5GqnmLgWUeTQWP3IpvD65lUJ1HuE6tddm2jqVuSJhc9qErbebNbIlqeDcSre
+HDGjcYIstlMa8riCH16piFas2q+fLXVZGYDrqcLMQ/iaQmL5F/HUL+W/Ky7Eun8S
+jIRCFfsxX5RcL9j3BCgWXx5hjIUIRpeNuuYzz6s/3nj5hbqQcvVaRy954tTcXbga
+iOr3tcXr5KKBfRpoFX0jSqSwhRV++mQvJsDOzG24KxrGXLcvova5a+KvvNlKa9zt
+zs0YHt9ZhW28cyQc64P+NyflxykMJnXIgLiAPM9dlnnUAwVoCIyLEAYRLU/zRdlw
+nG04HLWB4XWIpjs8Scv50Ld4afEgqXuOAr8X8cbd6tuJig5yx+2SfJEomzZWKU2B
+Nn3HnTVJFmDtnp9IWr2clhvDBK/mRotgRbt6y+0uyxz0GWAYA6dBzI2REh2LOvNA
+VyZyik/2ZYLlXFnoNJjImk/1N1Ol5DD8WPPx2BE2zJibKVikmME=
+=D7HM
 -----END PGP SIGNATURE-----
