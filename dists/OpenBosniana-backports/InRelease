@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Thu, 13 Feb 2025 06:15:43 UTC
+Date: Thu, 13 Feb 2025 14:26:22 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmetjhAACgkQ5Vfn9vbt
-T6p2hxAAsaebnDiByfovkc4ieU1YmeQIYAZiqqjJfHE/Th3FxYMNEK97L3Xs1qm8
-PUCDx7MV5AM1B/MJ26yDDKAA4PeKkocNHao9I2WvrWOwo0fGjawBqqCuaVz6xxeU
-Zsdka9E6NapV/JZWR+MO+AR7wL0mhkrE0IpYtmaRZ29qNzmDRBKCJbFdPJ++dijf
-yDkZaI5uqnB2arprQSSLjOofwbQGe+p9kDFjhsegxWFi87uSWGuFx9QtZqt7k3Wu
-sOs+FRVHCy+NfIE/jZgwLQ72LqyN5D9AFPfkaFhhHWGLgfmJRgvMCMJ7kX2IYrLn
-/SEmmSWsGhYB/h/Playsnp9LXZOuC9Zmc0RCvWxyjCCr6rw3gyGRg7yPPg66NQCx
-bHXMRdSUaw4e7bSMNvgB2AURUG5WTuD6UmDD37YjCODVsiC7wZvBD1Vvmf6ivkRx
-QrKqL5ddJjfQrHWZmTuUifFz/qIRab5khKuDF8kFdDvReEbuH5nAeCdFvVi71NVM
-dOmtDtb/VwIdIomGt2jID9QCFttRaUrWotPI+wABFq3F9u6qu3AXp0cHq/Lt2N7N
-PSEFzQDtrFYWqiO9kcjXU0YYdxLOFFygaMOKC1XUkjtp5N/0QFq7el+MXptZ4l5e
-F3kqzpZLZMrp6vc/AQ4b84Sh58s8qtdVIXrINO8h52veLAhorYo=
-=dG96
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeuAQ8ACgkQ5Vfn9vbt
+T6q/ABAAhFNPJcRbFsTXdRJrgyKbOl2p7aoQsKne8ik8TT6304sQgx9/lsA2pPeR
+0VwL1+8gVo/6i1HKOqE8M13ZDRroaIk0dGOaG645aGTQpQqFoMQ4tkUuhn3Cc2j1
+jnSUpCkt2VJlawMejm3KBCozicl1YmQaGY0guxDikrZTj0LD6tzjsobIpbdwbXJr
+1RBsDcHdL0ghEQaDk8D+EDVf0iDK98xsZqJ+1bCYL1HArOZNK29eYwhbDeslWG/c
+EbfCkWghdcFNU1DpMaxjqAHNUnDshnm0fKv1ZwKaAG9OT69gBC9o0TpbJFBfkKI0
+WW08wIirjTZM+X21d9IVB3pFjtuVTp84uDKib4Ooofn0l0jC2CzM6nhAko22EWbr
+prc9t1jVLr17jrfaVsFNIjqDMGwDoDZ5+tXj3ZFWwFuBOYAgYINlbaNL8tAdxCqL
+DjIgkE2Wnz/srqv0kKN54yspxJinGpWgxfl+lPVdAmZip/XeMlJvkvYg3tpoXjHZ
+iIrH4ICl1pRpaBHq9IGpShgxIYxoUapIEoYcFa16kIa+NqmleAZWUShAOx+XSsFy
+wj45/bWnqB/2GdodFWDB6QoYoRFD398ACEL4Qxg1bufoXKJXzMhmGbPtSeXr8pa2
+8SgUNAXv3lLY9YEv/LI4qfco7Rg+v1wQTHex6dwauJHF34jqOg4=
+=8jiL
 -----END PGP SIGNATURE-----

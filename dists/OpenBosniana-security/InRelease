@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Thu, 13 Feb 2025 06:15:45 UTC
+Date: Thu, 13 Feb 2025 14:26:26 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmetjhIACgkQ5Vfn9vbt
-T6oNUxAAhPNQ2v9rLdzeMFfeS1x34YH1OX2HeeQlj0GcAWL5KH9xC/7Gp8ECMvO7
-1MrhlqUOXjt2bjETOU4Q98VTmvXE2uoLZFTa5wjVgPJ9ehGvq/JTX5t6p48eUxTp
-7Q3mIYFqpvGutaiRoSFSLSfz1we3BLak0PAqmxD2vrBjRgJC/ooMYaMfVRfotAzT
-m/cf5GqnmLgWUeTQWP3IpvD65lUJ1HuE6tddm2jqVuSJhc9qErbebNbIlqeDcSre
-HDGjcYIstlMa8riCH16piFas2q+fLXVZGYDrqcLMQ/iaQmL5F/HUL+W/Ky7Eun8S
-jIRCFfsxX5RcL9j3BCgWXx5hjIUIRpeNuuYzz6s/3nj5hbqQcvVaRy954tTcXbga
-iOr3tcXr5KKBfRpoFX0jSqSwhRV++mQvJsDOzG24KxrGXLcvova5a+KvvNlKa9zt
-zs0YHt9ZhW28cyQc64P+NyflxykMJnXIgLiAPM9dlnnUAwVoCIyLEAYRLU/zRdlw
-nG04HLWB4XWIpjs8Scv50Ld4afEgqXuOAr8X8cbd6tuJig5yx+2SfJEomzZWKU2B
-Nn3HnTVJFmDtnp9IWr2clhvDBK/mRotgRbt6y+0uyxz0GWAYA6dBzI2REh2LOvNA
-VyZyik/2ZYLlXFnoNJjImk/1N1Ol5DD8WPPx2BE2zJibKVikmME=
-=D7HM
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeuARIACgkQ5Vfn9vbt
+T6oBDg/8DBbGCHpnk7B3TpNrv/VfJPuO/Pv3n2kdQYZCmxO2Y2RcGgGFWfHJzT4U
+RGdeOHMx9xqVe19k8HCsY7ufPgUr6mGL1ejRh4GYWKk69DfjwV0HRIgBkzUhQ7Qc
+D2ELoS3cK2pWTgOYW+xzmO9iOQOQ9casxOo/cIo8E8CIjfGIXnu81y7F0UbZ2YOK
+zeBOm2uItb92sjrsePkxv6JxXQuaA/p2FdEaU69SGYNw5/ue4yzwvbf3S8ih5qw/
+B4TiouZC/S6JzJz61S/fBYRctkq3Q2kz7Gz9EkAWdvSa0LoY64gFoiolhlsZ5DiZ
+U23WzFzuFTJgXMaKo8ERVutSrZD1029V7Lnam0ZmGiKmrNWZ56CqnDLxqxMjZKBs
+eqdVriISf53NNwo3I5dU+kzwQkPgUoHlGbqX8699V9LZzRjwoJNiXXp2lrHuw63f
+0lQ+JLoO6p4P58rw+DDPMJBsQE8zwcDkI7AKdc0Ur7PWEAiuLj5TFvw1kucYa5PC
+NpQfrUGxn3o4xj/JkXWgmRhS6CkcFC+uHkb6GXzPhPIz2w3sjics2MyEbcU7zoOp
+4obqwve+xSMaqirp5E+iWJBJsFo8u3cGOxx35XaFA21iSUqZmEnxf8ge/Hd02sQs
+2V3KH3uVLgM2HnT9oSDs1VS925wTWvXYYjHiV/oogZTsK33muy4=
+=bdnT
 -----END PGP SIGNATURE-----
