@@ -51005,17 +51005,17 @@ Description: Modified Onboard Simple On-screen Keyboard
  for mobility impaired users.
 
 Package: ob-welcome
-Version: 2025.02.01
+Version: 2025.02.02
 Architecture: all
 Maintainer: Denis Maslo <deni@bosniana.org>
-Installed-Size: 2050
+Installed-Size: 4620
 Priority: optional
 Section: utils
-Filename: pool/main/o/ob-welcome/ob-welcome_2025.02.01_all.deb
-Size: 1296440
-SHA256: 43a29e70e402a1c6c2b78ca9b2ee66cbf23ffc0f6a185faae772a5bfd5c4793a
-SHA1: 165c0d57d17bb4d5f4d55606bd16709885807467
-MD5sum: 536ffde097fbeee957b580d5b4831ad9
+Filename: pool/main/o/ob-welcome/ob-welcome_2025.02.02_all.deb
+Size: 3834360
+SHA256: 77509d9ca08a62f38dc8c51acf1ed44babaab81157324ff176c7d66869e761bf
+SHA1: 4258b98876ba8d890f812268c73dcdd2216ce34d
+MD5sum: cfd89db9f0f874b93bc9d0a2ff7c3674
 Description: OB Welcome tool
  A tool to manage welcome settings and configurations.
 

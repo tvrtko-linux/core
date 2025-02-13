@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Thu, 13 Feb 2025 14:26:22 UTC
+Date: Thu, 13 Feb 2025 14:37:36 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeuAQ8ACgkQ5Vfn9vbt
-T6q/ABAAhFNPJcRbFsTXdRJrgyKbOl2p7aoQsKne8ik8TT6304sQgx9/lsA2pPeR
-0VwL1+8gVo/6i1HKOqE8M13ZDRroaIk0dGOaG645aGTQpQqFoMQ4tkUuhn3Cc2j1
-jnSUpCkt2VJlawMejm3KBCozicl1YmQaGY0guxDikrZTj0LD6tzjsobIpbdwbXJr
-1RBsDcHdL0ghEQaDk8D+EDVf0iDK98xsZqJ+1bCYL1HArOZNK29eYwhbDeslWG/c
-EbfCkWghdcFNU1DpMaxjqAHNUnDshnm0fKv1ZwKaAG9OT69gBC9o0TpbJFBfkKI0
-WW08wIirjTZM+X21d9IVB3pFjtuVTp84uDKib4Ooofn0l0jC2CzM6nhAko22EWbr
-prc9t1jVLr17jrfaVsFNIjqDMGwDoDZ5+tXj3ZFWwFuBOYAgYINlbaNL8tAdxCqL
-DjIgkE2Wnz/srqv0kKN54yspxJinGpWgxfl+lPVdAmZip/XeMlJvkvYg3tpoXjHZ
-iIrH4ICl1pRpaBHq9IGpShgxIYxoUapIEoYcFa16kIa+NqmleAZWUShAOx+XSsFy
-wj45/bWnqB/2GdodFWDB6QoYoRFD398ACEL4Qxg1bufoXKJXzMhmGbPtSeXr8pa2
-8SgUNAXv3lLY9YEv/LI4qfco7Rg+v1wQTHex6dwauJHF34jqOg4=
-=8jiL
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeuA7AACgkQ5Vfn9vbt
+T6r0HA//WyYLZnLj/MenOfVzThLlTXTnickWox/saX8abgy6HpMmZ+Yg4XBbZ3Gw
+BNvWwNgo7WTQG79bLCe1hQ2YyCKADPIPJalnewLGFth9lkkzflWPIr6+JdjjUPO5
+Uq9KUEwNIp5TxlfZfXacAJdJT7QXcfpmx9B+mLwM0UltOU8RYwpVquydSb5Y4F5u
+BeGuw2JW7U2N3gCOF9X2KPG1ACaFwCH9SbAmM2Qmz9DBzuCN0Me6eMu8tj8y8rA+
+z4BNcon6Lv34GezWHVWWggeJ3pbZRLHJFXBdut4+xMq0v1zIHO8ND/efygeIXkwD
+AWpkevT3mN6dQTsY10CjWP+RbSAtmDBmIhWe889p6/TpeGJcmbnitvHEkgWgE0PB
+5/AU8uArjdcHj6u9RSDi6zHS88RxpoThPOoWm3EHJjg0A1YhYRN/sQAHRQDAtsRk
+RytfQSwqdO9DPPuBQvGRbEKA3EjeJXPPLrNQLUmDipb+mG9Ee5Tce3lgcDcJLCWh
+ac5d9EpIfVAZyxyhvY0LJL4Im6Wi7K1Y+SZT6WgUPMTtVPis8wt4UgmVI0M5HHo4
+JfqjwShXw/cYLDLMMgUOY8Gq6ii/EzDVZ0MWRoLlDrfi0aftFZvAYEy2QDFCVowZ
+HGMqQumJ9thOgUQ6LZFPP4AjvBVxRPsyP0YRQoGsA6RH1x+2qcc=
+=77aH
 -----END PGP SIGNATURE-----

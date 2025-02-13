@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Thu, 13 Feb 2025 14:26:25 UTC
+Date: Thu, 13 Feb 2025 14:37:37 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeuAREACgkQ5Vfn9vbt
-T6pyWg/+KSvepxG/FWip0jh+Z+SkjV9Hsr0wtXU5yKVVy5nCu3yQ5y5t/HBwtstF
-sn9AgPPk8h+CDhGAazHUWQ3oe9x1CON2Tm2fZMJZ9Iwn6KB6c1gYqQwa86AAZ2gB
-mvvFCovuxb9hoO3xmhYu+v2VOmfTdn7ua6rcc5yTUps/7W4MPM7vEMdx0SMpVZKd
-552G2zHcsXjh4f5uj4qAyLwiwASL5AAsBcF2phDso6J5Kk11tTg2BxL/t4m7BFvX
-aCLhxa1yBuAjmCUiHSV7l9u3HwRVwIB+2rXnLotir8SQf73b6d/6veuzAc3vOzMO
-TW3V4s0XpOnNXlvs/8DswJRFOhM6r1zQevUFntJRZmrFtRV7x6EKIWsGmBjQAfKw
-GdAOhcuerLNk25mVSHRcONMupVb7Z9ziOK7rdNyT2u4POQnzVZVjoqX2DzZesysn
-7XY/i+OpDFSwn30VDeSG7PJweLNXdQ+TKXUfA2ezyMoKm+m2Si14e8I5myMR9Zkr
-OJRqEIUqXD7G1f/s2n2rH/VKF3kCkKeWxiuLPKOyY+XIx0vsXOdBiFiwWFh0WirO
-9rT2syDPRnS4mkN6OXgQt2Bv/YaI/2/t7tJk1Ei8ROO6YUe8Z+YfV1mszz4Oz3sO
-jb1Hgr7CJAv3VsnNLaSgwtXeUNUItp872DLZr3NHtigW6DkWyZc=
-=lLzP
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeuA7EACgkQ5Vfn9vbt
+T6qcWQ//YvndBq9H8o+shFwvCWvPjymJW71w1SUV1ABURf45FSioT3qsjUpfmQti
+pmJEjZ6+uLeY6mfFqVrRQipjXlIWtdd1iYrrcUqUZnKJJFiKKkxWg5AWmChmrKoS
+p1nAPFkX1hgu1kGhqhK8zGgj6ByjHjMNLCk7JxGIdP1yF5HMFX6+XZLD6x9MUE3D
+A0jfb4QNt5FBOEgyrkFoHBLucrdBSpevNKB7C7GReFQQ8c27InZKjnHRH5NoFs6l
++BmfLp7PRFSqe8nQxy5caFs9HL631EjWtxiBsF03QDUj5UJffhLqyKDDmd4aFOF9
+qmzdmWiL2O3oEynM8VtnVGM42yVALCKt9PXfS28gi6fz2qdzqyS6Jherd1Didvve
+MODVbE4FtChsmttV5tqjlqhnW/rQH2ckhvCBNFP7b/BPcFq3/AH47yhTHAhrB01T
+oeL9utUHrWvATcP2O1JE6p+P1n6VXVVPBae4uVF/VJvHfcBDALg17UCAEnFVAM59
+bO8R01He+zkKgkKySKhUCag9BSUaHHMzqjjULCdmwjA9QjZkXL9d7r7HhE5yzeUY
+dg5KPVnSEmOEq6SRX86JQFvYNW6LcEHYBbst9kZh8X4XZ7XxUqDqZntOjwzgezqP
+/akqr4wRDyI38nHBJxluELL5PqOFco4dxwd9cxqYBdYhJrsHujU=
+=mLKw
 -----END PGP SIGNATURE-----
