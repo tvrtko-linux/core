@@ -33205,21 +33205,21 @@ Description: Regular expression for IPv6 addresses
 
 Package: libreoffice-base-core
 Source: libreoffice
-Version: 4:7.4.7-1+deb12u4
+Version: 4:7.4.7-1+deb12u7
 Architecture: amd64
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 2777
-Depends: libreoffice-core-nogui (= 4:7.4.7-1+deb12u4) | libreoffice-core (= 4:7.4.7-1+deb12u4), libc6 (>= 2.32), libgcc-s1 (>= 3.4), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 1:7.4.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Depends: libreoffice-core-nogui (= 4:7.4.7-1+deb12u7) | libreoffice-core (= 4:7.4.7-1+deb12u7), libc6 (>= 2.32), libgcc-s1 (>= 3.4), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 1:7.4.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
 Suggests: libreoffice-base
 Replaces: libreoffice-base-drivers (<< 1:6.1.1~rc1-2)
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: editors
-Filename: pool/main/libr/libreoffice/libreoffice-base-core_7.4.7-1+deb12u4_amd64.deb
-Size: 798216
-SHA256: 19c70797c1561bae39406f5f268f169f3e6fb1a342039353d3037fc33b2dbb66
-SHA1: 8058682e6c80b000e142ff1e98b5a95a135ef76a
-MD5sum: 9abe69c804ac91c15395ba05291fa11f
+Filename: pool/main/libr/libreoffice/libreoffice-base-core_7.4.7-1+deb12u7_amd64.deb
+Size: 799148
+SHA256: 88e17868679a3700acebc82ac39bcb0979eb3fd835f71965dd3bf8e09c436c4a
+SHA1: a80f37a62b51bc098d3abb04dc9a5fe22899ccfa
+MD5sum: 4580b8de7e85058e792ae9b48b21f5c0
 Description: office productivity suite -- shared library
  LibreOffice is a full-featured office productivity suite that provides
  a near drop-in replacement for Microsoft(R) Office.
@@ -33233,22 +33233,22 @@ Description: office productivity suite -- shared library
 
 Package: libreoffice-calc
 Source: libreoffice
-Version: 4:7.4.7-1+deb12u4
+Version: 4:7.4.7-1+deb12u7
 Architecture: amd64
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 30636
-Depends: libreoffice-base-core (= 4:7.4.7-1+deb12u4), libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:7.4.7-1+deb12u4), lp-solve (>= 5.5.0.13-5+b1), ucf (>= 0.8), coinor-libcoinmp1v5 (>= 1.8.3-3), libc6 (>= 2.34), libetonyek-0.1-1, libgcc-s1 (>= 3.3.1), libicu72 (>= 72.1~rc-1~), libmwaw-0.3-3, libodfgen-0.1-1, liborcus-0.17-0, liborcus-parser-0.17-0, librevenge-0.0-0, libstaroffice-0.0-0, libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 1:7.4.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 3.6.0~beta), libwps-0.4-4, libxml2 (>= 2.8), uno-libs-private
+Depends: libreoffice-base-core (= 4:7.4.7-1+deb12u7), libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:7.4.7-1+deb12u7), lp-solve (>= 5.5.0.13-5+b1), ucf (>= 0.8), coinor-libcoinmp1v5 (>= 1.8.3-3), libc6 (>= 2.34), libetonyek-0.1-1, libgcc-s1 (>= 3.3.1), libicu72 (>= 72.1~rc-1~), libmwaw-0.3-3, libodfgen-0.1-1, liborcus-0.17-0, liborcus-parser-0.17-0, librevenge-0.0-0, libstaroffice-0.0-0, libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 1:7.4.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 3.6.0~beta), libwps-0.4-4, libxml2 (>= 2.8), uno-libs-private
 Suggests: ocl-icd-libopencl1 | mesa-opencl-icd | beignet-opencl-icd
 Breaks: libreoffice-common (<< 1:6.4.2~rc1~)
 Replaces: libreoffice-common (<< 1:6.4.2~rc1~)
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: editors
-Filename: pool/main/libr/libreoffice/libreoffice-calc_7.4.7-1+deb12u4_amd64.deb
-Size: 7412740
-SHA256: dd1afc5aa5102ad885dd0420a776d88d5c183190e198c7c33b17f361ba5e695f
-SHA1: 502e771f76126f8a7d3691caf35748a67813ed8a
-MD5sum: d12f4646d5dd24ab0573d0ac5ba937aa
+Filename: pool/main/libr/libreoffice/libreoffice-calc_7.4.7-1+deb12u7_amd64.deb
+Size: 7413328
+SHA256: 826c6cfbba82a74dbed7b36753714f108cd4c7c663515dd2323d125eb10694be
+SHA1: ad5eedff30e31a39c3b0d4c7ac1bf16a89cc0c4e
+MD5sum: f7b12013ec9a8744ac78fac096de93d6
 Description: office productivity suite -- spreadsheet
  LibreOffice is a full-featured office productivity suite that provides
  a near drop-in replacement for Microsoft(R) Office.
@@ -33257,7 +33257,7 @@ Description: office productivity suite -- spreadsheet
 
 Package: libreoffice-common
 Source: libreoffice
-Version: 4:7.4.7-1+deb12u4
+Version: 4:7.4.7-1+deb12u7
 Architecture: all
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 58642
@@ -33271,11 +33271,11 @@ Provides: libreoffice-l10n-en-us
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: editors
-Filename: pool/main/libr/libreoffice/libreoffice-common_7.4.7-1+deb12u4_all.deb
-Size: 24467580
-SHA256: 7c46896b04ca93a39ac87fd0234218bab56be619d7dfcf4b0506da42b9208f80
-SHA1: f2671035d9dcab8dddffa06a203240813e81dc90
-MD5sum: bb7517513c594a0d6e1bb9569bedd01a
+Filename: pool/main/libr/libreoffice/libreoffice-common_7.4.7-1+deb12u7_all.deb
+Size: 24466008
+SHA256: b0d9e05f9610985ca22643a445fc9994d9287983544df534a27ad90a42c9ea34
+SHA1: 40b4dc339866c810a02addc57b8c2991d9b37b0e
+MD5sum: 8f8c2710d6981bab871f1c5f585b5b65
 Description: office productivity suite -- arch-independent files
  LibreOffice is a full-featured office productivity suite that provides
  a near drop-in replacement for Microsoft(R) Office.
@@ -33285,23 +33285,23 @@ Description: office productivity suite -- arch-independent files
 
 Package: libreoffice-core
 Source: libreoffice
-Version: 4:7.4.7-1+deb12u4
+Version: 4:7.4.7-1+deb12u7
 Architecture: amd64
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 117420
+Installed-Size: 117424
 Depends: fontconfig, fonts-opensymbol (>= 2:102.12), libreoffice-common (>> 4:7.4.7), ure (>= 1:7.4.0~), libabsl20220623 (>= 0~20220623.0-1), libboost-locale1.74.0 (>= 1.74.0+ds1), libc6 (>= 2.35), libcairo2 (>= 1.14.0), libclucene-contribs1v5 (>= 2.3.3.4+dfsg), libclucene-core1v5 (>= 2.3.3.4+dfsg), libcups2 (>= 1.7.0), libcurl3-gnutls (>= 7.68.0), libdbus-1-3 (>= 1.9.14), libdconf1 (>= 0.15.2), libeot0, libepoxy0 (>= 1.0), libexpat1 (>= 2.0.1), libexttextcat-2.0-0 (>= 2.2-8), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgcc-s1 (>= 3.4), libglib2.0-0 (>= 2.38.0), libgpgmepp6 (>= 1.18.0), libgraphite2-3 (>= 1.2.2), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libharfbuzz-icu0 (>= 2.1.0), libharfbuzz0b (>= 2.6.0), libhunspell-1.7-0, libhyphen0 (>= 2.7.1), libice6 (>= 1:1.0.0), libicu72 (>= 72.1~rc-1~), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libldap-2.5-0 (>= 2.5.4), libmythes-1.2-0, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.16), libnumbertext-1.0-0, libopenjp2-7 (>= 2.2.0), liborcus-0.17-0, liborcus-parser-0.17-0, libpng16-16 (>= 1.6.2-1), libpoppler126 (>= 22.12.0), libraptor2-0 (>= 2.0.15), librdf0 (>= 1.0.17), librevenge-0.0-0, libsm6, libstdc++6 (>= 12), libtiff6 (>= 4.0.3), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 1:7.4.0~alpha), libuno-sal3 (>= 1:7.4.0~beta1), libuno-salhelpergcc3-3 (>= 3.6.0~beta), libwebp7 (>= 1.2.4), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxext6, libxinerama1 (>= 2:1.1.4), libxml2 (>= 2.8), libxmlsec1 (>= 1.2.31), libxmlsec1-nss (>= 1.2.31), libxrandr2, libxrender1, libxslt1.1 (>= 1.1.25), libzxing2 (>= 1.4.0), uno-libs-private, zlib1g (>= 1:1.2.0)
 Recommends: libpaper-utils, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-plugins-bad, gstreamer1.0-libav
 Conflicts: libreoffice-avmedia-backend-vlc, libreoffice-base (<< 1:7.0.0~alpha~), libreoffice-calc (<< 1:7.0.0~alpha~), libreoffice-core-nogui, libreoffice-draw (<< 1:7.0.0~alpha~), libreoffice-filter-binfilter, libreoffice-impress (<< 1:7.0.0~alpha~), libreoffice-math (<< 1:7.0.0~alpha~), libreoffice-mysql-connector (<< 1:6.2.0~), libreoffice-report-builder (<< 1:7.0.0~alpha~), libreoffice-writer (<< 1:7.0.0~alpha~)
-Breaks: browser-plugin-libreoffice, libreoffice-avmedia-backend-gstreamer (<< 4:7.4.7-1+deb12u4), libreoffice-base (<< 4:7.4.7-1+deb12u4), libreoffice-calc (<< 4:7.4.7-1+deb12u4), libreoffice-common (<< 1:5.4.1), libreoffice-dev (<< 4:7.4.7-1+deb12u4), libreoffice-draw (<< 4:7.4.7-1+deb12u4), libreoffice-evolution (<< 4:7.4.7-1+deb12u4), libreoffice-gnome (<< 4:7.4.7-1+deb12u4), libreoffice-gtk2 (<< 4:7.4.7-1+deb12u4), libreoffice-gtk3 (<< 4:7.4.7-1+deb12u4), libreoffice-impress (<< 4:7.4.7-1+deb12u4), libreoffice-kde4 (<< 4:7.4.7-1+deb12u4), libreoffice-kde5 (<< 4:7.4.7-1+deb12u4), libreoffice-kf5 (<< 4:7.4.7-1+deb12u4), libreoffice-officebean (<< 4:7.4.7-1+deb12u4), libreoffice-pdfimport (<< 1:5.4~), libreoffice-qt5 (<< 4:7.4.7-1+deb12u4), libreoffice-writer (<< 4:7.4.7-1+deb12u4)
+Breaks: browser-plugin-libreoffice, libreoffice-avmedia-backend-gstreamer (<< 4:7.4.7-1+deb12u7), libreoffice-base (<< 4:7.4.7-1+deb12u7), libreoffice-calc (<< 4:7.4.7-1+deb12u7), libreoffice-common (<< 1:5.4.1), libreoffice-dev (<< 4:7.4.7-1+deb12u7), libreoffice-draw (<< 4:7.4.7-1+deb12u7), libreoffice-evolution (<< 4:7.4.7-1+deb12u7), libreoffice-gnome (<< 4:7.4.7-1+deb12u7), libreoffice-gtk2 (<< 4:7.4.7-1+deb12u7), libreoffice-gtk3 (<< 4:7.4.7-1+deb12u7), libreoffice-impress (<< 4:7.4.7-1+deb12u7), libreoffice-kde4 (<< 4:7.4.7-1+deb12u7), libreoffice-kde5 (<< 4:7.4.7-1+deb12u7), libreoffice-kf5 (<< 4:7.4.7-1+deb12u7), libreoffice-officebean (<< 4:7.4.7-1+deb12u7), libreoffice-pdfimport (<< 1:5.4~), libreoffice-qt5 (<< 4:7.4.7-1+deb12u7), libreoffice-writer (<< 4:7.4.7-1+deb12u7)
 Replaces: libreoffice-avmedia-backend-gstreamer, libreoffice-common (<< 1:6.3.0~rc1~), libreoffice-core-nogui, libreoffice-pdfimport (<< 1:5.4~)
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: editors
-Filename: pool/main/libr/libreoffice/libreoffice-core_7.4.7-1+deb12u4_amd64.deb
-Size: 32571924
-SHA256: 712a283d57a17ae38a864a622177fb2e64c06eb6d7bfe8c93ecf8448f2f13749
-SHA1: 8f973a1b0c30e51bd77f477e79d01ebcfec52086
-MD5sum: b757133dfe53a10849e2214e0591cc16
+Filename: pool/main/libr/libreoffice/libreoffice-core_7.4.7-1+deb12u7_amd64.deb
+Size: 32558904
+SHA256: 85ef3700ce53eee26a137d12f929eea818c13aec8dce0514e670336d35d087f2
+SHA1: d837212b7bda317db315f2c10152b9949e7c9e10
+MD5sum: 7d4c55aaa2875d686841c4c1f58b2d9f
 Description: office productivity suite -- arch-dependent files
  LibreOffice is a full-featured office productivity suite that provides
  a near drop-in replacement for Microsoft(R) Office.
@@ -33311,21 +33311,21 @@ Description: office productivity suite -- arch-dependent files
 
 Package: libreoffice-draw
 Source: libreoffice
-Version: 4:7.4.7-1+deb12u4
+Version: 4:7.4.7-1+deb12u7
 Architecture: amd64
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 13425
-Depends: libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:7.4.7-1+deb12u4), ucf (>= 0.8), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.35), libcdr-0.1-1, libdbus-1-3 (>= 1.9.14), libfreehand-0.1-1, libgcc-s1 (>= 3.3.1), libglib2.0-0 (>= 2.38.0), libmspub-0.1-1, libmwaw-0.3-3, libodfgen-0.1-1, libpagemaker-0.0-0, libqxp-0.0-0, librevenge-0.0-0, libstaroffice-0.0-0, libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 1:7.4.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 3.6.0~beta), libvisio-0.1-1, libwpg-0.3-3, libxml2 (>= 2.8), libzmf-0.0-0, uno-libs-private
+Depends: libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:7.4.7-1+deb12u7), ucf (>= 0.8), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.35), libcdr-0.1-1, libdbus-1-3 (>= 1.9.14), libfreehand-0.1-1, libgcc-s1 (>= 3.3.1), libglib2.0-0 (>= 2.38.0), libmspub-0.1-1, libmwaw-0.3-3, libodfgen-0.1-1, libpagemaker-0.0-0, libqxp-0.0-0, librevenge-0.0-0, libstaroffice-0.0-0, libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 1:7.4.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 3.6.0~beta), libvisio-0.1-1, libwpg-0.3-3, libxml2 (>= 2.8), libzmf-0.0-0, uno-libs-private
 Breaks: libreoffice-common (<< 1:6.4.2~rc1~), libreoffice-core (<< 1:6.4.1~rc1-3), libreoffice-impress (<< 1:5.2.0-2)
 Replaces: libreoffice-common (<< 1:6.4.2~rc1~), libreoffice-core (<< 1:6.4.1~rc1-3), libreoffice-impress (<< 1:5.2.0-2)
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: editors
-Filename: pool/main/libr/libreoffice/libreoffice-draw_7.4.7-1+deb12u4_amd64.deb
-Size: 2704656
-SHA256: d8362236fe351e5c0b869bd6a56e3e3de7e77156d055ab1abc5d8e5a7714b084
-SHA1: d34b7f540852a455057fef23ac89d89943ae2fea
-MD5sum: 8a7b75d7dc9341548202c214d9faef0f
+Filename: pool/main/libr/libreoffice/libreoffice-draw_7.4.7-1+deb12u7_amd64.deb
+Size: 2703672
+SHA256: a0e27341cf3e1c33d7228c0ffa403a7ef504dd53b4263df413d3f0a0144909da
+SHA1: b01d8ef09ddba7e92a0a052125c97e39a0bf27cb
+MD5sum: 5fd56b56800904496c4abc78db0249e9
 Description: office productivity suite -- drawing
  LibreOffice is a full-featured office productivity suite that provides
  a near drop-in replacement for Microsoft(R) Office.
@@ -33334,11 +33334,11 @@ Description: office productivity suite -- drawing
 
 Package: libreoffice-impress
 Source: libreoffice
-Version: 4:7.4.7-1+deb12u4
+Version: 4:7.4.7-1+deb12u7
 Architecture: amd64
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 9079
-Depends: libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:7.4.7-1+deb12u4), libreoffice-draw (= 4:7.4.7-1+deb12u4), ucf (>= 0.8), libbox2d2 (>= 2.4.1), libc6 (>= 2.32), libepoxy0 (>= 1.0), libetonyek-0.1-1, libgcc-s1 (>= 3.3.1), libmwaw-0.3-3, libodfgen-0.1-1, librevenge-0.0-0, libstaroffice-0.0-0, libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 5.3.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Depends: libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:7.4.7-1+deb12u7), libreoffice-draw (= 4:7.4.7-1+deb12u7), ucf (>= 0.8), libbox2d2 (>= 2.4.1), libc6 (>= 2.32), libepoxy0 (>= 1.0), libetonyek-0.1-1, libgcc-s1 (>= 3.3.1), libmwaw-0.3-3, libodfgen-0.1-1, librevenge-0.0-0, libstaroffice-0.0-0, libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 5.3.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
 Suggests: bluez
 Conflicts: libreoffice-ogltrans (<< 1:6.1.4-2~)
 Breaks: libreoffice-common (<< 1:6.4.2~rc1~)
@@ -33347,11 +33347,11 @@ Provides: libreoffice-ogltrans
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: editors
-Filename: pool/main/libr/libreoffice/libreoffice-impress_7.4.7-1+deb12u4_amd64.deb
-Size: 1116664
-SHA256: b5f4860610c2d940032296cc0073bddc994f5d04e171a86f900cada1f65e4939
-SHA1: b34e5c3cab873350306f094dd1ad338251cc756c
-MD5sum: 1229b90a7855bc1974b55b8849b52195
+Filename: pool/main/libr/libreoffice/libreoffice-impress_7.4.7-1+deb12u7_amd64.deb
+Size: 1117540
+SHA256: b5a584f30dc33406f09831bb0f4b1f54d4dac85c0d4dfc143595301701732fea
+SHA1: d7f7176f735f5df18c4ca8b15ef1348dca1c1c41
+MD5sum: 3ac9197b3f29c558a2c41ff7cf0a7662
 Description: office productivity suite -- presentation
  LibreOffice is a full-featured office productivity suite that provides
  a near drop-in replacement for Microsoft(R) Office.
@@ -33360,7 +33360,7 @@ Description: office productivity suite -- presentation
 
 Package: libreoffice-style-colibre
 Source: libreoffice
-Version: 4:7.4.7-1+deb12u4
+Version: 4:7.4.7-1+deb12u7
 Architecture: all
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 11543
@@ -33370,11 +33370,11 @@ Provides: libreoffice-style
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: editors
-Filename: pool/main/libr/libreoffice/libreoffice-style-colibre_7.4.7-1+deb12u4_all.deb
-Size: 7173188
-SHA256: 80ed5f07af5062b69b7896e11a8358a53c348eaa1c0d557ccc98e33cb2a00b3a
-SHA1: 9c17d2088e4e1c5e16102e64e3c52895ae54148e
-MD5sum: 54a864bf83513e4094ea5694ae1cc9b9
+Filename: pool/main/libr/libreoffice/libreoffice-style-colibre_7.4.7-1+deb12u7_all.deb
+Size: 7170616
+SHA256: 05ccc3668e346ea123c109dceef4aa67156559b3e778a155b9f9457b9eaebbb4
+SHA1: be941d33f8202f28ae3090b68683fa44d63837f1
+MD5sum: c70a3a8c1c37875431c0ebd01028b489
 Description: office productivity suite -- colibre symbol style
  LibreOffice is a full-featured office productivity suite that provides
  a near drop-in replacement for Microsoft(R) Office.
@@ -33384,11 +33384,11 @@ Description: office productivity suite -- colibre symbol style
 
 Package: libreoffice-writer
 Source: libreoffice
-Version: 4:7.4.7-1+deb12u4
+Version: 4:7.4.7-1+deb12u7
 Architecture: amd64
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 38206
-Depends: libreoffice-base-core (= 4:7.4.7-1+deb12u4), libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:7.4.7-1+deb12u4), ucf (>= 0.8), libabw-0.1-1, libc6 (>= 2.35), libe-book-0.1-1, libepubgen-0.1-1, libetonyek-0.1-1, libgcc-s1 (>= 3.3.1), libicu72 (>= 72.1~rc-1~), libmwaw-0.3-3, libodfgen-0.1-1, librevenge-0.0-0, libstaroffice-0.0-0, libstdc++6 (>= 12), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 5.3.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), libwpd-0.10-10, libwpg-0.3-3, libwps-0.4-4, libxml2 (>= 2.8), uno-libs-private, zlib1g (>= 1:1.1.4)
+Depends: libreoffice-base-core (= 4:7.4.7-1+deb12u7), libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:7.4.7-1+deb12u7), ucf (>= 0.8), libabw-0.1-1, libc6 (>= 2.35), libe-book-0.1-1, libepubgen-0.1-1, libetonyek-0.1-1, libgcc-s1 (>= 3.3.1), libicu72 (>= 72.1~rc-1~), libmwaw-0.3-3, libodfgen-0.1-1, librevenge-0.0-0, libstaroffice-0.0-0, libstdc++6 (>= 12), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 5.3.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), libwpd-0.10-10, libwpg-0.3-3, libwps-0.4-4, libxml2 (>= 2.8), uno-libs-private, zlib1g (>= 1:1.1.4)
 Recommends: libreoffice-math
 Suggests: fonts-crosextra-caladea, fonts-crosextra-carlito, libreoffice-base, libreoffice-java-common (>= 4:7.4.7~), default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre
 Breaks: libreoffice-common (<< 1:6.4.2~rc1~)
@@ -33396,11 +33396,11 @@ Replaces: libreoffice-common (<< 1:6.4.2~rc1~)
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: editors
-Filename: pool/main/libr/libreoffice/libreoffice-writer_7.4.7-1+deb12u4_amd64.deb
-Size: 9261620
-SHA256: d82e760ddaa0e626193e3e1039e652dbce7bdcd37cf6f9c06c03f65ab6efc230
-SHA1: 4a6d76231a409bae56b1a0918329751dd5e53963
-MD5sum: abf20b56589844ff44bf2ad4b1953027
+Filename: pool/main/libr/libreoffice/libreoffice-writer_7.4.7-1+deb12u7_amd64.deb
+Size: 9262496
+SHA256: 5f7ec24d7dc6633901b1c1e346f39196c26617bc1a27fe628cd42a0c7c320245
+SHA1: 2e55648999e512620c161ba2715c302a58e9cc3f
+MD5sum: 5dfa68b296dbcfff6df23e273a89634d
 Description: office productivity suite -- word processor
  LibreOffice is a full-featured office productivity suite that provides
  a near drop-in replacement for Microsoft(R) Office.

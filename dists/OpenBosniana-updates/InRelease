@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Thu, 13 Feb 2025 14:37:37 UTC
+Date: Sat, 08 Mar 2025 23:18:12 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeuA7EACgkQ5Vfn9vbt
-T6qcWQ//YvndBq9H8o+shFwvCWvPjymJW71w1SUV1ABURf45FSioT3qsjUpfmQti
-pmJEjZ6+uLeY6mfFqVrRQipjXlIWtdd1iYrrcUqUZnKJJFiKKkxWg5AWmChmrKoS
-p1nAPFkX1hgu1kGhqhK8zGgj6ByjHjMNLCk7JxGIdP1yF5HMFX6+XZLD6x9MUE3D
-A0jfb4QNt5FBOEgyrkFoHBLucrdBSpevNKB7C7GReFQQ8c27InZKjnHRH5NoFs6l
-+BmfLp7PRFSqe8nQxy5caFs9HL631EjWtxiBsF03QDUj5UJffhLqyKDDmd4aFOF9
-qmzdmWiL2O3oEynM8VtnVGM42yVALCKt9PXfS28gi6fz2qdzqyS6Jherd1Didvve
-MODVbE4FtChsmttV5tqjlqhnW/rQH2ckhvCBNFP7b/BPcFq3/AH47yhTHAhrB01T
-oeL9utUHrWvATcP2O1JE6p+P1n6VXVVPBae4uVF/VJvHfcBDALg17UCAEnFVAM59
-bO8R01He+zkKgkKySKhUCag9BSUaHHMzqjjULCdmwjA9QjZkXL9d7r7HhE5yzeUY
-dg5KPVnSEmOEq6SRX86JQFvYNW6LcEHYBbst9kZh8X4XZ7XxUqDqZntOjwzgezqP
-/akqr4wRDyI38nHBJxluELL5PqOFco4dxwd9cxqYBdYhJrsHujU=
-=mLKw
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfM0DUACgkQ5Vfn9vbt
+T6oG2RAAtdEoUbKnn7oSh7H3V1L6ilTXDQJaTP/ZRwYyzdsmT++C88179AgawKFM
+hc/AQDabcnZPZd4g1gBlmt9EQCyb2EM+R1KU/YE+R6fhM81nxsAj/t1wToPG3k/c
+3YCwb9M1zmpG9+btZDvVuGC4GC4EDATYkXw3IQ7/0o7tJ/cFQktZ3cxAd7mbCum7
+t4K1E1etCH1OfwCCSrdC5CBVy0eYU7XHMy5opChnCISrPs+iVB0bsRw1873Uw7Ve
+t7cVwLaZ9rIiIW3PPAgc9DlvV/31Haxdfy9tcD24GSTxr47rmSL8drak0XIAqaJV
+KZHJUGDGWIixa8UX8g2K5Mi52aHrmluGM4gX4Dfg2GsVh1XSP+VuusrCGYVTTJ6z
+LKf/k/3b6HPJ96OFEO8epqSP73YvZfrG3IaeKupa6xupngibrdxfUsc0bfnl9/f2
+yNxgFNoRYWflPbI6KxGsxw+Bpyke++wm3ycv8lilgzHPaOTqkm1sqNyZ7jePQtMR
+q82OsJgKkPRD73Qr4qnaFp39BEfUN3Ov+BczSVMpwPRlbRTVnqIV40vS7iU7RML8
+nnoIMHDmkjou+AzvTCmHu4y1Ndihz/Itjywz2wWKr+PYK092sgeuWGVin2dwDW58
+prOMQLq28jvshhkKN57TRV6sAjbFovpvyClZ29L3rRPmUcfT72Y=
+=Ka7u
 -----END PGP SIGNATURE-----

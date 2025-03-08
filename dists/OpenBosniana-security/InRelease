@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Thu, 13 Feb 2025 14:37:38 UTC
+Date: Sat, 08 Mar 2025 23:18:15 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmeuA7IACgkQ5Vfn9vbt
-T6pFRBAAjs3vILRpC+wLWptnIsCkTecnjRPjh3Up0sLLbwpHIf5JmlzNZN4JEE8c
-khFAWDOkvAUgpYxpIUOeEtqIq4wTSdHtvLM/eCgwF+vlSeYA7IMru+YTNys6667e
-L9/xLUwUHTnDDDgpmtNwutEnUwcwxT1ZLCzXs4vb1RFZv8vPPNSn8wRgP9tkjvf0
-J5mcI34hQEQfjRYwEh4CGTpusb1vKzNPIBvHnfyQQ2LXM9sA/h0RwY0Qm+Scx6o2
-P+Wn2/Pa4Ef3By91+R4Lh7K3gon1NXeHCriq6/O/jAoYmMLlyvzrz3yADhrciD3x
-Sfl6CtxyFJtcNjmfRUxI6rc8WhJfY5eId6SovIYc4yu5Eim3nFz6oXLtDF0L6ubW
-8vkKa8o7YrVLYX7CtWMlb95vBJ5o8V2BfWd/oFWnZxTYkrvGNPRxCqWjDMS8Qzzq
-NhgkvU2e21OJ5dPav+KAtKfeHov9THPB8KHFy/EgybR/zVCSltoPXubmc4ASDKI1
-c3KyuRK/b9kNZbmvPyukgdc4S1r5w46WSY2bkVjbu4y+oNQnyswZme5k90So20Hs
-BpMqU4eg2snOz1Y/Qn+Ly39A3TXIdinEQCaL9yQlK2TSJeTBT/XKGLDHUQmveze5
-wyl1Vv0X1r0iFoTyLdg+IIyh6haA3ADT2vIiMXcQ9bCsVoYlt6I=
-=6LjZ
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfM0DcACgkQ5Vfn9vbt
+T6pI+w//fpmuEBsoZXqRHhDqpbR5eK4RMDHggb6S23E7OpJk57elsygQTAACAy37
+zbagwEIzOQHbf0rukpsF8eRU0kw1TsrGLl9mTPqoORJGHq3Mr6fecodh6S2/hVqz
+LK9iTZg97y01LS8ecw2TMUqD/MzeeUU9fUGASrfp+feHbFlOR/2HoXER45tYuvzT
+g4u5TcKlekmBOIsS17pW+0ANa3DZ1JHEGfTR3vvQHM7Cl1b/2i28HfIMNGy+jpa3
+nYtiIafPHw9a0fCjLkuowhwEQyf/Gyz7cTHnlISWXgpYIwzHzO5Lk6DoMMEymNKg
+fttQ3WanmWb5drjbAEvjiRuxVnyBH0b1yWFRsgfxOzx9Qmzxc57vGpRFLevloGcf
+ua2KZtza+6op0xHgRUqqa26ZVPqylT/c4b6vXCU0NTL5MyyXhHqR3WWA8Uq7DeL7
+Emsud7qgUzYilzNGwwRp248EJpkvdpk60qdrXrklLeCXHYw71xGgGnmY5KJMsn5n
++dY6DIB0O4FGrbCvae/VaehMXV9MHsCHSqr/qZkUMj5Cyv3A6fV5hB7v2xZ3QqSY
+MR3zGG/3Fe7z6K1/+EGN/P5PpExiWUzIPQcPkBTkjz4GkbLA8BGceXd7+jCs+rky
+Q8rBZfOUg4WT2nBVDn/oSaWU+96gz7WHkJBAxaIwvJaQSKwDTVw=
+=h/lr
 -----END PGP SIGNATURE-----

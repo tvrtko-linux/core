@@ -7843,7 +7843,7 @@ Description: Regular expression for IPv6 addresses
 
 Package: libreoffice-common
 Source: libreoffice
-Version: 4:7.4.7-1+deb12u4
+Version: 4:7.4.7-1+deb12u7
 Architecture: all
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 58642
@@ -7857,11 +7857,11 @@ Provides: libreoffice-l10n-en-us
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: editors
-Filename: pool/main/libr/libreoffice/libreoffice-common_7.4.7-1+deb12u4_all.deb
-Size: 24467580
-SHA256: 7c46896b04ca93a39ac87fd0234218bab56be619d7dfcf4b0506da42b9208f80
-SHA1: f2671035d9dcab8dddffa06a203240813e81dc90
-MD5sum: bb7517513c594a0d6e1bb9569bedd01a
+Filename: pool/main/libr/libreoffice/libreoffice-common_7.4.7-1+deb12u7_all.deb
+Size: 24466008
+SHA256: b0d9e05f9610985ca22643a445fc9994d9287983544df534a27ad90a42c9ea34
+SHA1: 40b4dc339866c810a02addc57b8c2991d9b37b0e
+MD5sum: 8f8c2710d6981bab871f1c5f585b5b65
 Description: office productivity suite -- arch-independent files
  LibreOffice is a full-featured office productivity suite that provides
  a near drop-in replacement for Microsoft(R) Office.
@@ -7871,7 +7871,7 @@ Description: office productivity suite -- arch-independent files
 
 Package: libreoffice-style-colibre
 Source: libreoffice
-Version: 4:7.4.7-1+deb12u4
+Version: 4:7.4.7-1+deb12u7
 Architecture: all
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 11543
@@ -7881,11 +7881,11 @@ Provides: libreoffice-style
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: editors
-Filename: pool/main/libr/libreoffice/libreoffice-style-colibre_7.4.7-1+deb12u4_all.deb
-Size: 7173188
-SHA256: 80ed5f07af5062b69b7896e11a8358a53c348eaa1c0d557ccc98e33cb2a00b3a
-SHA1: 9c17d2088e4e1c5e16102e64e3c52895ae54148e
-MD5sum: 54a864bf83513e4094ea5694ae1cc9b9
+Filename: pool/main/libr/libreoffice/libreoffice-style-colibre_7.4.7-1+deb12u7_all.deb
+Size: 7170616
+SHA256: 05ccc3668e346ea123c109dceef4aa67156559b3e778a155b9f9457b9eaebbb4
+SHA1: be941d33f8202f28ae3090b68683fa44d63837f1
+MD5sum: c70a3a8c1c37875431c0ebd01028b489
 Description: office productivity suite -- colibre symbol style
  LibreOffice is a full-featured office productivity suite that provides
  a near drop-in replacement for Microsoft(R) Office.
