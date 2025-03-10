@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sat, 08 Mar 2025 23:18:12 UTC
+Date: Mon, 10 Mar 2025 21:51:49 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfM0DUACgkQ5Vfn9vbt
-T6oG2RAAtdEoUbKnn7oSh7H3V1L6ilTXDQJaTP/ZRwYyzdsmT++C88179AgawKFM
-hc/AQDabcnZPZd4g1gBlmt9EQCyb2EM+R1KU/YE+R6fhM81nxsAj/t1wToPG3k/c
-3YCwb9M1zmpG9+btZDvVuGC4GC4EDATYkXw3IQ7/0o7tJ/cFQktZ3cxAd7mbCum7
-t4K1E1etCH1OfwCCSrdC5CBVy0eYU7XHMy5opChnCISrPs+iVB0bsRw1873Uw7Ve
-t7cVwLaZ9rIiIW3PPAgc9DlvV/31Haxdfy9tcD24GSTxr47rmSL8drak0XIAqaJV
-KZHJUGDGWIixa8UX8g2K5Mi52aHrmluGM4gX4Dfg2GsVh1XSP+VuusrCGYVTTJ6z
-LKf/k/3b6HPJ96OFEO8epqSP73YvZfrG3IaeKupa6xupngibrdxfUsc0bfnl9/f2
-yNxgFNoRYWflPbI6KxGsxw+Bpyke++wm3ycv8lilgzHPaOTqkm1sqNyZ7jePQtMR
-q82OsJgKkPRD73Qr4qnaFp39BEfUN3Ov+BczSVMpwPRlbRTVnqIV40vS7iU7RML8
-nnoIMHDmkjou+AzvTCmHu4y1Ndihz/Itjywz2wWKr+PYK092sgeuWGVin2dwDW58
-prOMQLq28jvshhkKN57TRV6sAjbFovpvyClZ29L3rRPmUcfT72Y=
-=Ka7u
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfPXvUACgkQ5Vfn9vbt
+T6pMpQ//bPiHKN8sePBqklJwmBb69b+GxjXBmi5JPKvgkewFymEd/AfAIFlZEnK2
+dBFbpQrChktwoPOm6U04eiNGHvrGVdDAgc3XlOBNjGSI5grQxZUmrw1wNHkq4o7k
+vYsqrcDIVYfQ/U3hToka43Cz/CfsKUDFy6tBRdSWLpREb3wIlk0wv7gI9tIBqE7S
+7T2lT2yyHjVHJT4E/qPl1r+BKYxl5ivNPd3hc9uVob25jo1P15nAo4HkzgWK80d+
+kGxWnuvttpkpQFR/ogQ+w+3JeUYQq1HBAtm2/QOQUYch9cdeBv8NHH/fU10WA057
+b6ZbIlnSbQSstsi5k59dQBhIInRrw/2UYV8cJmmjH/9CClNYlnow3NArrm1SIs0i
+fvf0F8dFr8BS2cVqcP0sFYAlymY5PwgyNQy2E4RmXC3GQNfIH8fm3ko10bXGNzSy
+YnA1VO2W7v+AAR1ENAz2IAuier43NWk/5YV74pwRQXP0x7ts9EJ+/p8Xnhhkz+pM
+RUK4cU3uqtwVWuPErancQbbQgUmE6O/Xjc7LapnNVetWymyz8JL4/gSqhGIaYGLh
+o1X9CmmP6uvd/Yy83xm4MVSxR8WX21M0qeKHUlM1uh1PfXexq0mKQ9twL+hZN6Fz
+CpdL7zN4+84hPT5g5XLUxbFrYOgSeZLLXc7HwHv7/Kp2O5YZhWA=
+=M5W3
 -----END PGP SIGNATURE-----

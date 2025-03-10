@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sat, 08 Mar 2025 23:18:11 UTC
+Date: Mon, 10 Mar 2025 21:51:48 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfM0DQACgkQ5Vfn9vbt
-T6qqahAAtFrZOs0FVOGngnb2fmUHtk92mrsQg5yd+c90rcwSvGSaRZMs/K1i6qUU
-1LLFTctIDbEh+ig1uvqeVZXzjPLfcHYrb6Ksn4YziD8GGTcKd+prhnl2VPplJXav
-W/hfSeyt73gdJaXs2MBd7rxabnvbTT3/R4vNcRIEW7oCfh6MYMG1t9Sks7rnyD/o
-UyqsdAMBXlVKYESt8j9V16sUfblHEBAC4n+HAODOU12Ew5SHRhD/dR7QzYTRA2c8
-cDS655HzZsbyxoonM7DkFAuXokDvlIN12hU4AyFgKVUHX7iiDi+AH/w4G+ppuMYI
-CTFiiMYN/NrJi+6PKpcWz6hamjy0CgbIYW56WqHIRDf1+0SWaSfmO5Kgk8pYn3rW
-AafrdRVap9XMcFp0ikcoiFuELM8KntoG61eTmafOGBWjdZcprnnJxRuiEJODSGPD
-lTp7U7DSe2ljfWSZEgwHaOryDIGqLhpBeXGmAWksCglBq22lsNH7OzsYuOBu62D/
-8O7Arc90oyJWoTcrT+DC74RIuMudIpLM3Jq+zDB29NkQe0K22C1vv11anHr49Q7q
-HJyEw71wGetM7HxoxL2Opler+/rqml6Bw7JeuJwBcZxURMI/uBjyqOOtFsnhF4Dt
-aC2VwesmqJ/61tRqZfukWmLpEwi7syEKBrVCmL8KFXnEd2Rucm4=
-=NYQo
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfPXvQACgkQ5Vfn9vbt
+T6rDehAAwo3mqwH5EVwTLWohtHjZGGkdjEbPaFiX0O8PzTKXxus5exGB5I++utMJ
+U1jJu99kk39Y8R9xc7PoZqvVQDMjLQV2F6s3n1PAE79c3m+GfaGVRtyfL/oGG7fO
+YwwwWIXZCM/JbutFrnVxjaQhAKDBuKWnmo29Cc1o3GNkT2xy1JMkfHBPjZI7is/R
+LubfYPldPqeBCG8USO1I6eH5A1sjhM+0/ovVN7Vo3SNChquMQ3kI1SlqwYtVXRG7
+IhAiJarB+67fKS94rQH+5ZGOJV2uli0KHba6aRdNbctNgAsdDqv1kDVTGhH9ssnJ
+13s5/eyI6nxQGIFB4wHytbHe1ChnZPSGnRfT6FoPQ0snRL0enj+P+qdU9KU1y1xx
+GanD7QyUU0taXQktwaysCEWKLAYN87N5iKB+2BnslScTFBTScXRKUNq6hobNtoSg
+/GAA9z5krvSJQAVfLxufAbEzBT4ar5P9yASvQGW05eBa5+EXu570UOZP7CgNLN3C
+YAS4nNaoXlxkFaXOPPFNZHJgUNCwtlkq9aSNc35519mSZatZUTzwpZrxHwf+/DZb
+zlveSNTV+Bgh8Bw4B/sehmF4cmllZcxsR8vmWairZ/pIcfNh87RRQLOeEDFzMVQl
+BVk+ZRNjxTm7LEthiPBkVxdEGhcPLrzLd/Mbq3BqO5RzdxTlwhg=
+=B0TA
 -----END PGP SIGNATURE-----

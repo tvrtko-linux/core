@@ -1412,7 +1412,7 @@ Description: GTK theme built to match KDE's Breeze
 
 Package: breeze-icon-theme
 Source: breeze-icons
-Version: 4:5.117
+Version: 4:5.119
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 32259
@@ -1422,11 +1422,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.117_all.deb
-Size: 14764112
-SHA256: 14e318755b61c0822ddf463df59e4515f43962e81abc7545b8965799a9d44dd9
-SHA1: 126cea9f36383892beed25e6c5ba0ae11f9bdfee
-MD5sum: 430a07d2ef774ac1c7ece490c387dcfa
+Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.119_all.deb
+Size: 14594212
+SHA256: d3fe6ad6d7cef7a76666d241500f569d01224378f9a6458e4fccb253e60be303
+SHA1: 223bfec47aab6b65f69602b6fd0dee4b88241cd6
+MD5sum: 3d6798dac3632db149168b4fa95b237b
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 5 desktop.
  .
@@ -3731,6 +3731,25 @@ Description: Miscellaneous utilities specific to Debian
  The specific utilities included are:
  add-shell installkernel ischroot remove-shell run-parts savelog
  update-shells which
+
+Package: deepin-keyring
+Version: 2021.06.07-1
+Architecture: all
+Maintainer: lilongyu <leaeasy@linuxdeepin.com>
+Installed-Size: 35
+Depends: gnupg
+Recommends: gpgv
+Multi-Arch: foreign
+Priority: important
+Section: misc
+Filename: pool/main/d/deepin-keyring/deepin-keyring_2021.06.07-1_all.deb
+Size: 8408
+SHA256: f21364b031c798d1a0b063f23b608507926480677971b9ebc10f6c28da6504d0
+SHA1: e0c72479d4268ae0e75b129fa4ff718d186af06c
+MD5sum: 5bf84a882c64781a31765147909f6949
+Description: GnuPG keys of the Deepin archive
+ The Deepin project digitally signs its Release files. This package
+ contains the archive keys used for that.
 
 Package: default-jdk
 Source: java-common (0.74)
