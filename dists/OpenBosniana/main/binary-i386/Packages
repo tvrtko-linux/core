@@ -7860,58 +7860,6 @@ Description: Regular expression for IPv6 addresses
  IPv6 address as described in "RFC 2373 - 2.2 Text Representation of
  Addresses" but ::. Any string not compliant with such RFC will be rejected.
 
-Package: libreoffice-common
-Source: libreoffice
-Version: 4:7.4.7-1+deb12u7
-Architecture: all
-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 58642
-Depends: libreoffice-style-colibre, ure, ucf (>= 0.8), libnumbertext-data
-Recommends: fonts-liberation2 | ttf-mscorefonts-installer, apparmor (>= 2.13.1~), poppler-data, xdg-utils, python3-uno (>= 4.4.0~beta2), libexttextcat-data
-Suggests: libreoffice-style
-Conflicts: broffice, libreoffice-base (<< 1:7.0.0~alpha~), libreoffice-base-nogui (<< 1:7.0.0~alpha~), libreoffice-calc (<< 1:7.0.0~alpha~), libreoffice-calc-nogui (<< 1:7.0.0~alpha~), libreoffice-draw (<< 1:7.0.0~alpha~), libreoffice-draw-nogui (<< 1:7.0.0~alpha~), libreoffice-evolution (<< 1:7.0.0~alpha~), libreoffice-filter-mobiledev, libreoffice-gnome (<< 1:7.0.0~alpha~), libreoffice-impress (<< 1:7.0.0~alpha~), libreoffice-impress-nogui (<< 1:7.0.0~alpha~), libreoffice-l10n (<< 7.0), libreoffice-l10n-4.3, libreoffice-l10n-4.4, libreoffice-librelogo (<< 1:7.0.0~alpha~), libreoffice-math (<< 1:7.0.0~alpha~), libreoffice-math-nogui (<< 1:7.0.0~alpha~), libreoffice-report-builder (<< 1:7.0.0~alpha~), libreoffice-sdbc-postgresql (<< 1:7.0.0~alpha~), libreoffice-wiki-publisher (<< 1.2.0+LibO5.4.0~rc2), libreoffice-writer (<< 1:7.0.0~alpha~), libreoffice-writer-nogui (<< 1:7.0.0~alpha~), openoffice.org-unbundled, python3-uno (<< 1:7.0.0~alpha~)
-Breaks: libreoffice-base (<< 1:6.4.0~beta1-2~), libreoffice-core (>= 4:7.5~), libreoffice-core (<< 4:7.4~), libreoffice-core-nogui (>= 4:7.5~), libreoffice-core-nogui (<< 4:7.4~), libreoffice-evolution (<< 1:7.0.0~alpha), libreoffice-gnome (<< 1:7.0.0~alpha), libreoffice-help (<< 5.4), libreoffice-help-5.2, libreoffice-l10n (<< 7.0), libreoffice-librelogo (<< 1:7.0.0~alpha), libreoffice-report-builder (<< 1:7.0.0~alpha), libreoffice-sdbc-postgresql (<< 1:7.0.0~alpha), libreoffice-style-andromeda (<< 1:7.4~), libreoffice-style-crystal (>= 1:7.5~), libreoffice-style-crystal (<< 1:7.4~), libreoffice-style-galaxy (>= 1:7.5~), libreoffice-style-galaxy (<< 1:7.4~), libreoffice-style-hicontrast (>= 1:7.5~), libreoffice-style-hicontrast (<< 1:7.4~), libreoffice-style-tango, libreoffice-writer2latex (<< 1.0.2-9), libreoffice-writer2xhtml (<< 1.0.2-9), openclipart-libreoffice (<= 1:0.18+dfsg-17), python3-uno (<< 1:7.0.0~alpha)
-Replaces: libreoffice-base (<< 1:6.4.0~beta1-2~), libreoffice-pdfimport (<< 1:5.4~), openclipart-libreoffice (<= 1:0.18+dfsg-17)
-Provides: libreoffice-l10n-en-us
-Homepage: http://www.libreoffice.org
-Priority: optional
-Section: editors
-Filename: pool/main/libr/libreoffice/libreoffice-common_7.4.7-1+deb12u7_all.deb
-Size: 24466008
-SHA256: b0d9e05f9610985ca22643a445fc9994d9287983544df534a27ad90a42c9ea34
-SHA1: 40b4dc339866c810a02addc57b8c2991d9b37b0e
-MD5sum: 8f8c2710d6981bab871f1c5f585b5b65
-Description: office productivity suite -- arch-independent files
- LibreOffice is a full-featured office productivity suite that provides
- a near drop-in replacement for Microsoft(R) Office.
- .
- This package contains the architecture-independent files of
- LibreOffice.
-
-Package: libreoffice-style-colibre
-Source: libreoffice
-Version: 4:7.4.7-1+deb12u7
-Architecture: all
-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 11543
-Recommends: libreoffice-common
-Enhances: libreoffice-core
-Provides: libreoffice-style
-Homepage: http://www.libreoffice.org
-Priority: optional
-Section: editors
-Filename: pool/main/libr/libreoffice/libreoffice-style-colibre_7.4.7-1+deb12u7_all.deb
-Size: 7170616
-SHA256: 05ccc3668e346ea123c109dceef4aa67156559b3e778a155b9f9457b9eaebbb4
-SHA1: be941d33f8202f28ae3090b68683fa44d63837f1
-MD5sum: c70a3a8c1c37875431c0ebd01028b489
-Description: office productivity suite -- colibre symbol style
- LibreOffice is a full-featured office productivity suite that provides
- a near drop-in replacement for Microsoft(R) Office.
- .
- This package contains the "colibre" symbol style - a icon theme
- which follow Microsoft(R) Offices color scheme.
-
 Package: libsecret-common
 Source: libsecret
 Version: 0.20.5-3
