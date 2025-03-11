@@ -804,22 +804,22 @@ Description: Assistive Technology Service Provider Interface (D-Bus core)
 
 Package: avahi-daemon
 Source: avahi
-Version: 0.8-10
+Version: 0.8-10+deb12u1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 267
-Depends: libavahi-common3 (= 0.8-10), libavahi-core7 (= 0.8-10), libc6 (>= 2.34), libcap2 (>= 1:2.10), libdaemon0 (>= 0.14), libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.0.1), adduser, default-dbus-system-bus | dbus-system-bus
+Depends: libavahi-common3 (= 0.8-10+deb12u1), libavahi-core7 (= 0.8-10+deb12u1), libc6 (>= 2.34), libcap2 (>= 1:2.10), libdaemon0 (>= 0.14), libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.0.1), adduser, default-dbus-system-bus | dbus-system-bus
 Recommends: libnss-mdns
 Suggests: avahi-autoipd
 Multi-Arch: foreign
 Homepage: https://avahi.org/
 Priority: optional
 Section: net
-Filename: pool/main/a/avahi/avahi-daemon_0.8-10_amd64.deb
-Size: 82664
-SHA256: 3d310dae76ae550a132b86f89cc0712a2b89bcefd4fa60f83a58f77b5ddf2fbd
-SHA1: 73375daf6de9a247084e848b9d27fbe70c48b7b4
-MD5sum: e0b5324a5424f375333e46625b7dc4c9
+Filename: pool/main/a/avahi/avahi-daemon_0.8-10+deb12u1_amd64.deb
+Size: 83012
+SHA256: 18c387987bd56898ad5359815f087e44c70011905cbfa686c9d06630222e9e3e
+SHA1: 834697856975757a52b1884869382bfb753b8335
+MD5sum: 2a3f9780de58c8f131f1aa16385ad2a8
 Description: Avahi mDNS/DNS-SD daemon
  Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
  It allows programs to publish and discover services and hosts
@@ -1467,7 +1467,7 @@ Description: simple mail user agent
 
 Package: bsdextrautils
 Source: util-linux
-Version: 2.38.1-5+deb12u1
+Version: 2.38.1-5+deb12u3
 Architecture: amd64
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
 Installed-Size: 337
@@ -1479,19 +1479,19 @@ Multi-Arch: foreign
 Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
 Priority: optional
 Section: utils
-Filename: pool/main/u/util-linux/bsdextrautils_2.38.1-5+deb12u1_amd64.deb
-Size: 86788
-SHA256: 2dfac7a8cd7157110b4fad5f97406f06dde29a2eef8d8f38dccd3b82b0f2b898
-SHA1: d17877214de9dd0f19bcbbb622bfb1db3a3e7ae2
-MD5sum: 6cba13cbc5ad24e6027cd1ff5d65c92c
+Filename: pool/main/u/util-linux/bsdextrautils_2.38.1-5+deb12u3_amd64.deb
+Size: 86968
+SHA256: c949c638bc238b51030bd4758ae310feab9a535c06328934e2f643b0e6e5ac82
+SHA1: d29dc6269ad60c24f45d2624d9b88c8a78f367b8
+MD5sum: 2c07e8598b5822b3045cc8745c47db21
 Description: extra utilities from 4.4BSD-Lite
  This package contains some extra BSD utilities: col, colcrt, colrm, column,
  hd, hexdump, look, ul and write.
  Other BSD utilities are provided by bsdutils and calendar.
 
 Package: bsdutils
-Source: util-linux (2.38.1-5+deb12u1)
-Version: 1:2.38.1-5+deb12u1
+Source: util-linux (2.38.1-5+deb12u3)
+Version: 1:2.38.1-5+deb12u3
 Architecture: amd64
 Essential: yes
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
@@ -1502,21 +1502,21 @@ Multi-Arch: foreign
 Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
 Priority: required
 Section: utils
-Filename: pool/main/u/util-linux/bsdutils_2.38.1-5+deb12u1_amd64.deb
-Size: 94340
-SHA256: bd036aa19f93ad75c312d6130653eb559e5eb4376bd82fde8653ac33732dfa3a
-SHA1: a911da621949fd71196cf886a37a9efe9d485c3c
-MD5sum: 6767feed1be8cb721cdb69d41ed712f7
+Filename: pool/main/u/util-linux/bsdutils_2.38.1-5+deb12u3_amd64.deb
+Size: 94412
+SHA256: 6cae172b006a4603e710e046c3acba8d98d36748894cbe3eeda31d415fec331e
+SHA1: 670367b6e1a757f982dc1b7e189388029462ead6
+MD5sum: f4baab3ccede75d0949409fd9ce20b22
 Description: basic utilities from 4.4BSD-Lite
  This package contains the bare minimum of BSD utilities needed for a Debian
  system: logger, renice, script, scriptlive, scriptreplay and wall. The
  remaining standard BSD utilities are provided by bsdextrautils.
 
 Package: btrfs-progs
-Version: 6.2-1
+Version: 6.2-1+deb12u1
 Architecture: amd64
 Maintainer: Adam Borowski <kilobyte@angband.pl>
-Installed-Size: 4482
+Installed-Size: 4483
 Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libext2fs2 (>= 1.42), liblzo2-2 (>= 2.02), libudev1 (>= 183), libuuid1 (>= 2.16), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0)
 Suggests: duperemove
 Breaks: initramfs-tools (<< 0.137~)
@@ -1524,11 +1524,11 @@ Multi-Arch: foreign
 Homepage: http://btrfs.wiki.kernel.org/
 Priority: optional
 Section: admin
-Filename: pool/main/b/btrfs-progs/btrfs-progs_6.2-1_amd64.deb
-Size: 754164
-SHA256: a4d1e28975ca2a2d2fb13a171f9e7a21337bdc1a7d48bf6c17ef89de90d5ec7f
-SHA1: 417d79fae07a1a2d2444f1f2055db3576b2010c9
-MD5sum: b97d1902cd70f418a3613931d77a8f29
+Filename: pool/main/b/btrfs-progs/btrfs-progs_6.2-1+deb12u1_amd64.deb
+Size: 754060
+SHA256: a1c4bf95fca7bee62b98673f309e003da695e827ca120a92417495fd6552c138
+SHA1: d61abef796b9bf8d99af11d7898102671edb01e7
+MD5sum: d2d40bf07407eb589bad26ee6714f0f5
 Description: Checksumming Copy on Write Filesystem utilities
  Btrfs is a copy on write filesystem for Linux aimed at implementing
  advanced features while focusing on fault tolerance, repair and easy
@@ -2825,22 +2825,22 @@ Description: Erase the LUKS keys with a special password on the unlock prompt
  configure your nuke password.
 
 Package: cups
-Version: 2.4.2-3+deb12u7
+Version: 2.4.2-3+deb12u8
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 1062
-Depends: cups-client (>= 2.4.2-3+deb12u7), cups-common (>= 2.4.2-3+deb12u7), cups-core-drivers (>= 2.4.2-3+deb12u7), cups-daemon (>= 2.4.2-3+deb12u7), cups-filters, cups-ppdc, cups-server-common (>= 2.4.2-3+deb12u7), debconf (>= 0.5) | debconf-2.0, ghostscript, libcups2 (= 2.4.2-3+deb12u7), poppler-utils, procps, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.36), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), libusb-1.0-0 (>= 2:1.0.16)
+Depends: cups-client (>= 2.4.2-3+deb12u8), cups-common (>= 2.4.2-3+deb12u8), cups-core-drivers (>= 2.4.2-3+deb12u8), cups-daemon (>= 2.4.2-3+deb12u8), cups-filters, cups-ppdc, cups-server-common (>= 2.4.2-3+deb12u8), debconf (>= 0.5) | debconf-2.0, ghostscript, libcups2 (= 2.4.2-3+deb12u8), poppler-utils, procps, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.36), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), libusb-1.0-0 (>= 2:1.0.16)
 Recommends: avahi-daemon, colord
 Suggests: cups-bsd, cups-pdf, foomatic-db-compressed-ppds | foomatic-db, smbclient, udev
 Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups_2.4.2-3+deb12u7_amd64.deb
-Size: 291300
-SHA256: c7b32610f23266292d406be2c33fe6e51c6c16142cfbe37e707f001704599e52
-SHA1: 1a28322c4de4079a7ea1951c696ac7c8563589de
-MD5sum: 102b334fb615b05982d72cbb7bc326f6
+Filename: pool/main/c/cups/cups_2.4.2-3+deb12u8_amd64.deb
+Size: 291308
+SHA256: 790199d08055d9ec7b3883ed5bfe205b71d341ad53461a2f1309686e94a66f15
+SHA1: 20310e332b3c9bef4d7bf6ce435374e6a5d991df
+MD5sum: f5ad55fd08ce6c7ecd83ec13cd22ebba
 Description: Common UNIX Printing System(tm) - PPD/driver support, web interface
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -2852,7 +2852,7 @@ Description: Common UNIX Printing System(tm) - PPD/driver support, web interface
 
 Package: cups-browsed
 Source: cups-filters
-Version: 1.28.17-3
+Version: 1.28.17-3+deb12u1
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 376
@@ -2865,11 +2865,11 @@ Replaces: cups-filters (<< 1.4.0~)
 Homepage: http://www.openprinting.org/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups-filters/cups-browsed_1.28.17-3_amd64.deb
-Size: 139644
-SHA256: 3b7b25d1aa1b47e4e36ac44a24d11b30c73fc434c3d1a6217fbe6536071ff0f6
-SHA1: d53feb4e766f95d681bf8b44cd8d818320b4436e
-MD5sum: bf03629e1ffcdf793901910d5a72b64b
+Filename: pool/main/c/cups-filters/cups-browsed_1.28.17-3+deb12u1_amd64.deb
+Size: 139900
+SHA256: e4243f14f19d26a547f6bdbfc0c35a96bc39a8e210e5acbbcc321621b81f5bce
+SHA1: 6bc170a47ef8b63530c0b6b97b9936cb00ce30a0
+MD5sum: 2916bfb426e3a88a762bfb783c8ff688
 Description: OpenPrinting CUPS Filters - cups-browsed
  This package provides cups-browsed, a daemon which browses the Bonjour
  broadcasts of shared remote CUPS printers and makes the printers
@@ -2887,11 +2887,11 @@ Description: OpenPrinting CUPS Filters - cups-browsed
 
 Package: cups-bsd
 Source: cups
-Version: 2.4.2-3+deb12u7
+Version: 2.4.2-3+deb12u8
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 131
-Depends: cups-client (= 2.4.2-3+deb12u7), cups-common (>= 2.4.2-3+deb12u7), debconf (>= 0.5) | debconf-2.0, libcups2 (= 2.4.2-3+deb12u7), libc6 (>= 2.34)
+Depends: cups-client (= 2.4.2-3+deb12u8), cups-common (>= 2.4.2-3+deb12u8), debconf (>= 0.5) | debconf-2.0, libcups2 (= 2.4.2-3+deb12u8), libc6 (>= 2.34)
 Suggests: cups, inetutils-inetd | inet-superserver, update-inetd
 Conflicts: lpr, lprng
 Replaces: lpr
@@ -2900,11 +2900,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-bsd_2.4.2-3+deb12u7_amd64.deb
-Size: 40880
-SHA256: b92ebd9538f6038b56d4eb043b8b24f2a464393623ac3b5069a5e4efa3cf847d
-SHA1: 1f81f8d7c677169ed2dd6e5299357faf72ada788
-MD5sum: 2fa45a94c262e6438ea53c7f30885a1a
+Filename: pool/main/c/cups/cups-bsd_2.4.2-3+deb12u8_amd64.deb
+Size: 40864
+SHA256: 82a7f7239636e7a7715e29dfda8827f2fc00dedb330f78b89124440bf127130f
+SHA1: 9e946bfbecddfc95efb5c9371eea508d9aef8384
+MD5sum: 54273f5391b9ad43d4c21fc2c21a0dba
 Description: Common UNIX Printing System(tm) - BSD commands
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpr, lpd and the like.  It supports the
@@ -2917,22 +2917,22 @@ Description: Common UNIX Printing System(tm) - BSD commands
 
 Package: cups-client
 Source: cups
-Version: 2.4.2-3+deb12u7
+Version: 2.4.2-3+deb12u8
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 426
-Depends: adduser, cups-common (>= 2.4.2-3+deb12u7), libcups2 (= 2.4.2-3+deb12u7), libc6 (>= 2.34)
+Depends: adduser, cups-common (>= 2.4.2-3+deb12u8), libcups2 (= 2.4.2-3+deb12u8), libc6 (>= 2.34)
 Suggests: cups, cups-bsd, smbclient
 Conflicts: lprng
 Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-client_2.4.2-3+deb12u7_amd64.deb
-Size: 160564
-SHA256: 57518153cd58e60f246487656bc9a5d6221cbaa638f320cf469a901612b551ae
-SHA1: be6e2f3305ce8d79af25133d21d1eb35664595dd
-MD5sum: f374bd579bd0ffcd74e02074bdb8f19c
+Filename: pool/main/c/cups/cups-client_2.4.2-3+deb12u8_amd64.deb
+Size: 160792
+SHA256: 401c8ab19082c2347456f954894eead2a7b0af4a663dd50028fba2e174b5bab1
+SHA1: 4ffc90965f849cbf47ae2a4f193315b938bbb39b
+MD5sum: 134e613d1ce66129b9d017699adb52e0
 Description: Common UNIX Printing System(tm) - client programs (SysV)
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -2943,7 +2943,7 @@ Description: Common UNIX Printing System(tm) - client programs (SysV)
 
 Package: cups-common
 Source: cups
-Version: 2.4.2-3+deb12u7
+Version: 2.4.2-3+deb12u8
 Architecture: all
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 4238
@@ -2951,11 +2951,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-common_2.4.2-3+deb12u7_all.deb
-Size: 256112
-SHA256: 545bc1fdb28cbc52df745d6d7ba7e9f2b1fd6367c7e0a5c6ea21708a9ac6290b
-SHA1: 6cd6a00b32797e5deade67bfaf4a2aefc06054c4
-MD5sum: 5f386f269d2dee031311e6d1572e73f3
+Filename: pool/main/c/cups/cups-common_2.4.2-3+deb12u8_all.deb
+Size: 256416
+SHA256: c7afe157c700fdbcb2373fc41ed0471084a5e13d57e6417ff837d9dbd2c315bc
+SHA1: e7e716ebe1e52e29d884f086a485af24e78a4526
+MD5sum: 30207ae5f22be2d5d883122d0276f9fb
 Description: Common UNIX Printing System(tm) - common files
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -2966,11 +2966,11 @@ Description: Common UNIX Printing System(tm) - common files
 
 Package: cups-core-drivers
 Source: cups
-Version: 2.4.2-3+deb12u7
+Version: 2.4.2-3+deb12u8
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 125
-Depends: cups-daemon (>= 2.4.2-3+deb12u7), cups-filters-core-drivers, libcups2 (= 2.4.2-3+deb12u7), libc6 (>= 2.34)
+Depends: cups-daemon (>= 2.4.2-3+deb12u8), cups-filters-core-drivers, libcups2 (= 2.4.2-3+deb12u8), libc6 (>= 2.34)
 Recommends: avahi-daemon
 Breaks: cups-server-common (<< 2.1.0-7~)
 Replaces: cups-server-common (<< 2.1.0-7~)
@@ -2978,11 +2978,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-core-drivers_2.4.2-3+deb12u7_amd64.deb
-Size: 39328
-SHA256: 7b99569aaae0f03208723a9abf8d5d8838392253ea1772e6b7c2fe8ff5ccfb1a
-SHA1: 190937851403fe8bc79dee505a9d91e46013e7bb
-MD5sum: 8ac91d0241d80c678112f2d4ba9e3cd5
+Filename: pool/main/c/cups/cups-core-drivers_2.4.2-3+deb12u8_amd64.deb
+Size: 39508
+SHA256: fa95b75840a1859cb2ff1502c973d0e74aba11afd484c7041a20ea9b0862ff9d
+SHA1: 01019a2ff45e8aee943ed8ee1f165ec2cf0dd48d
+MD5sum: 19f06fea1f3eee73ab505ed8dae5c280
 Description: Common UNIX Printing System(tm) - driverless printing
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -2994,25 +2994,25 @@ Description: Common UNIX Printing System(tm) - driverless printing
 
 Package: cups-daemon
 Source: cups
-Version: 2.4.2-3+deb12u7
+Version: 2.4.2-3+deb12u8
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 864
 Pre-Depends: init-system-helpers (>= 1.54~)
-Depends: adduser, bc, libcups2 (= 2.4.2-3+deb12u7), lsb-base, procps, ssl-cert, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.36), libdbus-1-3 (>= 1.9.14), libgssapi-krb5-2 (>= 1.17), libpam0g (>= 0.99.7.1), libpaper1, libsystemd0
+Depends: adduser, bc, libcups2 (= 2.4.2-3+deb12u8), lsb-base, procps, ssl-cert, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.36), libdbus-1-3 (>= 1.9.14), libgssapi-krb5-2 (>= 1.17), libpam0g (>= 0.99.7.1), libpaper1, libsystemd0
 Recommends: avahi-daemon, colord, cups-browsed, ipp-usb
-Suggests: cups, cups-bsd, cups-client (>= 2.4.2-3+deb12u7), cups-common (>= 2.4.2-3+deb12u7), cups-filters, cups-pdf, cups-ppdc, cups-server-common (>= 2.4.2-3+deb12u7), foomatic-db-compressed-ppds | foomatic-db, ghostscript, poppler-utils, smbclient, udev
+Suggests: cups, cups-bsd, cups-client (>= 2.4.2-3+deb12u8), cups-common (>= 2.4.2-3+deb12u8), cups-filters, cups-pdf, cups-ppdc, cups-server-common (>= 2.4.2-3+deb12u8), foomatic-db-compressed-ppds | foomatic-db, ghostscript, poppler-utils, smbclient, udev
 Breaks: cups (<< 2.1.0-6~)
 Replaces: cups (<< 2.1.0-6~)
 Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-daemon_2.4.2-3+deb12u7_amd64.deb
-Size: 352768
-SHA256: 9086758b5c774b20b32f88fbf30a0a5d4a32e3f04b90a5a977ae46b1609b6f53
-SHA1: d515f346f1936f9dd9cc0f5af34b7b1849366d5c
-MD5sum: 4a4299f212e6d08d18bc9afc4434936c
+Filename: pool/main/c/cups/cups-daemon_2.4.2-3+deb12u8_amd64.deb
+Size: 353104
+SHA256: f255ee02f00a1d21b8f240867aa8df58bb4e721674a78b445707dc5c9d510380
+SHA1: 09f2f3b8e4d379c3e9ad6d175a298e3b72f78f7a
+MD5sum: 87a850dfec4d14b5745dbbc9b201f0de
 Description: Common UNIX Printing System(tm) - daemon
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -3022,11 +3022,11 @@ Description: Common UNIX Printing System(tm) - daemon
  This package provides the CUPS scheduler/daemon.
 
 Package: cups-filters
-Version: 1.28.17-3
+Version: 1.28.17-3+deb12u1
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 1898
-Depends: bc, cups-filters-core-drivers (>= 1.28.17-3), ghostscript, poppler-utils, libc6 (>= 2.34), libcups2 (>= 2.3~b6), libcupsfilters1 (>= 1.22.2), libfontconfig1 (>= 2.12.6), libfontembed1 (>= 1.0.31), libgcc-s1 (>= 3.0), libqpdf29 (>> 11.3~), libstdc++6 (>= 11)
+Depends: bc, cups-filters-core-drivers (>= 1.28.17-3+deb12u1), ghostscript, poppler-utils, libc6 (>= 2.34), libcups2 (>= 2.3~b6), libcupsfilters1 (>= 1.22.2), libfontconfig1 (>= 2.12.6), libfontembed1 (>= 1.0.31), libgcc-s1 (>= 3.0), libqpdf29 (>> 11.3~), libstdc++6 (>= 11)
 Recommends: colord, liblouisutdml-bin | liblouis-bin, lynx
 Suggests: antiword, docx2txt, foomatic-db-compressed-ppds | foomatic-db, imagemagick
 Conflicts: foomatic-filters, foomatic-filters-beh, ghostscript-cups
@@ -3035,11 +3035,11 @@ Provides: foomatic-filters, foomatic-filters-beh, ghostscript-cups
 Homepage: http://www.openprinting.org/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups-filters/cups-filters_1.28.17-3_amd64.deb
-Size: 568332
-SHA256: b81a5b99939a42f8638f1262fe1d9fc024b35f1a4cd7299105f25c535d2f5533
-SHA1: a84da9139dae7a4040bba7c9445adef177b5cf3f
-MD5sum: 14f58fb834af2854eac4b28d644d46a4
+Filename: pool/main/c/cups-filters/cups-filters_1.28.17-3+deb12u1_amd64.deb
+Size: 568596
+SHA256: e772a8e7529567ee3298d08826b0edda293db12c64f0f0ec41b93629ca23894f
+SHA1: 119816d0d90934d6c4f9ee3ee3c0fe7f0074c7fd
+MD5sum: b97155e4db4f7e17c67b8b689f8ec445
 Description: OpenPrinting CUPS Filters - Main Package
  This package provides additional CUPS filters which are not provided
  by the CUPS project itself. This includes filters for a PDF based
@@ -3050,7 +3050,7 @@ Description: OpenPrinting CUPS Filters - Main Package
 
 Package: cups-filters-core-drivers
 Source: cups-filters
-Version: 1.28.17-3
+Version: 1.28.17-3+deb12u1
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 650
@@ -3060,11 +3060,11 @@ Replaces: cups-filters (<< 1.13.0)
 Homepage: http://www.openprinting.org/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups-filters/cups-filters-core-drivers_1.28.17-3_amd64.deb
-Size: 204188
-SHA256: a736700ad8a916e68d7e00967f3ab89ffff98902463647a6dfb46b96bd80272e
-SHA1: 65de24099179cf5b16ce709d1b36580edd9d4c28
-MD5sum: be285475f1259236f7f3cc45801db577
+Filename: pool/main/c/cups-filters/cups-filters-core-drivers_1.28.17-3+deb12u1_amd64.deb
+Size: 204244
+SHA256: 0b8c8222da4331747c4f4ddd57be0f3e98dbfc1e4a4e182140359a6b62bf11c4
+SHA1: b21f7b5289e6698aa174b74a7b0118491a51cac1
+MD5sum: 14bbe40bc7eddeee44a627c0f9c6bd7a
 Description: OpenPrinting CUPS Filters - Driverless printing
  This package provides additional CUPS filters which are not provided
  by the CUPS project itself. This includes filters for a PDF based
@@ -3076,11 +3076,11 @@ Description: OpenPrinting CUPS Filters - Driverless printing
 
 Package: cups-ipp-utils
 Source: cups
-Version: 2.4.2-3+deb12u7
+Version: 2.4.2-3+deb12u8
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 982
-Depends: libcups2 (= 2.4.2-3+deb12u7), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.36), libpam0g (>= 0.99.7.1)
+Depends: libcups2 (= 2.4.2-3+deb12u8), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.36), libpam0g (>= 0.99.7.1)
 Recommends: avahi-daemon
 Breaks: cups-client (<< 2.0.3-2~)
 Replaces: cups-client (<< 2.0.3-2~)
@@ -3088,11 +3088,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-ipp-utils_2.4.2-3+deb12u7_amd64.deb
-Size: 235252
-SHA256: 012191ef1751907d5f38e63a660f623c431458ecaf39c256d37183759abc8d8d
-SHA1: 09efc8fe5d0f4faeb67269f99103f6ebca577665
-MD5sum: d443bdfdcb53ff644e609e39215513e0
+Filename: pool/main/c/cups/cups-ipp-utils_2.4.2-3+deb12u8_amd64.deb
+Size: 235460
+SHA256: 32b92f4c238e7d64c34d779b36a8d0ddd50eb968eef23004bc5a5db524f9c6ad
+SHA1: cc3a105f805ed420c1bc266f0bf45c4411b2f9b6
+MD5sum: 0eb4e60ccf2153c93e728d1e9e428243
 Description: Common UNIX Printing System(tm) - IPP developer/admin utilities
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -3124,20 +3124,20 @@ Description: PolicyKit helper to configure cups with fine-grained privileges
 
 Package: cups-ppdc
 Source: cups
-Version: 2.4.2-3+deb12u7
+Version: 2.4.2-3+deb12u8
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 549
-Depends: cups-common (>= 2.4.2-3+deb12u7), libc6 (>= 2.34), libcups2 (>= 2.3~b6), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Depends: cups-common (>= 2.4.2-3+deb12u8), libc6 (>= 2.34), libcups2 (>= 2.3~b6), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: utils
-Filename: pool/main/c/cups/cups-ppdc_2.4.2-3+deb12u7_amd64.deb
-Size: 124712
-SHA256: 7352b25b62f16a259c91844775c64224739eccb0989672eef99870b003bb9f8d
-SHA1: d70f72464a1c75429ad18418f5c527aea55eb70c
-MD5sum: 80ecdce860ea4245ae11073d5590bfaa
+Filename: pool/main/c/cups/cups-ppdc_2.4.2-3+deb12u8_amd64.deb
+Size: 124940
+SHA256: 738dffd516d699157a1cfc7ce1d20a4198bd61b705be05bfec95dc7603d2cc9b
+SHA1: 9df6d57d72b1bac4ac490919deab7b5b8e2426c7
+MD5sum: c88b1e33c393b7d8a3b820705f40f7d9
 Description: Common UNIX Printing System(tm) - PPD manipulation utilities
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -3148,7 +3148,7 @@ Description: Common UNIX Printing System(tm) - PPD manipulation utilities
 
 Package: cups-server-common
 Source: cups
-Version: 2.4.2-3+deb12u7
+Version: 2.4.2-3+deb12u8
 Architecture: all
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 2381
@@ -3156,11 +3156,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-server-common_2.4.2-3+deb12u7_all.deb
-Size: 413020
-SHA256: f8053d48cafb90c358c6c8e9e0296a40645536602adafaafcdb6c1c53bc1266c
-SHA1: 1b2095b9598a9726b3ccc448ccd9fc4dbac89aa7
-MD5sum: 12ecdbd2c0b666ed2ad306dd53f12b93
+Filename: pool/main/c/cups/cups-server-common_2.4.2-3+deb12u8_all.deb
+Size: 413240
+SHA256: ce50839631e5e71fce6367b2e617f8f2e325c524af3942a7fbdd4dd3b45c7e4b
+SHA1: 3d26ef715a4a6365dbda52bbc313613fb415a090
+MD5sum: 55ed9cc427a842e2058fa8d4611c4865
 Description: Common UNIX Printing System(tm) - server common files
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -3170,20 +3170,20 @@ Description: Common UNIX Printing System(tm) - server common files
  This package provides common files for CUPS server.
 
 Package: curl
-Version: 7.88.1-10+deb12u7
+Version: 7.88.1-10+deb12u8
 Architecture: amd64
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Installed-Size: 488
-Depends: libc6 (>= 2.34), libcurl4 (= 7.88.1-10+deb12u7), zlib1g (>= 1:1.1.4)
+Depends: libc6 (>= 2.34), libcurl4 (= 7.88.1-10+deb12u8), zlib1g (>= 1:1.1.4)
 Multi-Arch: foreign
 Homepage: https://curl.se/
 Priority: optional
 Section: web
-Filename: pool/main/c/curl/curl_7.88.1-10+deb12u7_amd64.deb
-Size: 314508
-SHA256: 8c9eba97c73372bb31ec3e6219c900e353fbd69f8edbb2d6691920fd84a78864
-SHA1: 739521d3ba4ee0dbc7769ef174c1ef442f138c27
-MD5sum: 42d8a6e0a702ed84cbf8a6eace11e390
+Filename: pool/main/c/curl/curl_7.88.1-10+deb12u8_amd64.deb
+Size: 314836
+SHA256: 9fa86b035d30ce28a43587658ac0799fa01ba256f09f05fa1c29bae055b544dc
+SHA1: 7f74bc23d5afc99f688ff213fc56d4acf00fb1e1
+MD5sum: 2b503f5040fce1d4c6819c87ddec78a2
 Description: command line tool for transferring data with URL syntax
  curl is a command line tool for transferring data with URL syntax, supporting
  DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3,
@@ -4050,7 +4050,7 @@ Description: GNU privacy guard - network certificate management service
  the GnuPG suite that try to interact with the network will fail.
 
 Package: distro-info-data
-Version: 0.58+deb12u2
+Version: 0.58+deb12u3
 Architecture: all
 Maintainer: Benjamin Drung <bdrung@debian.org>
 Installed-Size: 18
@@ -4058,11 +4058,11 @@ Breaks: distro-info (<< 1.0~)
 Multi-Arch: foreign
 Priority: optional
 Section: devel
-Filename: pool/main/d/distro-info-data/distro-info-data_0.58+deb12u2_all.deb
-Size: 6204
-SHA256: afd8d63b2bfba0ca96dbb9f11325ddfe15ddb35adb0953d806ac4744cf00013a
-SHA1: 76756697513880a44e6a150af644154b09e2d1b8
-MD5sum: d6693290222d0bb66cffbef288a7b574
+Filename: pool/main/d/distro-info-data/distro-info-data_0.58+deb12u3_all.deb
+Size: 6272
+SHA256: 3a98b1a790bc1073f26273c4f2ffe39b222cdb028fa16beb524f191ca466a20f
+SHA1: 20cd0bbcb08a6cd20d4c387379bcba9c16347408
+MD5sum: 3d039a16f426e8c313f94f553be64998
 Description: information about the distributions' releases (data files)
  Information about all releases of Debian and Ubuntu. The distro-info script
  will give you the codename for e.g. the latest stable release of your
@@ -4198,25 +4198,25 @@ Description: DNS root hints and DNSSEC trust anchor
 
 Package: dnsmasq-base
 Source: dnsmasq
-Version: 2.89-1
+Version: 2.90-4~deb12u1
 Architecture: amd64
 Maintainer: Simon Kelley <simon@thekelleys.org.uk>
-Installed-Size: 1097
-Depends: adduser, libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libgmp10 (>= 2:6.2.1+dfsg1), libhogweed6 (>= 2.4-3), libidn2-0 (>= 2.0.0), libnetfilter-conntrack3 (>= 1.0.1), libnettle8 (>= 2.4-3), libnftables1 (>= 1.0.2)
+Installed-Size: 1095
+Depends: passwd, libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libgmp10 (>= 2:6.2.1+dfsg1), libhogweed6 (>= 2.4-3), libidn2-0 (>= 2.0.0), libnetfilter-conntrack3 (>= 1.0.1), libnettle8 (>= 2.4-3), libnftables1 (>= 1.0.2)
 Recommends: dns-root-data
 Conflicts: dnsmasq-base-lua
 Breaks: dnsmasq (<< 2.63-1~)
 Replaces: dnsmasq (<< 2.63-1~), dnsmasq-base
 Provides: dnsmasq-base
-Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
+Homepage: https://www.thekelleys.org.uk/dnsmasq/doc.html
 Priority: optional
 Section: net
-Filename: pool/main/d/dnsmasq/dnsmasq-base_2.89-1_amd64.deb
-Size: 500900
-SHA256: 725b0380ec0d3928f6a4fdf8cb315e71fc598374a6f43c6e67d9746da3dbd070
-SHA1: 15818e69ec619f3083cb6aae85d6984bed0182df
-MD5sum: 62aaac0fabb837b23622fd9260f417fb
-Description: Small caching DNS proxy and DHCP/TFTP server
+Filename: pool/main/d/dnsmasq/dnsmasq-base_2.90-4~deb12u1_amd64.deb
+Size: 497704
+SHA256: 997779e382fc3706daf92b6b8fbf46d3ace62f9889ceae67b7835f2b311ab16e
+SHA1: 017023e4db96221471e1534ebab9e73e5f41a173
+MD5sum: 036bee4fc0ed18be44b97e2d5043c3c9
+Description: Small caching DNS proxy and DHCP/TFTP server - executable
  This package contains the dnsmasq executable and documentation, but
  not the infrastructure required to run it as a system daemon. For
  that, install the dnsmasq package.
@@ -4551,7 +4551,7 @@ Description: Library and utilities designed to disable fsync and friends
 
 Package: eject
 Source: util-linux
-Version: 2.38.1-5+deb12u1
+Version: 2.38.1-5+deb12u3
 Architecture: amd64
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
 Installed-Size: 132
@@ -4560,11 +4560,11 @@ Multi-Arch: foreign
 Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
 Priority: optional
 Section: utils
-Filename: pool/main/u/util-linux/eject_2.38.1-5+deb12u1_amd64.deb
-Size: 47844
-SHA256: 436e2c98eaf4d92e80e2333a4b36440f343291d5ef999b8bc59479fe4ff6f4c9
-SHA1: 5a287001914d595bf77eefccecd513c379894c54
-MD5sum: 29db790682a40ea302ce3f91a01828c9
+Filename: pool/main/u/util-linux/eject_2.38.1-5+deb12u3_amd64.deb
+Size: 48068
+SHA256: 2fb01fca3769243e6f3f5b3b5337118634374e46e6169576f07e4d8d76425fa2
+SHA1: c44e9446adf5de0721cc5440743f3a844960d9ba
+MD5sum: c2e494341c160e8fcaa324836df58f60
 Description: ejects CDs and operates CD-Changers under Linux
  This program will eject CD-ROMs (assuming your drive supports the CDROMEJECT
  ioctl). It also allows setting the autoeject feature.
@@ -4722,7 +4722,7 @@ Description: exFAT file system utilities
 
 Package: exim4-base
 Source: exim4
-Version: 4.96-15+deb12u5
+Version: 4.96-15+deb12u6
 Architecture: amd64
 Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Installed-Size: 1669
@@ -4735,11 +4735,11 @@ Replaces: exim, exim-tls, exim4-daemon-custom, exim4-daemon-heavy, exim4-daemon-
 Homepage: https://www.exim.org/
 Priority: optional
 Section: mail
-Filename: pool/main/e/exim4/exim4-base_4.96-15+deb12u5_amd64.deb
-Size: 1117292
-SHA256: fa8e1c51a3f9832fb88fdb5319ed28682b0c5612997048f129f4525c0c598194
-SHA1: 75b76d0f7bed841170e7ea0c7e17e55575399b6b
-MD5sum: f088ed53181b2f9e1547c114a2a9cada
+Filename: pool/main/e/exim4/exim4-base_4.96-15+deb12u6_amd64.deb
+Size: 1117360
+SHA256: 8858d1b1bc9bae2ebc569000fbd53ebffb2ce768d693be885a87b817c681264a
+SHA1: 8cd473bf3cfbc67788a358af2fba1797ff99d87a
+MD5sum: db65a4300dc00ccd422914c8bf06c9a6
 Description: support files for all Exim MTA (v4) packages
  Exim (v4) is a mail transport agent. exim4-base provides the support
  files needed by all exim4 daemon packages. You need an additional package
@@ -4769,7 +4769,7 @@ Description: support files for all Exim MTA (v4) packages
 
 Package: exim4-config
 Source: exim4
-Version: 4.96-15+deb12u5
+Version: 4.96-15+deb12u6
 Architecture: all
 Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Installed-Size: 919
@@ -4781,11 +4781,11 @@ Provides: exim4-config-2
 Homepage: https://www.exim.org/
 Priority: optional
 Section: mail
-Filename: pool/main/e/exim4/exim4-config_4.96-15+deb12u5_all.deb
-Size: 255772
-SHA256: 3e07761d6e7205d72da7b2f560d821b38c0d70bec419b95a1667ace21b8f3b29
-SHA1: 0e907bb1ed29c78016ff82a897d76e67c7983473
-MD5sum: 140f93a582c5b20497569a899069bf0a
+Filename: pool/main/e/exim4/exim4-config_4.96-15+deb12u6_all.deb
+Size: 255864
+SHA256: 85349f70961304ea14508e7a71608c17099b7ad5915588e64bd261cedaecc57d
+SHA1: 3076661f48adda0fabb8b2209164eca348fa693e
+MD5sum: b5bfa413828bc8076afc5bf21f8877ed
 Description: configuration for the Exim MTA (v4)
  Exim (v4) is a mail transport agent. exim4-config provides the configuration
  for the exim4 daemon packages. The configuration framework has been split
@@ -4816,7 +4816,7 @@ Description: configuration for the Exim MTA (v4)
 
 Package: exim4-daemon-light
 Source: exim4
-Version: 4.96-15+deb12u5
+Version: 4.96-15+deb12u6
 Architecture: amd64
 Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Installed-Size: 1494
@@ -4827,11 +4827,11 @@ Provides: default-mta, exim4-localscanapi-6.0, mail-transport-agent
 Homepage: https://www.exim.org/
 Priority: optional
 Section: mail
-Filename: pool/main/e/exim4/exim4-daemon-light_4.96-15+deb12u5_amd64.deb
-Size: 605344
-SHA256: bd28d6266d1b6aa570d888eaf4c63abe361668fb04e863d8e7c95c48092b7ee1
-SHA1: a6932563c73b026466098a1e225313cc2d6d932e
-MD5sum: 9ce5d1070282cb3d38b99bc3df137d49
+Filename: pool/main/e/exim4/exim4-daemon-light_4.96-15+deb12u6_amd64.deb
+Size: 605112
+SHA256: 72131908f6052c9197169eb1d9f1174fcdab8d27b180a33af969710567694eae
+SHA1: 35770eafbffe9da9cbcbb45bb320e9c554aa96bc
+MD5sum: d1351e13d7a998b93134cbf64cc6c066
 Description: lightweight Exim MTA (v4) daemon
  Exim (v4) is a mail transport agent. This package contains the exim4
  daemon with only basic features enabled. It works well with the
@@ -4898,7 +4898,7 @@ Description: tool for simulating superuser privileges
 
 Package: fdisk
 Source: util-linux
-Version: 2.38.1-5+deb12u1
+Version: 2.38.1-5+deb12u3
 Architecture: amd64
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
 Installed-Size: 479
@@ -4908,11 +4908,11 @@ Multi-Arch: foreign
 Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
 Priority: important
 Section: utils
-Filename: pool/main/u/util-linux/fdisk_2.38.1-5+deb12u1_amd64.deb
-Size: 140868
-SHA256: ef49a1bfa24d22ac8b0f70f3ab2ddb7fa53cd5d1612fa1a01abc3be76717dfd2
-SHA1: ddf49eecb096d132efac89c6cb9da5021fed0ed1
-MD5sum: 0d8be8801599c7a706fe1586840f8164
+Filename: pool/main/u/util-linux/fdisk_2.38.1-5+deb12u3_amd64.deb
+Size: 141320
+SHA256: a7bf5a6fee968c3bebeb37b13396ed195c59459e4631271bb3acac0d9cf42491
+SHA1: f4329941a1c5aba5be095c57353618816a4e2b42
+MD5sum: b091e9b6c4ab044d462ef7d2e137643a
 Description: collection of partitioning utilities
  This package contains the classic fdisk, sfdisk and cfdisk partitioning
  utilities from the util-linux suite.
@@ -5020,22 +5020,22 @@ Description: utilities for finding files--find, xargs
  been split off into a separate package.
 
 Package: firefox-esr
-Version: 115.14.0esr-1~deb12u1
+Version: 128.5.0esr-1~deb12u1
 Architecture: amd64
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
-Installed-Size: 231142
-Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.36), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libevent-2.1-7 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.0), libgtk-3-0 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.82), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx7 (>= 1.12.0), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), libxtst6, zlib1g (>= 1:1.2.11.dfsg), fontconfig, procps, debianutils (>= 1.16)
-Recommends: libavcodec60 | libavcodec-extra60 | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
+Installed-Size: 251148
+Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.35), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libevent-2.1-7 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.0), libgtk-3-0 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.82), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx7 (>= 1.12.0), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4), fontconfig, procps, debianutils (>= 1.16)
+Recommends: libavcodec61 | libavcodec-extra61 | libavcodec60 | libavcodec-extra60 | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
 Suggests: fonts-stix | otf-stix, fonts-lmodern, libgssapi-krb5-2 | libkrb53, libcanberra0, pulseaudio
 Breaks: xul-ext-torbutton
 Provides: gnome-www-browser, www-browser
 Priority: optional
 Section: web
-Filename: pool/main/f/firefox-esr/firefox-esr_115.14.0esr-1~deb12u1_amd64.deb
-Size: 63163748
-SHA256: 95df5c00242690055bbad357f23aa7f5066b3ac2a3377937d8ee1398a08cef22
-SHA1: 5dd2c468601a54d938106ffbac24ebf0f2181909
-MD5sum: d68e4d787a58a26c334e36fec93befbd
+Filename: pool/main/f/firefox-esr/firefox-esr_128.5.0esr-1~deb12u1_amd64.deb
+Size: 69671076
+SHA256: 95b4d04b941c8c9d43189b2f1b98cc722d120985a145a5166d4af568e612caf2
+SHA1: feb9ce6fbff9d56fbe8e546a22a1a8801b87b0f3
+MD5sum: b5658e96912f1123f9634442bd33991e
 Description: Mozilla Firefox web browser - Extended Support Release (ESR)
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -5092,11 +5092,11 @@ Description: Binary firmware for various drivers in the Linux kernel
   * USB-DUXsigma firmware (usbduxsigma_firmware.bin)
 
 Package: flatpak
-Version: 1.14.8-1~deb12u1
+Version: 1.14.10-1~deb12u1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 7376
-Depends: adduser, bubblewrap (>= 0.5.0), fuse3, xdg-dbus-proxy (>= 0.1.0), libappstream4 (>= 0.10.0), libarchive13 (>= 3.0.4), libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libdconf1 (>= 0.26.0), libfuse3-3 (>= 3.2.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.67.3+git20210214), libgpgme11 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-agent-1-0 (>= 0.105), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libxau6 (>= 1:1.0.9), libxml2 (>= 2.7.4), libzstd1 (>= 1.5.2)
+Installed-Size: 7377
+Depends: adduser, bubblewrap (>= 0.8.0-2+deb12u1~), bubblewrap (<< 0.8.1~) | bubblewrap (>= 0.10.0~), fuse3, xdg-dbus-proxy (>= 0.1.0), libappstream4 (>= 0.10.0), libarchive13 (>= 3.0.4), libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libdconf1 (>= 0.26.0), libfuse3-3 (>= 3.2.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.67.3+git20210214), libgpgme11 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-agent-1-0 (>= 0.105), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libxau6 (>= 1:1.0.9), libxml2 (>= 2.7.4), libzstd1 (>= 1.5.2)
 Recommends: ca-certificates, default-dbus-system-bus | dbus-system-bus, desktop-file-utils, hicolor-icon-theme, gtk-update-icon-cache, libpam-systemd, p11-kit, polkitd | policykit-1, shared-mime-info, xdg-desktop-portal (>= 1.6), xdg-desktop-portal-gtk (>= 1.6) | xdg-desktop-portal-backend, xdg-user-dirs
 Suggests: avahi-daemon, malcontent-gui
 Conflicts: xdg-app
@@ -5104,11 +5104,11 @@ Replaces: xdg-app
 Homepage: https://flatpak.org/
 Priority: optional
 Section: admin
-Filename: pool/main/f/flatpak/flatpak_1.14.8-1~deb12u1_amd64.deb
-Size: 1396444
-SHA256: e0fd798d03c40edb46e64045d5df76f2bcaed82893ea64d5b827b66b3fc62ec2
-SHA1: 0c0fb7f719d78924f45e07b4fb8b9d7ac0395ec7
-MD5sum: d8673e19906ab89dbe7c41e1e78c894c
+Filename: pool/main/f/flatpak/flatpak_1.14.10-1~deb12u1_amd64.deb
+Size: 1399864
+SHA256: b2553551857fd05f298f467bc0bce29ff201c800aae3ec4ff6eab076fe622c11
+SHA1: 2a25595447dad661578c81ae4d2393f3673e2f90
+MD5sum: d8b9d78ece01db656fee052453b9445b
 Description: Application deployment framework for desktop apps
  Flatpak installs, manages and runs sandboxed desktop application bundles.
  Application bundles run partially isolated from the wider system, using
@@ -8159,10 +8159,10 @@ Description: GPT fdisk text-mode partitioning tool
   - Back up GPT data to a file (and restore from file)
 
 Package: geoclue-2.0
-Version: 2.6.0-2
+Version: 2.6.0-2+deb12u1
 Architecture: amd64
 Maintainer: Laurent Bigonville <bigon@debian.org>
-Installed-Size: 462
+Installed-Size: 457
 Depends: adduser, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.34), libglib2.0-0 (>= 2.65.1), libjson-glib-1.0-0 (>= 1.5.2), libmm-glib0 (>= 1.18.2), libnotify4 (>= 0.7.0), libsoup-3.0-0 (>= 3.0.3)
 Recommends: avahi-daemon, iio-sensor-proxy, modemmanager, wpasupplicant
 Breaks: geoclue (>= 2.0), geoclue-2-demo (<< 2.4.12-2~)
@@ -8170,11 +8170,11 @@ Replaces: geoclue (>= 2.0), geoclue-2-demo (<< 2.4.12-2~)
 Homepage: https://gitlab.freedesktop.org/geoclue/geoclue/wikis/home
 Priority: optional
 Section: utils
-Filename: pool/main/g/geoclue-2.0/geoclue-2.0_2.6.0-2_amd64.deb
-Size: 119336
-SHA256: c8f644501d26e6550c376f248e1653deed9325513b6f52afb31506f874933dae
-SHA1: 1faab68024596510a2a94cc30d497b564c95488b
-MD5sum: 5a8322812c6344c6fba5c3a43d9dc254
+Filename: pool/main/g/geoclue-2.0/geoclue-2.0_2.6.0-2+deb12u1_amd64.deb
+Size: 113056
+SHA256: 93054a996c7f9c4e36fe58dc8612597c3074638f7e71db3db82100c5ee0034ac
+SHA1: b9699efee72b55af470d6e7d767c51fd4d4d23b2
+MD5sum: a50a61a5eeca19d9306bcc24e4cfa39e
 Description: geoinformation service
  GeoClue is a D-Bus geoinformation service. The goal of the Geoclue project
  is to make creating location-aware applications as simple as possible.
@@ -8224,21 +8224,21 @@ Description: GNU Internationalization utilities for the base system
  other packages to internationalize the messages given by shell scripts.
 
 Package: ghostscript
-Version: 10.0.0~dfsg-11+deb12u4
+Version: 10.0.0~dfsg-11+deb12u6
 Architecture: amd64
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 195
-Depends: libgs10 (= 10.0.0~dfsg-11+deb12u4), libc6 (>= 2.34)
+Depends: libgs10 (= 10.0.0~dfsg-11+deb12u6), libc6 (>= 2.34)
 Provides: postscript-viewer
 Multi-Arch: foreign
 Homepage: https://www.ghostscript.com/
 Priority: optional
 Section: text
-Filename: pool/main/g/ghostscript/ghostscript_10.0.0~dfsg-11+deb12u4_amd64.deb
-Size: 57060
-SHA256: ea6ffe668391dc5c34f1f60b8cea9326ab20c4e53545b3cf7f120906c48ba7b7
-SHA1: 0f565b496c725126de2348f8dbb7f5504fd44e42
-MD5sum: 388e9f59f656d08cc09d7235307bae81
+Filename: pool/main/g/ghostscript/ghostscript_10.0.0~dfsg-11+deb12u6_amd64.deb
+Size: 57460
+SHA256: 0cb6c6293b84307424503e87fbf8210fbda7c000a9e3f75a15c7dbd46552aa23
+SHA1: 6e1b0bffe2604c59bef9fada4a2a64147b51334d
+MD5sum: 20554a35d3b1f01153d57db0df2ca21b
 Description: interpreter for the PostScript language and for PDF
  GPL Ghostscript is used for PostScript/PDF preview and printing.
  Usually as a back-end to a program such as ghostview,
@@ -8414,22 +8414,22 @@ Description: library of graphic data types (introspection files)
 
 Package: gir1.2-gtk-3.0
 Source: gtk+3.0
-Version: 3.24.38-2~deb12u2
+Version: 3.24.38-2~deb12u3
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 988
 Depends: gir1.2-atk-1.0 (>= 2.35.1), gir1.2-freedesktop (>= 1.39.0), gir1.2-gdkpixbuf-2.0 (>= 2.40.0), gir1.2-glib-2.0 (>= 1.39.0), gir1.2-pango-1.0 (>= 1.44.0), libgtk-3-0 (>= 3.24.24), libgtk-3-common
 Breaks: python-gi (<< 3.18), python3-gi (<< 3.18)
-Provides: gir1.2-gdk-3.0 (= 3.24.38-2~deb12u2), gir1.2-gdkx11-3.0 (= 3.24.38-2~deb12u2)
+Provides: gir1.2-gdk-3.0 (= 3.24.38-2~deb12u3), gir1.2-gdkx11-3.0 (= 3.24.38-2~deb12u3)
 Multi-Arch: same
 Homepage: https://www.gtk.org/
 Priority: optional
 Section: introspection
-Filename: pool/main/g/gtk+3.0/gir1.2-gtk-3.0_3.24.38-2~deb12u2_amd64.deb
-Size: 220320
-SHA256: 9a3a80598faed94fb529a5af409a1e1fabdff5c137573fc6233c3b15d32ee82b
-SHA1: 423c885c10a07c1d7d8d1a3e6c77191cd9c13f11
-MD5sum: d7785216c8778368da58e58b9bacb246
+Filename: pool/main/g/gtk+3.0/gir1.2-gtk-3.0_3.24.38-2~deb12u3_amd64.deb
+Size: 220252
+SHA256: f804481c93c5a5c761d8959d216bf4e7cdbe653da66f90b286b82a6b00c71f78
+SHA1: fee4eaaf32383903b324d45b49b857a399a563e3
+MD5sum: 7fe40bda5f043360ff1daaa50ddafbd6
 Description: GTK graphical user interface library -- gir bindings
  GTK is a multi-platform toolkit for creating graphical user
  interfaces. Offering a complete set of widgets, GTK is suitable
@@ -8512,20 +8512,20 @@ Description: OpenType text shaping engine (GObject introspection data)
 
 Package: gir1.2-javascriptcoregtk-4.0
 Source: webkit2gtk
-Version: 2.44.3-1~deb12u1
+Version: 2.46.5-1~deb12u1
 Architecture: amd64
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 301
-Depends: libjavascriptcoregtk-4.0-18 (= 2.44.3-1~deb12u1), gir1.2-glib-2.0
+Installed-Size: 308
+Depends: libjavascriptcoregtk-4.0-18 (= 2.46.5-1~deb12u1), gir1.2-glib-2.0
 Multi-Arch: same
 Homepage: https://webkitgtk.org/
 Priority: optional
 Section: introspection
-Filename: pool/main/w/webkit2gtk/gir1.2-javascriptcoregtk-4.0_2.44.3-1~deb12u1_amd64.deb
-Size: 47960
-SHA256: a2506e1219354837576dac08d67b05fa28ca881b7aae713ace7f366bd1531af8
-SHA1: eb723f5bc7b2587dc6f3a9bceb38fab97a35e5b2
-MD5sum: 2545e8ba1c635dce2363ab4cbc5a1257
+Filename: pool/main/w/webkit2gtk/gir1.2-javascriptcoregtk-4.0_2.46.5-1~deb12u1_amd64.deb
+Size: 49860
+SHA256: 6aa7adc38b73874549cf613842f1261ef8cc2aa5a84742713b801de36a49d9f9
+SHA1: 60e368de35bb4a6e7ed3bace6d70e13a0353c639
+MD5sum: 5c6014dd6df8194fe57788aa2e90b082
 Description: JavaScript engine library from WebKitGTK - GObject introspection data
  JavaScriptCore is the JavaScript engine used in WebKit. It consists
  of the following building blocks: lexer, parser, start-up interpreter
@@ -8720,20 +8720,20 @@ Description: Secret store (GObject-Introspection)
 
 Package: gir1.2-webkit2-4.0
 Source: webkit2gtk
-Version: 2.44.3-1~deb12u1
+Version: 2.46.5-1~deb12u1
 Architecture: amd64
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 594
-Depends: libwebkit2gtk-4.0-37 (= 2.44.3-1~deb12u1), gir1.2-gtk-3.0, gir1.2-javascriptcoregtk-4.0 (= 2.44.3-1~deb12u1), gir1.2-soup-2.4
+Installed-Size: 602
+Depends: libwebkit2gtk-4.0-37 (= 2.46.5-1~deb12u1), gir1.2-gtk-3.0, gir1.2-javascriptcoregtk-4.0 (= 2.46.5-1~deb12u1), gir1.2-soup-2.4
 Multi-Arch: same
 Homepage: https://webkitgtk.org/
 Priority: optional
 Section: introspection
-Filename: pool/main/w/webkit2gtk/gir1.2-webkit2-4.0_2.44.3-1~deb12u1_amd64.deb
-Size: 103688
-SHA256: 65ba5e0a7d54a3307160f56364ea054bed2559164f0d3fcf9fb85f37bc1a09d2
-SHA1: 80b6eb38c81d03841ea08f3178089686d2c25ba1
-MD5sum: 445feba5daab4d3f23c3a60e10a65588
+Filename: pool/main/w/webkit2gtk/gir1.2-webkit2-4.0_2.46.5-1~deb12u1_amd64.deb
+Size: 105680
+SHA256: 566434e666b0e8ead73596c45ac463e0ef3219668c53882c3caf92d0aab95c8e
+SHA1: 610334ed91d7db31852918da39aaaeac0e850ad8
+MD5sum: ef5f032aba6184e94d18654b04378f69
 Description: Web content engine library for GTK - GObject introspection data
  WebKit is a web content engine, derived from KHTML and KJS from KDE, and
  used primarily in Apple's Safari browser.  It is made to be embedded in
@@ -8750,11 +8750,11 @@ Description: Web content engine library for GTK - GObject introspection data
  packages using the GIRepository format to generate dynamic bindings.
 
 Package: git
-Version: 1:2.39.2-1.1
+Version: 1:2.39.5-0+deb12u1
 Architecture: amd64
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 44477
-Depends: libc6 (>= 2.34), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.39.2), git-man (<< 1:2.39.2-.)
+Installed-Size: 44886
+Depends: libc6 (>= 2.34), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.39.5), git-man (<< 1:2.39.5-.)
 Recommends: ca-certificates, patch, less, ssh-client
 Suggests: gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn
 Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-el (<< 1:2.32.0~rc2-1~), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)
@@ -8763,11 +8763,11 @@ Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git_2.39.2-1.1_amd64.deb
-Size: 7171272
-SHA256: fa5cd07754d9a4f93e2a6f54a5b1fa160230e312121d62c0c609b6701f9b93a3
-SHA1: 44230986a8056fb5c888a09f1f77eacba7de2d6b
-MD5sum: 0d04f038319b19e3aed47e3c87c17e19
+Filename: pool/main/g/git/git_2.39.5-0+deb12u1_amd64.deb
+Size: 7255772
+SHA256: 92c8d4ce08281ac3c72b2be65c65194ed8a92b0eb5394f78805ec48844890ac1
+SHA1: e9f50546acd94df626ee81c816905f0440f8d362
+MD5sum: 99560d2af69be26694125c1a307fca79
 Description: fast, scalable, distributed revision control system
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -8785,19 +8785,19 @@ Description: fast, scalable, distributed revision control system
 
 Package: git-man
 Source: git
-Version: 1:2.39.2-1.1
+Version: 1:2.39.5-0+deb12u1
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 2103
+Installed-Size: 2108
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: doc
-Filename: pool/main/g/git/git-man_2.39.2-1.1_all.deb
-Size: 2049236
-SHA256: 34097adaf793f92cc93c8f07059d34766a6a8f2b1d0b1b74b9bb530516402642
-SHA1: 147cb3ac72f646c7e40737e004351cc6f45c2ef5
-MD5sum: 4cfb6994a24b5fa3e1199197dd84dfed
+Filename: pool/main/g/git/git-man_2.39.5-0+deb12u1_all.deb
+Size: 2053856
+SHA256: dba6b0fd06e11669ba1f60bb4e90af0157f1157b098df7f702cb9beb16fbfc5d
+SHA1: c64a2c21615871e833ce2c9cb324010e350ba6aa
+MD5sum: 38b798be016b3e191b7e40944ba6dc50
 Description: fast, scalable, distributed revision control system (manual pages)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -10410,7 +10410,7 @@ Description: Clutter PLugin for GStreamer 1.0
 
 Package: gstreamer1.0-gl
 Source: gst-plugins-base1.0
-Version: 1.22.0-3+deb12u2
+Version: 1.22.0-3+deb12u4
 Architecture: amd64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 463
@@ -10422,11 +10422,11 @@ Multi-Arch: same
 Homepage: https://gstreamer.freedesktop.org
 Priority: optional
 Section: libs
-Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-gl_1.22.0-3+deb12u2_amd64.deb
-Size: 178568
-SHA256: 68e53aae801ff343a767ef322ece3c86c7bb82c8a3c4c723e02e831c421f7b07
-SHA1: b9a5a1c0c36900c5672aec70efaf533936d583e2
-MD5sum: 41628ffd0aeab8d6457340cd5e53f3f6
+Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-gl_1.22.0-3+deb12u4_amd64.deb
+Size: 179040
+SHA256: c0558c5f281da1a6154cb09e59155c7be0503b84377b74509151dc8549cf3fb5
+SHA1: 9674fe3aee7dd8a1237d16eac2d12aef57125173
+MD5sum: b338fad33462b4a2f7879022793aefe3
 Description: GStreamer plugins for GL
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -10512,10 +10512,10 @@ Gstreamer-Version: 1.22
 
 Package: gstreamer1.0-plugins-base
 Source: gst-plugins-base1.0
-Version: 1.22.0-3+deb12u2
+Version: 1.22.0-3+deb12u4
 Architecture: amd64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 2471
+Installed-Size: 2475
 Depends: libc6 (>= 2.33), libcdparanoia0 (>= 3.10.2+debian), libglib2.0-0 (>= 2.67.3), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), liborc-0.4-0 (>= 1:0.4.25), libtheora0 (>= 1.1), libvisual-0.4-0 (>= 0.4.0), libvorbis0a (>= 1.3.1), libvorbisenc2 (>= 1.3.1)
 Suggests: gvfs
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
@@ -10525,11 +10525,11 @@ Multi-Arch: same
 Homepage: https://gstreamer.freedesktop.org
 Priority: optional
 Section: libs
-Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-plugins-base_1.22.0-3+deb12u2_amd64.deb
-Size: 739448
-SHA256: 73a1429a7c779aea0387d03362f770097c3d4e39ec5e5280469eb8de25c9ddec
-SHA1: c539b0f5a7ad39fafba4803517eb7bcabed45a2b
-MD5sum: be8f639d8620a4e9e0a29d14343765bd
+Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-plugins-base_1.22.0-3+deb12u4_amd64.deb
+Size: 739436
+SHA256: 47fc22ecda5509b8944e2ab3369b87686546d90277bf58b5a887a579c5172c17
+SHA1: 8d1225bd4fd9dcf825834a6c919074533130d14a
+MD5sum: f69e884a00c16f3d9499fdac708b8371
 Description: GStreamer plugins from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -10549,10 +10549,10 @@ Gstreamer-Version: 1.22
 
 Package: gstreamer1.0-plugins-good
 Source: gst-plugins-good1.0
-Version: 1.22.0-5+deb12u1
+Version: 1.22.0-5+deb12u2
 Architecture: amd64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-Installed-Size: 7747
+Installed-Size: 7752
 Depends: libaa1 (>= 1.4p5), libavc1394-0 (>= 0.5.3), libbz2-1.0, libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdv4 (>= 1.0.0), libflac12 (>= 1.3.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.67.3), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libgudev-1.0-0 (>= 147), libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libjpeg62-turbo (>= 1.3.1), libmp3lame0 (>= 3.100), libmpg123-0 (>= 1.28.0), liborc-0.4-0 (>= 1:0.4.25), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 2.0), libraw1394-11 (>= 2.1.2), libshout3 (>= 2.4.6), libspeex1 (>= 1.2~), libssl3 (>= 3.0.0), libstdc++6 (>= 5), libtag1v5 (>= 1.9.1-2.2~), libtwolame0 (>= 0.3.10), libv4l-0 (>= 0.5.0), libvpx7 (>= 1.12.0), libwavpack1 (>= 4.60), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxml2 (>= 2.9.0), zlib1g (>= 1:1.1.4), gstreamer1.0-plugins-base (>= 1.22.0), libsoup2.4-1 (>= 2.48) | libsoup-3.0-0
 Recommends: gstreamer1.0-x
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.22), gstreamer1.0-pulseaudio (<< 1.18.0)
@@ -10562,11 +10562,11 @@ Multi-Arch: same
 Homepage: https://gstreamer.freedesktop.org
 Priority: optional
 Section: libs
-Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-plugins-good_1.22.0-5+deb12u1_amd64.deb
-Size: 2219548
-SHA256: eb42f1e63480a7e221e2e56429d3369554277199276698a7aa3583efdab50a16
-SHA1: fec3f667c575fb3240752175ff82a970741bf99a
-MD5sum: 8a0ed86f34ba972248e0cae074aab64d
+Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-plugins-good_1.22.0-5+deb12u2_amd64.deb
+Size: 2221428
+SHA256: 2be69879d4d80356145b4eedbf487c7ef03d59ad671790bd54de2b084ac8e587
+SHA1: 18ef29465db8543def5f84a0f8b8300317c1e393
+MD5sum: 4ac1c03a5d4edc43783554528d9d7873
 Description: GStreamer plugins from the "good" set
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -10622,7 +10622,7 @@ Gstreamer-Version: 1.22
 
 Package: gstreamer1.0-x
 Source: gst-plugins-base1.0
-Version: 1.22.0-3+deb12u2
+Version: 1.22.0-3+deb12u4
 Architecture: amd64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 364
@@ -10632,11 +10632,11 @@ Multi-Arch: same
 Homepage: https://gstreamer.freedesktop.org
 Priority: optional
 Section: libs
-Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-x_1.22.0-3+deb12u2_amd64.deb
-Size: 139712
-SHA256: 6486b406c8e73d7e10dd6ee0c093135a44026c395672b635d9982267b3265e43
-SHA1: e9c521c80074b854670c06d0c57262c2d1685c82
-MD5sum: f4b9194d87eee9cf6fb7a7f73d89e1ca
+Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-x_1.22.0-3+deb12u4_amd64.deb
+Size: 139896
+SHA256: cdab5c3ec23ac41ba3f505426dc39ecf1fe732c8f325deb15e64e72c7ad33248
+SHA1: 75f09b90713f3ae9e62f8a6ced2fe7e3edca6bfb
+MD5sum: 58d1b53f1942ff7cadb34063ebdec581
 Description: GStreamer plugins for X11 and Pango
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -10653,7 +10653,7 @@ Gstreamer-Version: 1.22
 
 Package: gtk-update-icon-cache
 Source: gtk+3.0
-Version: 3.24.38-2~deb12u2
+Version: 3.24.38-2~deb12u3
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 125
@@ -10664,11 +10664,11 @@ Multi-Arch: foreign
 Homepage: https://www.gtk.org/
 Priority: optional
 Section: misc
-Filename: pool/main/g/gtk+3.0/gtk-update-icon-cache_3.24.38-2~deb12u2_amd64.deb
-Size: 44168
-SHA256: e5586b0d3ec9060571729e122a1aa0f5f8aea35d8436ee3dd15648e76666641c
-SHA1: 526c1b68451efce193af6773e5c264e9c6c511f5
-MD5sum: a995ba4786e32be7979c169b4fd01a0b
+Filename: pool/main/g/gtk+3.0/gtk-update-icon-cache_3.24.38-2~deb12u3_amd64.deb
+Size: 44204
+SHA256: 6df214515e719d9099f6df89f4581abe34b63ea9237b76e93843e83226b2e9cb
+SHA1: 07f75cfecefb4fc683587b093898618c988ab75e
+MD5sum: 232f4b2db6359ef66a2b35bbaa1093d4
 Description: icon theme caching utility
  gtk-update-icon-cache creates mmap()able cache files for icon themes.
  .
@@ -11565,21 +11565,21 @@ Description: administration tools for packet filtering and NAT
 
 Package: iputils-ping
 Source: iputils
-Version: 3:20221126-1
+Version: 3:20221126-1+deb12u1
 Architecture: amd64
 Maintainer: Noah Meyerhans <noahm@debian.org>
-Installed-Size: 120
+Installed-Size: 121
 Depends: libcap2-bin, libc6 (>= 2.34), libcap2 (>= 1:2.10), libidn2-0 (>= 0.6)
 Provides: ping
 Multi-Arch: foreign
 Homepage: https://github.com/iputils/iputils/
 Priority: important
 Section: net
-Filename: pool/main/i/iputils/iputils-ping_20221126-1_amd64.deb
-Size: 47068
-SHA256: 6ca78fda233f9ca803c5048e29dd558ad7a2af7fe6db53e9fce76d9d750538c8
-SHA1: 7b79b885a7d39ec9fcced49fdc52674d755a35d7
-MD5sum: 6785514108f7260ab984ad890089b783
+Filename: pool/main/i/iputils/iputils-ping_20221126-1+deb12u1_amd64.deb
+Size: 47172
+SHA256: 5a206d74e2147990e08b89d09a4655e59a17222e0513a309a48e16ed2281589b
+SHA1: 94284c37d21375059695083fce84373e042ec379
+MD5sum: 5f1a0033bab9adac36e521b4b44adc25
 Description: Tools to test the reachability of network hosts
  The ping command sends ICMP ECHO_REQUEST packets to a host in order to
  test if the host is reachable via the network.
@@ -13861,7 +13861,7 @@ Description: Perl module for manipulation of ZIP archives
 
 Package: libarchive13
 Source: libarchive
-Version: 3.6.2-1+deb12u1
+Version: 3.6.2-1+deb12u2
 Architecture: amd64
 Maintainer: Peter Pentchev <roam@debian.org>
 Installed-Size: 863
@@ -13871,11 +13871,11 @@ Multi-Arch: same
 Homepage: https://www.libarchive.org/
 Priority: optional
 Section: libs
-Filename: pool/main/liba/libarchive/libarchive13_3.6.2-1+deb12u1_amd64.deb
-Size: 342880
-SHA256: 0142827da6c7eb0e669628539fc516b0030b8a1503dcd45a6fee89e93ce9786b
-SHA1: 307109c5aac1fa1aba74ec7fb011051cfcf6d4a0
-MD5sum: 0d2dca0057a1975e8bc9137747fba0a3
+Filename: pool/main/liba/libarchive/libarchive13_3.6.2-1+deb12u2_amd64.deb
+Size: 343136
+SHA256: 88eb62873870ebb9bf046dcb561589c2168599cb2dd4ce5cc715c03d11bec688
+SHA1: 03d3219e0b4fcc82524048898bf78e75648bb9ae
+MD5sum: 4a937740d7972046b039f6915b076a25
 Description: Multi-format archive and compression library (shared library)
  The libarchive library provides a flexible interface for reading and writing
  archives in various formats such as tar and cpio. libarchive also supports
@@ -14451,20 +14451,20 @@ Description: Authen::SASL - SASL Authentication framework
 
 Package: libavahi-client3
 Source: avahi
-Version: 0.8-10
+Version: 0.8-10+deb12u1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 117
-Depends: libavahi-common3 (= 0.8-10), libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14)
+Depends: libavahi-common3 (= 0.8-10+deb12u1), libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14)
 Multi-Arch: same
 Homepage: https://avahi.org/
 Priority: optional
 Section: libs
-Filename: pool/main/a/avahi/libavahi-client3_0.8-10_amd64.deb
-Size: 45460
-SHA256: 6257e23561a91b7d33f6a0601952d2188a9aa8fd3645fdbd8d9eb65c235eae66
-SHA1: a6d2376f2511bc35240c9785b2636bbf7346cd38
-MD5sum: 0931f5339111f593b8d06612747371fd
+Filename: pool/main/a/avahi/libavahi-client3_0.8-10+deb12u1_amd64.deb
+Size: 45756
+SHA256: a99d635f07a49cfbd24de151155c4f815a5adf867855e7ba13ecc3b25ffa52b9
+SHA1: 184c49b1df0c5f89b5ae11dae43f044bd33ffbb2
+MD5sum: f4fa9e977bc2b4f72736966bb34f4478
 Description: Avahi client library
  Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
  It allows programs to publish and discover services and hosts
@@ -14477,7 +14477,7 @@ Description: Avahi client library
 
 Package: libavahi-common-data
 Source: avahi
-Version: 0.8-10
+Version: 0.8-10+deb12u1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 738
@@ -14485,11 +14485,11 @@ Multi-Arch: same
 Homepage: https://avahi.org/
 Priority: optional
 Section: libs
-Filename: pool/main/a/avahi/libavahi-common-data_0.8-10_amd64.deb
-Size: 106832
-SHA256: 24b64db6a76378987478a9363e88cd8a50a0200e2cdfa316a35107f3faae39bd
-SHA1: 3be70219c45b319320c70ca51bebf4f5141b3537
-MD5sum: 3e23f713d5520a28314cae30362be535
+Filename: pool/main/a/avahi/libavahi-common-data_0.8-10+deb12u1_amd64.deb
+Size: 107164
+SHA256: b21e33c3797c834e9a9ce0f1085e6d3f721db496d550505ab2f364d52097fe6f
+SHA1: 8b65dfa30da77544b99ed5269c832fb7f54f6cc4
+MD5sum: b06e992ca8cb10f4793c2cdc2e795f8b
 Description: Avahi common data files
  Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
  It allows programs to publish and discover services and hosts
@@ -14501,20 +14501,20 @@ Description: Avahi common data files
 
 Package: libavahi-common3
 Source: avahi
-Version: 0.8-10
+Version: 0.8-10+deb12u1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 94
-Depends: libc6 (>= 2.34), libavahi-common-data (= 0.8-10)
+Depends: libc6 (>= 2.34), libavahi-common-data (= 0.8-10+deb12u1)
 Multi-Arch: same
 Homepage: https://avahi.org/
 Priority: optional
 Section: libs
-Filename: pool/main/a/avahi/libavahi-common3_0.8-10_amd64.deb
-Size: 41624
-SHA256: c47345c10a408418dcfe8796749649dbf44b78769fa4e8d222b3a2ac1e624086
-SHA1: 1932b57914555e0a71e278fe7cccd51a962ceff0
-MD5sum: 440d9af93e60e99950259febb82d6953
+Filename: pool/main/a/avahi/libavahi-common3_0.8-10+deb12u1_amd64.deb
+Size: 42112
+SHA256: 0c12791afe1be09d8362161244d7a51e82a67a55f3909f4c29ee3dd424c3a5f1
+SHA1: 75a6d7ed63e800246c9ae2f86bf1d6f4d6b62f4f
+MD5sum: 377b5178f167089245e94f6ba5fd9c2f
 Description: Avahi common library
  Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
  It allows programs to publish and discover services and hosts
@@ -14527,20 +14527,20 @@ Description: Avahi common library
 
 Package: libavahi-core7
 Source: avahi
-Version: 0.8-10
+Version: 0.8-10+deb12u1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 274
-Depends: libavahi-common3 (= 0.8-10), libc6 (>= 2.15)
+Depends: libavahi-common3 (= 0.8-10+deb12u1), libc6 (>= 2.15)
 Multi-Arch: same
 Homepage: https://avahi.org/
 Priority: optional
 Section: libs
-Filename: pool/main/a/avahi/libavahi-core7_0.8-10_amd64.deb
-Size: 103108
-SHA256: 5026c413d218650c343985e8ca5a3d6eef9f3ce01e5736f07f1532ad48ca0095
-SHA1: 8cb9e51ed8f89f3703255ce9f1f75c74f43f888f
-MD5sum: 00cda9b4d2bd399457b0a8bb7acec01b
+Filename: pool/main/a/avahi/libavahi-core7_0.8-10+deb12u1_amd64.deb
+Size: 103284
+SHA256: 7c46bb4fbf3e8f235bb7704c4d6b8413312cb4e1640e7a97c47f98d9ccc0125a
+SHA1: 6499a647a191b7955fe17bc4c7ad0cc4d862702e
+MD5sum: 90d144e672d28b29dbcae33ffed46ccb
 Description: Avahi's embeddable mDNS/DNS-SD library
  Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
  It allows programs to publish and discover services and hosts
@@ -14557,20 +14557,20 @@ Description: Avahi's embeddable mDNS/DNS-SD library
 
 Package: libavahi-glib1
 Source: avahi
-Version: 0.8-10
+Version: 0.8-10+deb12u1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 54
-Depends: libavahi-common3 (= 0.8-10), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.16.0)
+Depends: libavahi-common3 (= 0.8-10+deb12u1), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.16.0)
 Multi-Arch: same
 Homepage: https://avahi.org/
 Priority: optional
 Section: libs
-Filename: pool/main/a/avahi/libavahi-glib1_0.8-10_amd64.deb
-Size: 27432
-SHA256: 1398975257046ae6292a9f7428d099237a604d53ea20e2f1096d66d2b606b7b7
-SHA1: 044d4bb9d3b4e6e3c86bd01ddc60d8f2f591ca70
-MD5sum: 0fac834bbe2f62a05fe9c3b696a7b74c
+Filename: pool/main/a/avahi/libavahi-glib1_0.8-10+deb12u1_amd64.deb
+Size: 27756
+SHA256: 449c183697f550296809918ff71a2426a1891098216cdd0c4687fdc89ff0b1e7
+SHA1: 9b76d3ed15025872ea4215d4e4cc4120359c07a6
+MD5sum: 5b3cffeeeba2febfa4e2a6d166120f87
 Description: Avahi GLib integration library
  Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
  It allows programs to publish and discover services and hosts
@@ -14790,7 +14790,7 @@ Description: Basic Linear Algebra Reference implementations, shared library
 
 Package: libblkid1
 Source: util-linux
-Version: 2.38.1-5+deb12u1
+Version: 2.38.1-5+deb12u3
 Architecture: amd64
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
 Installed-Size: 398
@@ -14799,11 +14799,11 @@ Multi-Arch: same
 Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
 Priority: optional
 Section: libs
-Filename: pool/main/u/util-linux/libblkid1_2.38.1-5+deb12u1_amd64.deb
-Size: 147132
-SHA256: 151f59ca2b73ce8f85a576980f019dbbf9d44dd6ff4331f7954163e3704c1c06
-SHA1: e1b7ea8238b6fb5bde652902946b421199afff9a
-MD5sum: 063c012c7bb5410a90ae3e671a3faea6
+Filename: pool/main/u/util-linux/libblkid1_2.38.1-5+deb12u3_amd64.deb
+Size: 147380
+SHA256: 5a083377f29191cafcdf0f91ec124349b4a7895b531556633a136e43c6d53943
+SHA1: 0048c8356d00a5505589595ad5e6d28b0388136b
+MD5sum: 6dc0ea77f84a52bc1afde92d0a533b98
 Description: block device ID library
  The blkid library allows system programs such as fsck and mount to
  quickly and easily find block devices by filesystem UUID or label.
@@ -15433,7 +15433,7 @@ Description: LLVM low level support for a standard C++ library
 
 Package: libc-bin
 Source: glibc
-Version: 2.36-9+deb12u8
+Version: 2.36-9+deb12u9
 Architecture: amd64
 Essential: yes
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
@@ -15445,11 +15445,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: required
 Section: libs
-Filename: pool/main/g/glibc/libc-bin_2.36-9+deb12u8_amd64.deb
-Size: 607736
-SHA256: f42b2b73c9b800dfeeab44abc721ba527243e8a3a2b598a5f443d2e3174ca5a5
-SHA1: c3ec1c35cf92435373001b729e63d67e7cf019fb
-MD5sum: 33a200cbb69c81ecb93fe8763e348f6c
+Filename: pool/main/g/glibc/libc-bin_2.36-9+deb12u9_amd64.deb
+Size: 607968
+SHA256: 2260f9a0c82a0957feeb55417fccc6aac2287e769c1de8cc09aedf93f0d337e8
+SHA1: a3ca59ffe1ea4e9b2b13bcc7553f0dc818e48488
+MD5sum: 21937009de2176d800aa2d8779f9f51e
 Description: GNU C Library: Binaries
  This package contains utility programs related to the GNU C Library.
  .
@@ -15462,7 +15462,7 @@ Description: GNU C Library: Binaries
 
 Package: libc-dev-bin
 Source: glibc
-Version: 2.36-9+deb12u8
+Version: 2.36-9+deb12u9
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 92
@@ -15472,11 +15472,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: libdevel
-Filename: pool/main/g/glibc/libc-dev-bin_2.36-9+deb12u8_amd64.deb
-Size: 46284
-SHA256: 20d0917b8ff1e2a62c92d2b300e9573c1948c7220c2e29de96c69746001dfe57
-SHA1: 2e36b1449e08c2c712f1d40352174d318cab5f18
-MD5sum: b161616c6ef41c71b22c2625ec88c0fb
+Filename: pool/main/g/glibc/libc-dev-bin_2.36-9+deb12u9_amd64.deb
+Size: 46736
+SHA256: dc67f573148d239711c279d2eb43ddf3dac36a600b59b71d09d26ac3fa9eca34
+SHA1: 151ace42aa7c3ef7954f9fbab154a2be5f4ed4cf
+MD5sum: aad787ba3b28b7696436ccd786131959
 Description: GNU C Library: Development binaries
  This package contains utility programs related to the GNU C Library
  development package.
@@ -15485,7 +15485,7 @@ Description: GNU C Library: Development binaries
 
 Package: libc-devtools
 Source: glibc
-Version: 2.36-9+deb12u8
+Version: 2.36-9+deb12u9
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 136
@@ -15497,11 +15497,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: devel
-Filename: pool/main/g/glibc/libc-devtools_2.36-9+deb12u8_amd64.deb
-Size: 53912
-SHA256: 021a9a07f19f2b92fc9a48247cd00caa275d36cd6b75dc3bb75199d4375c9e50
-SHA1: 194dc0ddc8fb57da389fafd48db7d83c9841a7e0
-MD5sum: 5edee58f93aa94dcbee7a570c27af87b
+Filename: pool/main/g/glibc/libc-devtools_2.36-9+deb12u9_amd64.deb
+Size: 54412
+SHA256: 9332cb53edeb0ba5c94f0257706c119e069b1faf4c998bc66210952404141e54
+SHA1: c6a8e945c938338f46b72381838ebab36e5d6da9
+MD5sum: 5c5a6a95ba69f9432a67241b89b917a0
 Description: GNU C Library: Development tools
  This package contains development tools shipped by the GNU C
  Library.
@@ -15513,7 +15513,7 @@ Description: GNU C Library: Development tools
 
 Package: libc-l10n
 Source: glibc
-Version: 2.36-9+deb12u8
+Version: 2.36-9+deb12u9
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 4348
@@ -15521,18 +15521,18 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/libc-l10n_2.36-9+deb12u8_all.deb
-Size: 674472
-SHA256: fbde9e26d9a799b06d7a449bcb968d8828ce98204cf44cd8bd61b104154e8b68
-SHA1: d875bc9a0db5ca7f4bd2c74cefaff4375c999035
-MD5sum: f60be66d56d7f9bb81b228d58d21c7cc
+Filename: pool/main/g/glibc/libc-l10n_2.36-9+deb12u9_all.deb
+Size: 676736
+SHA256: 8fa332927303ec6f52965bbdbdbe7bb67988bf7e3b3d6c9fa7ac8ad8ce4a6793
+SHA1: c8e31889ea7d9edadfb95e8efaef556c2b763fa0
+MD5sum: 60687e73de5156c69f48ebdb2a699e72
 Description: GNU C Library: localization files
  This package contains the translation files for the GNU C library and
  utility programs.
 
 Package: libc6
 Source: glibc
-Version: 2.36-9+deb12u8
+Version: 2.36-9+deb12u9
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 12986
@@ -15545,11 +15545,11 @@ Multi-Arch: same
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: libs
-Filename: pool/main/g/glibc/libc6_2.36-9+deb12u8_amd64.deb
-Size: 2754372
-SHA256: dbb527d86181f4b50edf5790c34c4d0b4ceac7f199b1266a9336b5708f8e9798
-SHA1: 88545a7b50eed64d77a57eb237c09671656e82bb
-MD5sum: d4ed0f75d49fe44e5cd8595be5478f7d
+Filename: pool/main/g/glibc/libc6_2.36-9+deb12u9_amd64.deb
+Size: 2756860
+SHA256: 3a043b9dbf1a8c8b5a9e2268253e6dca8c7d431bd7a202fea96364abf374fea9
+SHA1: 4178a2991a979496e9e7e485ddc4d8931ce47805
+MD5sum: 9f016e426ea87f0a60bd9297615e4ccc
 Description: GNU C Library: Shared libraries
  Contains the standard libraries that are used by nearly all programs on
  the system. This package includes shared versions of the standard C library
@@ -15557,25 +15557,25 @@ Description: GNU C Library: Shared libraries
 
 Package: libc6-dev
 Source: glibc
-Version: 2.36-9+deb12u8
+Version: 2.36-9+deb12u9
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 11960
-Depends: libc6 (= 2.36-9+deb12u8), libc-dev-bin (= 2.36-9+deb12u8), linux-libc-dev, libcrypt-dev, libnsl-dev, rpcsvc-proto
+Installed-Size: 11961
+Depends: libc6 (= 2.36-9+deb12u9), libc-dev-bin (= 2.36-9+deb12u9), linux-libc-dev, libcrypt-dev, libnsl-dev, rpcsvc-proto
 Suggests: glibc-doc, manpages-dev
 Conflicts: libc0.1-dev, libc0.3-dev, libc6.1-dev
 Breaks: binutils (<< 2.38), catch (<< 1.12.2-0.1), heimdal-multidev (<= 7.7.0+dfsg-4), igblast (<= 1.19.0-1), libassimp-dev (<= 5.2.4~ds0-1), libasyncns-dev (<= 0.8-6+b2), libatm1-dev (<= 1:2.5.1-4), libaws20-dev (<= 20.2-2+b1), libboinc-app-dev (<= 7.20.2+dfsg-1), libbson-dev (<= 1.22.0-1), libc6-dev-amd64-cross (<< 2.36~), libcups2-dev (<= 2.4.2-1), libdeal.ii-dev (<= 9.4.0-1), libdkim-dev (<= 1:1.0.21-4+b2), libdolfin-dev-common (<= 2019.2.0~git20220407.d29e24d-5), libeckit-dev (<= 1.20.0-1), libfclib-dev (<= 3.1.0+dfsg-2), libfltk1.3-dev (<= 1.3.8-4+b1), libgcc-10-dev (<< 10-20200321-1~), libgcc-7-dev (<< 7.5.0-6~), libgcc-8-dev (<< 8.4.0-2~), libgcc-9-dev (<< 9.3.0-5~), libghc-resolv-dev (<= 0.1.2.0-3), libghc-resolv-prof (<= 0.1.2.0-3), libglib2.0-dev (<= 2.72.3-1), libgloox-dev (<= 1.0.24-2+b1), libhesiod-dev (<= 3.2.1-3.1+b1), libinfinity-0.7-dev (<= 0.7.2-1+b1), libinsighttoolkit4-dev (<= 4.13.3withdata-dfsg2-3+b1), libinsighttoolkit5-dev (<= 5.2.1-5+b1), libismrmrd-dev (<= 1.8.0-2), libldap-dev (<= 2.5.12+dfsg-2), liblog4cplus-dev (<= 2.0.7-1), libloudmouth1-dev (<= 1.5.4-1), libmgl-dev (<= 8.0.1-2), libmimalloc2.0 (<= 2.0.6+ds-1), libminc-dev (<= 2.4.03-5), libmongoc-dev (<= 1.22.1-1), libmrpt-ros1bridge-dev (<= 1:2.4.9+ds-4+b2), libmysqlclient-dev (<= 8.0.29-1), libnetcdf-dev (<= 1:4.9.0-3), libnetcdf-mpi-dev (<= 1:4.9.0-1), libnetcdf-pnetcdf-dev (<= 1:4.9.0-1), libnfsidmap-dev (<= 1:2.6.1-2), libns3-dev (<= 3.36.1+dfsg-4), libola-dev (<= 0.10.8.nojsmin-2), libopenafs-dev (<= 1.8.8.1-3), libopendkim-dev (<= 2.11.0~beta2-7), libopendmarc-dev (<= 1.4.2-1), libopenms-dev (<= 2.6.0+cleaned1-3+b1), libopenzwave1.6-dev (<= 1.6.1914+ds-1), libperl5.26 (<< 5.26.1-3), libpg-query-dev (<= 13-2.1.2-2), librbl-dev (<= 2.11.0~beta2-7), libre-dev (<= 1.1.0-1+b1), libshishi-dev (<= 1.0.2-11), libslurm-dev (<= 21.08.8.2-1), libsocksd0-dev (<= 1.4.2+dfsg-7+b4), libspf2-dev (<= 1.2.10-7.1+b1), libstrophe-dev (<= 0.12.1-2), libtaningia-dev (<= 0.2.2-2+b1), libtrilinos-amesos-dev (<= 13.2.0-3), libtrilinos-amesos2-dev (<= 13.2.0-3), libtrilinos-anasazi-dev (<= 13.2.0-3), libtrilinos-aztecoo-dev (<= 13.2.0-3), libtrilinos-belos-dev (<= 13.2.0-3), libtrilinos-epetra-dev (<= 13.2.0-3), libtrilinos-epetraext-dev (<= 13.2.0-3), libtrilinos-galeri-dev (<= 13.2.0-3), libtrilinos-ifpack-dev (<= 13.2.0-3), libtrilinos-ifpack2-dev (<= 13.2.0-3), libtrilinos-intrepid-dev (<= 13.2.0-3), libtrilinos-intrepid2-dev (<= 13.2.0-3), libtrilinos-isorropia-dev (<= 13.2.0-3), libtrilinos-kokkos-dev (<= 13.2.0-3), libtrilinos-kokkos-kernels-dev (<= 13.2.0-3), libtrilinos-komplex-dev (<= 13.2.0-3), libtrilinos-ml-dev (<= 13.2.0-3), libtrilinos-moertel-dev (<= 13.2.0-3), libtrilinos-muelu-dev (<= 13.2.0-3), libtrilinos-nox-dev (<= 13.2.0-3), libtrilinos-phalanx-dev (<= 13.2.0-3), libtrilinos-pike-dev (<= 13.2.0-3), libtrilinos-piro-dev (<= 13.2.0-3), libtrilinos-pliris-dev (<= 13.2.0-3), libtrilinos-rol-dev (<= 13.2.0-3), libtrilinos-rtop-dev (<= 13.2.0-3), libtrilinos-rythmos-dev (<= 13.2.0-3), libtrilinos-sacado-dev (<= 13.2.0-3), libtrilinos-shylu-dev (<= 13.2.0-3), libtrilinos-stokhos-dev (<= 13.2.0-3), libtrilinos-stratimikos-dev (<= 13.2.0-3), libtrilinos-teko-dev (<= 13.2.0-3), libtrilinos-teuchos-dev (<= 13.2.0-3), libtrilinos-thyra-dev (<= 13.2.0-3), libtrilinos-tpetra-dev (<= 13.2.0-3), libtrilinos-trilinoscouplings-dev (<= 13.2.0-3), libtrilinos-triutils-dev (<= 13.2.0-3), libtrilinos-xpetra-dev (<= 13.2.0-3), libtrilinos-zoltan2-dev (<= 13.2.0-3), libvbr-dev (<= 2.11.0~beta2-7), libvisp-dev (<= 3.5.0-2+b1), libvotca-dev (<= 2022-3), libvtk6-dev (<= 6.3.0+dfsg2-8.1+b1), libvtk7-dev (<= 7.1.1+dfsg2-10.2), open-vm-tools-dev (<= 2:12.0.5-2), pidgin-librvp (<= 0.9.7cvs-3), proftpd-dev (<= 1.3.7d+dfsg-2), python3.7 (<< 3.7.7-1+b1), python3.8 (<< 3.8.2-1+b1), slurm-wlm-basic-plugins-dev (<= 21.08.8.2-1)
 Replaces: libc6 (<= 2.32-1)
-Provides: libc-dev (= 2.36-9+deb12u8)
+Provides: libc-dev (= 2.36-9+deb12u9)
 Multi-Arch: same
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: libdevel
-Filename: pool/main/g/glibc/libc6-dev_2.36-9+deb12u8_amd64.deb
-Size: 1900380
-SHA256: 7ae2baa371d1c920ae1116349c15e54a41744ed85d579c0c3ebf4e743c51c189
-SHA1: d5d6b63a778c46ecc418838e97d68f2aea3ad725
-MD5sum: 92ba0672a8de6a7517d4fcef220d26e6
+Filename: pool/main/g/glibc/libc6-dev_2.36-9+deb12u9_amd64.deb
+Size: 1904252
+SHA256: da2062fa167bdfe02349e062f9fb7c063e06f778ad4c14404adeea0eafa80c0c
+SHA1: ce1e70c07fdf2c3a4a621ca85630342ea6842fe6
+MD5sum: 0d457f8054e0355f07a93bb1b5bf2eba
 Description: GNU C Library: Development Libraries and Header Files
  Contains the symlinks, headers, and object files needed to compile
  and link programs which use the standard C library.
@@ -16020,7 +16020,7 @@ Description: audio fingerprint library
 
 Package: libcjson1
 Source: cjson
-Version: 1.7.15-1+deb12u1
+Version: 1.7.15-1+deb12u2
 Architecture: amd64
 Maintainer: Boyuan Yang <byang@debian.org>
 Installed-Size: 60
@@ -16029,11 +16029,11 @@ Multi-Arch: same
 Homepage: https://github.com/DaveGamble/cJSON
 Priority: optional
 Section: libs
-Filename: pool/main/c/cjson/libcjson1_1.7.15-1+deb12u1_amd64.deb
-Size: 22848
-SHA256: f8e99dc8cfa2061319d06269d6d180b848b3cb29c7bd5651b2381adfee793c78
-SHA1: 2d50073b8be7d8bc0f44ef76abf831f047809c27
-MD5sum: fe429323c1e95a71c72d2394308379b8
+Filename: pool/main/c/cjson/libcjson1_1.7.15-1+deb12u2_amd64.deb
+Size: 22896
+SHA256: 02badb2b7e6a23f78abccd837a35f8d7e4ff2a3c0cd740b5031781e952f240b0
+SHA1: d3b0280cc12abe260b0bf03000d8d1f9a9218aa8
+MD5sum: f366a1672f32facf028cde5d18ac3a32
 Description: Ultralightweight JSON parser in ANSI C
  cJSON is a ultralightweight json parse.
  .
@@ -16351,7 +16351,7 @@ Description: Compact C Type Format library (runtime, BFD dependency)
 
 Package: libcups2
 Source: cups
-Version: 2.4.2-3+deb12u7
+Version: 2.4.2-3+deb12u8
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 675
@@ -16361,11 +16361,11 @@ Multi-Arch: same
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: libs
-Filename: pool/main/c/cups/libcups2_2.4.2-3+deb12u7_amd64.deb
-Size: 244800
-SHA256: 86196cc1d764467155661c491d965eb230d20fb9b5f21cfea158d2c4047764df
-SHA1: 66d0cd42804cb6ad145c3639a24027a314d1f352
-MD5sum: 7399e4252eb99645eae7b914a86e0c95
+Filename: pool/main/c/cups/libcups2_2.4.2-3+deb12u8_amd64.deb
+Size: 245772
+SHA256: 47b81d3eb34c2546cce70aeed61742c6e4c379e7fb0d3358aa80ea7b3ff8acf0
+SHA1: a4164b11d77d8ec0247e6877fbc836ba40ddb881
+MD5sum: 809db4ee9e1df346a19b2dd84d4d7c74
 Description: Common UNIX Printing System(tm) - Core library
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -16376,7 +16376,7 @@ Description: Common UNIX Printing System(tm) - Core library
 
 Package: libcurl3-gnutls
 Source: curl
-Version: 7.88.1-10+deb12u7
+Version: 7.88.1-10+deb12u8
 Architecture: amd64
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Installed-Size: 823
@@ -16386,11 +16386,11 @@ Multi-Arch: same
 Homepage: https://curl.se/
 Priority: optional
 Section: libs
-Filename: pool/main/c/curl/libcurl3-gnutls_7.88.1-10+deb12u7_amd64.deb
-Size: 384932
-SHA256: 3aea3d6707025f7dae5e7bcd92cdfdda26681f70c1e5d4fc8cd6d573dc2dd68c
-SHA1: f44e247efa81264400f2ec68e66e29b77f7c380e
-MD5sum: 0eae63bb196f31d42d599e3380d9acf9
+Filename: pool/main/c/curl/libcurl3-gnutls_7.88.1-10+deb12u8_amd64.deb
+Size: 384644
+SHA256: 9023237ce04b31e18b4c9ab8792a02727c09e73a8d09768b35a94493ee436309
+SHA1: ee0d7d8df67c6e76f9cedf0d8203e630f4af596b
+MD5sum: 6bbc305fd8237a8800855b18d409f8a4
 Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
  libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
  FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S,
@@ -16409,7 +16409,7 @@ Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
 
 Package: libcurl4
 Source: curl
-Version: 7.88.1-10+deb12u7
+Version: 7.88.1-10+deb12u8
 Architecture: amd64
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Installed-Size: 839
@@ -16421,11 +16421,11 @@ Multi-Arch: same
 Homepage: https://curl.se/
 Priority: optional
 Section: libs
-Filename: pool/main/c/curl/libcurl4_7.88.1-10+deb12u7_amd64.deb
-Size: 389804
-SHA256: c8aed7bad5f6bf1ad8715d91290a697601b39fab392712399e01b705883c9966
-SHA1: cc2c476de76ecf940a3fdcb8414699cbe3f9f801
-MD5sum: 20a7c7da9aebac30c8149fb48323c551
+Filename: pool/main/c/curl/libcurl4_7.88.1-10+deb12u8_amd64.deb
+Size: 390424
+SHA256: 0eaaff09ecf10adc1273662988402da4a6b53a763e6ce4174e5d5d68e8a5e69d
+SHA1: 69c8b86148e6f359ad0bd0de4c855011be9c49d9
+MD5sum: 35f67963bf1fd339f70838e36bea2413
 Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
  libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
  FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S,
@@ -17520,7 +17520,7 @@ Description: Library and utilities to disable fsync and friends - shared library
 
 Package: libebml5
 Source: libebml
-Version: 1.4.4-1
+Version: 1.4.4-1+deb12u1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 163
@@ -17529,11 +17529,11 @@ Multi-Arch: same
 Homepage: https://dl.matroska.org/downloads/libebml/
 Priority: optional
 Section: libs
-Filename: pool/main/libe/libebml/libebml5_1.4.4-1_amd64.deb
-Size: 46888
-SHA256: 2c4ef851f622bcb975aae8889ad78edd23045741fe817d360cb50b13ff2b9a3f
-SHA1: 88363426cdcc5b4d569a728ae64f0d133807ff99
-MD5sum: 8d4ff714b8990479cfaf2d916add7c82
+Filename: pool/main/libe/libebml/libebml5_1.4.4-1+deb12u1_amd64.deb
+Size: 47140
+SHA256: 3124397c803bc6e1127e19a871e13a7f490f4515da72ac744b2a3106d66fd8cd
+SHA1: 9fa40c4ca1fe2aff25b0ce03c510d10fbe39b542
+MD5sum: 2807380a606b7ad8ff65237790dceedc
 Description: access library for the EBML format (shared library)
  The libebml library allows one to read and write files using EBML (the
  Extensible Binary Meta Language), a binary pendant to XML. Using libebml
@@ -18052,7 +18052,7 @@ Description: tool for simulating superuser privileges - shared libraries
 
 Package: libfdisk1
 Source: util-linux
-Version: 2.38.1-5+deb12u1
+Version: 2.38.1-5+deb12u3
 Architecture: amd64
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
 Installed-Size: 533
@@ -18061,11 +18061,11 @@ Multi-Arch: same
 Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
 Priority: optional
 Section: libs
-Filename: pool/main/u/util-linux/libfdisk1_2.38.1-5+deb12u1_amd64.deb
-Size: 193420
-SHA256: a4d852a882d62d64561a9311821bc58cbf7de52d23f99da7086e442345ac1ac1
-SHA1: 7aad0e5391331a6f9b6b5045d39dc6cb5be279bc
-MD5sum: 33eb0e7bdfcdca9017ba425cfbe8374c
+Filename: pool/main/u/util-linux/libfdisk1_2.38.1-5+deb12u3_amd64.deb
+Size: 193624
+SHA256: 8af145cff6ca72529f63e0bf6d9c68c8512387e67f64e66d00e36f72bed99160
+SHA1: ba139bc70debb7eea2f13343ac2ce63779c4fa28
+MD5sum: 1503c2f8cb5c493ccb6e8cac860f4c23
 Description: fdisk partitioning library
  The libfdisk library is used for manipulating partition tables. It is
  the core of the fdisk, cfdisk, and sfdisk tools.
@@ -18355,20 +18355,20 @@ Description: Identify, read, write, erase, and verify BIOS/ROM/flash chips - lib
 
 Package: libflatpak0
 Source: flatpak
-Version: 1.14.8-1~deb12u1
+Version: 1.14.10-1~deb12u1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 1028
-Depends: bubblewrap (>= 0.5.0), libarchive13 (>= 3.0.4), libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libdconf1 (>= 0.26.0), libglib2.0-0 (>= 2.67.3+git20210214), libgpgme11 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libxau6 (>= 1:1.0.9), libxml2 (>= 2.7.4), libzstd1 (>= 1.5.2)
+Installed-Size: 1029
+Depends: bubblewrap (>= 0.8.0-2+deb12u1~), bubblewrap (<< 0.8.1~) | bubblewrap (>= 0.10.0~), libarchive13 (>= 3.0.4), libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libdconf1 (>= 0.26.0), libglib2.0-0 (>= 2.67.3+git20210214), libgpgme11 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libxau6 (>= 1:1.0.9), libxml2 (>= 2.7.4), libzstd1 (>= 1.5.2)
 Multi-Arch: same
 Homepage: https://flatpak.org/
 Priority: optional
 Section: libs
-Filename: pool/main/f/flatpak/libflatpak0_1.14.8-1~deb12u1_amd64.deb
-Size: 363576
-SHA256: f6429bda5b0fc392f8f00eff82c81890abe6deb4bdf618f99e2c6cfda0854e07
-SHA1: 26b285d63102221d2341f10f0d71b0f806531254
-MD5sum: 21528efd93aa5d17461eebc60d75bba1
+Filename: pool/main/f/flatpak/libflatpak0_1.14.10-1~deb12u1_amd64.deb
+Size: 363328
+SHA256: 8966195b1d43609d81354ab7fdcfdaf7c8a8c8a2348a3d8627dc9b5fbf67df7e
+SHA1: 92a2e71eb4129990d56a71af075f90b567a88981
+MD5sum: 03dbe0164272b770e73524f768916ef5
 Description: Application deployment framework for desktop apps (library)
  Flatpak installs, manages and runs sandboxed desktop application bundles.
  See the flatpak package for a more comprehensive description.
@@ -19321,7 +19321,7 @@ Description: Vendor neutral GL dispatch library -- GLESv2 support
 
 Package: libglib2.0-0
 Source: glib2.0
-Version: 2.74.6-2+deb12u3
+Version: 2.74.6-2+deb12u5
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 4132
@@ -19333,11 +19333,11 @@ Multi-Arch: same
 Homepage: https://wiki.gnome.org/Projects/GLib
 Priority: optional
 Section: libs
-Filename: pool/main/g/glib2.0/libglib2.0-0_2.74.6-2+deb12u3_amd64.deb
-Size: 1400264
-SHA256: 6af323c020a4dff3cfe81ecd742522b33cbd75309f5baa264605e6e179320639
-SHA1: 2d842e54e1f4795b01209c9380b3e7fa4b77ca28
-MD5sum: f9b75999844eed7a79a0f57633f1eefb
+Filename: pool/main/g/glib2.0/libglib2.0-0_2.74.6-2+deb12u5_amd64.deb
+Size: 1403200
+SHA256: 1ff3d82f1baa190ec206d4e9f6e9da5cb70b7a9a68ecebc93158139580d46f81
+SHA1: c5d512edc1905b8712c95e603b8c673e83440495
+MD5sum: b7ae1a236f471bd5e0bf168e7973a0bd
 Description: GLib library of C routines
  GLib is a library containing many useful C routines for things such
  as trees, hashes, lists, and strings.  It is a useful general-purpose
@@ -19347,20 +19347,20 @@ Description: GLib library of C routines
 
 Package: libglib2.0-bin
 Source: glib2.0
-Version: 2.74.6-2+deb12u3
+Version: 2.74.6-2+deb12u5
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 335
-Depends: libglib2.0-data, libc6 (>= 2.34), libelf1 (>= 0.142), libglib2.0-0 (= 2.74.6-2+deb12u3)
+Depends: libglib2.0-data, libc6 (>= 2.34), libelf1 (>= 0.142), libglib2.0-0 (= 2.74.6-2+deb12u5)
 Multi-Arch: foreign
 Homepage: https://wiki.gnome.org/Projects/GLib
 Priority: optional
 Section: misc
-Filename: pool/main/g/glib2.0/libglib2.0-bin_2.74.6-2+deb12u3_amd64.deb
-Size: 110180
-SHA256: f92cb3801201da9e18bc27641ae6525aac953ad76c36ad0817ee3d6688cc288a
-SHA1: aef6661c3701e6900c5555fc80730824c90b0927
-MD5sum: 6e5a7c8c850dbbaeca0ac06d2f6ffeb2
+Filename: pool/main/g/glib2.0/libglib2.0-bin_2.74.6-2+deb12u5_amd64.deb
+Size: 110664
+SHA256: 493d1ff3ba341bbd42bddccea21d23cb3e6dc281f777b51cc0644186d7aee721
+SHA1: f7813f0cdaaac1ba8c283c76e9ed08186cad8c3d
+MD5sum: afac53ebc50d8a86ef6e1956055cb371
 Description: Programs for the GLib library
  GLib is a library containing many useful C routines for things such
  as trees, hashes, lists, and strings.  It is a useful general-purpose
@@ -19371,7 +19371,7 @@ Description: Programs for the GLib library
 
 Package: libglib2.0-data
 Source: glib2.0
-Version: 2.74.6-2+deb12u3
+Version: 2.74.6-2+deb12u5
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 9405
@@ -19379,11 +19379,11 @@ Multi-Arch: foreign
 Homepage: https://wiki.gnome.org/Projects/GLib
 Priority: optional
 Section: libs
-Filename: pool/main/g/glib2.0/libglib2.0-data_2.74.6-2+deb12u3_all.deb
-Size: 1208912
-SHA256: e43b334196f5c62b80af83cbaa93ce5a4db4dff99930d63ce5a998a9c71c1ca7
-SHA1: c34cbf99db495d0bb1ed87c2e03bccec32e130e5
-MD5sum: 11137330b594a82a4cb6e33167a52702
+Filename: pool/main/g/glib2.0/libglib2.0-data_2.74.6-2+deb12u5_all.deb
+Size: 1208668
+SHA256: da703c4b410f97bd059f7ba9d7b4b3032979a73c7727ac16441c5c12e1f722f3
+SHA1: eea69d75c493844adf0b6a169ee182d52e80018f
+MD5sum: 7e2ad9b1ae921ab8e3d1e5d8035f95b1
 Description: Common files for GLib library
  GLib is a library containing many useful C routines for things such
  as trees, hashes, lists, and strings.  It is a useful general-purpose
@@ -19984,7 +19984,7 @@ Description: Font rendering engine for Complex Scripts -- library
 
 Package: libgs-common
 Source: ghostscript
-Version: 10.0.0~dfsg-11+deb12u4
+Version: 10.0.0~dfsg-11+deb12u6
 Architecture: all
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 316
@@ -19994,11 +19994,11 @@ Multi-Arch: foreign
 Homepage: https://www.ghostscript.com/
 Priority: optional
 Section: libs
-Filename: pool/main/g/ghostscript/libgs-common_10.0.0~dfsg-11+deb12u4_all.deb
-Size: 148912
-SHA256: 67e3eb06be7f19ce2b42f4e2669d53805fccaa9dc8e080addd29784570755264
-SHA1: 30a7a170dcb364abed160422a31f9a77a1b6260b
-MD5sum: f8830441743fccb0c53e577e984b23d4
+Filename: pool/main/g/ghostscript/libgs-common_10.0.0~dfsg-11+deb12u6_all.deb
+Size: 149468
+SHA256: 90e70c7c0c7703d856061018da8a4881bf3c5795a055fd43004b665d05656479
+SHA1: 21a75c4656ace4b396a34c9f5b6c1c3f9bf16e0d
+MD5sum: 21fc5338d8096982bd9c3103b15d2ebf
 Description: interpreter for the PostScript language and for PDF - ICC profiles
  GPL Ghostscript is used for PostScript/PDF preview and printing.
  Usually as a back-end to a program such as ghostview,
@@ -20008,20 +20008,20 @@ Description: interpreter for the PostScript language and for PDF - ICC profiles
 
 Package: libgs10
 Source: ghostscript
-Version: 10.0.0~dfsg-11+deb12u4
+Version: 10.0.0~dfsg-11+deb12u6
 Architecture: amd64
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 21778
-Depends: libgs10-common (= 10.0.0~dfsg-11+deb12u4), poppler-data, libc6 (>= 2.34), libcups2 (>= 2.3~b6), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libidn12 (>= 1.13), libijs-0.35 (>= 0.35), libjbig2dec0 (>= 0.16+20190905), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.6), libopenjp2-7 (>= 2.0.0), libpaper1, libpng16-16 (>= 1.6.2-1), libtiff6 (>= 4.0.3), libx11-6, libxt6, zlib1g (>= 1:1.2.0)
+Depends: libgs10-common (= 10.0.0~dfsg-11+deb12u6), poppler-data, libc6 (>= 2.34), libcups2 (>= 2.3~b6), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libidn12 (>= 1.13), libijs-0.35 (>= 0.35), libjbig2dec0 (>= 0.16+20190905), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.6), libopenjp2-7 (>= 2.0.0), libpaper1, libpng16-16 (>= 1.6.2-1), libtiff6 (>= 4.0.3), libx11-6, libxt6, zlib1g (>= 1:1.2.0)
 Multi-Arch: same
 Homepage: https://www.ghostscript.com/
 Priority: optional
 Section: libs
-Filename: pool/main/g/ghostscript/libgs10_10.0.0~dfsg-11+deb12u4_amd64.deb
-Size: 2466516
-SHA256: 20c1914f7642bc353455fc22d21b69d95a279082ac6cbb3bd3af82819fec1c78
-SHA1: 34f04dc1b282c6108c61abba3e6f416ba8eb7d25
-MD5sum: 54576031608a49e5bae9e20e7cce58d8
+Filename: pool/main/g/ghostscript/libgs10_10.0.0~dfsg-11+deb12u6_amd64.deb
+Size: 2466824
+SHA256: f31e1f73dd1f0c7da0e1f3a00007272cd94598f0a216d5a1245b57a648b4c8c6
+SHA1: 115d0aeecf0bdce581202157b000624a6edcf4d7
+MD5sum: 7c51c94991ae2d788be5600f67468000
 Description: interpreter for the PostScript language and for PDF - Library
  GPL Ghostscript is used for PostScript/PDF preview and printing.
  Usually as a back-end to a program such as ghostview,
@@ -20033,7 +20033,7 @@ Description: interpreter for the PostScript language and for PDF - Library
 
 Package: libgs10-common
 Source: ghostscript
-Version: 10.0.0~dfsg-11+deb12u4
+Version: 10.0.0~dfsg-11+deb12u6
 Architecture: all
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 2843
@@ -20045,11 +20045,11 @@ Multi-Arch: foreign
 Homepage: https://www.ghostscript.com/
 Priority: optional
 Section: libs
-Filename: pool/main/g/ghostscript/libgs10-common_10.0.0~dfsg-11+deb12u4_all.deb
-Size: 586240
-SHA256: f0952db8ef6846ed8c01e36c2197b59bdb5825e3315e1729933ce1705e708915
-SHA1: 79d89f1e9d442a7bc654737c29bc57d383f2d579
-MD5sum: de808cc6f7fe4425d20434b2ff22ffc3
+Filename: pool/main/g/ghostscript/libgs10-common_10.0.0~dfsg-11+deb12u6_all.deb
+Size: 586552
+SHA256: 68b3c9a0ba3f0136c71b0bee3c9e34788438edf93b361d239f53d2aa85eb3fe7
+SHA1: 71ca35613d0a3a5bb90117bed26d8835a66ef0c5
+MD5sum: 2c797b1720e5129676bfbd482348713a
 Description: interpreter for the PostScript language and for PDF - common files
  GPL Ghostscript is used for PostScript/PDF preview and printing.
  Usually as a back-end to a program such as ghostview,
@@ -20174,7 +20174,7 @@ Description: GObject-based library for SSDP
 
 Package: libgstreamer-gl1.0-0
 Source: gst-plugins-base1.0
-Version: 1.22.0-3+deb12u2
+Version: 1.22.0-3+deb12u4
 Architecture: amd64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 658
@@ -20186,11 +20186,11 @@ Multi-Arch: same
 Homepage: https://gstreamer.freedesktop.org
 Priority: optional
 Section: libs
-Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-gl1.0-0_1.22.0-3+deb12u2_amd64.deb
-Size: 246276
-SHA256: a29d3a6a9da3ec5ede845f1c4c500809ae009e0cf9dd4d0e65832e684715002a
-SHA1: bd1f140bfa1d5fafd3642e5521d95439ac40cf8e
-MD5sum: 851c50f1820e1a58401d2314e4628282
+Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-gl1.0-0_1.22.0-3+deb12u4_amd64.deb
+Size: 246272
+SHA256: ca9f20999ff9903e592aa85d0db8ce945e1e08a9b56743a94cd561665902c957
+SHA1: 87369e7a47d1d3abfe8f9e596e5c4ad5799f6783
+MD5sum: 5f37eda6ee61ab98dab3e7749babaf72
 Description: GStreamer GL libraries
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -20236,7 +20236,7 @@ Description: GStreamer libraries from the "bad" set
 
 Package: libgstreamer-plugins-base1.0-0
 Source: gst-plugins-base1.0
-Version: 1.22.0-3+deb12u2
+Version: 1.22.0-3+deb12u4
 Architecture: amd64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 3443
@@ -20249,11 +20249,11 @@ Multi-Arch: same
 Homepage: https://gstreamer.freedesktop.org
 Priority: optional
 Section: libs
-Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-0_1.22.0-3+deb12u2_amd64.deb
-Size: 933608
-SHA256: 3b0eb8f4a34b23357daae46eea1c66177a290a32e4c0256ccea297019c70372c
-SHA1: d24b7bacb66ff758101626d4996b13878af76040
-MD5sum: e92b7e46633ec29ecc944959a9adc6d6
+Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-0_1.22.0-3+deb12u4_amd64.deb
+Size: 934792
+SHA256: 44bd3ea65e341662c43d7c868656060f45eda337d9784f397d4d8981a003c727
+SHA1: cd170257450dc7129ec84ef6641515e613c74bba
+MD5sum: 4d46d1bd3dd9f6b73e2400b974124785
 Description: GStreamer libraries from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -20267,10 +20267,10 @@ Description: GStreamer libraries from the "base" set
 
 Package: libgstreamer1.0-0
 Source: gstreamer1.0
-Version: 1.22.0-2
+Version: 1.22.0-2+deb12u1
 Architecture: amd64
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 4413
+Installed-Size: 4418
 Depends: libc6 (>= 2.34), libcap2 (>= 1:2.10), libdw1 (>= 0.126), libglib2.0-0 (>= 2.70.0), libunwind8, libcap2-bin
 Suggests: gstreamer1.0-tools
 Breaks: gstreamer1.0-plugins-bad (<< 1.11.1), gstreamer1.0-plugins-base (<< 1.8.0), libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
@@ -20278,11 +20278,11 @@ Multi-Arch: same
 Homepage: https://gstreamer.freedesktop.org
 Priority: optional
 Section: libs
-Filename: pool/main/g/gstreamer1.0/libgstreamer1.0-0_1.22.0-2_amd64.deb
-Size: 1169172
-SHA256: 85123e30798b028f5d344b06db7720fd64a75a5e85f4bb6d92e65556838a0344
-SHA1: 2dfa38753920121212c013cbd7582b1fb0a21f51
-MD5sum: cc1d10e783f2f7ae52a3190160ca72a3
+Filename: pool/main/g/gstreamer1.0/libgstreamer1.0-0_1.22.0-2+deb12u1_amd64.deb
+Size: 1169664
+SHA256: 97fa34146e892871db0b60b70494b238519c5ae906ddbdd31c39a5a77b5e5499
+SHA1: ba2e41ebe8ec47481ce47d11fe7bd22b41aac5a9
+MD5sum: e4544f104c0ace5f35db834469f60bb9
 Description: Core GStreamer libraries and elements
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -20295,11 +20295,11 @@ Description: Core GStreamer libraries and elements
 
 Package: libgtk-3-0
 Source: gtk+3.0
-Version: 3.24.38-2~deb12u2
+Version: 3.24.38-2~deb12u3
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 10141
-Depends: adwaita-icon-theme, hicolor-icon-theme, shared-mime-info, libatk-bridge2.0-0 (>= 2.15.1), libatk1.0-0 (>= 2.35.1), libc6 (>= 2.34), libcairo-gobject2 (>= 1.14.0), libcairo2 (>= 1.14.0), libcolord2 (>= 0.1.10), libcups2 (>= 1.7.0), libepoxy0 (>= 1.4.3), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.7), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0 (>= 2.59.0), libharfbuzz0b (>= 2.2.0), libpango-1.0-0 (>= 1.45.5), libpangocairo-1.0-0 (>= 1.44.0), libpangoft2-1.0-0 (>= 1.44.0), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.14.91), libwayland-egl1 (>= 1.15.0), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.4.5), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 0.5.0), libxrandr2 (>= 2:1.5.0), libgtk-3-common (>= 3.24.38-2~deb12u2)
+Depends: adwaita-icon-theme, hicolor-icon-theme, shared-mime-info, libatk-bridge2.0-0 (>= 2.15.1), libatk1.0-0 (>= 2.35.1), libc6 (>= 2.34), libcairo-gobject2 (>= 1.14.0), libcairo2 (>= 1.14.0), libcolord2 (>= 0.1.10), libcups2 (>= 1.7.0), libepoxy0 (>= 1.4.3), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.7), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0 (>= 2.59.0), libharfbuzz0b (>= 2.2.0), libpango-1.0-0 (>= 1.45.5), libpangocairo-1.0-0 (>= 1.44.0), libpangoft2-1.0-0 (>= 1.44.0), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.14.91), libwayland-egl1 (>= 1.15.0), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.4.5), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 0.5.0), libxrandr2 (>= 2:1.5.0), libgtk-3-common (>= 3.24.38-2~deb12u3)
 Recommends: libgtk-3-bin, librsvg2-common
 Suggests: gvfs
 Provides: gtk3-binver-3.0.0
@@ -20307,11 +20307,11 @@ Multi-Arch: same
 Homepage: https://www.gtk.org/
 Priority: optional
 Section: libs
-Filename: pool/main/g/gtk+3.0/libgtk-3-0_3.24.38-2~deb12u2_amd64.deb
-Size: 2843776
-SHA256: 8732fc4d37dc73eba8d393c61ba6ef4e003bb3e23fbe47528190ee3421dd50d0
-SHA1: c17573c51d54a98814e6db4736d8d16e61bba28a
-MD5sum: bc624bf43e566fc1fbdf87f40b66891e
+Filename: pool/main/g/gtk+3.0/libgtk-3-0_3.24.38-2~deb12u3_amd64.deb
+Size: 2846524
+SHA256: 0ff7375c98b5a8d6aafc6096b21d9f7bae4ecb581d31fce5d37be18f55b489a2
+SHA1: 03efa100984b2923edc21e2b814e829d390bf85f
+MD5sum: a03ffb1b7ab9acb8bd9a3371e47313be
 Description: GTK graphical user interface library
  GTK is a multi-platform toolkit for creating graphical user
  interfaces. Offering a complete set of widgets, GTK is suitable
@@ -20322,22 +20322,22 @@ Description: GTK graphical user interface library
 
 Package: libgtk-3-bin
 Source: gtk+3.0
-Version: 3.24.38-2~deb12u2
+Version: 3.24.38-2~deb12u3
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 308
-Depends: gtk-update-icon-cache, libc6 (>= 2.34), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0 (>= 2.57.2), libgtk-3-0 (>= 3.24.38-2~deb12u2), libgtk-3-common (>= 3.24.38-2~deb12u2)
+Depends: gtk-update-icon-cache, libc6 (>= 2.34), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0 (>= 2.57.2), libgtk-3-0 (>= 3.24.38-2~deb12u3), libgtk-3-common (>= 3.24.38-2~deb12u3)
 Breaks: gtk-3-examples (<< 3.24.13)
 Replaces: gtk-3-examples (<< 3.24.13)
 Multi-Arch: foreign
 Homepage: https://www.gtk.org/
 Priority: optional
 Section: misc
-Filename: pool/main/g/gtk+3.0/libgtk-3-bin_3.24.38-2~deb12u2_amd64.deb
-Size: 82620
-SHA256: 18f30bff28a879596360c8b137901364c42855da5c4bdb10818cbcb43feb4295
-SHA1: 6a7ccc7f414b0c2c76689e2591287d8c9813e66c
-MD5sum: e25a805750ed3ea5e17f49cee32723d9
+Filename: pool/main/g/gtk+3.0/libgtk-3-bin_3.24.38-2~deb12u3_amd64.deb
+Size: 82656
+SHA256: ed8aa08d19ce3454a9092f7c168b463fd727600e7984d630e6cc6bd924c606b0
+SHA1: 1bfe63f3f9ca2c35e3f3e7b2c2841740cf1b1cb6
+MD5sum: bb9e6d391c8069a132688474c68a7a8b
 Description: programs for the GTK graphical user interface library
  GTK is a multi-platform toolkit for creating graphical user
  interfaces. Offering a complete set of widgets, GTK is suitable
@@ -20349,7 +20349,7 @@ Description: programs for the GTK graphical user interface library
 
 Package: libgtk-3-common
 Source: gtk+3.0
-Version: 3.24.38-2~deb12u2
+Version: 3.24.38-2~deb12u3
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 26504
@@ -20361,11 +20361,11 @@ Multi-Arch: foreign
 Homepage: https://www.gtk.org/
 Priority: optional
 Section: misc
-Filename: pool/main/g/gtk+3.0/libgtk-3-common_3.24.38-2~deb12u2_all.deb
-Size: 3893028
-SHA256: 44bac66c53b0e5ae534828abef0a57160d2a1759eb83bd7ed5cc5f8e94a7a584
-SHA1: 9a4aa666710708320d8246da17819dfc4110ac16
-MD5sum: a07788820c9bf5cc68cbbf4269e3e59c
+Filename: pool/main/g/gtk+3.0/libgtk-3-common_3.24.38-2~deb12u3_all.deb
+Size: 3895056
+SHA256: f2642d127d85440acbfc2ed404d3932d8b2fbe8a576ead7f93f35ac1fa999c92
+SHA1: 56a81671b1c3a0b56bab77f8caf14eadd8a67cbf
+MD5sum: ea907e2a098712e49dd7459aa0a9ab38
 Description: common files for the GTK graphical user interface library
  GTK is a multi-platform toolkit for creating graphical user
  interfaces. Offering a complete set of widgets, GTK is suitable
@@ -20741,7 +20741,7 @@ Description: entropy source using the HAVEGE algorithm - shared library
 
 Package: libheif1
 Source: libheif
-Version: 1.15.1-1
+Version: 1.15.1-1+deb12u1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 659
@@ -20750,11 +20750,11 @@ Multi-Arch: same
 Homepage: http://www.libheif.org
 Priority: optional
 Section: libs
-Filename: pool/main/libh/libheif/libheif1_1.15.1-1_amd64.deb
-Size: 215492
-SHA256: b81c29562345b88b809ee63acc6ef8bb7a1c0cbde2cf5959276da8dfdd3b9c26
-SHA1: 5cc84966c09011311729c6ca3683ab20f42f52cd
-MD5sum: a41c10429aa9727ad9751e2560d40d5d
+Filename: pool/main/libh/libheif/libheif1_1.15.1-1+deb12u1_amd64.deb
+Size: 215348
+SHA256: 13a0a3a6e22ddf5eb891b7c7873ace79f13f2c96473576e5f7da2ae3228a2113
+SHA1: 6d8d291dcec1f05a59d9712b46946e1c6c73ec1a
+MD5sum: 548fef31d81accc00bc48be783a6820c
 Description: ISO/IEC 23008-12:2017 HEIF file format decoder - shared library
  libheif is an ISO/IEC 23008-12:2017 HEIF file format decoder. HEIF is a new
  image file format employing HEVC (h.265) image coding for the best compression
@@ -22032,20 +22032,20 @@ Description: C library for encoding, decoding and manipulating JSON data
 
 Package: libjavascriptcoregtk-4.0-18
 Source: webkit2gtk
-Version: 2.44.3-1~deb12u1
+Version: 2.46.5-1~deb12u1
 Architecture: amd64
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 28799
+Installed-Size: 29503
 Depends: libatomic1 (>= 4.8), libc6 (>= 2.34), libgcc-s1 (>= 7), libglib2.0-0 (>= 2.65.1), libicu72 (>= 72.1~rc-1~), libstdc++6 (>= 12), libsystemd0
 Multi-Arch: same
 Homepage: https://webkitgtk.org/
 Priority: optional
 Section: libs
-Filename: pool/main/w/webkit2gtk/libjavascriptcoregtk-4.0-18_2.44.3-1~deb12u1_amd64.deb
-Size: 7619436
-SHA256: 89875ccd3bb4625b9160048db2c51dd60998e86d764065e093d7fe9f22bb8f3a
-SHA1: aa96bc42333ff9eaca495b5f71f7fda0729b8203
-MD5sum: a35f2216f359d7dfaee2352c307f5227
+Filename: pool/main/w/webkit2gtk/libjavascriptcoregtk-4.0-18_2.46.5-1~deb12u1_amd64.deb
+Size: 7829108
+SHA256: d49f0405fde722a6235023957b87fc0eac01e363bb97795b78856ab0184783c8
+SHA1: cd17206e102065b51f50e25a79db20a6f7c0dd9f
+MD5sum: 6a2fee51d36e2cc6b731c0292c098f16
 Description: JavaScript engine library from WebKitGTK
  JavaScriptCore is the JavaScript engine used in WebKit. It consists
  of the following building blocks: lexer, parser, start-up interpreter
@@ -28282,7 +28282,7 @@ Description: shared libraries for mod music based on ModPlug
 
 Package: libmount1
 Source: util-linux
-Version: 2.38.1-5+deb12u1
+Version: 2.38.1-5+deb12u3
 Architecture: amd64
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
 Installed-Size: 454
@@ -28292,11 +28292,11 @@ Multi-Arch: same
 Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
 Priority: optional
 Section: libs
-Filename: pool/main/u/util-linux/libmount1_2.38.1-5+deb12u1_amd64.deb
-Size: 165416
-SHA256: a259d82ccbcfa230b492752d8d525d0a40d7938bf62fb90e83e16048ee88bf83
-SHA1: f9f40b6d2e220d7d7c29eb1b5fd9a92440697407
-MD5sum: a428fb0c8a073070c43ae750882b0088
+Filename: pool/main/u/util-linux/libmount1_2.38.1-5+deb12u3_amd64.deb
+Size: 165732
+SHA256: f46e2d6b006951825adde9757790b6609d7c66c7700f9b68f3db913eaac323c3
+SHA1: 5b2bc6afce59ff63f04ae4a443bf883a5f7bec88
+MD5sum: a53ff291abc5ad6dfb815195daab9464
 Description: device mounting library
  This device mounting library is used by mount and umount helpers.
 
@@ -28467,7 +28467,7 @@ Description: multiple precision floating-point computation
 
 Package: libmpg123-0
 Source: mpg123
-Version: 1.31.2-1
+Version: 1.31.2-1+deb12u1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 389
@@ -28476,11 +28476,11 @@ Multi-Arch: same
 Homepage: http://mpg123.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mpg123/libmpg123-0_1.31.2-1_amd64.deb
-Size: 146780
-SHA256: a4634dbc36fb15e97f167e5f15702c9f95b1108a79a0df9a6a63f1494d72b45c
-SHA1: ba47e35b075f177e00e8b37163ceeac0296227c2
-MD5sum: 3d48299cf7d088d2c88f88c603059e13
+Filename: pool/main/m/mpg123/libmpg123-0_1.31.2-1+deb12u1_amd64.deb
+Size: 146980
+SHA256: a10ad0d59995b859797a5f20d2833672051d0b2c7dab4c71f2e79258b2e3f631
+SHA1: 5100a34f19ab549d787926342ceb0395ad8653fc
+MD5sum: 2d44cb8a5caf4b39c083c859dd492852
 Description: MPEG layer 1/2/3 audio decoder (shared library)
  mpg123 is a real time MPEG 1.0/2.0/2.5 audio player/decoder for layers
  1, 2 and 3 (MPEG 1.0 layer 3 also known as MP3).
@@ -29061,7 +29061,7 @@ Description: Netfilter nftables userspace API library
 
 Package: libnghttp2-14
 Source: nghttp2
-Version: 1.52.0-1+deb12u1
+Version: 1.52.0-1+deb12u2
 Architecture: amd64
 Maintainer: Tomasz Buchert <tomasz@debian.org>
 Installed-Size: 220
@@ -29070,11 +29070,11 @@ Multi-Arch: same
 Homepage: https://nghttp2.org/
 Priority: optional
 Section: libs
-Filename: pool/main/n/nghttp2/libnghttp2-14_1.52.0-1+deb12u1_amd64.deb
-Size: 72444
-SHA256: ee690db978151ae372dcede4bba26c299d985046e6dc708bb907961901b73b6a
-SHA1: f7edaa178abf9858d1a087bc60dd821a9c9937df
-MD5sum: 2b705b9f8a7da13f789bee7e6d4d463c
+Filename: pool/main/n/nghttp2/libnghttp2-14_1.52.0-1+deb12u2_amd64.deb
+Size: 72956
+SHA256: dbe3eb8c831e654ac7d5cf045d605d53fd763e8ebc238607c25f301996103bb9
+SHA1: 3e9d445eee1908ba22607514915f6d7cdbebf012
+MD5sum: ece467e644497f898d202ea0e5955cb2
 Description: library implementing HTTP/2 protocol (shared library)
  This is an implementation of the Hypertext Transfer Protocol version
  2 in C. The framing layer of HTTP/2 is implemented as a reusable C
@@ -29502,20 +29502,20 @@ Description: NSS module for Multicast DNS name resolution
 
 Package: libnss-systemd
 Source: systemd
-Version: 252.30-1~deb12u2
+Version: 252.33-1~deb12u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 388
-Depends: libc6 (>= 2.34), libcap2 (>= 1:2.10), systemd (= 252.30-1~deb12u2)
+Depends: libc6 (>= 2.34), libcap2 (>= 1:2.10), systemd (= 252.33-1~deb12u1)
 Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: standard
 Section: admin
-Filename: pool/main/s/systemd/libnss-systemd_252.30-1~deb12u2_amd64.deb
-Size: 163512
-SHA256: c485d86865d4055056a795482609075fd8c21a42aed822a79767cb18cbc84455
-SHA1: de0a16d73852021ee08653b3632c3b01509eb503
-MD5sum: 21afd64e076a91b9917d9e8ac49772b2
+Filename: pool/main/s/systemd/libnss-systemd_252.33-1~deb12u1_amd64.deb
+Size: 163500
+SHA256: dc7bde89a16e8977a874612d3ae786d5ebc165e904932175f490faeacef0b476
+SHA1: 2d34a30e46e7bf33cc7f5bae443c747d9dc471d5
+MD5sum: 7c40f663db9601583788537487e26efd
 Description: nss module providing dynamic user and group name resolution
  nss-systemd is a plug-in module for the GNU Name Service Switch (NSS)
  functionality of the GNU C Library (glibc), providing UNIX user and group name
@@ -29527,7 +29527,7 @@ Description: nss module providing dynamic user and group name resolution
 
 Package: libnss3
 Source: nss
-Version: 2:3.87.1-1
+Version: 2:3.87.1-1+deb12u1
 Architecture: amd64
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
 Installed-Size: 4114
@@ -29536,11 +29536,11 @@ Multi-Arch: same
 Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS
 Priority: optional
 Section: libs
-Filename: pool/main/n/nss/libnss3_3.87.1-1_amd64.deb
-Size: 1330892
-SHA256: 73af0c433bbdbabaad28b223c5d2f9c8aa399f764a72cfc9c1a625c3d587f279
-SHA1: 9a7ae1f5b1be983c5efebb1564c9e2b537d5fcd2
-MD5sum: c7ae0550a72a0182eb5f2cc8b9116625
+Filename: pool/main/n/nss/libnss3_3.87.1-1+deb12u1_amd64.deb
+Size: 1331080
+SHA256: be5698147b2f79ad5ff18bb0d06c24640f2e6f554a2668960e88806a8577cc3e
+SHA1: ac7c1eb7607a40771ef69b5d7edd4fefbb330364
+MD5sum: 1b9542eb4f27a2e1b41d0c902fa8939e
 Description: Network Security Service libraries
  This is a set of libraries designed to support cross-platform development
  of security-enabled client and server applications. It can support SSLv2
@@ -29548,8 +29548,8 @@ Description: Network Security Service libraries
  other security standards.
 
 Package: libntfs-3g89
-Source: ntfs-3g (1:2022.10.3-1)
-Version: 1:2022.10.3-1+b1
+Source: ntfs-3g
+Version: 1:2022.10.3-1+deb12u2
 Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 366
@@ -29558,11 +29558,11 @@ Multi-Arch: same
 Homepage: https://github.com/tuxera/ntfs-3g/wiki
 Priority: optional
 Section: libs
-Filename: pool/main/n/ntfs-3g/libntfs-3g89_2022.10.3-1+b1_amd64.deb
-Size: 163852
-SHA256: c97bdb7ff82350610ed475cce9a34ae9ff14496a37167aa1772548b1909a5750
-SHA1: b99df5efbffab0a25bf3250ed58ab0aa9b61d0b5
-MD5sum: 91b9a4258ba76126a3e91cd615bb0bfe
+Filename: pool/main/n/ntfs-3g/libntfs-3g89_2022.10.3-1+deb12u2_amd64.deb
+Size: 163660
+SHA256: fdb66e07cd1ff71bff022311c3fa6d8905f3e7fcb5616e3e649b3877313cea0c
+SHA1: 2aa6d4e073c75f0a4436714668053c5617697087
+MD5sum: d018fac76d5f73dc10e8a9a546ffd2aa
 Description: read/write NTFS driver for FUSE (runtime library)
  NTFS-3G uses FUSE (Filesystem in Userspace) to provide support for the NTFS
  filesystem used by Microsoft Windows.
@@ -29989,7 +29989,7 @@ Description: Library of Optimized Inner Loops Runtime Compiler
 
 Package: libostree-1-1
 Source: ostree
-Version: 2022.7-2
+Version: 2022.7-2+deb12u1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 880
@@ -29999,11 +29999,11 @@ Multi-Arch: same
 Homepage: https://github.com/ostreedev/ostree/
 Priority: optional
 Section: libs
-Filename: pool/main/o/ostree/libostree-1-1_2022.7-2_amd64.deb
-Size: 321264
-SHA256: 22107088a3b736bcc85257a79c23b0870f41a2f78706882960e3bb7510f9495c
-SHA1: c2c2eccbe48ad0346c04f954807cdf2ee202d76f
-MD5sum: d24a3b014df8b32f0e217012449812f9
+Filename: pool/main/o/ostree/libostree-1-1_2022.7-2+deb12u1_amd64.deb
+Size: 321140
+SHA256: b446fb83eca5dc311891992f3d7b8a512a937445edf2afe7d57f39cf627791b0
+SHA1: 27ae9e14474f0693b8a353eda2e8d375302a5d74
+MD5sum: 6b13689e9407b3964fe129dca9e0fc27
 Description: content-addressed filesystem for operating system binaries (library)
  libostree is a library for managing bootable, immutable, versioned
  filesystem trees. It is like git in that it checksums individual files
@@ -30285,22 +30285,22 @@ Description: Runtime support for the PAM library
 
 Package: libpam-systemd
 Source: systemd
-Version: 252.30-1~deb12u2
+Version: 252.33-1~deb12u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 531
-Depends: libc6 (>= 2.34), libcap2 (>= 1:2.10), libpam0g (>= 0.99.7.1), systemd (= 252.30-1~deb12u2), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
+Depends: libc6 (>= 2.34), libcap2 (>= 1:2.10), libpam0g (>= 0.99.7.1), systemd (= 252.33-1~deb12u1), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
 Recommends: dbus-user-session
-Provides: default-logind (= 252.30-1~deb12u2), logind (= 252.30-1~deb12u2)
+Provides: default-logind (= 252.33-1~deb12u1), logind (= 252.33-1~deb12u1)
 Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: standard
 Section: admin
-Filename: pool/main/s/systemd/libpam-systemd_252.30-1~deb12u2_amd64.deb
-Size: 225008
-SHA256: 18f654fcf04c87b36bc232e86b04cbe4a388d7da55d26a4a483b469b1ed5fbfb
-SHA1: 9d99164c9d3ebe883b2193fe587e25f5469e0044
-MD5sum: 7de9687f910205454330078a558a7396
+Filename: pool/main/s/systemd/libpam-systemd_252.33-1~deb12u1_amd64.deb
+Size: 225180
+SHA256: 650d69f80a9549b4a909854ff3b61da1640b7e8e0733b7ddf95824f3c0dfbb49
+SHA1: f6075f7eceafe356d8cce89b28e606bc0831803c
+MD5sum: 86b8869f439cd536658929603c349888
 Description: system and service manager - PAM module
  This package contains the PAM module which registers user sessions in
  the systemd control group hierarchy for logind.
@@ -31510,20 +31510,20 @@ Description: automatic proxy configuration management library (shared)
 
 Package: libpskc0
 Source: oath-toolkit
-Version: 2.6.7-3.1
+Version: 2.6.7-3.1+deb12u1
 Architecture: amd64
 Maintainer: OATH Toolkit Team <oath-toolkit-help@nongnu.org>
 Installed-Size: 167
-Depends: libc6 (>= 2.14), libxml2 (>= 2.7.4), libxmlsec1 (>= 1.2.34), libxmlsec1-openssl (>= 1.2.34)
+Depends: libc6 (>= 2.14), libxml2 (>= 2.7.4), libxmlsec1 (>= 1.2.31), libxmlsec1-openssl (>= 1.2.31)
 Multi-Arch: same
 Homepage: https://www.nongnu.org/oath-toolkit/
 Priority: optional
 Section: libs
-Filename: pool/main/o/oath-toolkit/libpskc0_2.6.7-3.1_amd64.deb
-Size: 83816
-SHA256: 4e548e992464b9e3d11db34de00b63e94c37a2130ae2dd823ca6ca4398361da4
-SHA1: 9ff1779bf0669812b0eaa7966b5cd859c0083ade
-MD5sum: 931e38feebefd19e7cb5dff29ccf5035
+Filename: pool/main/o/oath-toolkit/libpskc0_2.6.7-3.1+deb12u1_amd64.deb
+Size: 83976
+SHA256: b8fc7e1b7a6fcac81a0ce6e343dd320167800a8c8a142f869818b7895d6d93da
+SHA1: 4411928ec4285ed291f7ef0384698f423c77a0e7
+MD5sum: 53ddacd235078b75869368334b648bdb
 Description: OATH Toolkit Libpskc library
  OATH Toolkit provide components to build one-time password
  authentication systems.  It contains shared C libraries, command line
@@ -34087,7 +34087,7 @@ Description: X11 Session Management library
 
 Package: libsmartcols1
 Source: util-linux
-Version: 2.38.1-5+deb12u1
+Version: 2.38.1-5+deb12u3
 Architecture: amd64
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
 Installed-Size: 289
@@ -34096,11 +34096,11 @@ Multi-Arch: same
 Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
 Priority: optional
 Section: libs
-Filename: pool/main/u/util-linux/libsmartcols1_2.38.1-5+deb12u1_amd64.deb
-Size: 106624
-SHA256: 81c54dabc8ba03116f92c5412c9e0a7bafbde9533fc08e5dc4cba19b3f3a05d8
-SHA1: ec5a3c3d7e0477fce41218150169451359bad7f7
-MD5sum: e4b638d03be6b1c77f67a0b973877033
+Filename: pool/main/u/util-linux/libsmartcols1_2.38.1-5+deb12u3_amd64.deb
+Size: 106776
+SHA256: 84088c6895fc07538fc51624899f3f71835188e0d38ebc3812097ac13da523b0
+SHA1: 73ae9ae2e0287cf58389ea622f739775e17717d6
+MD5sum: 923f9e17b8d39589c4b8e078788a7bc5
 Description: smart column output alignment library
  This smart column output alignment library is used by fdisk utilities.
 
@@ -34674,7 +34674,7 @@ Description: Speech recognition tool - shared library
 
 Package: libsqlite3-0
 Source: sqlite3
-Version: 3.40.1-2
+Version: 3.40.1-2+deb12u1
 Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 1682
@@ -34684,11 +34684,11 @@ Multi-Arch: same
 Homepage: https://www.sqlite.org/
 Priority: optional
 Section: libs
-Filename: pool/main/s/sqlite3/libsqlite3-0_3.40.1-2_amd64.deb
-Size: 837376
-SHA256: a8b11a1664a998cc2499fb04327d1f6c4e8f77b78ea8b6f8418d96fc54e3731f
-SHA1: b7a5c4685ef74d45c1f9d00b303bcb3dfba4fff6
-MD5sum: e022be8587bf3fe6303df0212b6f9541
+Filename: pool/main/s/sqlite3/libsqlite3-0_3.40.1-2+deb12u1_amd64.deb
+Size: 838680
+SHA256: f152f8a4c4c78bf5762e324bcdabd18a7211944a928435ff270ad337a27aaa5f
+SHA1: 1afa412ff3c01eafd52ba4a682ace4f6049200ef
+MD5sum: c514d4edfccf85256b9a0c1d13f1f2be
 Description: SQLite 3 shared library
  SQLite is a C library that implements an SQL database engine.
  Programs that link with the SQLite library can have SQL database
@@ -34748,7 +34748,7 @@ Description: library for serialising LV2 atoms to/from Turtle
 
 Package: libsrt1.5-gnutls
 Source: srt
-Version: 1.5.1-1
+Version: 1.5.1-1+deb12u1
 Architecture: amd64
 Maintainer: Florian Ernst <florian@debian.org>
 Installed-Size: 911
@@ -34759,11 +34759,11 @@ Multi-Arch: same
 Homepage: https://github.com/Haivision/srt
 Priority: optional
 Section: libs
-Filename: pool/main/s/srt/libsrt1.5-gnutls_1.5.1-1_amd64.deb
-Size: 312976
-SHA256: 951f9483868ee2b5991558bb4ced414948ef65b6494b7c7943ac56bae5e8885c
-SHA1: dd02b8a73d537455297308874ba2f1ec1e49487c
-MD5sum: 7f1f6f07b0e51ecb5010d04a697a2354
+Filename: pool/main/s/srt/libsrt1.5-gnutls_1.5.1-1+deb12u1_amd64.deb
+Size: 313060
+SHA256: 7a785222cd985b93b675252c0a3510cfcd920f0d531ab674fd4b4878d6646581
+SHA1: 874f93948bf623c92401eea34d81a66a6979c4c0
+MD5sum: 7dc02b1c621564134f0f49b0c609fb4e
 Description: Secure Reliable Transport UDP streaming library (GnuTLS flavour)
  SRT is a latency-aware UDP transport mechanism optimized for video streams.
  It detects and compensates for jitter and bandwidth fluctuations due to
@@ -34901,21 +34901,21 @@ Description: SSH2 client-side library
 
 Package: libssl-dev
 Source: openssl
-Version: 3.0.14-1~deb12u2
+Version: 3.0.15-1~deb12u1
 Architecture: amd64
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
-Installed-Size: 12346
-Depends: libssl3 (= 3.0.14-1~deb12u2)
+Installed-Size: 12350
+Depends: libssl3 (= 3.0.15-1~deb12u1)
 Suggests: libssl-doc
 Multi-Arch: same
 Homepage: https://www.openssl.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/o/openssl/libssl-dev_3.0.14-1~deb12u2_amd64.deb
-Size: 2437864
-SHA256: 5872159886cc8dcd44d086aec30cde7719e81deb3e8b07745f18cc85f795d8b5
-SHA1: a5b9d28feb2bfcad42f98e94291c1de5e75657dd
-MD5sum: 7adddbafe9dca945f4de8c2562b85113
+Filename: pool/main/o/openssl/libssl-dev_3.0.15-1~deb12u1_amd64.deb
+Size: 2438820
+SHA256: a79bf344b018cbb6f70802d0700a3548bfa163f2b70f50cf7e853e770023a799
+SHA1: bdb80aae924415bcecc3039ae6be75aa2fdc0f75
+MD5sum: 1007f938f36045f76f4f104ec3efc7c8
 Description: Secure Sockets Layer toolkit - development files
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
@@ -34926,7 +34926,7 @@ Description: Secure Sockets Layer toolkit - development files
 
 Package: libssl3
 Source: openssl
-Version: 3.0.14-1~deb12u2
+Version: 3.0.15-1~deb12u1
 Architecture: amd64
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
 Installed-Size: 6021
@@ -34935,11 +34935,11 @@ Multi-Arch: same
 Homepage: https://www.openssl.org/
 Priority: optional
 Section: libs
-Filename: pool/main/o/openssl/libssl3_3.0.14-1~deb12u2_amd64.deb
-Size: 2024288
-SHA256: b308a8fd9889fd7e57b801511e3f42a203675b6b0087455a977d25b7633a1296
-SHA1: 68b793c03778544fc4e4deef71508cd78e5bb5db
-MD5sum: b1d895ecceeb700aad9d4d75dec8a8b8
+Filename: pool/main/o/openssl/libssl3_3.0.15-1~deb12u1_amd64.deb
+Size: 2025188
+SHA256: d7897e6c55a8d9e229dcf16b0b1d472d7f7be741b2b3b2ac624908ff63215a93
+SHA1: 3f62405c693b69a64c2bf5afaa6e5cf0c43d6033
+MD5sum: 593ae6802b6d38c7763748cd6ba5ed15
 Description: Secure Sockets Layer toolkit - shared libraries
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
@@ -35170,20 +35170,20 @@ Description: FFmpeg library for image scaling and various conversions - runtime 
 
 Package: libsystemd-shared
 Source: systemd
-Version: 252.30-1~deb12u2
+Version: 252.33-1~deb12u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 5341
+Installed-Size: 5345
 Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.24), libc6 (>= 2.36), libcap2 (>= 1:2.10), libcrypt1 (>= 1:4.4.0), libgcrypt20 (>= 1.10.0), libip4tc2 (>= 1.8.3), libkmod2 (>= 15), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.4.1), libselinux1 (>= 3.1~), libssl3 (>= 3.0.0), libzstd1 (>= 1.5.2)
 Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libsystemd-shared_252.30-1~deb12u2_amd64.deb
-Size: 1694096
-SHA256: 6af8abb3ae1ef226b8dfff68ec30273f4b2dba73333bb843060c8223db66d67b
-SHA1: 6926d24bddf6145b21997b205c408d9b85aacbce
-MD5sum: b5835fdf16c6a1bfd243c3309abfb9de
+Filename: pool/main/s/systemd/libsystemd-shared_252.33-1~deb12u1_amd64.deb
+Size: 1691172
+SHA256: 41671ab0952b1509fdccda138ea89326a6606dd304fe56e5b9b1481dd5973900
+SHA1: 6fb2bb5d41ba3bb75c1171442f4eab770ba688ef
+MD5sum: b2efa0e2bb06731a7dee77850f6b8657
 Description: systemd shared private library
  This internal shared library provides common code used by various systemd
  components. It is supposed to decrease memory and disk footprint.
@@ -35191,7 +35191,7 @@ Description: systemd shared private library
 
 Package: libsystemd0
 Source: systemd
-Version: 252.30-1~deb12u2
+Version: 252.33-1~deb12u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 908
@@ -35200,11 +35200,11 @@ Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libsystemd0_252.30-1~deb12u2_amd64.deb
-Size: 331856
-SHA256: 25b3d3415228272059a2f2e60f36e361fcdbcf6f9f408cbdd47806743c0afcdf
-SHA1: c26450d29b7818a70a00fa6dc47c89281ad581d1
-MD5sum: 32a053e306b31abbea08da02af490dfc
+Filename: pool/main/s/systemd/libsystemd0_252.33-1~deb12u1_amd64.deb
+Size: 332224
+SHA256: 812d59afa125e9aaed610808fe32b1d1bb952d473c436f71a9b6befb4037ca1d
+SHA1: 83102aac02c4f59f7c4c90cc2a4f9c4e2fab4304
+MD5sum: fd87be9a353d45149bfa744460771fc8
 Description: systemd utility library
  This library provides APIs to interface with various system components such as
  the system journal, the system service manager, D-Bus and more.
@@ -35604,20 +35604,20 @@ Description: Perl module to order associative arrays
 
 Package: libtiff6
 Source: tiff
-Version: 4.5.0-6+deb12u1
+Version: 4.5.0-6+deb12u2
 Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 711
+Installed-Size: 716
 Depends: libc6 (>= 2.33), libdeflate0 (>= 1.0), libjbig0 (>= 2.0), libjpeg62-turbo (>= 1.3.1), liblerc4 (>= 3.0), liblzma5 (>= 5.1.1alpha+20120614), libwebp7 (>= 1.2.4), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
 Multi-Arch: same
 Homepage: https://libtiff.gitlab.io/libtiff/
 Priority: optional
 Section: libs
-Filename: pool/main/t/tiff/libtiff6_4.5.0-6+deb12u1_amd64.deb
-Size: 315604
-SHA256: 7900a203b9b0e7db923882701e852e3c95a229a3bfb0b517531f6a679707e477
-SHA1: 8b7aff17a78e02d3062a54006706a0aff7146552
-MD5sum: 51982b2bf3139bc8f3c7c4ed5da3e8fe
+Filename: pool/main/t/tiff/libtiff6_4.5.0-6+deb12u2_amd64.deb
+Size: 316108
+SHA256: f1f1c6f9efe695d2de4d4a204badd4895851a613292dd3023b5caa0b838d2b41
+SHA1: 095134d7206ed194a8f0008ec836786b7e27b78c
+MD5sum: 7c48f6b733a7901cac17c4da018648c3
 Description: Tag Image File Format (TIFF) library
  libtiff is a library providing support for the Tag Image File Format
  (TIFF), a widely used format for storing image data.  This package
@@ -36204,7 +36204,7 @@ Description: universal charset detection library - shared library
 
 Package: libudev1
 Source: systemd
-Version: 252.30-1~deb12u2
+Version: 252.33-1~deb12u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 239
@@ -36213,11 +36213,11 @@ Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libudev1_252.30-1~deb12u2_amd64.deb
-Size: 108528
-SHA256: 6f14f85f34c2f5036c12260190f87cae83fcf288ef2df2bf6109d538b8617fd1
-SHA1: d5f7286fe91114d69b5570b1464b821e4b95cde3
-MD5sum: 5eee6ea631625e3637d3c02479ef2ce6
+Filename: pool/main/s/systemd/libudev1_252.33-1~deb12u1_amd64.deb
+Size: 108644
+SHA256: 60400432fcfe694f28f5085021d6c9cee5028772d4ddf8a293190a59120c02ca
+SHA1: 49cf6f872b0640c56487d1d84ffe5770e474f6c9
+MD5sum: b805967a603d7cabd8a42ea1b6ee4c3d
 Description: libudev shared library
  This library provides APIs to introspect and enumerate devices on the local
  system.
@@ -36591,7 +36591,7 @@ Description: privileged helper for utmp/wtmp updates (runtime)
 
 Package: libuuid1
 Source: util-linux
-Version: 2.38.1-5+deb12u1
+Version: 2.38.1-5+deb12u3
 Architecture: amd64
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
 Installed-Size: 79
@@ -36601,11 +36601,11 @@ Multi-Arch: same
 Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
 Priority: optional
 Section: libs
-Filename: pool/main/u/util-linux/libuuid1_2.38.1-5+deb12u1_amd64.deb
-Size: 28580
-SHA256: 1ff16517fd1cfaa266de47255b98c44ff51e8a1653f7d8f1fe9c386ff0f1aa7e
-SHA1: 00064727622aa3db4f3dc6bed69734dad4ef552b
-MD5sum: 4590de67ab21ae9e4344896731fce903
+Filename: pool/main/u/util-linux/libuuid1_2.38.1-5+deb12u3_amd64.deb
+Size: 28784
+SHA256: 5fff398321da62d28a842bcbabd193d72ae21724962c029dc32b1dc6b2deaeaf
+SHA1: cc0777e2801bbdaf73751f122c8817525fe1ca42
+MD5sum: 7122dc9ec72027305f1b8b11dcfa9140
 Description: Universally Unique ID library
  The libuuid library generates and parses 128-bit Universally Unique
  IDs (UUIDs). A UUID is an identifier that is unique within the space
@@ -37547,22 +37547,22 @@ Description: Plasma Workspace for KF5 library
 
 Package: libwebkit2gtk-4.0-37
 Source: webkit2gtk
-Version: 2.44.3-1~deb12u1
+Version: 2.46.5-1~deb12u1
 Architecture: amd64
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 76813
-Depends: libjavascriptcoregtk-4.0-18 (= 2.44.3-1~deb12u1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatk1.0-0 (>= 1.32.0), libavif15 (>= 0.11.1), libc6 (>= 2.35), libcairo2 (>= 1.15.12), libdrm2 (>= 2.4.75), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.10.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.70.0), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-bad1.0-0 (>= 1.22.0), libgstreamer-plugins-base1.0-0 (>= 1.20.0), libgstreamer1.0-0 (>= 1.22.0), libgtk-3-0 (>= 3.23.0), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.4.2), libhyphen0 (>= 2.7.1), libicu72 (>= 72.1~rc-1~), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup2.4-1 (>= 2.69.90), libsqlite3-0 (>= 3.7.15), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.2.4), libwebpdemux2 (>= 1.2.4), libwoff1 (>= 1.0.0), libx11-6, libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
+Installed-Size: 80816
+Depends: libjavascriptcoregtk-4.0-18 (= 2.46.5-1~deb12u1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatk1.0-0 (>= 1.32.0), libavif15 (>= 0.11.1), libc6 (>= 2.35), libcairo2 (>= 1.14.0), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.10.0), libglib2.0-0 (>= 2.70.0), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-bad1.0-0 (>= 1.22.0), libgstreamer-plugins-base1.0-0 (>= 1.20.0), libgstreamer1.0-0 (>= 1.22.0), libgtk-3-0 (>= 3.23.0), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), libicu72 (>= 72.1~rc-1~), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup2.4-1 (>= 2.69.90), libsqlite3-0 (>= 3.7.15), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.2.4), libwebpdemux2 (>= 1.2.4), libwebpmux3 (>= 1.2.4), libwoff1 (>= 1.0.0), libx11-6, libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
 Recommends: gstreamer1.0-gl, libgl1-mesa-dri, xdg-desktop-portal-gtk, gstreamer1.0-libav, gstreamer1.0-plugins-bad
 Suggests: gstreamer1.0-alsa
 Multi-Arch: same
 Homepage: https://webkitgtk.org/
 Priority: optional
 Section: libs
-Filename: pool/main/w/webkit2gtk/libwebkit2gtk-4.0-37_2.44.3-1~deb12u1_amd64.deb
-Size: 21370760
-SHA256: 543a8b8983b730f82f3b90cd15b8be038ef8ad520da5741de88b83ce61515347
-SHA1: fcd72e4d6e0dad4330fb7f844de52f5e79910eba
-MD5sum: ac5e0fc58f11b82cc154551831a84118
+Filename: pool/main/w/webkit2gtk/libwebkit2gtk-4.0-37_2.46.5-1~deb12u1_amd64.deb
+Size: 23244108
+SHA256: eefec7737ede1d3ce54d5f6e012a04cd50d671b63046cde47f706c7ec57224ba
+SHA1: 7550a0e5b5f9b2e6caeaf6346bf52fe222c59cc5
+MD5sum: 56225102a063a6bc367309205dd90c88
 Description: Web content engine library for GTK
  WebKit is a web content engine, derived from KHTML and KJS from KDE, and
  used primarily in Apple's Safari browser.  It is made to be embedded in
@@ -40574,21 +40574,21 @@ Description: Linux support headers for userspace development
  installed headers for GNU libc and other system libraries.
 
 Package: live-boot
-Version: 1:20230131
+Version: 1:20230131+deb12u1
 Architecture: all
 Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
-Installed-Size: 117
+Installed-Size: 118
 Depends: live-boot-initramfs-tools | live-boot-backend
 Recommends: live-boot-doc, live-tools, rsync, uuid-runtime
 Suggests: cryptsetup, curlftpfs, httpfs2, wget
 Homepage: https://wiki.debian.org/DebianLive
 Priority: optional
 Section: misc
-Filename: pool/main/l/live-boot/live-boot_20230131_all.deb
-Size: 28748
-SHA256: ac1a408aa73711046ec57329512ad59260c6f5bb9057a89b27a9a2edd43183b8
-SHA1: 5af934c8877477178c2e1c9335d31b1db08a6cd8
-MD5sum: 22683bcf1526f01d839063c19d1dd288
+Filename: pool/main/l/live-boot/live-boot_20230131+deb12u1_all.deb
+Size: 28956
+SHA256: f4bca17a3bab942b160afc89aeac6174ee522aa49bea3d94ef04ea5f4ab37bc4
+SHA1: 558a0d33c52f457f7db69ef53159b1e68efb39e8
+MD5sum: 3c5a618670017c46612a93cf6579ef77
 Description: Live System Boot Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -40602,7 +40602,7 @@ Description: Live System Boot Components
 
 Package: live-boot-doc
 Source: live-boot
-Version: 1:20230131
+Version: 1:20230131+deb12u1
 Architecture: all
 Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
 Installed-Size: 70
@@ -40610,11 +40610,11 @@ Multi-Arch: foreign
 Homepage: https://wiki.debian.org/DebianLive
 Priority: optional
 Section: doc
-Filename: pool/main/l/live-boot/live-boot-doc_20230131_all.deb
-Size: 48272
-SHA256: 392a7d8f9831933d6463f75288c0683ec5057043279fccde09241341fb79a182
-SHA1: bdf2204228cf0037dc908286075ef0fc50616d98
-MD5sum: 91822671a5823e5b8d27d2e23253a077
+Filename: pool/main/l/live-boot/live-boot-doc_20230131+deb12u1_all.deb
+Size: 48392
+SHA256: 309bee7758c245e71141ae13ebebffcf7a43ef8474cc0f7f5878391cd25d873b
+SHA1: f584f4de2167a07e7340727a7a47418c11684bc3
+MD5sum: a96c1dbf51dea413efe228062f243448
 Description: Live System Boot Components (documentation)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -40626,7 +40626,7 @@ Description: Live System Boot Components (documentation)
 
 Package: live-boot-initramfs-tools
 Source: live-boot
-Version: 1:20230131
+Version: 1:20230131+deb12u1
 Architecture: all
 Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
 Installed-Size: 25
@@ -40637,11 +40637,11 @@ Provides: live-boot-backend
 Homepage: https://wiki.debian.org/DebianLive
 Priority: optional
 Section: misc
-Filename: pool/main/l/live-boot/live-boot-initramfs-tools_20230131_all.deb
-Size: 5804
-SHA256: ed82b77707d7d75cdc23ea6366029a7ee6686758fdf1192d7be7d830fafc85d5
-SHA1: 7178c61f9337b61feb2b08baf5534ee4a2a511d2
-MD5sum: b8da0cf77ba4c16050a2e120f2ff215f
+Filename: pool/main/l/live-boot/live-boot-initramfs-tools_20230131+deb12u1_all.deb
+Size: 5908
+SHA256: 9db04522667076ea69310c2dfb06d7bcbdf7a996e75ad759713cf601bc0c70a5
+SHA1: 6a3636a8d67f0c53d360e9cc21a1a833dbcf677e
+MD5sum: a675a43b98244fd9c14a0a5b4d525cd6
 Description: Live System Boot Components (initramfs-tools backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -40773,7 +40773,7 @@ Description: utilities to read temperature/voltage/fan sensors
 
 Package: locales
 Source: glibc
-Version: 2.36-9+deb12u8
+Version: 2.36-9+deb12u9
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 15845
@@ -40781,11 +40781,11 @@ Depends: libc-bin (>> 2.36), libc-l10n (>> 2.36), debconf (>= 0.5) | debconf-2.0
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/locales_2.36-9+deb12u8_all.deb
-Size: 3901488
-SHA256: 937105d99c505eb2b2239afcbe6f11adb1a42512c6e18a7983cfa0df8183bbfd
-SHA1: c21112c7d78d543b13b5744f45d517a3ac6c341b
-MD5sum: a80ba683c234c9ad499d388a02baa4ef
+Filename: pool/main/g/glibc/locales_2.36-9+deb12u9_all.deb
+Size: 3903652
+SHA256: 6e9e212c488078048fc5dee029a0c7ac5336b4adae5aae41c0e2c69025c0c71c
+SHA1: 6d1d9fa609624bf20630e9a6de7568d3cbd1439c
+MD5sum: 0a9e7718bfba88a26f1868d93df9497c
 Description: GNU C Library: National Language (locale) data [support]
  Machine-readable data files, shared objects and programs used by the
  C library for localization (l10n) and internationalization (i18n) support.
@@ -40798,7 +40798,7 @@ Description: GNU C Library: National Language (locale) data [support]
 
 Package: locales-all
 Source: glibc
-Version: 2.36-9+deb12u8
+Version: 2.36-9+deb12u9
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 227365
@@ -40807,11 +40807,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: localization
-Filename: pool/main/g/glibc/locales-all_2.36-9+deb12u8_amd64.deb
-Size: 10662676
-SHA256: 9321320758f84b767fcc13d7338e1b35dec331d8028f96d981c5566af11aff3f
-SHA1: c3dba471228560c1b426bb7d82ebc85cf72f6136
-MD5sum: 136ce19f39866dfd3127a22cc4dc411a
+Filename: pool/main/g/glibc/locales-all_2.36-9+deb12u9_amd64.deb
+Size: 10674752
+SHA256: 3beb1ef8ad5622e5e04f63728ff494b6e59c5584262e3a0d8905fa119845066a
+SHA1: 4c522b43d887813428a73413551ad5469f609928
+MD5sum: 10c1731ab15c3e9b9e82506ae98d23c5
 Description: GNU C Library: Precompiled locale data
  This package contains the precompiled locale data for all supported locales.
  A better alternative is to install the locales package and only select
@@ -41785,7 +41785,7 @@ Description: additional Unix utilities
 
 Package: mount
 Source: util-linux
-Version: 2.38.1-5+deb12u1
+Version: 2.38.1-5+deb12u3
 Architecture: amd64
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
 Installed-Size: 393
@@ -41795,11 +41795,11 @@ Multi-Arch: foreign
 Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
 Priority: required
 Section: admin
-Filename: pool/main/u/util-linux/mount_2.38.1-5+deb12u1_amd64.deb
-Size: 133804
-SHA256: f3fe9b80a2dcd2a7f464f3ada4d92b56999c32cd08e25da115cc3c3509e6a901
-SHA1: 09634ed28ec85559d6e2751624f0d9ccfeccd1df
-MD5sum: 20a844b39e14503d4ae57c5a15d5e807
+Filename: pool/main/u/util-linux/mount_2.38.1-5+deb12u3_amd64.deb
+Size: 134044
+SHA256: 456ed2c62f884bc1133b6969d4d1eb2e6d8581076b00b4c8d700151155270a7a
+SHA1: 10b3978ffc15add8898c793e07a3988573e27c9b
+MD5sum: 1904b253cf6504b771ad1b6b97690244
 Description: tools for mounting and manipulating filesystems
  This package provides the mount(8), umount(8), swapon(8),
  swapoff(8), and losetup(8) commands.
@@ -44350,18 +44350,18 @@ Description: ECMAScript spec abstract operations
  Node.js is an event-based server-side JavaScript engine.
 
 Package: node-es-module-lexer
-Version: 1.1.0+dfsg-2
+Version: 1.1.0+dfsg-2+deb12u1
 Architecture: all
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Installed-Size: 89
 Homepage: https://github.com/guybedford/es-module-lexer#readme
 Priority: optional
 Section: javascript
-Filename: pool/main/n/node-es-module-lexer/node-es-module-lexer_1.1.0+dfsg-2_all.deb
-Size: 19656
-SHA256: bb6f3138e6da08065d9544a00ce36ebe8830ed7172576f49df4a32c57d37c7c8
-SHA1: 4784f017ae3b6747bd459b5731cced2c4218a91c
-MD5sum: e38ea8af724ecedaaee06bf2318bb126
+Filename: pool/main/n/node-es-module-lexer/node-es-module-lexer_1.1.0+dfsg-2+deb12u1_all.deb
+Size: 19744
+SHA256: 2699ed1ff9315da52ebfb8405d66d952bffb0653129fca3dcc7aa6a5bb23ad43
+SHA1: ba27e8fd02a388d8e1590840778cb72cf8e971d1
+MD5sum: d7e677cc0270b678ca01fc95ce3e5b1c
 Description: Fast lexer to extract named exports from EcmaScript modules
  node-es-module-lexer outputs the list of exports and locations of import
  specifiers, including dynamic import and import meta handling.
@@ -45252,7 +45252,7 @@ Description: Global identifiers from different JavaScript environments
  Node.js is an event-based server-side JavaScript engine.
 
 Package: node-globby
-Version: 13.1.3+~cs16.25.40-1
+Version: 13.1.3+~cs16.25.40-1+deb12u1
 Architecture: all
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Installed-Size: 290
@@ -45262,11 +45262,11 @@ Provides: node-dir-glob (= 3.0.1), node-fast-glob (= 3.2.12), node-fastq (= 1.14
 Homepage: https://github.com/sindresorhus/globby
 Priority: optional
 Section: javascript
-Filename: pool/main/n/node-globby/node-globby_13.1.3+~cs16.25.40-1_all.deb
-Size: 40304
-SHA256: f22dae1d8982ce9846ca4c1ffd276d2362181d7d334741307dc353dbe06d72e7
-SHA1: f9a95d2fa2544934c4a45690c66d620b1bdf4210
-MD5sum: 04e4b11321799588772ccfb8d4e253c1
+Filename: pool/main/n/node-globby/node-globby_13.1.3+~cs16.25.40-1+deb12u1_all.deb
+Size: 40452
+SHA256: 61c52262de7da46a16fef6b542b5ba29f56f0a5cea2a09b11f5bad14d7ff3ea0
+SHA1: 3fa9fc772ff9402607c4e2c74f20258aad0d81d5
+MD5sum: 90b4c47ec7d9cedfbd612f97a22a9871
 Description: Extends glob with promise API
  Extends glob with support for multiple patterns and exposes a Promise API.
  .
@@ -49431,7 +49431,7 @@ Description: Detect whether a terminal supports color in Node.js
  Node.js is an event-based server-side JavaScript engine.
 
 Package: node-tap
-Version: 16.3.2+ds1+~cs50.8.16-1
+Version: 16.3.2+ds1+~cs50.8.16-1+deb12u1
 Architecture: all
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Installed-Size: 648
@@ -49441,11 +49441,11 @@ Provides: node-async-hook-domain (= 3.0.2), node-bind-obj-methods (= 3.0.0), nod
 Homepage: https://github.com/tapjs/node-tap
 Priority: optional
 Section: javascript
-Filename: pool/main/n/node-tap/node-tap_16.3.2+ds1+~cs50.8.16-1_all.deb
-Size: 100824
-SHA256: 46f74558615a4461d0ff4bd5a69a4f0e11b03c33e66467813f624ce01eecaccc
-SHA1: e8452f97b5bc02ed3cca5eeadb67291fcdc6abb5
-MD5sum: bdcd6c54d0b29af6170b9f9f71d20ea5
+Filename: pool/main/n/node-tap/node-tap_16.3.2+ds1+~cs50.8.16-1+deb12u1_all.deb
+Size: 100980
+SHA256: 5638e1d2396b6deb23184f2f3e7f5be05fe42c3dd9a74a1b3098e27af3910780
+SHA1: 1be8166d8e8365f55cf21891772ebca58799c198
+MD5sum: b7ed53f9722795a86f8ad4b7ac112aac
 Description: Test-Anything-Protocol module for Node.js
  Utilities for writing test harnesses complying with TAP output format.
  .
@@ -50751,21 +50751,19 @@ Description: package manager for Node.js
  Install also node-opener to have full npm features enabled.
 
 Package: ntfs-3g
-Source: ntfs-3g (1:2022.10.3-1)
-Version: 1:2022.10.3-1+b1
+Version: 1:2022.10.3-1+deb12u2
 Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 1470
-Pre-Depends: fuse3
-Depends: libc6 (>= 2.34), libgcrypt20 (>= 1.10.0), libgnutls30 (>= 3.7.2), libntfs-3g89 (= 1:2022.10.3-1+b1)
+Depends: libc6 (>= 2.34), libgcrypt20 (>= 1.10.0), libgnutls30 (>= 3.7.2), libntfs-3g89 (= 1:2022.10.3-1+deb12u2), fuse3
 Homepage: https://github.com/tuxera/ntfs-3g/wiki
 Priority: optional
 Section: otherosfs
-Filename: pool/main/n/ntfs-3g/ntfs-3g_2022.10.3-1+b1_amd64.deb
-Size: 405732
-SHA256: 1047b1e7be62357708b0979dfc7042f91947bd292aa2fdba49b33226b36f8f8e
-SHA1: f670f38b8dce40783e33d43de3e1560afe2f1559
-MD5sum: b8b5516e3fbba22a43c9733931fa963f
+Filename: pool/main/n/ntfs-3g/ntfs-3g_2022.10.3-1+deb12u2_amd64.deb
+Size: 405664
+SHA256: 4ff40ab474c9abf10fb2723d419884af9eafb301021a7c7770b67c015aca9780
+SHA1: 1796d0d252ab2ced555d286a8d3ab7b32ca8494a
+MD5sum: 6178ff3dd71fb96fc718aca8af1c9b1a
 Description: read/write NTFS driver for FUSE
  NTFS-3G uses FUSE (Filesystem in Userspace) to provide support for the NTFS
  filesystem used by Microsoft Windows.
@@ -51506,11 +51504,11 @@ Build-Ids: ad4f88e4405de39b681ef6ba32bb6c4327c2807d
 
 Package: openjdk-17-jdk
 Source: openjdk-17
-Version: 17.0.12+7-2~deb12u1
+Version: 17.0.13+11-2~deb12u1
 Architecture: amd64
 Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
-Installed-Size: 2399
-Depends: openjdk-17-jre (= 17.0.12+7-2~deb12u1), openjdk-17-jdk-headless (= 17.0.12+7-2~deb12u1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
+Installed-Size: 2414
+Depends: openjdk-17-jre (= 17.0.13+11-2~deb12u1), openjdk-17-jdk-headless (= 17.0.13+11-2~deb12u1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
 Recommends: libxt-dev
 Suggests: openjdk-17-demo, openjdk-17-source, visualvm
 Provides: java-compiler, java-sdk (= 17), java10-sdk, java11-sdk, java12-sdk, java13-sdk, java14-sdk, java15-sdk, java16-sdk, java17-sdk, java2-sdk, java5-sdk, java6-sdk, java7-sdk, java8-sdk, java9-sdk
@@ -51518,22 +51516,22 @@ Multi-Arch: same
 Homepage: https://openjdk.java.net/
 Priority: optional
 Section: java
-Filename: pool/main/o/openjdk-17/openjdk-17-jdk_17.0.12+7-2~deb12u1_amd64.deb
-Size: 2374748
-SHA256: 34fee177dd712743f06f2e14872a3f21c5a6efd0a288cec483d9f085a9c72bd0
-SHA1: 1ab7f8507f50a1abfa7db38e3bef45679b4ca91e
-MD5sum: 7bcbbb87cf5e022f5146dd0da872ab7b
+Filename: pool/main/o/openjdk-17/openjdk-17-jdk_17.0.13+11-2~deb12u1_amd64.deb
+Size: 2394580
+SHA256: b51ea3d27341c6ec247c3ea063a8887c0d254468873348bdf3550722093cfce0
+SHA1: 93bbbed092f1010752ba7bc07a58fce6bb933941
+MD5sum: 0b5f7d7961799768c07bfa0960637176
 Description: OpenJDK Development Kit (JDK)
  OpenJDK is a development environment for building applications,
  applets, and components using the Java programming language.
 
 Package: openjdk-17-jdk-headless
 Source: openjdk-17
-Version: 17.0.12+7-2~deb12u1
+Version: 17.0.13+11-2~deb12u1
 Architecture: amd64
 Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
-Installed-Size: 76723
-Depends: openjdk-17-jre-headless (= 17.0.12+7-2~deb12u1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
+Installed-Size: 76838
+Depends: openjdk-17-jre-headless (= 17.0.13+11-2~deb12u1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
 Suggests: openjdk-17-demo, openjdk-17-source
 Breaks: openjdk-17-jre-headless (<< 17~10)
 Replaces: openjdk-17-jre-headless (<< 17~10)
@@ -51542,22 +51540,22 @@ Multi-Arch: same
 Homepage: https://openjdk.java.net/
 Priority: optional
 Section: java
-Filename: pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.12+7-2~deb12u1_amd64.deb
-Size: 71388548
-SHA256: f04bb618b9aef7984a227cb93c7fb33a1d398f32f74c704291b216dd97efd19d
-SHA1: 45e8180f9bc94b3d8def8b7ab8b9b744c80ee4a5
-MD5sum: 4a94287c34a095484b5dc49648f52b31
+Filename: pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.13+11-2~deb12u1_amd64.deb
+Size: 71497004
+SHA256: 247e5cec18cc59acb8ac5a8e8318564c32cc9d651f92d635f0a3f307ce4a398c
+SHA1: a99f59c5e5f708d07f9cdd8e773dfa6c873738e8
+MD5sum: 0af2740158b9d77f9dbc9570d904926c
 Description: OpenJDK Development Kit (JDK) (headless)
  OpenJDK is a development environment for building applications,
  applets, and components using the Java programming language.
 
 Package: openjdk-17-jre
 Source: openjdk-17
-Version: 17.0.12+7-2~deb12u1
+Version: 17.0.13+11-2~deb12u1
 Architecture: amd64
 Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
-Installed-Size: 589
-Depends: openjdk-17-jre-headless (= 17.0.12+7-2~deb12u1), libglib2.0-0 (>= 2.24), libgtk2.0-0 | libgtk-3-0, libxrandr2, libxinerama1, libgl1, libharfbuzz0b, libc6 (>= 2.34), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libx11-6, libxext6, libxi6, libxrender1, libxtst6, zlib1g (>= 1:1.1.4)
+Installed-Size: 696
+Depends: openjdk-17-jre-headless (= 17.0.13+11-2~deb12u1), libglib2.0-0 (>= 2.24), libgtk2.0-0 | libgtk-3-0, libxrandr2, libxinerama1, libgl1, libharfbuzz0b, libc6 (>= 2.34), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libx11-6, libxext6, libxi6, libxrender1, libxtst6, zlib1g (>= 1:1.1.4)
 Recommends: libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2), fonts-dejavu-extra
 Breaks: openjdk-17-jre-headless (<< 17~10)
 Replaces: openjdk-17-jre-headless (<< 17~10)
@@ -51566,21 +51564,21 @@ Multi-Arch: same
 Homepage: https://openjdk.java.net/
 Priority: optional
 Section: java
-Filename: pool/main/o/openjdk-17/openjdk-17-jre_17.0.12+7-2~deb12u1_amd64.deb
-Size: 183740
-SHA256: 7f533259643b34810894592324ef072069c3e89c6bfed80a849c3c4b10407ec1
-SHA1: 00a3543e10ac91214eb7c0e04ced770d7a3eb9f6
-MD5sum: 53bb07db7a3e5af499681ceb63953ed5
+Filename: pool/main/o/openjdk-17/openjdk-17-jre_17.0.13+11-2~deb12u1_amd64.deb
+Size: 209492
+SHA256: ca4a29423187afbfd504c359356decb46313b15f4eae60a5dda1651e8639f5a4
+SHA1: 534642d1cb0a65dcd8569f8bf25ea9e929316d50
+MD5sum: e35182dceadbec4d3d9a0b4d2a0c85d2
 Description: OpenJDK Java runtime, using Hotspot JIT
  Full Java runtime environment - needed for executing Java GUI and Webstart
  programs, using Hotspot JIT.
 
 Package: openjdk-17-jre-headless
 Source: openjdk-17
-Version: 17.0.12+7-2~deb12u1
+Version: 17.0.13+11-2~deb12u1
 Architecture: amd64
 Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
-Installed-Size: 187741
+Installed-Size: 187995
 Depends: ca-certificates-java (>= 20190405~), java-common (>= 0.28), libcups2, libfontconfig1, liblcms2-2 (>= 2.2+git20110628), libjpeg62-turbo (>= 1.3.1), libnss3 (>= 2:3.17.1), util-linux (>= 2.26.2-4), libasound2 (>= 1.0.16), libc6 (>= 2.34), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libharfbuzz0b (>= 1.2.6), libpcsclite1 (>= 1.3.0), libstdc++6 (>= 5), zlib1g (>= 1:1.2.2)
 Suggests: libnss-mdns, fonts-dejavu-extra, fonts-ipafont-gothic, fonts-ipafont-mincho, fonts-wqy-microhei | fonts-wqy-zenhei, fonts-indic
 Conflicts: openjdk-11-jdk-headless (<< 11~18-2), oracle-java11-installer
@@ -51591,22 +51589,22 @@ Multi-Arch: same
 Homepage: https://openjdk.java.net/
 Priority: optional
 Section: java
-Filename: pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.12+7-2~deb12u1_amd64.deb
-Size: 43734336
-SHA256: 45d68d67318eed4284e835a9d41315d2ac71f52aebe955ca91a63acdc3926c90
-SHA1: 928f490aee00095d8afa4517f23baa565b0bd0ea
-MD5sum: c282136d5d7870a7d143f9eb3c736dc9
+Filename: pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.13+11-2~deb12u1_amd64.deb
+Size: 43782688
+SHA256: 81fb576fde5a3a90de073f1d572827b02760893981e01c2de6f6eca5e361efb7
+SHA1: 998302d98dfae336a5aa78929a6f947eb0941990
+MD5sum: f0f500bf069bc82b3f87b38db0df2d27
 Description: OpenJDK Java runtime, using Hotspot JIT (headless)
  Minimal Java runtime - needed for executing non GUI Java programs,
  using Hotspot JIT.
 
 Package: openssh-client
 Source: openssh
-Version: 1:9.2p1-2+deb12u3
+Version: 1:9.2p1-2+deb12u4
 Architecture: amd64
 Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
-Installed-Size: 5780
-Depends: adduser, passwd, libc6 (>= 2.36), libedit2 (>= 2.11-20080614-0), libfido2-1 (>= 1.8.0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 3.1~), libssl3 (>= 3.0.13), zlib1g (>= 1:1.1.4)
+Installed-Size: 5792
+Depends: adduser, passwd, libc6 (>= 2.36), libedit2 (>= 2.11-20080614-0), libfido2-1 (>= 1.8.0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 3.1~), libssl3 (>= 3.0.15), zlib1g (>= 1:1.1.4)
 Recommends: xauth
 Suggests: keychain, libpam-ssh, monkeysphere, ssh-askpass
 Conflicts: sftp
@@ -51617,11 +51615,11 @@ Multi-Arch: foreign
 Homepage: https://www.openssh.com/
 Priority: standard
 Section: net
-Filename: pool/main/o/openssh/openssh-client_9.2p1-2+deb12u3_amd64.deb
-Size: 990808
-SHA256: a9a0600c9d8d2b2d40295ed0ca868a2d248920dc38a31351e334f62ea48ebf04
-SHA1: 81171c850daaaedc27dabae3717dc20943ef371a
-MD5sum: f7a785b2506b7a2690bb97e9250e70ed
+Filename: pool/main/o/openssh/openssh-client_9.2p1-2+deb12u4_amd64.deb
+Size: 993036
+SHA256: e1d72ba919da63879f2e30893b87f3c3634b60407749099d4666e68149ca2353
+SHA1: 738f6fd05c30ee490c8a64dd5027d63746914cce
+MD5sum: b2f6632887079dd306eed390c00ea00e
 Description: secure shell (SSH) client, for secure access to remote machines
  This is the portable version of OpenSSH, a free implementation of
  the Secure Shell protocol as specified by the IETF secsh working
@@ -51646,21 +51644,21 @@ Description: secure shell (SSH) client, for secure access to remote machines
  obsolete for most purposes.
 
 Package: openssl
-Version: 3.0.14-1~deb12u1
+Version: 3.0.15-1~deb12u1
 Architecture: amd64
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
-Installed-Size: 2295
+Installed-Size: 2296
 Depends: libc6 (>= 2.34), libssl3 (>= 3.0.9)
 Suggests: ca-certificates
 Multi-Arch: foreign
 Homepage: https://www.openssl.org/
 Priority: optional
 Section: utils
-Filename: pool/main/o/openssl/openssl_3.0.14-1~deb12u1_amd64.deb
-Size: 1422564
-SHA256: 6ddf252c45bca1e1b815d2e32a63e2b976b6bc9c86031c819b363907dd5045f4
-SHA1: 4da2388c574a9dbb9bfef32240d405bc33c28fe7
-MD5sum: f5eb7218ffe503f85229d92ebc9ffb63
+Filename: pool/main/o/openssl/openssl_3.0.15-1~deb12u1_amd64.deb
+Size: 1427216
+SHA256: c9c37660d902f2a43dfbbf619b3f5f413cee298d8f317829e3c11cfff9e174aa
+SHA1: d9b4af1fceb2348fbb4e9ab8b7f5eb3bef8b1764
+MD5sum: 7f636f8970fcd68823c24ec3c9c3bd00
 Description: Secure Sockets Layer toolkit - cryptographic utility
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
@@ -53956,20 +53954,20 @@ Description: Cross-platform colored terminal text in Python - Python 3.x
 
 Package: python3-cryptography
 Source: python-cryptography
-Version: 38.0.4-3
+Version: 38.0.4-3+deb12u1
 Architecture: amd64
 Maintainer: Tristan Seligmann <mithrandi@debian.org>
-Installed-Size: 2982
+Installed-Size: 2983
 Depends: python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2), libssl3 (>= 3.0.0)
 Suggests: python-cryptography-doc, python3-cryptography-vectors
 Homepage: https://cryptography.io/
 Priority: optional
 Section: python
-Filename: pool/main/p/python-cryptography/python3-cryptography_38.0.4-3_amd64.deb
-Size: 665516
-SHA256: 732b9ba1cef020f50f79fe4c271018888fb7b2ee0a5b6a10f71c78b38501f3a4
-SHA1: c33d0ce761247bcaa7ed49cbd457cdbaae7a125c
-MD5sum: f23799acf0a4940f9884eed40ecae795
+Filename: pool/main/p/python-cryptography/python3-cryptography_38.0.4-3+deb12u1_amd64.deb
+Size: 665368
+SHA256: c1a53527b03b36910cbb864b71c09091bd2bc3d824b73b8bc3135bfeb6ca3292
+SHA1: 892c9014335210fbcecc4c6a079a899842937cd4
+MD5sum: 14e778d4f0ef7063c0e568253284fb0e
 Description: Python library exposing cryptographic recipes and primitives (Python 3)
  The cryptography library is designed to be a "one-stop-shop" for
  all your cryptographic needs in Python.
@@ -54895,7 +54893,7 @@ Description: Various helpers to pass trusted data to untrusted environment - Pyt
 
 Package: python3-jinja2
 Source: jinja2
-Version: 3.1.2-1
+Version: 3.1.2-1+deb12u1
 Architecture: all
 Maintainer: Piotr Ożarowski <piotr@debian.org>
 Installed-Size: 538
@@ -54907,11 +54905,11 @@ Replaces: python-jinja2 (<< 2.11.1-1)
 Homepage: http://jinja.pocoo.org/
 Priority: optional
 Section: python
-Filename: pool/main/j/jinja2/python3-jinja2_3.1.2-1_all.deb
-Size: 118996
-SHA256: a14db2aa3ca8fa5852bea5a1e2bc152e21ec3e4e4d539f472469248968a5f950
-SHA1: eb51864ac8d5b01129fca36386625c7d80b37212
-MD5sum: 4072585362f1c74dbd5f5795e53d6bb9
+Filename: pool/main/j/jinja2/python3-jinja2_3.1.2-1+deb12u1_all.deb
+Size: 119376
+SHA256: 01d011283ca2354cc555ca391761031b5bbc4bb6d33df93b28928fe7fd597580
+SHA1: 395ee363e0b4c595263fc051ce6db42f625cc5fe
+MD5sum: 9018ef73cfce78d6e8f37f1a57ebe1d2
 Description: small but fast and easy to use stand-alone template engine
  Jinja2 is a template engine written in pure Python. It provides a Django
  inspired non-XML syntax but supports inline expressions and an optional
@@ -55525,7 +55523,7 @@ Description: Python package installer (pip wheel)
 
 Package: python3-pkg-resources
 Source: setuptools
-Version: 66.1.1-1
+Version: 66.1.1-1+deb12u1
 Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 1052
@@ -55535,11 +55533,11 @@ Multi-Arch: foreign
 Homepage: https://pypi.python.org/pypi/setuptools
 Priority: optional
 Section: python
-Filename: pool/main/s/setuptools/python3-pkg-resources_66.1.1-1_all.deb
-Size: 296344
-SHA256: eae531bb312beacd82c48122259070f313fecd326c3f255e248b4c69d56d15d1
-SHA1: a88b5d7a1b2c1f75fa4858802711da5e2b69fd94
-MD5sum: 77d4f3bebb451c0933e9959a5f4778f6
+Filename: pool/main/s/setuptools/python3-pkg-resources_66.1.1-1+deb12u1_all.deb
+Size: 296496
+SHA256: 17e3381df24e003d94395a393a3e29e29fb5d320b879fe5ba05a75babe7f4ef8
+SHA1: 19dab59ad81738f1ac904c8f93333302d7374db7
+MD5sum: 32b29eb41fd1380cc12d5a57f0d8197b
 Description: Package Discovery and Resource Access using pkg_resources
  The pkg_resources module provides an API for Python libraries to
  access their resource files, and for extensible applications and
@@ -56285,40 +56283,40 @@ Description: Setproctitle implementation for Python 3
 
 Package: python3-setuptools
 Source: setuptools
-Version: 66.1.1-1
+Version: 66.1.1-1+deb12u1
 Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 2533
-Depends: python3-pkg-resources (= 66.1.1-1), python3-distutils, python3:any
+Installed-Size: 2534
+Depends: python3-pkg-resources (= 66.1.1-1+deb12u1), python3-distutils, python3:any
 Suggests: python-setuptools-doc
 Multi-Arch: foreign
 Homepage: https://pypi.python.org/pypi/setuptools
 Priority: optional
 Section: python
-Filename: pool/main/s/setuptools/python3-setuptools_66.1.1-1_all.deb
-Size: 521052
-SHA256: c9322ac0d586a952769a6cdfcecb9700f216e1db29271696a237dd08ab91a0de
-SHA1: 691a046bb31f4b1d705c99b2867277376239f7df
-MD5sum: 8d68555ce2fd79bfd025b9fad37f04e1
+Filename: pool/main/s/setuptools/python3-setuptools_66.1.1-1+deb12u1_all.deb
+Size: 521504
+SHA256: 880e4be142c2dc113afdf043cb8a471c331876a62850071605ddb908cb3be982
+SHA1: 818548d9df885ec14eae615285573ea94aa40d2a
+MD5sum: cc2eaefaff6e1eb919fc8dc774b08db6
 Description: Python3 Distutils Enhancements
  Extensions to the python-distutils for large or complex distributions.
 
 Package: python3-setuptools-whl
 Source: setuptools
-Version: 66.1.1-1
+Version: 66.1.1-1+deb12u1
 Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 1315
+Installed-Size: 1316
 Breaks: python-pip-whl (<< 21.3.1+dfsg-2~)
 Replaces: python-pip-whl (<< 21.3.1+dfsg-2~)
 Homepage: https://pypi.python.org/pypi/setuptools
 Priority: optional
 Section: python
-Filename: pool/main/s/setuptools/python3-setuptools-whl_66.1.1-1_all.deb
-Size: 1111316
-SHA256: 09b4e946f2db7b31a6eba29e2c5e79864a70eba5e06f58ea4fa5c16468e7b17a
-SHA1: a37d4d0a4e8e7fb70a91b956c2d5af73d1ff5740
-MD5sum: 2cb058bda4269ca59697a748b60143c0
+Filename: pool/main/s/setuptools/python3-setuptools-whl_66.1.1-1+deb12u1_all.deb
+Size: 1111912
+SHA256: 7daf80bede74930e8e96b7e94fd1e7cdab19639446a9a39a52497a53d78b3116
+SHA1: e823412d681bb853d37ecc3192fbc03d20602fb5
+MD5sum: 91cbfe4fb7792e36ef87440aa91cb25d
 Description: Python Distutils Enhancements (wheel package)
  Extensions to the python-distutils for large or complex distributions.
  .
@@ -56619,21 +56617,21 @@ Description: Module for creating simple ASCII tables — python3
 
 Package: python3-tornado
 Source: python-tornado
-Version: 6.2.0-3
+Version: 6.2.0-3+deb12u1
 Architecture: amd64
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 1633
+Installed-Size: 1637
 Depends: ca-certificates, python3 (>= 3~), python3:any, libc6 (>= 2.4)
 Suggests: python3-pycurl, python-tornado-doc, python3-twisted
 Breaks: mitmproxy (<< 5.0~), pcs (<< 0.10.5-1~)
 Homepage: https://www.tornadoweb.org/
 Priority: optional
 Section: web
-Filename: pool/main/p/python-tornado/python3-tornado_6.2.0-3_amd64.deb
-Size: 337148
-SHA256: 7e40ed52ab151188c684332cb0f1c7dbda3564ae6b3fbfe25881e8fcfb441631
-SHA1: 0dbfecaa335e51527fd1e9d1d7315a657fd80113
-MD5sum: b2d2c53a6c4bd4001e5b16b3689e803f
+Filename: pool/main/p/python-tornado/python3-tornado_6.2.0-3+deb12u1_amd64.deb
+Size: 338240
+SHA256: d58f3ff3bf87c14c09e6fcde825fe8dac3d7c3d328e2a33cee1147be373d31f9
+SHA1: b81efeb4fd45ede0d9b3d83cccad5644c39efaaa
+MD5sum: e7e226bd0e9581b094ce6dc6808b6b2a
 Description: scalable, non-blocking web server and tools - Python 3 package
  Tornado is a Python web framework and asynchronous networking library,
  originally developed at FriendFeed. By using non-blocking network I/O,
@@ -56731,6 +56729,31 @@ Description: ASCII transliterations of Unicode text (Python 3 module)
  .
  unidecode is a Python 3 port of the Text::Unidecode Perl module.
 
+Package: python3-uno
+Source: libreoffice
+Version: 4:7.4.7-1+deb12u5
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 480
+Depends: libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core-nogui (= 4:7.4.7-1+deb12u5) | libreoffice-core (= 4:7.4.7-1+deb12u5), ucf (>= 0.8), python3:any, python3 (<< 3.12), python3 (>= 3.11~), python3.11, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpython3.11 (>= 3.11.0), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 5.3.0~alpha), libuno-sal3 (>= 5.4.0~alpha), libuno-salhelpergcc3-3 (>= 3.6.0~beta), uno-libs-private
+Enhances: libreoffice
+Conflicts: python-uno
+Replaces: libreoffice-common (<< 1:4.4.0~beta2), libreoffice-core (= 1:4.3.0~beta1-1)
+Homepage: http://udk.openoffice.org/python/python-bridge.html
+Priority: optional
+Section: python
+Filename: pool/main/libr/libreoffice/python3-uno_7.4.7-1+deb12u5_amd64.deb
+Size: 158092
+SHA256: 9bab81429ecafd2293d0372aca0e28ef16ba196a714d313c7d65545cfb680b7e
+SHA1: 7dee837cf4f2ba32321b32caf8c2cbcb03f16cce
+MD5sum: 8f48b3c36abc8ce37d1083d0762e787e
+Description: Python-UNO bridge
+ The Python-UNO bridge allows use of the standard LibreOffice API
+ with the Python scripting language. It additionally allows
+ others to develop UNO components in Python, thus Python UNO components
+ may be run within the LibreOffice process and can be called from C++
+ or the built in StarBasic scripting language.
+
 Package: python3-uritemplate
 Source: python-uritemplate
 Version: 4.1.1-2
@@ -56754,21 +56777,21 @@ Description: implementation of RFC6570 - Python 3.x
 
 Package: python3-urllib3
 Source: python-urllib3
-Version: 1.26.12-1
+Version: 1.26.12-1+deb12u1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 455
+Installed-Size: 453
 Depends: python3:any, python3-six
 Recommends: ca-certificates
 Suggests: python3-brotli, python3-cryptography, python3-idna, python3-openssl, python3-socks
 Homepage: https://urllib3.readthedocs.org
 Priority: optional
 Section: python
-Filename: pool/main/p/python-urllib3/python3-urllib3_1.26.12-1_all.deb
-Size: 116708
-SHA256: 0fc07902b149d1c0381336ea9871e20c00100604c2449fabbc43d437ceb13b51
-SHA1: 14c96043a3916a113b8f4c0c66cd1aed20c1867c
-MD5sum: 32a6352f411321a901ee56c7d3aa2801
+Filename: pool/main/p/python-urllib3/python3-urllib3_1.26.12-1+deb12u1_all.deb
+Size: 113580
+SHA256: e4ad7b9298d0dfbf206440a20cc925f6db6d581398c9b3f63eb660226a3edd17
+SHA1: 7da47c3963f5785bcfc17e7633823a4365a5532d
+MD5sum: 0e71ad1f2873e479a73bb5e4d742117d
 Description: HTTP library with thread-safe connection pooling for Python3
  urllib3 supports features left out of urllib and urllib2 libraries.
  .
@@ -56913,21 +56936,21 @@ Description: implementation of the WebSocket Protocol (RFC 6455)
 
 Package: python3-werkzeug
 Source: python-werkzeug
-Version: 2.2.2-3
+Version: 2.2.2-3+deb12u1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 865
+Installed-Size: 867
 Depends: libjs-jquery, python3-markupsafe, python3:any
 Recommends: python3-openssl, python3-pyinotify
 Suggests: ipython3, python-werkzeug-doc, python3-lxml, python3-pkg-resources, python3-watchdog
 Homepage: http://werkzeug.pocoo.org/
 Priority: optional
 Section: python
-Filename: pool/main/p/python-werkzeug/python3-werkzeug_2.2.2-3_all.deb
-Size: 205356
-SHA256: 30e97964effb527c37bc9ac3a51f0fa7a784ceee056590353c85e8a9acca1b45
-SHA1: 8d4ce4e25dfe7f3709bfffd5321af240a45b6d1a
-MD5sum: 0f02c9271d18cda96b0af17133e9213a
+Filename: pool/main/p/python-werkzeug/python3-werkzeug_2.2.2-3+deb12u1_all.deb
+Size: 206124
+SHA256: 283e2d849e93531581948b0c49ebdd3831c0a5fc22edb7bc08efd3c38ae055b8
+SHA1: b39a96446c79f303a526c2497026075e1e35efa0
+MD5sum: 7357d391c0ad172d920b8ecaf5176ad4
 Description: collection of utilities for WSGI applications (Python 3.x)
  The Web Server Gateway Interface (WSGI) is a standard interface between web
  server software and web applications written in Python.
@@ -57078,21 +57101,21 @@ Description: Qt 5 D-Bus tool
 
 Package: qemu-guest-agent
 Source: qemu
-Version: 1:7.2+dfsg-7+deb12u7
+Version: 1:7.2+dfsg-7+deb12u12
 Architecture: amd64
 Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 1114
+Installed-Size: 1117
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.63.3), libnuma1 (>= 2.0.11), libudev1 (>= 183), liburing2 (>= 2.3)
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
 Priority: optional
 Section: otherosfs
-Filename: pool/main/q/qemu/qemu-guest-agent_7.2+dfsg-7+deb12u7_amd64.deb
-Size: 338220
-SHA256: 6f203032098c9accc8cd96b9dee78fd6d24480495ef399d3f0b1a40fc9f10620
-SHA1: 170f8b719a0a42c9958d16524f70f76b2d51b92a
-MD5sum: 6e3b7a230b4e086b6b7b2a12d951da6c
+Filename: pool/main/q/qemu/qemu-guest-agent_7.2+dfsg-7+deb12u12_amd64.deb
+Size: 340968
+SHA256: 9e648cf1ce25516c98802d55a5609d3e66d0ada057170024ec4eeac5f0bac18f
+SHA1: e782ae2c446b0f03000fab11ac27630768f188ec
+MD5sum: d4db71694ca0bf2742443b387c420b31
 Description: Guest-side qemu-system agent
  QEMU is a fast processor emulator: currently the package supports
  ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
@@ -59470,26 +59493,26 @@ Description: Utilities to detect and configure printers automatically
  the CUPS printing daemon and made available to users.
 
 Package: systemd
-Version: 252.30-1~deb12u2
+Version: 252.33-1~deb12u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 9663
+Installed-Size: 9661
 Pre-Depends: libblkid1 (>= 2.24), libc6 (>= 2.34), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.10.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libmount1 (>= 2.30), libselinux1 (>= 3.1~), libssl3 (>= 3.0.0), libzstd1 (>= 1.5.2)
-Depends: libacl1 (>= 2.2.23), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.24.2), libcryptsetup12 (>= 2:2.4), libfdisk1 (>= 2.33), libkmod2 (>= 15), libp11-kit0 (>= 0.23.18.1), libseccomp2 (>= 2.3.1), libsystemd-shared (= 252.30-1~deb12u2), libsystemd0 (= 252.30-1~deb12u2), mount
+Depends: libacl1 (>= 2.2.23), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.24.2), libcryptsetup12 (>= 2:2.4), libfdisk1 (>= 2.33), libkmod2 (>= 15), libp11-kit0 (>= 0.23.18.1), libseccomp2 (>= 2.3.1), libsystemd-shared (= 252.33-1~deb12u1), libsystemd0 (= 252.33-1~deb12u1), mount
 Recommends: default-dbus-system-bus | dbus-system-bus, systemd-timesyncd | time-daemon
 Suggests: systemd-container, systemd-homed, systemd-userdbd, systemd-boot, systemd-resolved, libfido2-1, libqrencode4, libtss2-esys-3.0.2-0, libtss2-mu0, libtss2-rc0, polkitd | policykit-1
 Conflicts: consolekit, libpam-ck-connector, systemd-shim
 Breaks: less (<< 563), resolvconf (<< 1.83~), sicherboot (<< 0.1.6), udev (<< 247~)
-Provides: systemd-sysusers (= 252.30-1~deb12u2), systemd-tmpfiles (= 252.30-1~deb12u2)
+Provides: systemd-sysusers (= 252.33-1~deb12u1), systemd-tmpfiles (= 252.33-1~deb12u1)
 Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: important
 Section: admin
-Filename: pool/main/s/systemd/systemd_252.30-1~deb12u2_amd64.deb
-Size: 3034980
-SHA256: 0425e07cf6f928ff809541226c33841aed49247fedfdfa86878d90a7ff09c5ce
-SHA1: cb544da9bc18e289a7cb0dac1902eb1198ea97c1
-MD5sum: 14fc45d70047c742fddeba174f3e4816
+Filename: pool/main/s/systemd/systemd_252.33-1~deb12u1_amd64.deb
+Size: 3036204
+SHA256: 9a6dec2d9180d1da64d04b67eb9cb9afcc30321be6859a70cd1dec84c3382e58
+SHA1: d248def78908b4627d0b794ab493e3ead11c9665
+MD5sum: 219641a8f5d39616c3c1ec47bd447eef
 Description: system and service manager
  systemd is a system and service manager for Linux. It provides aggressive
  parallelization capabilities, uses socket and D-Bus activation for starting
@@ -59502,11 +59525,11 @@ Description: system and service manager
 
 Package: systemd-coredump
 Source: systemd
-Version: 252.30-1~deb12u2
+Version: 252.33-1~deb12u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 253
-Depends: libc6 (>= 2.34), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libsystemd-shared (= 252.30-1~deb12u2), libzstd1 (>= 1.5.2), systemd
+Depends: libc6 (>= 2.34), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libsystemd-shared (= 252.33-1~deb12u1), libzstd1 (>= 1.5.2), systemd
 Recommends: libdw1
 Conflicts: core-dump-handler
 Replaces: core-dump-handler
@@ -59515,11 +59538,11 @@ Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: optional
 Section: admin
-Filename: pool/main/s/systemd/systemd-coredump_252.30-1~deb12u2_amd64.deb
-Size: 97344
-SHA256: 64da566ce0bfdae91fd8134f98a0251e8d325993b05ffff7194c42930ef994d7
-SHA1: 27bde196e41ee362d0f13b119fd18aa1eaed6238
-MD5sum: c0ce4434313f5740f8f131f965fdcd13
+Filename: pool/main/s/systemd/systemd-coredump_252.33-1~deb12u1_amd64.deb
+Size: 97444
+SHA256: ee900baa000ef8b45c6893ff2e1db543396751c464ca5cb355c90a19b9ed6682
+SHA1: 798dbf910160ab6ae4c170563f6eff0fa773d869
+MD5sum: 091ebe025b9370ce34fb5f48596167df
 Description: tools for storing and retrieving coredumps
  This package provides systemd tools for storing and retrieving coredumps:
   * systemd-coredump
@@ -59527,7 +59550,7 @@ Description: tools for storing and retrieving coredumps
 
 Package: systemd-sysv
 Source: systemd
-Version: 252.30-1~deb12u2
+Version: 252.33-1~deb12u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 73
@@ -59539,11 +59562,11 @@ Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: important
 Section: admin
-Filename: pool/main/s/systemd/systemd-sysv_252.30-1~deb12u2_amd64.deb
-Size: 42460
-SHA256: a0128ee46df5d339bbc18b28df8767e2807f37f24400d10df061be543cc164ed
-SHA1: 5b8cde79eba0640de3ddb1da969bb8ba65ebcb26
-MD5sum: f89ae2ddbfecb7060db759dd53bee774
+Filename: pool/main/s/systemd/systemd-sysv_252.33-1~deb12u1_amd64.deb
+Size: 42524
+SHA256: ffb445d8c8352b56ab340819a5efa2b3bfed221f881869c5451d88131368eda0
+SHA1: 817aed9bb8d91d115f856ce6ff95a5e007d6ce37
+MD5sum: 79f4e8dafce5fe9a1598296f0b9aa5a5
 Description: system and service manager - SysV compatibility symlinks
  This package provides manual pages and compatibility symlinks needed for
  systemd to replace sysvinit.
@@ -59552,11 +59575,11 @@ Description: system and service manager - SysV compatibility symlinks
 
 Package: systemd-timesyncd
 Source: systemd
-Version: 252.30-1~deb12u2
+Version: 252.33-1~deb12u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 147
-Depends: libc6 (>= 2.34), libsystemd-shared (= 252.30-1~deb12u2), systemd
+Depends: libc6 (>= 2.34), libsystemd-shared (= 252.33-1~deb12u1), systemd
 Conflicts: time-daemon
 Breaks: systemd (<< 245.4-2~)
 Replaces: systemd (<< 245.4-2~), time-daemon
@@ -59565,11 +59588,11 @@ Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: standard
 Section: admin
-Filename: pool/main/s/systemd/systemd-timesyncd_252.30-1~deb12u2_amd64.deb
-Size: 63564
-SHA256: 1c063ec9019b0fa32d0f11c2933e42a3379c28db8d6930149b1c3923e5d0d438
-SHA1: 1424ce142b279db4c471e9ccbf51e26e0806d3ef
-MD5sum: 73ec88e01be07b4f0cee5c06be6559b7
+Filename: pool/main/s/systemd/systemd-timesyncd_252.33-1~deb12u1_amd64.deb
+Size: 63724
+SHA256: 2a3f6097aa50e90da13b8ffe291b1a58a2c4f8f636df58c62130e86062e90bfe
+SHA1: 1756a12e3c21ac370b733c1edec0bc7b946551ba
+MD5sum: cff7817d3f99d73d1526dec6a5572ce7
 Description: minimalistic service to synchronize local time with NTP servers
  The package contains the systemd-timesyncd system service that may be used to
  synchronize the local system clock with a remote Network Time Protocol server.
@@ -59872,11 +59895,11 @@ Description: Tools for handling thinly provisioned device-mapper meta-data
  information and dump or restore the meta-data in textual form.
 
 Package: thunderbird
-Version: 1:115.12.0-1~deb12u1
+Version: 1:128.5.0esr-1~deb12u1
 Architecture: amd64
 Maintainer: Carsten Schoenert <c.schoenert@t-online.de>
-Installed-Size: 231172
-Depends: debianutils (>= 1.16), fontconfig, libotr5, psmisc, x11-utils | kdialog | zenity, libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.36), libcairo-gobject2 (>= 1.10.2-1.1~), libcairo2 (>= 1.10.2-1.1~), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libevent-2.1-7 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.0), libgtk-3-0 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.82), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx7 (>= 1.12.0), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb-shm0, libxcb1, libxext6, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.11.dfsg)
+Installed-Size: 253448
+Depends: debianutils (>= 1.16), fontconfig, libotr5, psmisc, x11-utils | kdialog | zenity, libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.36), libcairo-gobject2 (>= 1.10.2-1.1~), libcairo2 (>= 1.10.2-1.1~), libdbus-1-3 (>= 1.9.14), libevent-2.1-7 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.0), libgtk-3-0 (>= 3.13.7), libnspr4 (>= 2:4.12), libnss3 (>= 2:3.82), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx7 (>= 1.12.0), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb-shm0, libxcb1, libxext6, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4)
 Recommends: myspell-en-us | hunspell-dictionary | myspell-dictionary
 Suggests: apparmor, fonts-lyx, libgssapi-krb5-2
 Breaks: birdtray (<< 1.7.0+ds-1~), calendar-google-provider (<= 1:68.2.1-1), enigmail (<< 2:2.2.0~), jsunit (<< 0.2.2-1~), webext-compactheader (<= 3.0.0~), webext-exteditor (<= 2.0.4-1), webext-sogo-connector (<= 68.0.1-2~), xul-ext-dispmua (<= 1.8.4.6-1), xul-ext-sieve (<= 0.3.1+dfsg-1~)
@@ -59884,11 +59907,11 @@ Provides: mail-reader
 Homepage: https://www.thunderbird.net/
 Priority: optional
 Section: mail
-Filename: pool/main/t/thunderbird/thunderbird_115.12.0-1~deb12u1_amd64.deb
-Size: 58291964
-SHA256: 69abb1ae0060a70eb86c67fbfc3d11ec2bb02d269e3792e76e1f4056abce6548
-SHA1: f691d1d80d3818f485ad78834bab9f11c18d9382
-MD5sum: b404ed4392a5631f08c99c33badf815f
+Filename: pool/main/t/thunderbird/thunderbird_128.5.0esr-1~deb12u1_amd64.deb
+Size: 65492712
+SHA256: 6d48462db8ebc61535a8525e3a59081ccc245546f7310fe933ba9a723529e1f9
+SHA1: 4c7f356e19667c20a127d41e71ceeb5ebf87b0f0
+MD5sum: f8d47e3178d81791abcf19ce8fe5a003
 Description: mail/news client with RSS, chat and integrated spam filter support
  Thunderbird is an mail client suitable for free distribution. The goal of
  Thunderbird is to produce a cross platform stand-alone mail application using
@@ -60140,21 +60163,21 @@ Description: displays an indented directory tree, in color
  variable is set and output is to tty.
 
 Package: tzdata
-Version: 2024a-0+deb12u1
+Version: 2024b-0+deb12u1
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 2554
+Installed-Size: 2555
 Depends: debconf (>= 0.5) | debconf-2.0
 Provides: tzdata-bookworm
 Multi-Arch: foreign
 Homepage: https://www.iana.org/time-zones
 Priority: required
 Section: localization
-Filename: pool/main/t/tzdata/tzdata_2024a-0+deb12u1_all.deb
-Size: 297188
-SHA256: 0ca0baec1fca55df56039047a631fc1541c5a44c1c4879d553aaa3a70844eb12
-SHA1: a5f2623414500d11fb2da21a5eb402ade8d705a5
-MD5sum: 14d216857e42b1b0862d1f39f10347e8
+Filename: pool/main/t/tzdata/tzdata_2024b-0+deb12u1_all.deb
+Size: 297568
+SHA256: 9426e641cdcea0b890fa270930e2577c71ce2085c445e058b08870b2adee554d
+SHA1: 071f609318ceed21a86a8fbc073ee04b57e43dd9
+MD5sum: 42b8c0f8d99c9f4c78fcec891ffc5e7d
 Description: time zone and daylight-saving time data
  This package contains data required for the implementation of
  standard local time for many representative locations around the
@@ -60163,7 +60186,7 @@ Description: time zone and daylight-saving time data
  daylight-saving rules.
 
 Package: ucf
-Version: 3.0043+nmu1
+Version: 3.0043+nmu1+deb12u1
 Architecture: all
 Maintainer: Manoj Srivastava <srivasta@debian.org>
 Installed-Size: 214
@@ -60171,11 +60194,11 @@ Depends: debconf (>= 0.5) | debconf-2.0, sensible-utils
 Multi-Arch: foreign
 Priority: standard
 Section: utils
-Filename: pool/main/u/ucf/ucf_3.0043+nmu1_all.deb
-Size: 55220
-SHA256: 46453b26b06a19ad2c5f1b96f828eaa212fc3d556ea84e87da87cdb7a0cd0f23
-SHA1: ac24e096d986a31593e75c5cd197afc59468d5bd
-MD5sum: e753f9254a5c3e7690c4a2ab37ba29dc
+Filename: pool/main/u/ucf/ucf_3.0043+nmu1+deb12u1_all.deb
+Size: 55312
+SHA256: 928f2d5d327ef0f8d1b9c03a506134f56564cd2acf3e9f041df3dbdc68b00525
+SHA1: eadb985dc63d350ab61d03155eb4b3eb1efcdacb
+MD5sum: 43a71ee3a46f0f1c88f1815cc1b43110
 Description: Update Configuration File(s): preserve user changes to config files
  Debian policy mandates that user changes to configuration files must be
  preserved during package upgrades. The easy way to achieve this behavior
@@ -60206,20 +60229,20 @@ Description: Update Configuration File(s): preserve user changes to config files
 
 Package: udev
 Source: systemd
-Version: 252.30-1~deb12u2
+Version: 252.33-1~deb12u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 10624
-Depends: libacl1 (>= 2.2.23), libblkid1 (>= 2.37.2), libc6 (>= 2.34), libcap2 (>= 1:2.10), libkmod2 (>= 15), libselinux1 (>= 3.1~), adduser, libudev1 (= 252.30-1~deb12u2)
+Installed-Size: 10783
+Depends: libacl1 (>= 2.2.23), libblkid1 (>= 2.37.2), libc6 (>= 2.34), libcap2 (>= 1:2.10), libkmod2 (>= 15), libselinux1 (>= 3.1~), adduser, libudev1 (= 252.33-1~deb12u1)
 Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: important
 Section: admin
-Filename: pool/main/s/systemd/udev_252.30-1~deb12u2_amd64.deb
-Size: 1686472
-SHA256: 73060d69fb1d8cf5803d3b2bd3eff8b57b3ab55ee63ac99a7c2c8b793d2fe3ab
-SHA1: e43c09467e6375aad18bb4518495ff693dd3446d
-MD5sum: 1941d812e15e708fd0e2949e0d2db37e
+Filename: pool/main/s/systemd/udev_252.33-1~deb12u1_amd64.deb
+Size: 1703564
+SHA256: a7ddf835bc108d613e9a0e9306c0567be3c603a9f91f47f1b3c89115fc2bcfb4
+SHA1: 40b017583adc46d03e48e39375313b44d5820808
+MD5sum: 2749cf86500eb58434277684701b3f4d
 Description: /dev/ and hotplug management daemon
  udev is a daemon which dynamically creates and removes device nodes from
  /dev/, handles hotplug events and loads drivers at boot time.
@@ -60595,7 +60618,7 @@ Description: Transitional package to assert a merged-/usr system
  It can be safely removed once no other package depends on it anymore.
 
 Package: util-linux
-Version: 2.38.1-5+deb12u1
+Version: 2.38.1-5+deb12u3
 Architecture: amd64
 Essential: yes
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
@@ -60611,11 +60634,11 @@ Multi-Arch: foreign
 Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
 Priority: required
 Section: utils
-Filename: pool/main/u/util-linux/util-linux_2.38.1-5+deb12u1_amd64.deb
-Size: 1176492
-SHA256: cc96c6e07db33c0422ff8945e13c004489c979f5e070daa67b9c6c219b22d980
-SHA1: 26f656db8963cd76c760d76f87bf5546bf1dca29
-MD5sum: e802b4f13fdf9a66b4710bd823411ebc
+Filename: pool/main/u/util-linux/util-linux_2.38.1-5+deb12u3_amd64.deb
+Size: 1177276
+SHA256: 8eb241ff24b2e1ee9c0373f4fc9bc728b85bf5966c1496154df7da01c0e42f34
+SHA1: dbe00bf187f7874551d4da36c11fafe33d508d2b
+MD5sum: 1f02fd84d12b0c81da814b1447c36252
 Description: miscellaneous system utilities
  This package contains a number of important utilities, most of which
  are oriented towards maintenance of your system. Some of the more
@@ -60625,7 +60648,7 @@ Description: miscellaneous system utilities
 
 Package: util-linux-extra
 Source: util-linux
-Version: 2.38.1-5+deb12u1
+Version: 2.38.1-5+deb12u3
 Architecture: amd64
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
 Installed-Size: 366
@@ -60636,18 +60659,18 @@ Multi-Arch: foreign
 Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
 Priority: standard
 Section: utils
-Filename: pool/main/u/util-linux/util-linux-extra_2.38.1-5+deb12u1_amd64.deb
-Size: 110496
-SHA256: 45b08b5e928ceb229721ba13b4d8e7559957222d8c35b43b6413b81d9c2d06f8
-SHA1: 8f1d4028b0047af5d3ff73bceaf6f09c8eef962c
-MD5sum: 510c1d5a1379a8bdcce4b82a297c7d80
+Filename: pool/main/u/util-linux/util-linux-extra_2.38.1-5+deb12u3_amd64.deb
+Size: 110728
+SHA256: b097a68c68e5c47a18e82678729dd9986782cf1d439f53beafad6f6dd3e6d688
+SHA1: 4fbf9dfa8f6008aa3f4d8b2c83a06929219107ff
+MD5sum: 87bc273efaa016931e9c43befead1542
 Description: interactive login tools
  Tools commonly found on systems where humans login interactively,
  or are needed with non-standard system configurations.
 
 Package: uuid-runtime
 Source: util-linux
-Version: 2.38.1-5+deb12u1
+Version: 2.38.1-5+deb12u3
 Architecture: amd64
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
 Installed-Size: 174
@@ -60657,11 +60680,11 @@ Multi-Arch: foreign
 Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
 Priority: optional
 Section: utils
-Filename: pool/main/u/util-linux/uuid-runtime_2.38.1-5+deb12u1_amd64.deb
-Size: 48012
-SHA256: 67ca1cbf99f5ab600a54a43d2ad11c608a841a12cdfed588b5ed24b62125b7f5
-SHA1: dca0fa29cfb794b3084a47c9acad22be5cc964a6
-MD5sum: 9134c8744fa09444499d4c804c010dbf
+Filename: pool/main/u/util-linux/uuid-runtime_2.38.1-5+deb12u3_amd64.deb
+Size: 48232
+SHA256: 23ca0bb9bd4793fae15fc001e1f0daa765b83f3cb80e331602c1592cb9d80d1b
+SHA1: e4c8c2be910fd65ae0b018916fd0b8b325ab5e7f
+MD5sum: a97da599ef54248f1f216b9160b327b0
 Description: runtime components for the Universally Unique ID library
  The libuuid library generates and parses 128-bit Universally Unique
  IDs (UUIDs). A UUID is an identifier that is unique within the space
@@ -62312,7 +62335,7 @@ Description: command line ISO-9660 and Rock Ridge manipulation tool
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.7-3+deb12u7
+Version: 2:21.1.7-3+deb12u8
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 2444
@@ -62323,11 +62346,11 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.7-3+deb12u7_all.deb
-Size: 2382664
-SHA256: f6be0edb1fb5ba3e4b008e85c75ee08e14e18cbfe39d2c3b49c75fac0d3114df
-SHA1: 3aa7e518a844dd5d113b998ff12a89eeccd78e70
-MD5sum: fd2f2dc15739f1a3993f030b3a5c7f95
+Filename: pool/main/x/xorg-server/xserver-common_21.1.7-3+deb12u8_all.deb
+Size: 2382740
+SHA256: 82be0840168b1c39a9d670559bd68479dc275bb8ba30b24ea6e48ad98da33aaf
+SHA1: 13c607b313d2210fb76188034c9654d0cf309ad5
+MD5sum: b0c5e226580d4cdd75d495082fee665e
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
 
@@ -62354,11 +62377,11 @@ Description: X.Org X server
 
 Package: xserver-xorg-core
 Source: xorg-server
-Version: 2:21.1.7-3+deb12u7
+Version: 2:21.1.7-3+deb12u8
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 6117
-Depends: xserver-common (>= 2:21.1.7-3+deb12u7), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.35), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.66), libepoxy0 (>= 1.5.4), libgbm1 (>= 17.1.0~rc2), libgcrypt20 (>= 1.10.0), libgl1, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.9), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Depends: xserver-common (>= 2:21.1.7-3+deb12u8), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.35), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.66), libepoxy0 (>= 1.5.4), libgbm1 (>= 17.1.0~rc2), libgcrypt20 (>= 1.10.0), libgl1, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.9), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
 Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
 Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
 Conflicts: xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
@@ -62368,11 +62391,11 @@ Provides: xorg-input-abi-24, xorg-video-abi-25, xserver-xorg-video-modesetting
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-xorg-core_21.1.7-3+deb12u7_amd64.deb
-Size: 3719612
-SHA256: a618205293070b779aabe2f3ac60f90bd5f09404bc0cea867e1bdd4436daab48
-SHA1: 8c30d8ae3235b74193b2be68e4e91284ae2fb1d3
-MD5sum: f0d55edf3c1dd3507e94521c34a26d54
+Filename: pool/main/x/xorg-server/xserver-xorg-core_21.1.7-3+deb12u8_amd64.deb
+Size: 3719292
+SHA256: be9f8c8696e2888965cf70dc28fb7a237a5f5508894c309c9ae445cbfd319519
+SHA1: 9b82a185e771e42007da78a3966bde7c199626c5
+MD5sum: 270d9aa1e5e015e3d3ab1f4f19aeefda
 Description: Xorg X server - core server
  The Xorg X server is an X server for several architectures and operating
  systems, which is derived from the XFree86 4.x series of X servers.
@@ -62544,21 +62567,21 @@ Description: X.Org X server -- Wacom input driver
 
 Package: xserver-xorg-legacy
 Source: xorg-server
-Version: 2:21.1.7-3+deb12u7
+Version: 2:21.1.7-3+deb12u8
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 2475
-Depends: xserver-common (>= 2:21.1.7-3+deb12u7), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
+Depends: xserver-common (>= 2:21.1.7-3+deb12u8), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
 Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
 Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-xorg-legacy_21.1.7-3+deb12u7_amd64.deb
-Size: 2388128
-SHA256: 9c9f7e35e9317fd6cacc48c23353427bc12a0980cf3ffd653bfd6608839a3fc7
-SHA1: 773d70a36de57ca7e512a1561bf99287a0e28713
-MD5sum: f2460bdf6db3319132636825aa197eb9
+Filename: pool/main/x/xorg-server/xserver-xorg-legacy_21.1.7-3+deb12u8_amd64.deb
+Size: 2388164
+SHA256: d97b9882d15fed536052555a7c6e538966de8a1faa97a743cd02afdfa0c2065c
+SHA1: c20938fcfa285c2670e957acf02c4d7f3ebb50c6
+MD5sum: 68c8ad9d3d081c46783d699bb6fa598d
 Description: setuid root Xorg server wrapper
  This package provides a wrapper for the Xorg X server, which is
  necessary for legacy drivers and non-Linux kernels.

@@ -926,7 +926,7 @@ Description: disk encryption support - initramfs integration
 
 Package: cups-common
 Source: cups
-Version: 2.4.2-3+deb12u7
+Version: 2.4.2-3+deb12u8
 Architecture: all
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 4238
@@ -934,11 +934,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-common_2.4.2-3+deb12u7_all.deb
-Size: 256112
-SHA256: 545bc1fdb28cbc52df745d6d7ba7e9f2b1fd6367c7e0a5c6ea21708a9ac6290b
-SHA1: 6cd6a00b32797e5deade67bfaf4a2aefc06054c4
-MD5sum: 5f386f269d2dee031311e6d1572e73f3
+Filename: pool/main/c/cups/cups-common_2.4.2-3+deb12u8_all.deb
+Size: 256416
+SHA256: c7afe157c700fdbcb2373fc41ed0471084a5e13d57e6417ff837d9dbd2c315bc
+SHA1: e7e716ebe1e52e29d884f086a485af24e78a4526
+MD5sum: 30207ae5f22be2d5d883122d0276f9fb
 Description: Common UNIX Printing System(tm) - common files
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -949,7 +949,7 @@ Description: Common UNIX Printing System(tm) - common files
 
 Package: cups-server-common
 Source: cups
-Version: 2.4.2-3+deb12u7
+Version: 2.4.2-3+deb12u8
 Architecture: all
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 2381
@@ -957,11 +957,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-server-common_2.4.2-3+deb12u7_all.deb
-Size: 413020
-SHA256: f8053d48cafb90c358c6c8e9e0296a40645536602adafaafcdb6c1c53bc1266c
-SHA1: 1b2095b9598a9726b3ccc448ccd9fc4dbac89aa7
-MD5sum: 12ecdbd2c0b666ed2ad306dd53f12b93
+Filename: pool/main/c/cups/cups-server-common_2.4.2-3+deb12u8_all.deb
+Size: 413240
+SHA256: ce50839631e5e71fce6367b2e617f8f2e325c524af3942a7fbdd4dd3b45c7e4b
+SHA1: 3d26ef715a4a6365dbda52bbc313613fb415a090
+MD5sum: 55ed9cc427a842e2058fa8d4611c4865
 Description: Common UNIX Printing System(tm) - server common files
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -1272,7 +1272,7 @@ Description: spelling dictionaries - common utilities
  naming conventions is available in the README.Debian file.
 
 Package: distro-info-data
-Version: 0.58+deb12u2
+Version: 0.58+deb12u3
 Architecture: all
 Maintainer: Benjamin Drung <bdrung@debian.org>
 Installed-Size: 18
@@ -1280,11 +1280,11 @@ Breaks: distro-info (<< 1.0~)
 Multi-Arch: foreign
 Priority: optional
 Section: devel
-Filename: pool/main/d/distro-info-data/distro-info-data_0.58+deb12u2_all.deb
-Size: 6204
-SHA256: afd8d63b2bfba0ca96dbb9f11325ddfe15ddb35adb0953d806ac4744cf00013a
-SHA1: 76756697513880a44e6a150af644154b09e2d1b8
-MD5sum: d6693290222d0bb66cffbef288a7b574
+Filename: pool/main/d/distro-info-data/distro-info-data_0.58+deb12u3_all.deb
+Size: 6272
+SHA256: 3a98b1a790bc1073f26273c4f2ffe39b222cdb028fa16beb524f191ca466a20f
+SHA1: 20cd0bbcb08a6cd20d4c387379bcba9c16347408
+MD5sum: 3d039a16f426e8c313f94f553be64998
 Description: information about the distributions' releases (data files)
  Information about all releases of Debian and Ubuntu. The distro-info script
  will give you the codename for e.g. the latest stable release of your
@@ -1589,7 +1589,7 @@ Description: AST-based pattern checker for JavaScript
 
 Package: exim4-config
 Source: exim4
-Version: 4.96-15+deb12u5
+Version: 4.96-15+deb12u6
 Architecture: all
 Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Installed-Size: 919
@@ -1601,11 +1601,11 @@ Provides: exim4-config-2
 Homepage: https://www.exim.org/
 Priority: optional
 Section: mail
-Filename: pool/main/e/exim4/exim4-config_4.96-15+deb12u5_all.deb
-Size: 255772
-SHA256: 3e07761d6e7205d72da7b2f560d821b38c0d70bec419b95a1667ace21b8f3b29
-SHA1: 0e907bb1ed29c78016ff82a897d76e67c7983473
-MD5sum: 140f93a582c5b20497569a899069bf0a
+Filename: pool/main/e/exim4/exim4-config_4.96-15+deb12u6_all.deb
+Size: 255864
+SHA256: 85349f70961304ea14508e7a71608c17099b7ad5915588e64bd261cedaecc57d
+SHA1: 3076661f48adda0fabb8b2209164eca348fa693e
+MD5sum: b5bfa413828bc8076afc5bf21f8877ed
 Description: configuration for the Exim MTA (v4)
  Exim (v4) is a mail transport agent. exim4-config provides the configuration
  for the exim4 daemon packages. The configuration framework has been split
@@ -4308,19 +4308,19 @@ Description: GCC, the GNU compiler collection (native language support files)
 
 Package: git-man
 Source: git
-Version: 1:2.39.2-1.1
+Version: 1:2.39.5-0+deb12u1
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 2103
+Installed-Size: 2108
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: doc
-Filename: pool/main/g/git/git-man_2.39.2-1.1_all.deb
-Size: 2049236
-SHA256: 34097adaf793f92cc93c8f07059d34766a6a8f2b1d0b1b74b9bb530516402642
-SHA1: 147cb3ac72f646c7e40737e004351cc6f45c2ef5
-MD5sum: 4cfb6994a24b5fa3e1199197dd84dfed
+Filename: pool/main/g/git/git-man_2.39.5-0+deb12u1_all.deb
+Size: 2053856
+SHA256: dba6b0fd06e11669ba1f60bb4e90af0157f1157b098df7f702cb9beb16fbfc5d
+SHA1: c64a2c21615871e833ce2c9cb324010e350ba6aa
+MD5sum: 38b798be016b3e191b7e40944ba6dc50
 Description: fast, scalable, distributed revision control system (manual pages)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -5406,7 +5406,7 @@ Description: Authen::SASL - SASL Authentication framework
 
 Package: libc-l10n
 Source: glibc
-Version: 2.36-9+deb12u8
+Version: 2.36-9+deb12u9
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 4348
@@ -5414,11 +5414,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/libc-l10n_2.36-9+deb12u8_all.deb
-Size: 674472
-SHA256: fbde9e26d9a799b06d7a449bcb968d8828ce98204cf44cd8bd61b104154e8b68
-SHA1: d875bc9a0db5ca7f4bd2c74cefaff4375c999035
-MD5sum: f60be66d56d7f9bb81b228d58d21c7cc
+Filename: pool/main/g/glibc/libc-l10n_2.36-9+deb12u9_all.deb
+Size: 676736
+SHA256: 8fa332927303ec6f52965bbdbdbe7bb67988bf7e3b3d6c9fa7ac8ad8ce4a6793
+SHA1: c8e31889ea7d9edadfb95e8efaef556c2b763fa0
+MD5sum: 60687e73de5156c69f48ebdb2a699e72
 Description: GNU C Library: localization files
  This package contains the translation files for the GNU C library and
  utility programs.
@@ -5816,7 +5816,7 @@ Description: GDK Pixbuf library - data files
 
 Package: libglib2.0-data
 Source: glib2.0
-Version: 2.74.6-2+deb12u3
+Version: 2.74.6-2+deb12u5
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 9405
@@ -5824,11 +5824,11 @@ Multi-Arch: foreign
 Homepage: https://wiki.gnome.org/Projects/GLib
 Priority: optional
 Section: libs
-Filename: pool/main/g/glib2.0/libglib2.0-data_2.74.6-2+deb12u3_all.deb
-Size: 1208912
-SHA256: e43b334196f5c62b80af83cbaa93ce5a4db4dff99930d63ce5a998a9c71c1ca7
-SHA1: c34cbf99db495d0bb1ed87c2e03bccec32e130e5
-MD5sum: 11137330b594a82a4cb6e33167a52702
+Filename: pool/main/g/glib2.0/libglib2.0-data_2.74.6-2+deb12u5_all.deb
+Size: 1208668
+SHA256: da703c4b410f97bd059f7ba9d7b4b3032979a73c7727ac16441c5c12e1f722f3
+SHA1: eea69d75c493844adf0b6a169ee182d52e80018f
+MD5sum: 7e2ad9b1ae921ab8e3d1e5d8035f95b1
 Description: Common files for GLib library
  GLib is a library containing many useful C routines for things such
  as trees, hashes, lists, and strings.  It is a useful general-purpose
@@ -5861,7 +5861,7 @@ Description: gphoto2 digital camera library - localized messages
 
 Package: libgs-common
 Source: ghostscript
-Version: 10.0.0~dfsg-11+deb12u4
+Version: 10.0.0~dfsg-11+deb12u6
 Architecture: all
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 316
@@ -5871,11 +5871,11 @@ Multi-Arch: foreign
 Homepage: https://www.ghostscript.com/
 Priority: optional
 Section: libs
-Filename: pool/main/g/ghostscript/libgs-common_10.0.0~dfsg-11+deb12u4_all.deb
-Size: 148912
-SHA256: 67e3eb06be7f19ce2b42f4e2669d53805fccaa9dc8e080addd29784570755264
-SHA1: 30a7a170dcb364abed160422a31f9a77a1b6260b
-MD5sum: f8830441743fccb0c53e577e984b23d4
+Filename: pool/main/g/ghostscript/libgs-common_10.0.0~dfsg-11+deb12u6_all.deb
+Size: 149468
+SHA256: 90e70c7c0c7703d856061018da8a4881bf3c5795a055fd43004b665d05656479
+SHA1: 21a75c4656ace4b396a34c9f5b6c1c3f9bf16e0d
+MD5sum: 21fc5338d8096982bd9c3103b15d2ebf
 Description: interpreter for the PostScript language and for PDF - ICC profiles
  GPL Ghostscript is used for PostScript/PDF preview and printing.
  Usually as a back-end to a program such as ghostview,
@@ -5885,7 +5885,7 @@ Description: interpreter for the PostScript language and for PDF - ICC profiles
 
 Package: libgs10-common
 Source: ghostscript
-Version: 10.0.0~dfsg-11+deb12u4
+Version: 10.0.0~dfsg-11+deb12u6
 Architecture: all
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 2843
@@ -5897,11 +5897,11 @@ Multi-Arch: foreign
 Homepage: https://www.ghostscript.com/
 Priority: optional
 Section: libs
-Filename: pool/main/g/ghostscript/libgs10-common_10.0.0~dfsg-11+deb12u4_all.deb
-Size: 586240
-SHA256: f0952db8ef6846ed8c01e36c2197b59bdb5825e3315e1729933ce1705e708915
-SHA1: 79d89f1e9d442a7bc654737c29bc57d383f2d579
-MD5sum: de808cc6f7fe4425d20434b2ff22ffc3
+Filename: pool/main/g/ghostscript/libgs10-common_10.0.0~dfsg-11+deb12u6_all.deb
+Size: 586552
+SHA256: 68b3c9a0ba3f0136c71b0bee3c9e34788438edf93b361d239f53d2aa85eb3fe7
+SHA1: 71ca35613d0a3a5bb90117bed26d8835a66ef0c5
+MD5sum: 2c797b1720e5129676bfbd482348713a
 Description: interpreter for the PostScript language and for PDF - common files
  GPL Ghostscript is used for PostScript/PDF preview and printing.
  Usually as a back-end to a program such as ghostview,
@@ -5918,7 +5918,7 @@ Description: interpreter for the PostScript language and for PDF - common files
 
 Package: libgtk-3-common
 Source: gtk+3.0
-Version: 3.24.38-2~deb12u2
+Version: 3.24.38-2~deb12u3
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 26504
@@ -5930,11 +5930,11 @@ Multi-Arch: foreign
 Homepage: https://www.gtk.org/
 Priority: optional
 Section: misc
-Filename: pool/main/g/gtk+3.0/libgtk-3-common_3.24.38-2~deb12u2_all.deb
-Size: 3893028
-SHA256: 44bac66c53b0e5ae534828abef0a57160d2a1759eb83bd7ed5cc5f8e94a7a584
-SHA1: 9a4aa666710708320d8246da17819dfc4110ac16
-MD5sum: a07788820c9bf5cc68cbbf4269e3e59c
+Filename: pool/main/g/gtk+3.0/libgtk-3-common_3.24.38-2~deb12u3_all.deb
+Size: 3895056
+SHA256: f2642d127d85440acbfc2ed404d3932d8b2fbe8a576ead7f93f35ac1fa999c92
+SHA1: 56a81671b1c3a0b56bab77f8caf14eadd8a67cbf
+MD5sum: ea907e2a098712e49dd7459aa0a9ab38
 Description: common files for the GTK graphical user interface library
  GTK is a multi-platform toolkit for creating graphical user
  interfaces. Offering a complete set of widgets, GTK is suitable
@@ -8437,21 +8437,21 @@ Description: Common header files for Linux 6.6.13+bpo
  kernel you intend the build for.
 
 Package: live-boot
-Version: 1:20230131
+Version: 1:20230131+deb12u1
 Architecture: all
 Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
-Installed-Size: 117
+Installed-Size: 118
 Depends: live-boot-initramfs-tools | live-boot-backend
 Recommends: live-boot-doc, live-tools, rsync, uuid-runtime
 Suggests: cryptsetup, curlftpfs, httpfs2, wget
 Homepage: https://wiki.debian.org/DebianLive
 Priority: optional
 Section: misc
-Filename: pool/main/l/live-boot/live-boot_20230131_all.deb
-Size: 28748
-SHA256: ac1a408aa73711046ec57329512ad59260c6f5bb9057a89b27a9a2edd43183b8
-SHA1: 5af934c8877477178c2e1c9335d31b1db08a6cd8
-MD5sum: 22683bcf1526f01d839063c19d1dd288
+Filename: pool/main/l/live-boot/live-boot_20230131+deb12u1_all.deb
+Size: 28956
+SHA256: f4bca17a3bab942b160afc89aeac6174ee522aa49bea3d94ef04ea5f4ab37bc4
+SHA1: 558a0d33c52f457f7db69ef53159b1e68efb39e8
+MD5sum: 3c5a618670017c46612a93cf6579ef77
 Description: Live System Boot Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -8465,7 +8465,7 @@ Description: Live System Boot Components
 
 Package: live-boot-doc
 Source: live-boot
-Version: 1:20230131
+Version: 1:20230131+deb12u1
 Architecture: all
 Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
 Installed-Size: 70
@@ -8473,11 +8473,11 @@ Multi-Arch: foreign
 Homepage: https://wiki.debian.org/DebianLive
 Priority: optional
 Section: doc
-Filename: pool/main/l/live-boot/live-boot-doc_20230131_all.deb
-Size: 48272
-SHA256: 392a7d8f9831933d6463f75288c0683ec5057043279fccde09241341fb79a182
-SHA1: bdf2204228cf0037dc908286075ef0fc50616d98
-MD5sum: 91822671a5823e5b8d27d2e23253a077
+Filename: pool/main/l/live-boot/live-boot-doc_20230131+deb12u1_all.deb
+Size: 48392
+SHA256: 309bee7758c245e71141ae13ebebffcf7a43ef8474cc0f7f5878391cd25d873b
+SHA1: f584f4de2167a07e7340727a7a47418c11684bc3
+MD5sum: a96c1dbf51dea413efe228062f243448
 Description: Live System Boot Components (documentation)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -8489,7 +8489,7 @@ Description: Live System Boot Components (documentation)
 
 Package: live-boot-initramfs-tools
 Source: live-boot
-Version: 1:20230131
+Version: 1:20230131+deb12u1
 Architecture: all
 Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
 Installed-Size: 25
@@ -8500,11 +8500,11 @@ Provides: live-boot-backend
 Homepage: https://wiki.debian.org/DebianLive
 Priority: optional
 Section: misc
-Filename: pool/main/l/live-boot/live-boot-initramfs-tools_20230131_all.deb
-Size: 5804
-SHA256: ed82b77707d7d75cdc23ea6366029a7ee6686758fdf1192d7be7d830fafc85d5
-SHA1: 7178c61f9337b61feb2b08baf5534ee4a2a511d2
-MD5sum: b8da0cf77ba4c16050a2e120f2ff215f
+Filename: pool/main/l/live-boot/live-boot-initramfs-tools_20230131+deb12u1_all.deb
+Size: 5908
+SHA256: 9db04522667076ea69310c2dfb06d7bcbdf7a996e75ad759713cf601bc0c70a5
+SHA1: 6a3636a8d67f0c53d360e9cc21a1a833dbcf677e
+MD5sum: a675a43b98244fd9c14a0a5b4d525cd6
 Description: Live System Boot Components (initramfs-tools backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -8613,7 +8613,7 @@ Description: Live System Extra Components
 
 Package: locales
 Source: glibc
-Version: 2.36-9+deb12u8
+Version: 2.36-9+deb12u9
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 15845
@@ -8621,11 +8621,11 @@ Depends: libc-bin (>> 2.36), libc-l10n (>> 2.36), debconf (>= 0.5) | debconf-2.0
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/locales_2.36-9+deb12u8_all.deb
-Size: 3901488
-SHA256: 937105d99c505eb2b2239afcbe6f11adb1a42512c6e18a7983cfa0df8183bbfd
-SHA1: c21112c7d78d543b13b5744f45d517a3ac6c341b
-MD5sum: a80ba683c234c9ad499d388a02baa4ef
+Filename: pool/main/g/glibc/locales_2.36-9+deb12u9_all.deb
+Size: 3903652
+SHA256: 6e9e212c488078048fc5dee029a0c7ac5336b4adae5aae41c0e2c69025c0c71c
+SHA1: 6d1d9fa609624bf20630e9a6de7568d3cbd1439c
+MD5sum: 0a9e7718bfba88a26f1868d93df9497c
 Description: GNU C Library: National Language (locale) data [support]
  Machine-readable data files, shared objects and programs used by the
  C library for localization (l10n) and internationalization (i18n) support.
@@ -11257,18 +11257,18 @@ Description: ECMAScript spec abstract operations
  Node.js is an event-based server-side JavaScript engine.
 
 Package: node-es-module-lexer
-Version: 1.1.0+dfsg-2
+Version: 1.1.0+dfsg-2+deb12u1
 Architecture: all
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Installed-Size: 89
 Homepage: https://github.com/guybedford/es-module-lexer#readme
 Priority: optional
 Section: javascript
-Filename: pool/main/n/node-es-module-lexer/node-es-module-lexer_1.1.0+dfsg-2_all.deb
-Size: 19656
-SHA256: bb6f3138e6da08065d9544a00ce36ebe8830ed7172576f49df4a32c57d37c7c8
-SHA1: 4784f017ae3b6747bd459b5731cced2c4218a91c
-MD5sum: e38ea8af724ecedaaee06bf2318bb126
+Filename: pool/main/n/node-es-module-lexer/node-es-module-lexer_1.1.0+dfsg-2+deb12u1_all.deb
+Size: 19744
+SHA256: 2699ed1ff9315da52ebfb8405d66d952bffb0653129fca3dcc7aa6a5bb23ad43
+SHA1: ba27e8fd02a388d8e1590840778cb72cf8e971d1
+MD5sum: d7e677cc0270b678ca01fc95ce3e5b1c
 Description: Fast lexer to extract named exports from EcmaScript modules
  node-es-module-lexer outputs the list of exports and locations of import
  specifiers, including dynamic import and import meta handling.
@@ -12159,7 +12159,7 @@ Description: Global identifiers from different JavaScript environments
  Node.js is an event-based server-side JavaScript engine.
 
 Package: node-globby
-Version: 13.1.3+~cs16.25.40-1
+Version: 13.1.3+~cs16.25.40-1+deb12u1
 Architecture: all
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Installed-Size: 290
@@ -12169,11 +12169,11 @@ Provides: node-dir-glob (= 3.0.1), node-fast-glob (= 3.2.12), node-fastq (= 1.14
 Homepage: https://github.com/sindresorhus/globby
 Priority: optional
 Section: javascript
-Filename: pool/main/n/node-globby/node-globby_13.1.3+~cs16.25.40-1_all.deb
-Size: 40304
-SHA256: f22dae1d8982ce9846ca4c1ffd276d2362181d7d334741307dc353dbe06d72e7
-SHA1: f9a95d2fa2544934c4a45690c66d620b1bdf4210
-MD5sum: 04e4b11321799588772ccfb8d4e253c1
+Filename: pool/main/n/node-globby/node-globby_13.1.3+~cs16.25.40-1+deb12u1_all.deb
+Size: 40452
+SHA256: 61c52262de7da46a16fef6b542b5ba29f56f0a5cea2a09b11f5bad14d7ff3ea0
+SHA1: 3fa9fc772ff9402607c4e2c74f20258aad0d81d5
+MD5sum: 90b4c47ec7d9cedfbd612f97a22a9871
 Description: Extends glob with promise API
  Extends glob with support for multiple patterns and exposes a Promise API.
  .
@@ -16338,7 +16338,7 @@ Description: Detect whether a terminal supports color in Node.js
  Node.js is an event-based server-side JavaScript engine.
 
 Package: node-tap
-Version: 16.3.2+ds1+~cs50.8.16-1
+Version: 16.3.2+ds1+~cs50.8.16-1+deb12u1
 Architecture: all
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Installed-Size: 648
@@ -16348,11 +16348,11 @@ Provides: node-async-hook-domain (= 3.0.2), node-bind-obj-methods (= 3.0.0), nod
 Homepage: https://github.com/tapjs/node-tap
 Priority: optional
 Section: javascript
-Filename: pool/main/n/node-tap/node-tap_16.3.2+ds1+~cs50.8.16-1_all.deb
-Size: 100824
-SHA256: 46f74558615a4461d0ff4bd5a69a4f0e11b03c33e66467813f624ce01eecaccc
-SHA1: e8452f97b5bc02ed3cca5eeadb67291fcdc6abb5
-MD5sum: bdcd6c54d0b29af6170b9f9f71d20ea5
+Filename: pool/main/n/node-tap/node-tap_16.3.2+ds1+~cs50.8.16-1+deb12u1_all.deb
+Size: 100980
+SHA256: 5638e1d2396b6deb23184f2f3e7f5be05fe42c3dd9a74a1b3098e27af3910780
+SHA1: 1be8166d8e8365f55cf21891772ebca58799c198
+MD5sum: b7ed53f9722795a86f8ad4b7ac112aac
 Description: Test-Anything-Protocol module for Node.js
  Utilities for writing test harnesses complying with TAP output format.
  .
@@ -19315,7 +19315,7 @@ Description: Various helpers to pass trusted data to untrusted environment - Pyt
 
 Package: python3-jinja2
 Source: jinja2
-Version: 3.1.2-1
+Version: 3.1.2-1+deb12u1
 Architecture: all
 Maintainer: Piotr Ożarowski <piotr@debian.org>
 Installed-Size: 538
@@ -19327,11 +19327,11 @@ Replaces: python-jinja2 (<< 2.11.1-1)
 Homepage: http://jinja.pocoo.org/
 Priority: optional
 Section: python
-Filename: pool/main/j/jinja2/python3-jinja2_3.1.2-1_all.deb
-Size: 118996
-SHA256: a14db2aa3ca8fa5852bea5a1e2bc152e21ec3e4e4d539f472469248968a5f950
-SHA1: eb51864ac8d5b01129fca36386625c7d80b37212
-MD5sum: 4072585362f1c74dbd5f5795e53d6bb9
+Filename: pool/main/j/jinja2/python3-jinja2_3.1.2-1+deb12u1_all.deb
+Size: 119376
+SHA256: 01d011283ca2354cc555ca391761031b5bbc4bb6d33df93b28928fe7fd597580
+SHA1: 395ee363e0b4c595263fc051ce6db42f625cc5fe
+MD5sum: 9018ef73cfce78d6e8f37f1a57ebe1d2
 Description: small but fast and easy to use stand-alone template engine
  Jinja2 is a template engine written in pure Python. It provides a Django
  inspired non-XML syntax but supports inline expressions and an optional
@@ -19769,7 +19769,7 @@ Description: Python package installer (pip wheel)
 
 Package: python3-pkg-resources
 Source: setuptools
-Version: 66.1.1-1
+Version: 66.1.1-1+deb12u1
 Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 1052
@@ -19779,11 +19779,11 @@ Multi-Arch: foreign
 Homepage: https://pypi.python.org/pypi/setuptools
 Priority: optional
 Section: python
-Filename: pool/main/s/setuptools/python3-pkg-resources_66.1.1-1_all.deb
-Size: 296344
-SHA256: eae531bb312beacd82c48122259070f313fecd326c3f255e248b4c69d56d15d1
-SHA1: a88b5d7a1b2c1f75fa4858802711da5e2b69fd94
-MD5sum: 77d4f3bebb451c0933e9959a5f4778f6
+Filename: pool/main/s/setuptools/python3-pkg-resources_66.1.1-1+deb12u1_all.deb
+Size: 296496
+SHA256: 17e3381df24e003d94395a393a3e29e29fb5d320b879fe5ba05a75babe7f4ef8
+SHA1: 19dab59ad81738f1ac904c8f93333302d7374db7
+MD5sum: 32b29eb41fd1380cc12d5a57f0d8197b
 Description: Package Discovery and Resource Access using pkg_resources
  The pkg_resources module provides an API for Python libraries to
  access their resource files, and for extensible applications and
@@ -20162,40 +20162,40 @@ Description: render rich text, tables, progress bars, syntax highlighting, markd
 
 Package: python3-setuptools
 Source: setuptools
-Version: 66.1.1-1
+Version: 66.1.1-1+deb12u1
 Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 2533
-Depends: python3-pkg-resources (= 66.1.1-1), python3-distutils, python3:any
+Installed-Size: 2534
+Depends: python3-pkg-resources (= 66.1.1-1+deb12u1), python3-distutils, python3:any
 Suggests: python-setuptools-doc
 Multi-Arch: foreign
 Homepage: https://pypi.python.org/pypi/setuptools
 Priority: optional
 Section: python
-Filename: pool/main/s/setuptools/python3-setuptools_66.1.1-1_all.deb
-Size: 521052
-SHA256: c9322ac0d586a952769a6cdfcecb9700f216e1db29271696a237dd08ab91a0de
-SHA1: 691a046bb31f4b1d705c99b2867277376239f7df
-MD5sum: 8d68555ce2fd79bfd025b9fad37f04e1
+Filename: pool/main/s/setuptools/python3-setuptools_66.1.1-1+deb12u1_all.deb
+Size: 521504
+SHA256: 880e4be142c2dc113afdf043cb8a471c331876a62850071605ddb908cb3be982
+SHA1: 818548d9df885ec14eae615285573ea94aa40d2a
+MD5sum: cc2eaefaff6e1eb919fc8dc774b08db6
 Description: Python3 Distutils Enhancements
  Extensions to the python-distutils for large or complex distributions.
 
 Package: python3-setuptools-whl
 Source: setuptools
-Version: 66.1.1-1
+Version: 66.1.1-1+deb12u1
 Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 1315
+Installed-Size: 1316
 Breaks: python-pip-whl (<< 21.3.1+dfsg-2~)
 Replaces: python-pip-whl (<< 21.3.1+dfsg-2~)
 Homepage: https://pypi.python.org/pypi/setuptools
 Priority: optional
 Section: python
-Filename: pool/main/s/setuptools/python3-setuptools-whl_66.1.1-1_all.deb
-Size: 1111316
-SHA256: 09b4e946f2db7b31a6eba29e2c5e79864a70eba5e06f58ea4fa5c16468e7b17a
-SHA1: a37d4d0a4e8e7fb70a91b956c2d5af73d1ff5740
-MD5sum: 2cb058bda4269ca59697a748b60143c0
+Filename: pool/main/s/setuptools/python3-setuptools-whl_66.1.1-1+deb12u1_all.deb
+Size: 1111912
+SHA256: 7daf80bede74930e8e96b7e94fd1e7cdab19639446a9a39a52497a53d78b3116
+SHA1: e823412d681bb853d37ecc3192fbc03d20602fb5
+MD5sum: 91cbfe4fb7792e36ef87440aa91cb25d
 Description: Python Distutils Enhancements (wheel package)
  Extensions to the python-distutils for large or complex distributions.
  .
@@ -20510,21 +20510,21 @@ Description: implementation of RFC6570 - Python 3.x
 
 Package: python3-urllib3
 Source: python-urllib3
-Version: 1.26.12-1
+Version: 1.26.12-1+deb12u1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 455
+Installed-Size: 453
 Depends: python3:any, python3-six
 Recommends: ca-certificates
 Suggests: python3-brotli, python3-cryptography, python3-idna, python3-openssl, python3-socks
 Homepage: https://urllib3.readthedocs.org
 Priority: optional
 Section: python
-Filename: pool/main/p/python-urllib3/python3-urllib3_1.26.12-1_all.deb
-Size: 116708
-SHA256: 0fc07902b149d1c0381336ea9871e20c00100604c2449fabbc43d437ceb13b51
-SHA1: 14c96043a3916a113b8f4c0c66cd1aed20c1867c
-MD5sum: 32a6352f411321a901ee56c7d3aa2801
+Filename: pool/main/p/python-urllib3/python3-urllib3_1.26.12-1+deb12u1_all.deb
+Size: 113580
+SHA256: e4ad7b9298d0dfbf206440a20cc925f6db6d581398c9b3f63eb660226a3edd17
+SHA1: 7da47c3963f5785bcfc17e7633823a4365a5532d
+MD5sum: 0e71ad1f2873e479a73bb5e4d742117d
 Description: HTTP library with thread-safe connection pooling for Python3
  urllib3 supports features left out of urllib and urllib2 libraries.
  .
@@ -20639,21 +20639,21 @@ Description: implementation of the WebSocket Protocol (RFC 6455)
 
 Package: python3-werkzeug
 Source: python-werkzeug
-Version: 2.2.2-3
+Version: 2.2.2-3+deb12u1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 865
+Installed-Size: 867
 Depends: libjs-jquery, python3-markupsafe, python3:any
 Recommends: python3-openssl, python3-pyinotify
 Suggests: ipython3, python-werkzeug-doc, python3-lxml, python3-pkg-resources, python3-watchdog
 Homepage: http://werkzeug.pocoo.org/
 Priority: optional
 Section: python
-Filename: pool/main/p/python-werkzeug/python3-werkzeug_2.2.2-3_all.deb
-Size: 205356
-SHA256: 30e97964effb527c37bc9ac3a51f0fa7a784ceee056590353c85e8a9acca1b45
-SHA1: 8d4ce4e25dfe7f3709bfffd5321af240a45b6d1a
-MD5sum: 0f02c9271d18cda96b0af17133e9213a
+Filename: pool/main/p/python-werkzeug/python3-werkzeug_2.2.2-3+deb12u1_all.deb
+Size: 206124
+SHA256: 283e2d849e93531581948b0c49ebdd3831c0a5fc22edb7bc08efd3c38ae055b8
+SHA1: b39a96446c79f303a526c2497026075e1e35efa0
+MD5sum: 7357d391c0ad172d920b8ecaf5176ad4
 Description: collection of utilities for WSGI applications (Python 3.x)
  The Web Server Gateway Interface (WSGI) is a standard interface between web
  server software and web applications written in Python.
@@ -21410,21 +21410,21 @@ Description: udev rules for TPM modules
  this package to be installed to provide proper permissions of the TPM.
 
 Package: tzdata
-Version: 2024a-0+deb12u1
+Version: 2024b-0+deb12u1
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 2554
+Installed-Size: 2555
 Depends: debconf (>= 0.5) | debconf-2.0
 Provides: tzdata-bookworm
 Multi-Arch: foreign
 Homepage: https://www.iana.org/time-zones
 Priority: required
 Section: localization
-Filename: pool/main/t/tzdata/tzdata_2024a-0+deb12u1_all.deb
-Size: 297188
-SHA256: 0ca0baec1fca55df56039047a631fc1541c5a44c1c4879d553aaa3a70844eb12
-SHA1: a5f2623414500d11fb2da21a5eb402ade8d705a5
-MD5sum: 14d216857e42b1b0862d1f39f10347e8
+Filename: pool/main/t/tzdata/tzdata_2024b-0+deb12u1_all.deb
+Size: 297568
+SHA256: 9426e641cdcea0b890fa270930e2577c71ce2085c445e058b08870b2adee554d
+SHA1: 071f609318ceed21a86a8fbc073ee04b57e43dd9
+MD5sum: 42b8c0f8d99c9f4c78fcec891ffc5e7d
 Description: time zone and daylight-saving time data
  This package contains data required for the implementation of
  standard local time for many representative locations around the
@@ -21433,7 +21433,7 @@ Description: time zone and daylight-saving time data
  daylight-saving rules.
 
 Package: ucf
-Version: 3.0043+nmu1
+Version: 3.0043+nmu1+deb12u1
 Architecture: all
 Maintainer: Manoj Srivastava <srivasta@debian.org>
 Installed-Size: 214
@@ -21441,11 +21441,11 @@ Depends: debconf (>= 0.5) | debconf-2.0, sensible-utils
 Multi-Arch: foreign
 Priority: standard
 Section: utils
-Filename: pool/main/u/ucf/ucf_3.0043+nmu1_all.deb
-Size: 55220
-SHA256: 46453b26b06a19ad2c5f1b96f828eaa212fc3d556ea84e87da87cdb7a0cd0f23
-SHA1: ac24e096d986a31593e75c5cd197afc59468d5bd
-MD5sum: e753f9254a5c3e7690c4a2ab37ba29dc
+Filename: pool/main/u/ucf/ucf_3.0043+nmu1+deb12u1_all.deb
+Size: 55312
+SHA256: 928f2d5d327ef0f8d1b9c03a506134f56564cd2acf3e9f041df3dbdc68b00525
+SHA1: eadb985dc63d350ab61d03155eb4b3eb1efcdacb
+MD5sum: 43a71ee3a46f0f1c88f1815cc1b43110
 Description: Update Configuration File(s): preserve user changes to config files
  Debian policy mandates that user changes to configuration files must be
  preserved during package upgrades. The easy way to achieve this behavior
@@ -22213,7 +22213,7 @@ Description: Common tools for building X.Org SGML documentation
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.7-3+deb12u7
+Version: 2:21.1.7-3+deb12u8
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 2444
@@ -22224,11 +22224,11 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.7-3+deb12u7_all.deb
-Size: 2382664
-SHA256: f6be0edb1fb5ba3e4b008e85c75ee08e14e18cbfe39d2c3b49c75fac0d3114df
-SHA1: 3aa7e518a844dd5d113b998ff12a89eeccd78e70
-MD5sum: fd2f2dc15739f1a3993f030b3a5c7f95
+Filename: pool/main/x/xorg-server/xserver-common_21.1.7-3+deb12u8_all.deb
+Size: 2382740
+SHA256: 82be0840168b1c39a9d670559bd68479dc275bb8ba30b24ea6e48ad98da33aaf
+SHA1: 13c607b313d2210fb76188034c9654d0cf309ad5
+MD5sum: b0c5e226580d4cdd75d495082fee665e
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
 

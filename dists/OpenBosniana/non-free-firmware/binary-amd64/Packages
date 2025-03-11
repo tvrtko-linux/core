@@ -218,21 +218,21 @@ Description: binary firmware for the zd1211rw wireless driver
  http://wiki.debian.org/zd1211rw
 
 Package: intel-microcode
-Version: 3.20240813.1~deb12u1
+Version: 3.20241112.1~deb12u1
 Architecture: amd64
 Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
-Installed-Size: 13775
+Installed-Size: 13826
 Depends: iucode-tool (>= 1.0)
 Recommends: initramfs-tools (>= 0.113~)
 Conflicts: microcode.ctl (<< 0.18~0)
 Homepage: https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
 Priority: standard
 Section: non-free-firmware/admin
-Filename: pool/non-free-firmware/i/intel-microcode/intel-microcode_3.20240813.1~deb12u1_amd64.deb
-Size: 6996268
-SHA256: 72f41b576603e31e7fc4e6cd72a888ca65b39abbd37696adf394d74bc1b53eee
-SHA1: 255819139004801ddc8394070c449e5e3a84b542
-MD5sum: e1d770816890e58afffa66d40652d3d7
+Filename: pool/non-free-firmware/i/intel-microcode/intel-microcode_3.20241112.1~deb12u1_amd64.deb
+Size: 7109172
+SHA256: 5ae98379ad2ca170ab4808d2e78e86560a6976264557a3f26c8829ed45aa33bd
+SHA1: 708da84191619e41b3313f0bb95bc610c9bea60b
+MD5sum: 6bba7c3b057db4328de4274edc731104
 Description: Processor microcode firmware for Intel CPUs
  This package contains updated system processor microcode for
  Intel i686 and Intel X86-64 processors.  Intel releases microcode

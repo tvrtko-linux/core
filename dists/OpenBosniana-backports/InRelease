@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Mon, 10 Mar 2025 23:40:24 UTC
+Date: Tue, 11 Mar 2025 00:10:05 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfPeGkACgkQ5Vfn9vbt
-T6qTBA//ayAzEoWvFInEenGyAwp1iJysL1bc9E0zb9IQhwqXO/zWDbVrun+2bvZx
-ELEpVtNDzgIaKu91SdPyQ8CfpSCpFWSSDr9Kh+eLWyVpGMps4e91Nmnpt7oaJt7c
-Rnzxm7oc9bd6JGYRczVNms4SoBJrbW5jjm3+oUNr9ScCDqoHZkPUiNCGGWLOPEP4
-dIg4Gt+WZkj8iSqw8NoSo3XHgr/u5IYzXtlk7+M028RKPm+4M0o8CYle0wwNPf8P
-L04o1yldeOqpNUUMn+bHzwCEIlUsiHPoNm8ARmEvVaaqN6AywGWl3TdfahIGN5/s
-GtrfIZLZwhkKqbWQtB1kBDoJOKTX3c2Y7AyaMr4IIC+wcXhpMC4iSYglpMy41xHZ
-6KZXVnwYA1bPzYAPdN01EGI3JsfbHhksoDoSe5JPjpchyD3aprjo4pEu5Ir1ZDsg
-kAcxBe1BobLUax3ie3HCkv1Gn/MMAS3Uun1VdEZdrmBZKRj+tx/pEsku2NKLOCud
-yNHANF+7jxSKaPXVf13IL4M5iU+Yogwb9xRudns5BkT7ak3YYN2g75KCvgZl1v99
-oqcRtMm0f7tLpCqnK8xfMB7poYHhb0i1bzcdg6ZpMDylzLEziAYxNjDJUpz1TPXJ
-B+gnCxbkX9tKemd3uBOS7alI5SUqcbiDiIkNVCuZiprvujKgE7k=
-=wkQx
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfPf10ACgkQ5Vfn9vbt
+T6qWthAApRfUktQs7tV58Cjo65IvNbbd4ijdgtesYefhVANhryZxOh68S5X2nTVF
+Wbu3e9GNL3+/TyofYF0+gIwY+I3mAP9h2gU68r+G36jUnOfjqHM+quHyLAj1+33x
+0fYpnwat0pRGX9ib/DvcDGVkiBNt72oJetli8PmP0enmvX+aoOvBaoI7IO9MzMAU
+IRPa4VnAO2WCb0+BD5tj37+ilCoCds0VwJpVHRXZBMlvR0QOa9iugiTKwFztVbGC
+uFsH+c1E+37F9Ao4aumTky7Goc5Q23VcwKtv0jF4MqG0fhE9npGRJRvWlIVWkZgM
+B92cocBKXtT/I8b0F/vAefOPnR4JYNvmPD86BVYqpusFMPE75+YuWma3ZHijuqNA
+d+AgaQCkuMiDHJ8EhTqt4f90sK2towobVzos1f/yBLHXPnNXxyxOkYoiNeC9fXB8
+41WC1HIYdVhRATzvYF/fDH53Wr4agyhYWxF13QZalVwvS7VvhGQfVWeMwhl6VKBD
++AhISznFM+DiVp5DziZ2eMRzMtvVp/8bHdg90FR0XEt0ZjfHc0OatJI2A+ODCg9K
+qLgWhr6VXHje6G9vhsqYnWUR34Fr/em8l9UjFqgIM6vlfkXAZ2ddII/jquMjQ4SM
+tdi5x01YhbX4i8YEPSKiwl/3AB2X6QhuWD3od11ASqipIBUCAQg=
+=EXvm
 -----END PGP SIGNATURE-----
