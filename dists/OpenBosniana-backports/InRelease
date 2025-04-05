@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sat, 05 Apr 2025 04:55:42 UTC
+Date: Sat, 05 Apr 2025 23:18:47 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfwt88ACgkQ5Vfn9vbt
-T6qVvQ/+PBhEuYfC41GQz4V07hSuODxoeSpTuYLp69o71pC7l9Rwouywj9LmssWx
-Obk04bpSuqiZKTwf36UIxlSGKyGdwVIKtAEjknDVXzKIFR5Qk935aAw+NDvphqUN
-90dWXFhkRmpcbpWUIasI8KiQINvVPVRCvaEOD8GY9xhIHbn6wSiYMxXx0oTaQhZz
-/cdb2Bw/F1ToPj3EAahoTiPsmi6BeNOyNFu54m46UVrDUil7KyvaaR1rsQyLs0dX
-pt5VRFmOYg07zSDf3wbcaoPBr6b12vILtDzYbx14//ZAD4W2MhQdUaeCLEG9BLIK
-1DqahK8qVoZXR5QeB40TFGgAj+4vl7sEqYYXhL46k+MH4qdcYkbG2NrvD6mGk11J
-JdNqzKsYvIe0byxy0jgqZlhI8WvUd6ZkhYvXM64MbP/gOZl9mqdu2E63G2Px2tgj
-+Gx94mYxD664RDW9X0J6FPhXUT8E5Gwy1SGtQXXY+obrUMz7IjFX8cevT08rQlcY
-Ox48uzikiK/dHgK/2cjZiUgP61iFQ7B6pKGUWIcoNEBoAyAg9cl5VwiTnVwXae82
-AgL54Ee0Vich4tmMbBfszCIgeeDVGykielSGN/YHTEoqUh678CPgWC1PK4/6fLCC
-L5liRJZx5s/zORI4eUk6eJJ9YJgxsYkT5zgQyYMfa94D21R1pwo=
-=fr6F
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfxulcACgkQ5Vfn9vbt
+T6qJuw/9EYbglxuq2gKuqH2wl7omSd8ovpd7U33oq3fqfJmoXeAfLqHTzjTGEacp
+xl2BGfWpbXnfsIcnOohSATzEGRm8OS9XrwF0JdyQxdKwWNv/PqyNWADx6l6u8ETZ
++coCiX6dtWsktDQ6C62Q6pgHVpCr984P9CMMI/KzvUuD4md7DtrqbQX4kFoIOqfi
+fUURX/jDj7zsm+FleZ1/LYdiAPTW/m/mlGC7HIXJ+kx35A1fKwA4wWZQkiRq8A2R
+zK+VrSInVsIRXSW/AKfBUO+AzljqvReyHdIbocMbQwAUSmKRYZr8xuhbGzLsX5/h
+hI9epW+bH3jiPHX6N5dF2N7e6JvogBO0E46juI4AvlBqZeGunNU7/trXsc4xSrYD
+JB1I3GJCnAxLj8s+aNq1/+Ix8/wZCImVZIS0xof2FerIVdyshKZesD9MYc617w38
+mpv4ykKcGW2XxxPNH9Y5yXbFpSY1YNQPbzf94d1YnEs0/Xu+ZFLRW9AtRT7rRcB9
+QqOXCnGFwNeNDzRviLHLf5HYfFXzIW7g4JRVqKgnVsh5JAjgoVUEUkoznWnALYW8
+AxwTQMANyCtEgLi7vr9eEQAAUqtI7mFgc/Jsr12yiDnTrZEmzSocKnB3H0ZDcBc6
+tD57RnpGVqr9rNm3s9mD21nLLzVc3o56cJGB/paNHH0HpWN4F14=
+=q9sh
 -----END PGP SIGNATURE-----

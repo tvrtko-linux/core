@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 05 Apr 2025 04:55:44 UTC
+Date: Sat, 05 Apr 2025 23:18:48 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfwt9EACgkQ5Vfn9vbt
-T6pIow/9EW/u2dAHm1UI4lJa7/RCuQcwFVCAQLtVS3zyWEvJnAaCqjzyTBStmwxm
-seDreipywfsfGQSHLMV5DBgsXlIM87LTNLLggPbj/QppiA01BTXllXRvOF8GmjAE
-jud2Ur03+ZRoNUkQxOXk1jqX6MxxF6rbveyuZ3NmkufdAVdRCUVbw2+LMRvBznNP
-fgTkhREG5SdR94b7Ov+qSsGZNFhN5UhBe6KEPmOO4yBWoSivVjQNoCa4TeJQGrTM
-DuiUg9p0vRagJo54AsuWCqTeeN/oHlpxnmiUet2UUfeZAVuvLt8sSXlX+hHpFny4
-ydDWglLN07Kk6yhf0YHLC6aBi8Ozpp6l1tlbJmrhvhfGyke7NCXmmnn86Ww/bqTX
-dIy3ly7o2aVO0Q3Q9tvWpl5iMVaDfKQ3UqlC9Ywj9FX0spjwIEGFtpH7/GOZHZg7
-I3dRXWgRI2ietHG0TG5X+8xfbao1h1OAdnqlPP+GCaCt2Ja9XzUQ6o0wqWBagTf1
-qfKas8Y1xTfobawlP30PqVZG6hNk1DYix1NwRxCWZyXDMF1T0mq9weZ3Z5x8UGGy
-7VcNSbGj4TrhleLtfYaCnCuJ73UeL/o+hjIDUtZlJLLTuFqw9MAvN1j//LnPhtS4
-pjFMj4zltYUCI6Dkos3y9nCuLF3cy73/ZvTMcFxzrmHifzeWK8Y=
-=KUnA
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfxulkACgkQ5Vfn9vbt
+T6qhEQ//Q8FrThr937MA9lhqNHs7cpP1J6YM/shzCCaFzvqGPaGf/Ks+FOMZKMsg
+C4KhVGR9qv9JI2hO6jf3jsYdxwMXhYUVpg/ksd/HOQHt+B+LaPQqXF4/JaLYubO2
+ZVsvufmb05Pkf7yrZyyPtKQ296ccD+n8GXQtN8XUz9IuzxixCIs1wZg+Wq8Wkmyx
+jk1bQrFFyFDg5To/LvLgeRHFP97+4hYP878DxBlO3GG6krECT+wTspRaUqR2fUJ/
+Y+o14st1+iEEzR8qpVlqkOFPQfb2qvbAKltOF3w9hDbt077QYy7sMtI8xcgeMwkj
+5LP/t37QimwRQbO3OBAxtTCU6Z6WylMPTSW/CockUmvI8UMcvboDp3Hnefby8zhU
+zL2o0ceq33LGE2cxIElSuV0APQKBRITu/WfSREdIXjp2DUbAVZMtD2YJqjozYQVN
+tY3rSSIyFePxs4ImjBuu/WO5xmeI90n3HZCOtUGfHomx9f1+X1/NmeVEZVZh3jGt
+U4+sWvd0k3zAwvXJl3Lx5x66wKtzo//I7sgIVlNfK/t/AdhDYynR+DlOHXRwoMFt
+tSim0SYQOl9hSte9ZKnkXgHtXc1WwsKPwl3bYvkBbhxH58kqyDrdB5KmFr8YDtyi
+DJAWupCZ7z/Ln+Mp416jIzPSTElmBUae1UJqY4oxhy4mMYi189s=
+=XTDt
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sat, 05 Apr 2025 04:55:43 UTC
+Date: Sat, 05 Apr 2025 23:18:48 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfwt9AACgkQ5Vfn9vbt
-T6pCuw//S0tfQx9zNwAEVSquK6QouX5KdfvQLmof7+vlaEETZ8o0p7+eQBBBO2Fw
-mx5/ef9wXj9eUvQwiU2Kv9+mVJtjDSECFEmdt+qmboLhNYvm5+KgJrehIdCFxIoS
-INVwHVEIJ4Nk8w//wISRpsXcBDyNDUv+TJpR18oOzEDlKd71DBHru279wN4AlU0k
-HfMcnKaF8PIi8KHyhedQL4/evLodb7Sg8heQ+dyRHka5ZDU5Z7KXG1HArKu0+kVC
-UmulUgp0uB9r98IruvXsCDG4mSm+Hmkekg68MH+LBSKp7qojSgAQjLEJXBoTQNAb
-Sc+tiLPh0kSfy+NHOJI0eNNTRz16A2q4DxZ43J6fturIjcEGGHkWnd+OqqnaztC1
-GIDOc2uXT5ly2ZxLluK3VNFEhRMVteoZ/gm5ET2x8LyZaj8beYPHOkOjBXN17fa/
-H4yAKNklZOTw+uuet5lOMDjPx1T25grGaVWR9rPhEHV5zJ/+KEpSrjfCc1XyEa8L
-xeUGnWPpHtjiGTpPnbWc69XdHCcdHeaCFznMt//sZ4h4c/VQzT6/wuM5ZCQFxM+t
-YBe8zKMZKTUqJ/NjGNCN82UoL2h3DtfeO7O8ee1Bb7evFurza1F+oDPKvjHD6NcD
-RgMo17HUO1Q0s/ceBIaqVPhTXm1t+A7PaWreijMEkZ6+EVtK/wo=
-=nUKC
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfxulgACgkQ5Vfn9vbt
+T6rpvg/+KFVs1niRsu6FXwf+OIqMySXCEbdwCqG5k/8ZuDVLILEpw4HIsR/D7NRu
+XFRqf62erlu31X8ylkVZTeTIzFnTGjb92c8as+6TT7dW5O2ow2TzSIEuguzEGQKO
+vc/7+SlXXtBewawMiBLhlOLVLlJ3CJE+rKIFR+ZKexTJlhjknpjCXDIZaA0ubYtk
+bYwd5WjPvoG0gnkCPzpjI9EJ54FbVo92t6RvUU9F5g3Ri+ppPwTzuHKY6mgeIDRm
+n9Wy7m+43r04E+/JfQ1Yur+UABVR8WBt0S0LnqzFyxMC/kGBdaj3soPSyM7w6GEq
+JhDQ6b6B0QiKWzDLSJZXPpxEs6yBiaKQa/woqEuGyKg2FC2as4recFRwv87w/9fz
+adDPvlC0uFm0BE0qgv/86y7+kqLM2DUiRxVRw7hYv1T+y4zj7M/j42rMHfnZNtYc
+YSADoxy7C7Qj56eV1u2bIcx3XqGMoDmd6rvi+bA1maimLzz1NhTWCrXpLBCa0qMx
+b7RExfYWC12Qr+VOWp8xB2ZJAt4mqDzX0yzj7vR3kkSeRs4a9abH0zjKYcuY3YQN
+/VFHUTpXnsnsqs+2JtWzeJgwkWsi8RnEXr1d6QQuLEucCGEn51nE8OGtRezD3DYi
+6AB5qcDtEwK0Fbxt/DE+LC1kAJnI5rj7k8TYzKb5ODfui0aBXp0=
+=//Kn
 -----END PGP SIGNATURE-----

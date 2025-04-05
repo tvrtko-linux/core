@@ -504,10 +504,10 @@ Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
 Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.121_all.deb
-Size: 14797032
-SHA256: e2a6ac0b0e17264538e5cd6f1cfdc969563743b80fcd176dcd4cc7f60fffdea8
-SHA1: ab27b7eb28a3f556c755a32aebdb150630524b7c
-MD5sum: 49fe27b33c9107250ddea571cf35817b
+Size: 14829960
+SHA256: c6fbd81dfe9d1a0c4e384d1d4c6a9e4043e42f2f9b59ab8daf99474d035951e3
+SHA1: 2ac845eb772db3aeb8435c007aca2b3b3ea9c0b7
+MD5sum: 9f7546578b0e977a92a745f0ffcd8f2e
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 5 desktop.
  .
