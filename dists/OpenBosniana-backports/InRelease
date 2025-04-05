@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Tue, 11 Mar 2025 00:10:05 UTC
+Date: Sat, 05 Apr 2025 04:55:42 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfPf10ACgkQ5Vfn9vbt
-T6qWthAApRfUktQs7tV58Cjo65IvNbbd4ijdgtesYefhVANhryZxOh68S5X2nTVF
-Wbu3e9GNL3+/TyofYF0+gIwY+I3mAP9h2gU68r+G36jUnOfjqHM+quHyLAj1+33x
-0fYpnwat0pRGX9ib/DvcDGVkiBNt72oJetli8PmP0enmvX+aoOvBaoI7IO9MzMAU
-IRPa4VnAO2WCb0+BD5tj37+ilCoCds0VwJpVHRXZBMlvR0QOa9iugiTKwFztVbGC
-uFsH+c1E+37F9Ao4aumTky7Goc5Q23VcwKtv0jF4MqG0fhE9npGRJRvWlIVWkZgM
-B92cocBKXtT/I8b0F/vAefOPnR4JYNvmPD86BVYqpusFMPE75+YuWma3ZHijuqNA
-d+AgaQCkuMiDHJ8EhTqt4f90sK2towobVzos1f/yBLHXPnNXxyxOkYoiNeC9fXB8
-41WC1HIYdVhRATzvYF/fDH53Wr4agyhYWxF13QZalVwvS7VvhGQfVWeMwhl6VKBD
-+AhISznFM+DiVp5DziZ2eMRzMtvVp/8bHdg90FR0XEt0ZjfHc0OatJI2A+ODCg9K
-qLgWhr6VXHje6G9vhsqYnWUR34Fr/em8l9UjFqgIM6vlfkXAZ2ddII/jquMjQ4SM
-tdi5x01YhbX4i8YEPSKiwl/3AB2X6QhuWD3od11ASqipIBUCAQg=
-=EXvm
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfwt88ACgkQ5Vfn9vbt
+T6qVvQ/+PBhEuYfC41GQz4V07hSuODxoeSpTuYLp69o71pC7l9Rwouywj9LmssWx
+Obk04bpSuqiZKTwf36UIxlSGKyGdwVIKtAEjknDVXzKIFR5Qk935aAw+NDvphqUN
+90dWXFhkRmpcbpWUIasI8KiQINvVPVRCvaEOD8GY9xhIHbn6wSiYMxXx0oTaQhZz
+/cdb2Bw/F1ToPj3EAahoTiPsmi6BeNOyNFu54m46UVrDUil7KyvaaR1rsQyLs0dX
+pt5VRFmOYg07zSDf3wbcaoPBr6b12vILtDzYbx14//ZAD4W2MhQdUaeCLEG9BLIK
+1DqahK8qVoZXR5QeB40TFGgAj+4vl7sEqYYXhL46k+MH4qdcYkbG2NrvD6mGk11J
+JdNqzKsYvIe0byxy0jgqZlhI8WvUd6ZkhYvXM64MbP/gOZl9mqdu2E63G2Px2tgj
++Gx94mYxD664RDW9X0J6FPhXUT8E5Gwy1SGtQXXY+obrUMz7IjFX8cevT08rQlcY
+Ox48uzikiK/dHgK/2cjZiUgP61iFQ7B6pKGUWIcoNEBoAyAg9cl5VwiTnVwXae82
+AgL54Ee0Vich4tmMbBfszCIgeeDVGykielSGN/YHTEoqUh678CPgWC1PK4/6fLCC
+L5liRJZx5s/zORI4eUk6eJJ9YJgxsYkT5zgQyYMfa94D21R1pwo=
+=fr6F
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Tue, 11 Mar 2025 00:10:06 UTC
+Date: Sat, 05 Apr 2025 04:55:43 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfPf14ACgkQ5Vfn9vbt
-T6oQdQ//bhDiJ1N8IAmeZ5Abk7qviAlVEnu5eMaTJS1uGJ9uILuNJYY1g5P3lKfA
-A8tyMx2LTu4r3NmYHftzGNLSXau5t4IP60flUr8MKJhl1Ddo5CDSz+CfWXWWIHyG
-9Rkd/vHT80YZrO4GJx/74w3PkBm8I6UsATN/Bnr7Ti2FBWrHr6HQOHiDlGxZxmg/
-dfWcjAZ35OfFBsC/xdx6OU3z2AVHrJqO5CPjDkolnUVQQIAdmbW7vJcCMlysM1sW
-I+pBjFdV/OS3Bezcc8BKOaEe5X4DmxljQFtvfGnXYgCejTmyaTiApuNZlwuj+XYu
-uQrNrjxGlx+QAEps9bLJLdtSAqZKQQyfExD+B4n/L+7/2D0R5IrsFuamMRPRnYID
-CB3EXvVob0/cioZ8FVfjWZ5IbSZmb0mprWNtUTACkV+/3eU6iz1CsgZYO9bVFO+Z
-L18IhL98Ib2CAtumpCOTagyp9wL8XE3LH6NkGZvTXZzzq1LPRmJusSoyUPnbQrf3
-+OfZaS7k6qA+rf3nHDBLSFEg+t0awrkWcNVUhqLs7BUqMxk9vgqDoM52+2ludG7w
-lX2TOnJ4Ylpgqen/ap78TGiJBxgc9v7/ahZWddKUarE03/B1tKQYa0npbNW+7cLE
-6BWnW+sx1gB4dZ5pGfPm9hRgb3xOShky92J6RgcWGASvH5D6r/I=
-=SEV0
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfwt9AACgkQ5Vfn9vbt
+T6pCuw//S0tfQx9zNwAEVSquK6QouX5KdfvQLmof7+vlaEETZ8o0p7+eQBBBO2Fw
+mx5/ef9wXj9eUvQwiU2Kv9+mVJtjDSECFEmdt+qmboLhNYvm5+KgJrehIdCFxIoS
+INVwHVEIJ4Nk8w//wISRpsXcBDyNDUv+TJpR18oOzEDlKd71DBHru279wN4AlU0k
+HfMcnKaF8PIi8KHyhedQL4/evLodb7Sg8heQ+dyRHka5ZDU5Z7KXG1HArKu0+kVC
+UmulUgp0uB9r98IruvXsCDG4mSm+Hmkekg68MH+LBSKp7qojSgAQjLEJXBoTQNAb
+Sc+tiLPh0kSfy+NHOJI0eNNTRz16A2q4DxZ43J6fturIjcEGGHkWnd+OqqnaztC1
+GIDOc2uXT5ly2ZxLluK3VNFEhRMVteoZ/gm5ET2x8LyZaj8beYPHOkOjBXN17fa/
+H4yAKNklZOTw+uuet5lOMDjPx1T25grGaVWR9rPhEHV5zJ/+KEpSrjfCc1XyEa8L
+xeUGnWPpHtjiGTpPnbWc69XdHCcdHeaCFznMt//sZ4h4c/VQzT6/wuM5ZCQFxM+t
+YBe8zKMZKTUqJ/NjGNCN82UoL2h3DtfeO7O8ee1Bb7evFurza1F+oDPKvjHD6NcD
+RgMo17HUO1Q0s/ceBIaqVPhTXm1t+A7PaWreijMEkZ6+EVtK/wo=
+=nUKC
 -----END PGP SIGNATURE-----

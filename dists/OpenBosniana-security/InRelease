@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Tue, 11 Mar 2025 00:10:07 UTC
+Date: Sat, 05 Apr 2025 04:55:44 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfPf18ACgkQ5Vfn9vbt
-T6qj8w//b4mqR2ZDrQP4uCmO+99AtEr64MO0KWRSAEwFoKskJGQ6/QXLAQVyql4S
-SUDyH6vsyTkHnBxFnAZ0DkJGFKmXP6F7zCJfmFbsNDx2/toYeO37nMMklh46K/7T
-07biX82SPrqNytSxxa5w5wr1c6Irjk7ax92N58+NsZvW4D+1/mWQbXcen0+5e1TK
-kIcGpPXtsXPUiigY3kzfqCBWefEPoVoFAkj3X3zD5Ecjf/ska1Z7LQyR3swtnemH
-q7BGnNBNpo5sz8U9Y9WYyr54twBwUmsUG2WVXrusCso+VagNxU4f50U3OXXe3o8u
-4sthTPHUszwUiohwkdb3HL1pCgdBeTeo57/pbh3BZ/npKzt+ih1Rgl9A90VDvugs
-9dqu9LhkOCGUATG5NoCddZhjCFVZgFuraf23YRKbQcYVmQRTyZY84qXKFol0Hof1
-IYUO4A66bOn2nxJ4wfBYmqWr/bUYSBA4uCIOwWvMt3fNbVSTz/3qwueWoMvT0hz7
-l8OBtF0BbxYyF5JDZa1LERmUG4wnYuJML+130gtyAOfLCAKLZg31wboi5cMK/w1X
-3051bay20B4/WVxive7yEHN+cp5Xaj46VedEX8gjoDCOYzkqVKlgF0r1WJ919NPr
-aEJUpq8lfg/pgKXqH/iJLQZ6qaEls/nHqX0fXP8pbwIAezH4f8w=
-=K9jb
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfwt9EACgkQ5Vfn9vbt
+T6pIow/9EW/u2dAHm1UI4lJa7/RCuQcwFVCAQLtVS3zyWEvJnAaCqjzyTBStmwxm
+seDreipywfsfGQSHLMV5DBgsXlIM87LTNLLggPbj/QppiA01BTXllXRvOF8GmjAE
+jud2Ur03+ZRoNUkQxOXk1jqX6MxxF6rbveyuZ3NmkufdAVdRCUVbw2+LMRvBznNP
+fgTkhREG5SdR94b7Ov+qSsGZNFhN5UhBe6KEPmOO4yBWoSivVjQNoCa4TeJQGrTM
+DuiUg9p0vRagJo54AsuWCqTeeN/oHlpxnmiUet2UUfeZAVuvLt8sSXlX+hHpFny4
+ydDWglLN07Kk6yhf0YHLC6aBi8Ozpp6l1tlbJmrhvhfGyke7NCXmmnn86Ww/bqTX
+dIy3ly7o2aVO0Q3Q9tvWpl5iMVaDfKQ3UqlC9Ywj9FX0spjwIEGFtpH7/GOZHZg7
+I3dRXWgRI2ietHG0TG5X+8xfbao1h1OAdnqlPP+GCaCt2Ja9XzUQ6o0wqWBagTf1
+qfKas8Y1xTfobawlP30PqVZG6hNk1DYix1NwRxCWZyXDMF1T0mq9weZ3Z5x8UGGy
+7VcNSbGj4TrhleLtfYaCnCuJ73UeL/o+hjIDUtZlJLLTuFqw9MAvN1j//LnPhtS4
+pjFMj4zltYUCI6Dkos3y9nCuLF3cy73/ZvTMcFxzrmHifzeWK8Y=
+=KUnA
 -----END PGP SIGNATURE-----
