@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sat, 05 Apr 2025 23:18:47 UTC
+Date: Thu, 10 Apr 2025 13:11:24 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmfxulcACgkQ5Vfn9vbt
-T6qJuw/9EYbglxuq2gKuqH2wl7omSd8ovpd7U33oq3fqfJmoXeAfLqHTzjTGEacp
-xl2BGfWpbXnfsIcnOohSATzEGRm8OS9XrwF0JdyQxdKwWNv/PqyNWADx6l6u8ETZ
-+coCiX6dtWsktDQ6C62Q6pgHVpCr984P9CMMI/KzvUuD4md7DtrqbQX4kFoIOqfi
-fUURX/jDj7zsm+FleZ1/LYdiAPTW/m/mlGC7HIXJ+kx35A1fKwA4wWZQkiRq8A2R
-zK+VrSInVsIRXSW/AKfBUO+AzljqvReyHdIbocMbQwAUSmKRYZr8xuhbGzLsX5/h
-hI9epW+bH3jiPHX6N5dF2N7e6JvogBO0E46juI4AvlBqZeGunNU7/trXsc4xSrYD
-JB1I3GJCnAxLj8s+aNq1/+Ix8/wZCImVZIS0xof2FerIVdyshKZesD9MYc617w38
-mpv4ykKcGW2XxxPNH9Y5yXbFpSY1YNQPbzf94d1YnEs0/Xu+ZFLRW9AtRT7rRcB9
-QqOXCnGFwNeNDzRviLHLf5HYfFXzIW7g4JRVqKgnVsh5JAjgoVUEUkoznWnALYW8
-AxwTQMANyCtEgLi7vr9eEQAAUqtI7mFgc/Jsr12yiDnTrZEmzSocKnB3H0ZDcBc6
-tD57RnpGVqr9rNm3s9mD21nLLzVc3o56cJGB/paNHH0HpWN4F14=
-=q9sh
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmf3w30ACgkQ5Vfn9vbt
+T6rC8g//T90twtAPMJf+XFIoLBEPVEk7NuHJ138CICcPptuS3heBZroG44+BgtWF
+5avp+TN2epwPpLVe+CrcW+GLSD5TWTnoZ1eSWCyEpe32qJEmYRU7uIqjBjOtNL6R
+bFe0NFyVwcjJraSl6CFljbx6CoV1orVXVeQyMisWqxL7BcxnFW0jphj9DHuKQ/Td
+Jc2mCREyMEB8B9JB9oMTLsQg0J3dRahKHEVvq67oy49jCIzhWDzeXqKxuoCdJw2z
+yDX0xDJacX8r9uvsyRs98aqXfHgdhYL2lrdXWzc4gmE5ScoPIAXQ+q2PXvVrvcz/
+DBPm/tPdUeF24Er6RrhRW6hD6DSqFdou1X5dE0dBivbzo8yzyWv0xY6Vj+8tfG1f
+fAzhgbwI7CWQHPgzTVOR0ceNuUsgbd/VlRNdKvqdVJ4DO8CZ9oFy0uJEWsHxQFhI
+7LVpzZgFk0WZeRMEYV2HfSc3VPPfqvJlQ/J57gDVJK79az1Euipv6xcFmU9yPDQW
+tFWQ81bOQgIn8kE63o9YPyEz6ybmxT/uC7lSZ6Qf4UIVkGD0rDYPa8kKjl7Smt/K
+x0SbZ/qlEOC35BsNEOvzHdhM/A+Fr4q550aYb1xkRzHs/AeWxVU9nH2bmvYbrmdo
+T24wIO0XWnWVQlE3IcJYVuRW6x/C4BUhDLvI9uAj0K402rQ6/VI=
+=1MuN
 -----END PGP SIGNATURE-----

@@ -1220,7 +1220,7 @@ Description: MySQL database server binaries (metapackage)
  doesn't depend on all the infrastructure needed to setup system databases.
 
 Package: desktop-base
-Version: 2024.13.10
+Version: 2024.13.11
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 16548
@@ -1230,11 +1230,11 @@ Suggests: openbosniana-desktop-mate | openbosniana-desktop-kde
 Homepage: https://www.bosniana.org/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2024.13.10_all.deb
-Size: 2862204
-SHA256: b730b696364f70c540b906f95153055bd75554990a53ef1444bd0b9e342e01ad
-SHA1: 92c050f17758f2ee2a86b59295e7f5e4f184ec9d
-MD5sum: 7bb887160e4e0bf496de05240664f57d
+Filename: pool/main/d/desktop-base/desktop-base_2024.13.11_all.deb
+Size: 2875424
+SHA256: c7e9a3fd3e7090fb2ebc6cc952e2458c7e9ecc446848d8deca28256876e42216
+SHA1: 65a0afa9196dca4247f7e64d4a0730d2075bc4f4
+MD5sum: f864e9d2cafcd676b6620b956a55dd3d
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
@@ -17925,7 +17925,7 @@ Description: OpenBosniana drivers metapackage.
 
 Package: openbosniana-firefox-profiles
 Source: openbosniana-interface
-Version: 2024.05.26
+Version: 2024.05.28
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 90
@@ -17933,11 +17933,11 @@ Breaks: openbosniana-interface-common (<= 5.1.7)
 Homepage: https://www.bosniana.org/
 Priority: optional
 Section: metapackages
-Filename: pool/main/o/openbosniana-interface/openbosniana-firefox-profiles_2024.05.26_all.deb
-Size: 6532
-SHA256: 66854f29c31d78c507ec1915fe4d751a20e66dc11267b5d300a142208d4f61b2
-SHA1: d2a5027cee178b58b0bcbbb0085fa1dd1c20dd14
-MD5sum: c1f79ee711fb9e5b40d85751a6d62f49
+Filename: pool/main/o/openbosniana-interface/openbosniana-firefox-profiles_2024.05.28_all.deb
+Size: 6540
+SHA256: 6574d768bcd91afe3ede1b3eaacb6fd6f4d18696baafad3f7c2e44c79d2c2c93
+SHA1: f351ca0760b66071300c084f21a1b2daa7101e47
+MD5sum: 2e77b0e7625405928cc259f789c08994
 Description: OpenBosniana Firefox profiles
   A meta package that contains default custom profile for Firefox-ESR
 
