@@ -1412,7 +1412,7 @@ Description: GTK theme built to match KDE's Breeze
 
 Package: breeze-icon-theme
 Source: breeze-icons
-Version: 4:5.121
+Version: 4:5.124
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 32259
@@ -1422,11 +1422,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.121_all.deb
-Size: 14829960
-SHA256: c6fbd81dfe9d1a0c4e384d1d4c6a9e4043e42f2f9b59ab8daf99474d035951e3
-SHA1: 2ac845eb772db3aeb8435c007aca2b3b3ea9c0b7
-MD5sum: 9f7546578b0e977a92a745f0ffcd8f2e
+Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.124_all.deb
+Size: 14860576
+SHA256: fbeb2a6c443aec3842d9a1d013e22497ca14bf12504f0271a13c2a2930a3f35f
+SHA1: 72e9fae3497809610d6719a8449ee2da6f9bc1d4
+MD5sum: 08bea1b0fd52b7468d9ca750808afa4f
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 5 desktop.
  .
@@ -51144,7 +51144,7 @@ Description: OB Control Center
  A control center application for OpenBosniana, supporting multiple translations.
 
 Package: openbosniana-core
-Version: 2024.12.12
+Version: 2024.12.13
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 705
@@ -51155,11 +51155,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbos
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.12_amd64.deb
-Size: 104444
-SHA256: 3c87bffae5d8af09835244d2135b23cdda6b1d58a75bf4047d71da052b7e1aa1
-SHA1: 54a177168bb8da6592b40c02138fb27991aad9d9
-MD5sum: 3b71c087f72b15ea4770ffb9d2171834
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.13_amd64.deb
+Size: 104048
+SHA256: d93d665f263dd1013ca9491ac7154b1ddac5ff82235f508bbdf4c1d3b4307b27
+SHA1: c1a8b469bf4d396ef0ff67ff3d6bc7f0bd555874
+MD5sum: 133836937ebe5e8a6ed2b975dc0c1b93
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
