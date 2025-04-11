@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Thu, 10 Apr 2025 13:11:25 UTC
+Date: Fri, 11 Apr 2025 03:04:02 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmf3w34ACgkQ5Vfn9vbt
-T6qLCBAAj8QXo5Pgvp0r8CIlP1jjzPeGQ+eBFOT//LsAHnD65K21blbnwoatQX1C
-21ElFDjmTVv0sjYmty7NtAsoZarM4/4PXKa5xuVK1wt9ncz8aH+bcX0K3INGIJ8E
-FfRJAry/31WbfEKQu3Yf5MuObLzpH89bImZA9Umu3vnFJzQQwaUb/HD5kO+LKM53
-NShLoLpkJizWaATGg4mrUQDHZdrjnd6UjFnkk2qHh1rw6qWIhEAwJOJd2kwriykP
-5YZE9fbFkEkdHN/B+l/LakVV0QF73SBCXQa+a7NrOgNWgAlfMmJn3tP1vu+LfhdQ
-JEZwloQRFkQpYFnJPel49Ms9tbeG+34YO2fpUs/I/y40rx6VjtME5yjE4eTSuVUF
-+++Ti7PDvgIV5m/nMq4sGdfK4niIrGHOCHjF9Cy+tug8CLL6jwdZHROk/uQTYzAn
-str/DLfe4WseN53EOgnkS0clP/VMiaxUA4V9pxQudotA3W501BXksBsuEMC1QG7/
-1aeIhfPtsrINjHXbASXfLNzIyvhOU5sM6GglqpnEoi46KKhk5mrqwz0BpVWsMmnt
-zwOhJHebyVXlo/g8loQLCyhu6Th9yyiY/vcCqypYEZe49q1UlshrNzk2llGS7sNB
-s+VSvrhRdrkN8j1nNx1cPaiPlcTqTbLd6MqXNOq4ZvJRRF8ZoyU=
-=TSoo
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmf4hqMACgkQ5Vfn9vbt
+T6owcg//Vk3Bm+A9WOShXifobFcBzdJRrjHpgoc0CqvExkH+iho3U5NPUpfJIkft
+egMFNoDOHHc/LbI/mx/NAiAAc9eeqOdCMvp3Mrx6hRcUhCiHeUTvw2rgO9dZ9yRT
+RYoD5b8qLDWtvbcWF37mTANoV/BRiHDCCsS4L/k35X9inL3mp7VXkUFWld5RMe/A
+Pz2SoSnIllOlwYGH3xWZxjbMAqsi84NG7jimCRwfXuF/K6ml1cDtZAint1BDE5tq
+IkJmMtqTQLxXoZbAwwhPw3419Tnw16t88+2B5pchuZmAbAsDhGpc48UQgs2Xn11o
+tdSMM71VsnR4HBBX1LUvXg2A1gHe3/jGVTxXr5CaKCyqXSiT/oHIPZlDHJFxnHWd
+V/d67N8wf8d1Fqas4oIEVfjKaBm3RK3AxHlNdoEBgkb3zU4vZH1JE6VzuaJ/VPQ7
+2dwyttKbJ6t90STtkbHJfcAWL6P2ZDhNTEaliJcg3jGOgDypClmL97qtnoii0cM7
+V2fSzXryIcUuyF6qkp2h4A6ErRM6RyPCYGgIjcLzd+jkg2sfWiHimuaLc0M3zMyJ
+QXiEU/RapxKlwNqSM7vM2eKpyQv3lgu5xhOsEVbUkjj3jJDzRjB4eKOXxBc686Ys
+WjRBVuwu37+0SJg50x0ZIjcJxczkUrXveC6bGQmv81BlhP65OYU=
+=GqbL
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Thu, 10 Apr 2025 13:11:26 UTC
+Date: Fri, 11 Apr 2025 03:04:03 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmf3w38ACgkQ5Vfn9vbt
-T6oHDw//SKCE8YJIriYi2C7flSp20sLv6wwDQVDcCpxr9ycuSvuxNDRJTjkJyrhr
-zkWBsq9vg9ntSzBwH/pLEwdlw/qLUpHU+8dpLZLFNOTZ5IB0qlIHJ9muVMcAcLCI
-kFStoNTw3SfRxpPf1mwblKpDjMAiPoN5fkAXIiRI7dpQeLfuAqShS9gT0ZtoLnJD
-GTLwCE+/wTS9KFoqnZDXz/rpH6wBtgjkW30JWF7+uTR5HuC6wwlZE1bT0S+fLpnV
-Co9cdCphzJYbGc8ZcF/dEpwp5g8jeIRiNpLK/15dp6QHFrzpDbLBw5xVB4OF2o4d
-+Jkh8a0bUSOYwK4MfyIYm0v/uV3ttxha5Z9pG+Wb94C8tIcbFkmFeljCsWVxYp6Y
-haYSka5t33XYLGqqRKnGGdqu1OhuvqOkMQIEmrw85JtN1CgS4sUnke24tJp8D9ZK
-b+VxJ3QK6xd0YiIN5hwCsvWol0hrbDJCZ3wFx6V9xe/H0aBbROIbjrabf40pa0gP
-HhhRtmkHZ+vfMgMwG8Cy33jgrO7WXWXbm+RlYUnelhI+uI6oJGKUpN3j0FSMczun
-e1P6d22TxRNxUc8QbNTJ5PdcmH0a95GO/am9SKLeJ9vdjuq62P00o4sWsSSHFLb8
-IYkpSNLWxDo/gPRUUxv05M0Ba1XUYoT9CDNkuZdfrubYq8xXoFc=
-=j3Hl
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmf4hqQACgkQ5Vfn9vbt
+T6pdghAAkq6uQ7NEvRUlfg5OWV5VoKRyz3V2JC0TjaSWH1YUjLrSqnukUESkaogK
+VTm7kQ1l1EconOen0OeNBxIikNKKBKYNdBLtB1fDqXKxqu+E4Sx2757dtnqQOYBi
+c7BslYjxQD7RAWqiDJ82SCX5YiAZBnICa7cZ3kT2Kni4XWGpQ+r8VqpUn97/NJHL
+WvDG2qyinB3b7ybvlIz+WbrUdoMzQBBSLSIUNLQ3rigmF4gRcbyRy9Fs0XE3421Q
+S1sBDcRRAcgEh6JGEW3HpcmG8/9mGKFRpsq/7cpPx+QjFQsOpeMOCMAJ9k3oh4Bp
+Wdf9+uoPFjGvvbZCMuCjLb8F/DMvgjSVlMNKrtAs1FYZtcHK38j4ajKEVhXpaFRp
+2rxKx6vSgyaSq9Sqj6CXRC5ERMpGFduCO3MGg9rw0u6FBPNTEKlguDRhzeCLhYZ7
+yAp1xF3FuZPXVuqh+PZ1rhgsDphXemlj4P3uYE6ccm/MC2Ji2dct9dEf0/71013Y
+WK4/5gY/pXM1xV02AlWafq/9NAqcJJnK8KwFMKehIfJ5+UzAjIHiZibY5EU/ZI+K
+dA+UwO2S4YiaNq+pyJv3M3uc/YzyFJiGJt33omK26pxGz90xOrkLwZrTqJKGfFIv
+21VoQkQQ3CdiUWc9FTh2o9d/1Vg3Py2QJqkspN4f6Txdm3tHKbs=
+=G7Ds
 -----END PGP SIGNATURE-----

@@ -1348,7 +1348,7 @@ Description: system daemon to manage thunderbolt 3 devices
  mentioned tasks.
 
 Package: breeze
-Version: 4:5.27.5-2
+Version: 4:5.27.5-3
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 71861
@@ -1357,11 +1357,11 @@ Breaks: plasma-desktop (<< 4:5.14), plasma-integration (<< 5.14)
 Homepage: https://invent.kde.org/?p=breeze.git/breeze
 Priority: optional
 Section: kde
-Filename: pool/main/b/breeze/breeze_5.27.5-2_amd64.deb
-Size: 2842216
-SHA256: 52812957475cba8c75e0195c09965e8219a18edd5237a3f0a524987ea3dcfc47
-SHA1: ba802d08d75894f1a468e2bab88c83cca5d3c99a
-MD5sum: 618a62f40a7b7e74768ce81d3d2035e2
+Filename: pool/main/b/breeze/breeze_5.27.5-3_amd64.deb
+Size: 4479660
+SHA256: 06cb08310d95f6538ccf832f98fd24f8140f7cee1a294a8eaba0b3d4b1a923c4
+SHA1: cb959d22435484b71dbf012134a77c0be37a3361
+MD5sum: 3e9271a9df0bcd4baf25ddfe5e1acfd5
 Description: Default Plasma theme (Metapackage)
  This is the default theme for the KDE Plasma desktop.
  .
@@ -3892,7 +3892,7 @@ Description: MySQL database server binaries (metapackage)
  doesn't depend on all the infrastructure needed to setup system databases.
 
 Package: desktop-base
-Version: 2024.13.11
+Version: 2025.01.01
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 16548
@@ -3902,11 +3902,11 @@ Suggests: openbosniana-desktop-mate | openbosniana-desktop-kde
 Homepage: https://www.bosniana.org/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2024.13.11_all.deb
-Size: 2875424
-SHA256: c7e9a3fd3e7090fb2ebc6cc952e2458c7e9ecc446848d8deca28256876e42216
-SHA1: 65a0afa9196dca4247f7e64d4a0730d2075bc4f4
-MD5sum: f864e9d2cafcd676b6620b956a55dd3d
+Filename: pool/main/d/desktop-base/desktop-base_2025.01.01_all.deb
+Size: 3131492
+SHA256: 136885130e4d1396fe01ff3af58b8ecdc07713a9e8279f3e6d59ec6b1893c518
+SHA1: f05a9fda4cac4c65509c82eb13a9153c9aa6fbcf
+MD5sum: cb0a1ed54179eb1c0d041e8a446a071b
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
@@ -51129,22 +51129,22 @@ Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
 
 Package: openbosniana-control-center
-Version: 2024.12.14
+Version: 2024.12.15
 Architecture: all
 Maintainer: Denis Maslo <deni@bosniana.org>
-Installed-Size: 579
+Installed-Size: 5136
 Priority: optional
 Section: utils
-Filename: pool/main/o/openbosniana-control-center/openbosniana-control-center_2024.12.14_all.deb
-Size: 123136
-SHA256: 1b97d05a76d9a3c5d0413275f509097a1cc68f0dda7ddd278e3fb0b7d4b5c1e2
-SHA1: c5bf499eb15f501e1944b1733e2cc4a322ba4f5f
-MD5sum: 36a9f4ca2b6c2bfce6ba5c0be9094da6
+Filename: pool/main/o/openbosniana-control-center/openbosniana-control-center_2024.12.15_all.deb
+Size: 3923208
+SHA256: f8d72eb5aad88450a03dd123e5b06995d2e990ba71a6fa942d86a5a034ff9071
+SHA1: 335e05d10da54e5db876bbc84170985e64fc4f9d
+MD5sum: 90b4d4038879373ad47943127e5a7109
 Description: OB Control Center
  A control center application for OpenBosniana, supporting multiple translations.
 
 Package: openbosniana-core
-Version: 2024.12.11
+Version: 2024.12.12
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 705
@@ -51155,11 +51155,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbos
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.11_amd64.deb
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.12_amd64.deb
 Size: 104444
-SHA256: 988e036c5b8a96861a74d552779446684e2a2e4f5eb16cc8d2954317f3e61423
-SHA1: 43c150585ddcf72998468c1960d85f62a4cb0249
-MD5sum: 57803b9c4b6888709c1fbac20c63953c
+SHA256: 3c87bffae5d8af09835244d2135b23cdda6b1d58a75bf4047d71da052b7e1aa1
+SHA1: 54a177168bb8da6592b40c02138fb27991aad9d9
+MD5sum: 3b71c087f72b15ea4770ffb9d2171834
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .

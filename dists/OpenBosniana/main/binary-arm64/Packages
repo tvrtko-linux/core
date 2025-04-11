@@ -1220,7 +1220,7 @@ Description: MySQL database server binaries (metapackage)
  doesn't depend on all the infrastructure needed to setup system databases.
 
 Package: desktop-base
-Version: 2024.13.11
+Version: 2025.01.01
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 16548
@@ -1230,11 +1230,11 @@ Suggests: openbosniana-desktop-mate | openbosniana-desktop-kde
 Homepage: https://www.bosniana.org/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2024.13.11_all.deb
-Size: 2875424
-SHA256: c7e9a3fd3e7090fb2ebc6cc952e2458c7e9ecc446848d8deca28256876e42216
-SHA1: 65a0afa9196dca4247f7e64d4a0730d2075bc4f4
-MD5sum: f864e9d2cafcd676b6620b956a55dd3d
+Filename: pool/main/d/desktop-base/desktop-base_2025.01.01_all.deb
+Size: 3131492
+SHA256: 136885130e4d1396fe01ff3af58b8ecdc07713a9e8279f3e6d59ec6b1893c518
+SHA1: f05a9fda4cac4c65509c82eb13a9153c9aa6fbcf
+MD5sum: cb0a1ed54179eb1c0d041e8a446a071b
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
@@ -17774,17 +17774,17 @@ Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
 
 Package: openbosniana-control-center
-Version: 2024.12.14
+Version: 2024.12.15
 Architecture: all
 Maintainer: Denis Maslo <deni@bosniana.org>
-Installed-Size: 579
+Installed-Size: 5136
 Priority: optional
 Section: utils
-Filename: pool/main/o/openbosniana-control-center/openbosniana-control-center_2024.12.14_all.deb
-Size: 123136
-SHA256: 1b97d05a76d9a3c5d0413275f509097a1cc68f0dda7ddd278e3fb0b7d4b5c1e2
-SHA1: c5bf499eb15f501e1944b1733e2cc4a322ba4f5f
-MD5sum: 36a9f4ca2b6c2bfce6ba5c0be9094da6
+Filename: pool/main/o/openbosniana-control-center/openbosniana-control-center_2024.12.15_all.deb
+Size: 3923208
+SHA256: f8d72eb5aad88450a03dd123e5b06995d2e990ba71a6fa942d86a5a034ff9071
+SHA1: 335e05d10da54e5db876bbc84170985e64fc4f9d
+MD5sum: 90b4d4038879373ad47943127e5a7109
 Description: OB Control Center
  A control center application for OpenBosniana, supporting multiple translations.
 
