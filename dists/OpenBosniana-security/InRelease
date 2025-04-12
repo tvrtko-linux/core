@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Fri, 11 Apr 2025 03:46:29 UTC
+Date: Sat, 12 Apr 2025 02:09:07 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmf4kJYACgkQ5Vfn9vbt
-T6q9YA//VEZDmLuPul2hmG4W+tJ3g3Sr5DzR2IY8m2zHOOfYaM4TT2DgvDioEBdZ
-EhnAQ+QZoTLOwMvTSCiU0RC2FowTjP9bG12MldqmEvgDhsymyJnFSv4pW9Crqnu/
-W+u+TtlmqFr0gkCje57vq+qaCIlc/14vAZ2g1Yrd8Hm2xucU1li/q7fy+uKHSJYs
-DXeTKiSRkTQJoPlhWWVYWRyePhzpW3I6FAgXzanjWqvDXwEpiknV5cr/OV1pgcn/
-2YzGfIjMuZ9198gHpDf9PGC6rrBPHIxWWKswZwVjzNDdJjAwvE4L7Wm3g43zRQU1
-i5HSppZ0WkK7za94CQQHALmsRKPz9+VvxbNjkrTVhvA/xVW9h4XzWYEsLAtFVGve
-V6Fc2tuBEhXQxatAsJ73YZGMPKUCJklCCxQMrJJlYQdST/b2PN2VZAwinnJMnC11
-YgYhvE7hkvMb9FqhwIqnu289LeW64AfBD9/EgnN3Mop0GvRLZc8IuKXlRLeL8vFJ
-YbIArkVh30CyNgFs1of/B0gcn1EwZFrEBTaEgmT7LvH7NzNy9Du0SP8PGOki4Ztb
-m2bqpImxnWZXz8OZF/OwwqGvwOpS34fW7nmGWFiWzqlLOzhDPC76BDXCjufJVTKz
-3YspfWHuBSyia1tivNRqczw/hcB188Am3x18cyeQeMGFuXDJxyc=
-=gWmG
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmf5y0QACgkQ5Vfn9vbt
+T6rGwBAAlylEq7QO6oDTu54gdhTAHio4X3a1n0gAk94X697nFCntoXjJ0BcsgB1S
+fRi2zXwmBHmzkbNoXwjAJhXilCU5bTbs/Vir6K8Stg86pWBFq/Gp5c1NC/s3W2sY
+MGD5uQBArsZoZ5B6tuI8kRAT1qPBGnGxIwrodlo2KitT7jWRT+Ch6vHzmmrGz9X6
+fkg0XJV+AIab4eHAIOWXjGXyT73UE1xCoTPX7FkDECQQOyH67cfD2vn2JXxXHlPM
+vbUr7IrstoqxDI7bH1YJWGvrlPsbX+XBK1y/56HLjUBWlEg3M+q1rId/knvUOabR
+u0TINFh4NRObaZHGBar5v58M+nSBnk61PRGXv6TA8Vnx0MvkbE36GO2ikH1kiP54
+uvxKNI7qUCZ6r0Nm1pR810ROCjYOAnALkHKq3zXpR9Cl1pu+UzOvHHMUBGLRbsR8
+VWhxt9vYKmuqf7ZS9FJ7yjE5Hc+JHy5vjE8ZlkmeL2frWbPow50o9waW3KUyaew0
++Kc6zYI9Gw1s18bvR1kDm3En7UOGtqaxd8nullNbOkqd0aOh1HHYe/LBpfNgU8gn
+qJQHfX5JHhxfDiTM6BSKM7W+14NWcAjExHH1K/PNwecVnpbo07G30Y0toVnGtnlc
+esqWbX3KST7x0o1N3/vKOZI1hGKKjR3w2Xt3jnwtGkcAVxgqn+E=
+=tRnr
 -----END PGP SIGNATURE-----

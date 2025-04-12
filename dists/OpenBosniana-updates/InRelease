@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Fri, 11 Apr 2025 03:46:28 UTC
+Date: Sat, 12 Apr 2025 02:09:06 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmf4kJUACgkQ5Vfn9vbt
-T6pl2RAArC94ZQbcA7v7fvD+0w0LUyVooKjQhho2kOfng/GPgvoALJvviolKh8Jd
-qQVaynwpZxJuiUgwzY8D/5nnwuRBxmuEzr7y0FJ8hLawnypGpwvNgFOC93AWAnpy
-1lDwZRW4vIpjvmacJ0EdSvaPkEkeymxI5Gel+aB9EBDO5zY8iqWJnPFJskAm86BW
-/Zp2Gki9QzPHWD9wDOlNcMFk0Atzn5taq49waj5yysO+9cVci+WVWLBcGcz2DpU3
-+u07SOh7ZZixwdpSINgj9im9QSWNsrJtUJ41TZfB2mEW73cAbbr2ajoIzJvrrAt3
-Lt0JJCif3bU0Qms88bboOof0VC6to6dYlBR2yS6mBQL4MI7RZ828DjKruv+6miin
-WDA5Z7QFvpgLe0WbTmUH0q7q2WTnPc8Qh7uIKynPzzIbU6qNVBoVpr5RP/dgxt7Q
-ZtlAD5XFYR7T49YAFQz8+87reKn5cwUqVdCJGhWEmiiASzmYxxD3zQaiyK4E6/bz
-4bQ1uu4BmIPpkyYgEGnY+9q+8O5Coug2lZvmKnWjlHDXn1gwVPBZfslXHoGJNhTM
-u0PpN+OfhyEAAdQKWwLK1mlydlR3A+DYEjNkGXVXlnmP3qC11wi1j/DD8S2LJprv
-pf2JUaxzp9mFIFDMKboJuiopTHgWLU2whGQhFhdo2ydPh7QrBgE=
-=hs1s
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmf5y0MACgkQ5Vfn9vbt
+T6oceBAAuEXXGWoNJDk8Y/lErcsBL8MKQtRzTWS4AL7cZ2nRiir5Noy/Dc88iSEl
+LYGjEL+DDvIl2MJ2APGwArP0ylDJ9+b5/dMk+RCEckSBy2Le9hkkEY71qXC0Vxu2
+PaDWfH3JkuQ3kUUxJz54ayd4Uw9vGaogPrmsSNOijaXQvWmNXqu6yMpGikeTnU0j
+8pUYYmM2zCKaGYweeSfQ/TCLko9NM6ciOGrs/gvevTT1n+7zmCaYqPDh+3UldzF9
+umvNal1wC18w2jLLJQLN8N7WpsTWAMXepBK1fEYZdlhygYIaBeg1i51Im8s4+vxD
+nMW5Bx7AXXI1tqpNMZnYdoda5YGfsjOtqSHwphBtFbUTZc+tgvhknj6BySj3C1TS
+aOC33kMvB4Nz2YJqXp93YsowPuJvZ8AL0tlU1PIV2KdjCU9N9sdMTgQhtN4LXowi
+PM+RTDIGsvLMDwG3cg44qotU3N/668cvVRIJMvJ9YCx6+xkJeB1edS+HK9MP9xuT
+AZ4OuvpOmBwv/f00MOFJOcMZU/Zc7qpXwbglOgD64HckX81wQcNaDLJu9K/pgT6Y
+f1hKNqAbUnjPYKpPFStc06ke85Yw3UBULRXipDJThldhPVzopVwyfZGKvic3zROI
+jbImFeDusWBqYM/tESDGfpey6gNWJ0J72YxfDfllt/yxhdbf968=
+=96Yg
 -----END PGP SIGNATURE-----

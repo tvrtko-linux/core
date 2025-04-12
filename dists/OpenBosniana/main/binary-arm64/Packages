@@ -493,7 +493,7 @@ Description: Default Plasma cursor theme
 
 Package: breeze-icon-theme
 Source: breeze-icons
-Version: 4:5.124
+Version: 4:5.125
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 32259
@@ -503,11 +503,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.124_all.deb
-Size: 14860576
-SHA256: fbeb2a6c443aec3842d9a1d013e22497ca14bf12504f0271a13c2a2930a3f35f
-SHA1: 72e9fae3497809610d6719a8449ee2da6f9bc1d4
-MD5sum: 08bea1b0fd52b7468d9ca750808afa4f
+Filename: pool/main/b/breeze-icons/breeze-icon-theme_5.125_all.deb
+Size: 14882616
+SHA256: 3192b8b8407e6076bdeaad5c66e3018274bac7aefa091e0400f3003b73254b17
+SHA1: d8a922bd93adb5069152a5a2af0446eaee896f93
+MD5sum: a8ac8bcdd0fc8b23805566b76f46b87d
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 5 desktop.
  .

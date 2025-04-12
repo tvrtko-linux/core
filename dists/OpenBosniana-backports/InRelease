@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Fri, 11 Apr 2025 03:46:27 UTC
+Date: Sat, 12 Apr 2025 02:09:05 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmf4kJQACgkQ5Vfn9vbt
-T6q3zw//cntpBVUHVqHQqjOivx4I6d1oNRARaxuWHEPWj1obm1xndsmK/BxjUQVB
-uPQmY+SXHALer9eiKNYHQI+FwJ4fjWOX523e2S3joQa4LmoYWff0F5KhBcw/C6CK
-ETp9+AJjh0tHBLtDzUJNuyUv5efEhlfBWuL5RU3mdu9U3bGUQdbC0XdwWnDoWSUt
-h/oqjp/A6p2WafVAPiCM2x2SUMTQJaIDboS+9FpU2o7DkBvvv0TVciNgJpIcUsxa
-mJI+N27YmrUSne0YRmjKgyENwukV80U3h+xjB6BRgEpQipBoSNTDrB1mWGoYxMv6
-IShyzul9UE4v9gxIaTSbwvM9LfxIKZshYpsxS7mcar9P8sa4zC/cYI1KpEhfRojO
-sNehKDf1Kl197VYu5jwhYF/8wd+SWgR3qMCXvzuxNkpIZVNTYFydbdTrv1TMKHbX
-ylhQpSl3ok1lyr+fRIjo0iN4VtQK7mzclQpONUIy9GDtco1OrtYkDa8fKW6216EB
-Uc/B9IM9SqLXDZ9X4FMVmfQ4LVYa7v+hGetXLzyUvLugWdDbYkY/JwUBLkRdOitV
-QYQ6sGSJzyI3bmpma7D1HGA0PBtrYXE+pGZQJo9Wiuej8pxUhWAoRQs7G6Yha02a
-dhgG6qzzA4DYvL/dDmqoES7KqtEIw8iww5GGW6yVKSZNPBvP5XA=
-=9sJ8
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmf5y0IACgkQ5Vfn9vbt
+T6orIw//e3ZZeF6Fv6EDrI7/BcLXjv423rUJica83bLBVfadiCaTfjER0VbHBYYP
+pkZoKxz9SjiWbJK7O3d/1Kd2//HFLh8r488Hd6fO/JCKnAvTRM35WhH9Gbrg7qnv
+LTVfxplRVQW3t36Uwj9VgDMcoUvWdZFWJyYQGUj8P5L3ANplunMWCIDczJ4vpTr7
+/MHaYgpOasTPga9Vu2DtOJJF8JUTt7q7PRLanmBg2S194QfT81t4ngHqPDgd21iK
+MdGjG8kMoiNmgiexbtLTLYaFE+kiP05L3Gq4CtDngS1TbWG5v+ckL9v98OfjydOD
+1/oXn5KdyrQiP5xY4R2mbDgCqsTZx/A5z9w6FIWID1wOVAZGFKPosMAoWh+PPrpg
+5/xI/vFyO9/G9mBULXB2o8App6oMdeMIpfy/Slgzii243ZCIy/NEZ9CfEMD7SiSz
+GDnnq1+i0OSFZY96fcwkbzzKFmTO47XrX6s6ZuHEjIjHSHUoVTR3H5AVKTlSbdPn
+EnmmxIY4oaOzytd6KmvTNlC7kXDDaOnJhbwq/apos4QDutTa0+mw5fKDOj3xk2vT
+Mz9QxEahEHxg9/8CIP8s9dkqqxUQ8soq3H/aOmJCMOwNx38pBjlUNDASOWP5GhMn
+92WxfsGcw/d/nSgbxqY0xGGAuaMek/sGPgmbMzIPrAlIqf+6M6I=
+=0kv1
 -----END PGP SIGNATURE-----
