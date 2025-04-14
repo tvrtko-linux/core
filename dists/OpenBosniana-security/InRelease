@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 12 Apr 2025 02:09:07 UTC
+Date: Mon, 14 Apr 2025 14:49:18 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmf5y0QACgkQ5Vfn9vbt
-T6rGwBAAlylEq7QO6oDTu54gdhTAHio4X3a1n0gAk94X697nFCntoXjJ0BcsgB1S
-fRi2zXwmBHmzkbNoXwjAJhXilCU5bTbs/Vir6K8Stg86pWBFq/Gp5c1NC/s3W2sY
-MGD5uQBArsZoZ5B6tuI8kRAT1qPBGnGxIwrodlo2KitT7jWRT+Ch6vHzmmrGz9X6
-fkg0XJV+AIab4eHAIOWXjGXyT73UE1xCoTPX7FkDECQQOyH67cfD2vn2JXxXHlPM
-vbUr7IrstoqxDI7bH1YJWGvrlPsbX+XBK1y/56HLjUBWlEg3M+q1rId/knvUOabR
-u0TINFh4NRObaZHGBar5v58M+nSBnk61PRGXv6TA8Vnx0MvkbE36GO2ikH1kiP54
-uvxKNI7qUCZ6r0Nm1pR810ROCjYOAnALkHKq3zXpR9Cl1pu+UzOvHHMUBGLRbsR8
-VWhxt9vYKmuqf7ZS9FJ7yjE5Hc+JHy5vjE8ZlkmeL2frWbPow50o9waW3KUyaew0
-+Kc6zYI9Gw1s18bvR1kDm3En7UOGtqaxd8nullNbOkqd0aOh1HHYe/LBpfNgU8gn
-qJQHfX5JHhxfDiTM6BSKM7W+14NWcAjExHH1K/PNwecVnpbo07G30Y0toVnGtnlc
-esqWbX3KST7x0o1N3/vKOZI1hGKKjR3w2Xt3jnwtGkcAVxgqn+E=
-=tRnr
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmf9IG4ACgkQ5Vfn9vbt
+T6oGpQ/7BJs5lRF9+6T6YAQzA4dhmkWWszGT8/aeSzmilqT7X/tIqQFDo1jKzwuu
+s+j+EVnNYtlN2TOsFg7/4cZYYX0yrwWbVHcMAbn6JKOF5WJ3ddD9f7QvcvuKvcFe
+fe2z0+Deemw9th1ePcsYd55VsxmxQuhZTwjVL8ydCmdTLfOTGOVwLK2CFNakf1L9
+A2n0iq+zIzpRWIsWxhiLARinRFZtZWdWnNHjihdfKY25cpgfThpWjqXy/GGaEIrS
+177ZJ4lyN25mGa0zmLTuUrv9taXhrG9rdWpocQlJRuA1GZC6O7xhjFy0J+a6Ut9T
+n9vWok+yEY/dh0VFzrX/T6CHF6jDCcvkMaQ4/a6kFDwGl+nP6BVnNc/OqM/UsY0R
+NRNWALo2Xt5MgWeMF+PSeBmyy4ftI5yoWokh/pSw9vnbclAFfNYqmunhziYQVfNA
+7iNf8o+romaItMx8/X/eZk4AlMWS1unDXdC/UC3BKtxMKITk4RLMzWbT2jHNPXri
+zAgfG13D5W/r1vTHmwewvzGmdsM+j10LMCWq0V+W5pRBlo8A0ggjUhCTtZQhc8vV
+Hkdya9KPI5XJ1Vb7UnvQI0m7f6MJCjUnaU4Ejmt6Jn0+3U843NNXDHO7ygl01qqa
+phgPVE4jpo83nmB3xHtbwQd5Eg+F/mtKDI0L2XySqYazh0HoeHg=
+=PE/m
 -----END PGP SIGNATURE-----
