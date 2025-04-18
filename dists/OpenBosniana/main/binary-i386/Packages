@@ -8250,27 +8250,6 @@ Description: Powerful and easy to use desktop calculator - data
  .
  This package contains the data files needed by libqalculate.
 
-Package: libqt5webengine-data
-Source: qtwebengine-opensource-src
-Version: 5.15.18+dfsg-2~bpo12+1
-Architecture: all
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 23984
-Multi-Arch: foreign
-Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
-Priority: optional
-Section: libs
-Filename: pool/main/q/qtwebengine-opensource-src/libqt5webengine-data_5.15.18+dfsg-2~bpo12+1_all.deb
-Size: 7290448
-SHA256: 5be8c77c6fa9824ab941524a9b5c047e3c7bf9cf34d2b6e4cfce3d89ba929937
-SHA1: c4803564842c4fa3eac09e51f96718ba01fd8352
-MD5sum: c9e3d866dcf7226e2eb79c9aaf0a175a
-Description: Web content engine library for Qt - Data
- QtWebEngine provides a Web browser engine that makes it easy to embed content
- from the World Wide Web into your Qt application.
- .
- This package contains the arch independent parts of QtWebEngine libraries.
-
 Package: libregexp-ipv6-perl
 Version: 0.03-3
 Architecture: all
