@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Fri, 18 Apr 2025 18:22:19 UTC
+Date: Fri, 18 Apr 2025 23:23:52 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgCmFsACgkQ5Vfn9vbt
-T6qoABAAocW9rzo0RVZzNHQ8P9SyFOkWhL91JwsfZaFnxKvVBSCplsl/Iv0QaR6E
-zZdHutljza6Uy8I+KZtA7wQgv+q0gcmfzidN/KwksF04o9xYmtXOKAXy1eyl4VRO
-8b2FJqndCbgK4P+mbdrVPI2vh1iYQYyTb65PdrfiJ7qERbLa4mOf9VrJsp2/5yrD
-cQl2OozFI5K15KBmBtSa5s4AaqrZteE5A31oTt83jZsOjxv0vvkflcxAH8bCP8W6
-bvKE1niKO7TTYQwlYg6i8XNKe9B1SqgRKP40CGpMyAgplvWJyAHxvxck69Xv3rAQ
-1TM1hL89qGXlSp0xPtQP35ugvHRZwAVmgDvG3a7JJ2tUJDfXch83iIW5iRjC7X1A
-ayBXCjy+NlWmwKCRRPJye6hGYxzdrMHeyJk7CNjUXHpdcLnJCiN0HO7tLkEooJ3q
-cBQ549MAhUMNvdDTgpyhyrzD+mNGQBBxwUefBng34+3az04bBEB18hrI2aY17Rjw
-/knA+CXQoMe/1H5svpW1suz7CueuJA37qaVHxuYydfxSLY/0B95B09dW8NAu/U/I
-HODrQoF0ctE6U/nLTRE2h5lhdcFbPymDJMbdwcR/GiNcNsIC4WX9NDGAoYCfhQLM
-bXChZ4TZBpafor1CmhkLk2uPcQ0JHReESB3A5LbmRulLCGCsHKc=
-=FIkp
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgC3wkACgkQ5Vfn9vbt
+T6pZvRAAhRsH/AhBDVZd1DsymktkqMESjOrp5TGnRk6bKiHseoEQnMRBY3Ol89Vx
+zcTSmda5VmyZgcFgQKS/nyoxZ25+GbzF/sj/OkuCrFHENS1oMdwPfoSgfCIBG5k9
+Xjyqlxg0s8xmcb4Y0KZ7a45G95lDBu+7OE+v44HFbhYMjswgd/kzPuyC9fWNg/Vc
+5E4aFONG3TnfUVUyhijYWTyN+vzr086Pm2m05DT6ME6TjqopZ2B/RYq7iewuElFS
+79AixFYa9kIto3gSZDw7AVBUZSFUP/PTBgjoX8jlyCA+KwjJ8tHDowXKax06T+50
+1yRopzG7RkEEq5A7IS75GNy90k8+Dw/Ts3PanBSy8hNhxOCL/feUPuX3YVh81QE3
+u05wIgqX6FzDvtwr/vTCDad5afRUs04HulH6NfOUD9fsWji36R604hrD+3W5YtaX
+rHgB4qb/LW3hdYkRYD51a/EHDoBlkj69nRmY1VUZDtgbAgSXXHsXEcl07mQjo29D
+9fw/tNmY9GkeKIvlWrooDzArvOHmbiRnEyu+GmjedSR9fZHGI4Uig34oUGxWUc/U
+UbrHXOIRZ7m4TObTM/L4jcLBgptfI1DD783KCO/7YLk84IHeEEH2UwVt+yA0iYxF
+e5npqQFCKrXjG2Hz4xXTFn7MdziPD3PZJqUL32Oqsd+MKC24L9w=
+=VYuY
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Fri, 18 Apr 2025 23:21:21 UTC
+Date: Fri, 18 Apr 2025 23:26:02 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -213,17 +213,17 @@ SHA256:
  91f40351dbeb69ac40d6945dff04b9b478f362184c4c9012ed3500748c0da30c 186 udeb/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgC3ncACgkQ5Vfn9vbt
-T6ra7g/+OpH8aUYUzb+SPtbRUCataiL61iDT2BjhlTGxXFfXn/J46CZ1wHU5TW9w
-DU3RR7JPsFNZnXQpDenw8PH6nhb8MGvSCc03mXN9lScZ4y20O3q6E/c4JyGeBt13
-217ECZbuyXMxP8WuDILhJxExVezoDxIIeJxKxy2tM/kQoqZnOJ9afYceK+9fRwU6
-X0IAWMRMmbrDwLzXL0m6ax/X062xu4hNoc9Bj9nV/gd6XVy6gi9MpqGUGIg6tSEH
-hlfIFyBQ55Yr9Nv5F6D1XcqiqeNmdU5DGHTo6NdoA7gQyhEIotnJ/aB3+MzUWOlo
-hpKBcbx/vXjm+In1wnxsylFOQmP/6+TEnfjexz2tQpZvI0fh+2iULTY81msq7Fah
-I/nM1yQe5QTSIAuFG9Q2Qh2BjIgOBz5/xe6oQ2VMjzU+0m2cUJ1twkslhqcL0kWG
-UDiEo1V17cKdGFwUKhGIMb+3rI9OdPUmyWyLdlz5VVUquXi9Qtcc51CEpkEWXVur
-t6/CqoOpfvFARu3GnVJlbv6P67gyVeJyykouNJRaZJPLtBIdVCf22BXb1ugmuvjz
-VOJBxNHdjZy2fH99i5ZIs/wFpekDFFo2w1zI3+xDEdTiCcRNQkL9czoHp7+VQG0U
-3CEoitVgI9iXek2QbLbZi0ibvPZGKGD7XlaQyRK67Afxg1V4wXA=
-=NFbv
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgC34oACgkQ5Vfn9vbt
+T6p33A//Y4LIfIEO69GYguJPX7bX1wHCWQnjyWnNbSKxB++1rXh5Lyih6jc2cvnC
+e36IdbE7gqhxeRNihZGTk6Qkej95MTH2jC/0GyAOhRewgietJXE1UYLoe1EvHDKo
+XxmIft0guEF0G4IDXcBoLxPX397Vi41QTjSqh6F3+eVbkqyGzFDHnXY81wMK0kRk
+73oq6wcQ/hZCrQrJUbeq+S/bOdUbfCUor00J8kr7Y5V4h6Ka2Hlm+uYQJl7BzzI3
+V9tHuBVJfhIqojJBRgjGxF5b393z2+a0nAmwOvi7vijIbLcJ6+hAI6Hn7ivYUDgp
+5B7xErrPg/oORJc3YUU1FwrdmmtymLlfCF+JQMOi0xnzNzVjnqpWwvPiRWUmzLsS
+zmb1RTLlbnvEuMJSrEL1CBQqvrItjHKR8belSYBN+Fd3pMG9hI+tWkvMAaFPPtxz
+iVmuWrandbgdfq88c+AOFX9DcW4d9DbUOL132WlOe0V7g2wMggoh9gCcnViw7fjG
+j/vyrfC+z8RrkVEZv+2yBZbW+Cyr7kCYs3m3aQ2fBfigm6kklcSP71F0FZyW5p6r
+lfAgW3s8jnM21pdcm8LBGkqEDH/I/Dd54b6/oQYX3tWNVWH9I6bMkIdLdZA9F4Ku
+nzfJEnaYtORWHlzYCHMG0nieYM+YAfFnh4uhNHwN5VlBfD/9nNI=
+=lhOH
 -----END PGP SIGNATURE-----

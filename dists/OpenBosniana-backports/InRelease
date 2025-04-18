@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Fri, 18 Apr 2025 18:22:17 UTC
+Date: Fri, 18 Apr 2025 23:23:51 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgCmFkACgkQ5Vfn9vbt
-T6q5HA//SdFNPnW60X609QvsGZ4Ts1wXt4m5KcLF/Gbye8WPDU8OLt9LVZP6Xd76
-7HjVbmwdrO49yEyixRJKpeJAFYqLOy3rGdEOKZRFaHbExb41TCLPr/dNwEhsBHea
-+/5yemZn95O1CXEZe1dhtOvCrO8wdFIxJWnkP9a8416XSKQoiNNfEXQLTdkosugC
-7HqrE3i4yViytb9uFeQqa7fszAmj9GK04NQTr+VuuGtlQLOD8F8Q2NP29Wz3MpWD
-o70+BLTH1vbeFjtp3MUNsOWsU+9z/nITNo6HjdEENUys04oa+yZlscloQen6BWpl
-p2dK0+L0VA6eLpnaR6v08EMBPBw5yYJPhoxrolMLTSX0cGFH+yyrpWoVkXFEAoXH
-OiNvxL1b4Yej633ATbadNvcpHgdjQgvnggLJX5fodOjgclCvYY+o6G4LHm1Dhotf
-2vKyCg/enIVuaio2qHO0/eHm50KLg038+JGWJH+W/WlG1hJdlrwlohpc9Dn25uZm
-XduCHU2yCwsaUHhx1EVhSnuy06YsTCQo9YglJcQlctJJhERSvvP+zAa4Lr2EUK1N
-ljcTsey0TdHhAjsd7/E0PfC4oSViFrKjoa1egTomMm6AUC98UvobMBqCN0R8eZg+
-Yf06jkAyfwox0otFPMBBg9pD/k/ExuNryOW4dz9yYR9z9kYAPY0=
-=fWlH
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgC3wcACgkQ5Vfn9vbt
+T6pIqBAAmXFYaHxANUl+U588VOuqVZv5N6uAyAyoDuZ97ZcO0rJ7jxGUkQPjwoKD
+nqARGm+Db58oAM7FvdGT8/ARMiIK54j8aQPA4V5RTTWTm3jPeVROFWmAVkxRAyIi
+AGptFQLWML9R6UWhf5oEU5QPQnFxgjfd1bgGpsjUvCMTvQAOvDoayzKkznFAT9wq
+RF+/6mH1AnRMWjhcMsUJs3+6g6UBNWWcHa1vT7O52Sh5hJJ6G/7Vo+l5s8FLTrY+
+mNg+byxHrs9dbdbtQ8+OgBTXCWZrQcnwHwhZXOWBal7YrFgRiugc/n3okod6CtJY
+E26lsRp2fXRbCRw25bBmiCi0FEhRVYwOj3wsb7KvYVSBcCJzaeVE3tu8I17iFioq
+0BCWlDHlzMmigSe8AEphHn7awSPBeZBb1V+lRfMsqQbQCQyyAhgT0NmOblKuvYBK
+DnRlnt5d77mE2U7ZNc4CiVUtgVXgP2Hdc4z5laLP5PohA6yq52nbtVjKzBLbDaSw
+p5jSEsSzHThujzanK052iAj937Pr/KKQvlxYk5Bmg1/NBEZPNzvBUcNIygQkGvXO
+/39nmu8/oY5vAORZ6oDW6RdcDiJSlm/2zXqnJdQaycRlR0kMKiLC7LVd3acgQWCr
+chNJJTqklVbRX89PTdAF63+p84JW2fJXpnY0gzxySREcdSqMKOY=
+=s1Mm
 -----END PGP SIGNATURE-----
