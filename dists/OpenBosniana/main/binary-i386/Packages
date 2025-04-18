@@ -359,21 +359,21 @@ Description: English dictionary for GNU Aspell
 
 Package: at-spi2-common
 Source: at-spi2-core
-Version: 2.46.0-5
+Version: 2.56.1-2~bpo12+1
 Architecture: all
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 1313
+Installed-Size: 1348
 Breaks: at-spi2-core (<< 2.46.0-2~)
 Replaces: at-spi2-core (<< 2.46.0-2~)
 Multi-Arch: foreign
 Homepage: https://wiki.gnome.org/Accessibility
 Priority: optional
 Section: misc
-Filename: pool/main/a/at-spi2-core/at-spi2-common_2.46.0-5_all.deb
-Size: 161668
-SHA256: 441bc1c6cefdc01f519310abf55823deb868898480dee09a05aa44e8c83cabc2
-SHA1: 354492c05e6fb6bc7759f553e2bdb36ec93e846b
-MD5sum: 9895e429c6031a234b01c13b129094b0
+Filename: pool/main/a/at-spi2-core/at-spi2-common_2.56.1-2~bpo12+1_all.deb
+Size: 170808
+SHA256: 654dd5df98e950d582cf367c231624254e939cbdff1b47e22e8ac2ee794e8d96
+SHA1: 75bd74ee170dd6fc0df80249337bc2d1c074fa40
+MD5sum: bc237c3a7dd38d29e102307dd91e04e9
 Description: Assistive Technology Service Provider Interface (common files)
  This package contains the common resource files of GNOME Accessibility.
 
@@ -515,21 +515,21 @@ Description: Default Plasma icon theme
 
 Package: bup-doc
 Source: bup
-Version: 0.33.2-1~deb12u1
+Version: 0.33.7-1~deb12u1
 Architecture: all
 Maintainer: Robert Edmonds <edmonds@debian.org>
-Installed-Size: 340
+Installed-Size: 367
 Breaks: bup (<< 0.25~rc2-2~)
 Replaces: bup (<< 0.25~rc2-2~)
 Multi-Arch: foreign
 Homepage: https://github.com/bup/bup
 Priority: optional
 Section: doc
-Filename: pool/main/b/bup/bup-doc_0.33.2-1~deb12u1_all.deb
-Size: 88436
-SHA256: 6aae795f6136436ebae909c3517b6fe93f9423ec376c824463938b725d164dfc
-SHA1: 98047308d1d7b7200a79ed14f5c9711dff6be14d
-MD5sum: a876c36a46ded3162a5fa70510e0adb1
+Filename: pool/main/b/bup/bup-doc_0.33.7-1~deb12u1_all.deb
+Size: 93600
+SHA256: 14feed3acc1af1bc51537d159cf4ac1041fbc8f2f11835fb0a5308b0664d6e97
+SHA1: 07887248edd556fe4bed0d7e44787117e8192f9e
+MD5sum: 48e8990594938e899d349fb36b9e70d8
 Description: highly efficient file backup system based on git (documentation)
  bup is a backup tool which stores the backups in a system based around
  the packfile format from git.
@@ -1106,18 +1106,18 @@ Description: Debconf KDE data files
  This package contains the data files needed by the Debconf KDE library
 
 Package: debian-archive-keyring
-Version: 2023.3+deb12u1
+Version: 2023.3+deb12u2
 Architecture: all
 Maintainer: Debian Release Team <packages@release.debian.org>
-Installed-Size: 272
+Installed-Size: 293
 Multi-Arch: foreign
 Priority: important
 Section: misc
-Filename: pool/main/d/debian-archive-keyring/debian-archive-keyring_2023.3+deb12u1_all.deb
-Size: 160776
-SHA256: c1bac61abefa0d957394d33c02b7bfb2a3ab3ce5e6d90617c4019ddea4bdbf63
-SHA1: d6deee885b06009256ddf272b3e69b32329d4908
-MD5sum: 0020f1d90d3c0b1de756d520ca67f1b2
+Filename: pool/main/d/debian-archive-keyring/debian-archive-keyring_2023.3+deb12u2_all.deb
+Size: 178572
+SHA256: f699e2f88dca05212f2a452b58475f2993cb6993dfbafb1d0205a3291eb8b4b8
+SHA1: 2b45099ff48b37494894f36aa9708ddb161fa9e3
+MD5sum: 4680eb38cf562e43f309c94c1e11dd1e
 Description: GnuPG archive keys of the Debian archive
  The Debian project digitally signs its Release files. This package
  contains the archive keys used for that.
@@ -1319,19 +1319,19 @@ Description: Dynamic Kernel Module System (DKMS)
  you upgrade kernels.
 
 Package: dns-root-data
-Version: 2024041801~deb12u1
+Version: 2024071801~deb12u1
 Architecture: all
 Maintainer: dns-root-data packagers <dns-root-data@packages.debian.org>
-Installed-Size: 17
+Installed-Size: 19
 Multi-Arch: foreign
 Homepage: https://data.iana.org/root-anchors/
 Priority: optional
 Section: misc
-Filename: pool/main/d/dns-root-data/dns-root-data_2024041801~deb12u1_all.deb
-Size: 4356
-SHA256: a949660d6c5204ec4ee8cc420d0afb2c2cb94bd4a9e9c4a005302d0ab4641a4d
-SHA1: 3d12928defb3af88f3ab64ddb35d55fa5d1f55e6
-MD5sum: f1e135c1ff96d36fddb890acc02f31d1
+Filename: pool/main/d/dns-root-data/dns-root-data_2024071801~deb12u1_all.deb
+Size: 5752
+SHA256: 663f47552c4c3e146a9361e67d9289d6306e151c7e903df30d66b26b3e299b55
+SHA1: d7a57b55b4ce864b4bb01e72a24632d0bf483193
+MD5sum: 82a86997f385d047d6a2949e91e21f2c
 Description: DNS root hints and DNSSEC trust anchor
  This package contains various root zone related data as published
  by IANA to be used by various DNS software as a common source
@@ -1342,19 +1342,19 @@ Description: DNS root hints and DNSSEC trust anchor
 
 Package: dnsutils
 Source: bind9
-Version: 1:9.18.28-1~deb12u2
+Version: 1:9.18.33-1~deb12u2
 Architecture: all
 Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
-Installed-Size: 269
+Installed-Size: 22
 Depends: bind9-dnsutils
 Homepage: https://www.isc.org/downloads/bind/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/b/bind9/dnsutils_9.18.28-1~deb12u2_all.deb
-Size: 263656
-SHA256: 54b29a9c225a31d5b101d65d91261f28731ffd190bd06a36da9f357ff66b2d60
-SHA1: 717ad8a778791921c3f7b07f0379743a1e295693
-MD5sum: 44750cb40cd2c7621d36fcbe82b821cd
+Filename: pool/main/b/bind9/dnsutils_9.18.33-1~deb12u2_all.deb
+Size: 10492
+SHA256: 9ef44caea130a70316a3c1ce8bfa3528d63a01808a87976660c40b50f4d47c9b
+SHA1: 6c1a533c74dcebff4cd76c1a50a5b26de4ab0ece
+MD5sum: 7e53e60e556bd32d3c2af0ee1473c045
 Description: Transitional package for bind9-dnsutils
  This is a transitional package. It can safely be removed.
 
@@ -1589,10 +1589,10 @@ Description: AST-based pattern checker for JavaScript
 
 Package: exim4-config
 Source: exim4
-Version: 4.96-15+deb12u6
+Version: 4.98.1-2~bpo12+1
 Architecture: all
 Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
-Installed-Size: 919
+Installed-Size: 913
 Depends: adduser, debconf (>= 0.5) | debconf-2.0
 Recommends: ca-certificates
 Conflicts: citadel-server, courier-mta, dma, esmtp-run, exim, exim-tls, exim4-config, exim4-config-2, hula-mta, masqmail, msmtp-mta, mta-dummy, nullmailer, opensmtpd, postfix, qmail-run, sendmail-bin, smail, ssmtp, xmail, zmailer
@@ -1601,11 +1601,11 @@ Provides: exim4-config-2
 Homepage: https://www.exim.org/
 Priority: optional
 Section: mail
-Filename: pool/main/e/exim4/exim4-config_4.96-15+deb12u6_all.deb
-Size: 255864
-SHA256: 85349f70961304ea14508e7a71608c17099b7ad5915588e64bd261cedaecc57d
-SHA1: 3076661f48adda0fabb8b2209164eca348fa693e
-MD5sum: b5bfa413828bc8076afc5bf21f8877ed
+Filename: pool/main/e/exim4/exim4-config_4.98.1-2~bpo12+1_all.deb
+Size: 256448
+SHA256: 4b1b21854db68d8d64302551896c9213c5b5835f0c0ae4f0e2a0e45e47ecd220
+SHA1: 181bbdec575aee15a5e4c10269907ea006c85e1d
+MD5sum: 3403baeef3efc0c043464952221da11f
 Description: configuration for the Exim MTA (v4)
  Exim (v4) is a mail transport agent. exim4-config provides the configuration
  for the exim4 daemon packages. The configuration framework has been split
@@ -4193,6 +4193,30 @@ Description: "No Tofu" font families with large Unicode coverage (unhinted)
  for unicode replacement character "�" (U+FFFD)
  often displayed as replacement for unassigned or unknown characters.
 
+Package: fonts-opensymbol
+Source: libreoffice (4:25.2.2-1~bpo12+1)
+Version: 4:102.12+LibO25.2.2-1~bpo12+1
+Architecture: all
+Bugs: mailto:debian-backports@lists.debian.org
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 280
+Recommends: fontconfig
+Replaces: ttf-opensymbol
+Provides: ttf-opensymbol
+Multi-Arch: foreign
+Homepage: http://www.libreoffice.org
+Priority: optional
+Section: fonts
+Filename: pool/main/libr/libreoffice/fonts-opensymbol_102.12+LibO25.2.2-1~bpo12+1_all.deb
+Size: 127236
+SHA256: 3d4632dc3b40b0626fb42ad5cfc90d875f7cdf0b070829f984610b60e7736e47
+SHA1: 258ed409aefd405359b936ac2067949ec6d991c6
+MD5sum: 564ea42d1e684a937f071197910a3268
+Description: OpenSymbol TrueType font
+ This package contains the OpenSymbol TrueType font included in
+ LibreOffice. This font contains symbols (like fonts as Wingdings(tm)),
+ bullets (needed for bullets in LibreOffice) and non-latin character
+
 Package: fonts-quicksand
 Version: 0.2016-2.1
 Architecture: all
@@ -4285,7 +4309,7 @@ Description: font set metric-compatible with the 35 PostScript Level 2 Base Font
 
 Package: gcc-12-locales
 Source: gcc-12
-Version: 12.2.0-14
+Version: 12.2.0-14+deb12u1
 Architecture: all
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 12423
@@ -4294,11 +4318,11 @@ Recommends: gcc-12 (>= 12)
 Homepage: http://gcc.gnu.org/
 Priority: optional
 Section: devel
-Filename: pool/main/g/gcc-12/gcc-12-locales_12.2.0-14_all.deb
-Size: 1759172
-SHA256: 482f2bc4834fa94b4391f1b1121e7ca76708c965bd0df8f00963f789064859b7
-SHA1: 167c124db0467a57110c6db78f84541d33f2f737
-MD5sum: f11754808c3362ef4415ccd240faee70
+Filename: pool/main/g/gcc-12/gcc-12-locales_12.2.0-14+deb12u1_all.deb
+Size: 1759384
+SHA256: a701516b5e34086f478b0a329dfd9dd8e1695e8bac5917a6b162a87719abe28f
+SHA1: 9a3568840122bfe005670d6e7d5fd5c5c9f322c0
+MD5sum: 2d0b840d02f04c6b8b2149371463833b
 Description: GCC, the GNU compiler collection (native language support files)
  Native language support for GCC. Lets GCC speak your language,
  if translations are available.
@@ -4308,19 +4332,19 @@ Description: GCC, the GNU compiler collection (native language support files)
 
 Package: git-man
 Source: git
-Version: 1:2.39.5-0+deb12u1
+Version: 1:2.39.5-0+deb12u2
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 2108
+Installed-Size: 2106
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: doc
-Filename: pool/main/g/git/git-man_2.39.5-0+deb12u1_all.deb
-Size: 2053856
-SHA256: dba6b0fd06e11669ba1f60bb4e90af0157f1157b098df7f702cb9beb16fbfc5d
-SHA1: c64a2c21615871e833ce2c9cb324010e350ba6aa
-MD5sum: 38b798be016b3e191b7e40944ba6dc50
+Filename: pool/main/g/git/git-man_2.39.5-0+deb12u2_all.deb
+Size: 2053284
+SHA256: e0355241d0207d3f1b056c1084375e87e804f24067d59b92f45b5e34782b9a43
+SHA1: a45159da5cfaf97170d10eef605d5d7ac9f21846
+MD5sum: 1a00ed9250b6fefa628555eca9847d51
 Description: fast, scalable, distributed revision control system (manual pages)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -4486,6 +4510,34 @@ Description: Go programming language - source files
  This package provides the Go programming language source files needed for
  compilation.
 
+Package: golang-1.23-src
+Source: golang-1.23
+Version: 1.23.5-1~bpo12+1
+Architecture: all
+Maintainer: Debian Go Compiler Team <team+go-compiler@tracker.debian.org>
+Installed-Size: 126734
+Multi-Arch: foreign
+Homepage: https://go.dev/
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-1.23/golang-1.23-src_1.23.5-1~bpo12+1_all.deb
+Size: 19129912
+SHA256: c425bc2e0bdd215e66c963072ceab22d93694a206a04e5a9a252bfc081dbac7b
+SHA1: 9ef0643bb013c94fd06f8d8dcefc6276778226b1
+MD5sum: 58b5903a92ab2d5e74e30a6fea277db2
+Description: Go programming language - source files
+ The Go programming language is an open source project to make programmers more
+ productive. Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of multicore
+ and networked machines, while its novel type system enables flexible and
+ modular program construction. Go compiles quickly to machine code yet has the
+ convenience of garbage collection and the power of run-time reflection. It's a
+ fast, statically typed, compiled language that feels like a dynamically typed,
+ interpreted language.
+ .
+ This package provides the Go programming language source files needed for
+ compilation.
+
 Package: golang-github-containers-common
 Version: 0.50.1+ds1-4
 Architecture: all
@@ -4507,39 +4559,39 @@ Description: Common files for github.com/containers repositories
  other container projects.
 
 Package: golang-github-containers-image
-Version: 5.23.1-4
+Version: 5.26.1-2~bpo12+1
 Architecture: all
 Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
-Installed-Size: 55
+Installed-Size: 56
 Replaces: buildah (<< 1.17.1+dfsg1-2)
 Homepage: https://github.com/containers/image
 Priority: optional
 Section: devel
-Filename: pool/main/g/golang-github-containers-image/golang-github-containers-image_5.23.1-4_all.deb
-Size: 31724
-SHA256: 2dc5697a30ae8de43221eeb7aa553d5187dbf97392d299ecb27ef51e46d159ca
-SHA1: 01992ec4c0e845422a59eb3199e3892035372932
-MD5sum: 067103740cd8ecab241c75b0f2f26149
+Filename: pool/main/g/golang-github-containers-image/golang-github-containers-image_5.26.1-2~bpo12+1_all.deb
+Size: 35464
+SHA256: 6ddcc4e2457b352e9ee3bd39d15ee710dfec5ec44e1ae9ca0641f8d60ea13319
+SHA1: fdc94b8153598414667a1d9a336656b0628cf804
+MD5sum: 4714d7683f88fd47f8be2a5e451584e8
 Description: Configuration files and manpages for github.com/containers repositories
  This package contains documentation and configuration files for use by
  other container projects.
 
 Package: golang-src
 Source: golang-defaults
-Version: 2:1.19~1
+Version: 2:1.23~2~bpo12+1
 Architecture: all
 Maintainer: Debian Go Compiler Team <team+go-compiler@tracker.debian.org>
 Installed-Size: 13
-Depends: golang-1.19-src
+Depends: golang-1.23-src
 Multi-Arch: foreign
 Homepage: https://golang.org
 Priority: optional
 Section: golang
-Filename: pool/main/g/golang-defaults/golang-src_1.19~1_all.deb
-Size: 5756
-SHA256: 15c5627e7f1ae650ea1103b864b77d874b5b1d2693802649b956efeed3ccb02f
-SHA1: f7f4871cecec94d373304fe540d0c9275387c1f3
-MD5sum: d36120c91468b3a6bfbbe38de26eb207
+Filename: pool/main/g/golang-defaults/golang-src_1.23~2~bpo12+1_all.deb
+Size: 5200
+SHA256: 39ff0a0cea48539e5f1a1797ed43fb73dab2dec34a48006085d944ce468b725b
+SHA1: 1bda38007f76b5712f2b2e63705b1378ea2f24d8
+MD5sum: 6c4b3eb81edeea2246b81af8c7618378
 Description: Go programming language - source files
  The Go programming language is an open source project to make programmers more
  productive. Go is expressive, concise, clean, and efficient. Its concurrency
@@ -4731,55 +4783,27 @@ Description: hardware identification / configuration data
 
 Package: ibus-data
 Source: ibus
-Version: 1.5.27-5
+Version: 1.5.31-1~bpo12+1
 Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 109113
+Installed-Size: 109266
 Depends: dconf-gsettings-backend | gsettings-backend, librsvg2-common
 Suggests: ibus
-Breaks: ibus (<< 1.5.21-1~exp2)
-Replaces: ibus (<< 1.5.21-1~exp2)
 Multi-Arch: foreign
 Homepage: https://github.com/ibus/ibus
 Priority: optional
 Section: utils
-Filename: pool/main/i/ibus/ibus-data_1.5.27-5_all.deb
-Size: 10540772
-SHA256: b393f7b76ec46d701a7bf04cd815b8f78eb97b59c2b77270dd7c1ca6c7088649
-SHA1: 02df3f7e515ab02707da58e5e89393b725b2cfe3
-MD5sum: 4c4175d02ab7086372cdf45ee1e69b7e
+Filename: pool/main/i/ibus/ibus-data_1.5.31-1~bpo12+1_all.deb
+Size: 10586572
+SHA256: 8e799c1b99e5c67babce3b399a1c2420a0ed6eac74d01af99096e01a119829c0
+SHA1: b773efd5c5e8d5a3d0f12f600abf8d7fddcd97e5
+MD5sum: 51cd65caac46a3d396d63ec8a1fdb94d
 Description: Intelligent Input Bus - data files
  IBus is an Intelligent Input Bus. It is a new input framework for the Linux
  OS. It provides full featured and user friendly input method user interface.
  It also may help developers to develop input method easily.
  .
  This package contains data files.
-
-Package: imagemagick-6-common
-Source: imagemagick
-Version: 8:6.9.11.60+dfsg-1.6+deb12u2
-Architecture: all
-Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
-Installed-Size: 537
-Breaks: imagemagick-common (<< 8:6.9.2.10+dfsg-1~), libmagickcore-6.q16-2 (<< 8:6.9.6.2+dfsg-3~), libmagickcore-6.q16-3 (<< 8:6.9.6.8+dfsg-1~), libmagickcore-6.q16-4 (<< 8:6.9.8.9+dfsg-1~), libmagickcore-6.q16hdri-4 (<< 8:6.9.8.9+dfsg-1~)
-Replaces: imagemagick-common (<< 8:6.9.2.10+dfsg-1~), libmagickcore-6.q16 (<< 8:6.9.6.2+dfsg-3~)
-Provides: imagemagick-common
-Multi-Arch: foreign
-Homepage: https://www.imagemagick.org/
-Priority: optional
-Section: graphics
-Filename: pool/main/i/imagemagick/imagemagick-6-common_6.9.11.60+dfsg-1.6+deb12u2_all.deb
-Size: 166252
-SHA256: 87d97bf44f19aebd77f5a73cbd0baf74f4e68cb9a5b8ac1333a4044d245930ea
-SHA1: 881b3a9b4de065431260280d602723d908151642
-MD5sum: ef1170af8e119c83f5536667bed0d68d
-Description: image manipulation programs -- infrastructure
- imagemagick-common contains the filesystem infrastructure required for
- further installation of imagemagick in any configuration; it does not provide
- a full installation of binaries, libraries, and utilities
- required to run imagemagick.
- .
- This package is independent of channel depth.
 
 Package: init-system-helpers
 Version: 1.65.2+openbosniana
@@ -4968,24 +4992,6 @@ Description: Base support for JavaScript library packages
  This is a helper package that creates /usr/share/javascript and enables it in
  the Apache and Lighttpd webserver.
 
-Package: kate5-data
-Source: kate
-Version: 4:22.12.3-1
-Architecture: all
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 23522
-Homepage: https://kate-editor.org/
-Priority: optional
-Section: kde
-Filename: pool/main/k/kate/kate5-data_22.12.3-1_all.deb
-Size: 1210148
-SHA256: da6cfb4bda25a428e6e96b502150fb1433f9df1a60399f85ab68edbaee191d02
-SHA1: dfadb940df46cbd8ca53dfcdd0b8ee42c738249f
-MD5sum: 24c9842a8de1cf2e114e845bc210976f
-Description: shared data files for Kate text editor
- This package contains the architecture-independent shared data files needed
- for Kate editor
-
 Package: kde-cli-tools-data
 Source: kde-cli-tools
 Version: 4:5.27.5.1-2
@@ -5084,19 +5090,19 @@ Description: Extra functionality for kioslaves data files.
 
 Package: krb5-locales
 Source: krb5
-Version: 1.20.1-2+deb12u2
+Version: 1.20.1-2+deb12u3
 Architecture: all
 Maintainer: Sam Hartman <hartmans@debian.org>
-Installed-Size: 272
+Installed-Size: 273
 Multi-Arch: foreign
 Homepage: https://web.mit.edu/kerberos/
 Priority: optional
 Section: localization
-Filename: pool/main/k/krb5/krb5-locales_1.20.1-2+deb12u2_all.deb
-Size: 62820
-SHA256: cc758a92d31d334a393e328308c1865710dd6a17642af1d1ff03af57444a9160
-SHA1: 0ed8dfa0518cb01d221b8ac54265afd759235d48
-MD5sum: cf2833e70f6c1255048ccf49a8c16304
+Filename: pool/main/k/krb5/krb5-locales_1.20.1-2+deb12u3_all.deb
+Size: 63064
+SHA256: 59d13f7dda06638202011a5ec740dad591a663b3f68df1e2349662dc9efdacc5
+SHA1: 25de495ff104b3a0ae3e36e319b23ce35f46720f
+MD5sum: 5a9e54d5c3365b76ff0782c87b2f831e
 Description: internationalization support for MIT Kerberos
  Kerberos is a system for authenticating users and services on a network.
  Kerberos is a trusted third-party service.  That means that there is a
@@ -5406,19 +5412,19 @@ Description: Authen::SASL - SASL Authentication framework
 
 Package: libc-l10n
 Source: glibc
-Version: 2.36-9+deb12u9
+Version: 2.36-9+deb12u10
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 4348
+Installed-Size: 4349
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/libc-l10n_2.36-9+deb12u9_all.deb
-Size: 676736
-SHA256: 8fa332927303ec6f52965bbdbdbe7bb67988bf7e3b3d6c9fa7ac8ad8ce4a6793
-SHA1: c8e31889ea7d9edadfb95e8efaef556c2b763fa0
-MD5sum: 60687e73de5156c69f48ebdb2a699e72
+Filename: pool/main/g/glibc/libc-l10n_2.36-9+deb12u10_all.deb
+Size: 675860
+SHA256: 073d431cf5d5a7cc4226d14b967ab74591aa0ec1fd782716a28e30c15bff96b1
+SHA1: 45f969c219c07e6226b229375d80d400156b1cba
+MD5sum: e2a9d0b0065089ee680edc675a828f01
 Description: GNU C Library: localization files
  This package contains the translation files for the GNU C library and
  utility programs.
@@ -5469,21 +5475,21 @@ Description: Perl module to help dump data structures
 
 Package: libdebuginfod-common
 Source: elfutils
-Version: 0.188-2.1
+Version: 0.192-4~bpo12+1
 Architecture: all
 Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 49
+Installed-Size: 53
 Pre-Depends: debconf
 Depends: debconf (>= 0.5) | debconf-2.0, ucf
 Multi-Arch: foreign
 Homepage: https://sourceware.org/elfutils/
 Priority: optional
 Section: devel
-Filename: pool/main/e/elfutils/libdebuginfod-common_0.188-2.1_all.deb
-Size: 21544
-SHA256: 447be2fea4f171c32b32ea172ef83d12c6fc39636bb2bd9f95242b8ab4560369
-SHA1: 26bf88e65a6dff9fc5a60eca7580564e0ae9394f
-MD5sum: 81f95f29b9712e3433ba72f7df754128
+Filename: pool/main/e/elfutils/libdebuginfod-common_0.192-4~bpo12+1_all.deb
+Size: 23828
+SHA256: d407493763f194392e056bd7631bcdaf407de71e50d7341253e021a58b53b9cd
+SHA1: 3114c6b83626770a5dd57ca49e8cf9862eb4a6e4
+MD5sum: e8ea5cd9289e3cae5a5645fff69100cc
 Description: configuration to enable the Debian debug info server
  This package asks if it should enable use of the Debian debug info
  server with debugging tools that use libdebuginfo such as GDB.
@@ -5589,19 +5595,19 @@ Description: Dpkg perl modules
 
 Package: libdrm-common
 Source: libdrm
-Version: 2.4.114-1
+Version: 2.4.123-1~bpo12+1
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 42
+Installed-Size: 45
 Multi-Arch: foreign
-Homepage: https://cgit.freedesktop.org/mesa/drm/
+Homepage: https://gitlab.freedesktop.org/mesa/drm/
 Priority: optional
 Section: libs
-Filename: pool/main/libd/libdrm/libdrm-common_2.4.114-1_all.deb
-Size: 7112
-SHA256: 32f9664138b38b224383c6986457d5ad2ec8efd559b1a0ce7749405f7a451aad
-SHA1: 169c85a3f53d7b46203632a40c886c396a823c91
-MD5sum: 4f0ec02ca688b2a57f7fc0557011c9ad
+Filename: pool/main/libd/libdrm/libdrm-common_2.4.123-1~bpo12+1_all.deb
+Size: 8164
+SHA256: 5f37e8608d172fe6881d8ab149fe325af122a83ab8b13a5cd8d02022a9397ffc
+SHA1: 1cc484e7ad562d161d802bf586562d2bd6605160
+MD5sum: b91ff8b4a94ae722d91eabf5a3039209
 Description: Userspace interface to kernel DRM services -- common files
  This library implements the userspace interface to the kernel DRM
  services.  DRM stands for "Direct Rendering Manager", which is the
@@ -5814,9 +5820,34 @@ Description: GDK Pixbuf library - data files
  This package contains the common files and translations for the GDK
  Pixbuf library.
 
+Package: libgegl-common
+Source: gegl
+Version: 1:0.4.42-2
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 4774
+Multi-Arch: foreign
+Homepage: https://gegl.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gegl/libgegl-common_0.4.42-2_all.deb
+Size: 744564
+SHA256: e87d3af043decd952ddf8697a6f1caafc744cb5261a62e42c80398a1cdb184a0
+SHA1: bfb935cb46c37695fc08a4d3c6e7aae5b80cee7e
+MD5sum: 09cf3e6351bb40463530ad3522a21614
+Description: Generic Graphics Library - common files
+ GEGL (Generic Graphics Library) is a graph based image processing
+ framework.
+ .
+ GEGL's original design was made to scratch GIMP's itches for a new
+ compositing and processing core. This core is being designed to have
+ minimal dependencies and a simple well defined API.
+ .
+ This package contains common data files and translations.
+
 Package: libglib2.0-data
 Source: glib2.0
-Version: 2.74.6-2+deb12u5
+Version: 2.74.6-2+deb12u6
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 9405
@@ -5824,11 +5855,11 @@ Multi-Arch: foreign
 Homepage: https://wiki.gnome.org/Projects/GLib
 Priority: optional
 Section: libs
-Filename: pool/main/g/glib2.0/libglib2.0-data_2.74.6-2+deb12u5_all.deb
-Size: 1208668
-SHA256: da703c4b410f97bd059f7ba9d7b4b3032979a73c7727ac16441c5c12e1f722f3
-SHA1: eea69d75c493844adf0b6a169ee182d52e80018f
-MD5sum: 7e2ad9b1ae921ab8e3d1e5d8035f95b1
+Filename: pool/main/g/glib2.0/libglib2.0-data_2.74.6-2+deb12u6_all.deb
+Size: 1209764
+SHA256: 6d841ace500f915932cbe4d5d8a699095e6a8dd9f87535becb46a8f5d8ba86e3
+SHA1: 93527099e8e8a1979c95a4e1f745c2bdf5faf151
+MD5sum: ed6ce6a373af7b393f33cf3c264b0ad1
 Description: Common files for GLib library
  GLib is a library containing many useful C routines for things such
  as trees, hashes, lists, and strings.  It is a useful general-purpose
@@ -5861,7 +5892,7 @@ Description: gphoto2 digital camera library - localized messages
 
 Package: libgs-common
 Source: ghostscript
-Version: 10.0.0~dfsg-11+deb12u6
+Version: 10.0.0~dfsg-11+deb12u7
 Architecture: all
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 316
@@ -5871,11 +5902,11 @@ Multi-Arch: foreign
 Homepage: https://www.ghostscript.com/
 Priority: optional
 Section: libs
-Filename: pool/main/g/ghostscript/libgs-common_10.0.0~dfsg-11+deb12u6_all.deb
-Size: 149468
-SHA256: 90e70c7c0c7703d856061018da8a4881bf3c5795a055fd43004b665d05656479
-SHA1: 21a75c4656ace4b396a34c9f5b6c1c3f9bf16e0d
-MD5sum: 21fc5338d8096982bd9c3103b15d2ebf
+Filename: pool/main/g/ghostscript/libgs-common_10.0.0~dfsg-11+deb12u7_all.deb
+Size: 149432
+SHA256: c6d59416d29f3694b733eb9c6f95319446721d0550b35f746caf38b969e9f74e
+SHA1: f2ab0167f0242e14e3e6b22855d7c1aa29836091
+MD5sum: be9bbfe3f1fcf7d7206857017a2a0a60
 Description: interpreter for the PostScript language and for PDF - ICC profiles
  GPL Ghostscript is used for PostScript/PDF preview and printing.
  Usually as a back-end to a program such as ghostview,
@@ -5885,7 +5916,7 @@ Description: interpreter for the PostScript language and for PDF - ICC profiles
 
 Package: libgs10-common
 Source: ghostscript
-Version: 10.0.0~dfsg-11+deb12u6
+Version: 10.0.0~dfsg-11+deb12u7
 Architecture: all
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 2843
@@ -5897,11 +5928,11 @@ Multi-Arch: foreign
 Homepage: https://www.ghostscript.com/
 Priority: optional
 Section: libs
-Filename: pool/main/g/ghostscript/libgs10-common_10.0.0~dfsg-11+deb12u6_all.deb
-Size: 586552
-SHA256: 68b3c9a0ba3f0136c71b0bee3c9e34788438edf93b361d239f53d2aa85eb3fe7
-SHA1: 71ca35613d0a3a5bb90117bed26d8835a66ef0c5
-MD5sum: 2c797b1720e5129676bfbd482348713a
+Filename: pool/main/g/ghostscript/libgs10-common_10.0.0~dfsg-11+deb12u7_all.deb
+Size: 586868
+SHA256: fc572f8fdf216fd384e7898ec6d8ed7f93ba17deaf87520d9cb645fa880c8666
+SHA1: 118968eed21ffb6af9ae807e6eafa434915aea17
+MD5sum: e74637e96147c03c72f0acf0513a0c16
 Description: interpreter for the PostScript language and for PDF - common files
  GPL Ghostscript is used for PostScript/PDF preview and printing.
  Usually as a back-end to a program such as ghostview,
@@ -6449,6 +6480,47 @@ Description: GLib JSON manipulation library (common files)
  .
  This package contains the translations files.
 
+Package: libkf5akonadicalendar-data
+Source: akonadi-calendar
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1823
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/akonadi-calendar
+Priority: optional
+Section: libs
+Filename: pool/main/a/akonadi-calendar/libkf5akonadicalendar-data_22.12.3-1_all.deb
+Size: 223404
+SHA256: a3b123c1974de56137ae98dbf822f15e2cf2501e41afb9bfea7ed3e45bdc1ff1
+SHA1: 5bf50108a985b9e2978efc1dcfb59c8dfe689748
+MD5sum: afa5ab54110389778deb897ee78851c7
+Description: data files for akonadi-calendar
+ This library offers helper functions to integrate the use of Akonadi calendar
+ items in applications.
+ .
+ This package contains shared data files.
+
+Package: libkf5akonadisearch-data
+Source: akonadi-search
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 24
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/akonadi-search
+Priority: optional
+Section: libs
+Filename: pool/main/a/akonadi-search/libkf5akonadisearch-data_22.12.3-1_all.deb
+Size: 5436
+SHA256: 43ca4d08e5512e0a894a346e7b008fed9dfdc316b8027af2b3a2c2649cfcbb8a
+SHA1: 0ffcafc90044e07a3c20344afb741296f07c7f55
+MD5sum: 56c30f12437befbdd569679de8c5da57
+Description: Akonadi search library - data files
+ Library used to search in the Akonadi PIM data server.
+ .
+ This package contains data files.
+
 Package: libkf5archive-data
 Source: karchive
 Version: 5.103.0-1
@@ -6542,6 +6614,26 @@ Description: Qt library with support for bookmarks and the XBEL format.
  XBEL format.
  .
  This package contains the translations.
+
+Package: libkf5calendarsupport-data
+Source: libkf5calendarsupport
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2664
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/calendarsupport
+Priority: optional
+Section: libs
+Filename: pool/main/libk/libkf5calendarsupport/libkf5calendarsupport-data_22.12.3-1_all.deb
+Size: 310060
+SHA256: 08365ec2a55abe76b86364fc08c79fea75e15e116f107dae4281a9ce7db71ebc
+SHA1: 62531946a6a942c0e0eca10f9cc407baee3d07b1
+MD5sum: 978b1a7c9957bc39bf60355c91fb3093
+Description: KDE PIM Calendar support - data files
+ This library provides calendar support for KDE PIM.
+ .
+ This package provides data files used by the library.
 
 Package: libkf5codecs-data
 Source: kcodecs
@@ -6689,6 +6781,30 @@ Description: KDE Frameworks 5 addons to QtCore - data files
  .
  This package contains the arch independent files for KCoreAddons.
 
+Package: libkf5dav-data
+Source: kdav
+Version: 1:5.103.0-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 232
+Breaks: libkpimkdav-data
+Replaces: libkpimkdav-data
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/frameworks/kdav
+Priority: optional
+Section: libs
+Filename: pool/main/k/kdav/libkf5dav-data_5.103.0-1_all.deb
+Size: 23616
+SHA256: c207bafbc9b95c563a0b0c5eb5a94501510f8f097f65ba2f2bc62a88a226289b
+SHA1: 55a28ea0cefac0b800c46975b68fa806c0be46af
+MD5sum: 0ea06960d4e0a5a14f075e9dce92c023
+Description: DAV protocol implementation with KJobs - arch independent files
+ A DAV protocol implementation with KJobs.
+ .
+ This package contains the arch independent files to work with KDav.
+ .
+ This package is part of KDE Frameworks 5.
+
 Package: libkf5dbusaddons-data
 Source: kdbusaddons
 Version: 5.103.0-1
@@ -6755,6 +6871,26 @@ Description: Abstraction to system DNSSD features.
  .
  This package contains the data files.
 
+Package: libkf5eventviews-data
+Source: libkf5eventviews
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1819
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/eventviews
+Priority: optional
+Section: libs
+Filename: pool/main/libk/libkf5eventviews/libkf5eventviews-data_22.12.3-1_all.deb
+Size: 211088
+SHA256: 4b5e3783e21f492d0aa7c4644a2bf8baff7dc9e4bb768e6a73b4a9c92d0e5ccb
+SHA1: cfc47ce0ae218536a18f040c5da73438a8dcc30b
+MD5sum: cf420bb02692eba1ca9f627d8498c99c
+Description: KDE PIM event handling - data files
+ This library provides an event creator for KDE PIM.
+ .
+ This package provides the data files used by the library.
+
 Package: libkf5filemetadata-data
 Source: kfilemetadata-kf5
 Version: 5.103.0-1
@@ -6797,6 +6933,29 @@ Description: Configurable global shortcut support.
  activated.
  .
  This package contains data files.
+
+Package: libkf5gravatar-data
+Source: libkf5gravatar
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 179
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/libgravatar
+Priority: optional
+Section: libs
+Filename: pool/main/libk/libkf5gravatar/libkf5gravatar-data_22.12.3-1_all.deb
+Size: 14736
+SHA256: cdd65800394984ec10a5807e64e9974b3730279776183056b5464024ac6afec5
+SHA1: af63e03a02f000ceb5c56dac7941b344c21d4d90
+MD5sum: 1f248b838c8167b6b1e8916323e2a860
+Description: KDE PIM gravatar library - data files
+ This internal library is a brigde for using the gravatar service from KDE PIM
+ applications.
+ .
+ This package contains shared data files.
+ .
+ This package is part of the KDE PIM module.
 
 Package: libkf5guiaddons-data
 Source: kguiaddons
@@ -6889,6 +7048,50 @@ Description: Support for icon themes.
  are used by the iconloader but can be used by others too.
  .
  This package contains the data files.
+
+Package: libkf5imap-data
+Source: kimap
+Version: 22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 318
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/kimap
+Priority: optional
+Section: libs
+Filename: pool/main/k/kimap/libkf5imap-data_22.12.3-1_all.deb
+Size: 35740
+SHA256: 7f27cd94b4e95a9f39ed789c25707b80445220a21174b674348f176dcd1487d4
+SHA1: fbed01f978a1a81321008ee948e867e4636a9306
+MD5sum: 5f7cf25ab8e152ff4bd79d257ccdefdd
+Description: library for handling IMAP data - arch independent files
+ This library provides an API for handling data received from IMAP services.
+ IMAP (Internet Message Access Protocol) is one of the two most prevalent
+ Internet standard protocols for e-mail retrieval.
+ .
+ This package contains the arch independent data for KIMAP.
+
+Package: libkf5incidenceeditor-data
+Source: libkf5incidenceeditor
+Version: 22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1709
+Breaks: libkf5incidenceeditor-bin (<< 19.08.2-1~)
+Replaces: libkf5incidenceeditor-bin (<< 19.08.2-1~)
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/incidenceeditor
+Priority: optional
+Section: libs
+Filename: pool/main/libk/libkf5incidenceeditor/libkf5incidenceeditor-data_22.12.3-1_all.deb
+Size: 211428
+SHA256: e77ded96738a948a6fad380cd593176e9109d46570186d5640fc7d2ba158b762
+SHA1: dfbe9cd2a99676b530e189a1966501ad9a0bf424
+MD5sum: f3df634198634f28c7d13f45ab3eadc9
+Description: KDE PIM incidence editor - shared data
+ Incidence editor for KDE PIM.
+ .
+ This package provides the shared data shipped with the library.
 
 Package: libkf5itemviews-data
 Source: kitemviews
@@ -7013,6 +7216,74 @@ Description: HTML widget and component
  using KJS for JavaScript support.
  .
  This package contains the translations and data files.
+
+Package: libkf5kontactinterface-data
+Source: kontactinterface
+Version: 22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 20
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/kontactinterface
+Priority: optional
+Section: libs
+Filename: pool/main/k/kontactinterface/libkf5kontactinterface-data_22.12.3-1_all.deb
+Size: 4684
+SHA256: d664d788752dae94715b18e8eea4cf4a53fc2c5990f522df22a44c77750bfba0
+SHA1: 6885d5c08b993cc5af2cbcc3e6cdf9b3108dbdee
+MD5sum: 4edc0de8a0ed6b3effb317752b0e960d
+Description: Kontact interface library - data files
+ This library provides the glue necessary for application "Parts" to be
+ embedded as a Kontact component (or plugin).
+ .
+ This package contains shared data files.
+
+Package: libkf5ksieve-data
+Source: libkf5ksieve
+Version: 4:22.12.3-1+deb12u1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2202
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/libksieve
+Priority: optional
+Section: libs
+Filename: pool/main/libk/libkf5ksieve/libkf5ksieve-data_22.12.3-1+deb12u1_all.deb
+Size: 314176
+SHA256: fd30dfdf8b9cf5b84a044d43fdd0c98ee63c4648f7522db714baad5095c3287b
+SHA1: d133551a094ab7145c8b463594519e8362f8eed2
+MD5sum: 1be11097fe6bc50719c3046cc4201216
+Description: Sieve mail filtering language support for kdepim, data files
+ This library implements a parser and lexer for Sieve, the mail filtering
+ language (RFC 3028).
+ .
+ This package is part of the KDE PIM module.
+ .
+ This package provides the data files common to the kf5ksieve libraries.
+
+Package: libkf5mailcommon-data
+Source: libkf5mailcommon
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2112
+Breaks: libkf5mailcommon-plugins (<< 4:19.08.2-1~)
+Replaces: libkf5mailcommon-plugins (<< 4:19.08.2-1~)
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/mailcommon
+Priority: optional
+Section: libs
+Filename: pool/main/libk/libkf5mailcommon/libkf5mailcommon-data_22.12.3-1_all.deb
+Size: 274764
+SHA256: 31fd31d20bd91455fe18c2c6eefc838530ae66396fd2aa7db7cb6086332458f3
+SHA1: 18ef7dba39383447745e0523ec886680e1401927
+MD5sum: 680bd894959540665c17bea58eeee941
+Description: KDE PIM email utility library, shared data
+ The mail common library provides utility functions for dealing with email.
+ .
+ This package contains the shared data distributed with the library.
+ .
+ This package is part of KDE PIM module.
 
 Package: libkf5newstuff-data
 Source: knewstuff
@@ -7147,6 +7418,27 @@ Description: data files for kpeople
  This package is part of KDE Frameworks 5.
  .
  This package contains the data files.
+
+Package: libkf5pimcommon-data
+Source: libkf5pimcommon
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1132
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/pimcommon
+Priority: optional
+Section: libs
+Filename: pool/main/libk/libkf5pimcommon/libkf5pimcommon-data_22.12.3-1_all.deb
+Size: 172408
+SHA256: 71b2e91dae40a14440a57d806e3503e5bd0c69267e68f11cbccf8f293946dea9
+SHA1: 34f03dddcc0e1cbe7c01187fc240617e3c58f443
+MD5sum: 0a735f1e422ec7d0fe7dc8c0d5a30fc2
+Description: Common library for KDE PIM - data files
+ This library provides the common parts used across different KDE PIM
+ components.
+ .
+ This package provides the data files used by the library.
 
 Package: libkf5pty-data
 Source: kpty
@@ -7443,6 +7735,27 @@ Description: User configurable main windows.
  .
  This package contains the data files.
 
+Package: libkgantt2-l10n
+Source: kdiagram
+Version: 2.8.0-1
+Architecture: all
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 104
+Multi-Arch: foreign
+Homepage: https://cgit.kde.org/kdiagram.git
+Priority: optional
+Section: localization
+Filename: pool/main/k/kdiagram/libkgantt2-l10n_2.8.0-1_all.deb
+Size: 7432
+SHA256: 64c14423efbe193731fa1ebe49cfa3577b690745f2e1dd677aa5cf18a9ec8d38
+SHA1: b599caf36ace33ea48dd37e97ca37dfab36edfbf
+MD5sum: bb3d7e31410391cfb8b428f3a433f313
+Description: library for creating Gantt diagrams (translations)
+ Gantt charts are a bar charts that illustrate project schedules. KD Gantt
+ provides a module for implementing ODF Gantt charts in Qt-based applications.
+ .
+ This package contains translations.
+
 Package: libkimageannotator-common
 Source: kimageannotator
 Version: 0.6.0-1
@@ -7466,6 +7779,98 @@ Description: Image Annotating Library (common data files)
  .
  This package provides the architecture-independent files used by
  the library, including the translation files.
+
+Package: libkpimgapi-data
+Source: libkgapi
+Version: 22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 584
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/libkgapi
+Priority: optional
+Section: libs
+Filename: pool/main/libk/libkgapi/libkpimgapi-data_22.12.3-1_all.deb
+Size: 41672
+SHA256: 23cdbf3937ea368fb9a3c0ff7857aa411aade1f654bf3dab76d48c7de21d2cf1
+SHA1: 3d8b1485bb309e6e8e324c749500070ae9cb80ee
+MD5sum: 0083ebd6fbe9d565439657247ae17ab1
+Description: Google API library for KDE -- data files
+ LibKGAPI (previously called LibKGoogle) is a C++ library that implements APIs
+ for various Google services.
+ .
+ This package contains data files.
+
+Package: libkpimitinerary-data
+Source: kitinerary
+Version: 22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 174
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/kitinerary
+Priority: optional
+Section: libs
+Filename: pool/main/k/kitinerary/libkpimitinerary-data_22.12.3-1_all.deb
+Size: 18716
+SHA256: c829b4da2bf0a8ca996095d85cd733112759c66e1c93cf8fdb422be292b5f1c6
+SHA1: c3a99d86071651e6bc47770a61aeba618ffadf33
+MD5sum: d0076954e0c5afff799f374260be0404
+Description: library for Travel Reservation information - arch independent data
+ This library provides an API for Data Model and Extraction System for
+ Travel Reservation information.
+ .
+ This package contains the arch independent data for KPimItinerary.
+
+Package: liblouis-data
+Source: liblouis
+Version: 3.33.0-1~bpo12+1
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 12837
+Multi-Arch: foreign
+Homepage: http://liblouis.org/
+Priority: optional
+Section: text
+Filename: pool/main/libl/liblouis/liblouis-data_3.33.0-1~bpo12+1_all.deb
+Size: 2103228
+SHA256: 6e95b41e43772b40c94949dad955614fba374460da6eabfe29b30cc57eb7908c
+SHA1: 543244bc9abfb40177cc49bd2b72df18178861d3
+MD5sum: c0859cbd0c35d6c162bf7165ca65ef3f
+Description: Braille translation library - data
+ Liblouis is a braille translator and back-translator.  It features support for
+ computer and literary braille, supports contracted and uncontracted translation
+ for many languages and has support for hyphenation.  Liblouis also supports
+ math braille (Nemeth and Marburg).  New languages can easily be added through
+ tables that support a rule- or dictionary based approach. Included are also
+ tools for testing and debugging tables.
+ .
+ This package contains runtime data.
+
+Package: liblouisutdml-data
+Source: liblouisutdml
+Version: 2.12.0-7~bpo12+1
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 252
+Multi-Arch: foreign
+Homepage: http://liblouis.org/
+Priority: optional
+Section: text
+Filename: pool/main/libl/liblouisutdml/liblouisutdml-data_2.12.0-7~bpo12+1_all.deb
+Size: 50024
+SHA256: 1e11688210587b03b0a13253480b81892b238c2224c0325407dd54b948cbd842
+SHA1: 6be4d7e847bccae8cd75f4a4647eafc6b537588f
+MD5sum: 6a17d2703707f062e8a798e4900f84a7
+Description: Braille UTDML translation library - data
+ liblouisutdml is an extension of liblouisxml, the translator from xml
+ format into transcribed braille, that includes support for Unified
+ Tactile Document Markup Language (UTDML).
+ .
+ This consists essentially of <brl> subtrees containing all the braille
+ translations and formatting, plus some <meta> tags.
+ .
+ This package contains runtime data.
 
 Package: liblwp-mediatypes-perl
 Version: 6.04-2
@@ -7598,6 +8003,31 @@ Description: Media Transfer Protocol (MTP) common files
  USB digital audio players and movie files on USB portable media players.
  .
  This package provides the udev rules file.
+
+Package: libmypaint-common
+Source: libmypaint
+Version: 1.6.0-2
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 969
+Conflicts: mypaint-data (<< 2~)
+Multi-Arch: foreign
+Homepage: https://github.com/mypaint/libmypaint
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmypaint/libmypaint-common_1.6.0-2_all.deb
+Size: 140436
+SHA256: 26a3ac1523d4b9b9e37d4542ded8e32231933334d5fcf4efc48f8c63a5aa2c38
+SHA1: 099e16f7e567d9ab6e9214347144c195234aba90
+MD5sum: 602439cfddaf6ed8e460818d5fa4eb6f
+Description: brush library for mypaint - common files
+ MyPaint is a pressure- and tilt-sensitive painting program which works well
+ with Wacom graphics tablets and other similar devices. It comes with a large
+ brush collection including charcoal and ink to emulate real media, but the
+ highly configurable brush engine allows you to experiment with your own
+ brushes and with not-quite-natural painting.
+ .
+ This package contains architecture-independent files such as translations.
 
 Package: libnet-http-perl
 Version: 6.22-1
@@ -7744,26 +8174,26 @@ Description: multimedia framework from KDE using Qt 5 - core library data
 
 Package: libpipewire-0.3-common
 Source: pipewire
-Version: 0.3.65-3+deb12u1
+Version: 1.2.7-1~bpo12+1
 Architecture: all
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 592
+Installed-Size: 657
 Multi-Arch: foreign
 Homepage: https://pipewire.org/
 Priority: optional
 Section: libs
-Filename: pool/main/p/pipewire/libpipewire-0.3-common_0.3.65-3+deb12u1_all.deb
-Size: 72028
-SHA256: 85bec69700364e4ac5eea67c42b6d8a51cfc66febe2839aedae8fd9e2e977032
-SHA1: 465aa163995b0286dd7688ae5a53d2a0db602334
-MD5sum: d53865cfbfa3a6b2263c40bab768c6d6
+Filename: pool/main/p/pipewire/libpipewire-0.3-common_1.2.7-1~bpo12+1_all.deb
+Size: 81580
+SHA256: 7b60ea2841882465ef2a0be4c163b79c4ed78b8f00c7a70eda20aa86f084adb1
+SHA1: cc1d1c6de4dc0e9cbb2fc14a12d07b29c33b0c41
+MD5sum: 14070c9c21180f497364706fe5a20a6a
 Description: libraries for the PipeWire multimedia server - common files
  PipeWire is a server and user space API to deal with multimedia
  pipelines. This includes:
  .
-  - Making available sources of video (such as from a capture devices or
-    application provided streams) and multiplexing this with clients.
-  - Accessing sources of video for consumption.
+  - Making available sources of audio and video (such as from a capture devices
+    or application provided streams) and multiplexing this with clients.
+  - Accessing sources of audio and video for consumption.
   - Generating graphs for audio and video processing.
  .
  This package is needed for the runtime libraries to display messages in
@@ -7822,19 +8252,19 @@ Description: Powerful and easy to use desktop calculator - data
 
 Package: libqt5webengine-data
 Source: qtwebengine-opensource-src
-Version: 5.15.13+dfsg-1~deb12u1
+Version: 5.15.18+dfsg-2~bpo12+1
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 23981
+Installed-Size: 23984
 Multi-Arch: foreign
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtwebengine-opensource-src/libqt5webengine-data_5.15.13+dfsg-1~deb12u1_all.deb
-Size: 7285240
-SHA256: 7d0b44b7911b5174d336d513e2006d09e73e0a94d33de627b215f33fd4554a34
-SHA1: cb55db588ab46fbbc35e6c759c4e5eeb7215b171
-MD5sum: 179e8882fd5b16b993f402d33cc04f01
+Filename: pool/main/q/qtwebengine-opensource-src/libqt5webengine-data_5.15.18+dfsg-2~bpo12+1_all.deb
+Size: 7290448
+SHA256: 5be8c77c6fa9824ab941524a9b5c047e3c7bf9cf34d2b6e4cfce3d89ba929937
+SHA1: c4803564842c4fa3eac09e51f96718ba01fd8352
+MD5sum: c9e3d866dcf7226e2eb79c9aaf0a175a
 Description: Web content engine library for Qt - Data
  QtWebEngine provides a Web browser engine that makes it easy to embed content
  from the World Wide Web into your Qt application.
@@ -8436,6 +8866,26 @@ Description: Common header files for Linux 6.6.13+bpo
  linux-headers-6.6.13+bpo-(flavour) package, matching the flavour of the
  kernel you intend the build for.
 
+Package: linux-libc-dev
+Source: linux
+Version: 6.12.12-1~bpo12+1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 10489
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux/linux-libc-dev_6.12.12-1~bpo12+1_all.deb
+Size: 2494996
+SHA256: 4303e3f89f299baf7d44e9bfb7d6af8c6e89344cb4ec171139d8032dee855dca
+SHA1: 451592a1c3b9aa0d873f6d3acf85cf15b44fb9ab
+MD5sum: a893c39513a72ce7fae5cd5726fdf733
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These
+ files are going to be installed into /usr/include, and are used by the
+ installed headers for GNU libc and other system libraries.
+
 Package: live-boot
 Version: 1:20230131+deb12u1
 Architecture: all
@@ -8613,19 +9063,19 @@ Description: Live System Extra Components
 
 Package: locales
 Source: glibc
-Version: 2.36-9+deb12u9
+Version: 2.36-9+deb12u10
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 15845
+Installed-Size: 15846
 Depends: libc-bin (>> 2.36), libc-l10n (>> 2.36), debconf (>= 0.5) | debconf-2.0
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/locales_2.36-9+deb12u9_all.deb
-Size: 3903652
-SHA256: 6e9e212c488078048fc5dee029a0c7ac5336b4adae5aae41c0e2c69025c0c71c
-SHA1: 6d1d9fa609624bf20630e9a6de7568d3cbd1439c
-MD5sum: 0a9e7718bfba88a26f1868d93df9497c
+Filename: pool/main/g/glibc/locales_2.36-9+deb12u10_all.deb
+Size: 3904512
+SHA256: 674bf13ee57251ad8bdce20e6b5ba0199594e9eb1f28851ddf7b6e40cdf80efb
+SHA1: 0ef9b32f3d6e6e71a114d04661ce2a788067a6ea
+MD5sum: 5026019012c550589ab7ad521e3a4be0
 Description: GNU C Library: National Language (locale) data [support]
  Machine-readable data files, shared objects and programs used by the
  C library for localization (l10n) and internationalization (i18n) support.
@@ -8808,20 +9258,20 @@ Description: Manual pages about using GNU/Linux for development
 
 Package: mariadb-common
 Source: mariadb
-Version: 1:10.11.6-0+deb12u1
+Version: 1:10.11.11-0+deb12u1
 Architecture: all
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
-Installed-Size: 65
+Installed-Size: 66
 Depends: mysql-common (>= 5.6.25)
 Multi-Arch: foreign
 Homepage: https://mariadb.org/
 Priority: optional
 Section: database
-Filename: pool/main/m/mariadb/mariadb-common_10.11.6-0+deb12u1_all.deb
-Size: 24380
-SHA256: 16f84dca6fdf5d19da295fde10978bef7cce97ff434dae46010eaf9963c7e777
-SHA1: 30451a3ef6070fb3a61a491f7d775daac2a1d396
-MD5sum: 69b2eebcd7420eac3598a7d7d19f3d78
+Filename: pool/main/m/mariadb/mariadb-common_10.11.11-0+deb12u1_all.deb
+Size: 25456
+SHA256: 6dc91a55cf0703e3cbc1dbaff2000faf28dfed6ae6a135e135f23f94a2f55844
+SHA1: 120104f12c22556bcfe168fecddb55c3e7e8ebff
+MD5sum: 30a78bf59b572835e26f455c921223cb
 Description: MariaDB common configuration files
  MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
  server. SQL (Structured Query Language) is the most popular database query
@@ -9066,6 +9516,38 @@ Description: additional terminal type definitions
  .
  This package contains all of the numerous terminal definitions not found in
  the ncurses-base package.
+
+Package: needrestart
+Version: 3.8-2~bpo12+1
+Architecture: all
+Maintainer: Patrick Matthäi <pmatthaei@debian.org>
+Installed-Size: 315
+Depends: perl:any, dpkg (>= 1.16.0), gettext-base, libintl-perl, libproc-processtable-perl, libsort-naturally-perl, libterm-readkey-perl, libmodule-find-perl, xz-utils
+Recommends: libpam-systemd | sysvinit-core, systemd | libimvirt-perl
+Suggests: needrestart-session | libnotify-bin, iucode-tool
+Enhances: intel-microcode
+Homepage: https://github.com/liske/needrestart
+Priority: optional
+Section: admin
+Filename: pool/main/n/needrestart/needrestart_3.8-2~bpo12+1_all.deb
+Size: 65220
+SHA256: 192d2888ba925baf4defa31d6810739cc8da8b766f9d222cd706fe695082e989
+SHA1: 59e402f5ff2501446d185d99865ffc896befced7
+MD5sum: b1b3ec0384a90b419c24add9347d1080
+Description: check which daemons need to be restarted after library upgrades
+ needrestart checks which daemons need to be restarted after library upgrades.
+ It is inspired by checkrestart from the debian-goodies package.
+ .
+ Features:
+  - supports (but does not require) systemd
+  - binary blacklisting (i.e. display managers)
+  - tries to detect required restarts of interpreter based daemons
+    (supports Java, Perl, Python, Ruby)
+  - tries to detect required restarts of containers (docker, LXC)
+  - tries to detect pending kernel upgrades
+  - tries to detect pending microcode upgrades for Intel CPUs
+  - could be used as nagios check_command
+  - fully integrated into apt/dpkg using hooks
 
 Package: netbase
 Version: 6.4
@@ -14810,21 +15292,21 @@ Description: find the root directory of a npm package
  Node.js is an event-based server-side JavaScript engine.
 
 Package: node-postcss
-Version: 8.4.20+~cs8.0.23-1
+Version: 8.4.20+~cs8.0.23-1+deb12u1
 Architecture: all
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
-Installed-Size: 663
+Installed-Size: 664
 Depends: node-isarray, node-isobject, node-picocolors, nodejs:any
 Breaks: node-autoprefixer (<< 10.0~), node-css-loader (<< 5.0.1+~cs14.0.5-1~), node-postcss-modules-extract-imports (<< 3.0.0-1~), node-postcss-modules-values (<< 4.0.0-1~)
 Provides: node-colorette (= 2.0.19), node-line-column (= 1.0.2), node-nanoid (= 4.0.0), node-source-map-js (= 1.0.2)
 Homepage: https://postcss.org/
 Priority: optional
 Section: javascript
-Filename: pool/main/n/node-postcss/node-postcss_8.4.20+~cs8.0.23-1_all.deb
-Size: 180244
-SHA256: 7b457182df6575e781a28fcd00a09b0247be51bfa5f5b38197859f5599c9f06f
-SHA1: 03f99e108a7e3580caf441ecd00fec32e2e573f8
-MD5sum: 82bc4f4e6c789b30527eb2425d71ebfd
+Filename: pool/main/n/node-postcss/node-postcss_8.4.20+~cs8.0.23-1+deb12u1_all.deb
+Size: 180596
+SHA256: 333cf293225bd4c199207ea0ded9219ef9aad65584bd3e2895efc1782cd9d6d3
+SHA1: 6246105a98da4812984c3f7eb4d203479633d558
+MD5sum: 75d56184ff8a4554bc8e4dd9fc9af9bb
 Description: Tool for transforming styles with JS plugins
  These plugins can lint your CSS, support variables and mixins, transpile
  future CSS syntax, inline images, and more.
@@ -18078,10 +18560,10 @@ Description: PCI ID Repository
 
 Package: perl-modules-5.36
 Source: perl
-Version: 5.36.0-7+deb12u1
+Version: 5.36.0-7+deb12u2
 Architecture: all
 Maintainer: Niko Tyni <ntyni@debian.org>
-Installed-Size: 17816
+Installed-Size: 17817
 Pre-Depends: dpkg (>= 1.17.17)
 Depends: perl-base (>= 5.36.0-1)
 Recommends: perl (>= 5.36.0-1)
@@ -18093,11 +18575,11 @@ Multi-Arch: foreign
 Homepage: http://dev.perl.org/perl5/
 Priority: optional
 Section: libs
-Filename: pool/main/p/perl/perl-modules-5.36_5.36.0-7+deb12u1_all.deb
-Size: 2814840
-SHA256: 9b8223674661ead1836ce21966f7e4511a3a943c1b87c02ea92ec17ed2c3f2cf
-SHA1: 5c7f2ccafcec2c9267f00446c66224d1fc6344db
-MD5sum: 1f885d42fc26a38efa6c0ed3c166335d
+Filename: pool/main/p/perl/perl-modules-5.36_5.36.0-7+deb12u2_all.deb
+Size: 2815256
+SHA256: 194ed338a28423b279df2fcc08dee31610950316f491ad549f5c4ef37dfa5032
+SHA1: fba4e126774ccab09c20959a3ce8ac6e77356d56
+MD5sum: f853d89a3304b0c25c25c7d137695154
 Description: Core Perl modules
  Architecture independent Perl modules.  These modules are part of Perl and
  required if the `perl' package is installed.
@@ -18636,28 +19118,6 @@ Description: Cross-platform colored terminal text in Python - Python 3.x
  text on Unix. Colorama provides some shortcuts to generate these sequences.
  .
  This package provides the module for Python 3.
-
-Package: python3-cupshelpers
-Source: system-config-printer
-Version: 1.5.18-1
-Architecture: all
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 250
-Depends: python3-cups (>= 1.9.42), python3-dbus, python3:any
-Breaks: python-cupshelpers (<= 1.5)
-Replaces: python-cupshelpers (<= 1.5)
-Homepage: https://github.com/OpenPrinting/system-config-printer
-Priority: optional
-Section: python
-Filename: pool/main/s/system-config-printer/python3-cupshelpers_1.5.18-1_all.deb
-Size: 127296
-SHA256: 21c897af68ee79778bf261f08c6284a72e4116989b6209152e4f3608dc66797e
-SHA1: 6854795c63efc0f5dfadfefed3afa72b91f92e62
-MD5sum: 610c25da49b339a0a59b0e81632a1ccb
-Description: Python utility modules around the CUPS printing system
- These Python modules, that come from the system-config-printer
- distribution, help building applications and utilities around the CUPS
- Python bindings.
 
 Package: python3-debconf
 Source: debconf
@@ -19315,10 +19775,10 @@ Description: Various helpers to pass trusted data to untrusted environment - Pyt
 
 Package: python3-jinja2
 Source: jinja2
-Version: 3.1.2-1+deb12u1
+Version: 3.1.2-1+deb12u2
 Architecture: all
 Maintainer: Piotr Ożarowski <piotr@debian.org>
-Installed-Size: 538
+Installed-Size: 539
 Depends: python3-markupsafe (>= 2.0), python3:any
 Recommends: python3-babel, python3-pkg-resources
 Suggests: python-jinja2-doc
@@ -19327,11 +19787,11 @@ Replaces: python-jinja2 (<< 2.11.1-1)
 Homepage: http://jinja.pocoo.org/
 Priority: optional
 Section: python
-Filename: pool/main/j/jinja2/python3-jinja2_3.1.2-1+deb12u1_all.deb
-Size: 119376
-SHA256: 01d011283ca2354cc555ca391761031b5bbc4bb6d33df93b28928fe7fd597580
-SHA1: 395ee363e0b4c595263fc051ce6db42f625cc5fe
-MD5sum: 9018ef73cfce78d6e8f37f1a57ebe1d2
+Filename: pool/main/j/jinja2/python3-jinja2_3.1.2-1+deb12u2_all.deb
+Size: 120200
+SHA256: 8c923ac1a9c43ebdf1bab888ac381964849b73b8f028a463e4e4ef0b552ea892
+SHA1: 491e54682d5792eecf10b450bd7975b911cfd298
+MD5sum: 4e2255f3396793f4a1e0d863660f0235
 Description: small but fast and easy to use stand-alone template engine
  Jinja2 is a template engine written in pure Python. It provides a Django
  inspired non-XML syntax but supports inline expressions and an optional
@@ -19508,6 +19968,30 @@ Description: Interactive high-level object-oriented language (lib2to3)
  network programming, system administration, sounds and graphics.
  .
  This package contains the lib2to3 library, a Python2 to Python3 converter.
+
+Package: python3-louis
+Source: liblouis
+Version: 3.33.0-1~bpo12+1
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 59
+Depends: python3:any, liblouis20 (>= 3.33.0-1~bpo12+1)
+Multi-Arch: foreign
+Homepage: http://liblouis.org/
+Priority: optional
+Section: python
+Filename: pool/main/libl/liblouis/python3-louis_3.33.0-1~bpo12+1_all.deb
+Size: 24480
+SHA256: b13f94641652a4ad765327e3bf21c6f9242d056fc83c735a71210ce1ad23542d
+SHA1: 2157415137468c51653fa2ec1a416f650c1605f0
+MD5sum: bed39f89bc3b1bfd8391c5ba3ce21281
+Description: Python bindings for liblouis
+ Liblouis is a braille translator and back-translator.  It features support for
+ computer and literary braille, supports contracted and uncontracted translation
+ for many languages and has support for hyphenation.  Liblouis also supports
+ math braille (Nemeth and Marburg).
+ .
+ This package contains Python bindings.
 
 Package: python3-markdown-it
 Source: markdown-it-py
@@ -20351,6 +20835,38 @@ Description: manage the repositories that you install software from
  .
  This package contains the Python3 module.
 
+Package: python3-speechd
+Source: speech-dispatcher
+Version: 0.12.0-3~bpo12+1
+Architecture: all
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 142
+Depends: python3-xdg, python3:any
+Breaks: python-speechd
+Replaces: python-speechd
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: python
+Filename: pool/main/s/speech-dispatcher/python3-speechd_0.12.0-3~bpo12+1_all.deb
+Size: 44772
+SHA256: fa4230b18a480427f6455db61fdd8ed56b4765a495d951737ab84a36ece2493d
+SHA1: 611778de78cb42cfbd35a6af6e5f88a490229ef9
+MD5sum: e26514395eda11c666cf19f8f7c712a8
+Description: Python interface to Speech Dispatcher
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains a Python library for communication with Speech
+ Dispatcher.
+
 Package: python3-stem
 Source: python-stem
 Version: 1.8.1-2.1
@@ -20708,6 +21224,35 @@ SHA256: ca540fb3a4954ae538011437715a49deb16fc27d9727262b6d4d54281dd3be13
 SHA1: e2dd875a3416e44b863953460bd9e82e87317825
 MD5sum: 4510f2cbb85de6ea914b80f6807633d1
 Description: Python 3 XApp library
+ This package contains the Python 3 version of the library.
+
+Package: python3-xdg
+Source: pyxdg
+Version: 0.28-2
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 189
+Depends: python3:any
+Suggests: python-pyxdg-doc
+Provides: python3-pyxdg
+Homepage: https://gitlab.freedesktop.org/xdg/pyxdg
+Priority: optional
+Section: python
+Filename: pool/main/p/pyxdg/python3-xdg_0.28-2_all.deb
+Size: 40476
+SHA256: 31e90a2b22802fa884fe6f73d70946e7a15c9bd65d7e98098cbe13d2d22f9f20
+SHA1: 753fc5a58973811c45efa01b2a84c6e375c6c801
+MD5sum: 999e5976090e4af7f020b0dfc9647c96
+Description: Python 3 library to access freedesktop.org standards
+ PyXDG contains implementations of freedesktop.org standards in Python:
+ .
+  * Base Directory Specification Version 0.6
+  * Menu Specification Version 1.0
+  * Desktop Entry Specification Version 1.0
+  * Icon Theme Specification Version 0.8
+  * Recent File Spec 0.2
+  * Shared-MIME-Database Specification 0.13
+ .
  This package contains the Python 3 version of the library.
 
 Package: python3-zope.event
@@ -21112,61 +21657,28 @@ Description: collection of bootloaders (common)
  .
  This package contains the common files.
 
-Package: system-config-printer
-Version: 1.5.18-1
+Package: systemd-dev
+Source: systemd
+Version: 254.22-1~bpo12+1
 Architecture: all
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1046
-Depends: gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-handy-1, gir1.2-notify-0.7, gir1.2-packagekitglib-1.0, gir1.2-pango-1.0, gir1.2-polkit-1.0, python3-cups (>= 1.9.60), python3-cupshelpers (= 1.5.18-1), python3-dbus, python3-gi, system-config-printer-common (= 1.5.18-1), python3:any
-Recommends: avahi-utils, system-config-printer-udev
-Suggests: gnome-software (>= 3.16.5-2)
-Homepage: https://github.com/OpenPrinting/system-config-printer
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 650
+Breaks: systemd (<< 253-2~), systemd-homed (<< 254.1-3~), udev (<< 253-2~)
+Replaces: systemd (<< 253-2~), systemd-homed (<< 254.1-3~), udev (<< 253-2~)
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: optional
-Section: gnome
-Filename: pool/main/s/system-config-printer/system-config-printer_1.5.18-1_all.deb
-Size: 183440
-SHA256: f48ce852f6929306b7b607d17aa00d0c5356cc62dbd4d794c40a7574fa751f08
-SHA1: 1c6fcf86bd4b72257bd9e1a075a94c7931918f1c
-MD5sum: 224381c59a35b4244c8a845e17dd6dd4
-Description: graphical interface to configure the printing system
- System-config-printer is a GUI written in Python using GTK+ to
- configure a CUPS server. Its primary use is to configure the printing
- system on the local host, but can also be used to setup a remote
- printer.
- .
- In terms of features, it aims to be as complete as the CUPS web
- administration tool, while being integrated to the desktop.
-
-Package: system-config-printer-common
-Source: system-config-printer
-Version: 1.5.18-1
-Architecture: all
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4963
-Depends: gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-notify-0.7, gir1.2-pango-1.0, python3-cairo, python3-cups (>= 1.9.60), python3-cupshelpers (= 1.5.18-1), python3-dbus, python3-gi, python3:any
-Recommends: cups-pk-helper, gir1.2-secret-1, python3-smbc, system-config-printer-udev
-Suggests: gnome-software (>= 3.16.5-2)
-Breaks: system-config-printer (<< 1.5.7-2~)
-Replaces: system-config-printer (<< 1.5.7-2~)
-Homepage: https://github.com/OpenPrinting/system-config-printer
-Priority: optional
-Section: gnome
-Filename: pool/main/s/system-config-printer/system-config-printer-common_1.5.18-1_all.deb
-Size: 801584
-SHA256: bff12d957bd0c356cb47e23aa06ea2a7c4c48a493a76d8917a23cda75ca07a84
-SHA1: b43473ef003329240145d1c090578485f1ba4164
-MD5sum: dcc7786b5ad369bf7e03e2e8c41965a3
-Description: backend and the translation files for system-config-printer
- System-config-printer is a GUI written in Python using GTK+ to
- configure a CUPS server. Its primary use is to configure the printing
- system on the local host, but can also be used to setup a remote
- printer.
- .
- In terms of features, it aims to be as complete as the CUPS web
- administration tool, while being integrated to the desktop.
- .
- This package contains the backend and the translation files for
- system-config-printer
+Section: devel
+Filename: pool/main/s/systemd/systemd-dev_254.22-1~bpo12+1_all.deb
+Size: 55084
+SHA256: dc7e202c9daafa3ed3dda8222b16e2c26af8a36365b537c5cb30d057ee731cc6
+SHA1: 07e58fa47af8993c32eb9b71f06bb152502e10b0
+MD5sum: 0f2c670e5530e4656570cdf04626bb57
+Description: systemd development files
+ This package contains the systemd and udev pkg-config files. Note that these
+ are different from the libsystemd's and libudev's pkg-config files, which can
+ still be found in the respective dev packages, but instead provide data such as
+ the installation directories for units, and more.
 
 Package: task-bosnian-kde-desktop
 Source: tasksel
@@ -21363,21 +21875,21 @@ Description: collection of TOIlet fonts
 
 Package: tor-geoipdb
 Source: tor
-Version: 0.4.7.16-1
+Version: 0.4.8.14-1~bpo12+1
 Architecture: all
 Maintainer: Peter Palfrader <weasel@debian.org>
-Installed-Size: 11181
-Depends: tor (>= 0.4.7.16-1)
+Installed-Size: 19881
+Depends: tor (>= 0.4.8.14-1~bpo12+1)
 Breaks: tor (<< 0.2.4.8)
 Replaces: tor (<< 0.2.4.8)
 Homepage: https://www.torproject.org/
 Priority: optional
 Section: net
-Filename: pool/main/t/tor/tor-geoipdb_0.4.7.16-1_all.deb
-Size: 1547716
-SHA256: e692ca24160fb7f8513ed32206a894f8fb3d05ca3520ef1a236722a4dcf0a3c4
-SHA1: 60992596e33e3c4e14e6c8572752397027b805fa
-MD5sum: 36194ea65d53e7454d1e9ae8a8710577
+Filename: pool/main/t/tor/tor-geoipdb_0.4.8.14-1~bpo12+1_all.deb
+Size: 2425332
+SHA256: cbff953b5b93b9747a471f1aaf6fbe0621b2c19b3b733833e90e3e337ad513d9
+SHA1: f0fe9dec28768d855bbee3040d2e8b816b92a4c9
+MD5sum: 642c1b20733d291e8ba3a748c0113ca5
 Description: GeoIP database for Tor
  This package provides a GeoIP database for Tor, i.e. it maps IPv4 addresses
  to countries.
@@ -21410,21 +21922,21 @@ Description: udev rules for TPM modules
  this package to be installed to provide proper permissions of the TPM.
 
 Package: tzdata
-Version: 2024b-0+deb12u1
+Version: 2025b-0+deb12u1
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 2555
+Installed-Size: 2563
 Depends: debconf (>= 0.5) | debconf-2.0
 Provides: tzdata-bookworm
 Multi-Arch: foreign
 Homepage: https://www.iana.org/time-zones
 Priority: required
 Section: localization
-Filename: pool/main/t/tzdata/tzdata_2024b-0+deb12u1_all.deb
-Size: 297568
-SHA256: 9426e641cdcea0b890fa270930e2577c71ce2085c445e058b08870b2adee554d
-SHA1: 071f609318ceed21a86a8fbc073ee04b57e43dd9
-MD5sum: 42b8c0f8d99c9f4c78fcec891ffc5e7d
+Filename: pool/main/t/tzdata/tzdata_2025b-0+deb12u1_all.deb
+Size: 299412
+SHA256: a17042cb951b80d0c9462a73dec6ad31fc6adeae4ed92209601dc97d1019d7f2
+SHA1: abd616559eab888a92e30ffa7297adc439333d4e
+MD5sum: 180fa2f979945917a01a31802433e2cf
 Description: time zone and daylight-saving time data
  This package contains data required for the implementation of
  standard local time for many representative locations around the
@@ -21615,7 +22127,7 @@ Description: Transitional package to assert a merged-/usr system
 
 Package: vim-common
 Source: vim
-Version: 2:9.0.1378-2
+Version: 2:9.0.1378-2+deb12u2
 Architecture: all
 Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
 Installed-Size: 245
@@ -21624,62 +22136,17 @@ Multi-Arch: foreign
 Homepage: https://www.vim.org/
 Priority: important
 Section: editors
-Filename: pool/main/v/vim/vim-common_9.0.1378-2_all.deb
-Size: 124420
-SHA256: 82f4d33e2f0ded27ad1145a726cbc44ed0e2413becda3632a932e902b3df976b
-SHA1: 80cb2452681e0f1423ba6e1aa07840959c5224e5
-MD5sum: 6fb08ae092f46d7bc6b02db5981bd8b0
+Filename: pool/main/v/vim/vim-common_9.0.1378-2+deb12u2_all.deb
+Size: 124836
+SHA256: 2092c7bb95334a28ed29630fdcaf0f11a92a5859922318a23bbcd6aa4fbcbf5c
+SHA1: d88723a80e801b0d217355f4bbb57111e64816eb
+MD5sum: 80f739d82e7045326c29c76312e63054
 Description: Vi IMproved - Common files
  Vim is an almost compatible version of the UNIX editor Vi.
  .
  This package contains files shared by all non GUI-enabled vim variants
  available in Debian.  Examples of such shared files are: manpages and
  configuration files.
-
-Package: vlc-data
-Source: vlc
-Version: 3.0.21-0+deb12u1
-Architecture: all
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 959
-Multi-Arch: foreign
-Homepage: https://www.videolan.org/vlc/
-Priority: optional
-Section: video
-Filename: pool/main/v/vlc/vlc-data_3.0.21-0+deb12u1_all.deb
-Size: 420688
-SHA256: 078cfdcb7891024346d1eb6976dc9dc2ccb26de3c1c74bffcb28b7061478ba6e
-SHA1: 27206a4b2a538820bcd3b435600fa013a80f6f3f
-MD5sum: 2e9eb2a619816dc63767b6f772c2a343
-Description: common data for VLC
- VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
- DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
- podcasts, and multimedia streams from various network sources.
- .
- This package contains HTTP interface files, and Lua scripts for VLC media
- player.
-
-Package: vlc-l10n
-Source: vlc
-Version: 3.0.21-0+deb12u1
-Architecture: all
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 41301
-Multi-Arch: foreign
-Homepage: https://www.videolan.org/vlc/
-Priority: optional
-Section: localization
-Filename: pool/main/v/vlc/vlc-l10n_3.0.21-0+deb12u1_all.deb
-Size: 6008016
-SHA256: 981bfda679e17435812b96045b3b0dd5d92e32a4e679a9a4028595e6df30e281
-SHA1: 858e6ff5701b2534815250c070c3dea1c3c5aac1
-MD5sum: 93ea4ad54212d878ca3be3a9a66f70d9
-Description: translations for VLC
- VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
- DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
- podcasts, and multimedia streams from various network sources.
- .
- This package contains localisations for VLC media player.
 
 Package: wamerican
 Source: scowl
@@ -22213,7 +22680,7 @@ Description: Common tools for building X.Org SGML documentation
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.7-3+deb12u8
+Version: 2:21.1.7-3+deb12u9
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 2444
@@ -22224,30 +22691,30 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.7-3+deb12u8_all.deb
-Size: 2382740
-SHA256: 82be0840168b1c39a9d670559bd68479dc275bb8ba30b24ea6e48ad98da33aaf
-SHA1: 13c607b313d2210fb76188034c9654d0cf309ad5
-MD5sum: b0c5e226580d4cdd75d495082fee665e
+Filename: pool/main/x/xorg-server/xserver-common_21.1.7-3+deb12u9_all.deb
+Size: 2383064
+SHA256: e100a210bfe2e865f5edcd947dfabf894f7566461f6a0f0e7cd74a0e11fd05f3
+SHA1: e66a857a21f508cf1853f6b60a711d7211433e96
+MD5sum: 7a6a833ba71bb4a217bc9053c6bb37e8
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
 
 Package: yt-dlp
-Version: 2023.03.04-1
+Version: 2025.03.31-1~bpo12+1
 Architecture: all
 Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 9610
-Depends: python3-brotli, python3-certifi, python3-mutagen, python3-pycryptodome, python3-websockets, python3:any, python3-pkg-resources
-Recommends: aria2 | wget | curl, ca-certificates, ffmpeg, python3-pyxattr, rtmpdump
-Suggests: libfribidi-bin | bidiv, mpv | mplayer, phantomjs
+Installed-Size: 10945
+Depends: python3-certifi, python3-mutagen, python3-pycryptodome, python3-requests, python3-urllib3, python3-websockets, python3:any
+Recommends: aria2 | wget | curl, ca-certificates, ffmpeg
+Suggests: libfribidi-bin | bidiv, phantomjs
 Homepage: https://github.com/yt-dlp/yt-dlp
 Priority: optional
 Section: web
-Filename: pool/main/y/yt-dlp/yt-dlp_2023.03.04-1_all.deb
-Size: 1777736
-SHA256: f3fec8f9041a2d346bf13304780baa767ab2d2cf3a1e5c84229a51c21a3cb7e5
-SHA1: 45eee75014d030394314b37d3e4153a1d0d294d0
-MD5sum: 576ec316e08c7fb37a4b23cc239d815f
+Filename: pool/main/y/yt-dlp/yt-dlp_2025.03.31-1~bpo12+1_all.deb
+Size: 2090908
+SHA256: 5ead599b45d76285a18dffc09da5fc1d9125fdd26c2ef96028341fccc43b85ec
+SHA1: 86dab6c4c32b8f48038d828bbc92df891be6538a
+MD5sum: c121a17b328ec2c2fce2e2b4283d5b76
 Description: downloader of videos from YouTube and other sites
  yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc.
  The main focus of this project is adding new features and patches
@@ -22264,233 +22731,249 @@ Description: downloader of videos from YouTube and other sites
  .
  Currently supported sites (or features of sites) are:
  .
- 17live, 1News, 1tv, 20min, 23video, 247sports, 24tv.ua, 24video,
- 3qsdn, 3sat, 4tube, 56.com, 6play, 7plus, 8tracks, 91porn, 9c9media,
- 9gag, 9now.com.au, abc.net.au, abcnews, abcotvs, AbemaTV, AbemaTVTitle,
- acast, AcFunBangumi, AcFunVideo, ADN, AdobeConnect, adobetv, AdultSwim,
- aenetworks, AeonCo, afreecatv, AirMozilla, AirTV, AitubeKZVideo,
- AliExpressLive, AlJazeera, Allocine, AlphaPorno, Alsace20TV,
- Alsace20TVEmbed, Alura, AluraCourse, Amara, AmazonMiniTV, AmazonReviews,
- AmazonStore, AMCNetworks, AmericasTestKitchen, AmericasTestKitchenSeason,
- AmHistoryChannel, AnchorFMEpisode, anderetijden, Angel,
- AnimalPlanet, Anvato, aol.com, APA, Aparat, AppleConnect, AppleDaily,
- ApplePodcasts, appletrailers, archive.org, ArcPublishing, ARD,
- ARDBetaMediathek, Arkena, arte.sky.it, ArteTV, ArteTVCategory,
- ArteTVEmbed, ArteTVPlaylist, AsianCrush, AsianCrushPlaylist,
- AtresPlayer, AtScaleConfEvent, ATTTechChannel, ATVAt, AudiMedia,
- AudioBoom, audiomack, Audius, AWAAN, AZMedien, BaiduVideo, BanBye,
- BanByeChannel, bandaichannel, Bandcamp, BannedVideo, bbc, bbc.co.uk,
- BBVTV, BBVTVLive, BBVTVRecordings, BeatBumpPlaylist, BeatBumpVideo,
- Beatport, Beeg, BehindKink, Bellator, BellMedia, BerufeTV, Bet, bfmtv,
- BibelTV, Bigflix, Bigo, Bild, BiliBili, Bilibili category extractor,
- BilibiliAudio, BilibiliAudioAlbum, BiliBiliBangumi, BiliBiliBangumiMedia,
- BiliBiliPlayer, BiliBiliSearch, BilibiliSpaceAudio, BilibiliSpacePlaylist,
- BilibiliSpaceVideo, BiliIntl, BiliLive, BioBioChileTV, Biography, BIQLE,
- BitChute, BitChuteChannel, BlackboardCollaborate, BleacherReport,
- BleacherReportCMS, blerp, blogger.com, Bloomberg, BokeCC, BongaCams,
- BooyahClips, BostonGlobe, Box, BoxCastVideo, Bpb, BR, BravoTV, Break,
- BreitBart, BRMediathek, Bundesliga, BusinessInsider, BuzzFeed,
- BYUtv, CableAV, Callin, Caltrans, CAM4, Camdemy, CamdemyFolder,
- CamModels, Camsoda, CamtasiaEmbed, CamWithHer, CanalAlpha, canalc2.tv,
- Canalplus, Canvas, CanvasEen, CarambaTV, CarambaTVPage, CartoonNetwork,
- cbc.ca, CBS, CBSInteractive, CBSLocal, CBSLocalArticle, cbsnews,
- cbssports, CCMA, CCTV, CDA, Cellebrite, CeskaTelevize, CGTN, channel9,
- CharlieRose, Chaturbate, Chilloutzone, Chingari, ChingariUser, chirbit,
- cielotv.it, Cinchcast, Cinemax, CinetecaMilano, CiscoLiveSearch,
- CiscoLiveSession, ciscowebex, CJSW, cliphunter, Clippit, ClipRs,
- Clipsyndicate, ClipYouEmbed, CloserToTruth, CloudflareStream,
- Cloudy, Clubic, Clyp, cmt.com, CNBC, CNBCVideo, CNN, CNNArticle,
- CNNBlogs, CNNIndonesia, ComedyCentral, ComedyCentralTV, CondeNast,
- CONtv, CookingChannel, Corus, Coub, CozyTV, cp24, cpac, Cracked,
- Crackle, Craftsy, CrooksAndLiars, CrowdBunker, CrowdBunkerChannel,
- crunchyroll, CSpan, CSpanCongress, CtsNews, CTV, CTVNews, cu.ntv.co.jp,
- CultureUnplugged, curiositystream, CWTV, Cybrary, CybraryCourse, Daftsex,
- DagelijkseKost, DailyMail, dailymotion, DailyWire, DailyWirePodcast,
- daum.net, DBTV, DctpTv, DeezerAlbum, DeezerPlaylist, defense.gouv.fr,
- democracynow, DestinationAmerica, DetikEmbed, DeuxM, DeuxMNews, DHM,
- Digg, DigitalConcertHall, DigitallySpeaking, Digiteka, Discovery,
+ 17live, 1News, 1tv, 20min, 23video, 247sports, 24tv.ua, 3qsdn, 3sat,
+ 4tube, 56.com, 6play, 7plus, 8tracks, 9c9media, 9gag, 9News, 9now.com.au,
+ abc.net.au, abcnews, abcotvs, AbemaTV, AbemaTVTitle, acast, AcFunBangumi,
+ AcFunVideo, ADN, ADNSeason, AdobeConnect, adobetv, AdultSwim, aenetworks,
+ AeonCo, AirTV, AitubeKZVideo, AliExpressLive, AlJazeera, Allocine,
+ Allstar, AllstarProfile, AlphaPorno, Alsace20TV, Alsace20TVEmbed,
+ altcensored, Alura, AluraCourse, AmadeusTV, Amara, AmazonMiniTV,
+ AmazonReviews, AmazonStore, AMCNetworks, AmericasTestKitchen,
+ AmericasTestKitchenSeason, AmHistoryChannel, AnchorFMEpisode,
+ anderetijden, Angel, AnimalPlanet, Anvato, aol.com, APA, Aparat,
+ AppleConnect, AppleDaily, ApplePodcasts, appletrailers, archive.org,
+ ArcPublishing, ARD, ARDMediathek, ARDMediathekCollection, Arkena,
+ Art19, Art19Show, arte.sky.it, ArteTV, ArteTVCategory, ArteTVEmbed,
+ ArteTVPlaylist, asobichannel, AsobiStage, AtresPlayer, AtScaleConfEvent,
+ ATVAt, AudiMedia, AudioBoom, audiomack, Audius, AWAAN, axs.tv, AZMedien,
+ BaiduVideo, BanBye, BanByeChannel, bandaichannel, Bandcamp, Bandlab,
+ BandlabPlaylist, BannedVideo, bbc, bbc.co.uk, BBVTV, BBVTVLive,
+ BBVTVRecordings, BeaconTv, BeatBumpPlaylist, BeatBumpVideo, Beatport,
+ Beeg, BehindKink, Bellator, BellMedia, BerufeTV, Bet, bfmtv, Bigflix,
+ Bigo, Bild, BiliBili, Bilibili category extractor, BilibiliAudio,
+ BilibiliAudioAlbum, BiliBiliBangumi, BiliBiliBangumiMedia,
+ BiliBiliBangumiSeason, BilibiliCheese, BilibiliCheeseSeason,
+ BilibiliCollectionList, BiliBiliDynamic, BilibiliFavoritesList,
+ BiliBiliPlayer, BilibiliPlaylist, BiliBiliSearch, BilibiliSeriesList,
+ BilibiliSpaceAudio, BilibiliSpaceVideo, BilibiliWatchlater, BiliIntl,
+ BiliLive, BioBioChileTV, Biography, BitChute, BitChuteChannel,
+ BlackboardCollaborate, BleacherReport, BleacherReportCMS, blerp,
+ blogger.com, Bloomberg, Bluesky, BokeCC, BongaCams, Boosty, BostonGlobe,
+ Box, BoxCastVideo, Bpb, BR, BrainPOP, BrainPOPELL, BrainPOPEsp,
+ BrainPOPFr, BrainPOPIl, BrainPOPJr, BravoTV, BreitBart, Bundesliga,
+ Bundestag, BunnyCdn, BusinessInsider, BuzzFeed, BYUtv, CaffeineTV,
+ Callin, Caltrans, CAM4, Camdemy, CamdemyFolder, CamFMEpisode, CamFMShow,
+ CamModels, Camsoda, CamtasiaEmbed, Canal1, CanalAlpha, canalc2.tv,
+ Canalplus, Canalsurmas, CaracolTvPlay, CartoonNetwork, cbc.ca, CBS,
+ CBSLocal, CBSLocalArticle, CBSLocalLive, cbsnews, cbssports, CCMA,
+ CCTV, CDA, CDAFolder, Cellebrite, CeskaTelevize, CGTN, CharlieRose,
+ Chaturbate, Chilloutzone, cielotv.it, Cinemax, CinetecaMilano, Cineverse,
+ CineverseDetails, CiscoLiveSearch, CiscoLiveSession, ciscowebex,
+ CJSW, Clipchamp, Clippit, ClipRs, ClipYouEmbed, CloserToTruth,
+ CloudflareStream, CloudyCDN, Clubic, Clyp, cmt.com, CNBCVideo, CNN,
+ CNNIndonesia, ComedyCentral, ComedyCentralTV, ConanClassic, CondeNast,
+ CONtv, CookingChannel, Corus, Coub, CozyTV, cp24, cpac, Cracked, Crackle,
+ Craftsy, CrooksAndLiars, CrowdBunker, CrowdBunkerChannel, Crtvg, CSpan,
+ CSpanCongress, CtsNews, CTV, CTVNews, cu.ntv.co.jp, CultureUnplugged,
+ curiositystream, cwtv, Cybrary, CybraryCourse, DacastPlaylist,
+ DacastVOD, DagelijkseKost, DailyMail, dailymotion, DailyWire,
+ DailyWirePodcast, dangalplay, daum.net, DBTV, DctpTv, democracynow,
+ DestinationAmerica, DetikEmbed, DeuxM, DeuxMNews, DHM, DigitalConcertHall,
+ DigitallySpeaking, Digiteka, Digiview, DiscogsReleasePlaylist,
  DiscoveryLife, DiscoveryNetworksDe, DiscoveryPlus, DiscoveryPlusIndia,
  DiscoveryPlusIndiaShow, DiscoveryPlusItaly, DiscoveryPlusItalyShow,
- Disney, DIYNetwork, Dotsub, Douyin, DouyuShow, DouyuTV, DPlay, DRBonanza,
- Drooble, Dropbox, Dropout, DropoutSeason, DrTuber, drtv, DTube, duboku,
- Dumpert, dvtv, dw, EaglePlatform, EbaumsWorld, Ebay, EchoMsk, ehftv,
- eHow, EinsUndEinsTV, EinsUndEinsTVLive, EinsUndEinsTVRecordings,
- Einthusan, eitb.tv, EllenTube, EllenTubePlaylist, EllenTubeVideo,
- Elonet, ElPais, Embedly, EMPFlix, Engadget, Epicon, EpiconSeries, Epoch,
- Eporner, EroProfile, ertflix, Escapist, ESPN, ESPNArticle, ESPNCricInfo,
- EsriVideo, Europa, EuroParlWebstream, EuropeanTour, Eurosport, EUScreen,
- EWETV, EWETVLive, EWETVRecordings, ExpoTV, Expressen, ExtremeTube,
- EyedoTV, facebook, FacebookPluginsVideo, faz.net, fc2, Fczenit,
- Fifa, Filmmodu, filmon, Filmweb, FiveThirtyEight, FiveTV, Flickr,
- Folketinget, FoodNetwork, FootyRoom, Formula1, FOX, FOX9, FOX9News,
- Foxgay, foxnews, FoxNewsVideo, FoxSports, fptplay, FranceCulture,
- FranceInter, FranceTV, francetvinfo.fr, FranceTVSite, Freesound,
+ Disney, dlf, Douyin, DouyuShow, DouyuTV, DPlay, DRBonanza, Drooble,
+ Dropbox, Dropout, DropoutSeason, DrTalks, DrTuber, drtv, DTube,
+ duboku, Dumpert, Duoplay, dvtv, dw, EaglePlatform, EbaumsWorld,
+ Ebay, EinsUndEinsTV, EinsUndEinsTVLive, EinsUndEinsTVRecordings,
+ eitb.tv, ElementorEmbed, Elonet, ElPais, ElTreceTV, Embedly, EMPFlix,
+ Epicon, EpiconSeries, EpidemicSound, eplus, Epoch, Eporner, Erocast,
+ EroProfile, ERRJupiter, ertflix, ESPN, ESPNArticle, ESPNCricInfo,
+ EttuTv, Europa, EuroParlWebstream, EuropeanTour, Eurosport,
+ EUScreen, EWETV, EWETVLive, EWETVRecordings, Expressen, EyedoTV,
+ facebook, FacebookPluginsVideo, Fathom, faz.net, fc2, Fczenit, Fifa,
+ filmon, Filmweb, FiveThirtyEight, FiveTV, FlexTV, Flickr, Floatplane,
+ FloatplaneChannel, Folketinget, FoodNetwork, FootyRoom, Formula1, FOX,
+ FOX9, FOX9News, foxnews, FoxNewsVideo, FoxSports, fptplay, FrancaisFacile,
+ FranceCulture, FranceInter, francetv, francetvinfo.fr, Freesound,
  freespeech.org, FreeTvMovies, FrontendMasters, FrontendMastersCourse,
- FrontendMastersLesson, FujiTVFODPlus7, Funimation, Funk, Fusion, Fux,
- FuyinTV, Gab, GabTV, Gaia, GameInformer, GameJolt, GameJoltCommunity,
+ FrontendMastersLesson, FujiTVFODPlus7, Funk, Funker530, Fux, FuyinTV,
+ Gab, GabTV, Gaia, GameDevTVDashboard, GameJolt, GameJoltCommunity,
  GameJoltGame, GameJoltGameSoundtrack, GameJoltSearch, GameJoltUser,
- GameSpot, GameStar, Gaskrank, Gazeta, GDCVault, GediDigital, gem.cbc.ca,
- generic, Genius, GeniusLyrics, Gettr, GettrStreaming, Gfycat, GiantBomb,
- Giga, GlattvisionTV, GlattvisionTVLive, GlattvisionTVRecordings, Glide,
- Globo, GloboArticle, glomex, Go, GoDiscovery, GodTube, Gofile, Golem,
- GoogleDrive, GoPlay, GoPro, Goshgay, GoToStage, GPUTechConf, Gronkh,
- Groupon, Harpodeon, hbo, HearThisAt, Heise, HellPorno, Helsinki,
- HentaiStigma, hetklokhuis, HGTVDe, HGTVUsa, HiDive, HistoricFilms,
- hitbox, HitRecord, hketv, Holodex, HotNewHipHop, hotstar, Howcast,
- HowStuffWorks, hrfernsehen, HRTi, HRTiPlaylist, HSEProduct, HSEShow,
- html5, Huajiao, HuffPost, Hungama, HungamaAlbumPlaylist, HungamaSong,
- Hypem, Hytale, Icareus, IflixSeries, ign.com, IGNArticle, IGNVideo,
- IHeartRadio, Iltalehti, imdb, Imgur, Ina, Inc, IndavideoEmbed,
- InfoQ, Instagram, InstagramIOS, Internazionale, InternetVideoArchive,
+ GameSpot, GameStar, Gaskrank, Gazeta, GBNews, GDCVault, GediDigital,
+ gem.cbc.ca, generic, Genius, GeniusLyrics, Germanupa, GetCourseRu,
+ GetCourseRuPlayer, Gettr, GettrStreaming, GiantBomb, GlattvisionTV,
+ GlattvisionTVLive, GlattvisionTVRecordings, Glide, GlobalPlayerAudio,
+ GlobalPlayerAudioEpisode, GlobalPlayerLive, GlobalPlayerLivePlaylist,
+ GlobalPlayerVideo, Globo, GloboArticle, glomex, GMANetworkVideo, Go,
+ GoDiscovery, GodResource, GodTube, Gofile, Golem, GoogleDrive, GoPlay,
+ GoPro, Goshgay, GoToStage, GPUTechConf, Graspop, Gronkh, Groupon,
+ Harpodeon, hbo, HearThisAt, Heise, HellPorno, hetklokhuis, HGTVDe,
+ HGTVUsa, HiDive, HistoricFilms, HitRecord, hketv, HollywoodReporter,
+ HollywoodReporterPlaylist, Holodex, HotNewHipHop, hotstar, hrfernsehen,
+ HRTi, HRTiPlaylist, HSEProduct, HSEShow, html5, Huajiao, HuffPost,
+ Hungama, HungamaAlbumPlaylist, HungamaSong, Hypem, Hytale, Icareus,
+ IdolPlus, IflixSeries, ign.com, IGNArticle, IGNVideo, iheartradio,
+ IlPost, Iltalehti, imdb, Imgur, Ina, Inc, IndavideoEmbed, InfoQ,
+ Instagram, InstagramIOS, Internazionale, InternetVideoArchive,
  InvestigationDiscovery, IPrima, IPrimaCNN, iq.com, iqiyi, IslamChannel,
- IslamChannelSeries, IsraelNationalNews, ITProTV, ITProTVCourse, ITTF,
- ITV, ITVBTCC, ivi, ivideon, IVXPlayer, Iwara, Ixigua, Izlesene, Jable,
- JablePlaylist, Jamendo, JamendoAlbum, JeuxVideo, Joj, Jove, JWPlatform,
- Kakao, Kaltura, Kanal2, KankaNews, Karaoketv, KarriereVideos,
- Katsomo, KeezMovies, KelbyOne, Ketnet, khanacademy, Kick, Kicker,
- KickStarter, KickVOD, KinjaEmbed, KinoPoisk, Kommunetv, KompasVideo,
- KonserthusetPlay, Koo, KrasView, KTH, Ku6, KUSI, la7.it, laola1tv, LastFM,
- LastFMPlaylist, LastFMUser, lbry, LCI, Lcp, LcpPlay, Le, Lecture2Go,
+ IslamChannelSeries, IsraelNationalNews, ITProTV, ITProTVCourse, ITV,
+ ITVBTCC, ivi, ivideon, IVXPlayer, iwara, Ixigua, Izlesene, Jamendo,
+ JamendoAlbum, JeuxVideo, jiocinema, Joj, JoqrAg, Jove, JStream, JTBC,
+ JWPlatform, Kakao, Kaltura, KankaNews, Karaoketv, Katsomo, KelbyOne,
+ Kenh14Playlist, Kenh14Video, khanacademy, Kicker, KickStarter,
+ Kika, KinoPoisk, Kommunetv, KompasVideo, Koo, KrasView, KTH, Ku6,
+ KukuluLive, la7.it, laracasts, LastFM, LastFMPlaylist, LastFMUser,
+ LaXarxaMes, lbry, LCI, Lcp, LcpPlay, Le, LearningOnScreen, Lecture2Go,
  Lecturio, LecturioCourse, LecturioDeCourse, LeFigaroVideoEmbed,
  LeFigaroVideoSection, LEGO, Lemonde, Lenta, LePlaylist, LetvCloud,
- Libsyn, life, likee, limelight, LineLive, LineLiveChannel, LinkedIn,
- LinuxAcademy, Liputan6, ListenNotes, LiTV, LiveJournal, livestream,
- Livestreamfails, Lnk, LnkGo, loc, LocalNews8, LoveHomePorn, LRTStream,
- LRTVOD, Lumni, lynda, m6, MagentaMusik360, mailru, MainStreaming,
- MallTV, MangoTV, ManotoTV, ManotoTVLive, ManotoTVShow, ManyVids, MaoriTV,
- Markiza, MarkizaPage, massengeschmack.tv, Masters, MatchTV, MDR, MedalTV,
- media.ccc.de, Mediaite, MediaKlikk, Medialaan, Mediaset, MediasetShow,
- Mediasite, MediasiteCatalog, MediasiteNamedCatalog, MediaStream,
- MediaWorksNZVOD, Medici, megaphone.fm, megatvcom, Meipai, MelonVOD,
- META, metacafe, Metacritic, mewatch, Mgoon, MiaoPai, MicrosoftEmbed,
- microsoftstream, mildom, minds, MinistryGrid, Minoto, miomio.tv, mirrativ,
- MirrorCoUK, MiTele, mixch, mixcloud, MLB, MLBArticle, MLBTV, MLBVideo,
- MLSSoccer, Mnet, MNetTV, MNetTVLive, MNetTVRecordings, MochaVideo,
- MoeVideo, Mofosex, MofosexEmbed, Mojvideo, MonsterSirenHypergryphMusic,
- Morningstar, Motherless, MotherlessGroup, Motorsport, MotorTrend,
- MotorTrendOnDemand, MovieClips, MovieFap, Moviepilot, MoviewPlay,
- Moviezine, MovingImage, MSN, mtg, mtv, mtv.de, mtv.it, mtvjapan,
- MTVUutisetArticle, MuenchenTV, Murrtube, MurrtubeUser, MuseScore,
- MusicdexAlbum, MusicdexArtist, MusicdexPlaylist, MusicdexSong, mva, Mwave,
- MwaveMeetGreet, Mxplayer, MxplayerShow, MyChannels, MySpace, MySpass,
- Myvi, MyVideoGe, MyVidster, MyviEmbed, n-tv.de, N1InfoAsset, Nate,
- NateProgram, NationalGeographicTV, Naver, navernow, NBA, NBAChannel,
- NBAEmbed, NBAWatchEmbed, NBC, NBCNews, nbcolympics, NBCSports,
- NBCSportsStream, NBCSportsVPlayer, NBCStations, ndr, NDTV, Nebula,
- NerdCubedFeed, NetPlusTV, NetPlusTVLive, NetPlusTVRecordings, Netverse,
+ Libsyn, life, likee, limelight, LinkedIn, Liputan6, ListenNotes,
+ LiTV, LiveJournal, livestream, Livestreamfails, Lnk, loc, Loco,
+ loom, LoveHomePorn, LRTStream, LRTVOD, LSMLREmbed, LSMLTVEmbed,
+ LSMReplay, Lumni, lynda, maariv.co.il, MagellanTV, MagentaMusik, mailru,
+ MainStreaming, MangoTV, ManotoTV, ManotoTVLive, ManotoTVShow, ManyVids,
+ MaoriTV, Markiza, MarkizaPage, massengeschmack.tv, Masters, MatchTV, MBN,
+ MDR, MedalTV, media.ccc.de, Mediaite, MediaKlikk, Medialaan, Mediaset,
+ MediasetShow, Mediasite, MediasiteCatalog, MediasiteNamedCatalog,
+ MediaStream, MediaWorksNZVOD, Medici, megaphone.fm, megatvcom,
+ Meipai, MelonVOD, Metacritic, mewatch, MicrosoftBuild, MicrosoftEmbed,
+ MicrosoftLearnEpisode, MicrosoftLearnPlaylist, MicrosoftLearnSession,
+ MicrosoftMedius, microsoftstream, minds, Minoto, mirrativ, MirrorCoUK,
+ MiTele, mixch, mixcloud, MLB, MLBArticle, MLBTV, MLBVideo, MLSSoccer,
+ MNetTV, MNetTVLive, MNetTVRecordings, MochaVideo, Mojevideo, Mojvideo,
+ Monstercat, MonsterSirenHypergryphMusic, Motherless, MotherlessGallery,
+ MotherlessGroup, MotherlessUploader, Motorsport, MovieFap, moviepilot,
+ MoviewPlay, Moviezine, MovingImage, MSN, mtg, mtv, mtv.de, mtv.it,
+ mtvjapan, MTVUutisetArticle, MuenchenTV, MujRozhlas, Murrtube,
+ MurrtubeUser, MuseAI, MuseScore, MusicdexAlbum, MusicdexArtist,
+ MusicdexPlaylist, MusicdexSong, Mx3, Mx3Neo, Mx3Volksmusik, Mxplayer,
+ MxplayerShow, MySpace, MySpass, MyVideoGe, MyVidster, Mzaalo,
+ n-tv.de, N1InfoAsset, Nate, NateProgram, NationalGeographicTV, Naver,
+ navernow, nba, NBC, NBCNews, nbcolympics, NBCSports, NBCSportsStream,
+ NBCSportsVPlayer, NBCStations, ndr, NDTV, NekoHacker, NerdCubedFeed,
+ Nest, NestClip, NetPlusTV, NetPlusTVLive, NetPlusTVRecordings, Netverse,
  NetversePlaylist, NetverseSearch, Netzkino, Newgrounds, NewsPicks,
- Newstube, Newsy, NextMedia, NextMediaActionNews, NextTV, Nexx, NexxEmbed,
- NFB, NFHSNetwork, nfl.com, NhkForSchoolBangumi, NhkForSchoolProgramList,
- NhkForSchoolSubject, NhkVod, NhkVodProgram, nhl.com, nick.com, nick.de,
- nickelodeonru, nicknight, niconico, NiconicoUser, Nintendo, Nitter, njoy,
- NJPWWorld, NobelPrize, NoicePodcast, NonkTube, NoodleMagazine, Noovo,
- Normalboots, NOSNLArticle, NosVideo, Nova, NovaEmbed, NovaPlay, nowness,
- Noz, npo, Npr, NRK, NRKPlaylist, NRKRadioPodkast, NRKSkole, NRKTV,
- NRKTVDirekte, NRKTVEpisode, NRKTVEpisodes, NRKTVSeason, NRKTVSeries,
- NRLTV, ntv.ru, Nuvid, NYTimes, NYTimesArticle, NYTimesCooking,
- nzherald, NZOnScreen, NZZ, ocw.mit.edu, OdaTV, Odnoklassniki, OfTV,
- OfTVPlaylist, OktoberfestTV, OlympicsReplay, on24, OnDemandChinaEpisode,
- OnDemandKorea, OneFootball, OnePlacePodcast, onet.pl, onet.tv, OnetMVP,
- OnionStudios, Ooyala, OoyalaExternal, Opencast, OpencastPlaylist,
- openrec, OraTV, OsnatelTV, OsnatelTVLive, OsnatelTVRecordings,
- OutsideTV, PacktPub, PacktPubCourse, pandora.tv, Panopto, PanoptoList,
- PanoptoPlaylist, ParamountNetwork, ParamountPlus, ParamountPlusSeries,
- Parler, parliamentlive.tv, Parlview, Patreon, PatreonCampaign, pbs,
- PearVideo, PeekVids, peer.tv, PeerTube, peloton, People, PerformGroup,
- periscope, PhilharmonieDeParis, phoenix.de, Photobucket, Piapro,
- Picarto, PicartoVod, Piksel, Pinkbike, Pinterest, PinterestCollection,
- Pladform, PlanetMarathi, Platzi, PlatziCourse, play.fm, player.sky.it,
- PlayPlusTV, PlayStuff, PlaysTV, PlaySuisse, Playtvak, Playvid, PlayVids,
- Playwire, pluralsight, PlutoTV, PodbayFM, PodbayFMChannel, Podchaser,
- podomatic, Pokemon, PokemonWatch, PokerGo, PokerGoCollection, PolsatGo,
- PolskieRadio, Popcorntimes, PopcornTV, PornCom, PornerBros, Pornez,
- PornFlip, PornHd, PornHub, PornHubPagedVideoList, PornHubPlaylist,
- PornHubUser, PornHubUserVideosUpload, Pornotube, PornoVoisines, PornoXO,
- PornTop, PornTube, Pr0gramm, Pr0grammStatic, PrankCast, PremiershipRugby,
- PressTV, ProjectVeritas, prosiebensat1, PRXAccount, PRXSeries, PRXStory,
- puhutv, Puls4, Pyvideo, QingTing, qqmusic, QuantumTV, QuantumTVLive,
- QuantumTVRecordings, Qub, R7, R7Article, Radiko, RadikoRadio, radio.de,
- radiobremen, radiocanada, radiofrance, RadioJavan, radiokapital,
- RadioZetPodcast, radlive, Rai, RaiNews, RaiPlay, RaiPlayLive,
- RaiPlayPlaylist, RaiPlaySound, RaiPlaySoundLive, RaiPlaySoundPlaylist,
- RaiSudtirol, RayWenderlich, RayWenderlichCourse, RbgTum, RbgTumCourse,
- RBMARadio, RCS, RCSEmbeds, RCSVarious, RCTIPlus, RCTIPlusSeries,
- RCTIPlusTV, RDS, RedBull, RedBullEmbed, RedBullTV, RedBullTVRrnContent,
- Reddit, RedGifs, RedGifsSearch, RedGifsUser, RedTube, RegioTV, RENTV,
- RENTVArticle, Restudy, Reuters, ReverbNation, RICE, RMCDecouverte,
- RockstarGames, Rokfin, RoosterTeeth, RoosterTeethSeries, RottenTomatoes,
- Rozhlas, RozhlasVltava, RTBF, RTDocumentry, RTDocumentryPlaylist, rte,
- rtl.nl, rtl2, RTLLuLive, RTLLuRadio, RTNews, RTP, RTRFM, RTS, RTVNH,
- RTVS, rtvslo.si, RUHD, Rule34Video, Rumble, RumbleChannel, RumbleEmbed,
- Ruptly, rutube, RUTV, Ruutu, Ruv, safari, Saitosan, SAKTV, SAKTVLive,
- SAKTVRecordings, SaltTV, SaltTVLive, SaltTVRecordings, SampleFocus,
- Sangiin, Sapo, savefrom.net, SBS, schooltv, ScienceChannel, Screen9,
- Screencast, Screencastify, ScreencastOMatic, ScrippsNetworks,
- Scrolller, SCTE, SCTECourse, Seeker, SenateGov, SenateISVP, SendtoNews,
+ Newsy, NextMedia, NextMediaActionNews, NextTV, Nexx, NexxEmbed, nfb,
+ NFHSNetwork, nfl.com, NhkForSchoolBangumi, NhkForSchoolProgramList,
+ NhkForSchoolSubject, NhkRadioNewsPage, NhkRadiru, NhkRadiruLive,
+ NhkVod, NhkVodProgram, nhl.com, nick.com, nick.de, nickelodeonru,
+ niconico, NiconicoChannelPlus, NiconicoUser, NinaProtocol, Nintendo,
+ Nitter, njoy, NobelPrize, NoicePodcast, NonkTube, NoodleMagazine,
+ Noovo, NOSNLArticle, Nova, NovaEmbed, NovaPlay, nowness, Noz, npo,
+ Npr, NRK, NRKPlaylist, NRKRadioPodkast, NRKSkole, NRKTV, NRKTVDirekte,
+ NRKTVEpisode, NRKTVEpisodes, NRKTVSeason, NRKTVSeries, NRLTV, nts.live,
+ ntv.ru, NubilesPorn, Nuvid, NYTimes, NYTimesArticle, NYTimesCookingGuide,
+ NYTimesCookingRecipe, nzherald, NZOnScreen, NZZ, ocw.mit.edu,
+ Odnoklassniki, OfTV, OfTVPlaylist, OktoberfestTV, OlympicsReplay,
+ on24, OnDemandChinaEpisode, OnDemandKorea, OnDemandKoreaProgram,
+ OneFootball, OnePlacePodcast, onet.pl, onet.tv, OnetMVP, OnionStudios,
+ Opencast, OpencastPlaylist, openrec, OraTV, OsnatelTV, OsnatelTVLive,
+ OsnatelTVRecordings, OutsideTV, OwnCloud, PacktPub, PacktPubCourse,
+ Panopto, PanoptoList, PanoptoPlaylist, ParamountNetwork, ParamountPlus,
+ ParamountPlusSeries, ParamountPressExpress, Parler, parliamentlive.tv,
+ Parlview, patreon, pbs, PBSKids, PearVideo, PeekVids, peer.tv, PeerTube,
+ peloton, PerformGroup, periscope, PGATour, PhilharmonieDeParis,
+ phoenix.de, Photobucket, PiaLive, Piapro, Picarto, PicartoVod, Piksel,
+ Pinkbike, Pinterest, PinterestCollection, PiramideTV, PiramideTVChannel,
+ Pladform, PlanetMarathi, Platzi, PlatziCourse, player.sky.it, playeur,
+ PlayPlusTV, PlaySuisse, Playtvak, PlayVids, Playwire, pluralsight,
+ PlutoTV, PlVideo, PodbayFM, PodbayFMChannel, Podchaser, podomatic,
+ PokerGo, PokerGoCollection, PolsatGo, PolskieRadio, Popcorntimes,
+ PopcornTV, Pornbox, PornerBros, PornFlip, PornHub, PornHubPagedVideoList,
+ PornHubPlaylist, PornHubUser, PornHubUserVideosUpload, Pornotube,
+ PornoVoisines, PornoXO, PornTop, PornTube, Pr0gramm, PrankCast,
+ PrankCastPost, PremiershipRugby, PressTV, ProjectVeritas, prosiebensat1,
+ PRXAccount, PRXSeries, PRXStory, puhutv, Puls4, Pyvideo, QDance, QingTing,
+ qqmusic, QuantumTV, QuantumTVLive, QuantumTVRecordings, R7, R7Article,
+ Radiko, RadikoRadio, radio.de, Radio1Be, radiocanada, RadioComercial,
+ RadioComercialPlaylist, radiofrance, RadioFranceLive, RadioFrancePodcast,
+ RadioFranceProfile, RadioFranceProgramSchedule, RadioJavan, radiokapital,
+ RadioRadicale, RadioZetPodcast, radlive, Rai, RaiCultura, RaiNews,
+ RaiPlay, RaiPlayLive, RaiPlayPlaylist, RaiPlaySound, RaiPlaySoundLive,
+ RaiPlaySoundPlaylist, RaiSudtirol, RayWenderlich, RayWenderlichCourse,
+ RbgTum, RbgTumCourse, RbgTumNewCourse, RCS, RCSEmbeds, RCSVarious,
+ RCTIPlus, RCTIPlusSeries, RCTIPlusTV, RDS, RedBull, RedBullEmbed,
+ RedBullTV, RedBullTVRrnContent, redcdnlivx, Reddit, RedGifs,
+ RedGifsSearch, RedGifsUser, RedTube, RENTV, RENTVArticle,
+ Restudy, Reuters, ReverbNation, RheinMainTV, RideHome, RinseFM,
+ RinseFMArtistPlaylist, RMCDecouverte, RockstarGames, Rokfin,
+ RoosterTeeth, RoosterTeethSeries, RottenTomatoes, Rozhlas,
+ RozhlasVltava, RTBF, RTDocumentry, RTDocumentryPlaylist, rte, rtl.nl,
+ rtl2, RTLLuLive, RTLLuRadio, RTNews, RTP, RTRFM, RTS, RTVCKaltura,
+ RTVCPlay, RTVCPlayEmbed, rtvslo.si, RudoVideo, Rule34Video, Rumble,
+ RumbleChannel, RumbleEmbed, Ruptly, rutube, RUTV, Ruutu, Ruv, S4C,
+ S4CSeries, safari, Saitosan, SAKTV, SAKTVLive, SAKTVRecordings,
+ SaltTV, SaltTVLive, SaltTVRecordings, SampleFocus, Sangiin, Sapo,
+ SBS, sbs.co.kr, schooltv, ScienceChannel, Screen9, Screencast,
+ Screencastify, ScreencastOMatic, ScreenRec, ScrippsNetworks, Scrolller,
+ SCTE, SCTECourse, sejm, Sen, SenalColombiaLive, senate.gov, SendtoNews,
  Servus, Sexu, SeznamZpravy, SeznamZpravyArticle, Shahid, ShahidShow,
- Shared, ShareVideosEmbed, ShemarooMe, ShowRoomLive, ShugiinItvLive,
- ShugiinItvLiveRoom, ShugiinItvVod, SibnetEmbed, simplecast, Sina, Skeb,
- sky.it, SkylineWebcams, SkyNewsAU, Slideshare, SlidesLive, Slutload,
- Smotrim, Snotr, Sohu, SonyLIV, SonyLIVSeries, soundcloud, SoundcloudEmbed,
+ SharePoint, ShareVideosEmbed, ShemarooMe, ShowRoomLive, ShugiinItvLive,
+ ShugiinItvLiveRoom, ShugiinItvVod, SibnetEmbed, simplecast, Sina,
+ Skeb, sky.it, SkylineWebcams, SkyNewsAU, Slideshare, SlidesLive,
+ Slutload, Smotrim, SnapchatSpotlight, Snotr, SoftWhiteUnderbelly,
+ Sohu, SohuV, SonyLIV, SonyLIVSeries, soop, soundcloud, SoundcloudEmbed,
  soundgasm, southpark.cc.com, southpark.de, southpark.lat, southpark.nl,
  southparkstudios.dk, SovietsCloset, SovietsClosetPlaylist, SpankBang,
- SpankBangPlaylist, Spankwire, Spiegel, Sport5, SportBox, SportDeutschland,
- spotify, Spreaker, SpreakerPage, SpreakerShow, SpreakerShowPage,
- SpringboardPlatform, Sprout, SRGSSR, SRGSSRPlay, stanfordoc, StarTrek,
- startv, Steam, SteamCommunityBroadcast, Stitcher, StitcherShow,
- StoryFire, StoryFireSeries, StoryFireUser, Streamable, Streamanity,
- streamcloud.eu, StreamCZ, StreamFF, StreetVoice, StretchInternet,
- Stripchat, Substack, SunPorno, SVT, SVTPage, SVTPlay, SVTSeries,
- SwearnetEpisode, SWRMediathek, Syfy, SYVDK, SztvHu, t-online.de,
- Tagesschau, Tass, TBS, TDSLifeway, Teachable, TeachableCourse,
- teachertube, TeachingChannel, Teamcoco, TeamTreeHouse, TechTalks,
- techtv.mit.edu, TedEmbed, TedPlaylist, TedSeries, TedTalk, Tele13, Tele5,
- TeleBruxelles, TelecaribePlay, Telecinco, Telegraaf, TeleMB, Telemundo,
- TeleQuebec, TeleQuebecEmission, TeleQuebecLive, TeleQuebecSquat,
- TeleQuebecVideo, TeleTask, Telewebion, Tempo, TennisTV, TenPlay, TF1,
- TFO, TheHoleTv, TheIntercept, ThePlatform, ThePlatformFeed, TheStar,
- TheSun, ThetaStream, ThetaVideo, TheWeatherChannel, ThisAmericanLife,
- ThisAV, ThisOldHouse, ThisVid, ThisVidMember, ThisVidPlaylist, ThreeSpeak,
- ThreeSpeakUser, TikTok, tinypic, TLC, TMZ, TNAFlix, TNAFlixNetworkEmbed,
- toggle, toggo, Tokentube, ToonGoggles, tou.tv, Toypics, ToypicsUser,
- TrailerAddict, TravelChannel, Triller, TrillerUser, Trilulilu, Trovo,
- TrovoChannelClip, TrovoChannelVod, TrovoVod, TrtCocukVideo, TrueID,
- TruNews, Truth, TruTV, Tube8, TubeTuGraz, TubeTuGrazSeries, TubiTv,
- TubiTvShow, Tumblr, TuneInPodcast, TuneInPodcastEpisode, TuneInStation,
- TunePk, Turbo, tv.dfb.de, TV2, TV2Article, TV2DK, TV2DKBornholmPlay,
- tv2play.hu, tv2playseries.hu, TV4, TV5MondePlus, tv5unis, tv8.it,
- TVA, TVANouvelles, TVANouvellesArticle, TVC, TVCArticle, TVer, tvigle,
- TVIPlayer, tvland.com, TVN24, TVNet, TVNoe, TVNow, TVNowAnnual, TVNowFilm,
- TVNowNew, TVNowSeason, TVNowShow, tvp, TVPlayer, TVPlayHome, Tweakers,
- TwitCasting, TwitCastingLive, TwitCastingUser, TwitchCollection,
- TwitchVideos, TwitchVideosClips, TwitchVideosCollections, twitter,
- Txxx, udemy, UDNEmbed, UFCArabia, UFCTV, ukcolumn, UKTVPlay,
- Unistra, Unity, UnscriptedNewsVideo, uol.com.br, uplynk, Urort,
- URPlay, USANetwork, USAToday, ustream, ustudio, Utreon, Varzesh3,
- Vbox7, VeeHD, Veo, Veoh, Vesti, Vevo, VevoPlaylist, VGTV, vh1.com,
- Viafree, vice, Vidbit, Viddler, Videa, video.arnes.si, video.sky.it,
- VideoDetective, videofy.me, VideoKen, VideoKenCategory, VideoKenPlayer,
- VideoKenPlaylist, VideoKenTopic, videomore, VideoPress, Vidio, VidioLive,
- VidioPremier, VidLii, viewlift, Viidea, viki, vimeo, ViMP, Vimple, Vine,
- Viqeo, Viu, ViuOTTIndonesia, Vivo, vk, vm.tiktok, Vocaroo, Vodlocker,
- VODPl, VODPlatform, VoiceRepublic, voicy, VolejTV, Voot, VootSeries,
- VoxMedia, VoxMediaVolume, vpro, Vrak, VRT, VrtNU, vrv, VShare, VTM,
- VTXTV, VTXTVLive, VTXTVRecordings, VuClip, Vupload, VVVVID, VVVVIDShow,
- VyboryMos, Vzaar, Wakanim, Walla, WalyTV, WalyTVLive, WalyTVRecordings,
- washingtonpost, wat.tv, WatchBox, WatchESPN, WatchIndianPorn, WDR,
+ SpankBangPlaylist, Spiegel, Sport5, SportBox, SportDeutschland, spotify,
+ Spreaker, SpreakerShow, SpringboardPlatform, Sprout, SproutVideo,
+ SRGSSR, SRGSSRPlay, StacommuLive, StacommuVOD, StagePlusVODConcert,
+ stanfordoc, StarTrek, startv, Steam, SteamCommunityBroadcast, Stitcher,
+ StitcherShow, StoryFire, StoryFireSeries, StoryFireUser, Streaks,
+ Streamable, StreamCZ, StreetVoice, StretchInternet, Stripchat, stvr,
+ Subsplash, Substack, SunPorno, SVT, SVTPage, SVTPlay, SVTSeries,
+ SwearnetEpisode, Syfy, SYVDK, SztvHu, t-online.de, Tagesschau,
+ TapTapApp, TapTapAppIntl, TapTapMoment, TapTapPostIntl, Tass, TBS,
+ TBSJPEpisode, TBSJPPlaylist, TBSJPProgram, Teachable, TeachableCourse,
+ teachertube, TeachingChannel, Teamcoco, TeamTreeHouse, techtv.mit.edu,
+ TedEmbed, TedPlaylist, TedSeries, TedTalk, Tele13, Tele5, TeleBruxelles,
+ TelecaribePlay, Telecinco, Telegraaf, TeleMB, Telemundo, TeleQuebec,
+ TeleQuebecEmission, TeleQuebecLive, TeleQuebecSquat, TeleQuebecVideo,
+ TeleTask, Telewebion, Tempo, TennisTV, TenPlay, TenPlaySeason, TF1,
+ TFO, TheGuardianPodcast, TheGuardianPodcastPlaylist, TheHoleTv,
+ TheIntercept, ThePlatform, ThePlatformFeed, TheStar, TheSun,
+ TheWeatherChannel, ThisAmericanLife, ThisOldHouse, ThisVid,
+ ThisVidMember, ThisVidPlaylist, ThreeSpeak, ThreeSpeakUser, TikTok,
+ TLC, TMZ, TNAFlix, TNAFlixNetworkEmbed, toggle, toggo, ToonGoggles,
+ tou.tv, Toypics, ToypicsUser, TrailerAddict, TravelChannel, Triller,
+ TrillerShort, TrillerUser, Trovo, TrovoChannelClip, TrovoChannelVod,
+ TrovoVod, TrtCocukVideo, TrtWorld, TrueID, TruNews, Truth, TruTV,
+ Tube8, TubeTuGraz, TubeTuGrazSeries, tubitv, Tumblr, TuneInPodcast,
+ TuneInPodcastEpisode, TuneInStation, tv.dfb.de, TV2, TV2Article,
+ TV2DK, TV2DKBornholmPlay, tv2play.hu, tv2playseries.hu, TV4, TV5MONDE,
+ tv5unis, tv8.it, TVANouvelles, TVANouvellesArticle, tvaplus, TVC,
+ TVCArticle, TVer, tvigle, TVIPlayer, tvland.com, TVN24, TVNoe, tvp,
+ TVPlayer, TVPlayHome, Tvw, Tweakers, TwitCasting, TwitCastingLive,
+ TwitCastingUser, TwitchCollection, TwitchVideos, TwitchVideosClips,
+ TwitchVideosCollections, twitter, Txxx, udemy, UDNEmbed, UFCArabia,
+ UFCTV, ukcolumn, UKTVPlay, UlizaPlayer, UlizaPortal, Unistra, Unity,
+ uol.com.br, uplynk, Urort, URPlay, USANetwork, USAToday, ustream,
+ ustudio, Varzesh3, Vbox7, Veo, Vesti, Vevo, VevoPlaylist, VGTV, vh1.com,
+ vice, Viddler, Videa, video.arnes.si, video.sky.it, VideoDetective,
+ videofy.me, VideoKen, VideoKenCategory, VideoKenPlayer, VideoKenPlaylist,
+ VideoKenTopic, videomore, VideoPress, Vidflex, Vidio, VidioLive,
+ VidioPremier, VidLii, Vidly, vids.io, Vidyard, viewlift, Viidea, vimeo,
+ ViMP, Viously, Viqeo, Viu, ViuOTTIndonesia, vk, VKPlay, VKPlayLive,
+ vm.tiktok, Vocaroo, VODPl, VODPlatform, voicy, VolejTV, VoxMedia,
+ VoxMediaVolume, vpro, vrsquare, VRT, vrtmax, VTM, VTV, VTVGo, VTXTV,
+ VTXTVLive, VTXTVRecordings, VuClip, VVVVID, VVVVIDShow, Walla, WalyTV,
+ WalyTVLive, WalyTVRecordings, washingtonpost, wat.tv, WatchESPN, WDR,
  WDRElefant, WDRPage, Webcamerapl, Webcaster, WebcasterFeed, WebOfStories,
- WebOfStoriesPlaylist, Weibo, WeiboMobile, WeiqiTV, WeTvSeries, whowatch,
- wikimedia.org, Willow, WimTV, WinSportsVideo, Wistia, WistiaChannel,
- WistiaPlaylist, wnl, WorldStarHipHop, wppilot, WrestleUniversePPV,
- WrestleUniverseVOD, WSJ, WSJArticle, WWE, WyborczaPodcast, Xanimu, XBef,
- XboxClips, XFileShare, XHamster, XHamsterEmbed, XHamsterUser, ximalaya,
- xinpianchang, XMinus, XNXX, Xstream, XTube, XTubeUser, Xuite, XVideos,
- XXXYMovies, Yahoo, YandexDisk, YandexVideo, YandexVideoPreview, YapFiles,
- Yappy, YesJapan, YleAreena, Ynet, YouJizz, youku, YouNowChannel,
- YouNowLive, YouNowMoment, YouPorn, YourPorn, YourUpload, youtube,
- YoutubeLivestreamEmbed, YoutubeYtBe, Zapiks, Zattoo, ZattooLive,
- ZattooMovies, ZattooRecordings, ZDF, ZDFChannel, Zee5, ZeeNews, ZenYandex,
- ZenYandexChannel, Zhihu, zingmp3, zoom, Zype, generic,
+ WebOfStoriesPlaylist, Weibo, WeiboUser, WeiboVideo, WeiqiTV, WeTvSeries,
+ Weverse, WeverseLive, WeverseLiveTab, WeverseMedia, WeverseMediaTab,
+ WeverseMoment, WeVidi, Weyyak, whowatch, Whyp, wikimedia.org, Wimbledon,
+ WimTV, WinSportsVideo, Wistia, WistiaChannel, WistiaPlaylist, wnl,
+ WorldStarHipHop, wppilot, WrestleUniversePPV, WrestleUniverseVOD,
+ WSJ, WSJArticle, WWE, WyborczaPodcast, Xanimu, XboxClips, XHamster,
+ XHamsterEmbed, XHamsterUser, XiaoHongShu, ximalaya, Xinpianchang, XMinus,
+ XNXX, Xstream, XVideos, XXXYMovies, Yahoo, YandexDisk, YandexVideo,
+ YandexVideoPreview, YapFiles, Yappy, YappyProfile, YleAreena, YouJizz,
+ youku, YouNowChannel, YouNowLive, YouNowMoment, YouPorn, YouPornCategory,
+ YouPornChannel, YouPornCollection, YouPornStar, YouPornTag, YouPornVideos,
+ youtube, YoutubeLivestreamEmbed, YoutubeYtBe, Zaiko, ZaikoETicket, Zapiks,
+ Zattoo, ZattooLive, ZattooMovies, ZattooRecordings, ZDF, ZDFChannel,
+ Zee5, ZeeNews, ZenPorn, ZenYandex, ZenYandexChannel, ZetlandDKArticle,
+ Zhihu, zingmp3, zoom, Zype, generic,
 
 Package: zenity-common
 Source: zenity
