@@ -42212,6 +42212,54 @@ Description: Linux image base package
  This package contains files and support scripts for all Linux
  images.
 
+Package: linux-headers-6.12.21-amd64
+Source: linux
+Version: 6.12.21-1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 9762
+Depends: linux-headers-6.12.21-common (= 6.12.21-1), linux-image-6.12.21-amd64 (= 6.12.21-1) | linux-image-6.12.21-amd64-unsigned (= 6.12.21-1), linux-kbuild-6.12.21, gcc-14
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-headers-6.12.21-amd64_6.12.21-1_amd64.deb
+Size: 2738956
+SHA256: 00f3922353bce8e1038badd306a6dcfe7c294e723ff48b0ae902d07379304714
+SHA1: 97f02d565917a776395d0e5e839cc2c812a73d96
+MD5sum: 02395cfb47ab6c41ccc8bd31dc3e21d4
+Description: Header files for Linux 6.12.21-amd64
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 6.12.21-amd64, generally used for building out-of-tree kernel
+ modules.  These files are going to be installed into
+ /usr/src/linux-headers-6.12.21-amd64, and can be used for building modules
+ that load into the kernel provided by the linux-image-6.12.21-amd64
+ package.
+
+Package: linux-headers-6.12.21-common
+Source: linux
+Version: 6.12.21-1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 60783
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-headers-6.12.21-common_6.12.21-1_all.deb
+Size: 10800424
+SHA256: af7351d3e81bc6332fea4b8bd40de293433b02c766e20f84586bf9dd73ded9a6
+SHA1: 4f91bfe0b0c6aa205a681047e30f135ef02afb02
+MD5sum: b1e9bbe4b58c4d861b83601330037f4f
+Description: Common header files for Linux 6.12.21
+ This package provides the common kernel header files for Linux kernel
+ version 6.12.21, generally used for building out-of-tree kernel modules.
+ These files are going to be installed into
+ /usr/src/linux-headers-6.12.21-common.
+ .
+ To obtain a complete set of headers you also need to install the
+ linux-headers-6.12.21-(flavour) package, matching the flavour of the
+ kernel you intend the build for.
+
 Package: linux-headers-6.6.13+bpo-amd64
 Source: linux
 Version: 6.6.13-1~bpo12+1
@@ -42366,6 +42414,25 @@ Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These
  files are going to be installed into /usr/include, and are used by the
  installed headers for GNU libc and other system libraries.
+
+Package: linux-source
+Source: linux
+Version: 6.12.21-1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 10
+Depends: linux-source-6.12 (= 6.12.21-1)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-source_6.12.21-1_all.deb
+Size: 1092
+SHA256: 1a47ed49b566da385a72e45d1c5e724db469019ab9b44090d3fd1376331618b0
+SHA1: 83320674ec58430f9a9196e2f54f2827254b73f0
+MD5sum: c323801124fb1066b5704f969ef389f7
+Description: Linux kernel source (meta-package)
+ This package depends on packages containing the sources of the latest
+ Linux kernel.
 
 Package: live-boot
 Version: 1:20230131+deb12u1
