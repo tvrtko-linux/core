@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Fri, 18 Apr 2025 23:23:52 UTC
+Date: Sat, 19 Apr 2025 00:00:18 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgC3wgACgkQ5Vfn9vbt
-T6qn5w//dHoohK4esJnf3tzvP4TnWKCSqfzLcTl4LgyczusiYu+qjx6Jc3RbQr0C
-pykfeL51WKmwZ/GBRhyc2nZJXks6wCfmmcuCY5zQIgWJtChOPFh3CQ+ObooL3cdR
-P/BZZ6iUdmeWFV91A5uM+28d5bLPTfQtrl2ZMkoxQgi9yPbW6wz+fUJRYli1L0Ow
-h1tmkF3SvlajehL6CSiQ6ZWVn9Su8oMvZi16nAlJvUBe1XcGjZVNZ7exS2yzf+bq
-nfxe2TWeJF8S2O0dY93JRJG1Q5VW/ALN/OGhIUDTkn87nuDt9os/ScMUXJDV3Vjv
-4SV/Eia3mfmg0eSLzUJUXG7e7VdcITEKg/0RRosbHMUGmC4S8b/+QMcx6Fk1PMXL
-4Z2Q1ZX7Y1MW0bnsbQrMzy1yNQbl+RlYr++u4iRjsfnOUR9f32wV41SAwSWPKQBK
-DkPm4U9o4cDFkpey7aZ5V6vzcBX9ArjAq85MQuO/Gm8JomC2iqdlX1sb1w1gPdZu
-u2ShGl9qTS1uXg1MjDidj1Tr4YrummDSUqH1M8/cHuMNym8153P4IOYHPnVd5e+Q
-hv6SiBmPfY3ZrShVPa7M2ChYwCv5fzlicad+uW2OLCnacWuI5t+LBfND2DXAnoBH
-+ZSog7JG04z5oUD7ZnzKrCeap2R9NXCPOkb8nfkTDWTNgHZP6Bo=
-=cAJM
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgC55IACgkQ5Vfn9vbt
+T6o+Fg//TBR4XR1qENBtC82qnPEhsO/kZt92NxIeXqqtZHZrIbht4EZEZjpGXp5K
+pvvRO8zPLSq1+zLQajwj6FkcVNyifQXoymkaCXq5l/XrpyxSW0kch4C2TdHvP9Ra
+vnoptTIFz+v4FK4qf+3Bi/F3ppp53btD5jVjZTnxA4KYX76xjW7jseUKvV3ky0tn
+SXjmF7h461hGK/QL6bLzbo5FIEEACVtJ06Ze9Qeq7Q81UMvuv9y/DF/+XbnZ4vFA
+zN1cDFrQNsCTAoKOFOrTOmmL2T7WfV39cP/AYxvsnbXKhUOZh+rATVmkly9AlBTE
+9hhRsp12QHlZQMGJTku38J/JR4yveuxCGKG7czT3+h0In17ftM0uTwiLzrVZcKFL
+HRQ9l6w3+nKOTNPfKd2E07FhT7H8V9epdAmFPzWVOg477Zm3r8yy7yyR3jfBPWfO
+Ax2/vwbH5BkgIkwX/eMmv8pDSWnbbZ3/kE27e+Ubvsi4hrQ0lchfQ8oVb47CmMpx
+ASXC1mdGaBAx1WdZypvkPb0nCw+6A9JxoCa+I5vX4KOEDkLFYbWQf2FVP8LrfVo/
++oCmLDOCe4B2+m9Up1UvOqM+mEgkAjGc9dbdfwac6sqWlP5pF0e0/vbk24dK7FRw
+f3gsUDx+JMwhGr1RYS3cz/Xs/hI8jevQkd6vvPHbqJPLEVR8QU4=
+=EpNe
 -----END PGP SIGNATURE-----
