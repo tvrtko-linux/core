@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 19 Apr 2025 00:00:19 UTC
+Date: Sat, 19 Apr 2025 01:23:40 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgC55MACgkQ5Vfn9vbt
-T6oh1g/8CYhpW11eKJww3SlnSrzgEal/uxwJq0/rE0rQcCkE/8PwBT4nCAQcGogl
-S6CChXn6iMXPJxuURwKzcfD4UEvjtkN/4s4uKdFqUBRhpMBnqhCuNfeC21srvJln
-7Z2FDCI7QKHZEmZ81G+Agwfs0/DkXWAxCi/EGMWA0utO9UeNZ0XNn+2NsGBX4LKa
-bcg9Ar/1+cKkEKUNaINXEAG9jh9PUvb1KfSeD5MG6DSCw1QwfPbNwM82Fbow3FHN
-t0jQXSkHpnpyXGb+5mxaekGIleAY+Jo7chp69q2Ki3hoK7xrsnadfazo9Jl9/DHG
-Il1vwxWmoA1GKM+I6wu788fuSHjPHF5D+4RdkRnQBgcypC6WlYo8TT3l5moRKc/T
-V2B214n8yc42ejBFHwoqrkJtlXLzuqSTyj15GV6T0I38PlfYa1xeR1UTVoypWW9H
-amhL0qgHEYZvMuK9FHTDDf9BUxon/IJThtswY1RDQEypFH9I+9+iGdIx+zEHFyPA
-Z7JUkmH2zGMjxIh8tKttpeMyhQQMET0VSe1uZ8slTU26NRYmYX4z5LM9Fwy+cjFa
-r+VWAHajhSe2jaPbHLRdG8M7AN+cU1/JeWdZKCnt6UFNpuxMlWat0mm/WOazXOue
-d6ZqTiGM7+Vtfe9h2sdbFw2EIm7r4h5JqeaB7UoGLlyr3rPQwik=
-=ZhJ7
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgC+xwACgkQ5Vfn9vbt
+T6rzBw/+O05EfSwAoJU6f1ajTraxnPcnzVeEfGTxAyUDL/cbYZpzV17qaTsj6obb
+UoPKBSebwinuujUG5oSlJR0m7PT4T6nsjxm2cHgzbmVae2fvrjR6HQMOPREaAAMd
+/CBcb8ibgdVyN5fqi5elyW0QaSynrd32LWi2nbdwkkQM0WIbiUwIKyVSB/9KhPaa
+km6bGnr/CXt5FJtVTN3GDCMEcnyjlTxP40vnoYTcb7dkGGZQ9+QstEvuoQ0sU/3U
+Zts62L2aHwMYT3s1hPZ3ChmiaKWsQztkfSEEceptWQEVHw9xLRtEngzCXEKVhdfe
+CG8jJPMShRRm++HPzg53dX/zK7y4vHkZIjTIYIpYFWiNiVJZnTb5a7htlQOuD7DQ
+2YIv9RLwWmX1HXQAUrmo2Vm0c8IIcoo5+OxARJEK0/XDQcfCWjiGWhUUx+ZCJa/y
+VQYWp4hM1Mq8981IiW3I8DXz5lGcBJ3ab1ExCq8kB/XCLzSSnbqkvNk3gsadmCqN
+hMB3GEdl5bh32FgGmZTSE0AcncMmBd9Cg1MWg7Ok+soe5H3YdTXOe5nHOGcMVU6q
+7CTtji9PN1tUrgoFLdyFAuuy9Nh1Vvp8tlPiONCgNDch3eDgES6gAlJJ4AeQ1Sxv
+Lu+rfctox14pWQQHecASUEe5LQcZ9qVDbFOXLba2fQWyhKcWFKw=
+=4sGB
 -----END PGP SIGNATURE-----

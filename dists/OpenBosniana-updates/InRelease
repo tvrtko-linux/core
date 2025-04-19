@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sat, 19 Apr 2025 00:00:18 UTC
+Date: Sat, 19 Apr 2025 01:23:39 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgC55IACgkQ5Vfn9vbt
-T6o+Fg//TBR4XR1qENBtC82qnPEhsO/kZt92NxIeXqqtZHZrIbht4EZEZjpGXp5K
-pvvRO8zPLSq1+zLQajwj6FkcVNyifQXoymkaCXq5l/XrpyxSW0kch4C2TdHvP9Ra
-vnoptTIFz+v4FK4qf+3Bi/F3ppp53btD5jVjZTnxA4KYX76xjW7jseUKvV3ky0tn
-SXjmF7h461hGK/QL6bLzbo5FIEEACVtJ06Ze9Qeq7Q81UMvuv9y/DF/+XbnZ4vFA
-zN1cDFrQNsCTAoKOFOrTOmmL2T7WfV39cP/AYxvsnbXKhUOZh+rATVmkly9AlBTE
-9hhRsp12QHlZQMGJTku38J/JR4yveuxCGKG7czT3+h0In17ftM0uTwiLzrVZcKFL
-HRQ9l6w3+nKOTNPfKd2E07FhT7H8V9epdAmFPzWVOg477Zm3r8yy7yyR3jfBPWfO
-Ax2/vwbH5BkgIkwX/eMmv8pDSWnbbZ3/kE27e+Ubvsi4hrQ0lchfQ8oVb47CmMpx
-ASXC1mdGaBAx1WdZypvkPb0nCw+6A9JxoCa+I5vX4KOEDkLFYbWQf2FVP8LrfVo/
-+oCmLDOCe4B2+m9Up1UvOqM+mEgkAjGc9dbdfwac6sqWlP5pF0e0/vbk24dK7FRw
-f3gsUDx+JMwhGr1RYS3cz/Xs/hI8jevQkd6vvPHbqJPLEVR8QU4=
-=EpNe
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgC+xsACgkQ5Vfn9vbt
+T6o/kA/7BQq5Q+ttUZi9cOoplutRF92wTPapnsusppfOjI3uqpQA7enZ4gsfr38U
+4dKdAWdw3hepJGgVz5nnU95HMtYgvD2gpKwlXOuRD2NbT6LPqqeu2v8SMFCSpTK+
+a6wxbFJ9zJCbbqjuLwcwLjSYY11IcTL12Fc2tctZsZmS7gKTrY0xJ4VPO3JS2+Ka
+tVNZlib6newG1fttWb/FzM4sG3b9MK3wCg1UH1/niO/UQ9Qfbq1t1WQfyRHILJ4r
+YlFDa3IGws7s65sBA8X5LsheoaL0CTmkrI6io9Xhkq4ummgoItL/knGcklqzSJxv
+sUTOFuMOIsbegLVbgmzCt1lBhvhLF8QRkXq4VJY5EONqDVIa5aL0Gb/uxlt991Yf
+7emlmZSI1G0BXvbtKO/5AznOZqCT/rxR5eBlc14t59yN4OejLezDVjACngZcdesR
+Vvo/tLusw7cnUvb05mDGFJgj0AjGjPnDBIm9SeXQClYc8Y631LvSPPCVwsYRRMOT
+e4g3vhvUwPe5Q80o0H3LlQbSSZ81jdM73VSImMcIuRh6hTn8u46AERhCgfm0fhzY
+Tye5fzPwolpocouHLQgSGOZiuSB5pQ0QvC8ZlWWk86Hz24/dwkAh/kYg7arfcyBH
+zQtDASiTKlVImVpXpH53TFACIwuf/dF+qEp3kUllQOWd1W9BjmM=
+=S9SX
 -----END PGP SIGNATURE-----

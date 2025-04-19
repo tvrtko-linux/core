@@ -29044,33 +29044,6 @@ Description: OpenLDAP libraries
  These are the run-time libraries for the OpenLDAP (Lightweight Directory
  Access Protocol) servers and clients.
 
-Package: libldb2
-Source: samba (2:4.21.5+dfsg-1~bpo12+1)
-Version: 2:2.10.0+samba4.21.5+dfsg-1~bpo12+1
-Architecture: amd64
-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 622
-Depends: libc6 (>= 2.34), libldap-2.5-0 (>= 2.5.4), liblmdb0 (>= 0.9.9), libtalloc2 (>= 2.4.0), libtdb1 (>= 1.3.14), libtevent0 (>= 0.15.0)
-Breaks: samba-libs (<< 2:4.19.0~)
-Multi-Arch: same
-Homepage: https://www.samba.org
-Priority: optional
-Section: libs
-Filename: pool/main/s/samba/libldb2_2.10.0+samba4.21.5+dfsg-1~bpo12+1_amd64.deb
-Size: 174932
-SHA256: 9f5e3b3804dab1611dd942b365e49216f4daf9881159687a56716e05230c82e8
-SHA1: 446ec38c7870f6e9ea5077d8c093769024216ee2
-MD5sum: 6d540f00962e3ce261401ef1c7001e3d
-Description: LDAP-like embedded database - shared library
- ldb is a LDAP-like embedded database built on top of TDB.
- .
- It provides a fast database with an LDAP-like API designed
- to be used within an application. In some ways it can be seen as a
- intermediate solution between key-value pair databases and a real LDAP
- database.
- .
- This package contains the shared library file.
-
 Package: liblerc4
 Source: lerc
 Version: 4.0.0+ds-2
@@ -35582,27 +35555,6 @@ SHA1: 73ae9ae2e0287cf58389ea622f739775e17717d6
 MD5sum: 923f9e17b8d39589c4b8e078788a7bc5
 Description: smart column output alignment library
  This smart column output alignment library is used by fdisk utilities.
-
-Package: libsmbclient
-Source: samba
-Version: 2:4.21.5+dfsg-1~bpo12+1
-Architecture: amd64
-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 244
-Depends: samba-libs (= 2:4.21.5+dfsg-1~bpo12+1), libbsd0 (>= 0.0), libc6 (>= 2.25), libndr5 (>= 2:4.17.2), libtalloc2 (>= 2.0.4~git20101213), libtevent0 (>= 0.15.0)
-Multi-Arch: same
-Homepage: https://www.samba.org
-Priority: optional
-Section: libs
-Filename: pool/main/s/samba/libsmbclient_4.21.5+dfsg-1~bpo12+1_amd64.deb
-Size: 94984
-SHA256: 6c5331eaa3510cefea18b4f7a8abc370a12cc489fdfcbf6f551488e251678ee0
-SHA1: d23876d85f4c15801b46c7e39117ba0f5260a1dc
-MD5sum: fd27976ebba0abbd4f619f642a37cd56
-Description: shared library for communication with SMB/CIFS servers
- This package provides a shared library that enables client applications
- to talk to Microsoft Windows and Samba servers using the SMB/CIFS
- protocol.
 
 Package: libsmbios-c2
 Source: libsmbios
@@ -60229,28 +60181,6 @@ Description: Qt 5 Qt Quick 2 QML module
  .
  This package contains the Qt Quick 2 QML module for Qt declarative.
 
-Package: qml-module-qtwebengine
-Source: qtwebengine-opensource-src
-Version: 5.15.18+dfsg-2~bpo12+1
-Architecture: amd64
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 438
-Depends: qml-module-qtquick2, libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5webengine5 (>= 5.9.0), libqt5webenginecore5 (>= 5.14.1), libstdc++6 (>= 5), qtwebengine-abi-5-15-18
-Multi-Arch: same
-Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
-Priority: optional
-Section: libs
-Filename: pool/main/q/qtwebengine-opensource-src/qml-module-qtwebengine_5.15.18+dfsg-2~bpo12+1_amd64.deb
-Size: 74816
-SHA256: bf799924f08deea8f0e435c7bd6b3f216444162e4df4505046e58ed692acd20a
-SHA1: d66290f0763e4b6ac8ce019cffd2ac7b371883b3
-MD5sum: dca6e1f3fe1c0e036537a4439ba09326
-Description: Qt WebEngine QML module
- QtWebEngine provides a Web browser engine that makes it easy to embed content
- from the World Wide Web into your Qt application.
- .
- This package contains the WebEngine QML module for QtDeclarative.
-
 Package: qml-module-qtwebkit
 Source: qtwebkit-opensource-src
 Version: 5.212.0~alpha4-30
@@ -61049,33 +60979,6 @@ Description: control and monitor storage systems using S.M.A.R.T.
  Reporting Technology System (S.M.A.R.T.) built into most modern ATA and SCSI
  hard disks. It is derived from the smartsuite package, and includes support
  for ATA/ATAPI-5 disks. It should run on any modern Linux system.
-
-Package: smbclient
-Source: samba
-Version: 2:4.21.5+dfsg-1~bpo12+1
-Architecture: amd64
-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 2093
-Depends: samba-common (= 2:4.21.5+dfsg-1~bpo12+1), samba-libs (= 2:4.21.5+dfsg-1~bpo12+1), libarchive13 (>= 3.0.4), libbsd0 (>= 0.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.0), libndr5 (>= 2:4.20.0~rc1), libpopt0 (>= 1.14), libreadline8 (>= 6.0), libsmbclient (>= 2:4.10.0+dfsg), libtalloc2 (>= 2.4.0), libtevent0 (>= 0.15.0)
-Suggests: cifs-utils, heimdal-clients
-Provides: samba-client
-Homepage: https://www.samba.org
-Priority: optional
-Section: net
-Filename: pool/main/s/samba/smbclient_4.21.5+dfsg-1~bpo12+1_amd64.deb
-Size: 473196
-SHA256: a6bdb0240f75fc45e8f736286068ab9a9027b4204fbff4bca7cf518aefff647d
-SHA1: 51afc9d0eeb07d08c27428e7a2804be43f23c483
-MD5sum: abc13333e9dc2e5f737a1a3e73213114
-Description: command-line SMB/CIFS clients for Unix
- Samba is an implementation of the SMB/CIFS protocol for Unix systems,
- providing support for cross-platform file and printer sharing with
- Microsoft Windows, OS X, and other Unix systems.
- .
- This package contains command-line utilities for accessing Microsoft
- Windows and Samba servers, including smbclient, smbtar, and smbspool.
- Utilities for mounting shares locally are found in the package
- cifs-utils.
 
 Package: socat
 Version: 1.8.0.0-4~bpo12+1

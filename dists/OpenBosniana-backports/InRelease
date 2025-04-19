@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sat, 19 Apr 2025 00:00:17 UTC
+Date: Sat, 19 Apr 2025 01:23:38 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgC55EACgkQ5Vfn9vbt
-T6r+lA//c6pNWTzReXPB7ZjEwBJvBRHCQCVzR7Na2+UlI/ceY6ic1aoyFzPfqZGw
-NFDbcLyBYgYNh7QgjxnS9IgUbbvJkrRk3KwNvGIPpQdeNZXoLvabnM3m2ZOzFBhz
-a9I1wkqc7VAZ4mck2MSIdY5yi4YowGG1qudY/MvkXuM2Jv8ZDKk7KHDCmY86NLvM
-Ienco2snGkSCtiVjWRyrFUNiNB93eXN8Qb70/X9NEehznonvW1wVq3IEAo5x2Ouf
-73hGiQ8Lr7twhl9YGOqWRlmUUZJDxMiU0gFy2541cEbcqi10OryzSD9KP2DlgEp8
-5NxQLU/8Eq3x1rm+9I2QLfYP4ztkrRkbRCTqxrEl5nlUNocYvB6Q0gZdPqPEQ80j
-ThZ5xlKRTtGLwFC6dO0WPb2jtdj+jeiBTZ++C2p/qFPySMw+0p5URYQKOuulJlLo
-AEiZisnHN5yA8YaxOib5620uqEdjIEMnlAakwrf68i7op3v0YJLUu3ToXOeNamHv
-Z0G5jRmilLfDQzWIGV9bjtCcL4GAeCsfTn8aQFMZDuJ3FdLAXd9Ur6pUuTffi3a3
-aYA/zhVGZRILbURKkyK01mIqo7NVLINXW0ivG5SNywkleD/FgNXLWv3Ufzzs75+z
-Oma2LLReQxAl5oXj9gqQ9BCSsBv56hHS98Le1nBFsjWFScQnQ7Y=
-=jLDY
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgC+xoACgkQ5Vfn9vbt
+T6oJ1g/7B6eH469/6niIv1bsaG0VX3vbifCbt3anEovQjsKPLuUbqz4OACksrHHr
+UOr7y7z8HKAi6NwUGO1ifIo2BcgQ++IQoVOqz80z7sun06a9LChzysl2dsrMmfSg
+bs1SkoOGMifLErgxjIpiH+++FY19LxsjPLR08AdTdjJ4WZ5jU7G0sY8u2/PXh6uK
+j9efNcnyoe2fE82nfLPb0e3MZiCFelOmjtA+nEbU0ywkHn2+P+bk1CKjlGZzztjw
+wdu+EwGKC7nj+5kCoHPHB3THB60kl8o6+CEokjkKEXymrgUvgtl+/z3/CHXo2mtq
+fTdH14+d1UKo82SLfGJ/xY+qlzrMzeQEl/FnF3buSGosM0NNW43xGawngnmQ+5XT
+vPckIufsar64MuQ3gJslUStsBWSZfEpb+s7ZR+6/1I4yOeOu4G4KkGwS1E7wT777
+US9x0eIK3+MB4GUfXgBWBhrReooXk+4nUFcka7eBDxTne7bDJft5DpsHdPbG72KG
+BzD+OvqWibhs8OgYA+BeiKO+Mk77zyXC85A5ZDZzPWafKtcDEpBm3dHlEWNpP2M+
+C1v2zYG7sali1IL0bEk9/8YrkQzgwVZVyPp3XmQBDrLaE3Z6HivjZ/z9XT6elHET
+gQDd9nWRF0qG+F97WK1XoxNUudPF5n4p+hCWTeSidWHrCH2qzbg=
+=COly
 -----END PGP SIGNATURE-----
