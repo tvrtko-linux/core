@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sat, 19 Apr 2025 01:23:38 UTC
+Date: Sat, 19 Apr 2025 23:31:03 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgC+xoACgkQ5Vfn9vbt
-T6oJ1g/7B6eH469/6niIv1bsaG0VX3vbifCbt3anEovQjsKPLuUbqz4OACksrHHr
-UOr7y7z8HKAi6NwUGO1ifIo2BcgQ++IQoVOqz80z7sun06a9LChzysl2dsrMmfSg
-bs1SkoOGMifLErgxjIpiH+++FY19LxsjPLR08AdTdjJ4WZ5jU7G0sY8u2/PXh6uK
-j9efNcnyoe2fE82nfLPb0e3MZiCFelOmjtA+nEbU0ywkHn2+P+bk1CKjlGZzztjw
-wdu+EwGKC7nj+5kCoHPHB3THB60kl8o6+CEokjkKEXymrgUvgtl+/z3/CHXo2mtq
-fTdH14+d1UKo82SLfGJ/xY+qlzrMzeQEl/FnF3buSGosM0NNW43xGawngnmQ+5XT
-vPckIufsar64MuQ3gJslUStsBWSZfEpb+s7ZR+6/1I4yOeOu4G4KkGwS1E7wT777
-US9x0eIK3+MB4GUfXgBWBhrReooXk+4nUFcka7eBDxTne7bDJft5DpsHdPbG72KG
-BzD+OvqWibhs8OgYA+BeiKO+Mk77zyXC85A5ZDZzPWafKtcDEpBm3dHlEWNpP2M+
-C1v2zYG7sali1IL0bEk9/8YrkQzgwVZVyPp3XmQBDrLaE3Z6HivjZ/z9XT6elHET
-gQDd9nWRF0qG+F97WK1XoxNUudPF5n4p+hCWTeSidWHrCH2qzbg=
-=COly
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgEMjcACgkQ5Vfn9vbt
+T6qstg//easxFBS2E0G8VphKjVEK7IhY5OHEzXq+LUMSnHXrT671DvA0/oYZwX+n
+aet8Am/1wm9vCoMJ6pYtwD89mAOtlBhUEw4BHENyNH+tw9lffDXkWQLv1bUoJa67
+3TB7D6dzKuN9z8PMOdnekHiLAAtcNkcHEwKn97AKn8c3h0bgXhFjwNzt2Ucj3tK1
+GPJcDJosuAeybcx3nzTEm89PprmWCFdJVcoqX/qo93KHMLlAxSPeTd5AC/3hTjuC
+/j8D+moD5mkA1puCiSELVteWVuta/g33/4cI5TL/cY6yAZP3eA2BOOmBB2sFoBDg
+sIfYPIm6VGO7JJHmkTL7ESVkjbOuULC+hZ1018kNPRxRn5ivorCdJQQ3yzmyROpf
+jtwCXzzv1/KOvaRZ4TWHJGZwTBJvTUZUjAcejnkwNy/RfvS1wmhTV+2LUQMmhcjE
+OECxo39HV9epw26KjvdS+kvty7Jd2LYmvGwjHRjXGrhoyS7WyAX7s+4tHkp3/xeh
+M2m0wntjnYqI3MnzE2nb6RsGg7sFB/XamgIvdMu81qqPmPbazrDDK2sP5lrFPymc
+mXYtbqbBirQZBFCANj91X6fROxd6Y6KPZ8u+u77WatDjZ/7M0jmLU7heWxXIZ55V
+ihMA3eUMrJMw3UumG7JLgmaobKB/4gcCmoAdMe3sYm9TydfLCpU=
+=vDxY
 -----END PGP SIGNATURE-----

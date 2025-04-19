@@ -5845,29 +5845,6 @@ Description: Generic Graphics Library - common files
  .
  This package contains common data files and translations.
 
-Package: libglib2.0-data
-Source: glib2.0
-Version: 2.74.6-2+deb12u6
-Architecture: all
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 9405
-Multi-Arch: foreign
-Homepage: https://wiki.gnome.org/Projects/GLib
-Priority: optional
-Section: libs
-Filename: pool/main/g/glib2.0/libglib2.0-data_2.74.6-2+deb12u6_all.deb
-Size: 1209764
-SHA256: 6d841ace500f915932cbe4d5d8a699095e6a8dd9f87535becb46a8f5d8ba86e3
-SHA1: 93527099e8e8a1979c95a4e1f745c2bdf5faf151
-MD5sum: ed6ce6a373af7b393f33cf3c264b0ad1
-Description: Common files for GLib library
- GLib is a library containing many useful C routines for things such
- as trees, hashes, lists, and strings.  It is a useful general-purpose
- C library used by projects such as GTK+, GIMP, and GNOME.
- .
- This package is needed for the runtime libraries to display messages in
- languages other than English.
-
 Package: libgphoto2-l10n
 Source: libgphoto2
 Version: 2.5.30-1
