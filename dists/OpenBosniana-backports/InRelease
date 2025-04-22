@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Tue, 22 Apr 2025 23:33:48 UTC
+Date: Tue, 22 Apr 2025 23:50:03 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgIJ10ACgkQ5Vfn9vbt
-T6otXA/+K9A57Gz+bpVzLCJeJRJTKHw345Ab3KHRfLyYKr6ucLvCsb/clJAN1bsj
-hTX3Q13XGbzuxUVeacUuVgpCkp/8Q7Wyj4H2mWwJXqiJDB6PrFVc/EvIFY5Dplwu
-ny0Rug+crOc8S0z2Juve0cQdIEH4npnp5HMEkYDFpxe/Pt6+zQbxzpXRotT9/D3l
-5h+bOR6EL2FovrvdHkFUEem+Umzcxh+q33AXJXxrlG45+/QMG8nxrqvdpUSn1ABz
-Y0V9qbg2WEZOoKRlXnTUzyYa4zu79iLR0hPWiBazSKmlpL0ppVGzr7UuXgbmeICG
-/sNXYI5fSAFLTs51lOk9BiZz3/PqANwtAt6X0PWgshL5zUUrqTusX6Vf++d70QwI
-czAVtoJivViRDsjDCDSxg8c0mfl6OsMwV6um5bRGvN73ZqJjeJxBeIM/4mYSJ13c
-Sd01avhxO6MVaIe/kLtkhAMKJFufSbEegGWrydrrNsMgCxXXmOLjsqk6OfBtfrku
-OK73BmPibRQJ4B+tr2C4Gy6uDCBYCK6gUH7N9afrbxu4+fOIe3OMh3miI9WDVffl
-KbGi9VhQI6cF6Awpze9oOpE2YAbyjLYUdZUH5rV5GMZSv0xr87tEtkH8lLKsyrI/
-goUGdonlKuwBs34Wgi5MhdoL+o+5fZyLCYXPZQppnY3oug2pOTE=
-=pZL6
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgIKysACgkQ5Vfn9vbt
+T6qMehAApsJNlcV/cPJZ7hV2fqDE5oDg35jOt7i2fzOtlvRgccVXaWiXeSKDGQ/a
+JmJbqOMShiQ65wH5zBp3CNPoMcXSD0I2oRmBDBWRf7iPEADX6gnyDBzeC6svbXtp
+pnZTOxHuUHzJ0Kie7Nl2B3GkbcpOBTD/4MS0qdYaox8Uvf6eRqMSIYvXPj6etbiv
+HV3G5S/DzpgdOInL/x71LrsAOW/7VRr1CznOwIQj3wqlbE7SkCBnnAaKDwxSuQlv
+SjxftFWKm3iAjkZZw2uFRKXKPLTPFCkVnRlC0Hk3kyVx0E94VDZ+e1F4quxn0DAN
+4qTH1GB7ZFNuEWk3J0xBprU03RK2VBZVisJ6jnf6zPPw8j0cU1hGErHR9vkTE1i2
+37Wh3UcV7qMVyN3kSZsL0HZsWwi5tDRwSXxMpC5g+1jU2hQeE05N8285pssWnM8n
+DvunLwcCVGx6LvrhM2Xsb8FYWqI8Moi1zsv1UcDLOQq8fmpP/lu4WToI4t+3hUMY
+/e/+GyU3V+z6URphjJhUoEyQ6v/FaEvCYO5v+ZIz0dsx7vy8PmOgEDW0bxMjU1wm
+CzlVMIO/7qSgCNAC8ijhrmfYB6pSYiGTI7MdWAYTWb2Pxbi2v3sq3cWGagogbvKc
+Rj2ob3o1HhuM1QLRx3BE9BO2joZucNGsdLkPg2D849rC3KY6SSw=
+=IAnq
 -----END PGP SIGNATURE-----
