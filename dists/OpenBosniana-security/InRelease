@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sat, 19 Apr 2025 23:31:05 UTC
+Date: Tue, 22 Apr 2025 23:33:50 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgEMjkACgkQ5Vfn9vbt
-T6omXg//dyiS5OcwprtOP1ueLw2HOA7NWh1TRMHa1Lo4WU8eJqFkqPSDj+R7vzTO
-Pw2Hi2w0KCjKBRcJ7Wun6iu0xJYglw1c/FgsIpyecfA5mMhqryI4+SgAkZfRyjpi
-eZ6ef1YqjBwWLMttO37PIvv6/qCIXhP8wcen19KEATFYRhjeeM0p1Xry7dV2f6qF
-UssEw3yZkZFlSi7H2KLRuHVh5RlRZjTWsbJqmmqcRw3rauF3F4I959zjl40UnHuy
-9NR32bbGcvubApvcStY6XggQ6+xfhxfwQQBhmEboHmqdo6QT9onMkkhaPYggbzYW
-j2XTVWcIcdEqUbR/+n1LfSMCRvgIGO4JWItOAl9IGJjCxolBeuwjFHTvFmaoJczI
-OcsmRoKWVVIseGbqzQHVxZarKqLAd0OZlwBBC6OezjdwGdj6BF8XLYHLX2widQAt
-cKKQbIx7JrSGh8jy448RruQUAWYN9ySvOd3EOll1c/eEjX3akgs7xWVerjYbgiWV
-If//fQkE21/LTw3B2qlvknN6YEP4/U0oG7rAo6RdObWHHW/OV8zTmuek2rXleQmD
-Swm62dnwwthQM5eFApsJFRuGIVIfx2D1yiHm1h4/u22LpeaLpTRnZNwD2L2IwnkY
-97uGW/midajAqwiHbkD6rlDMLgR/gCGwZepSm69rbsXyDGcBqN4=
-=K8vC
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgIJ18ACgkQ5Vfn9vbt
+T6p/xw//SBKJOYMsWL000ByiYfA0ok8yoniBS807noAZOjAEI5WYVxGbuarZmv09
+BQ8uRv46nolxJe8PiBvgxszG90u9Y9vju6SqHQGR0rnuDrlDOp64eUWrzM1uJd5Q
+RZYYLf//19lcLbC6Al3yXjq9sQF2gfVNmkzyURwTx8pWyQxtHqMkFjBkOgtLgEkX
+6LU3CNn/yp6l1iUKWkpK1Vv5Z8+SpJ1q8G69FFU5KLT1pRgUG2EgAMwIYp51VlUv
+5KmUZukEca0JPCUy4vSs5Js5eFSYKoi79iKPM3O3UaYJVOjZZxFqBzqIfnlE0ODQ
+TCqtmNJl3KUj2ml0AbqZgWuGjlzDz4XP1Cv5TeNYOt9FoPELb/G+A0AQR95lkx3R
+/yHNycK/ts3BMVdO3MjFX69hRwwoQPNviaEUhNAEeRVG9hObp2PdyC14fkDJRQl/
++Z12GSyQcDg6kBoTAsuiici9e411BzVDQNwYaS/IhNLgoy68JMvHxIliER5/txZs
+8Q1aQPL57zJTXJnNXey0yPuBVpm/pf8G2O+TjbuI0OnbjI5wlvn4L3qy+th+Q7Xg
+UqOkdTYkWV+UL+fUPMtV5ZTy8EjJvikr+fKIiffmnsV6ZzPxdkmM8J+2piNeEozW
+cdL3X5VqGZknqzID0AYTNfP/TjZysY7tvQUEbyCFIV4S4pFvfBg=
+=KxWf
 -----END PGP SIGNATURE-----
