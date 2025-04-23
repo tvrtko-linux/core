@@ -38764,10 +38764,10 @@ Description: audio codec (lossy and lossless) - library
 
 Package: libwayland-client0
 Source: wayland
-Version: 1.23.0-1~bpo12+1
+Version: 1.21.0-1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 90
+Installed-Size: 89
 Depends: libc6 (>= 2.28), libffi8 (>= 3.4)
 Conflicts: libwayland0 (<< 1.1.0-1)
 Replaces: libwayland0 (<< 1.1.0-1)
@@ -38775,11 +38775,11 @@ Multi-Arch: same
 Homepage: https://wayland.freedesktop.org/
 Priority: optional
 Section: libs
-Filename: pool/main/w/wayland/libwayland-client0_1.23.0-1~bpo12+1_amd64.deb
-Size: 26400
-SHA256: 0f00e0f00b8746d6a02fbe6c91708d290c26271883778c555569444f97028d9c
-SHA1: c03f427cc10004626acb0a12d0effd5d5415d2a3
-MD5sum: ef815cfb72d7ac7d49bba5693ffeb1b8
+Filename: pool/main/w/wayland/libwayland-client0_1.21.0-1_amd64.deb
+Size: 28320
+SHA256: 1f002d028b8b79eec9847c636d8886d10dfe8c884cc2bebe18086b1391c5a28d
+SHA1: c802807bfa947425fe9ea0bf607f89740fe32873
+MD5sum: 8eca08a6899fb386383502099a225d3d
 Description: wayland compositor infrastructure - client library
  Wayland is a protocol for a compositor to talk to its clients as well
  as a C library implementation of that protocol. The compositor can be
@@ -38821,10 +38821,10 @@ Description: wayland compositor infrastructure - cursor library
 
 Package: libwayland-egl1
 Source: wayland
-Version: 1.23.0-1~bpo12+1
+Version: 1.21.0-1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 30
+Installed-Size: 33
 Depends: libc6 (>= 2.2.5)
 Breaks: libwayland-egl1-mesa (<< 18.0.5-0)
 Replaces: libwayland-egl1-mesa (<< 18.0.5-0)
@@ -38833,11 +38833,11 @@ Multi-Arch: same
 Homepage: https://wayland.freedesktop.org/
 Priority: optional
 Section: libs
-Filename: pool/main/w/wayland/libwayland-egl1_1.23.0-1~bpo12+1_amd64.deb
-Size: 5460
-SHA256: 6f8788873e7f6cc0eb27cc0f519fd11a540d63afe1fbac9fa53ec94fa38a0bfa
-SHA1: 6614d94dfa2a860484ec11928d06a2657c728601
-MD5sum: 50a4a2d24044b57e7c02b15f53e31014
+Filename: pool/main/w/wayland/libwayland-egl1_1.21.0-1_amd64.deb
+Size: 8640
+SHA256: cb4225f0e15e00a3570d4cbc288c87ff477d73e741c3f1c5a6d47cf350d45378
+SHA1: 3778a148b2e67e38bc09f71705cb8c873682f6d9
+MD5sum: 149a9237fd98bb13ce2e94737e693621
 Description: wayland compositor infrastructure - EGL library
  Wayland is a protocol for a compositor to talk to its clients as well
  as a C library implementation of that protocol. The compositor can be
@@ -38851,11 +38851,11 @@ Description: wayland compositor infrastructure - EGL library
 
 Package: libwayland-server0
 Source: wayland
-Version: 1.23.0-1~bpo12+1
+Version: 1.21.0-1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 112
-Depends: libc6 (>= 2.34), libffi8 (>= 3.4)
+Installed-Size: 111
+Depends: libc6 (>= 2.33), libffi8 (>= 3.4)
 Conflicts: libwayland0 (<< 1.1.0-1)
 Breaks: weston (<< 1.2.0)
 Replaces: libwayland0 (<< 1.1.0-1)
@@ -38863,11 +38863,11 @@ Multi-Arch: same
 Homepage: https://wayland.freedesktop.org/
 Priority: optional
 Section: libs
-Filename: pool/main/w/wayland/libwayland-server0_1.23.0-1~bpo12+1_amd64.deb
-Size: 33804
-SHA256: d0d1520745347cf032fa2c0844f6a306302b38f33425417e77cacdffe6140bac
-SHA1: 43ba64fe3f6a49ea544ba40745b160cbb07bb350
-MD5sum: ab41c519eca289f6fc8def5776c184e8
+Filename: pool/main/w/wayland/libwayland-server0_1.21.0-1_amd64.deb
+Size: 35876
+SHA256: df0396221d7b794496a687ec61fae82b6465648bc0ab6501ba0a5ed7f56eb8d6
+SHA1: 29f69d792d7bb0de9e3834334e00d0513a223e52
+MD5sum: 42f94a440aedab24dc1ae5fb7d91651e
 Description: wayland compositor infrastructure - server library
  Wayland is a protocol for a compositor to talk to its clients as well
  as a C library implementation of that protocol. The compositor can be

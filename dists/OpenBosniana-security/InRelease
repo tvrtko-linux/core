@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Wed, 23 Apr 2025 11:47:16 UTC
+Date: Wed, 23 Apr 2025 13:29:11 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI00UACgkQ5Vfn9vbt
-T6pWYQ//eQ5z1EpJcSSBow2+/3KskN9tqqnTAA+SUfmtDriBlFQw+NFHdXx2lm+d
-E9rJMYKphPb0a0CeaApVa7AhoGb7X9js4cHIqKLQcD7+nCmgeIT9Bdp29zENVxJN
-RQDn6mrogvOdQRERaGa3sV7yiqi1wRbxueFBkANXOB2uMB/1fUZSvK7oB0Ae+JVf
-IJpMTbUPrFA5u7Mdxi4eUIcSQIMTW83LzX582Y8PEnGN2l3uXh9/1IkMbXV2xakU
-jt9rLLAS4NGLpqV+RMVMyYZpwgHzyJ2KftJdwr/9S3sAO0ZQW2amZpeRwmbJQkVU
-C1tu3ZEL6XNZMeqABkCJbSpefcRgE/QLkiq6f28knpbR+gzvwGURYTZJJv/fQ61J
-2HBj+lxdLxZlmq8+r9QXO6c7FrhGMg4BNp4BkQB+IXPIUXaJOwuKCFmWRs99mIJk
-vRSF3dNrh2Qcz46onnOHo8vrL9jfJCyE7NPrv6TrgMMD6lt9qLWeDZrP03JwbAG3
-CqYmAFvI55eADebkEsWIiIARLiI8wdtcClkRjkdYje6/NtuZutuPHj7rjbBCvc9I
-9DErvM26viERIK/Qzx5+lS8N6l1R9+Sswr0UqI1VEubGyjuUPXLxK+e8Y1Z7GNy2
-0UjjxFpX0VDmvI5TIXGgoBdUxYbKhP8t3GXZfSuCyczPvqUx4Fc=
-=x0xv
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI6ycACgkQ5Vfn9vbt
+T6ofTA//bnNs5WzkqtWmq8WDrQ1ZlHjfDqMekJzdSPcrsLv8/YI0b05KsbN7z/E2
+qfgXzPMRq1Fj6/KIrD3iKHvx68tgEb81r3W7A/6y08EV93Js6SZsfOXUnroc6lCV
+X9uSHFZyXRp5INvMYwhyMphY19o49sEC0dG8BxyjFKFn0aqe4Zb2UCQqGKF+kHMH
+Yub+LBNEz2eUnsgH2MTy3B+t9GiLH7C8Dh1/9S+vJnETRIewrnVbDl6QoR2VICEf
+21Nzcn/G/uyPT6oNKDrrgv6j9j5p7Ohf2G72EhOKKY2kGnK9dJq+YNzIV++1Tbn8
+3N9t+dRIGRVkMlwl4kyXma6B0bEbZJSb93vo40Hf6LPRaZLdRT64HZUR04UvzuIQ
+IPgmiQsZEYhrSCf/ZMj63CU399knpnG8Ez++quWLNh9VY3I0MTRFGvmJUn1yxWpz
+eQgmtT6gqGHVxH0xJgYH9rrbnDHZs1s7XdSxNcptW98zfu8+YAzVPiabxi1T3UlJ
+7BotdeS2sc8vcgWdYm4vlN2KSU6+lErkjibA26OznNO+r2robKFxAM9lXcIouIC5
+1j2OEGmPfkJzzNUEyCf64mgwlin0u8c6QY8rdlkiLmAZ08IHTU1DzmcfUEcgamZ+
+DSVngPq2syiS1iI1JXgOes8XEYd+o0mMF8nWigpXqFpYGl7N7Ks=
+=Csx+
 -----END PGP SIGNATURE-----

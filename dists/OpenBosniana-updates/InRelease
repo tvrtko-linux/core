@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Wed, 23 Apr 2025 11:47:16 UTC
+Date: Wed, 23 Apr 2025 13:29:10 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI00QACgkQ5Vfn9vbt
-T6pJyRAAwh9Clme6qfv00hVOex+ikgW+CDX7ldCsnmUZbV1aTi/vCzeL1aequ2kb
-Hirr1MtOWp8hiLCIHvfQI2+NIHoE4XmE/moM90lyGPdRJNpefxWKt2sfG4rYaBaT
-7yljN0mmXVDk5tCin7T9Me0XYGnJduX5JqwMSLUtJXVaGvtf76xgvmysqgeyvxKv
-amD3mIKVAy977x9R8+FnOVpKt1WH89tJ8F8ITWsN2b4SIKSPV7lGRir+6sHxcLqO
-xaq20ch3+uPYj4Gg7efznmYLxehjh/LsZUYe0jxMXjZVfp68drJfNV0JzOdbfdc0
-VhKiYL11HaMMYYsTuOoDChL2/oOc+6gPAmUEMCHdLkEql+CQbX35WM3KpF0Yc55F
-8FcXtCrphlQB7vu3ugwhyff6qs0NSJz5fd3ONrdLEY+SYJc0nnECMMojMRdvJ8IT
-4f2GU8f6LekpB48SyEbgl91bhgaf+aV894vq0vhYQ53I55Y2IwQIq40hgSAwgZ+4
-GskszmtTQj52NrYhBpJPf0wPXr7nd4IuGZKorcsRM/MPMX0o2rcHvi8sr0Cgoh68
-CGZwt/BcLUHaATBgwBwRlbepG7s0PE5G3jLRns/vZu/ld5kdSzdtl6wP9iV81N9U
-9easX7kmB5iBIMyLxgt5qj5x0Ztw3vnqFx/XSnCO5HITY+YaQ4A=
-=Exok
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI6yYACgkQ5Vfn9vbt
+T6o1oQ//UEETfh1llAULUfoBJ6SmJY4iRhL699zCYU5eToIrv4quNNtmSMjHyMQI
+RVxaXpWIYHRxaburGFojuHWo7lDRfSarugwD2WwFvViEpmrCY2np14jEs250wswk
+f8juV/B/ZVuSgWGci0w+wp1QuLUgeAT4W/dP4tnF7OlYjLYODp6GFgujzuhIQpxS
+cN04+8uUBqgO5z/PNrQv03ZP3HWbwJGm8J2iD5drv6Tq9GFkEi278JnKr2nfZr1h
+HGoVJdCrmKyyGNdl/fFNy6X23tIBEekiUSWjRIZHlCbFrLEz/nVcO74gvFe5JSqG
+8+zuSmMtTFcEXiTcNOqCg0H/RQiT6944urgSHvsVfVNJGp0xVg0STvAkJt/R8Rgc
+decxZmHqroIW3D2C8q2zN8XO6upGBmP8AYvaVlG2QQjSVrRgm5TEWZo0oC4D9TKN
+oYM2pmMPelZu3Rw9WjpNasmV4p/8ZlJQXbKP7v3nU15KafF8hFjHU+vu+pCGbszE
+oV7A2J1SAp8cezsy7VqEyt2RICXZZdyWWxcKATJhnO6xvjYU7LX6oMgLQ9Skylb6
+jA7pui1qggMgYjQVbBYxdKG7oHP6/IWKkxTR7x4h9aD1Fc8sAs2ykKUk3cjqsg3/
+uOQnQ9hRxUjuxoeQSaKVRa8F6gNjSniGZettR1dBhYsz/5ajsOw=
+=BWEx
 -----END PGP SIGNATURE-----
