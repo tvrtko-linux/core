@@ -13286,6 +13286,26 @@ Description: KDE window manager, X11 version
  .
  This package is part of the KDE base workspace module.
 
+Package: kwrite
+Source: kate
+Version: 4:22.12.3-1
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 353
+Depends: ktexteditor-katepart, libc6 (>= 2.34), libkf5coreaddons5 (>= 5.16.0), libkf5dbusaddons5 (>= 5.79.0~), libkf5i18n5 (>= 5.90.0~), libqt5core5a (>= 5.15.2~), libqt5gui5 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5widgets5 (>= 5.15.2~), libstdc++6 (>= 4.4)
+Homepage: https://kate-editor.org/
+Priority: optional
+Section: editors
+Filename: pool/main/k/kate/kwrite_22.12.3-1_amd64.deb
+Size: 123536
+SHA256: 374d9825e86b011318e66ae62054267abd5a5806aca95c0e6422071b90e8ca96
+SHA1: c3a19ba5afb373dd360d83133de8aafc89d48422
+MD5sum: 6af6169bfa81437ac3907d7570351a18
+Description: simple text editor
+ KWrite is a simple text editor built on the KDE Platform. It uses the Kate
+ editor component, so it supports powerful features such as flexible syntax
+ highlighting, automatic indentation, and numerous other text tools.
+
 Package: laptop-detect
 Version: 0.16
 Architecture: all
