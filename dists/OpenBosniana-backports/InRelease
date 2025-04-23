@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Wed, 23 Apr 2025 13:36:01 UTC
+Date: Wed, 23 Apr 2025 13:39:20 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI7MEACgkQ5Vfn9vbt
-T6qWgw//T683ixgKP6FPyLCpCc5aGifbPsLDG9x7EHjjHSALK9IoMlAdkb0wkzEr
-MCEsiuc5xxlHGkgPu6nEKKtOU596TtiCf7/clMttLKC6fPyl5Arkkt8yEpfbztLC
-YU5PrYmAzgvBgvaqn68Og2qd0NHz7b+5U28+92UNQCkbbwjj1X9OOQ2uILZ1xqt0
-TseqtFvCpQmpJE1IUAthfSyI90M4XlTt6oo0Vh1DjRysVgVurStcxc/1aQwgjlsR
-1T3LzEXJmwu7E5g9d2yfcxCmklkyhg5LJ4CGoeBcaFlBgfjiZaDwxnJxBRbiUeyQ
-kwRpzaIIX+EWXpC1LgbJ69yjPVxctxsdufkxbrYWhFZiLCYBzrvCpNZe/2rNh2Fo
-f6Xa4o3IKy6k0L7QRjUX6jupGPACrZh7eYjMdFgihpwlk3UrJraoStkotSsNnKf0
-EP745xS/PZh5W0pGpzsYT42keuqfv9okZ8ZGN2qRtDx7i1mvqRH6sFES/wgmJWQM
-wZVIt+7WhD6j/cev/LJkSL8hzs5k7h6bWOBye8HThlqrD9AowNPfHrsIOnDsRlHD
-nHcgnfKjzT7TZESyDir8suRUBTu3ln7KQC96SW81q+z4+mnjqq60eiMjHIMtmjb/
-FWLy6DKGXaIX5gFFeqP1P0E97I4gVdo0hMXDCC5zIEsEMV0BWrw=
-=F4lL
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI7YgACgkQ5Vfn9vbt
+T6rpFw/8DyEPP0xJiTVRuDy1FQ2nEW85xwhkpZzMkdNDzgdLrErgsGw1izQq9mmB
+1NQk8WqgHqdLhBuK1Q2RvkZ+JPeMfhFE023Mo0/sATEn+IS/o5nrUsE5p0GugtZB
++bLSeGVqizhm1No8a2Fj+raH+tip8Z+TtKOmQ4u2vIPyMd3WWQa+LToP5wtQK5Nz
+DfT77iEU5/9qTnW5BjiKwqFnPN/SrMh/pKWjXtZu4ak00LmYgmDL4YjVKYe/HmgH
+hOUQR6MkjhFQgFexU1O/falHo+zqlKmRfmTYDnLdbFMoQMimly++Fx8J0HTXi6F5
+iAQHlolKwlvlO7IUdbDT9fV63GWMXZgaN27T5B/c5OHR6q4Ve5KPAe3oLeJ4ZzoM
+khAZQG5m0ysf96rbpAucgjrtZoEOHfk2Ou8APdW5zqdJqJkcwGgfNtJOwZvb/Zn8
+NvwZReAly4FQdybXV3svgsVRr7wTkDh4zRlsn8i254BhoyoHJT/9EW3YZy8UsIcA
+bdxvJ2vO2yVR2WNSWA4DQhd2trfxrwevY5HDFrByGga7j2PyI62YgzeUm76B4tlZ
+4tvwpvTiykgibVJisSQBUXbczzSjvrPGa+Xgo9b/mePZ+THyerQY0U3Wmslg9V1C
+6VnzyHCsvrB/H/lKDRNvCbMmSiE0wiEtLSRN17QPfhAWVicYekA=
+=L13G
 -----END PGP SIGNATURE-----
