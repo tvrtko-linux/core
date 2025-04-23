@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Tue, 22 Apr 2025 23:50:03 UTC
+Date: Wed, 23 Apr 2025 03:49:21 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgIKysACgkQ5Vfn9vbt
-T6qMehAApsJNlcV/cPJZ7hV2fqDE5oDg35jOt7i2fzOtlvRgccVXaWiXeSKDGQ/a
-JmJbqOMShiQ65wH5zBp3CNPoMcXSD0I2oRmBDBWRf7iPEADX6gnyDBzeC6svbXtp
-pnZTOxHuUHzJ0Kie7Nl2B3GkbcpOBTD/4MS0qdYaox8Uvf6eRqMSIYvXPj6etbiv
-HV3G5S/DzpgdOInL/x71LrsAOW/7VRr1CznOwIQj3wqlbE7SkCBnnAaKDwxSuQlv
-SjxftFWKm3iAjkZZw2uFRKXKPLTPFCkVnRlC0Hk3kyVx0E94VDZ+e1F4quxn0DAN
-4qTH1GB7ZFNuEWk3J0xBprU03RK2VBZVisJ6jnf6zPPw8j0cU1hGErHR9vkTE1i2
-37Wh3UcV7qMVyN3kSZsL0HZsWwi5tDRwSXxMpC5g+1jU2hQeE05N8285pssWnM8n
-DvunLwcCVGx6LvrhM2Xsb8FYWqI8Moi1zsv1UcDLOQq8fmpP/lu4WToI4t+3hUMY
-/e/+GyU3V+z6URphjJhUoEyQ6v/FaEvCYO5v+ZIz0dsx7vy8PmOgEDW0bxMjU1wm
-CzlVMIO/7qSgCNAC8ijhrmfYB6pSYiGTI7MdWAYTWb2Pxbi2v3sq3cWGagogbvKc
-Rj2ob3o1HhuM1QLRx3BE9BO2joZucNGsdLkPg2D849rC3KY6SSw=
-=IAnq
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgIY0IACgkQ5Vfn9vbt
+T6pL6g//VsAt/9W1Igo06jq0MP5w0+MUY6mU8RuQ8FxqyFykirCDxtUKymOPd+k2
+C2GWvWIMZ4XOPXyIBzrmo7AJLiEM2Pro7GK3sxeM+BdkP6RN+I1TpfvQdJEpmrzk
+skyn4M97PBsGryfRiHcZCMjMwgbhAK0wPVm3IdDRfA++Gqy4bmGwwBUynswdFLe8
+5qT5i/up9wG23MR4ug4yc5n7GNsOIn2M0clrwdDKS8MS/2gdg/K5EG5Xu1OwFfIQ
+z43wiHe38AJWS9KasDDd6K+t3fLw9V1+754Xh8oSW+eLSRMwqYZlqsOo9u/V80np
+jEbuHBcMrUmIpTS4SUpUcR+p2IiHgN7LLp0j1penzVdSyyGPMPvz31Sq6HVeiS4d
+HQsJ8nWcTO9EaLredbcnWE+9ZpYJLjkuhE7FOghCjrc6+Ylj3l4qkK3QFgMgRngs
++LLwjlDwij1wNUcdTvoe9XMhWfNdsSRVuT8uyB4Pz6wvXKhdpHigfJleXM2juyhd
+Vq91qFDUPq1Lsx4u7SlXuxBplLvi1KocuCDPA+IeV+uUqJyEP+/mENdGR/asAuhj
+BIToY0BecrTRt2OALdhE6lWjKv7n67QZo0uym6YKMjLgW6DHtGAvU3TlYOKSgie+
+7eSMBdoU+owOueBoxDvGb6707JFhwJS5JUVHaKdthqc4pz6uuKE=
+=4jC2
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Tue, 22 Apr 2025 23:50:05 UTC
+Date: Wed, 23 Apr 2025 03:49:23 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgIKy0ACgkQ5Vfn9vbt
-T6oETxAAo4z+1Fay5cOjSRP6AH1/rxK1AFsoYIgf70tQWDziXCQMv3tjOzp+UGgw
-RD/59IF1csu02Uy3425YnEg0x20A4y6mzUkzoGvl1mlGqnkB2yiOnK42+wHYgD0N
-vBjRmWe3YX/GAzXMEEtCg9JrvnsWZb4087HedxkZ9LPGv5djMxZ6d7S3tVSBbz6D
-PnVU++2MJJAsgJ9bVokLImG1pbE6alJae5czT32+Z+Sh8+lIlY2hehPVWXVMiWt7
-RDscZfIqH5WCVjIgzTWPoz6GUTx4qrX582NY0xJ42kI9FEV6TIMxNzXbG2h+dXLa
-8IFSUuMe+vRr1zmptzDMlVnhqwOPX5BnsrLHN5ZgSW8QKtaOpKJXLqORpFBryqNE
-y+W00Cgn13Ud2w26mYKSxEFG0pbRgLJoDhygM8+SEhrkU+vjmtoHKz0fIWyaa2j5
-iAjqGlPp7+biQe1Fm2AKpZLt2nggAV4DOTnAb+heKCEm/1Z8F1TjUAqyr+5L7rQU
-E3Ruf4o/asFe6ZUzx6tGZNreKGNz98lQjZrR08L62Da+1wiMsgHy+WUMAqV5AiQJ
-bdgWGhenkK3lP6mBovU81oKOOFK6P6R0PZKKQPSRFi4WDGdJOpVq1IlPC/qUPx3f
-Ckz80gEZT3uiNtW/N8/Bsl0KYGfFO88NyY142kCyttcKcd+N6r4=
-=sNbU
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgIY0QACgkQ5Vfn9vbt
+T6qa2A/+KF/2sMBeZF9bEdp9kc3XHWRGFZJHX3WFzXbXHz64HQFcFOdYa/fPd862
++94stGpxgdegjf1QcyYuZlol01liviP26eMeN61S3fp7QTdcaAOpSM8nWq+tY1mt
+4xDUFg9yEl1NnEhrrTjtddd/2kgyQQWyDu2URsLvyztnfxXHzNlLf5kHR7Q7cpow
+Ua/go8oKEK7zlwfZrZq5HUmDybs2wAWVAT85sBPTIFO38sJIhnQ5jjwkG1WYiGNQ
+RTAUQhKLNuHWVjaYHKAyxILX8lRIPRjhmemtkyUK3qIyqnAKuBucBRHOHK6clg+g
+Z/w3TXLffwA65Ze0UlO8tClc94A8NfeVTrnt5dGN+t73Km/CLAduf34FZOg7qE9J
+WDFRAwK5zJbhvhsg0ojoJIrPsz/IuG9azk+nelu9+/71X1rzNbpGzqZAH5hpkh06
+Aq65qxVPX0373HBxxlfnlzQlg4WAej64qNj65awlRzL34majRiIw78SQ6CKwMul/
+LAbfWDntkCX6SxowLgqEi5WbUzeKar/4wLEs8w6/CPLTlqwCQGDMJMRvB08nVJes
+MmhyMCIYrzMXPdg10QKD8HW3pg8beeEoxOqU9czZjD1cimzT4ztDaz4uVW5OQYC1
+eujAfMtDmpsiSkCvZgFHW5ueE3K0Mj5aF6pDK526jUV4jOYBBkw=
+=j3b4
 -----END PGP SIGNATURE-----

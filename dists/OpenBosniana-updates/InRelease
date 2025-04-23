@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Tue, 22 Apr 2025 23:50:04 UTC
+Date: Wed, 23 Apr 2025 03:49:22 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgIKywACgkQ5Vfn9vbt
-T6q6SBAAqbmAgQzKf6Gg2pXhxKtwidz+yk0EEFwIJ7+PFNaALSOjBhNLtgLy2qDl
-/8LjZ/yLcQmE5i1PBp/gVL4XBYuvwMtUHaW+axPBQEGCt0yz/jENqqHk05iY/Kes
-FXaBKrfCD2Hx8AhPu2dd6PbQcWLckAHUOzXYcKRaOmxXCL920qmNzlFWMsjD6tmJ
-HVY9Jp9wvPAmp7qkFveI7IYaO5/xy4sPJ4ZWjHybHv6L+SVX9/3+i6PBhzUKayLP
-pszN4g9M0rmH9CTxIyZILiTLofjK5fXrfpp7pn4sVGVPUBxhx7o3x2TYo9QQn2hx
-thtdoj8lHuqlWiiLsdNup6rZgxUgqf3BRN/NLqphk7VfDFWbn6nqtKNpuK0gVh45
-dxzf8YuALeJjVOrSAMdXZtu26JoyF9WUsMpSdNgPGy8IzwxLgnexBTFgKrIqxOnP
-Q0zHotmcb2wz5taE103oadx4WqAneqlzhUbeynUL0oOlzJt2VT6L/QjElZDUQypY
-PJPu2VSlpeG0XY4SvDCBd6XSlraJys6bn/l2Yd8bS1IWIrULq2gpt0HAL3ubi4yI
-I72qdYwIND1sTn+Jrh681aewEV0D1hCrNkb4MY35+72NbcTT2vyPowz5mij/JvjD
-Wydem8/GtcPuMasVuxzRiBVj02DDyabfhEFcqv45r3wQVhm3c8k=
-=k+7R
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgIY0MACgkQ5Vfn9vbt
+T6pSyA//czLD43iX58gGOCV8s6FWZUWbM9BAASAUY1yfgFMBB0nZ5AdwqnxZlMkY
+vRpFfeMvSZCd5BbpcKoP9oYDqDjVSDRomJ/IfRhU9vBOEtwjbnm6EalkI4yMCNrw
+CLeJ9ZdTAQ7qQ8MNHE8IUs0k6C0avwcOrCBGpFq7LCjF3mUV80cP01T+Dj283cJF
+ItkcirrbHBP361Yyix/50O8hJNLBL012hfaaV4XPz8N60NtELYoY6A6QmjjzdQU3
+wk+ehJMxqo2nruPTKfjr6ZvTzGzwjMTglWMiPGUY+GqO0qqdYBQp+7Wimr9KZ82/
+g5PjItzas/qbPKjFcbK+uhwtGuIZSi1ewtF89ZeAfwyo13CGLTV27WdguZFrd1QY
+Rea28uVM7Le3q0BV/E9O+D7wemv1YhTjtHN1tbUhQWqNQgK1i9r5rT+a7b94yNBO
+Hv4vGq0LIKmQ4lnNyu/0FSjJHjG+jUnqzY9U+Z5v1BZNG1ZvOR88yQ1K9G62J8Yb
+1DZZk7e1xHLHa+LdG8uoeF8qjTi2s+Z9ehtUDdsXUAABU1qD5mMx+Pii7nJ+m7/k
+6VSCdZK2nypcD686xh8qD0miwhT66oogdBbSLM/f6R0kCAxZQYZrgOPJE5oaEKgw
+GX/b+fHpBJfry1iVTd/SX4P82BdY50x1+tH3Tu8wOALxabzEtes=
+=BUAk
 -----END PGP SIGNATURE-----
