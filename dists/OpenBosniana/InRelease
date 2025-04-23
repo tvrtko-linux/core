@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Wed, 23 Apr 2025 13:29:07 UTC
+Date: Wed, 23 Apr 2025 13:35:59 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -213,17 +213,17 @@ SHA256:
  91f40351dbeb69ac40d6945dff04b9b478f362184c4c9012ed3500748c0da30c 186 udeb/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI6yMACgkQ5Vfn9vbt
-T6ocTQ/+KdTB2wR+4KwAVNF8lQU9ERZve43b3kW5/6e6NoknAPGj8567Fpf67MdX
-y5a4HV7mDLtHq+nj6ZkCRpnXfBV3nKeAkLtyNsxk0whkFlasBLDYRjv0w6EmPCIa
-y/e0tN1Oy0/oXRhvIdCkpyoSol+6UlOgPbAeSUlg/jSKxsdgxSPrsAwcnB8iKPhM
-WBQFIkwxBQldLJ3w2XeSAVcyLJb6emJDW28hR85n1WmrgOmwldQ4xi6BrRT46713
-7oI2EegOAikmxwO0edQ743+5vYBBa7IzmunGMS6ochDz5HfBFaDu18OKMTS+l9a9
-ZiZebUMGeFM8AnepbHhmkeCZ/BTOcWUrgb+TVbddhR6KHYFw53Td3qD5vT1KnsoK
-AWDwLwdMC3VAQLCDNxojmLl/8F9sw0ZaSjVBiwbJpvuscraIbDIWsw6eUYePwMUg
-gkKW4oEA/prLg4znl4VVOprhzQbrQ9MnGbPhJvZyGzwQZvnS+XSoN/e84DQo0YhK
-rOlyjJqFBkFlGBddDiZECNphiUBGHdI91fY2RgcMjwPvKiTnDkY6Ogu/T9TVVHJH
-A6/mPF93HA63DCAqUGJcOCk4ZGS3Q1M4WMcUuLKAFHX7rKNYZbAQFkpFysIEPhYD
-qbMwNO6mrGb0fqZbQ1uH592QfLxpdAt4EPzZy5DiYLEWFo28Iaw=
-=+jK+
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI7L8ACgkQ5Vfn9vbt
+T6qyTQ/8CmVACusRSBa3hU+aRy4AOOaNBxDvyF9O9t8eXWUMYIuHtGs2kYFjp3hf
+vrSRxZRizdrU52aA4eQ47We72pEzQKehpWHRzxBkOu2vq+B9PxJurgZ9puuRth6H
+7VMC5CfWYoFFycxUfHxNulmLGY0nK54RfsByNOxrCgaiIUsWyDh+1Hip3/26KdO8
+Yv0xvGQ0xI0fJUKWlNX2CtJZgkaPhv+/ZXYwH23FsjV+XMDSEGvQcBQkjXPYetcy
+ltt+nQKzFxAn09DztiLhiyt5ietptIklZUlLrLeu5MjBeoBIRPxapslpYY/5hY+9
+/Dwb4gY8ZTXPWd5CWB9eq8hTks+T/aXzeQZAuJ+/0ldJFq4ue2++4RvBIsTp7g5O
+zjI3cyXGCIsq2rF4gUsVA41SzeEc05p1uhTLAsYhEixineYOS24Kjav8XWGCKeKr
+2Xrx99vSoIj/PU3TujYqxYXn8fYiUewaV8o/X4m8YwSW9v2p4lP43Tw+m/5fqZDk
+kLnvXhBQLGRCKeKtlvLUavGwUz3bk5+0+a7yHmSoR/iPcez4ixI6qlXeylX9Jrap
+lyLQs5wkQbZKzssFXDCZ7hSkpP8yf8lGcHMNsYe33+Ew2/FMPK0CrGvv46yhb6yZ
+tq9AV4ZyVxwuX9IJ83ZvPBlbvW++3xg97IH/FSWmdC18L71TYZQ=
+=d5Zn
 -----END PGP SIGNATURE-----
