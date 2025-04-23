@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Wed, 23 Apr 2025 13:39:22 UTC
+Date: Wed, 23 Apr 2025 14:05:10 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI7YoACgkQ5Vfn9vbt
-T6qtuQ/+NRjZd1U7wQ1fVWsw+DDXUHPMWn7hd5DO0pW069Gi2Z70ucNei/isVd35
-RZGqkwgVjuURBs77BR37wCaeSfUCWtskbwbarUQZIynibDp+esFV5l2fLFgvoxW6
-AWgjrVLcsc2jfAvYe/i6lNFE2Ov+H44DAhzEg3f1JrnEZhrjlT4Qago2ldANicV0
-E0kLrL5OP8/u/M4GbVN58WBtMHHc6WXXSKJbgdcy+GrSVjBhEqjJ+cPAgBR57qtt
-oxWdU7USQVGN/E29s5vOkIesHeEsnck2+E7D/0ezaDGdtf1y3ZjYTz6ojEDcHXR6
-a53NRk2TGjajJ0zq0aMQ6ChGSsADrj4YrQja4OkovOnMjS8fS8iuJm/yLO3Cr/qk
-C7Zj+LvMx9/rQFaGQhJBLf+cPCkyn9aJ37dQaGOcmQ/oCbUVH5ZGCnA537G55xy3
-4/imu57lr8Yt69QstLBaKaxV0aja1DFPlckBE+/jld1PmjvsBiABTIDcQo4G+jK7
-qXKjXkCL4fxuGtZYw7YUx6+jZi6alb9/2NUc4tOhOIggTsiUw7KCpW6jxKY3DyqI
-7N5tZiUVRTyb/xTOKE9DCRRpjvmMe1BTKMjxYS2HCWAE0mUWTnUvR6BeFwihTFTT
-kNTGcVdoPbGVN8b1AN/BaMXtVDX8uaU8vhXJ3id6iE2p5S3SUhw=
-=4Tug
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI85YACgkQ5Vfn9vbt
+T6qz9g/+Lu83XxxFVv3zRu7vc0FROiRah76/+aUumOXPsfyWb1XEgEMPYLmkgl8o
+ydaFrFS35D8XwqW9mXDYiTQnn+XW/qiZi1/TOFtNDB2oVN8myJ0OJ0QD/TSJsaRT
+8k3rPH6LTVOK4V7Fbkh0XA4Xd8sse/ENbkmefSmUS0dgk7Wut8uaTMl/VwdqRObT
+BGZ3YseOawobSdCbJU8pwH6DFhYUwpuwxICnGEDV0oVpcXFjE12XyoX0ABqLMl49
+bX0yhiAGxbac5g2OWZQRwdRd2xw8tGQyIuMy01JgRykERDfHwA/XHIml3rNMMtnF
+H5CZPSgF7l2yETBHyQ1nHLfsn1BdD0yA4Lc9OFOJV/dqvRhM67G2AYlL6Za/rcgs
+h8/1vgd2fjJ0PuLMaJ8Oagf1583mWXQVMAGHAIfhM13xeJeuNhX+ZOXP4mzVy5Yh
+8BxkEPyzDjfQ0Zac5+wLzkETgQ8KrQFHV3Q/Ss7TzLioz9PjE9etaOyi5WKDQa6w
+4p1Xk9dFpvTv99shLafzKTi4SEZn/bB6P+mZ0Rkpb2tedA3acW5vMjBIZ6JC4hWS
++zmLQ7P+rnoMYAMLD/hRTarpZ6ciaInhccemrx3I6DMnWjULUiWuEZG9uSLclU50
+GzGi1VI7KD9j8rQ23BZD5jTUVAmX01prz+QXNx12ynMlV2tR/SY=
+=r9Cv
 -----END PGP SIGNATURE-----

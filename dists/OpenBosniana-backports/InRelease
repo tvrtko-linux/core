@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Wed, 23 Apr 2025 13:39:20 UTC
+Date: Wed, 23 Apr 2025 14:05:08 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI7YgACgkQ5Vfn9vbt
-T6rpFw/8DyEPP0xJiTVRuDy1FQ2nEW85xwhkpZzMkdNDzgdLrErgsGw1izQq9mmB
-1NQk8WqgHqdLhBuK1Q2RvkZ+JPeMfhFE023Mo0/sATEn+IS/o5nrUsE5p0GugtZB
-+bLSeGVqizhm1No8a2Fj+raH+tip8Z+TtKOmQ4u2vIPyMd3WWQa+LToP5wtQK5Nz
-DfT77iEU5/9qTnW5BjiKwqFnPN/SrMh/pKWjXtZu4ak00LmYgmDL4YjVKYe/HmgH
-hOUQR6MkjhFQgFexU1O/falHo+zqlKmRfmTYDnLdbFMoQMimly++Fx8J0HTXi6F5
-iAQHlolKwlvlO7IUdbDT9fV63GWMXZgaN27T5B/c5OHR6q4Ve5KPAe3oLeJ4ZzoM
-khAZQG5m0ysf96rbpAucgjrtZoEOHfk2Ou8APdW5zqdJqJkcwGgfNtJOwZvb/Zn8
-NvwZReAly4FQdybXV3svgsVRr7wTkDh4zRlsn8i254BhoyoHJT/9EW3YZy8UsIcA
-bdxvJ2vO2yVR2WNSWA4DQhd2trfxrwevY5HDFrByGga7j2PyI62YgzeUm76B4tlZ
-4tvwpvTiykgibVJisSQBUXbczzSjvrPGa+Xgo9b/mePZ+THyerQY0U3Wmslg9V1C
-6VnzyHCsvrB/H/lKDRNvCbMmSiE0wiEtLSRN17QPfhAWVicYekA=
-=L13G
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI85QACgkQ5Vfn9vbt
+T6qsRA//SbS15mIHV4msMXATU1bpHCvUQ68XoxLcDdXz5S4wVlVPE0E4e5lxKg6+
+IKEYBCPJg/D9WgqblChqi6W5CL+lKIdEdLFI0J4fJ4BCz86bnhCMx1cnLXVQkhK2
+ycvrV5NLa76oAJUhlBeHe4U9+vzdlEPoa6qFsj8RIfyPM3U108n/xkoLCfD1JkjS
+STzuwS7fXPzqYARICd04uUcI/gdqllb/lAt8GuqbJT5SV4r4Q0PQBkiWIN0en3YH
+Q6gs1PNc56lKPaW8q+Vqf3/EfdAR3kIu9l/yART6qF+sLPxE1j97+yQpD3f4ncXW
+lvrEgDJ06+ArsBIiyku3toPFAzX44UwKgsT2eGFT8+ySP8w/AqYOpKvhxvVnU0iK
+r26QiB8gfT5vEzPqSjkwkFlSaxBAlqhrPdXs59/zhe5Td7XWYZy2F9u8PJVv7e6Z
+RxWOe/kQI4yOpXoZ8CbAK4wHi0WizfhJmgl+k3Rc10KjZorkQOoWFnDNKZOUTnBo
+gQQSAlDV+lzuQXfhLnvTmKhb0cAb+VZ/FybZFd9S3r6H9PUIZOhgMm4Bi4HTfIBn
+W6rLzJo0lkvXueXuujVdWt5CG2I6yWJOvHQXOV0KEC3ug2gDDdY+w/pKKttNxmRi
+N9qK6V8Ir87zDLVnZUdhT+34wFhZQobqs6fQCATmo/fF3wHz8mA=
+=Z4Oq
 -----END PGP SIGNATURE-----

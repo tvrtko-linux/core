@@ -38762,6 +38762,35 @@ Description: audio codec (lossy and lossless) - library
  This package contains the shared libraries necessary to run programs
  using libwavpack.
 
+Package: libwayland-client0
+Source: wayland
+Version: 1.21.0-1
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 89
+Depends: libc6 (>= 2.28), libffi8 (>= 3.4)
+Conflicts: libwayland0 (<< 1.1.0-1)
+Replaces: libwayland0 (<< 1.1.0-1)
+Multi-Arch: same
+Homepage: https://wayland.freedesktop.org/
+Priority: optional
+Section: libs
+Filename: pool/main/w/wayland/libwayland-client0_1.21.0-1_amd64.deb
+Size: 28320
+SHA256: 1f002d028b8b79eec9847c636d8886d10dfe8c884cc2bebe18086b1391c5a28d
+SHA1: c802807bfa947425fe9ea0bf607f89740fe32873
+MD5sum: 8eca08a6899fb386383502099a225d3d
+Description: wayland compositor infrastructure - client library
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package ships the library that implements the client side of
+ the Wayland protocol.
+
 Package: libwayland-cursor0
 Source: wayland
 Version: 1.23.0-1~bpo12+1

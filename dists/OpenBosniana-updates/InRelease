@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Wed, 23 Apr 2025 13:39:21 UTC
+Date: Wed, 23 Apr 2025 14:05:09 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI7YkACgkQ5Vfn9vbt
-T6qmJxAAuecAmMUuli3WtEYJfl1qWnoLp8WVoqMArdQvTA/xQ8rUpwZ2gQMzNyux
-Hmu5OMS79FS1tLafQZj9fzCqGm13q86xSNVYrcbXek/pW5R54ORxVrBPx1kENmRe
-2FALO2GpmWkrMlYpU7A4iHs1wl0qSmduDJDY7L6ffGx13WPj6KKLdewY0MH45PNd
-YbeGwe4A2GJzMOpf5ArCbcRycIu+HoheHyD5a14DRTOxFXYufcFLmarD7WWDm3Sl
-pBDPk/SfYPfn25Br+zLPYiN0wgfqe3+m16bF+iqLbjFAmRGzqQg0VQG7PAJkl1f3
-9t/D0i+nhiHywMncuE07jX0P/dsxMUmw7pUDpp4YATq2ibIexp5xu9lMHMOfgPEB
-t/hdbHJMzhLsk6pltk7WceB5C7zWxUt3IZyy1pgU7eGRYa0XEIxzboVf6CqEle1t
-ezGWit30iEjZ2ev9bWUFpkV4FOWJD7I9wMMgjJn2UANqLBAINKC21GgMFt7+yqTb
-Na86A16DE/lpPgY9KXm+t909HjF7qatZkhwQ0j8Z1b6u+2arKADp//+pglxHk+YP
-9jVsyMjR/J6mBKzapsov8JrJ/yv52CQnqxKkR2MwR7siySoUybpTGoKUkKddLV6T
-eoeAS7mTMyHF3Gps56l0/dCqJAMjwcq8Zy8V6tygv0EbxDG2IrM=
-=CTUS
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI85UACgkQ5Vfn9vbt
+T6p23g//bXFM5/buhSwiXcm/rFK+7P2B2JjRsGlIox7EiGATeCZsIdOtn+kftrz/
+pYrZ02oBK9iOwWdqkGZLfUZAN45ckg7FtTLWeNCA/Ki63xgmOjp4EXZeSTqWAxl/
+Br9eVxQQU+wYKt42vo/mE2kDwU03fo9peKTbCyQHzncy123GfnQPvpPawdIepZ8q
+lPCS/tBMdSPtUiiXArelSSjLxYIL+ZzASeq8frkyoUDOgyOxnMAXVFv/hUOxNB6f
+b9MHj2f1qrPvKKF0VVeGmYJEhnUSJbdkEUwvGFsFAxduH9Wb/2CEH20NN5/+RcSU
+BpBIM/mGqKuUKWJXo+3tv7WaRKurze+84vnJbi0QKQZ0lZ1tuqPYuFXA0HeyDRsC
+EJV1YrcX3R010JFHQJggBgGAZV+OBRjLWmX/CdIDsLLlA0P0Ei+NX+36yqoaUNVB
+2JPGOg69VG06RMB4q+N2SmXR6B31/H528OgVyi+5bt/ppekS62EoDCITdbf7IlF8
+OOXqRyxShs9PO0phd8ugAE0+D1lZ7r332tXNCZ4oaM8DRPVhzSGiMrk9yCxfK9Z9
+SfZOSejH4qp9+S3lvZ0pxUlNAXSaqs40KrsAur+FiU4Be2Zd1Oe/VRV7mtVIE4Lg
+LfvcIoe5rdrCgOXfVus19mP1Niqs9fMn6WD5ZWgH2EdfBOrBDwc=
+=GAPj
 -----END PGP SIGNATURE-----
