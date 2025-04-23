@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Wed, 23 Apr 2025 07:47:13 UTC
+Date: Wed, 23 Apr 2025 08:23:22 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgImwIACgkQ5Vfn9vbt
-T6ooTA/+JI40VfxwYXi1gY6lO24xs2M0dzrnMaWxY3YDAkx0GkikErU44acvT5HM
-+/QjtvsNHBlbLsVzAt4dE5x0ob0FPPe/kLM+OjFDWe8Z8QkfWsYUXXPbKFzWSPrH
-T7Qg++4tTUBMocK+DfSKTr/Gu9wWs/zfvCqgJ2OoMDaqWa5VRKQ1qBWUXdJUiFVU
-MIiWtZdKckBhWhCxI8z18eo4kejnpFH5IFuGX4/FFnbCak9ajH1Mtk05obTYBCiR
-7XfncDbjqStSPE3d+ozmdHIOO0ZJo0Zc1gbR5BnoL2yOGJI/n7FycaBLaT9F8akb
-7diPunbz85dGBgRz5lzwKNj6aDUA9e4uYElb0MqLcOWldWwV+I64ZpIHLctpujFI
-EPQ+Glplxds5Zp0OTJ+2nrvW6zInBPb3yHdfwZVre5JEUv/GIsDfAQkEsjehyzII
-nknUpPOADwo4aZdPPhiw/rUNHDqH0kQn3ko94xi+0G9+I0XBepHde6y30Mrka7BU
-rTyyqyKF1Ul1gdoQkkcVofZvvs6F/AUCv4PO+D4BxySTlvDGerqc9WLC36Lj1x1Q
-s6CWuIehAe/IMnvRDgZIXSOy8lN86qHd1aN5LwVuxp4U3odhV21EBX3c0K17rrPM
-jSuft662sCdV2y4DEtKR1gKiU/lONq2yrF3KZfMic5HcDuspfF8=
-=0G5v
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgIo3oACgkQ5Vfn9vbt
+T6ox5w/+OGCMvrbplXi+UjIm4Il/IuRvMpiGTi4D2TV/qfwwxO+WL+9TBcsE+C2O
+FC0TOKz3m4lV4khVFOhxD5RmwXuiRMlomzkTGWYe+TiaaeXosnsvDDTLbNH/qjZb
+Z30D1MsgfriAOepCRnms1+xtfvyOOALl2aXQNna3eLLebNuXH2ZLERu0WOBQLg9y
+VXEggJndhBgk1C2IJ6T4M+Lklgd/kRaSHn0+T8Jf0qjqgf+npJbTqnf/qarMwFZY
+AEsOiK6DcVk8miSTqS396mYGPyF1AXLT4wGdE0rAaAzzo0YGkvGz6xeXmM4+X+9y
+JxAYUNIZdJcFcv0BK5My5esAK8M+jZ2bHJEZVhN0NTfc6uLO64nevF/oOM3iWyig
+4FJDpxKWq+7Y+JavCPrRLSNjYL6jS7JJE7q77r9ZVYCu1+jAh3Dj+p/F6Ug4Xf+t
+uw9Lldebkae9U9H+HLeRNrVpA0uTOcFAWMzwWa6yV/lN5ClJVqP32TWjWYbP1Cyo
+17fJV7jRS9fSwOOWSPkMZc7VBdWk/YOk+E6K4q4tMfLif8xYjV1Kzs/VzrxKyYGM
+Ju3EJkrCxKA+d87N20JRcmrokGwuMJR9fv73GRO0Pnj5M9di+6MASTwc7sjoSW3g
+nZX6slbexnAEiE+xw3O9MJ26Lm7fYjDRUu4TPgkeouELEuQx1A4=
+=hPtt
 -----END PGP SIGNATURE-----

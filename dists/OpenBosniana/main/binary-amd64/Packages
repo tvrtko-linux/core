@@ -52920,7 +52920,7 @@ Description: OB Control Center
  A control center application for OpenBosniana, supporting multiple translations.
 
 Package: openbosniana-core
-Version: 2024.12.17
+Version: 2024.12.18
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 705
@@ -52931,11 +52931,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbos
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.17_amd64.deb
-Size: 96888
-SHA256: 0eafad8d62dccc003654ad1677094a7863182c70d2045d0e86675c868d34e999
-SHA1: 12ed4a46dd583da976a4443f90c16376ab938cda
-MD5sum: d172b397d7031b1d28fa349ce864b0fc
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.18_amd64.deb
+Size: 101784
+SHA256: da2da92cb8d5a6394c467184ac566a049a96fb0208c4cc83ecb1e8236364aa74
+SHA1: 2508586f49653c146cf54b2ad9707cbbeaa38f09
+MD5sum: fe19d58d8b72604f4b4242f8467a5ab0
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
@@ -60506,7 +60506,7 @@ Description: modern display manager for X11
 
 Package: sddm-theme-breeze
 Source: plasma-workspace
-Version: 4:5.27.6
+Version: 4:5.27.7
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 597
@@ -60516,11 +60516,11 @@ Provides: sddm-theme
 Homepage: https://bosniana.org/
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-workspace/sddm-theme-breeze_5.27.6_amd64.deb
-Size: 817388
-SHA256: 05e5f674c010f2be640912b579e72c927ee9e7b41149f8563da20e4c7cd79a61
-SHA1: 3954f748a313e6fc4c61b401a64ce0994644def1
-MD5sum: caf3f86762020e5448c4989912861286
+Filename: pool/main/p/plasma-workspace/sddm-theme-breeze_5.27.7_amd64.deb
+Size: 657600
+SHA256: 16491c8af083efe8005bb4101c9274dacadf33504af49cbd21318eeb8b458e32
+SHA1: b16a3e211869b50bfffe934941080bbe7e7ce61a
+MD5sum: 1074ded48394e4f7baa034dd3fcfc79e
 Description: Modified Breeze SDDM theme
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
