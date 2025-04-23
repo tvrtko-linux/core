@@ -8149,33 +8149,6 @@ Description: multimedia framework from KDE using Qt 5 - core library data
  .
  This package contains the shared data for the core Phonon library.
 
-Package: libpipewire-0.3-common
-Source: pipewire
-Version: 1.2.7-1~bpo12+1
-Architecture: all
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 657
-Multi-Arch: foreign
-Homepage: https://pipewire.org/
-Priority: optional
-Section: libs
-Filename: pool/main/p/pipewire/libpipewire-0.3-common_1.2.7-1~bpo12+1_all.deb
-Size: 81580
-SHA256: 7b60ea2841882465ef2a0be4c163b79c4ed78b8f00c7a70eda20aa86f084adb1
-SHA1: cc1d1c6de4dc0e9cbb2fc14a12d07b29c33b0c41
-MD5sum: 14070c9c21180f497364706fe5a20a6a
-Description: libraries for the PipeWire multimedia server - common files
- PipeWire is a server and user space API to deal with multimedia
- pipelines. This includes:
- .
-  - Making available sources of audio and video (such as from a capture devices
-    or application provided streams) and multiplexing this with clients.
-  - Accessing sources of audio and video for consumption.
-  - Generating graphs for audio and video processing.
- .
- This package is needed for the runtime libraries to display messages in
- languages other than English.
-
 Package: libpwquality-common
 Source: libpwquality
 Version: 1.4.5-1

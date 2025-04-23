@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Wed, 23 Apr 2025 08:23:23 UTC
+Date: Wed, 23 Apr 2025 11:47:16 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgIo3sACgkQ5Vfn9vbt
-T6quGBAAgTaC4luxurC6xjzlVG/TDqeBI2ZKaNCW0R1ovYGV0P+IrkzX7Qx+VuT9
-ydtpqBxdarZcDcsOaPpYG4ODOgsZLCxl0vqa9tzIRTpoeEVC65ZgYrdJdIRTeuG5
-SiBq4v8JHonPeisoZKEFzyy48Ahs5WDSpeTDjqvBt0ckyxTIam6iah5D8abgcfVz
-Mzv1Nb1ZjuHpuiYv+rm3p2WNCb8E+VKXwP+dkbzXdFBT+ljimuv86i2h0ce6Nc0d
-YVbgPhELKy5y9shlURkK7bqquzoHmYsojEgkTi/RRXGb4A/RTeF3IKmGB0a71xFN
-M+AMaSHhrFr81ltf4n/M87l7LhBt80qkGgYEuCwS65mDGXZsivFU/fT7w4HYp/Ad
-bnrXW1+trDdnQgfCMieuvHR5MI6PrZ1GQzXbRRn4N193C2PbOxjb3nc/zwztoZN0
-ZBOgOFQhsywBcN0+ifJ4D7MFwqwZ+NLt+7YuhePVi1EPotpJXbVOAxhgMB50JGzA
-mFimxu07aiIp/sKF60ugn0SUatWv4i8U/mLUzrdgQ16LKpX41vKkkCn8gsrQOS5q
-D8CWtBbDC1hxvDJMSHFmTrfL9zMEIBXIwUsdueer+rmvPF2sGzQxLHPaIqDCzr2q
-aZScT/e0a5eCwiKHummc4SZrXKrF1i2t8+Q0H1LqBo8xbYLNerw=
-=pPYW
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI00QACgkQ5Vfn9vbt
+T6pJyRAAwh9Clme6qfv00hVOex+ikgW+CDX7ldCsnmUZbV1aTi/vCzeL1aequ2kb
+Hirr1MtOWp8hiLCIHvfQI2+NIHoE4XmE/moM90lyGPdRJNpefxWKt2sfG4rYaBaT
+7yljN0mmXVDk5tCin7T9Me0XYGnJduX5JqwMSLUtJXVaGvtf76xgvmysqgeyvxKv
+amD3mIKVAy977x9R8+FnOVpKt1WH89tJ8F8ITWsN2b4SIKSPV7lGRir+6sHxcLqO
+xaq20ch3+uPYj4Gg7efznmYLxehjh/LsZUYe0jxMXjZVfp68drJfNV0JzOdbfdc0
+VhKiYL11HaMMYYsTuOoDChL2/oOc+6gPAmUEMCHdLkEql+CQbX35WM3KpF0Yc55F
+8FcXtCrphlQB7vu3ugwhyff6qs0NSJz5fd3ONrdLEY+SYJc0nnECMMojMRdvJ8IT
+4f2GU8f6LekpB48SyEbgl91bhgaf+aV894vq0vhYQ53I55Y2IwQIq40hgSAwgZ+4
+GskszmtTQj52NrYhBpJPf0wPXr7nd4IuGZKorcsRM/MPMX0o2rcHvi8sr0Cgoh68
+CGZwt/BcLUHaATBgwBwRlbepG7s0PE5G3jLRns/vZu/ld5kdSzdtl6wP9iV81N9U
+9easX7kmB5iBIMyLxgt5qj5x0Ztw3vnqFx/XSnCO5HITY+YaQ4A=
+=Exok
 -----END PGP SIGNATURE-----

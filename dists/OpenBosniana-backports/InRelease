@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Wed, 23 Apr 2025 08:23:22 UTC
+Date: Wed, 23 Apr 2025 11:47:15 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgIo3oACgkQ5Vfn9vbt
-T6ox5w/+OGCMvrbplXi+UjIm4Il/IuRvMpiGTi4D2TV/qfwwxO+WL+9TBcsE+C2O
-FC0TOKz3m4lV4khVFOhxD5RmwXuiRMlomzkTGWYe+TiaaeXosnsvDDTLbNH/qjZb
-Z30D1MsgfriAOepCRnms1+xtfvyOOALl2aXQNna3eLLebNuXH2ZLERu0WOBQLg9y
-VXEggJndhBgk1C2IJ6T4M+Lklgd/kRaSHn0+T8Jf0qjqgf+npJbTqnf/qarMwFZY
-AEsOiK6DcVk8miSTqS396mYGPyF1AXLT4wGdE0rAaAzzo0YGkvGz6xeXmM4+X+9y
-JxAYUNIZdJcFcv0BK5My5esAK8M+jZ2bHJEZVhN0NTfc6uLO64nevF/oOM3iWyig
-4FJDpxKWq+7Y+JavCPrRLSNjYL6jS7JJE7q77r9ZVYCu1+jAh3Dj+p/F6Ug4Xf+t
-uw9Lldebkae9U9H+HLeRNrVpA0uTOcFAWMzwWa6yV/lN5ClJVqP32TWjWYbP1Cyo
-17fJV7jRS9fSwOOWSPkMZc7VBdWk/YOk+E6K4q4tMfLif8xYjV1Kzs/VzrxKyYGM
-Ju3EJkrCxKA+d87N20JRcmrokGwuMJR9fv73GRO0Pnj5M9di+6MASTwc7sjoSW3g
-nZX6slbexnAEiE+xw3O9MJ26Lm7fYjDRUu4TPgkeouELEuQx1A4=
-=hPtt
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI00MACgkQ5Vfn9vbt
+T6ok+w//fR9VsSasFaqMVDrffSaorY25+GF9iXr6bQfseTFgGyVaRkIKojvXKlNW
+wfd4N/rjRI2f2ajkuq6XKYHxwFj+qAL54rRangSx7dmYHZZeQLMB/yrfM1D2UPE1
+2av3LP+NWSQxVMKSw19cK1jQBUFNhlw/QUfChzEnVwZRYV5sOHpmHqVyu7iYSPa9
+yWw8YCrHGQ9xyY3rkszSvUEpnvJ5NMc1WK2gpqhu2cfB/D5PK3ev4KAJKDfW4k1L
+eIDeTbXIQ0kyT0lIGi40Gz6qDQE4vLMxqxyVJ1zI0cWjGdVQ3uNd3YQY7koAKiML
+sTbt517lrrs/mf2e5nA3qpsXZfaaO7AtzONJSL/ypFPMsUN5wOd6TpRpDpiqLFQn
+FfomOPrAozjwnKeJgR9A2CE3LCP5+jL/1VIICwY0IvfGVBebGuRrJb2TeW/v1bCS
+VFFvZZU5qtIeoQPZvX2kUXqihBiNA/OZ/awF5C+X/xDEvflzzMvzZQ2i0DbxYVWr
+SKoAuHOU0Z57vHtE7NbBgEsk46wNVs7zXfxFnwF5sCpoa4/lmlDnrDl6LYvwW5kr
+ctFAsvUgNLua/wF99Y6MQB5hrlZwQPurlY+XWAA1lAIRSkSKOjkQNc1RTX0uhkJk
+M0nTSQ+TiHe2wZ41pOUcxHgtKn9skg2lz9K+g6h9A9mNV0AybwQ=
+=Ams5
 -----END PGP SIGNATURE-----
