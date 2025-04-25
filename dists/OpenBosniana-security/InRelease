@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Wed, 23 Apr 2025 14:05:10 UTC
+Date: Fri, 25 Apr 2025 05:54:38 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgI85YACgkQ5Vfn9vbt
-T6qz9g/+Lu83XxxFVv3zRu7vc0FROiRah76/+aUumOXPsfyWb1XEgEMPYLmkgl8o
-ydaFrFS35D8XwqW9mXDYiTQnn+XW/qiZi1/TOFtNDB2oVN8myJ0OJ0QD/TSJsaRT
-8k3rPH6LTVOK4V7Fbkh0XA4Xd8sse/ENbkmefSmUS0dgk7Wut8uaTMl/VwdqRObT
-BGZ3YseOawobSdCbJU8pwH6DFhYUwpuwxICnGEDV0oVpcXFjE12XyoX0ABqLMl49
-bX0yhiAGxbac5g2OWZQRwdRd2xw8tGQyIuMy01JgRykERDfHwA/XHIml3rNMMtnF
-H5CZPSgF7l2yETBHyQ1nHLfsn1BdD0yA4Lc9OFOJV/dqvRhM67G2AYlL6Za/rcgs
-h8/1vgd2fjJ0PuLMaJ8Oagf1583mWXQVMAGHAIfhM13xeJeuNhX+ZOXP4mzVy5Yh
-8BxkEPyzDjfQ0Zac5+wLzkETgQ8KrQFHV3Q/Ss7TzLioz9PjE9etaOyi5WKDQa6w
-4p1Xk9dFpvTv99shLafzKTi4SEZn/bB6P+mZ0Rkpb2tedA3acW5vMjBIZ6JC4hWS
-+zmLQ7P+rnoMYAMLD/hRTarpZ6ciaInhccemrx3I6DMnWjULUiWuEZG9uSLclU50
-GzGi1VI7KD9j8rQ23BZD5jTUVAmX01prz+QXNx12ynMlV2tR/SY=
-=r9Cv
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgLI54ACgkQ5Vfn9vbt
+T6o2WBAArDsI6wmpsEIyZ0a1+EFhi/lbQxFjF8KjJqo0DZs2I39hZHL3EwRSLebV
+yCZ9bzLvTEMbtrdeEKhexLn6fkViGk0YZ3yjFJ0CfTDG8EZU7WS9Y/d0rj0pMZCw
+4RJ3GL284vwCsiyW6bqarej9nlyCcBflzEvFMhWy4GvvjGfE3Z8a0+aa2BC7AIvk
+PUQMtNm/L26QNudqEAb50NOIzGWdlo9lS3hNcPGjYEwpEcRaRCkDSeunqno3HD96
+RQbqGrguogVbXxWbR9YfyxFXmMHlVgYnLp/pewOtcCQBPRYvAVkwvLT8a3xScOGy
+Uqyo+t+mrokfU9+EYEKX6JKrEyVF0J1oIJIxsyp+Wtqsi4wHaC3qx+ZzqY/5CkkQ
+Ud28/VCDQK5skedmPaOoOqghQynJmB2xJXQu3j7qzRt2Z4Bm2pmmnZaZOoW3jh/j
+nV7LPUjlYctWDjw3gqx9NUe6KqjtS8JNRfWsqtyNp1mosXywhDfOAmzeX0iORtGb
+Ke6IJrJhL1uwGirWiqqzOBBJuFdlmQBfQM9xBY93DcwJUywyR4su9Re/qQJMC87w
+hW3ZebOTqTF9U1VSUp2kemqVlJVDnFM2QfNsgpubuAqCXPv7AwbeVdNWxngFjnus
+nMZDCdDIxYAy9b1C2qzhJu8x4PyUKizoX72fIzCKVH+EILJ3uQk=
+=vrJA
 -----END PGP SIGNATURE-----

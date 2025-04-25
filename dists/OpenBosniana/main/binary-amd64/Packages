@@ -876,11 +876,11 @@ Description: framework for searching and managing metadata
  Baloo is part of the KDE Plasma desktop.
 
 Package: base-files
-Version: 2024.09.04
+Version: 2025.04.24
 Architecture: amd64
 Essential: yes
-Maintainer: Denis Maslo <denni@bosniana.org>
-Installed-Size: 349
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 350
 Pre-Depends: awk
 Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
 Replaces: base, dpkg (<= 1.15.0), miscutils
@@ -888,16 +888,18 @@ Provides: base
 Multi-Arch: foreign
 Priority: required
 Section: admin
-Filename: pool/main/b/base-files/base-files_2024.09.04_amd64.deb
-Size: 72212
-SHA256: 0ec3145ffda4bb4f0b2f1413c9ed1ed01eade8f32eea90bc8e4b436c06ab81a3
-SHA1: 7d3dc4b7620674caa2c95f0c9d6c99f51ca92861
-MD5sum: 1e441fd87f7f6b116dedaab4fd8edc1d
+Filename: pool/main/b/base-files/base-files_2025.04.24_amd64.deb
+Size: 72208
+SHA256: 96b26fdc272b1ad003f389ac3826576e70754fa22640eb2eb3ebe62045de719d
+SHA1: bf78880e6d90a90d3735f408eeb4954ef76a091c
+MD5sum: 10440e9b9db5eb73b553c39ed3c15a1a
 Description: OpenBosniana OS base system miscellaneous files
  This package contains the basic filesystem hierarchy of a Debian system, and
  several important miscellaneous files, such as /etc/debian_version,
  /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
  and the text of several common licenses in use on Debian systems.
+ .
+ This package was modified to provide some customizations needed by OpenBosniana OS.
 
 Package: base-passwd
 Version: 3.6.1
@@ -52803,7 +52805,7 @@ Description: OB Control Center
  A control center application for OpenBosniana, supporting multiple translations.
 
 Package: openbosniana-core
-Version: 2024.12.18
+Version: 2024.12.19
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 705
@@ -52814,11 +52816,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbos
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.18_amd64.deb
-Size: 101784
-SHA256: da2da92cb8d5a6394c467184ac566a049a96fb0208c4cc83ecb1e8236364aa74
-SHA1: 2508586f49653c146cf54b2ad9707cbbeaa38f09
-MD5sum: fe19d58d8b72604f4b4242f8467a5ab0
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.19_amd64.deb
+Size: 101732
+SHA256: ecb1e929a9a70ebcd6e9fc348ab06780b501d57785731ac196161f92973de076
+SHA1: 4c973b8606eb7d3d14a501896a0c51eae0948fa2
+MD5sum: 4869040e920ff8da0bcb6c5882b56e49
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
