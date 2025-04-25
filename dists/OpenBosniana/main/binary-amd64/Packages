@@ -52805,7 +52805,7 @@ Description: OB Control Center
  A control center application for OpenBosniana, supporting multiple translations.
 
 Package: openbosniana-core
-Version: 2024.12.19
+Version: 2024.12.20
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 705
@@ -52816,11 +52816,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbos
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.19_amd64.deb
-Size: 101732
-SHA256: ecb1e929a9a70ebcd6e9fc348ab06780b501d57785731ac196161f92973de076
-SHA1: 4c973b8606eb7d3d14a501896a0c51eae0948fa2
-MD5sum: 4869040e920ff8da0bcb6c5882b56e49
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.20_amd64.deb
+Size: 101712
+SHA256: 9a85d435516fedc6a5e3383d4723ceb2c566bb99464dab3cb8e03796e49cf291
+SHA1: 675556edac116307e1a3b0a79eac92c445409c33
+MD5sum: 6a9f82af95999987b67352e3d07fc2e4
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
