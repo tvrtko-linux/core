@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Fri, 25 Apr 2025 06:39:10 UTC
+Date: Fri, 25 Apr 2025 22:29:50 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgLLg8ACgkQ5Vfn9vbt
-T6qOSQ/9H9w6wQufDPI95oyrQw+4YwntwwGEqZsFFr5QIMrICBjIAbcqf3F9y2jg
-t4EaK2NGV/4WurmEgM78b5MAamG4i/uk3nrdLLUokBZKOx2NIA6OGzeuwHg0PipE
-TGgsxLRFNbeT4g8V1f4t/eONCZkL9XMOIbASJ4YHRmBRAncBUx2cPz27p3knzaX5
-Mbt8dolB/6QIibl3AEzzgtkA2x+f8/zcAV1ziT1euqd3Grj2wjOnSXovVE8O7jVB
-tuJZXbhCKOsG1EKGGLY4lOdmL/2kRYe+OZd/EhGDMqiILriS3qAj9Kg6TAndMors
-AZkAUwRPSzSA81+yspZWQ30i0zXMcciycpAjx0N5zol/Lw+pDiyYkqcC6lA0N07c
-3tkUozR6QKYVdoxHSmipCKwFfvv89AjzdzKBGxCyBcTO88tY8efIWw71JLwSqYBo
-hU0TckPaLDEkewI9uTqiZsSBA/PbGDq4K4Tjlxeg6Lml4r3tTZhG+ZHP6b6BHY5E
-1qeRpRdIeNvD7LqJJ274rB3KCR2WAz7WgY50V+kP5mDSXZqa79KucljoKAwVgvcQ
-05oaDGblT0DZKeMIMGtFEwMC5+EupAy4Lo74L6yPcz0BDfGFUMTZD19twTPQ2WxP
-IyvCQpycYFq5wVlwtQiUC/VescEeW6Q+/t+idfilbJ5oIyodCYI=
-=Ia9U
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgMDN4ACgkQ5Vfn9vbt
+T6pSZA//anAa2hXkj6+AqVuwv/7BHXOqu+kWxxtUnLsZEyKbvYuj6NTFX/cexrpV
+qdtvA9Xu+Z1ZqucDQ194AfXyo+bqqIW7YiHE8+/oHDgOx5s+dNkDpvvwAUwEEtKf
+hTom5oYJtMfXggEHmfx1pMLxb6EKTGnsk6wjH1C/ZyuUigXQImoBsYYtYOPaYC5k
+8daHAAHmialA/DWEyh8T5sNH26vXClJ9vJ8HxYOec/dO2gweOXFHrz/lpcnOxNtV
+qW+fb0Bao7P1kMBLeOTshmOIhSU1+l8Xa6N0z7JsDkAzEOJI5CCf1BtdVVfW3I1V
+ibIQL5ujoICDhaA8vbDMfBnmbvcThFUkiY8x67j+MDRpiCV0octVayqT5LEQuAy5
+icalFmdfEPOoi888mt2M69e6AjaX5FgXDzGxSbxAPgPRg/WvcCu142IF5uZknHwb
+/e5uivsJxoYj8y7EHURWPkb2DyQFyIB8qFy31qg1DIw+yk2MTUdXpyY4REhadUGl
+T1lRfDCc0A0m4YlGp7bx0jfIag+4gW7/midpSJxtPpFphjd1+s2XMqRoVhUZqE84
+l1USTbdVBxMlIvSaInqbl6MpW1EYzawveGMFbn4BWZBi3wsJdRQVmZrebSmC5jI+
+E84Yo/F5tePKrPPWz2JXqbMH4cZaE/kngpCikBB+kDfpTMOqpNE=
+=r4Y1
 -----END PGP SIGNATURE-----
