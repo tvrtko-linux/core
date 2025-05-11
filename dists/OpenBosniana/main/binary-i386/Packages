@@ -18083,17 +18083,17 @@ Description: terminal status monitor for tor
  nyx was previously named tor-arm (which is now a transitional package).
 
 Package: ob-welcome
-Version: 2025.05.09
+Version: 2025.05.10
 Architecture: all
 Maintainer: Denis Maslo <deni@bosniana.org>
 Installed-Size: 4418
 Priority: optional
 Section: utils
-Filename: pool/main/o/ob-welcome/ob-welcome_2025.05.09_all.deb
-Size: 3850408
-SHA256: c6b78f3685c3f427df9615df108f643e01720436e64f8838dcfabd75f505ea3a
-SHA1: dfcf697017ab25243309110476be704cc2f62817
-MD5sum: 48446ed1bb5e96f6ca901f5c073632e3
+Filename: pool/main/o/ob-welcome/ob-welcome_2025.05.10_all.deb
+Size: 3850348
+SHA256: 0d523ff581a8d364eab8c3ac1b804e8bdc82cd7a2959975e4c5e1fddcdc50b09
+SHA1: 63a4a526cfb842d88ef45e41802302468bd9a7eb
+MD5sum: 6e6878ad519a7ae594b91d8da458f602
 Description: OB Welcome tool
  A tool to manage welcome settings and configurations.
 

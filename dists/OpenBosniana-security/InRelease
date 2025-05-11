@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sun, 11 May 2025 01:26:32 UTC
+Date: Sun, 11 May 2025 04:14:16 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgf/MgACgkQ5Vfn9vbt
-T6ojNBAAmyKS7h1P2cf6t/eGVFO3aCWZzeYs3wnT3ITwBBOpZh6YpERr/OGnebqk
-4eePKLmFP1xYpc+qp15NNo2vQ9alS7eEblTJ+7fj0MwvqQBIbWkovLRXF8D6cW+R
-LysPmBIjI+j/q0B7tFTkDk/11A2IvTA/68awBvTqlsioo3cWFAsGrkQEwWb0EJQd
-sKp2tMAIwzuhYHZbrEPKzgA3HwS4nsAu2e6ZuSQKDCN/tIEtfzbH+cCOpVvh4avl
-14OmRBLYOMU/EeoIYDEc/JyrKa3AdaMC6BjPuydW6RDBlm1mA+7d96EtwZ/GeUvi
-t6QgXPkkP7iQs8s4RT29u32BUnhouaU4YylljgvSHQeu7zwYftjHt50nDxahBPUs
-GFbTB/vrl7JwXVDVS3qRhDdSPJtRPHVjRgMvwz8aFX7Q2i2S2Y+HJiMBK4MLnFkx
-tTOZYh5q7QxSyuzIAHDphCEfH6UyMIQokeGqvWI5ESp8NEPC6Y1w8IfKZz1juX+w
-WG49a9s0+iGE13iTcWjmBg/f/F++LJdnsrkAy3hl9DmU/TazWCTrKI2Hmf5Nmbf/
-YJdKQ4xc+9yHsfB361FLO3o5xIobcfHH+YWW+M16bulrU4lsY5p9t2ylgG5lEQ14
-cBltl5QcPpSn0jZnzyCkyuu3IeSIZQ6GBIUsafjT5l6MEmB9Z1Y=
-=P8Re
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmggJBgACgkQ5Vfn9vbt
+T6pFTBAAkbk0goypGL4mDMqAUZSl2Uq7iUWK2lfLPHtPCblZH5cvp4S2jqWVvzpv
+HYEFvH0dOTi7pskVutFY3uFC4AvvpGzDsCEYvZefqNnp02mqGQihqWG47b/7Sr7a
+pETWSiVV65e3Ju3WluXe87/b4DCEIJP7r97rJL2aSZkvpn9kyvHwh2K7a4mVOxib
+yyeqsrxVhJ3wyVBmJRv1NSwhLusMUQXUGhS/p4Qgr7B9xw+2rDbQg5UOThselp0v
+/t2Z4oQA69hKCWJCd9ecfEk4sVWBpd35nDyIbR8uz5P7ek1FSOC07fOR7nfGlTDJ
+XXceYCdGhpDLrnmN+yjHqCSrrmPh+o39NT6DK9yscuKST0+4PjGxZSKz2O8l1uaS
+VUwaNI7tFP/SI/m9nbNmtemjPnP3D6bzzd+y+YKtC35jwpRuhSGBVoBi9v4O3fPi
+PhpD0h7zwtA03I16wfvV5WxugZtOAh/D4hIPmtJXoUbycKOrjsUx1oDqlapZjiKh
+bsBkbbHMmFp8Xy9uoadZPNmmA9ItmMQKTC2TuSdpdICcCq8+IWN87lpGlQ40Lrnm
+Znlmj+Q6ccrb3EwRcbQiO6nlu4+l1pDddDzM/2aFK2qw5yGsxOIDMvHAp0+skYqA
+KLu7eM33ClcgJvGDj/UkGjTC9Emn/4UirmPauJHRyM1nKSVybBI=
+=64MT
 -----END PGP SIGNATURE-----
