@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Fri, 25 Apr 2025 22:29:49 UTC
+Date: Sun, 11 May 2025 01:26:30 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgMDN0ACgkQ5Vfn9vbt
-T6pIIhAAuq/Rg6KjV6RhNS3samr9zrgc3/xcdX+6z4xnPB7lHhwmFQIThRdyMEJq
-xiMUUHICGtedfaxY6ACOnqW1wWCNRpjc59MlKf0rKKQB2sE/3WPliiFyKFZ+ZNFr
-nwUx0a04ssoTeX9QOwp6iopBbKMZb/Uz9nh+QIEx7Q1lXofrE6NLT3rAGxvbplCJ
-EQrXd03m/pfdYY6tWCQdR8tedu4ghALSAHlWzfynWcL+GxHOpIxLLhnA/nGDGhRM
-w4pHoF9/GBK7Iz7Lkb9nx/k+tUsQID1IX0tZ69dsCKve6IxDpylphdN4WvXZxa4k
-nP3T9ofhzY79QHuZybRXVmH/s98NeAaL3k6GZfHPkCkFLWKUCt4YEBtRE1T1VHrp
-0OglPmpnoHXTkCSUnkhcOp4QYN6hhnq4ul32gBYu8fwHkfIQuVfvvy0Vhg3Cr9Oy
-ZQKmmAVYqEH2CHbU7gdR411nZRkzUM+C6Ehe0QGhzujYTVoYD7GRTehIRdoipWzP
-/IgEjc/t6kxGD29C85K+117onQ7Dd26GnWHlb6OqZ++q7Q2Vloy+JyDxm158PhnO
-fH7UN4NlA2t31QXrsRV8BKtbiUIt2noZQ3TzHoqQXmd7dMCXEjPRbOB/A1b7xXsX
-sSUjQBaSYEa37ZImDnp+Tj8cTDp8d9/i1GgZtWd2jpEXo5Qdxsg=
-=Qy7f
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgf/MYACgkQ5Vfn9vbt
+T6r4cA//aCbb+eXm2MPxHBh4VpyKHCTbHEJDnnYCXE0I93F0N98a0OUzPkcvIOeL
+G2oa5yemJjWHMSvUMZlmj48zz8i+wKqVLx7g+Zh/Vo5GHVRqaIOEETgsJXN+kg3T
+pdltWCrRENPHbT6kN6zpuuKpRt0dMt0+jXAXHoJhZ3jyrJ9A05EqUpxprcKhyTRJ
+Cb09r4ybrsMUQsWLR80OFyhuQw7J4eF1fw48i6bmABUlASnkc2c+OQKmH0kVOseh
+Knwi7OJ9f0h/g4T88v0lACg3SAPN3ZdwYwtItjPAxMFrVQkuTnmDicI1TLuETMUM
+VifIKxx0lpx314MYeg0U3P9cvisFI1PWu9qTHvUCvCs4MMONaA0oRO6q+ohGOGbI
+3MY874pgk9GQxfjorqxneVzfbhSTkFJqe0AIILMbrG+QuNRqoeWbImQCsUas/DBt
+gGGeWZPdmmvRDmzkvJh4UpqO5YsmfELouurRI1NR1fgX7rWl6heZO/mssyyy3xyA
+8uWEIqiZel0CSyJ6R5BNQScqNOQkz5ylZn8yekD7CErKt/ogS9ezVzN17XECtzKw
+KxZTm/kBkJw7hEweA/dw0LZaHAxDq35P8Rp4B3lXbYQ/C6TZKZsIllRTKcDiGlbH
+pWRudwA0L0tX6NFjPnIMa3wX0RRxBfS7eBKwqtx6XGal/QsAr6E=
+=KgRw
 -----END PGP SIGNATURE-----

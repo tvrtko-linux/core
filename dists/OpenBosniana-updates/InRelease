@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Fri, 25 Apr 2025 22:29:50 UTC
+Date: Sun, 11 May 2025 01:26:31 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgMDN4ACgkQ5Vfn9vbt
-T6pSZA//anAa2hXkj6+AqVuwv/7BHXOqu+kWxxtUnLsZEyKbvYuj6NTFX/cexrpV
-qdtvA9Xu+Z1ZqucDQ194AfXyo+bqqIW7YiHE8+/oHDgOx5s+dNkDpvvwAUwEEtKf
-hTom5oYJtMfXggEHmfx1pMLxb6EKTGnsk6wjH1C/ZyuUigXQImoBsYYtYOPaYC5k
-8daHAAHmialA/DWEyh8T5sNH26vXClJ9vJ8HxYOec/dO2gweOXFHrz/lpcnOxNtV
-qW+fb0Bao7P1kMBLeOTshmOIhSU1+l8Xa6N0z7JsDkAzEOJI5CCf1BtdVVfW3I1V
-ibIQL5ujoICDhaA8vbDMfBnmbvcThFUkiY8x67j+MDRpiCV0octVayqT5LEQuAy5
-icalFmdfEPOoi888mt2M69e6AjaX5FgXDzGxSbxAPgPRg/WvcCu142IF5uZknHwb
-/e5uivsJxoYj8y7EHURWPkb2DyQFyIB8qFy31qg1DIw+yk2MTUdXpyY4REhadUGl
-T1lRfDCc0A0m4YlGp7bx0jfIag+4gW7/midpSJxtPpFphjd1+s2XMqRoVhUZqE84
-l1USTbdVBxMlIvSaInqbl6MpW1EYzawveGMFbn4BWZBi3wsJdRQVmZrebSmC5jI+
-E84Yo/F5tePKrPPWz2JXqbMH4cZaE/kngpCikBB+kDfpTMOqpNE=
-=r4Y1
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgf/McACgkQ5Vfn9vbt
+T6oIchAAiTKYjjdaJtrqG8Ms++agBCwxGLkvM8IeROwsv5rQuiNlIQMYb4goLV9m
+LgrjmQD0Qo9BdTeb/66984Xk9IA+jMbxMMkL5xJlA6A+G0cbxaHkJPTcKEmJ5L9t
+z6wvsdGIad/UCXwLZxAiRxeEQ9UZgnEeIR2G+2fhg7AUc4LVpUP3ggzu3lVjw8pR
+HhfKATDb8ytbsH7BLKoxevA/sgVAtCzGZwxB2OuBwvr5pk/j+zIg0q4tNUTpVbKa
+aP2GpQoGFUaXBIhfbRtIns7lYkLli5YiOYfB1zWEmUEX7Bk6uhN3R8zKPnPKFC4T
+JQufvs8b2DcqGoWx3c1n0sZTyoSCC68usw4MW8ss+wtQnbvV/W5pKLIFdZ2cF6Vw
+k6KuSEkhlQIwdgmF+hDWDPL4SJb48wvwMtTYzEa6ByDy3VSRBXKk/d47z2Hz5R5y
+yLRQpNMVW680isy5MxmTAnYd9QMQ4PFBUUDRSLYxatJ5gcLlMmoeqltvv3QgPKc/
+kHPWAfzksKH8DudcG3wgsGwJA/9U9qic0uuHiieCTtRTm/hiUroKI9gZZr5nTXK1
+3W7GfNxmPGV/68ZysKiXkXFPXNrEOKCNfgL6wu7tgozUeCejDTkiRQg0kKNaoRsP
+1jo1d0DXLv3f6FYJfm7LmCRfnI0ZV4KAYwRFYXZGyiJvMllG6ak=
+=NZZx
 -----END PGP SIGNATURE-----

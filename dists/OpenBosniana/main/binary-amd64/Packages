@@ -52479,17 +52479,17 @@ Description: Modified Onboard Simple On-screen Keyboard
  for mobility impaired users.
 
 Package: ob-welcome
-Version: 2025.02.02
+Version: 2025.05.09
 Architecture: all
 Maintainer: Denis Maslo <deni@bosniana.org>
-Installed-Size: 4620
+Installed-Size: 4418
 Priority: optional
 Section: utils
-Filename: pool/main/o/ob-welcome/ob-welcome_2025.02.02_all.deb
-Size: 3834360
-SHA256: 77509d9ca08a62f38dc8c51acf1ed44babaab81157324ff176c7d66869e761bf
-SHA1: 4258b98876ba8d890f812268c73dcdd2216ce34d
-MD5sum: cfd89db9f0f874b93bc9d0a2ff7c3674
+Filename: pool/main/o/ob-welcome/ob-welcome_2025.05.09_all.deb
+Size: 3850408
+SHA256: c6b78f3685c3f427df9615df108f643e01720436e64f8838dcfabd75f505ea3a
+SHA1: dfcf697017ab25243309110476be704cc2f62817
+MD5sum: 48446ed1bb5e96f6ca901f5c073632e3
 Description: OB Welcome tool
  A tool to manage welcome settings and configurations.
 
@@ -52790,17 +52790,17 @@ Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
 
 Package: openbosniana-control-center
-Version: 2024.12.15
+Version: 2025.05.08
 Architecture: all
 Maintainer: Denis Maslo <deni@bosniana.org>
-Installed-Size: 5136
+Installed-Size: 9176
 Priority: optional
 Section: utils
-Filename: pool/main/o/openbosniana-control-center/openbosniana-control-center_2024.12.15_all.deb
-Size: 3923208
-SHA256: f8d72eb5aad88450a03dd123e5b06995d2e990ba71a6fa942d86a5a034ff9071
-SHA1: 335e05d10da54e5db876bbc84170985e64fc4f9d
-MD5sum: 90b4d4038879373ad47943127e5a7109
+Filename: pool/main/o/openbosniana-control-center/openbosniana-control-center_2025.05.08_all.deb
+Size: 7042756
+SHA256: 8595f5759ccb9d3dabdd942dd823426a9bb66bdfae4fd1fa9befe9a350c01494
+SHA1: b6f567eb81978b23b604fbcbd5d0710e12a5b77c
+MD5sum: 2639bf5529f34ddecdd6ffc5d7c2a4db
 Description: OB Control Center
  A control center application for OpenBosniana, supporting multiple translations.
 
