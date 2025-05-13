@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Tue, 13 May 2025 01:18:43 UTC
+Date: Tue, 13 May 2025 03:36:53 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmginfMACgkQ5Vfn9vbt
-T6qlChAAumT+/PP5BZkm08vsD9ymv2FglJK9Z61V4Pm+mCGNvtezB0N+5T8h8C1E
-2qqrRMyyr52qVg0nTd+mgdl0CC7ea/OKXtRtkpxYQOGZN+50918v/dCGjh5hhd6c
-yc+KF4rKqMZolHHW6KHV5bMR+Ijn+rRMBuZsRlqGKzPu2v6QobMvuA1NaHIwyERg
-Gj71+IBXpBobKBQwK4u5cM711f4huiLWP1MHSTDiRwFGC/jkKdvUzmBoxm85WyVK
-vw+rtWs6KWLJqZKUX4CTXCbjB/viaVOqqzn10Do1/xvZ7ffPrtKRljfAQKAeyJWz
-z0hhh4IVxAGaNCoEi7+zFZec8R8mhrxhaZWTOL6DJsHBeGyBhRF/LAgQ0/8anqm2
-c4jxyiVZFaNFC+57PA1ly85VdlmIwbkd7sqwhSoP8nwF0S682LUaBBPUOaMpsFk/
-o3RfK5OwCg51x1nHVwSXraI3bzeeBPHAS0EsAXWB/GNcw7VaLWqbXZJwT9AeKRBq
-BOY9kL0r4DEsvnc3s8jO8ost12rEkSmboqzPC9JytRjaYSbGJLS07Z5d/7wMeumo
-M9YYxfW4vFudO8bujhS9zOGoH3WHqIyi33hQYujiiM0CnYjHg1RqFT9NgPz6/GQa
-woPLEQ34qhbxhZhcSp14pwaE3v3qLDnsqHy1QDittKkJb1sYTHY=
-=9BwP
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgivlUACgkQ5Vfn9vbt
+T6rl+Q//b72ZwOLJeTXqAuGvIIU/MECFH6Dlu8aqNgMp7NRZDivcgRgHOE52kb9Z
+o8PNZXn+VEW4BPb5yi3Z31hydsmADyFk7rlhM6xGs5+33LS74bD12ah9eOXewLzn
+K3g9wQJ2Km6daCiJvyQRly/rnTyW/6vWudizjEClDbGBVVlos9GZSUbpfQu8xJ2T
+7Dxyde8+2ADi6+bs45e2mkgfPvondk/oGNIYigo0DKOAXhfMOjerg5dR31FbmlnN
+jwYZU+GYnqkXzfJPjTgZD2dvdteP12WvJJvJ2F5JhSV/hyFq/bDaUyxFGoyIWNSN
+b6MjFJqaiRLWJ3E9IIlgfRWkwcRxB7qABgUJGkFXqvPTT6xVx0RugO0PSsjlFrfr
+HlbFWVx0Zohu3dtM6QZPnnaP/kYs6ds1MAmozH8QsU8u/OknPl6IsX5Qh7+cCZe9
+nL1PGCztvvzCNFGY9eG3XLE+DjhqPVN+LJTSCPRAXEja0q00SzcKhJlt4P/agk94
+7s7uv+056sc+Pn2OlxmPZg29fpr5lDxyP2DdkiktezPGPpo7YvnGHq0H4HAhoJ3f
+Q1+6JyxxnNUetOHXuPj2hE5he14UhstkQnGBtN1vP6yE+h76dFgo2LYu2wqvmjTF
+iZPAZpHCdPwreoihlmqUgtKP8JXTKuFMsehQdbCACalyczOsVP8=
+=uxR4
 -----END PGP SIGNATURE-----

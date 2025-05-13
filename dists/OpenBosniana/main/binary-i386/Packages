@@ -8820,6 +8820,31 @@ Description: Common header files for Linux 6.12.21
  linux-headers-6.12.21-(flavour) package, matching the flavour of the
  kernel you intend the build for.
 
+Package: linux-headers-6.12.22+bpo-common
+Source: linux
+Version: 6.12.22-1~bpo12+1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 60784
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-headers-6.12.22+bpo-common_6.12.22-1~bpo12+1_all.deb
+Size: 10802292
+SHA256: 0b68910777b48c617da2b1f5b7fa0c5bf031c028e339d15e3bc80bd755ed7922
+SHA1: 2177c8dba90d78d502eeb952b2ae6dc70bea2924
+MD5sum: 9b4d7656e7ef8c902626e66d51db74f5
+Description: Common header files for Linux 6.12.22+bpo
+ This package provides the common kernel header files for Linux kernel
+ version 6.12.22+bpo, generally used for building out-of-tree kernel
+ modules.  These files are going to be installed into
+ /usr/src/linux-headers-6.12.22+bpo-common.
+ .
+ To obtain a complete set of headers you also need to install the
+ linux-headers-6.12.22+bpo-(flavour) package, matching the flavour of the
+ kernel you intend the build for.
+
 Package: linux-headers-6.6.13+bpo-common
 Source: linux
 Version: 6.6.13-1~bpo12+1
@@ -18478,19 +18503,19 @@ Description: OpenBosniana FULL Interface metapackage
  office suite etc.
 
 Package: openbosniana-kernel-bootfiles-signed
-Version: 2025.05.13
+Version: 2025.05.14
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 10
-Depends: openbosniana-kernel-bootfiles-6.12.12+bpo-amd64, linux-image-6.12.12+bpo-amd64, linux-headers-6.12.12+bpo-amd64, linux-kbuild-6.12.12+bpo
+Depends: openbosniana-kernel-bootfiles-6.12.22+bpo-amd64, linux-image-6.12.22+bpo-amd64, linux-headers-6.12.22+bpo-amd64, linux-kbuild-6.12.22+bpo
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/o/openbosniana-kernel-bootfiles-signed/openbosniana-kernel-bootfiles-signed_2025.05.13_all.deb
-Size: 884
-SHA256: 6a632368e3deb006797e05fa4a99538c73ffe5e4a20b2d1ce6ba969a6493f112
-SHA1: e4d2863d4b14b6d09be926c301087a39544a84a3
-MD5sum: 47b85b1878c304af52ed8dad53882dd7
+Filename: pool/main/o/openbosniana-kernel-bootfiles-signed/openbosniana-kernel-bootfiles-signed_2025.05.14_all.deb
+Size: 888
+SHA256: d822a1981c3c3da83cd590041fd22b8f880c1ca31119ce9529f583f90714ac8f
+SHA1: e44e9e19e3c53c7eb156346a76314753790fe8a4
+MD5sum: d389581498a4604eed6724843c22537c
 Description: Linux 6.12 for 64-bit PCs
  The Linux kernel 6.12 and modules for use on PCs with AMD64, Intel 64 or
  VIA Nano processors.

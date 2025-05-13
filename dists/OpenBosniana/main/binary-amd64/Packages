@@ -42056,6 +42056,54 @@ Description: Common header files for Linux 6.12.21
  linux-headers-6.12.21-(flavour) package, matching the flavour of the
  kernel you intend the build for.
 
+Package: linux-headers-6.12.22+bpo-amd64
+Source: linux
+Version: 6.12.22-1~bpo12+1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 9648
+Depends: linux-headers-6.12.22+bpo-common (= 6.12.22-1~bpo12+1), linux-image-6.12.22+bpo-amd64 (= 6.12.22-1~bpo12+1) | linux-image-6.12.22+bpo-amd64-unsigned (= 6.12.22-1~bpo12+1), linux-kbuild-6.12.22+bpo, gcc-12
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-headers-6.12.22+bpo-amd64_6.12.22-1~bpo12+1_amd64.deb
+Size: 2722080
+SHA256: d9039060da8678d367f5fb1aa5e9f45274888b5334f106d43ea39eeafe3454d9
+SHA1: 73eb8530173e6b1e251d8b22ccd9b7bdc19b0f24
+MD5sum: bd08125f820302aa424aa8f319ac095b
+Description: Header files for Linux 6.12.22+bpo-amd64
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 6.12.22+bpo-amd64, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-6.12.22+bpo-amd64, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-6.12.22+bpo-amd64 package.
+
+Package: linux-headers-6.12.22+bpo-common
+Source: linux
+Version: 6.12.22-1~bpo12+1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 60784
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-headers-6.12.22+bpo-common_6.12.22-1~bpo12+1_all.deb
+Size: 10802292
+SHA256: 0b68910777b48c617da2b1f5b7fa0c5bf031c028e339d15e3bc80bd755ed7922
+SHA1: 2177c8dba90d78d502eeb952b2ae6dc70bea2924
+MD5sum: 9b4d7656e7ef8c902626e66d51db74f5
+Description: Common header files for Linux 6.12.22+bpo
+ This package provides the common kernel header files for Linux kernel
+ version 6.12.22+bpo, generally used for building out-of-tree kernel
+ modules.  These files are going to be installed into
+ /usr/src/linux-headers-6.12.22+bpo-common.
+ .
+ To obtain a complete set of headers you also need to install the
+ linux-headers-6.12.22+bpo-(flavour) package, matching the flavour of the
+ kernel you intend the build for.
+
 Package: linux-headers-6.6.13+bpo-amd64
 Source: linux
 Version: 6.6.13-1~bpo12+1
@@ -42151,6 +42199,33 @@ Description: Linux 6.12 for 64-bit PCs (signed)
  .
  The kernel image is signed for use with Secure Boot.
 
+Package: linux-image-6.12.22+bpo-amd64
+Source: linux-signed-amd64 (6.12.22+1~bpo12+1)
+Version: 6.12.22-1~bpo12+1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 107682
+Depends: openbosniana-kernel-bootfiles-6.12.22+bpo-amd64, kmod, linux-base (>= 4.3~), initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool
+Recommends: apparmor
+Suggests: firmware-linux-free, linux-doc-6.12, debian-kernel-handbook, grub-pc | grub-efi-amd64 | extlinux
+Conflicts: linux-image-6.12.22+bpo-amd64-unsigned
+Breaks: fwupdate (<< 12-7), initramfs-tools (<< 0.120+deb8u2), wireless-regdb (<< 2019.06.03-1~)
+Replaces: linux-image-6.12.22+bpo-amd64-unsigned
+Built-Using: linux (= 6.12.22-1~bpo12+1)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-signed-amd64/linux-image-6.12.22+bpo-amd64_6.12.22-1~bpo12+1_amd64.deb
+Size: 95546144
+SHA256: 3500942665008e9c87be2bad7e3b7b717d3af66932b4cb59151be675bd605d6b
+SHA1: a4a29ab0ca473231bed686c27d14b201a1f1be76
+MD5sum: fb4b7ee2490e621da317fad8479aefb5
+Description: Linux 6.12 for 64-bit PCs (signed)
+ The Linux kernel 6.12 and modules for use on PCs with AMD64, Intel 64 or
+ VIA Nano processors.
+ .
+ The kernel image is signed for use with Secure Boot.
+
 Package: linux-image-6.6.13+bpo-amd64
 Source: linux-signed-amd64 (6.6.13+1~bpo12+1)
 Version: 6.6.13-1~bpo12+1
@@ -42215,6 +42290,26 @@ SHA256: 1d07abd1df799123e5af6bc17341e6ea15795a8c6bddb5ef47410e401026b119
 SHA1: 5865f9eede3be62c40fb19a591d566f90923bd5b
 MD5sum: 932cc1e1781d846b5136b8b990a8e41f
 Description: Kbuild infrastructure for Linux 6.12.12+bpo
+ This package provides the kbuild infrastructure for the headers packages
+ for Linux kernel version 6.12.
+
+Package: linux-kbuild-6.12.22+bpo
+Source: linux
+Version: 6.12.22-1~bpo12+1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 2690
+Depends: libc6 (>= 2.34), libelf1 (>= 0.144), libssl3 (>= 3.0.0), zlib1g (>= 1:1.2.3.3), pahole
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-kbuild-6.12.22+bpo_6.12.22-1~bpo12+1_amd64.deb
+Size: 1413100
+SHA256: 1d570ba051243d90228af5da62c3cb9cbde8d4d1e3104985ee1249d89bfa40f8
+SHA1: 0ac7bd2576f755ab9cca038bff9c74d6591534e7
+MD5sum: 4ad690fa56bd0f7f0d8d53d32476e88a
+Description: Kbuild infrastructure for Linux 6.12.22+bpo
  This package provides the kbuild infrastructure for the headers packages
  for Linux kernel version 6.12.
 
@@ -53169,20 +53264,41 @@ Description: Linux 6.12 for 64-bit PCs (signed)
  The kernel image is signed for use with Secure Boot.
  Reduced size of the linux-image-* package
 
-Package: openbosniana-kernel-bootfiles-signed
-Version: 2025.05.13
-Architecture: all
+Package: openbosniana-kernel-bootfiles-6.12.22+bpo-amd64
+Version: 6.12.22-1~bpo12+1
+Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
-Installed-Size: 10
-Depends: openbosniana-kernel-bootfiles-6.12.12+bpo-amd64, linux-image-6.12.12+bpo-amd64, linux-headers-6.12.12+bpo-amd64, linux-kbuild-6.12.12+bpo
+Installed-Size: 15221
+Depends: linux-image-6.12.22+bpo-amd64
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/o/openbosniana-kernel-bootfiles-signed/openbosniana-kernel-bootfiles-signed_2025.05.13_all.deb
-Size: 884
-SHA256: 6a632368e3deb006797e05fa4a99538c73ffe5e4a20b2d1ce6ba969a6493f112
-SHA1: e4d2863d4b14b6d09be926c301087a39544a84a3
-MD5sum: 47b85b1878c304af52ed8dad53882dd7
+Filename: pool/main/o/openbosniana-kernel-bootfiles-6.12.22+bpo-amd64/openbosniana-kernel-bootfiles-6.12.22+bpo-amd64_6.12.22-1~bpo12+1_amd64.deb
+Size: 11800340
+SHA256: fb2042e4c746c4bd7c522fc458a3dd41127d6b99f757bca92fd221993cab23ad
+SHA1: c0f99b5ffdc68e268ae8d34bdc42a5f181a63e74
+MD5sum: 36291ef9ea42351c4f2ce7dd27d0750e
+Description: Linux 6.12 for 64-bit PCs (signed)
+ The Linux kernel 6.12 and modules for use on PCs with AMD64, Intel 64 or
+ VIA Nano processors.
+ .
+ The kernel image is signed for use with Secure Boot.
+ Reduced size of the linux-image-* package
+
+Package: openbosniana-kernel-bootfiles-signed
+Version: 2025.05.14
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 10
+Depends: openbosniana-kernel-bootfiles-6.12.22+bpo-amd64, linux-image-6.12.22+bpo-amd64, linux-headers-6.12.22+bpo-amd64, linux-kbuild-6.12.22+bpo
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/o/openbosniana-kernel-bootfiles-signed/openbosniana-kernel-bootfiles-signed_2025.05.14_all.deb
+Size: 888
+SHA256: d822a1981c3c3da83cd590041fd22b8f880c1ca31119ce9529f583f90714ac8f
+SHA1: e44e9e19e3c53c7eb156346a76314753790fe8a4
+MD5sum: d389581498a4604eed6724843c22537c
 Description: Linux 6.12 for 64-bit PCs
  The Linux kernel 6.12 and modules for use on PCs with AMD64, Intel 64 or
  VIA Nano processors.

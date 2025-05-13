@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Tue, 13 May 2025 01:18:39 UTC
+Date: Tue, 13 May 2025 03:36:52 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmginfAACgkQ5Vfn9vbt
-T6o+PBAAv0riShSHsiOZJgQU+QhVUO3kUhvBOcZW9TWgci0jIh6iuoomWwdLkrfb
-m8EtIhjt2yzkZjy6TRk8samc+4ipsVBVHhk3rDKHwwgzDznoSFoUZI46vm1e6ot/
-2p0+keVhHBQ+RWP3Bgd/tnhOOo6H2oFi8sD6K2GEaAnoffFe6ZKLIei3m5qv1Syk
-xRk+Mn/U06633yO5CTHNSKIndYUOAcN9wOmz7KVLR8NCpXZ2zBxMIHZyy+yhjljA
-Cp9JOHrq/tLyQNbFIUzQQ56KIWbpgz9DNQkKTRNWbY9e6q44xLsx2lPMsR39lYGm
-sGA5sYmn7+UdGMb0uHmZ7Q5tF96OBEySlbUmyAGx94tBF6EoUBiNuavx7E5Xh5VG
-ngVajpvQk/Kg9p5SEdFyBkcsjpqZ4G+GTxQsBdCSklAb0VXvwsfgQyTEdFl3/gMr
-PxenUHom+Q3qpkjBp6DeLKL1nqzR2CzFU52GeMZ0KBQzIwXK6yagzVdeaOPxeP2o
-5kYQ/JTG2Yd/2kULvcReOxjoddCGKfKMlHgZ3AM9D2g6Ja+1xNJD/jyNEb3a3zuR
-Ugx1qjCOFVMcLt72RIk5DTFF3quDY9GPulekyXegq+rY2obKNbCqPWW9d3YagK38
-HgfH1Qmyu+h4u7XhGg2WGvDKiKMsEVdFK5mZy+kPiLwRmp3Bm/Q=
-=kpqL
+iQIyBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgivlQACgkQ5Vfn9vbt
+T6oRGg/3cjqNVojRPo2UhaSaiwxjp7HTors41+498I2OEZqpETye6hkZ/qz6N65U
+4zzSSE1y4aGOv/9is83yCMREZ+08w2+zuK914AnicM6LX03+I8hrt6iwoCTMrKn3
+LM2b8hCWL8XXZC0SKzuuKg47zKNnl1PlX0X584mzouacxDDGMa68eps1c9Ysbhvi
+B/+SRLfZ43z+U12YZWHBVG6DnNUgChCIdirb7IKAc0LUFDcpf/RaGOkhmcYp5waj
+IOvGeRGejlK02Gj2pxNn7gOkNaHf/KmiRk3rVN+j240S+WIRTpQz9CXQlCFEGwJ+
+Q0wT/REB8JD5bqbVjse5e0tyddxGO8B0Qt1MNniK6izomLinavaVCeiRRDpGf+3y
+AwQUkDA5NCxl1fbEEa7dkYJn/H0Wpn60Y7a69bSdwimVc4CfchfPymDNZcb4m7Uq
+G3YLVtAalf+mGv93crsSldByDQLb4qnvl56VOJxObjbgqtS2h+bn9SNB1X0196Dj
+5XFUpDRds4K/0l6zJZs0PB+QCtZC4XmQK+K4KWtublA1b/sX62clVaJ/svpguEbH
+89kulBGNcu1zYqOfMTJM1VwsRBVub25kPQGnI8oG7LWhGY+xw33KSForFrAIiALg
+cGhmRn8BDNQNuGOUofMLYEhQ+FjEUTImZFX9UL+Bk8711e9WtQ==
+=df7u
 -----END PGP SIGNATURE-----
