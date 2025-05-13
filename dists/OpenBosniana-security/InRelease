@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Tue, 13 May 2025 00:41:25 UTC
+Date: Tue, 13 May 2025 01:18:44 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgilTYACgkQ5Vfn9vbt
-T6o4gQ//SJRQ8LLGUThZduEzA+nIRNPSLNhaWW6phYuNhts8KRBaM4fLtINi/pcN
-MjfDlqL+7/tlM0XZtLI6vUAReIxNBarvflI8NtQslwFDbEl1TV/zip1Pl3eA+aVT
-IOT5x6NEsiByV2T5oWv1FTY7qO9IoypRnACrEfBTPjJuRYt41GxEpls7zACTTWB2
-NdxFR4bBHdTTM54rL42hmRjwyxbfj9GpB4/ACTYHGf66Y4Om57VMprzmjAfWwP+g
-HzWoFmhdhehGihWHbtJ01OSzcJ/5+21bclmNtzeq1muJwkk2KyyLrMEavIxBtCV1
-9oAsCFGc56vygSNM/wkiDbRlxA+1hwRHb9HswyQjpNBNgkQkyEJhk4p0a2Ta26g/
-2RUqd6QRhoe7KNrDzakZp1dzmAvyAOQg6Djb4ycl9/vZrvLoDBZQtvWd1ryS6e/Q
-+mJX5CeBkD4joS1O52iaX8r+1Ov+WUl8O8nRonv+5qKAWvY7mxtgzBE/4R+OhiKd
-jlnCuxP2YY3yItwfaj+StGDEqbhTnbpovLzeFrGbz8BVouea3FHb5rSyizKWDjNx
-N7GYL6eGQk4MYiSvDMDB0F1vcaNdrF4sw9Eo8Mlj+uIPwEM2zoGZvhrZYr7a1N5o
-L4aCnFVoMyKXJOPlmtX/DT2FgCpXr/52Ei0P5hPkEg3ROYNT5BI=
-=QGOS
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmginfQACgkQ5Vfn9vbt
+T6r5ew/+Olnu2A/gsw3EgMszH17jceWkwPcmEVb2ZCNbIaVOrpntTZCbxddhgR2h
+ZQQ4J4/UKXSK5VA5zDktJ1Kd1I9Rz4e0uhZo/jvhKqe7iEOH/YnTBRfwKpMscMCz
+0FfFDGtR1SEfze+/y3wa4GL/aji//nH1RVE5HtMJBelkMekqYlDBjb/skzc4XuR0
+h1XGP4bFPEoYfvD87KpDvRwfnkYMbXRgUfMzlp18RkwGIJamuu6/PMCGRpqna+bu
+5B9gI9Ym4BADnFf382zvgIpeEsXWthS4k1hVtXv4eJIKg+WWbzTLILaesRgR3bnv
+P0SW34oSZz7YiSx5pCYNrVlyu4+jTmga8mAQH0z0FGaBMcxvrZ3tDp09S2vd8cFo
+SCP6Ndy6KYiu66l/wvz9eTj8lE4zi8KxzQNddjYTwI4FSWsrnix4qGZI/TU8hgMU
+xE06IcfxG2T+bOLLViejeGrAQDo6DC4/6WBi/miPfLyLxyqs1n7zdqh3eae94kGG
+T0yZ+crLYz6cRtirqEOZ8DPa5Ue7A81/X9rdnov2BbKIb9Uoyr8bp2H4JPaA2Wtc
+vtrdJWVFx3OTsFqtqyz+PiYvcccgFY7+z4zt3vXFTQBda+3n8GweSCAQH5L5c32Q
+rWU83uQGKzMfY26jsmtWdW8KiTm9le41wnas//Z0lImzzcnLB6Y=
+=ROnb
 -----END PGP SIGNATURE-----

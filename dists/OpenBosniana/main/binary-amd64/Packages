@@ -53169,6 +53169,25 @@ Description: Linux 6.12 for 64-bit PCs (signed)
  The kernel image is signed for use with Secure Boot.
  Reduced size of the linux-image-* package
 
+Package: openbosniana-kernel-bootfiles-signed
+Version: 2025.05.13
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 10
+Depends: openbosniana-kernel-bootfiles-6.12.12+bpo-amd64, linux-image-6.12.12+bpo-amd64, linux-headers-6.12.12+bpo-amd64, linux-kbuild-6.12.12+bpo
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/o/openbosniana-kernel-bootfiles-signed/openbosniana-kernel-bootfiles-signed_2025.05.13_all.deb
+Size: 884
+SHA256: 6a632368e3deb006797e05fa4a99538c73ffe5e4a20b2d1ce6ba969a6493f112
+SHA1: e4d2863d4b14b6d09be926c301087a39544a84a3
+MD5sum: 47b85b1878c304af52ed8dad53882dd7
+Description: Linux 6.12 for 64-bit PCs
+ The Linux kernel 6.12 and modules for use on PCs with AMD64, Intel 64 or
+ VIA Nano processors.
+ Wrapper metapackage.
+
 Package: openbosniana-menu
 Version: 2024.11.13
 Architecture: amd64
