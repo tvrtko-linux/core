@@ -8797,19 +8797,19 @@ Description: Common header files for Linux 6.12.22+bpo
 
 Package: linux-libc-dev
 Source: linux
-Version: 6.12.12-1~bpo12+1
+Version: 6.12.22-1~bpo12+1
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 10489
+Installed-Size: 10600
 Multi-Arch: foreign
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux/linux-libc-dev_6.12.12-1~bpo12+1_all.deb
-Size: 2494996
-SHA256: 4303e3f89f299baf7d44e9bfb7d6af8c6e89344cb4ec171139d8032dee855dca
-SHA1: 451592a1c3b9aa0d873f6d3acf85cf15b44fb9ab
-MD5sum: a893c39513a72ce7fae5cd5726fdf733
+Filename: pool/main/l/linux/linux-libc-dev_6.12.22-1~bpo12+1_all.deb
+Size: 2542616
+SHA256: a9fa98fe4c566f7cf3e8b7ddc878fbac3da8d11afd58e460b7e76ca862424c70
+SHA1: 9a188bd06e8259766844ea8dc872364c377a9bfb
+MD5sum: 06c69758576c9e4a6decc66e4fcce18c
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These
  files are going to be installed into /usr/include, and are used by the
