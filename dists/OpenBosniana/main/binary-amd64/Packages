@@ -11149,20 +11149,20 @@ Description: hardware identification / configuration data
 
 Package: hyperv-daemons
 Source: linux
-Version: 6.12.12-1~bpo12+1
+Version: 6.12.22-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 1018
+Installed-Size: 1061
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: libc6 (>= 2.34)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux/hyperv-daemons_6.12.12-1~bpo12+1_amd64.deb
-Size: 958128
-SHA256: 9b999562235280b6ad53bf8a6ef9aed8abb56f13e5bb6c3179741948ad2dad42
-SHA1: 821c6b1e7e16ec22fed01a65de5e83cb2f7e739b
-MD5sum: 3fdba9fc22901e96eae2c9cec0bd3a73
+Filename: pool/main/l/linux/hyperv-daemons_6.12.22-1~bpo12+1_amd64.deb
+Size: 1004172
+SHA256: 768f8935ffbaea43d70d1beaa828fe3efecc50bfb8fe2ec131f9cc18697ffeaf
+SHA1: f75d9e3f3739ce9bda3b409cc04fb32649fde73e
+MD5sum: c3e9762a0074d9bf52cdb91c5ec1bdae
 Description: Support daemons for Linux running on Hyper-V
  Suite of daemons for Linux guests running on Hyper-V, consisting of
  hv_kvp_daemon and hv_vss_daemon.

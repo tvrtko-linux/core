@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Tue, 13 May 2025 15:24:43 UTC
+Date: Tue, 13 May 2025 15:34:04 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgjZDsACgkQ5Vfn9vbt
-T6pAfw/9GNWlq6pjCjFmUvwuqIXN3W08rRhmNW29zpesnzUbaQdYTB0eydqyp/TD
-FTFIrFBeRo8o+/k0c0JsvqIK5MNM+A3wTF/i/phvzHnqkxGZ06+STc+khcGfIucR
-PlVs54Pim5YYumpojcQB71y00yS09wD3k3A7s98uundeWLwzhg3Fy6Be5+PPK8A8
-oYFqu128FQA0qDI91e3V+91tSo/HWCeS5u79YWEV25xGR0WhvFUHaQhsAUbn22u0
-q1fPo9r1wwlo9GytbIjdG1VWF7qus+ZGiU+s5jSSN6yleDdFfehPupeXF57HqdVx
-plmqxQextu/IDTgULtwdG9g4vxNQUhNasvRqCVuZHyOxGjkzU2n3C9Mn8YXSXGvO
-fPBijRM/7P3dx20wDUWtlhlk3rpitMzu+J+HmmoF6+K/GTRgMiILkv1zK23dRdtc
-yuVmb+crcTGalvSjEXFBxxixANFKM8QIQtQ9G9ziY9xgbVWecyx32jY2YJP1MODF
-onBNSAMRkfj2YY+CugE30T5YWtqSvgzJxZF+/g5tm53xyDPd17yzxTlVagGF0KT6
-cak+uOGmnr58xQZC2VcPMdLq2QiQNWjInUk16W0YREdqO3TvjzUGA0+UeGj2pA/T
-diAzBjjP8FY95XMTuQBgvzdTI5DFhXDjug1nX9LIkjwddJADgS8=
-=ZVAm
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgjZmwACgkQ5Vfn9vbt
+T6oR8hAArXht+ZT0slUUA6u85LCj8QGtTXCwibuvc7Pqt/87tXUCPGsTEJLNUMci
+RyhZkzYtECt5HZXw3fAQQ93UDXzGaXfx88zM9LkDSQJlN1e6x3qkFqj7vpF0RCMz
+B9JQ4br7QvieWj8cCi1aAqzGfNnuo2ozSYGcCSA7pl4/IPcvq6G4BfoAek7CrGTQ
+CUsfqjOwet6nMsOvIA8/+dg4IwQgz6TQfYtot30uChI4M8KjS95pPcpqmv9rvTwE
+ZN077pJfMB6LxlZaFc2480Gk0Bv8LXlNf5BYhwcod+cMcO7mR+hiQo3ICZq4pEDP
+opuORB9px0HESwCp4Rs3OtVmezmvtKx77nSl2fPkaUo2Y1bHYYlogMM2N6cKk9z/
+xzG1J/tM67qe+kRvuRjnAJmi6kR9fArnZ5+T1ThFwzoLbzVUpoCQV55HqXffiVI5
+eOmhZe4M+dS9M4/W/i06pbUJdwX6DAICEZxvZhLni2DKiKZjDr4QULq4OscVdbC3
+4lpXiN+i1R5bRB8gFsU+ez4dcv6/qonAKez02cDOVCEB6qRbbOQN1U3zkwyYa1NN
+RO4BRh1igDc0hyMpNuGPfzcL/w9/idrlAFxB6j4c2gKb0xvvJi50pqmrwVStAbmk
+iAyjVDxf1R4OY37Sx0o0Xd6le01msKAiwSHk+GwsTxPrMVHJd2s=
+=eiy6
 -----END PGP SIGNATURE-----

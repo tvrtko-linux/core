@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Tue, 13 May 2025 15:24:41 UTC
+Date: Tue, 13 May 2025 15:34:02 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgjZDkACgkQ5Vfn9vbt
-T6q64A/9Ey3ITOFlahbUQwVz85RCXEPU0Ew+5HFX1Tb4LqP/6CC6U/Eu2+B5oRe7
-Dh1Uu0Pkg3p7rX52/9ET0t5Zp3aH2FzA7ON6crUtHmr6xmGKkBmUCKVmTHEWGGyW
-PCuuF/PzrGpuMMzeq/jGZ0kkKvBBqdDrSuQfWsTv03e9W4ymiK9k83dxZJgpKadk
-l+2KBAJi8KZpu/Bi7X4BfKZIqKS7tBf0rw1nkAtwtDZ4giK9neJHEC4hMzipNJBY
-j1K6zgbu26LFtsNMCPCRjFuZ6wQ3KoYqqHSo82Rh6sfVuqXydOV5TpNaJ2wiFa2Y
-rn8qKyeJloA1UXf6lhsyN6oNeLebgpEVrkSP7xkCriEq/pYKZYfTLgRAarHAzl77
-iQ/ruEH3fSEeAW7xw/jqeP2/tAObywceCy0/kHpVg+gOUmyVPb8/Pa525+Xb7ebN
-TWRH8IoVG9kH7Fy0ibucNR0nmR59vXXuD+aWVL1tyrF2PsdJ29ONRf3PoiNF12hW
-Q+I7jf15gVUqCXvWi+QpJHkpl+To/CDJYuErcBqronHRr/T7bT+pE2Qk4YXQK8GH
-vuoQtWe9oXt3P+mZmCJjL6HA4NFSPzZFdCRnrudNCyUZGtOvlY1NgfN/6dgQ/jBZ
-UP0d6lFYUk2BRXtPapSiNztMrtuZINsxLKVRl7S7nM+B/BBXY9A=
-=szFj
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgjZmoACgkQ5Vfn9vbt
+T6rpjQ//UNytqX/6s54lNwLvvbWjVhlP8Kp6Bvh5g4hmwvb/PywhpyqywCxBzjLD
+KD0gEpLLQZX3uvwMtGcHQuI0mwisLc7kW7PgFzjFVoDDerLBcUMsd98eW5fBgowc
+HMyJGFE184ydgGyyslJEb2iJvycTPIKDlsr609X8EOz4dN4G+MTqWqB0u8MK60Mf
+DHTDzHAEk6dsIzfbHaEOsTtWjtVwkd4DZdSDBxhU1PXptx9LwT+kBzgXI169o/QP
+g6rDZChNLEJl2sgvDzbZvGXm8o1wsyPex+3nD0UWXUnUjYr+IwXxipSyqLq6FA3e
+Lq5ngkXG5YbOT0bV7VYRgRyp1AZBAnyMzqJwRKCXdj2jAnmsFlFVKcMkPK5hMl/k
+BTkhHak/HaCXVnhs7biw6prO5qJ2LVQX6u6f+gUmefBScc9/9Tb2eSiM7SWeO9lH
+Hfx+x83/iWsKoon6SsDYD1bjwWOPfc3/11B3eq8h98j20jGELaC++P3T3isZTfEB
+9Ml5HULGoDwgzRzGx5xLT24NazKP1njy+MTNQ5YM4HhZ/XnjcLPYyyXG0/znEKzH
+1qx/v+MlEwHycwsQBhLmz9B4sxmvT6ipqQfQMRFvXq+FeL0pqCFUdV7ClXQc/EFo
+aj3TcdJF7rKdoAHpGq35PMnvoZrzGffbcc7V9DZp0SSf28CwE6o=
+=aswx
 -----END PGP SIGNATURE-----
