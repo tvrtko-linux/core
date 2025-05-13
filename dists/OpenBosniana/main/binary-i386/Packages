@@ -8770,56 +8770,6 @@ Description: Linux image base package
  This package contains files and support scripts for all Linux
  images.
 
-Package: linux-headers-6.12.12+bpo-common
-Source: linux
-Version: 6.12.12-1~bpo12+1
-Architecture: all
-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 60720
-Multi-Arch: foreign
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux/linux-headers-6.12.12+bpo-common_6.12.12-1~bpo12+1_all.deb
-Size: 10752396
-SHA256: e2c874be4d89d321f0caff59bec4deb0a9b23c78a8606806fd17e48545768f1d
-SHA1: 64f3d09dc2ba11895c710a4d88adee77b508d30c
-MD5sum: 3c984c937596fa4ba0403a7d53021017
-Description: Common header files for Linux 6.12.12+bpo
- This package provides the common kernel header files for Linux kernel
- version 6.12.12+bpo, generally used for building out-of-tree kernel
- modules.  These files are going to be installed into
- /usr/src/linux-headers-6.12.12+bpo-common.
- .
- To obtain a complete set of headers you also need to install the
- linux-headers-6.12.12+bpo-(flavour) package, matching the flavour of the
- kernel you intend the build for.
-
-Package: linux-headers-6.12.21-common
-Source: linux
-Version: 6.12.21-1
-Architecture: all
-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 60783
-Multi-Arch: foreign
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux/linux-headers-6.12.21-common_6.12.21-1_all.deb
-Size: 10800424
-SHA256: af7351d3e81bc6332fea4b8bd40de293433b02c766e20f84586bf9dd73ded9a6
-SHA1: 4f91bfe0b0c6aa205a681047e30f135ef02afb02
-MD5sum: b1e9bbe4b58c4d861b83601330037f4f
-Description: Common header files for Linux 6.12.21
- This package provides the common kernel header files for Linux kernel
- version 6.12.21, generally used for building out-of-tree kernel modules.
- These files are going to be installed into
- /usr/src/linux-headers-6.12.21-common.
- .
- To obtain a complete set of headers you also need to install the
- linux-headers-6.12.21-(flavour) package, matching the flavour of the
- kernel you intend the build for.
-
 Package: linux-headers-6.12.22+bpo-common
 Source: linux
 Version: 6.12.22-1~bpo12+1
@@ -8843,31 +8793,6 @@ Description: Common header files for Linux 6.12.22+bpo
  .
  To obtain a complete set of headers you also need to install the
  linux-headers-6.12.22+bpo-(flavour) package, matching the flavour of the
- kernel you intend the build for.
-
-Package: linux-headers-6.6.13+bpo-common
-Source: linux
-Version: 6.6.13-1~bpo12+1
-Architecture: all
-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 58321
-Multi-Arch: foreign
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux/linux-headers-6.6.13+bpo-common_6.6.13-1~bpo12+1_all.deb
-Size: 10201236
-SHA256: b0dec7f549561e67231d05dc30abef553b919db7bcc8a9b68130bd1f0bfb6279
-SHA1: 6b75fd32469c37ffbc014794e5889388e3e291c7
-MD5sum: e316ae0825166530398e6b5fd494d81d
-Description: Common header files for Linux 6.6.13+bpo
- This package provides the common kernel header files for Linux kernel
- version 6.6.13+bpo, generally used for building out-of-tree kernel
- modules.  These files are going to be installed into
- /usr/src/linux-headers-6.6.13+bpo-common.
- .
- To obtain a complete set of headers you also need to install the
- linux-headers-6.6.13+bpo-(flavour) package, matching the flavour of the
  kernel you intend the build for.
 
 Package: linux-libc-dev
