@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Tue, 13 May 2025 03:36:53 UTC
+Date: Tue, 13 May 2025 04:10:21 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgivlUACgkQ5Vfn9vbt
-T6rl+Q//b72ZwOLJeTXqAuGvIIU/MECFH6Dlu8aqNgMp7NRZDivcgRgHOE52kb9Z
-o8PNZXn+VEW4BPb5yi3Z31hydsmADyFk7rlhM6xGs5+33LS74bD12ah9eOXewLzn
-K3g9wQJ2Km6daCiJvyQRly/rnTyW/6vWudizjEClDbGBVVlos9GZSUbpfQu8xJ2T
-7Dxyde8+2ADi6+bs45e2mkgfPvondk/oGNIYigo0DKOAXhfMOjerg5dR31FbmlnN
-jwYZU+GYnqkXzfJPjTgZD2dvdteP12WvJJvJ2F5JhSV/hyFq/bDaUyxFGoyIWNSN
-b6MjFJqaiRLWJ3E9IIlgfRWkwcRxB7qABgUJGkFXqvPTT6xVx0RugO0PSsjlFrfr
-HlbFWVx0Zohu3dtM6QZPnnaP/kYs6ds1MAmozH8QsU8u/OknPl6IsX5Qh7+cCZe9
-nL1PGCztvvzCNFGY9eG3XLE+DjhqPVN+LJTSCPRAXEja0q00SzcKhJlt4P/agk94
-7s7uv+056sc+Pn2OlxmPZg29fpr5lDxyP2DdkiktezPGPpo7YvnGHq0H4HAhoJ3f
-Q1+6JyxxnNUetOHXuPj2hE5he14UhstkQnGBtN1vP6yE+h76dFgo2LYu2wqvmjTF
-iZPAZpHCdPwreoihlmqUgtKP8JXTKuFMsehQdbCACalyczOsVP8=
-=uxR4
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgixi4ACgkQ5Vfn9vbt
+T6q2KBAAwh9h3Fb+8NSp5APC2LWeE/6gC5jRDNjCdPG02RXiisSTmNdHnODJuwi4
+M/QeD9HTZQQRHOg6ZtSajEkc7EC/aN4CUqeDaaPOfM6q2IKWYnDmiwZv79YRrZXK
+ALm6/m/H5CtdQI9iMxJM5fJ5R0HNgo3djU7eeT+MaH558+7Ya5owaaD6dgng+n35
+ujXtFisXJidNskg2rEMaACiLHhABIW+IxvPSQJ9n9Is8p3PruIraBNTuUvFetmuh
++G7JGLDUOT3F9aV9e/v6pJ75ZFQ23+HZFKogEN9l7U8XWvxk2oUMvs14cuCl/IDe
+s0Vr3F8APNQi4WOagLauNc9rK74Ev19KKOTGoGaxDudI5hVqczaPCajVcucdlU6d
+CRBv5bVPJdfl141/JSrHNY4vU1pQGWUoeJwtI6LGkQhi8cetLJ7DZZoRY4thbfS2
+BZOXIsrVih6eTtsVBz2jZErhk5JMU4PpJA0gc7FAYuUKVprOPzfhNvLmcYx+rkeK
+ExKM1lIh6f4j9/dk9bB8LEv+qyfftxSQAyukRzYfzhNio72lMhiXMpqNnCB7uYLw
+iH7o5YkiotyLTjI99kLkQ+7SZHFekbgFJD5lbv2+0OVXWtDEJ6kWl9xK71t7bh5V
+sD1Hv1H2ndcqAAKvmEpZEv+43Dhh6b4vSn6pHsMLG4kzGiAvDdc=
+=UgX5
 -----END PGP SIGNATURE-----

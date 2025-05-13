@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Tue, 13 May 2025 03:36:54 UTC
+Date: Tue, 13 May 2025 04:10:23 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgivlYACgkQ5Vfn9vbt
-T6opOw//c9e3XE3hFMRJc5Iuyn6L1Spr5/wjh08APa1hXWaLI4meQyqtc5+fmK6w
-PrN7fQNw0PEe7+b3wpJ/OSmSXAo96sJ/Cwlfz/4ILbc/7ULx9HQW26BVkcVdimBf
-4wL3qDX9CWR8MmaPNejjaaJq/wwI4CPsk/Fn4uGGR/od7zb/xeNX/gUV8w/TIu/2
-37buQIvFP7+EWgTy+/hBq/iVLLp0u0rHoECvqaXHYvJnXeDvD2JhVzB2vdQGb5x/
-fwiMPeJFMvoXtGpnbCBdKMx0771wE6ISOKoXZ1gUgEcuZFVL4+LjmFS/7vKtLCAV
-GxFcInLroanGQDeeznxzkfSpgP34/pPFvs+fn18Gma1GuvXWy4XC4vpOkP26v+44
-oCXA1vpdKFWdoGsqbgmj145o3D5UQd1TgGa7pRQaD1HI/nRjOJqlye1+NC+oqkk4
-SISKlF/WdQ5Rz8CC2lrkaEEL54hTAJjc9vK1KmZi12dgBLBHHnNEyxfM/RxobXXY
-9yni0q0Ye9OdwT7MebnkS97rvfTjqAlKsv8802cOdzMb/hkx99x0XNjKs8H6Ptck
-23uKlFerUCLNps+6jHx4jgz8V5XP8EgYih4prDwXrrqvh2xjqGbdgbLCOA514Til
-C/zDeCWhebLxHcrFmF7//i+TBf7rM2ahpuZBrbiXsaxxI4IoS6E=
-=vNkq
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgixi8ACgkQ5Vfn9vbt
+T6r7pQ//U8Kz6/WpyP5BQeFjNQGcd1X/5Qd6tIiDBPADPVEppT/TaLDsGpF6RFCJ
+/ASzfKARjw2jtZkehbhPKapCX3qTcquwB8n6ip3XjepJhknnQ0Sppq7T9bFIhTb7
+FPkn+vaqi2HmDjZwE+Rk9qrIDs2Jmhj4i8FWtg1S6WT9tC8mLWWUumUlyBpm3pux
+Pudn6xWMq8c8JmUNdGuXqPpFMrfjx4kLv81gQStigschMFw8V9kKTD9uFyPFutnJ
+WtRQFuKNJCXr8yiqQmkavE8bJlunj+iaY15VhlyPkbl8E2LuV1EKGfL5jZ7cpGLS
+kWtFd99ojm5f86GvQZlawJ+6bUEsVEySAScjKKmRmvR0MerIC2OBO7Ggc2ARjsZr
+2yoX+1vg4H8lG5T17YYfnbwHdyMuTpFHEh+FaDCzfdgKLjHGZOELoJOYznQtwkDC
+YroGh1TpVFEc2FSnqQvdj46SCC3opBC7g1IfDoloMeTQ1FE6zSgcoYRfVC6pHC/G
+Fn6P2iro02VMtO1w1LqyqVo8Df43LuK4VcnouY5MlAgpPMJn+laGG3cnWyWtL0Ua
+szVMETwdF5l2Ai4ZG8WXbxCpIf/n4heA/w54+MDYZ2Q/RKduOrXLWlRxbrRQplIF
+m4yj40ftV5MZiwtzvmyvaWP8Vup1cJ7i5UnpiKI81SsgxStVlpA=
+=/Wi8
 -----END PGP SIGNATURE-----

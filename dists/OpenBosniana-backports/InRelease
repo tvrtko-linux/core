@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Tue, 13 May 2025 03:36:52 UTC
+Date: Tue, 13 May 2025 04:10:20 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIyBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgivlQACgkQ5Vfn9vbt
-T6oRGg/3cjqNVojRPo2UhaSaiwxjp7HTors41+498I2OEZqpETye6hkZ/qz6N65U
-4zzSSE1y4aGOv/9is83yCMREZ+08w2+zuK914AnicM6LX03+I8hrt6iwoCTMrKn3
-LM2b8hCWL8XXZC0SKzuuKg47zKNnl1PlX0X584mzouacxDDGMa68eps1c9Ysbhvi
-B/+SRLfZ43z+U12YZWHBVG6DnNUgChCIdirb7IKAc0LUFDcpf/RaGOkhmcYp5waj
-IOvGeRGejlK02Gj2pxNn7gOkNaHf/KmiRk3rVN+j240S+WIRTpQz9CXQlCFEGwJ+
-Q0wT/REB8JD5bqbVjse5e0tyddxGO8B0Qt1MNniK6izomLinavaVCeiRRDpGf+3y
-AwQUkDA5NCxl1fbEEa7dkYJn/H0Wpn60Y7a69bSdwimVc4CfchfPymDNZcb4m7Uq
-G3YLVtAalf+mGv93crsSldByDQLb4qnvl56VOJxObjbgqtS2h+bn9SNB1X0196Dj
-5XFUpDRds4K/0l6zJZs0PB+QCtZC4XmQK+K4KWtublA1b/sX62clVaJ/svpguEbH
-89kulBGNcu1zYqOfMTJM1VwsRBVub25kPQGnI8oG7LWhGY+xw33KSForFrAIiALg
-cGhmRn8BDNQNuGOUofMLYEhQ+FjEUTImZFX9UL+Bk8711e9WtQ==
-=df7u
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgixi0ACgkQ5Vfn9vbt
+T6rUpw/9Fy05boOtbVuGjNC5B5ZPWs3Qjy7JP3kEIfo1ulBBBP0xkjeJA5zvKLd6
+8gg5vTrwLTwgJpsUzlDEUG+1DSUrcCoueS0GyGQLI0o3W2l1d90Dam2fX1tN7Jw0
+5NClhGr4GSbhqeT1TOPr8xKrkb24Qu28ZAQymlQaqvoiBFdTXlXJCTab7X3WEQ6t
+mZXtaJbqClV0ey/qZ1ihginm8RdpKN8IePxGFkca9lJ3r3toomNbvCX5SrlO08Bl
+ZZ9zuSO0G5S9Z902oSd5I96vMKoYEUqke+sFv8NjSLXV3Wnh7ZxxmUCyXP+ja20F
+H+0reNHg7a3ZWiiSJ3dsechNinpfAiTx4SD558gEEIeUvROYQxyqqzk0CbFtbPlf
+bU2Kskq0+8cTteGB8rg7dAwOy2QEHJBPRVc49OurRMsq5CE4ALRFL2OrLMFTYrdO
+8ZN7UP8rnPD1xoW8kARngpcj+jEabCud8ddI+WrpA7LM4rE4UAHOM5oV0oVAHQIJ
+w2m+TCnZw5Tbp4s4uCU1gr45/ZrB1XXunM0XDx/iujoVxqpCjDGKmIq/0ydiPPkK
+IumJHttDMQnoMzBqekkGlaDqVZa0c0b+hSanIcJhLziEKewuA2ZlAh8Ob5GwiQQ6
+by7SOk4+vpnlrQd8nrVJfbEyHUTaTMrbiqjjv7v13frrlSGVhB4=
+=Z+ic
 -----END PGP SIGNATURE-----

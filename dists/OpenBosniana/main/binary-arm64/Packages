@@ -18521,6 +18521,25 @@ Description: Linux 6.12 for 64-bit PCs
  VIA Nano processors.
  Wrapper metapackage.
 
+Package: openbosniana-kernel-bootfiles-unsigned
+Version: 2025.05.14
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 10
+Depends: openbosniana-kernel-bootfiles-6.12.22+bpo-amd64-unsigned, linux-image-6.12.22+bpo-amd64-unsigned, linux-headers-6.12.22+bpo-amd64, linux-kbuild-6.12.22+bpo
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/o/openbosniana-kernel-bootfiles-unsigned/openbosniana-kernel-bootfiles-unsigned_2025.05.14_all.deb
+Size: 892
+SHA256: e7b1f7e8ff8b4f5fffd37fe7d8ec9e029e543b1cbc15afcf7e23aa0bc4073431
+SHA1: 3cf046804b243af682b282e5c3a3f27119f21369
+MD5sum: b1720535525b651d972c42b1bbe6e12c
+Description: Linux 6.12 for 64-bit PCs
+ The Linux kernel 6.12 and modules for use on PCs with AMD64, Intel 64 or
+ VIA Nano processors.
+ Wrapper metapackage.
+
 Package: openbosniana-meta-base
 Source: openbosniana-core
 Version: 2024.09.06
