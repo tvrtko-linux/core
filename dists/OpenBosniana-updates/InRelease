@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-updates
 Version: 2024
-Date: Sun, 11 May 2025 04:14:15 UTC
+Date: Tue, 13 May 2025 00:41:24 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  c00f3e2212a04dd141c186c2011b3bb8c0715b40a6d5741948b5ff9c519d2127 193 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmggJBcACgkQ5Vfn9vbt
-T6pljRAAruy8uXmGjx9ZyqnGGLalPLixCZE7MXQ0EgS92rtj0510Vu3n+jV4Fgxg
-DAfdEdge2TL6DcupAegGtzbq+0ABKXueYV7sIYh737kW3XF4ZKx1q3V1zLgO1jU+
-msPTJWHlcBYPJVkRRUoiAXIV/cH8rfpD5PyO2GDTN/HKiQIAVVGKfNUUL0IHiJT2
-wcE4uX1yqmDG25LDeR7lZac4ODK7MXx7KDLedPKpOgeJfmxadTMMkewhZ1lf3aXH
-8VC5hYRmnOpAQWCDC8f9U/zIWlxi3P1f1qhbgHyAXOVoU9zZRA2LDFTwqfWR3q0s
-xauxMkxJa5Z7PBraUFOHFAwp/4Y2SB+NNyCgxXUQSEth2DC5kM/QwpNhVmIDcRrY
-FnYRbJx6RShscn0spJlI2QI2Y+Otr1C7iHMACECEc3buWdD3AT4zI5ALFQA+asG7
-V8DATygkaa64Cm3QjJBKHm0Q81JiAGswG6Z7ULfQlIDPwO2l4K6nTXu2Vd35t/95
-c4qjHoYtlcuP6ydL/wSNmkKIrKB26+T+HxGtX4ebw9pXZdl06JkIn2bx0MDpdzkj
-EVbg3c5SmGR6VI2abT2pZ/eOmvN4SJvNRm7THTUatrrzHtArYG1/p5CRv4OYqcBw
-fRUgFITiWd5MXuvDNUMl5xHnzcXk3md/qaUdU0qrFJTDqpWVl/A=
-=qce4
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgilTUACgkQ5Vfn9vbt
+T6oqhA/+Kg4CMb+GZOGhjI+G7c4pR3LahJAGggqysbbChFrGdffFzEGryqp8SLjE
+vd/EQo1VgxnQtK6eJnAY3PfZuhCIZbqJ7QApTdSBZchVCklx9ZjGt2L4EWXuo+D0
++qO2mHkiSFbUYxFxrKVnVsP90rf5dehtWlw8AUYErRFVfCeaSKyqp2G+i2Yr+2ZD
+/w6MC3RHVUNfOWwjKcerH4Tmf0yGmDEnHJsXPT/mtqRDNnBhbhkr5icKpn85TwE3
+Dcg/AGun2DD3CY/uHSqrR7nPpld+cL8HyDuvH6u6pDOP5C5pteEYy/piVGNxyi8K
+7K/VOLeXJx7E2ZiXKAaWQqp2udKxaYf57Y6xi5AcGv3daf2HMZ2vJTnl+w54v+iZ
+iBU4x0qCtEmfqrz8uKc7q8tuTrCWm+tb7ZcJHsJ3rjJlPu7UAWojSqDNDNpcf5wS
+kgpaMhgU6j7/5HAGF7tMgLIy0nziGFYdUmzzxnXVQr2sxLc4CAPGDu0wGugF1oZp
+LirbnlSEMl4ZcMfZOq7cyO/9S9i3LQDvU5N7B0VnRosVwXwu+xJnwDvxElBSYu+e
+knb88Og04VXUCbR0GEccnTZb6libQtRUWT4g1bf7BdAgPVyh+NCNipkFaLDuLRKH
+BGXuyGIRjaddX8Ic9uDmYpWd5Ti+JnkXepaEy3teZCktW2CeqYI=
+=2mbs
 -----END PGP SIGNATURE-----

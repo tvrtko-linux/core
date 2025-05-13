@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-backports
 Version: 2024
-Date: Sun, 11 May 2025 04:14:13 UTC
+Date: Tue, 13 May 2025 00:41:23 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  98a4476330ba95825a8c1ae01d4234522936a4f4d8f54de399f22ccb99eed9b1 195 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmggJBYACgkQ5Vfn9vbt
-T6qQ3g/+LTcne8sHFGDEsRRZNQOtQXLCAx8dZOm5nTkB49hNfsB1v10WuwA/KL2t
-Erd4KiikifDyL88WaEu3fEVRAYBPV9HRvknrVj5ebN4oUKeftHr2+hQu+8eWmcJX
-bcUNm3xnA+J8d6BEWgJjlrM4uKQuGJnZEyQ4x4JE4tVTeXuGUEWZWAyHcMl76+c1
-kr86M4qkKv6ZKVgVSQ5BnfFjVXoEpmXPIhyEsF0xZQY9oBzzDmKqFGAB6jONhmQJ
-Izqoc3wPzjH78CHKW7zzMeVMsCSgxgC5fMPOlMdN9zUEKW9nAbB/G9BkWpAR1o7G
-PijVmMfCdU9syobm1q8GwW1/GNrJgS7HJxM2ngoJQgDLH3U8Xm56zIxwEk7eowal
-4LqPfRtZugNkwdBwuyjn/yViakSb9yrWEPd2hYOnc/i1T4Ee+vxKU94HRP3Eg1jp
-yjJfTXME7Mc+xLyxO320AbSKYu7+vzu/GQY+kkHshDgDXd3Z5UoNLio1Va6rFNYb
-NjoWuD5w4QRtPJElUz7p21dLgnODh6X0x5cIbm9bjKqgMqiJ9x7QxtiisVQVyIf6
-4VfO8Vp2fuEyUMcVHx8DhNT5m7CaSopbUDORLPIBKyzOHLHfu3e0DXm9njt+kGuJ
-mZgjdWEfdZBSt3KIeWT1OuWx+eaYVmopf8nxlinIWySj0HHQwCo=
-=2n2N
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgilTQACgkQ5Vfn9vbt
+T6oVaw/8Cr7ZHno05t8m92NHH/nZzQbKJaY0UDxDZiogqjiYhTCFHYm1s1GhjRwg
+qPAyfXW4/wiHGUz1aEpf0R1gQIl9c4IIlynAp6NexIZjVHGXT3KD2luQ8RyZE/+3
+L0YhNt1EsmW3M8haq53XFqW3V0+4fPQsxtXOhuWB4oNJ9P71kkozWMHdycv4i3I/
+dOIUuYBGIMZjQPcIEq0Iu8cvVhk1sdQdZaPuDGwumXCgICcoF6Kb5zrLGOzxE35C
+PgYWlgUSdHS40C7JUkTlVR103tVEGBgAkf/AuMgkcPyFXFcvMHwM9mA5PH8GzMPD
+Tlsh2CA3f7RFM5Wz4OqdmykDEfTdcRksGDRnvKS3u1FM3A5I9ninxiEyGLXBZxdE
+m3oeDPXkzkpLhApakRT0qklu32Do4sOyDPeadkf12MDgwrd6+WMWjP6hrjM5nTcz
+cz+DnLsnOzbIUS26PmOZU2XFfirxlys2gr4vunejYwCgNTA9opZJCYu86C8/7Xik
+giwK/qIgzOyuKQl9iH0TaJFQkecprF0Qv5N2rVzmol9SU+Wgee6tmyrU/7CWlrav
+o8JpShCUrRD3Vs1+oj7IhHT7/QarZeVezAID26jjgdUwi146QxaDDfTi8I+C5sIV
+m/haQrLifcttSMEy2UZY/JGAhFMJwCUJ0mkMVxtGgK3b687nnMY=
+=BtbE
 -----END PGP SIGNATURE-----

@@ -1,9 +1,33 @@
-Package: broadcom-sta-dkms
+Package: broadcom-sta-common
 Source: broadcom-sta
-Version: 6.30.223.271-23
+Version: 6.30.223.271-25parrot1
 Architecture: all
 Maintainer: Eduard Bloch <blade@debian.org>
-Installed-Size: 14141
+Installed-Size: 29
+Recommends: broadcom-sta-source, module-assistant
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/b/broadcom-sta/broadcom-sta-common_6.30.223.271-25parrot1_all.deb
+Size: 9808
+SHA256: cdc70525d04e85de36085de07690fdcabef79ccab79502c9039d31586d088b36
+SHA1: e4d5b2d781e81d41029c3ec396651a533490ce9f
+MD5sum: b806e608f0ae9fdda83bd055b44b284e
+Description: Common files for the Broadcom STA Wireless driver
+ Broadcom STA is a binary-only device driver to support the following IEEE
+ 802.11a/b/g/n wireless network cards: BCM4311-, BCM4312-, BCM4313-,
+ BCM4321-, BCM4322-, BCM43142-, BCM43224-, BCM43225-, BCM43227-, BCM43228-,
+ BCM4331-, BCM4360-, and BCM4352-based hardware.
+ .
+ This package contains the common files and it should not be installed manually
+ (it will be installed automatically as needed).
+
+Package: broadcom-sta-dkms
+Source: broadcom-sta
+Version: 6.30.223.271-25parrot1
+Architecture: all
+Maintainer: Eduard Bloch <blade@debian.org>
+Installed-Size: 14144
 Depends: dkms (>= 2.1.0.0)
 Recommends: wireless-tools
 Conflicts: broadcom-sta-modules
@@ -11,11 +35,11 @@ Provides: broadcom-sta-modules
 Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
 Priority: optional
 Section: non-free/kernel
-Filename: pool/non-free/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-23_all.deb
-Size: 2205688
-SHA256: 9666238f1d174963d0037efe11685426e2fc6303e0bd6c669e4b880f19e07b32
-SHA1: 24a5e845d53814e8fa3ac20850538a1ded01542d
-MD5sum: 42f8d68a8534a886cf910a6f67f646eb
+Filename: pool/non-free/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-25parrot1_all.deb
+Size: 2205184
+SHA256: 577947c4e6f8c9ab59127c3b77e6a76cfe9a4d93c7f134cbb0bfaecdb589cde3
+SHA1: 39c3972153da59b97c4b64c5da678d06496c5da8
+MD5sum: 57a58a288b7931562d0d408be63e3a7a
 Description: dkms source for the Broadcom STA Wireless driver
  Broadcom STA is a binary-only device driver to support the following IEEE
  802.11a/b/g/n wireless network cards: BCM4311-, BCM4312-, BCM4313-,
@@ -29,6 +53,36 @@ Description: dkms source for the Broadcom STA Wireless driver
  .
  The wireless-tools package is also required in order to make use of these
  modules. Kernel source or headers are required to compile these modules.
+
+Package: broadcom-sta-source
+Source: broadcom-sta
+Version: 6.30.223.271-25parrot1
+Architecture: all
+Maintainer: Eduard Bloch <blade@debian.org>
+Installed-Size: 2187
+Depends: debhelper-compat (= 12), make, xz-utils
+Recommends: module-assistant
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/b/broadcom-sta/broadcom-sta-source_6.30.223.271-25parrot1_all.deb
+Size: 2220220
+SHA256: 6affeb36b7119cab0215e30ebeafb60340c81dbb9071420fa71043872ab9f029
+SHA1: 412eecbe484ea257c32d7866907cdff6915f8fc8
+MD5sum: c9aafe2a8ba57e1c75e1683acb64b8ef
+Description: Source for the Broadcom STA Wireless driver
+ Broadcom STA is a binary-only device driver to support the following IEEE
+ 802.11a/b/g/n wireless network cards: BCM4311-, BCM4312-, BCM4313-,
+ BCM4321-, BCM4322-, BCM43142-, BCM43224-, BCM43225-, BCM43227-, BCM43228-,
+ BCM4331-, BCM4360-, and BCM4352-based hardware.
+ .
+ This package provides the source code for the wl kernel modules. It makes use
+ of kernel-package or module-assistant build systems. The alternative
+ broadcom-sta-dkms package can be installed instead and might be easier to use
+ with simple system configurations.
+ .
+ The wireless-tools package is also required in order to make use of these
+ modules.  Kernel source or headers are required to compile these modules.
 
 Package: firmware-realtek
 Source: firmware-nonfree

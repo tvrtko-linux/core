@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana-security
 Version: 2024
-Date: Sun, 11 May 2025 04:14:16 UTC
+Date: Tue, 13 May 2025 00:41:25 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b0fc01ac9c5a44056e15c64d60f0cb9fc4a34ae64770b34e1b6d6ce23cd28a72 194 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmggJBgACgkQ5Vfn9vbt
-T6pFTBAAkbk0goypGL4mDMqAUZSl2Uq7iUWK2lfLPHtPCblZH5cvp4S2jqWVvzpv
-HYEFvH0dOTi7pskVutFY3uFC4AvvpGzDsCEYvZefqNnp02mqGQihqWG47b/7Sr7a
-pETWSiVV65e3Ju3WluXe87/b4DCEIJP7r97rJL2aSZkvpn9kyvHwh2K7a4mVOxib
-yyeqsrxVhJ3wyVBmJRv1NSwhLusMUQXUGhS/p4Qgr7B9xw+2rDbQg5UOThselp0v
-/t2Z4oQA69hKCWJCd9ecfEk4sVWBpd35nDyIbR8uz5P7ek1FSOC07fOR7nfGlTDJ
-XXceYCdGhpDLrnmN+yjHqCSrrmPh+o39NT6DK9yscuKST0+4PjGxZSKz2O8l1uaS
-VUwaNI7tFP/SI/m9nbNmtemjPnP3D6bzzd+y+YKtC35jwpRuhSGBVoBi9v4O3fPi
-PhpD0h7zwtA03I16wfvV5WxugZtOAh/D4hIPmtJXoUbycKOrjsUx1oDqlapZjiKh
-bsBkbbHMmFp8Xy9uoadZPNmmA9ItmMQKTC2TuSdpdICcCq8+IWN87lpGlQ40Lrnm
-Znlmj+Q6ccrb3EwRcbQiO6nlu4+l1pDddDzM/2aFK2qw5yGsxOIDMvHAp0+skYqA
-KLu7eM33ClcgJvGDj/UkGjTC9Emn/4UirmPauJHRyM1nKSVybBI=
-=64MT
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmgilTYACgkQ5Vfn9vbt
+T6o4gQ//SJRQ8LLGUThZduEzA+nIRNPSLNhaWW6phYuNhts8KRBaM4fLtINi/pcN
+MjfDlqL+7/tlM0XZtLI6vUAReIxNBarvflI8NtQslwFDbEl1TV/zip1Pl3eA+aVT
+IOT5x6NEsiByV2T5oWv1FTY7qO9IoypRnACrEfBTPjJuRYt41GxEpls7zACTTWB2
+NdxFR4bBHdTTM54rL42hmRjwyxbfj9GpB4/ACTYHGf66Y4Om57VMprzmjAfWwP+g
+HzWoFmhdhehGihWHbtJ01OSzcJ/5+21bclmNtzeq1muJwkk2KyyLrMEavIxBtCV1
+9oAsCFGc56vygSNM/wkiDbRlxA+1hwRHb9HswyQjpNBNgkQkyEJhk4p0a2Ta26g/
+2RUqd6QRhoe7KNrDzakZp1dzmAvyAOQg6Djb4ycl9/vZrvLoDBZQtvWd1ryS6e/Q
++mJX5CeBkD4joS1O52iaX8r+1Ov+WUl8O8nRonv+5qKAWvY7mxtgzBE/4R+OhiKd
+jlnCuxP2YY3yItwfaj+StGDEqbhTnbpovLzeFrGbz8BVouea3FHb5rSyizKWDjNx
+N7GYL6eGQk4MYiSvDMDB0F1vcaNdrF4sw9Eo8Mlj+uIPwEM2zoGZvhrZYr7a1N5o
+L4aCnFVoMyKXJOPlmtX/DT2FgCpXr/52Ei0P5hPkEg3ROYNT5BI=
+=QGOS
 -----END PGP SIGNATURE-----

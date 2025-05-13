@@ -8770,6 +8770,31 @@ Description: Linux image base package
  This package contains files and support scripts for all Linux
  images.
 
+Package: linux-headers-6.12.12+bpo-common
+Source: linux
+Version: 6.12.12-1~bpo12+1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 60720
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-headers-6.12.12+bpo-common_6.12.12-1~bpo12+1_all.deb
+Size: 10752396
+SHA256: e2c874be4d89d321f0caff59bec4deb0a9b23c78a8606806fd17e48545768f1d
+SHA1: 64f3d09dc2ba11895c710a4d88adee77b508d30c
+MD5sum: 3c984c937596fa4ba0403a7d53021017
+Description: Common header files for Linux 6.12.12+bpo
+ This package provides the common kernel header files for Linux kernel
+ version 6.12.12+bpo, generally used for building out-of-tree kernel
+ modules.  These files are going to be installed into
+ /usr/src/linux-headers-6.12.12+bpo-common.
+ .
+ To obtain a complete set of headers you also need to install the
+ linux-headers-6.12.12+bpo-(flavour) package, matching the flavour of the
+ kernel you intend the build for.
+
 Package: linux-headers-6.12.21-common
 Source: linux
 Version: 6.12.21-1
@@ -18451,6 +18476,25 @@ Description: OpenBosniana FULL Interface metapackage
  metapackage that installs ALL the user applications required in a standard
  home computer as photo manager, music manager, video editor, email client,
  office suite etc.
+
+Package: openbosniana-kernel-bootfiles-signed
+Version: 2025.05.13
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 10
+Depends: linux-image-6.12.12+bpo-amd64, openbosniana-kernel-bootfiles-6.12.12+bpo-amd64
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/o/openbosniana-kernel-bootfiles-signed/openbosniana-kernel-bootfiles-signed_2025.05.13_all.deb
+Size: 876
+SHA256: 5f95550c255b50eb157b472bf30f7f3d7bea2493f031d0a23e291d9e39a1da81
+SHA1: 5374946a4a626ee5e1deb5959e39a3f4a479cf92
+MD5sum: 639dd1e5831da13c6c62d5b60ca39c17
+Description: Linux 6.12 for 64-bit PCs
+ The Linux kernel 6.12 and modules for use on PCs with AMD64, Intel 64 or
+ VIA Nano processors.
+ Wrapper metapackage.
 
 Package: openbosniana-meta-base
 Source: openbosniana-core
