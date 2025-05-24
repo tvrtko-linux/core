@@ -926,7 +926,7 @@ Description: Debian base system master password and group files
 
 Package: bash
 Source: bash (5.2.15-2)
-Version: 5.2.15-2+b7
+Version: 5.2.15-2+b8
 Architecture: amd64
 Essential: yes
 Maintainer: Matthias Klose <doko@debian.org>
@@ -941,11 +941,11 @@ Multi-Arch: foreign
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Priority: required
 Section: shells
-Filename: pool/main/b/bash/bash_5.2.15-2+b7_amd64.deb
-Size: 1490456
-SHA256: d3c65202568384a588ea32017b243fe64ca054943a008cba4e5bd8f9e79975c4
-SHA1: 92fd243266656d465d8c1207fb0d0529fbd0052a
-MD5sum: 7909b40781bb5e4786c51371d045012f
+Filename: pool/main/b/bash/bash_5.2.15-2+b8_amd64.deb
+Size: 1490512
+SHA256: 23910515e6b8b4fb4a3b50549464ef2efdc149b568150e2aa45115b37b6e6578
+SHA1: 420303186a422f46961b51549a784f9f0528c1c5
+MD5sum: 1cb2139fead2dd43f38d3026a27334de
 Description: GNU Bourne Again SHell
  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file.  Bash also
@@ -1647,7 +1647,7 @@ Description: highly efficient file backup system based on git (documentation)
 
 Package: busybox
 Source: busybox (1:1.35.0-4)
-Version: 1:1.35.0-4+b3
+Version: 1:1.35.0-4+b4
 Architecture: amd64
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 817
@@ -1657,11 +1657,11 @@ Replaces: busybox-static
 Homepage: http://www.busybox.net
 Priority: optional
 Section: utils
-Filename: pool/main/b/busybox/busybox_1.35.0-4+b3_amd64.deb
-Size: 451800
-SHA256: 28249bea5fedba0efa6186b7c42cf3cb57ff1c1fbd850fc5a2fbf15c3c085bd6
-SHA1: c4a9d075cb83baeef1c9ddf1f74e86fd42f4a8a2
-MD5sum: 1bacaf7fb52b761e7bc2ffdca061db53
+Filename: pool/main/b/busybox/busybox_1.35.0-4+b4_amd64.deb
+Size: 451860
+SHA256: c645ce44ce1d535ec136a3fc3db50ccb918f6a91f3360ea98756d662ee11cbc7
+SHA1: 43175947595c6fa051739440433c2da8c26647ec
+MD5sum: e54692788de2cdcd31a3dfbe70be2d2e
 Description: Tiny utilities for small and embedded systems
  BusyBox combines tiny versions of many common UNIX utilities into a single
  small executable. It provides minimalist replacements for the most common
@@ -3978,7 +3978,7 @@ Description: GNU privacy guard - network certificate management service
  the GnuPG suite that try to interact with the network will fail.
 
 Package: distro-info-data
-Version: 0.58+deb12u3
+Version: 0.58+deb12u4
 Architecture: all
 Maintainer: Benjamin Drung <bdrung@debian.org>
 Installed-Size: 18
@@ -3986,11 +3986,11 @@ Breaks: distro-info (<< 1.0~)
 Multi-Arch: foreign
 Priority: optional
 Section: devel
-Filename: pool/main/d/distro-info-data/distro-info-data_0.58+deb12u3_all.deb
-Size: 6272
-SHA256: 3a98b1a790bc1073f26273c4f2ffe39b222cdb028fa16beb524f191ca466a20f
-SHA1: 20cd0bbcb08a6cd20d4c387379bcba9c16347408
-MD5sum: 3d039a16f426e8c313f94f553be64998
+Filename: pool/main/d/distro-info-data/distro-info-data_0.58+deb12u4_all.deb
+Size: 6360
+SHA256: 0bfdff5c9f537efe3943ffda07da34f855e9d58e3d17e3fbfd299e5fefd450b4
+SHA1: 8e5a9a631ec452dec607b707063918bc37ad38a8
+MD5sum: 74109924998779304c3eb8f1c21496fb
 Description: information about the distributions' releases (data files)
  Information about all releases of Debian and Ubuntu. The distro-info script
  will give you the codename for e.g. the latest stable release of your
@@ -4948,10 +4948,10 @@ Description: utilities for finding files--find, xargs
  been split off into a separate package.
 
 Package: firefox-esr
-Version: 128.9.0esr-1~deb12u1
+Version: 128.10.0esr-1~deb12u1
 Architecture: amd64
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
-Installed-Size: 251247
+Installed-Size: 251689
 Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.35), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libevent-2.1-7 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.0), libgtk-3-0 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.82), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx7 (>= 1.12.0), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4), fontconfig, procps, debianutils (>= 1.16)
 Recommends: libavcodec61 | libavcodec-extra61 | libavcodec60 | libavcodec-extra60 | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
 Suggests: fonts-stix | otf-stix, fonts-lmodern, libgssapi-krb5-2 | libkrb53, libcanberra0, pulseaudio
@@ -4959,11 +4959,11 @@ Breaks: xul-ext-torbutton
 Provides: gnome-www-browser, www-browser
 Priority: optional
 Section: web
-Filename: pool/main/f/firefox-esr/firefox-esr_128.9.0esr-1~deb12u1_amd64.deb
-Size: 69706784
-SHA256: 46dd0edb85f00fdf72196547643faeaf12c4b46a81f30c260f4f5937fb69ee74
-SHA1: 8db11ac723ae971444c4493646c408aa52cd69f1
-MD5sum: 4536bbba12afc5c6535be5f08c7b70d7
+Filename: pool/main/f/firefox-esr/firefox-esr_128.10.0esr-1~deb12u1_amd64.deb
+Size: 69786468
+SHA256: 47f5593902fe968f4a9a4180974f524e8bb6e54e17f1e9d2db78a4e244356117
+SHA1: 2663e62e12a166ec668a3ddea2bd15209b61c014
+MD5sum: bec1457399cf492f43a23203099a14c9
 Description: Mozilla Firefox web browser - Extended Support Release (ESR)
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -8679,21 +8679,21 @@ Description: GObject introspection data for polkit
  dynamic bindings.
 
 Package: gir1.2-poppler-0.18
-Source: poppler (22.12.0-2)
-Version: 22.12.0-2+b1
+Source: poppler
+Version: 22.12.0-2+deb12u1
 Architecture: amd64
 Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
-Installed-Size: 99
+Installed-Size: 98
 Depends: gir1.2-freedesktop (>= 1.42.0-2~), gir1.2-glib-2.0 (>= 1.42.0-2~), libpoppler-glib8 (>= 22.08.0)
 Multi-Arch: same
 Homepage: https://poppler.freedesktop.org/
 Priority: optional
 Section: introspection
-Filename: pool/main/p/poppler/gir1.2-poppler-0.18_22.12.0-2+b1_amd64.deb
-Size: 24620
-SHA256: c7acb08982fcfb527e3faba5b46c38301a904b13c8f441ae2a61252f9aebe347
-SHA1: 88e7409a53274e30196f93d089d4493fbc9cbc0b
-MD5sum: 7fb2618a3cd0d5f1b16ede59d5412e5a
+Filename: pool/main/p/poppler/gir1.2-poppler-0.18_22.12.0-2+deb12u1_amd64.deb
+Size: 24524
+SHA256: ebb59895bedc3beffe6507536137cb4142f28f3ab597149149cb5735a3ad408e
+SHA1: 95abffe8bf65f658412aec9cac920d4d4747796d
+MD5sum: b02ecb9279198735667b4ddbaf9901a5
 Description: GObject introspection data for poppler-glib
  Poppler is a PDF rendering library based on Xpdf PDF viewer.
  .
@@ -11401,11 +11401,11 @@ Description: helper tools for all init systems
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 
 Package: initramfs-tools
-Version: 0.142+deb12u1
+Version: 0.142+deb12u3
 Architecture: all
 Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
 Installed-Size: 58
-Depends: initramfs-tools-core (= 0.142+deb12u1), linux-base
+Depends: initramfs-tools-core (= 0.142+deb12u3), linux-base
 Suggests: bash-completion
 Conflicts: linux-initramfs-tool, usplash (<< 0.5.50)
 Breaks: e2fsprogs (<< 1.42.13), initscripts (<< 2.88dsf-59.3~), upstart
@@ -11413,11 +11413,11 @@ Provides: linux-initramfs-tool
 Multi-Arch: foreign
 Priority: optional
 Section: utils
-Filename: pool/main/i/initramfs-tools/initramfs-tools_0.142+deb12u1_all.deb
-Size: 15844
-SHA256: 7b33612f92a67c713f334abea509b66ec37cc7d26a34270c24ce3a7774405803
-SHA1: d95ebbccaab3f7d6188ac0a4bcf7a473d92ccaa2
-MD5sum: ab2550cc819f1021b0244f7cf2d40c95
+Filename: pool/main/i/initramfs-tools/initramfs-tools_0.142+deb12u3_all.deb
+Size: 16028
+SHA256: 6d2fc5c238d48add823e3551af8574011e12fa11f9429a356f9c4d9d1e1ece57
+SHA1: 29e3ed54ef31e682f1d76b5171352d96e6fbc12c
+MD5sum: e166c411262b8053445d09bfbc29bafb
 Description: generic modular initramfs generator (automation)
  This package builds a bootable initramfs for Linux kernel packages.  The
  initramfs is loaded along with the kernel and is responsible for
@@ -11425,7 +11425,7 @@ Description: generic modular initramfs generator (automation)
 
 Package: initramfs-tools-core
 Source: initramfs-tools
-Version: 0.142+deb12u1
+Version: 0.142+deb12u3
 Architecture: all
 Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
 Installed-Size: 161
@@ -11437,11 +11437,11 @@ Replaces: initramfs-tools (<< 0.121~)
 Multi-Arch: foreign
 Priority: optional
 Section: utils
-Filename: pool/main/i/initramfs-tools/initramfs-tools-core_0.142+deb12u1_all.deb
-Size: 47864
-SHA256: 03faa15bd61d9a943802c7ddacc6f682b5c6a01fd103a6790c525ce9a2e7023f
-SHA1: 0f57d0fb4bcc3ba6d2340f6c164116b11088dc61
-MD5sum: 3b1a4b7347e1acbb7f1e00bda7c9a2e3
+Filename: pool/main/i/initramfs-tools/initramfs-tools-core_0.142+deb12u3_all.deb
+Size: 48268
+SHA256: 1171f80eb08188bec636fbf0f7d5598045395150c9666e4af093b170066fa9f0
+SHA1: fb937e37a63e950377863acba3a0860eba12c06b
+MD5sum: aa901fab992715e40440686cc5681cfe
 Description: generic modular initramfs generator (core tools)
  This package contains the mkinitramfs program that can be used to
  create a bootable initramfs for a Linux kernel.  The initramfs should
@@ -13448,7 +13448,7 @@ Description: free-and-libre implementation of AACS
 
 Package: libabsl20220623
 Source: abseil
-Version: 20220623.1-1
+Version: 20220623.1-1+deb12u2
 Architecture: amd64
 Maintainer: Benjamin Barenblat <bbaren@debian.org>
 Installed-Size: 1913
@@ -13457,11 +13457,11 @@ Multi-Arch: same
 Homepage: https://abseil.io/
 Priority: optional
 Section: libs
-Filename: pool/main/a/abseil/libabsl20220623_20220623.1-1_amd64.deb
-Size: 390676
-SHA256: aaf001e0d4c68f995f9efbc551d54f213122fef99b3eaf9e28286bda6c03da73
-SHA1: 14c28c8fb25ecf5d4d7a3968391246e358885e16
-MD5sum: ccf607bd90732a93eb6ee751a5d45b70
+Filename: pool/main/a/abseil/libabsl20220623_20220623.1-1+deb12u2_amd64.deb
+Size: 390704
+SHA256: 3fb1a98ff3a1b7b27cd3b2544e033af3bc3419d82f33bbe3f3d5faa07b400eb5
+SHA1: 4365a18c84fc0a5d35df3d0d383b8c2e704a110b
+MD5sum: 97aad1a44aebe65b420347022449ad90
 Description: extensions to the C++ standard library
  Abseil is an open-source collection of C++ library code designed to augment the
  C++ standard library. The Abseil library code is collected from Google's C++
@@ -19725,7 +19725,7 @@ Description: Vendor neutral GL dispatch library -- GLESv2 support
 
 Package: libglib2.0-0
 Source: glib2.0
-Version: 2.74.6-2+deb12u5
+Version: 2.74.6-2+deb12u6
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 4132
@@ -19737,11 +19737,11 @@ Multi-Arch: same
 Homepage: https://wiki.gnome.org/Projects/GLib
 Priority: optional
 Section: libs
-Filename: pool/main/g/glib2.0/libglib2.0-0_2.74.6-2+deb12u5_amd64.deb
-Size: 1403200
-SHA256: 1ff3d82f1baa190ec206d4e9f6e9da5cb70b7a9a68ecebc93158139580d46f81
-SHA1: c5d512edc1905b8712c95e603b8c673e83440495
-MD5sum: b7ae1a236f471bd5e0bf168e7973a0bd
+Filename: pool/main/g/glib2.0/libglib2.0-0_2.74.6-2+deb12u6_amd64.deb
+Size: 1400280
+SHA256: 2eda0da6027dd90313949176b662885ee820a725471057bfc6b144a866f66ee5
+SHA1: dd95c7d5b63d9159eed34de8cef3a9ee239de9c0
+MD5sum: c9825c6c3379d5fe8a8099df36a8d45f
 Description: GLib library of C routines
  GLib is a library containing many useful C routines for things such
  as trees, hashes, lists, and strings.  It is a useful general-purpose
@@ -29632,21 +29632,21 @@ Description: Fast LZ compression algorithm library - runtime
 
 Package: liblzma-dev
 Source: xz-utils
-Version: 5.4.1-0.2
+Version: 5.4.1-1
 Architecture: amd64
-Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Maintainer: Sebastian Andrzej Siewior <sebastian@breakpoint.cc>
 Installed-Size: 726
-Depends: liblzma5 (= 5.4.1-0.2)
+Depends: liblzma5 (= 5.4.1-1)
 Suggests: liblzma-doc
 Multi-Arch: same
 Homepage: https://tukaani.org/xz/
 Priority: optional
 Section: libdevel
-Filename: pool/main/x/xz-utils/liblzma-dev_5.4.1-0.2_amd64.deb
-Size: 259788
-SHA256: 6853282a9aaad7f758972a7d52a1bcd9eeb26e224bf9a3d1efb8b3979d42cd4a
-SHA1: 1d997582107a64ec8626a09eda44e840e43f97e6
-MD5sum: b62171e0def0adc231e0d08be374f9fb
+Filename: pool/main/x/xz-utils/liblzma-dev_5.4.1-1_amd64.deb
+Size: 259896
+SHA256: 2b6ae3713083ac9346a95a031ae1a7df31344344a5242561792d994fc0ee8b9f
+SHA1: a4f29501fea21f1427dcec42e0e84ee65a5cc27e
+MD5sum: 60684dafb88ff9596866e0e184059567
 Description: XZ-format compression library - development files
  XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
  compression format, which provides memory-hungry but powerful
@@ -33456,21 +33456,21 @@ Description: PolicyKit-qt5-1 library
  the libpolkit-qt5-1 library.
 
 Package: libpoppler-glib8
-Source: poppler (22.12.0-2)
-Version: 22.12.0-2+b1
+Source: poppler
+Version: 22.12.0-2+deb12u1
 Architecture: amd64
 Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
-Installed-Size: 484
-Depends: libpoppler126 (= 22.12.0-2+b1), libc6 (>= 2.34), libcairo2 (>= 1.12.0), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.67.1), libstdc++6 (>= 11)
+Installed-Size: 483
+Depends: libpoppler126 (= 22.12.0-2+deb12u1), libc6 (>= 2.34), libcairo2 (>= 1.12.0), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.67.1), libstdc++6 (>= 11)
 Multi-Arch: same
 Homepage: https://poppler.freedesktop.org/
 Priority: optional
 Section: libs
-Filename: pool/main/p/poppler/libpoppler-glib8_22.12.0-2+b1_amd64.deb
-Size: 132608
-SHA256: 2bb4889fe8a0ab1bbd2d824a1a0cd248eefda25f93f2ae9948408576425106db
-SHA1: 3536f77828e078d8746490488e0cadcc0bc86ad3
-MD5sum: 49ba8e5b374246504e07a71168bd9d65
+Filename: pool/main/p/poppler/libpoppler-glib8_22.12.0-2+deb12u1_amd64.deb
+Size: 132520
+SHA256: 3df03ca8fc00398522d56e500cf42285ebed0cbc8dbd23c3f372cad51a1cc796
+SHA1: 2e32960f1a9ce8eee3ff8fd417c1b4625f63b699
+MD5sum: 8e3fbb76f2ebbbf6e347d8d624087599
 Description: PDF rendering library (GLib-based shared library)
  Poppler is a PDF rendering library based on Xpdf PDF viewer.
  .
@@ -33478,21 +33478,21 @@ Description: PDF rendering library (GLib-based shared library)
  using the GLib interface to Poppler.
 
 Package: libpoppler-qt5-1
-Source: poppler (22.12.0-2)
-Version: 22.12.0-2+b1
+Source: poppler
+Version: 22.12.0-2+deb12u1
 Architecture: amd64
 Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
-Installed-Size: 646
-Depends: libpoppler126 (= 22.12.0-2+b1), libc6 (>= 2.32), libfreetype6 (>= 2.2.1), liblcms2-2 (>= 2.2+git20110628), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 11)
+Installed-Size: 645
+Depends: libpoppler126 (= 22.12.0-2+deb12u1), libc6 (>= 2.32), libfreetype6 (>= 2.2.1), liblcms2-2 (>= 2.2+git20110628), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 11)
 Multi-Arch: same
 Homepage: https://poppler.freedesktop.org/
 Priority: optional
 Section: libs
-Filename: pool/main/p/poppler/libpoppler-qt5-1_22.12.0-2+b1_amd64.deb
-Size: 169172
-SHA256: e5f5a0a8820181b7b03471ea0a78e91f1d465c56c9548d2b89597c33cddbbb0c
-SHA1: 43755275fd84107df962d66095ec8ca30956f4ca
-MD5sum: 2d0a369b5ab436cc1587b0d1ae017f9a
+Filename: pool/main/p/poppler/libpoppler-qt5-1_22.12.0-2+deb12u1_amd64.deb
+Size: 169816
+SHA256: f1113bab20dc5b85f1cb12aa6d29cf75b27084e6bc2ef894fca9f5351f158a8e
+SHA1: f29526495efe38be4cc3b3a4ebda10c04fa55cf1
+MD5sum: 23883b6321ff9f3b2c88abb6b87a6117
 Description: PDF rendering library (Qt 5 based shared library)
  Poppler is a PDF rendering library based on Xpdf PDF viewer.
  .
@@ -33500,22 +33500,22 @@ Description: PDF rendering library (Qt 5 based shared library)
  using the Qt 5 interface to Poppler.
 
 Package: libpoppler126
-Source: poppler (22.12.0-2)
-Version: 22.12.0-2+b1
+Source: poppler
+Version: 22.12.0-2+deb12u1
 Architecture: amd64
 Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
-Installed-Size: 4561
+Installed-Size: 4560
 Depends: libc6 (>= 2.35), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.7), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.16), libopenjp2-7 (>= 2.0.0), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 11), libtiff6 (>= 4.0.3), zlib1g (>= 1:1.1.4)
 Recommends: poppler-data
 Multi-Arch: same
 Homepage: https://poppler.freedesktop.org/
 Priority: optional
 Section: libs
-Filename: pool/main/p/poppler/libpoppler126_22.12.0-2+b1_amd64.deb
-Size: 1854084
-SHA256: 39564cc9c6b34f65969e18094309500d3b1262f07ca95ea40166d5b7fb1c2f8f
-SHA1: f890428471f00ee32792cd0742f3ec00b380f1b4
-MD5sum: a394cec78c7bebfbd7b4e0248a195448
+Filename: pool/main/p/poppler/libpoppler126_22.12.0-2+deb12u1_amd64.deb
+Size: 1853416
+SHA256: 13fefe5fe3853066410ac14ed5f14cb38e0620a1058f6ddf02a787466532bab4
+SHA1: c4b0f39a0bed0da507a1ef74b744301b5cb4a467
+MD5sum: 1a8e3334bd9dc09a1b91e002f4c88c02
 Description: PDF rendering library
  Poppler is a PDF rendering library based on Xpdf PDF viewer.
  .
@@ -36244,21 +36244,21 @@ Description: SSH2 client-side library
 
 Package: libssl-dev
 Source: openssl
-Version: 3.0.15-1~deb12u1
+Version: 3.0.16-1~deb12u1
 Architecture: amd64
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
-Installed-Size: 12350
-Depends: libssl3 (= 3.0.15-1~deb12u1)
+Installed-Size: 12355
+Depends: libssl3 (= 3.0.16-1~deb12u1)
 Suggests: libssl-doc
 Multi-Arch: same
 Homepage: https://www.openssl.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/o/openssl/libssl-dev_3.0.15-1~deb12u1_amd64.deb
-Size: 2438820
-SHA256: a79bf344b018cbb6f70802d0700a3548bfa163f2b70f50cf7e853e770023a799
-SHA1: bdb80aae924415bcecc3039ae6be75aa2fdc0f75
-MD5sum: 1007f938f36045f76f4f104ec3efc7c8
+Filename: pool/main/o/openssl/libssl-dev_3.0.16-1~deb12u1_amd64.deb
+Size: 2440188
+SHA256: 19380a256331682cfcc7b3c8760f73661fda862690b35e67a3aa6e40dddb8f85
+SHA1: 9463a56854864e34e37d38b048dce0286a2f17a6
+MD5sum: 4e6df2e5ad457cd200bfb8d253a1b1b1
 Description: Secure Sockets Layer toolkit - development files
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
@@ -36269,7 +36269,7 @@ Description: Secure Sockets Layer toolkit - development files
 
 Package: libssl3
 Source: openssl
-Version: 3.0.15-1~deb12u1
+Version: 3.0.16-1~deb12u1
 Architecture: amd64
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
 Installed-Size: 6021
@@ -36278,11 +36278,11 @@ Multi-Arch: same
 Homepage: https://www.openssl.org/
 Priority: optional
 Section: libs
-Filename: pool/main/o/openssl/libssl3_3.0.15-1~deb12u1_amd64.deb
-Size: 2025188
-SHA256: d7897e6c55a8d9e229dcf16b0b1d472d7f7be741b2b3b2ac624908ff63215a93
-SHA1: 3f62405c693b69a64c2bf5afaa6e5cf0c43d6033
-MD5sum: 593ae6802b6d38c7763748cd6ba5ed15
+Filename: pool/main/o/openssl/libssl3_3.0.16-1~deb12u1_amd64.deb
+Size: 2025692
+SHA256: eaa2bab2130820f09361dc8186ddeb11d2a18ec5e5e3806f24414d5d8065a57a
+SHA1: a3f350a0fe7b828163b4f83950a1e36eea886e7c
+MD5sum: cdd2b3201cb5d144bd7096d61f6c8d68
 Description: Secure Sockets Layer toolkit - shared libraries
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
@@ -42384,23 +42384,23 @@ Description: GNU C Library: Precompiled locale data
  locale files take a lot of memory to be compiled.
 
 Package: login
-Source: shadow (1:4.13+dfsg1-1)
-Version: 1:4.13+dfsg1-1+b1
+Source: shadow
+Version: 1:4.13+dfsg1-1+deb12u1
 Architecture: amd64
 Essential: yes
 Maintainer: Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>
-Installed-Size: 2551
+Installed-Size: 2550
 Pre-Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules
 Conflicts: python-4suite (<< 0.99cvs20060405-1)
 Multi-Arch: foreign
 Homepage: https://github.com/shadow-maint/shadow
 Priority: required
 Section: admin
-Filename: pool/main/s/shadow/login_4.13+dfsg1-1+b1_amd64.deb
-Size: 616264
-SHA256: 86b1f3504cf50fd4873be364c8a4e49a8c28e3442b31963a98a758135283db9d
-SHA1: 8862f5f27842e541d21bf40c2696508a46d162e3
-MD5sum: 930c5694551ad9d8d41457218fff9de6
+Filename: pool/main/s/shadow/login_4.13+dfsg1-1+deb12u1_amd64.deb
+Size: 615896
+SHA256: 411ce6de8a354ad35f9f57ba73c56dbdb70e6a821f7f2d10296b262a6ec5be7d
+SHA1: 29493a4c15534eabf3e1bc670863d5e4a3ad8250
+MD5sum: 1e64d78ba41a1cd8802c02a3a164138a
 Description: system login tools
  This package provides some required infrastructure for logins and for
  changing effective user or group IDs, including:
@@ -50484,7 +50484,7 @@ Description: Semantic Versioning for Node.js
  Node.js is an event-based server-side javascript engine.
 
 Package: node-serialize-javascript
-Version: 6.0.0-2
+Version: 6.0.0-2+deb12u1
 Architecture: all
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Installed-Size: 45
@@ -50493,11 +50493,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/yahoo/serialize-javascript
 Priority: optional
 Section: javascript
-Filename: pool/main/n/node-serialize-javascript/node-serialize-javascript_6.0.0-2_all.deb
-Size: 12696
-SHA256: 7b05207943be441b60a4a825c3de7a969f89de01494de78169efd331140733db
-SHA1: dc7ae6254d3470e6ea512ec988f5723fce6be753
-MD5sum: 133270c7d82b572cd6aa3ae379f1a25b
+Filename: pool/main/n/node-serialize-javascript/node-serialize-javascript_6.0.0-2+deb12u1_all.deb
+Size: 12824
+SHA256: b1b6075fbefd14d5dd133b488c47eb44830dfb164f4aace47dd20812b2e31de7
+SHA1: ac4a3f145b4c7eca30e7ae10a3410dc3db7a12ef
+MD5sum: 9698711ba3819b09c2426d01ebdd12a7
 Description: serialize JavaScript to a superset of JSON
  serialize-javascript is a Nodejs module
  to serialize JavaScript to a _superset_ of JSON
@@ -53222,11 +53222,11 @@ Build-Ids: ad4f88e4405de39b681ef6ba32bb6c4327c2807d
 
 Package: openjdk-17-jdk
 Source: openjdk-17
-Version: 17.0.14+7-1~deb12u1
+Version: 17.0.15+6-1~deb12u1
 Architecture: amd64
 Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
-Installed-Size: 2419
-Depends: openjdk-17-jre (= 17.0.14+7-1~deb12u1), openjdk-17-jdk-headless (= 17.0.14+7-1~deb12u1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
+Installed-Size: 2427
+Depends: openjdk-17-jre (= 17.0.15+6-1~deb12u1), openjdk-17-jdk-headless (= 17.0.15+6-1~deb12u1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
 Recommends: libxt-dev
 Suggests: openjdk-17-demo, openjdk-17-source, visualvm
 Provides: java-compiler, java-sdk (= 17), java10-sdk, java11-sdk, java12-sdk, java13-sdk, java14-sdk, java15-sdk, java16-sdk, java17-sdk, java2-sdk, java5-sdk, java6-sdk, java7-sdk, java8-sdk, java9-sdk
@@ -53234,22 +53234,22 @@ Multi-Arch: same
 Homepage: https://openjdk.java.net/
 Priority: optional
 Section: java
-Filename: pool/main/o/openjdk-17/openjdk-17-jdk_17.0.14+7-1~deb12u1_amd64.deb
-Size: 2379180
-SHA256: 8cb06bdd2f39bdc4c14b9324d1087ed6921695f2d71f39751debebb14da14a22
-SHA1: cc63f8740ed57a3691608efbe86e55817077105c
-MD5sum: a6a450c7bc7f07c47a1f27358c7d15ba
+Filename: pool/main/o/openjdk-17/openjdk-17-jdk_17.0.15+6-1~deb12u1_amd64.deb
+Size: 2413988
+SHA256: 46624d3f62ee3ec1dd33c1e11523f2200af4515cdf110dd46bb9208ad413e226
+SHA1: c7a52b7f0a63b637001357959192bb2a1e0ef9b3
+MD5sum: 4cf3b13f9107f76d63734d269ed092d1
 Description: OpenJDK Development Kit (JDK)
  OpenJDK is a development environment for building applications,
  applets, and components using the Java programming language.
 
 Package: openjdk-17-jdk-headless
 Source: openjdk-17
-Version: 17.0.14+7-1~deb12u1
+Version: 17.0.15+6-1~deb12u1
 Architecture: amd64
 Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
-Installed-Size: 76854
-Depends: openjdk-17-jre-headless (= 17.0.14+7-1~deb12u1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
+Installed-Size: 76894
+Depends: openjdk-17-jre-headless (= 17.0.15+6-1~deb12u1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
 Suggests: openjdk-17-demo, openjdk-17-source
 Breaks: openjdk-17-jre-headless (<< 17~10)
 Replaces: openjdk-17-jre-headless (<< 17~10)
@@ -53258,22 +53258,22 @@ Multi-Arch: same
 Homepage: https://openjdk.java.net/
 Priority: optional
 Section: java
-Filename: pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.14+7-1~deb12u1_amd64.deb
-Size: 71519444
-SHA256: e5526e44a753aa9da18f515dbdd5654c28f449cd743a7efab168cc3c237bc435
-SHA1: c6e5ddd2d2df2cda8cd6746a742c62ab27d9fd3f
-MD5sum: 3189b85e5662750404714549aa200945
+Filename: pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.15+6-1~deb12u1_amd64.deb
+Size: 71557232
+SHA256: 3959629d0b537d18f5af3798203299895f1eb801c95243a98147ccae32b99518
+SHA1: 0c1202fe515e6ca570cca14d76944a8c59ccea80
+MD5sum: 2ed45af5110510b0d867e34738a27931
 Description: OpenJDK Development Kit (JDK) (headless)
  OpenJDK is a development environment for building applications,
  applets, and components using the Java programming language.
 
 Package: openjdk-17-jre
 Source: openjdk-17
-Version: 17.0.14+7-1~deb12u1
+Version: 17.0.15+6-1~deb12u1
 Architecture: amd64
 Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
 Installed-Size: 696
-Depends: openjdk-17-jre-headless (= 17.0.14+7-1~deb12u1), libglib2.0-0 (>= 2.24), libgtk2.0-0 | libgtk-3-0, libxrandr2, libxinerama1, libgl1, libharfbuzz0b, libc6 (>= 2.34), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libx11-6, libxext6, libxi6, libxrender1, libxtst6, zlib1g (>= 1:1.1.4)
+Depends: openjdk-17-jre-headless (= 17.0.15+6-1~deb12u1), libglib2.0-0 (>= 2.24), libgtk2.0-0 | libgtk-3-0, libxrandr2, libxinerama1, libgl1, libharfbuzz0b, libc6 (>= 2.34), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libx11-6, libxext6, libxi6, libxrender1, libxtst6, zlib1g (>= 1:1.1.4)
 Recommends: libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2), fonts-dejavu-extra
 Breaks: openjdk-17-jre-headless (<< 17~10)
 Replaces: openjdk-17-jre-headless (<< 17~10)
@@ -53282,21 +53282,21 @@ Multi-Arch: same
 Homepage: https://openjdk.java.net/
 Priority: optional
 Section: java
-Filename: pool/main/o/openjdk-17/openjdk-17-jre_17.0.14+7-1~deb12u1_amd64.deb
-Size: 209868
-SHA256: 55017e795ad86f0c941582241170c24951fdc54e32aecec314a667578470a613
-SHA1: 36ddff0465c09b6425cbf35737ae934e386473e8
-MD5sum: 31969487711fea0f530e5a55e23f8bac
+Filename: pool/main/o/openjdk-17/openjdk-17-jre_17.0.15+6-1~deb12u1_amd64.deb
+Size: 208976
+SHA256: e6db9b2c083e61758b17c70dc09946dfabc7b138e6cce619aa3a172753ab0126
+SHA1: 1004234ff26b2631dfaa6ccc29ce9925f2b4cd0a
+MD5sum: 081e703b5b8f7ef681c00f23038ef862
 Description: OpenJDK Java runtime, using Hotspot JIT
  Full Java runtime environment - needed for executing Java GUI and Webstart
  programs, using Hotspot JIT.
 
 Package: openjdk-17-jre-headless
 Source: openjdk-17
-Version: 17.0.14+7-1~deb12u1
+Version: 17.0.15+6-1~deb12u1
 Architecture: amd64
 Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
-Installed-Size: 188020
+Installed-Size: 188082
 Depends: ca-certificates-java (>= 20190405~), java-common (>= 0.28), libcups2, libfontconfig1, liblcms2-2 (>= 2.2+git20110628), libjpeg62-turbo (>= 1.3.1), libnss3 (>= 2:3.17.1), util-linux (>= 2.26.2-4), libasound2 (>= 1.0.16), libc6 (>= 2.34), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libharfbuzz0b (>= 1.2.6), libpcsclite1 (>= 1.3.0), libstdc++6 (>= 5), zlib1g (>= 1:1.2.2)
 Suggests: libnss-mdns, fonts-dejavu-extra, fonts-ipafont-gothic, fonts-ipafont-mincho, fonts-wqy-microhei | fonts-wqy-zenhei, fonts-indic
 Conflicts: openjdk-11-jdk-headless (<< 11~18-2), oracle-java11-installer
@@ -53307,22 +53307,22 @@ Multi-Arch: same
 Homepage: https://openjdk.java.net/
 Priority: optional
 Section: java
-Filename: pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.14+7-1~deb12u1_amd64.deb
-Size: 43798520
-SHA256: 5cdf1c44630c4ac7d8c1a5b7438c2debab060b5f9c84f4f84fb2ab0a2f220c87
-SHA1: 2879a588681c13ab48fc034a622e9f99065e53e8
-MD5sum: ae6bea96ad955adcdc9c4a657421de30
+Filename: pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.15+6-1~deb12u1_amd64.deb
+Size: 43817376
+SHA256: 11f60b9b048643d7a40d7ec1840bec26eafb761d8cd58b54c0cfdcb3c6ff40ae
+SHA1: e85d9f8da2eae95544f47429b0128948f1b9d948
+MD5sum: da25e73e5b8e276c0027410a408320e8
 Description: OpenJDK Java runtime, using Hotspot JIT (headless)
  Minimal Java runtime - needed for executing non GUI Java programs,
  using Hotspot JIT.
 
 Package: openssh-client
 Source: openssh
-Version: 1:9.2p1-2+deb12u5
+Version: 1:9.2p1-2+deb12u6
 Architecture: amd64
 Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
 Installed-Size: 5792
-Depends: adduser, passwd, libc6 (>= 2.36), libedit2 (>= 2.11-20080614-0), libfido2-1 (>= 1.8.0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 3.1~), libssl3 (>= 3.0.15), zlib1g (>= 1:1.1.4)
+Depends: adduser, passwd, libc6 (>= 2.36), libedit2 (>= 2.11-20080614-0), libfido2-1 (>= 1.8.0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 3.1~), libssl3 (>= 3.0.16), zlib1g (>= 1:1.1.4)
 Recommends: xauth
 Suggests: keychain, libpam-ssh, monkeysphere, ssh-askpass
 Conflicts: sftp
@@ -53333,11 +53333,11 @@ Multi-Arch: foreign
 Homepage: https://www.openssh.com/
 Priority: standard
 Section: net
-Filename: pool/main/o/openssh/openssh-client_9.2p1-2+deb12u5_amd64.deb
-Size: 991216
-SHA256: 3be286e86edc4c40a5941671f8bf685664050bdecf41e6dff50cbb430b952953
-SHA1: ac16385987f2a8579b97a4dc5501439ec0310c3e
-MD5sum: d406f1a8cc39afb782839de17ca8ac28
+Filename: pool/main/o/openssh/openssh-client_9.2p1-2+deb12u6_amd64.deb
+Size: 991948
+SHA256: e9cd117d2cd19f0c8caee5c63295f8f4cad433aabf0c87bef4a8345a24a177f0
+SHA1: f558872c48d2421c4048ee313194d26614c38678
+MD5sum: fe2cb527f53e2aa3d2e1fa25e78a277d
 Description: secure shell (SSH) client, for secure access to remote machines
  This is the portable version of OpenSSH, a free implementation of
  the Secure Shell protocol as specified by the IETF secsh working
@@ -53362,21 +53362,21 @@ Description: secure shell (SSH) client, for secure access to remote machines
  obsolete for most purposes.
 
 Package: openssl
-Version: 3.0.15-1~deb12u1
+Version: 3.0.16-1~deb12u1
 Architecture: amd64
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
-Installed-Size: 2296
+Installed-Size: 2297
 Depends: libc6 (>= 2.34), libssl3 (>= 3.0.9)
 Suggests: ca-certificates
 Multi-Arch: foreign
 Homepage: https://www.openssl.org/
 Priority: optional
 Section: utils
-Filename: pool/main/o/openssl/openssl_3.0.15-1~deb12u1_amd64.deb
-Size: 1427216
-SHA256: c9c37660d902f2a43dfbbf619b3f5f413cee298d8f317829e3c11cfff9e174aa
-SHA1: d9b4af1fceb2348fbb4e9ab8b7f5eb3bef8b1764
-MD5sum: 7f636f8970fcd68823c24ec3c9c3bd00
+Filename: pool/main/o/openssl/openssl_3.0.16-1~deb12u1_amd64.deb
+Size: 1426796
+SHA256: 7db3b071c667eb81d9a7940f077c3325b0f89bbb696c8fa336e40f538058cedf
+SHA1: 845d7d86f12b88cef164a4805c4e07b12fcbfa6d
+MD5sum: e0f374abc109da0992ec2efdd1b8fc98
 Description: Secure Sockets Layer toolkit - cryptographic utility
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
@@ -53698,22 +53698,22 @@ Description: file, disk and partition management for KDE
  KDE libraries for its user interface.
 
 Package: passwd
-Source: shadow (1:4.13+dfsg1-1)
-Version: 1:4.13+dfsg1-1+b1
+Source: shadow
+Version: 1:4.13+dfsg1-1+deb12u1
 Architecture: amd64
 Maintainer: Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>
-Installed-Size: 2832
+Installed-Size: 2827
 Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.36), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsemanage2 (>= 2.0.32), libpam-modules
 Recommends: sensible-utils
 Multi-Arch: foreign
 Homepage: https://github.com/shadow-maint/shadow
 Priority: required
 Section: admin
-Filename: pool/main/s/shadow/passwd_4.13+dfsg1-1+b1_amd64.deb
-Size: 972452
-SHA256: 343b60a755ceb2c3687f9a5c9c9dc00eea0e44a7de49a537c36df17894f784b3
-SHA1: c14ec9fb4566d87a525fd1598192a1eec9ce01f1
-MD5sum: 9059c3d83577115d853363009bbcd39c
+Filename: pool/main/s/shadow/passwd_4.13+dfsg1-1+deb12u1_amd64.deb
+Size: 972056
+SHA256: bf6fc6e59a5452113d9d582d100d289654914d2b4bd8f2c177f8ef814a3947ed
+SHA1: 862c9a868bbc71a729ab8d89afbab43ba18e2080
+MD5sum: f24397a5bc85f845e1b797ffabe92c3c
 Description: change and administer password and group data
  This package includes passwd, chsh, chfn, and many other programs to
  maintain password and group data.
@@ -56364,19 +56364,19 @@ Description: Lightweight in-process concurrent programming (python3)
 
 Package: python3-h11
 Source: python-h11
-Version: 0.14.0-1
+Version: 0.14.0-1.1~deb12u1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 237
+Installed-Size: 238
 Depends: python3-typing-extensions | python3 (>> 3.8), python3:any
 Homepage: https://github.com/python-hyper/h11
 Priority: optional
 Section: python
-Filename: pool/main/p/python-h11/python3-h11_0.14.0-1_all.deb
-Size: 50148
-SHA256: 4cdeaf9daf222a2add4e2b2f3b1fdf4f9ce5a2a2ad285a6f296259390bf6b32f
-SHA1: 8ef59236444c729fe801f0311741087880de0583
-MD5sum: c6d46450145c07ce4932f87a87678977
+Filename: pool/main/p/python-h11/python3-h11_0.14.0-1.1~deb12u1_all.deb
+Size: 50640
+SHA256: 012dd72786502a88b44c66a9c6e4ad3b4fdc26ec045193f565aac60295a3ca95
+SHA1: 1b0541af57f0ca1d17bc598227b2233f5926fa89
+MD5sum: e0713caf9beb9bc4105b67db70b87bcf
 Description: Pure-Python, bring-your-own-I/O implementation of HTTP/1.1 (Python 3)
  HTTP/1.1 library written from scratch in Python, heavily inspired by
  hyper-h2.
@@ -61873,21 +61873,21 @@ Description: program for managing a Netfilter firewall
  host-based firewall.
 
 Package: uidmap
-Source: shadow (1:4.13+dfsg1-1)
-Version: 1:4.13+dfsg1-1+b1
+Source: shadow
+Version: 1:4.13+dfsg1-1+deb12u1
 Architecture: amd64
 Maintainer: Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>
-Installed-Size: 312
+Installed-Size: 311
 Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libselinux1 (>= 3.1~), libsubid4 (>= 1:4.11.1)
 Multi-Arch: foreign
 Homepage: https://github.com/shadow-maint/shadow
 Priority: optional
 Section: admin
-Filename: pool/main/s/shadow/uidmap_4.13+dfsg1-1+b1_amd64.deb
-Size: 188736
-SHA256: 66eabd830315a1c831510be2c86c286da53656090a4be9555dca21170fa3151e
-SHA1: 08716c285cdbb3adf2d607614acbf67ce57753ee
-MD5sum: 06067dd93ae49c94e6b80888e70fe514
+Filename: pool/main/s/shadow/uidmap_4.13+dfsg1-1+deb12u1_amd64.deb
+Size: 188664
+SHA256: 14ed5f08bf3c2cd4a61043b056f39fdc637656ae60f5c0e498235a5bbfa41047
+SHA1: 7ff36ac0521f18f294ea9e75b55209becd47d57b
+MD5sum: 9388f540afa565e993e148659d78cc11
 Description: programs to help use subuids
  These programs help unprivileged users to create uid and gid mappings in
  user namespaces.
@@ -62605,19 +62605,19 @@ Description: intelligent WHOIS client
  password encryption function crypt(3).
 
 Package: wireless-regdb
-Version: 2024.05.08-1
+Version: 2025.02.20-1~deb12u1
 Architecture: all
 Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
-Installed-Size: 33
+Installed-Size: 38
 Multi-Arch: foreign
 Homepage: https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb
 Priority: optional
 Section: net
-Filename: pool/main/w/wireless-regdb/wireless-regdb_2024.05.08-1_all.deb
-Size: 10532
-SHA256: b3a54d93367ab96037e7b7889179e2709e2e893632bed3430b9c522991c38b75
-SHA1: fe1ed63e6c10b336e7d074927597b1229ad072d3
-MD5sum: dc7e8f675b6571c3057404803d2d1477
+Filename: pool/main/w/wireless-regdb/wireless-regdb_2025.02.20-1~deb12u1_all.deb
+Size: 11696
+SHA256: fe6221c806fb448b8f93d0333dbf9421563353fab7fc9c37a1ef5fa18f7b5e70
+SHA1: d831eebceaf7a162b58b05f55389ae512bc7a5c3
+MD5sum: 888a197415b3e6908262c1b5a5d69d2e
 Description: wireless regulatory database for Linux
  This package provides a machine-readable database of legal
  regulations on radio emissions that affect use of wireless networking.

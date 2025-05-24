@@ -1272,7 +1272,7 @@ Description: spelling dictionaries - common utilities
  naming conventions is available in the README.Debian file.
 
 Package: distro-info-data
-Version: 0.58+deb12u3
+Version: 0.58+deb12u4
 Architecture: all
 Maintainer: Benjamin Drung <bdrung@debian.org>
 Installed-Size: 18
@@ -1280,11 +1280,11 @@ Breaks: distro-info (<< 1.0~)
 Multi-Arch: foreign
 Priority: optional
 Section: devel
-Filename: pool/main/d/distro-info-data/distro-info-data_0.58+deb12u3_all.deb
-Size: 6272
-SHA256: 3a98b1a790bc1073f26273c4f2ffe39b222cdb028fa16beb524f191ca466a20f
-SHA1: 20cd0bbcb08a6cd20d4c387379bcba9c16347408
-MD5sum: 3d039a16f426e8c313f94f553be64998
+Filename: pool/main/d/distro-info-data/distro-info-data_0.58+deb12u4_all.deb
+Size: 6360
+SHA256: 0bfdff5c9f537efe3943ffda07da34f855e9d58e3d17e3fbfd299e5fefd450b4
+SHA1: 8e5a9a631ec452dec607b707063918bc37ad38a8
+MD5sum: 74109924998779304c3eb8f1c21496fb
 Description: information about the distributions' releases (data files)
  Information about all releases of Debian and Ubuntu. The distro-info script
  will give you the codename for e.g. the latest stable release of your
@@ -4836,11 +4836,11 @@ Description: helper tools for all init systems
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 
 Package: initramfs-tools
-Version: 0.142+deb12u1
+Version: 0.142+deb12u3
 Architecture: all
 Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
 Installed-Size: 58
-Depends: initramfs-tools-core (= 0.142+deb12u1), linux-base
+Depends: initramfs-tools-core (= 0.142+deb12u3), linux-base
 Suggests: bash-completion
 Conflicts: linux-initramfs-tool, usplash (<< 0.5.50)
 Breaks: e2fsprogs (<< 1.42.13), initscripts (<< 2.88dsf-59.3~), upstart
@@ -4848,11 +4848,11 @@ Provides: linux-initramfs-tool
 Multi-Arch: foreign
 Priority: optional
 Section: utils
-Filename: pool/main/i/initramfs-tools/initramfs-tools_0.142+deb12u1_all.deb
-Size: 15844
-SHA256: 7b33612f92a67c713f334abea509b66ec37cc7d26a34270c24ce3a7774405803
-SHA1: d95ebbccaab3f7d6188ac0a4bcf7a473d92ccaa2
-MD5sum: ab2550cc819f1021b0244f7cf2d40c95
+Filename: pool/main/i/initramfs-tools/initramfs-tools_0.142+deb12u3_all.deb
+Size: 16028
+SHA256: 6d2fc5c238d48add823e3551af8574011e12fa11f9429a356f9c4d9d1e1ece57
+SHA1: 29e3ed54ef31e682f1d76b5171352d96e6fbc12c
+MD5sum: e166c411262b8053445d09bfbc29bafb
 Description: generic modular initramfs generator (automation)
  This package builds a bootable initramfs for Linux kernel packages.  The
  initramfs is loaded along with the kernel and is responsible for
@@ -4860,7 +4860,7 @@ Description: generic modular initramfs generator (automation)
 
 Package: initramfs-tools-core
 Source: initramfs-tools
-Version: 0.142+deb12u1
+Version: 0.142+deb12u3
 Architecture: all
 Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
 Installed-Size: 161
@@ -4872,11 +4872,11 @@ Replaces: initramfs-tools (<< 0.121~)
 Multi-Arch: foreign
 Priority: optional
 Section: utils
-Filename: pool/main/i/initramfs-tools/initramfs-tools-core_0.142+deb12u1_all.deb
-Size: 47864
-SHA256: 03faa15bd61d9a943802c7ddacc6f682b5c6a01fd103a6790c525ce9a2e7023f
-SHA1: 0f57d0fb4bcc3ba6d2340f6c164116b11088dc61
-MD5sum: 3b1a4b7347e1acbb7f1e00bda7c9a2e3
+Filename: pool/main/i/initramfs-tools/initramfs-tools-core_0.142+deb12u3_all.deb
+Size: 48268
+SHA256: 1171f80eb08188bec636fbf0f7d5598045395150c9666e4af093b170066fa9f0
+SHA1: fb937e37a63e950377863acba3a0860eba12c06b
+MD5sum: aa901fab992715e40440686cc5681cfe
 Description: generic modular initramfs generator (core tools)
  This package contains the mkinitramfs program that can be used to
  create a bootable initramfs for a Linux kernel.  The initramfs should
@@ -16204,7 +16204,7 @@ Description: Semantic Versioning for Node.js
  Node.js is an event-based server-side javascript engine.
 
 Package: node-serialize-javascript
-Version: 6.0.0-2
+Version: 6.0.0-2+deb12u1
 Architecture: all
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Installed-Size: 45
@@ -16213,11 +16213,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/yahoo/serialize-javascript
 Priority: optional
 Section: javascript
-Filename: pool/main/n/node-serialize-javascript/node-serialize-javascript_6.0.0-2_all.deb
-Size: 12696
-SHA256: 7b05207943be441b60a4a825c3de7a969f89de01494de78169efd331140733db
-SHA1: dc7ae6254d3470e6ea512ec988f5723fce6be753
-MD5sum: 133270c7d82b572cd6aa3ae379f1a25b
+Filename: pool/main/n/node-serialize-javascript/node-serialize-javascript_6.0.0-2+deb12u1_all.deb
+Size: 12824
+SHA256: b1b6075fbefd14d5dd133b488c47eb44830dfb164f4aace47dd20812b2e31de7
+SHA1: ac4a3f145b4c7eca30e7ae10a3410dc3db7a12ef
+MD5sum: 9698711ba3819b09c2426d01ebdd12a7
 Description: serialize JavaScript to a superset of JSON
  serialize-javascript is a Nodejs module
  to serialize JavaScript to a _superset_ of JSON
@@ -19499,19 +19499,19 @@ Description: websocket library for the gevent networking library (Python 3)
 
 Package: python3-h11
 Source: python-h11
-Version: 0.14.0-1
+Version: 0.14.0-1.1~deb12u1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 237
+Installed-Size: 238
 Depends: python3-typing-extensions | python3 (>> 3.8), python3:any
 Homepage: https://github.com/python-hyper/h11
 Priority: optional
 Section: python
-Filename: pool/main/p/python-h11/python3-h11_0.14.0-1_all.deb
-Size: 50148
-SHA256: 4cdeaf9daf222a2add4e2b2f3b1fdf4f9ce5a2a2ad285a6f296259390bf6b32f
-SHA1: 8ef59236444c729fe801f0311741087880de0583
-MD5sum: c6d46450145c07ce4932f87a87678977
+Filename: pool/main/p/python-h11/python3-h11_0.14.0-1.1~deb12u1_all.deb
+Size: 50640
+SHA256: 012dd72786502a88b44c66a9c6e4ad3b4fdc26ec045193f565aac60295a3ca95
+SHA1: 1b0541af57f0ca1d17bc598227b2233f5926fa89
+MD5sum: e0713caf9beb9bc4105b67db70b87bcf
 Description: Pure-Python, bring-your-own-I/O implementation of HTTP/1.1 (Python 3)
  HTTP/1.1 library written from scratch in Python, heavily inspired by
  hyper-h2.
@@ -22335,19 +22335,19 @@ Description: Packs CommonJs/AMD modules for the browser
  Node.js is an event-based server-side JavaScript engine.
 
 Package: wireless-regdb
-Version: 2024.05.08-1
+Version: 2025.02.20-1~deb12u1
 Architecture: all
 Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
-Installed-Size: 33
+Installed-Size: 38
 Multi-Arch: foreign
 Homepage: https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb
 Priority: optional
 Section: net
-Filename: pool/main/w/wireless-regdb/wireless-regdb_2024.05.08-1_all.deb
-Size: 10532
-SHA256: b3a54d93367ab96037e7b7889179e2709e2e893632bed3430b9c522991c38b75
-SHA1: fe1ed63e6c10b336e7d074927597b1229ad072d3
-MD5sum: dc7e8f675b6571c3057404803d2d1477
+Filename: pool/main/w/wireless-regdb/wireless-regdb_2025.02.20-1~deb12u1_all.deb
+Size: 11696
+SHA256: fe6221c806fb448b8f93d0333dbf9421563353fab7fc9c37a1ef5fa18f7b5e70
+SHA1: d831eebceaf7a162b58b05f55389ae512bc7a5c3
+MD5sum: 888a197415b3e6908262c1b5a5d69d2e
 Description: wireless regulatory database for Linux
  This package provides a machine-readable database of legal
  regulations on radio emissions that affect use of wireless networking.
