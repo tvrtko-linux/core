@@ -766,7 +766,7 @@ Description: English dictionary for GNU Aspell
 
 Package: at-spi2-common
 Source: at-spi2-core
-Version: 2.56.1-2~bpo12+1
+Version: 2.56.2-1~bpo12+1
 Architecture: all
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 1348
@@ -776,29 +776,29 @@ Multi-Arch: foreign
 Homepage: https://wiki.gnome.org/Accessibility
 Priority: optional
 Section: misc
-Filename: pool/main/a/at-spi2-core/at-spi2-common_2.56.1-2~bpo12+1_all.deb
-Size: 170808
-SHA256: 654dd5df98e950d582cf367c231624254e939cbdff1b47e22e8ac2ee794e8d96
-SHA1: 75bd74ee170dd6fc0df80249337bc2d1c074fa40
-MD5sum: bc237c3a7dd38d29e102307dd91e04e9
+Filename: pool/main/a/at-spi2-core/at-spi2-common_2.56.2-1~bpo12+1_all.deb
+Size: 170676
+SHA256: 78b162a43797dab3893d5ffa17183c9520a34b838a13a8e3d9a833b32a0df8e4
+SHA1: fff15af2d22c63ed06c56f95908bd1af2a456359
+MD5sum: e85369c4937e58ebe3468afa6164373e
 Description: Assistive Technology Service Provider Interface (common files)
  This package contains the common resource files of GNOME Accessibility.
 
 Package: at-spi2-core
-Version: 2.56.1-2~bpo12+1
+Version: 2.56.2-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 210
-Depends: libatspi2.0-0 (= 2.56.1-2~bpo12+1), libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.67.4), libsystemd0, libx11-6, libxtst6, at-spi2-common, gsettings-desktop-schemas
+Depends: libatspi2.0-0 (= 2.56.2-1~bpo12+1), libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.67.4), libsystemd0, libx11-6, libxtst6, at-spi2-common, gsettings-desktop-schemas
 Multi-Arch: foreign
 Homepage: https://wiki.gnome.org/Accessibility
 Priority: optional
 Section: misc
-Filename: pool/main/a/at-spi2-core/at-spi2-core_2.56.1-2~bpo12+1_amd64.deb
-Size: 60492
-SHA256: 6011a9b898a1413ba69d9ea746ee6052fb8b6237dddd92f70c182095860fbdab
-SHA1: 5462db2219902761932c1eb1c6785f75b85f3e5b
-MD5sum: f1d47357789cc6a7251af8e4ef2e5eca
+Filename: pool/main/a/at-spi2-core/at-spi2-core_2.56.2-1~bpo12+1_amd64.deb
+Size: 60572
+SHA256: ad7cbea52255cee70132dac424de1775de2d03eccb933a01f08c59c8761326fb
+SHA1: 8362c7acf7bac32dd679b0084cdfc8927517cfb4
+MD5sum: 3ba43424301a93b3655d7d7214010929
 Description: Assistive Technology Service Provider Interface (D-Bus core)
  This package contains the core components of GNOME Accessibility.
 
@@ -1515,21 +1515,21 @@ Description: basic utilities from 4.4BSD-Lite
  remaining standard BSD utilities are provided by bsdextrautils.
 
 Package: btrfs-progs
-Version: 6.12-1~bpo12+1
+Version: 6.14-1~bpo12+1
 Architecture: amd64
 Maintainer: Nicholas D Steeves <sten@debian.org>
-Installed-Size: 5196
+Installed-Size: 5145
 Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libext2fs2 (>= 1.42), liblzo2-2 (>= 2.02), libreiserfscore0 (>= 1:3.6.27), libudev1 (>= 183), libuuid1 (>= 2.16), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0)
 Suggests: duperemove
 Multi-Arch: foreign
 Homepage: http://btrfs.wiki.kernel.org/
 Priority: optional
 Section: admin
-Filename: pool/main/b/btrfs-progs/btrfs-progs_6.12-1~bpo12+1_amd64.deb
-Size: 896016
-SHA256: 82adafbb676c45fb8148528f392551c426fccda84f7dcf87ccff53cfddfa87b7
-SHA1: e8379bcffe30b2888e7cc3348f7600bffda16119
-MD5sum: bf099f5b55c808215541b4a07b5d5e3b
+Filename: pool/main/b/btrfs-progs/btrfs-progs_6.14-1~bpo12+1_amd64.deb
+Size: 906268
+SHA256: ad0a699c5d4a15020601ca7f8cbc7e69acb432d988791fda1976ff22d0525d9e
+SHA1: 8b302e80d6c60e79242aa9e4036c0840a863ee38
+MD5sum: a67eff5e47a7b74fe8973397320f3568
 Description: Checksumming Copy on Write Filesystem utilities
  Btrfs is a copy on write filesystem for Linux aimed at implementing
  advanced features while focusing on fault tolerance, repair and easy
@@ -3098,20 +3098,21 @@ Description: Common UNIX Printing System(tm) - server common files
  This package provides common files for CUPS server.
 
 Package: curl
-Version: 8.12.1-3~bpo12+1
+Version: 8.14.1-2~bpo12+1
 Architecture: amd64
 Maintainer: Debian Curl Maintainers <team+curl@tracker.debian.org>
-Installed-Size: 480
-Depends: libc6 (>= 2.34), libcurl3-gnutls (= 8.12.1-3~bpo12+1), zlib1g (>= 1:1.1.4)
+Installed-Size: 491
+Depends: libc6 (>= 2.34), libcurl4 (= 8.14.1-2~bpo12+1), zlib1g (>= 1:1.1.4)
+Recommends: bash-completion
 Multi-Arch: foreign
 Homepage: https://curl.se/
 Priority: optional
 Section: web
-Filename: pool/main/c/curl/curl_8.12.1-3~bpo12+1_amd64.deb
-Size: 263752
-SHA256: 2fbe360131884268aff1d66ecc4977376f44c83d22b355701971b80b8318bebd
-SHA1: de38be9cbbb558a25c5118df4afc7a05b34532a5
-MD5sum: 35358a2d58273d1908e3fc747f4a7732
+Filename: pool/main/c/curl/curl_8.14.1-2~bpo12+1_amd64.deb
+Size: 269304
+SHA256: 501c033cc77d8675cba407c2c1c85177f8468a0f068232318fe206afb4e94bd8
+SHA1: d104fb47fa723140d533ec4dbd29e04513a9543b
+MD5sum: 0dc03db653b7a9906db898630845d390
 Description: command line tool for transferring data with URL syntax
  curl is a command line tool for transferring data with URL syntax, supporting
  DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3,
@@ -4418,23 +4419,23 @@ Description: Crash handler for Qt applications
  live processes at all.
 
 Package: e2fsprogs
-Version: 1.47.2~rc1-2~bpo12+2
+Version: 1.47.2-3~bpo12+1
 Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 1525
-Pre-Depends: libblkid1 (>= 2.36), libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.47.2~rc1-2~bpo12+2), libss2 (>= 1.38), libuuid1 (>= 2.16)
+Pre-Depends: libblkid1 (>= 2.36), libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.47.2-3~bpo12+1), libss2 (>= 1.38), libuuid1 (>= 2.16)
 Depends: logsave
 Recommends: e2fsprogs-l10n
-Suggests: gpart, parted, fuse2fs, e2fsck-static
+Suggests: gpart, parted, fuse2fs, e2fsck-static, libarchive13t64
 Multi-Arch: foreign
 Homepage: http://e2fsprogs.sourceforge.net
-Priority: required
+Priority: important
 Section: admin
-Filename: pool/main/e/e2fsprogs/e2fsprogs_1.47.2~rc1-2~bpo12+2_amd64.deb
-Size: 585676
-SHA256: 18c3ee5c4ba67aefbc40cf12485ef5960ac90213c0d0766c5a5f3097f95df8c7
-SHA1: f15a5629c59164e23b4d27587716252253e15d3e
-MD5sum: e724ca112796677e686ccd42cbb4420d
+Filename: pool/main/e/e2fsprogs/e2fsprogs_1.47.2-3~bpo12+1_amd64.deb
+Size: 588216
+SHA256: 63da62cee94692315b864727102aa22c1c3995b36b2135ef1a3fa1aea9ef1e6c
+SHA1: f986b1c2a4bdbbf56b4b0aa153e4bd8b23f62017
+MD5sum: 3e9b33fac31a973f18a691927be0fda7
 Description: ext2/ext3/ext4 file system utilities
  The ext2, ext3 and ext4 file systems are successors of the original ext
  ("extended") file system. They are the main file system types used for
@@ -5020,23 +5021,23 @@ Description: Binary firmware for various drivers in the Linux kernel
   * USB-DUXsigma firmware (usbduxsigma_firmware.bin)
 
 Package: flatpak
-Version: 1.14.10-1~deb12u1
+Version: 1.16.1-1~bpo12+1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 7377
-Depends: adduser, bubblewrap (>= 0.8.0-2+deb12u1~), bubblewrap (<< 0.8.1~) | bubblewrap (>= 0.10.0~), fuse3, xdg-dbus-proxy (>= 0.1.0), libappstream4 (>= 0.10.0), libarchive13 (>= 3.0.4), libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libdconf1 (>= 0.26.0), libfuse3-3 (>= 3.2.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.67.3+git20210214), libgpgme11 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-agent-1-0 (>= 0.105), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libxau6 (>= 1:1.0.9), libxml2 (>= 2.7.4), libzstd1 (>= 1.5.2)
-Recommends: ca-certificates, default-dbus-system-bus | dbus-system-bus, desktop-file-utils, hicolor-icon-theme, gtk-update-icon-cache, libpam-systemd, p11-kit, polkitd | policykit-1, shared-mime-info, xdg-desktop-portal (>= 1.6), xdg-desktop-portal-gtk (>= 1.6) | xdg-desktop-portal-backend, xdg-user-dirs
+Installed-Size: 8100
+Depends: adduser, bubblewrap (>= 0.8.0-2+deb12u1~), fuse3, xdg-dbus-proxy (>= 0.1.0), libappstream4 (>= 0.10.0), libarchive13 (>= 3.0.4), libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libdconf1 (>= 0.26.0), libfuse3-3 (>= 3.2.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.67.3+git20210214), libgpgme11 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-agent-1-0 (>= 0.105), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libxau6 (>= 1:1.0.9), libxml2 (>= 2.7.4), libzstd1 (>= 1.5.2)
+Recommends: ca-certificates, default-dbus-system-bus | dbus-system-bus, desktop-file-utils, hicolor-icon-theme, gtk-update-icon-cache, libpam-systemd, p11-kit, polkitd, shared-mime-info, xdg-desktop-portal (>= 1.6), xdg-desktop-portal-gtk (>= 1.6) | xdg-desktop-portal-backend, xdg-user-dirs
 Suggests: avahi-daemon, malcontent-gui
 Conflicts: xdg-app
 Replaces: xdg-app
 Homepage: https://flatpak.org/
 Priority: optional
 Section: admin
-Filename: pool/main/f/flatpak/flatpak_1.14.10-1~deb12u1_amd64.deb
-Size: 1399864
-SHA256: b2553551857fd05f298f467bc0bce29ff201c800aae3ec4ff6eab076fe622c11
-SHA1: 2a25595447dad661578c81ae4d2393f3673e2f90
-MD5sum: d8b9d78ece01db656fee052453b9445b
+Filename: pool/main/f/flatpak/flatpak_1.16.1-1~bpo12+1_amd64.deb
+Size: 1503628
+SHA256: d236dce5e45bc02d07b2bc978119e7eaa90dc8b44f50c074cc4a7ba87f3b5fe6
+SHA1: 07992457667c461111ad65859f504bc72d1eedab
+MD5sum: 95a624841a1cf09217cd3f0c59c3a7e1
 Description: Application deployment framework for desktop apps
  Flatpak installs, manages and runs sandboxed desktop application bundles.
  Application bundles run partially isolated from the wider system, using
@@ -7652,8 +7653,8 @@ Description: "No Tofu" font families with large Unicode coverage (unhinted)
  often displayed as replacement for unassigned or unknown characters.
 
 Package: fonts-opensymbol
-Source: libreoffice (4:25.2.2-1~bpo12+1)
-Version: 4:102.12+LibO25.2.2-1~bpo12+1
+Source: libreoffice (4:25.2.3-2~bpo12+1)
+Version: 4:102.12+LibO25.2.3-2~bpo12+1
 Architecture: all
 Bugs: mailto:debian-backports@lists.debian.org
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
@@ -7665,11 +7666,11 @@ Multi-Arch: foreign
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: fonts
-Filename: pool/main/libr/libreoffice/fonts-opensymbol_102.12+LibO25.2.2-1~bpo12+1_all.deb
-Size: 127236
-SHA256: 3d4632dc3b40b0626fb42ad5cfc90d875f7cdf0b070829f984610b60e7736e47
-SHA1: 258ed409aefd405359b936ac2067949ec6d991c6
-MD5sum: 564ea42d1e684a937f071197910a3268
+Filename: pool/main/libr/libreoffice/fonts-opensymbol_102.12+LibO25.2.3-2~bpo12+1_all.deb
+Size: 127592
+SHA256: 4efb5070b3bc07cfde67e8b007e61458b2921a4303f6f8604d8c252bfbfb2731
+SHA1: 0f68d072439f8a463c3bb01aa0e0246121eb6044
+MD5sum: 914a6781b5330cf6ed37543f076996c2
 Description: OpenSymbol TrueType font
  This package contains the OpenSymbol TrueType font included in
  LibreOffice. This font contains symbols (like fonts as Wingdings(tm)),
@@ -8224,20 +8225,20 @@ Description: GObject introspection files for libadwaita
 
 Package: gir1.2-atk-1.0
 Source: at-spi2-core
-Version: 2.56.1-2~bpo12+1
+Version: 2.56.2-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 102
-Depends: gir1.2-glib-2.0, libatk1.0-0 (= 2.56.1-2~bpo12+1)
+Depends: gir1.2-glib-2.0, libatk1.0-0 (= 2.56.2-1~bpo12+1)
 Multi-Arch: same
 Homepage: https://wiki.gnome.org/Accessibility
 Priority: optional
 Section: introspection
-Filename: pool/main/a/at-spi2-core/gir1.2-atk-1.0_2.56.1-2~bpo12+1_amd64.deb
-Size: 25880
-SHA256: 320a4812ef4079c9e71cd254ea0431d5c14d26d85345dbcf4383b914619800a1
-SHA1: c0721852a1cef2c6d3821c41cd42b2d6266a6697
-MD5sum: ebd26ddb3ef78c6245544047d51ce060
+Filename: pool/main/a/at-spi2-core/gir1.2-atk-1.0_2.56.2-1~bpo12+1_amd64.deb
+Size: 25900
+SHA256: 3b4235bf54c559a19ebf5f6c11ef7ba37a72b051471c9938733a2afb8e6b82c8
+SHA1: 9e40a6e9fa23b565e1874d66a0a15e2406b4944a
+MD5sum: 61667948f3ebcf2e3547398d0aa38658
 Description: ATK accessibility toolkit (GObject introspection)
  ATK is a toolkit providing accessibility interfaces for applications or
  other toolkits. By implementing these interfaces, those other toolkits or
@@ -8249,21 +8250,21 @@ Description: ATK accessibility toolkit (GObject introspection)
 
 Package: gir1.2-atspi-2.0
 Source: at-spi2-core
-Version: 2.56.1-2~bpo12+1
+Version: 2.56.2-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 86
-Depends: gir1.2-freedesktop, gir1.2-glib-2.0, libatspi2.0-0 (= 2.56.1-2~bpo12+1)
+Depends: gir1.2-freedesktop, gir1.2-glib-2.0, libatspi2.0-0 (= 2.56.2-1~bpo12+1)
 Replaces: gir1.0-gtk-2.0 (<< 2.22), gobject-introspection-repository
 Multi-Arch: same
 Homepage: https://wiki.gnome.org/Accessibility
 Priority: optional
 Section: introspection
-Filename: pool/main/a/at-spi2-core/gir1.2-atspi-2.0_2.56.1-2~bpo12+1_amd64.deb
-Size: 23780
-SHA256: 70ac6e15200bd05a6369295c5b6e847a4cfd332794c921611d479abbc44dfe8c
-SHA1: 53d109bdf64194a956bb228bfefc11f78a3f7ca6
-MD5sum: 43b819ec2f2cf122f2eab7112c9e77b0
+Filename: pool/main/a/at-spi2-core/gir1.2-atspi-2.0_2.56.2-1~bpo12+1_amd64.deb
+Size: 23720
+SHA256: 9ecb255505468dc24c3e19b5a2ff8fe73390677d1b037f03f89d0dbebbc9828a
+SHA1: 40bea1c7dd64f56553fd4b8d1a4eed626069d73d
+MD5sum: 3b4068b8b9509209b304de4c7aeefb3a
 Description: Assistive Technology Service Provider (GObject introspection)
  This package can be used by other packages using the GIRepository format to
  generate dynamic bindings
@@ -11149,20 +11150,20 @@ Description: hardware identification / configuration data
 
 Package: hyperv-daemons
 Source: linux
-Version: 6.12.22-1~bpo12+1
+Version: 6.12.32-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 1061
+Installed-Size: 1114
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: libc6 (>= 2.34)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux/hyperv-daemons_6.12.22-1~bpo12+1_amd64.deb
-Size: 1004172
-SHA256: 768f8935ffbaea43d70d1beaa828fe3efecc50bfb8fe2ec131f9cc18697ffeaf
-SHA1: f75d9e3f3739ce9bda3b409cc04fb32649fde73e
-MD5sum: c3e9762a0074d9bf52cdb91c5ec1bdae
+Filename: pool/main/l/linux/hyperv-daemons_6.12.32-1~bpo12+1_amd64.deb
+Size: 1058556
+SHA256: 7062699809aa65dbc0d3728f3e9f76c26ad13814f61c503080c3045a30c1cb28
+SHA1: 1188acdbd70ec6ad9a759ab2c7fd7398796df1dc
+MD5sum: 2597125ba0179d3804f6b33a4a8a70d9
 Description: Support daemons for Linux running on Hyper-V
  Suite of daemons for Linux guests running on Hyper-V, consisting of
  hv_kvp_daemon and hv_vss_daemon.
@@ -11556,10 +11557,10 @@ Description: Daemon for IPP over USB printer support
  comparison with ippusbxd, and fixes all of its major flaws and issues.
 
 Package: iproute2
-Version: 6.13.0-1~bpo12+1
+Version: 6.15.0-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 3725
+Installed-Size: 3729
 Depends: debconf (>= 0.5) | debconf-2.0, libbpf1 (>= 1:0.6.0), libbsd0 (>= 0.0), libc6 (>= 2.34), libcap2 (>= 1:2.10), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 3.1~), libtirpc3 (>= 1.0.2), libxtables12 (>= 1.6.0+snapshot20161117), libcap2-bin
 Suggests: python3:any
 Conflicts: arpd
@@ -11570,11 +11571,11 @@ Multi-Arch: foreign
 Homepage: https://wiki.linuxfoundation.org/networking/iproute2
 Priority: important
 Section: net
-Filename: pool/main/i/iproute2/iproute2_6.13.0-1~bpo12+1_amd64.deb
-Size: 1075460
-SHA256: 02727a119906f4c4d543dbe5933f3ab12827f9aed626534dc99470b47dcc8c09
-SHA1: 151b8549552850774c689c250b1a183a2742f639
-MD5sum: d764d8ae2e1473c4c69dffd7b65b7c62
+Filename: pool/main/i/iproute2/iproute2_6.15.0-1~bpo12+1_amd64.deb
+Size: 1080392
+SHA256: 270e82b98798adab0832eb23f96b697f3d9f9a72256b9d545041f276d7e3c9e8
+SHA1: c1e268714937942a348db933d8a263215a23506b
+MD5sum: f5494d9dcd806e676e019914b7c74cf5
 Description: networking and traffic control tools
  The iproute2 suite is a collection of utilities for networking and
  traffic control.
@@ -14234,11 +14235,11 @@ Description: ATA S.M.A.R.T. reading and parsing library
 
 Package: libatk-adaptor
 Source: at-spi2-core
-Version: 2.56.1-2~bpo12+1
+Version: 2.56.2-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 58
-Depends: libatk-bridge2.0-0 (= 2.56.1-2~bpo12+1), libglib2.0-0 (>= 2.62)
+Depends: libatk-bridge2.0-0 (= 2.56.2-1~bpo12+1), libglib2.0-0 (>= 2.62)
 Conflicts: at-spi
 Replaces: at-spi
 Provides: at-spi
@@ -14246,31 +14247,31 @@ Multi-Arch: same
 Homepage: https://wiki.gnome.org/Accessibility
 Priority: optional
 Section: misc
-Filename: pool/main/a/at-spi2-core/libatk-adaptor_2.56.1-2~bpo12+1_amd64.deb
-Size: 11640
-SHA256: 6453bb035fe80d684495168c0995c3c8fe64919002099b87dc6bfbc01ef020e9
-SHA1: bfe6ba9b405b73dcb650a3c3c3c88ee979051cd7
-MD5sum: f975c84f8da825eb8ce36823beff7f6f
+Filename: pool/main/a/at-spi2-core/libatk-adaptor_2.56.2-1~bpo12+1_amd64.deb
+Size: 11632
+SHA256: 4d47ad4f7376c7581e0bf31f97860274a719b560d927eaed7e6092f8808368b8
+SHA1: dc8020696ac7b9af0913703b66dd11c787e8188b
+MD5sum: bc59e95b94cd31bdb8cdcc0dd1337cf7
 Description: AT-SPI 2 toolkit bridge
  This package includes a gtk-module that bridges ATK to the new
  D-Bus based AT-SPI.
 
 Package: libatk-bridge2.0-0
 Source: at-spi2-core
-Version: 2.56.1-2~bpo12+1
+Version: 2.56.2-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 280
-Depends: libatk1.0-0 (= 2.56.1-2~bpo12+1), libatspi2.0-0 (= 2.56.1-2~bpo12+1), libc6 (>= 2.7), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.62)
+Depends: libatk1.0-0 (= 2.56.2-1~bpo12+1), libatspi2.0-0 (= 2.56.2-1~bpo12+1), libc6 (>= 2.7), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.62)
 Multi-Arch: same
 Homepage: https://wiki.gnome.org/Accessibility
 Priority: optional
 Section: libs
-Filename: pool/main/a/at-spi2-core/libatk-bridge2.0-0_2.56.1-2~bpo12+1_amd64.deb
-Size: 68052
-SHA256: f7b1991e2c7e31664ba4ebd3cb78b2d8e7d04d24291483004fc1f61a35ff0004
-SHA1: 208918a96fe88f30b24a075f81a2b9e9f591225d
-MD5sum: 471397aa4fae49768f7761da09a72483
+Filename: pool/main/a/at-spi2-core/libatk-bridge2.0-0_2.56.2-1~bpo12+1_amd64.deb
+Size: 68140
+SHA256: d6dc7343088b5505f5dbd4a58539fad734976771a1f39f12f6b0ebb3d65444a6
+SHA1: 30ab9279c39ce8b9ecee473b0d914446f46e6f2c
+MD5sum: ffd90e62c62fda2501b6ab17a206eada
 Description: AT-SPI 2 toolkit bridge - shared library
  This package contains the ATK bridge shared library.
 
@@ -14321,7 +14322,7 @@ Description: ATK implementation for Java using JNI (JNI bindings)
 
 Package: libatk1.0-0
 Source: at-spi2-core
-Version: 2.56.1-2~bpo12+1
+Version: 2.56.2-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 206
@@ -14330,11 +14331,11 @@ Multi-Arch: same
 Homepage: https://wiki.gnome.org/Accessibility
 Priority: optional
 Section: libs
-Filename: pool/main/a/at-spi2-core/libatk1.0-0_2.56.1-2~bpo12+1_amd64.deb
-Size: 52292
-SHA256: 867d06416442f7e28a4b6c293ec1ccaf1129e6a133b8257ce42d9988c866880a
-SHA1: 6c9f14818d4e459867c563ec0bef94bfb2384f42
-MD5sum: 76561e1d9f51fb7e20a2b7d1619b701d
+Filename: pool/main/a/at-spi2-core/libatk1.0-0_2.56.2-1~bpo12+1_amd64.deb
+Size: 52352
+SHA256: 506f83ff090b3df7b9807576ca36fa54d4be37df9ea7077c13836b4c698004f4
+SHA1: 6d516756d8a4df48b905027f70133d0c7b82f29f
+MD5sum: b54ee67bb4a087a1e8b7762a5ca34006
 Description: ATK accessibility toolkit
  ATK is a toolkit providing accessibility interfaces for applications or
  other toolkits. By implementing these interfaces, those other toolkits or
@@ -14390,21 +14391,21 @@ Description: support library providing __atomic built-in functions
 
 Package: libatspi2.0-0
 Source: at-spi2-core
-Version: 2.56.1-2~bpo12+1
+Version: 2.56.2-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 279
 Depends: libc6 (>= 2.7), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.62), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4)
-Recommends: at-spi2-core (= 2.56.1-2~bpo12+1)
+Recommends: at-spi2-core (= 2.56.2-1~bpo12+1)
 Multi-Arch: same
 Homepage: https://wiki.gnome.org/Accessibility
 Priority: optional
 Section: libs
-Filename: pool/main/a/at-spi2-core/libatspi2.0-0_2.56.1-2~bpo12+1_amd64.deb
-Size: 81192
-SHA256: 64b3e0ee6ccdfae9f03d7acdeb417a2a51573d99f0936a7f0f0cbb8e0ad7ff94
-SHA1: ddde4f7a43382a4ce17e32e317ed2e75c2632358
-MD5sum: 871937c2a927c7314ff94f27880ff851
+Filename: pool/main/a/at-spi2-core/libatspi2.0-0_2.56.2-1~bpo12+1_amd64.deb
+Size: 81376
+SHA256: 0faf80230671668256ac3c869f9731e8b49dba98ae9eb8dcccab93a4843e9ce7
+SHA1: b8472346b14a7323f2a862b061a3a5771cc10284
+MD5sum: 05c015e0f3cc3374d057eda7f88e0447
 Description: Assistive Technology Service Provider Interface - shared library
  This package contains the shared library for applications that wish to use
  the at-spi interface.
@@ -15313,7 +15314,7 @@ Description: eBPF helper library (shared library)
 
 Package: libbrlapi0.8
 Source: brltty
-Version: 6.7-1~bpo12+1
+Version: 6.7-3.1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 145
@@ -15322,11 +15323,11 @@ Multi-Arch: same
 Homepage: https://brltty.com
 Priority: optional
 Section: libs
-Filename: pool/main/b/brltty/libbrlapi0.8_6.7-1~bpo12+1_amd64.deb
-Size: 92276
-SHA256: b5b307275d80c9719e8d82103712898045afd949005a702e847ee1f239ae9f7c
-SHA1: fb98b71c6f44b8b87dcdccf08b315dcda46aee74
-MD5sum: e1fa4626345a4e8b00c9e4dd0744c3f4
+Filename: pool/main/b/brltty/libbrlapi0.8_6.7-3.1~bpo12+1_amd64.deb
+Size: 92416
+SHA256: 1a241c49d9537d53228d3135ddafcd50efe577faf7a2b4c7863864bea1c1b0ae
+SHA1: a672574655356192bf47e4fec1f7e16e9f1ae258
+MD5sum: 365f04bd485ddf21bd3370ce8b97b631
 Description: braille display access via BRLTTY - shared library
  BRLTTY is a daemon which provides access to the console (text mode)
  for a blind person using a braille display.  It drives the braille
@@ -16440,23 +16441,23 @@ Description: system service to manage device colour profiles -- runtime
 
 Package: libcom-err2
 Source: e2fsprogs
-Version: 1.47.2~rc1-2~bpo12+2
+Version: 1.47.2-3~bpo12+1
 Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 63
 Depends: libc6 (>= 2.17)
 Breaks: libcomerr2 (<< 1.43.9-1~)
 Replaces: libcomerr2 (<< 1.43.9-1~)
-Provides: libcomerr2 (= 1.47.2~rc1-2~bpo12+2)
+Provides: libcomerr2 (= 1.47.2-3~bpo12+1)
 Multi-Arch: same
 Homepage: http://e2fsprogs.sourceforge.net
 Priority: optional
 Section: libs
-Filename: pool/main/e/e2fsprogs/libcom-err2_1.47.2~rc1-2~bpo12+2_amd64.deb
-Size: 23788
-SHA256: e5b4f12d2f32008ace5e6c0d9c0f954dc74457a26f7a192af2b8b9087eac7583
-SHA1: d7516d2237c0d605fc07610d80c2e19ab6120f79
-MD5sum: 73a367b31dfef2771779297c9bb5ed58
+Filename: pool/main/e/e2fsprogs/libcom-err2_1.47.2-3~bpo12+1_amd64.deb
+Size: 24732
+SHA256: 616bb3f52aad7d918e27250d8042dd8b7868a66724083b40a04a9436471799a9
+SHA1: 820fb896fa7cdad7598f6c43849c6ea2008d8b2e
+MD5sum: 5d253db5f07738ba92128bf0c0182437
 Description: common error description library
  libcomerr is an attempt to present a common error-handling mechanism to
  manipulate the most common form of error code in a fashion that does not
@@ -16658,21 +16659,21 @@ Description: Common UNIX Printing System(tm) - Core library
 
 Package: libcurl3-gnutls
 Source: curl
-Version: 8.12.1-3~bpo12+1
+Version: 8.14.1-2~bpo12+1
 Architecture: amd64
 Maintainer: Debian Curl Maintainers <team+curl@tracker.debian.org>
-Installed-Size: 930
-Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.5), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap-2.5-0 (>= 2.5.4), libnettle8, libnghttp2-14 (>= 1.50.0), libnghttp3-9 (>= 0.15.0), libngtcp2-16 (>= 1.1.0), libngtcp2-crypto-gnutls8 (>= 1.1.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1 (>= 1.7.0), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 977
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.5), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap-2.5-0 (>= 2.5.4), libnettle8, libnghttp2-14 (>= 1.50.0), libnghttp3-9 (>= 0.15.0), libngtcp2-16 (>= 1.1.0), libngtcp2-crypto-gnutls8 (>= 1.1.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1 (>= 1.7.0), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.3.4)
 Recommends: ca-certificates
 Multi-Arch: same
 Homepage: https://curl.se/
 Priority: optional
 Section: libs
-Filename: pool/main/c/curl/libcurl3-gnutls_8.12.1-3~bpo12+1_amd64.deb
-Size: 364040
-SHA256: 6b298054c87bf3e4095d2d610bc0dd3a1f875f15da4b5865833ce925f5d9cb59
-SHA1: 3bb28c40bbaeab9711bb6a5e3bf2048603f8aa02
-MD5sum: da01583f8a2d470e807cc82afa928fab
+Filename: pool/main/c/curl/libcurl3-gnutls_8.14.1-2~bpo12+1_amd64.deb
+Size: 380376
+SHA256: 9f03ba23f2f522cf08b08981b2ce8eb89c54aa18ff3542e5866959f9b48410d0
+SHA1: b5c735e54bd2de0bda7d2129ecb27df2f4f8b9df
+MD5sum: 913da670dfafaf582e99d66005ff1a0d
 Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
  libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
  FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S,
@@ -16691,11 +16692,11 @@ Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
 
 Package: libcurl4
 Source: curl
-Version: 8.12.1-3~bpo12+1
+Version: 8.14.1-2~bpo12+1
 Architecture: amd64
 Maintainer: Debian Curl Maintainers <team+curl@tracker.debian.org>
-Installed-Size: 906
-Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.34), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap-2.5-0 (>= 2.5.4), libnghttp2-14 (>= 1.50.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1 (>= 1.7.0), libssl3 (>= 3.0.0), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 957
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.34), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap-2.5-0 (>= 2.5.4), libnghttp2-14 (>= 1.50.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1 (>= 1.7.0), libssl3 (>= 3.0.0), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.3.4)
 Recommends: ca-certificates
 Conflicts: libcurl3
 Replaces: libcurl3
@@ -16703,11 +16704,11 @@ Multi-Arch: same
 Homepage: https://curl.se/
 Priority: optional
 Section: libs
-Filename: pool/main/c/curl/libcurl4_8.12.1-3~bpo12+1_amd64.deb
-Size: 354744
-SHA256: 171352572d498ab26af6b9f1b6fdc301a779e672344c2f5d48a8cdf2b96b8f9d
-SHA1: 2e074bc9043f8eae374c06d594ae388e5c7f261b
-MD5sum: 61ff6542693fa5286f452ba9f69523db
+Filename: pool/main/c/curl/libcurl4_8.14.1-2~bpo12+1_amd64.deb
+Size: 373876
+SHA256: ff8146591f1da932ddb8ca9aa1db72613d6c4ac054185916a7df16490369b729
+SHA1: 1dfaf801e4d84c212339ef19ae95e89b35ad072a
+MD5sum: dd793be5a0b70506307a05aa0fa764b7
 Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
  libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
  FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S,
@@ -17946,21 +17947,21 @@ Description: Library to manage UEFI variables
 
 Package: libegl-mesa0
 Source: mesa
-Version: 24.2.8-1~bpo12+1
+Version: 25.0.4-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 417
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.121), libexpat1 (>= 2.0.1), libgbm1 (= 24.2.8-1~bpo12+1), libgcc-s1 (>= 3.4), libglapi-mesa (= 24.2.8-1~bpo12+1), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.15.0), libx11-xcb1 (>= 2:1.8.4), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0 (>= 1.3), libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, mesa-libgallium (= 24.2.8-1~bpo12+1)
+Installed-Size: 414
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.121), libexpat1 (>= 2.0.1), libgbm1 (= 25.0.4-1~bpo12+1), libgcc-s1 (>= 3.4), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.15.0), libx11-xcb1 (>= 2:1.8.4), libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0 (>= 1.3), libxcb-shm0, libxcb-xfixes0, libxcb1 (>= 1.6), mesa-libgallium (= 25.0.4-1~bpo12+1)
 Provides: libegl-vendor
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libegl-mesa0_24.2.8-1~bpo12+1_amd64.deb
-Size: 132188
-SHA256: 89907f6be5b265dc3d4e93918a940f8cbcd52c8d54b230e24f6925db96f9363f
-SHA1: faa9d8bce7ee9945d8491a73843cd93373b51ee3
-MD5sum: 4677c097a6e13f9f156dc43bb3d2c898
+Filename: pool/main/m/mesa/libegl-mesa0_25.0.4-1~bpo12+1_amd64.deb
+Size: 127504
+SHA256: 06cc2f3d3e6cfa1bc5ae6ee8b4d10fd7a04bf6cae08faa81989c5b92ce1ebd22
+SHA1: 66390eb078c7b0f12fa501a98bdbbb9fd9412787
+MD5sum: 65085a44141f322765c8d52223cdd7ed
 Description: free implementation of the EGL API -- Mesa vendor library
  This package contains the EGL native platform graphics interface library.
  EGL provides a platform-agnostic mechanism for creating rendering surfaces
@@ -18258,23 +18259,23 @@ Description: XML parsing C library - runtime library
 
 Package: libext2fs2
 Source: e2fsprogs
-Version: 1.47.2~rc1-2~bpo12+2
+Version: 1.47.2-3~bpo12+1
 Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 547
 Depends: libc6 (>= 2.34)
 Breaks: e2fslibs (<< 1.43.9-1~)
 Replaces: e2fslibs (<< 1.43.9-1~), libext2fs2
-Provides: e2fslibs (= 1.47.2~rc1-2~bpo12+2)
+Provides: e2fslibs (= 1.47.2-3~bpo12+1)
 Multi-Arch: same
 Homepage: http://e2fsprogs.sourceforge.net
 Priority: optional
 Section: libs
-Filename: pool/main/e/e2fsprogs/libext2fs2_1.47.2~rc1-2~bpo12+2_amd64.deb
-Size: 209868
-SHA256: 51eaf5547e375ec144c1fc944533975ad18d8ff660f5d20037e84dfcbfe6d34c
-SHA1: 29a7da066ece493b4bbd4a769b24cf2c2ef22e32
-MD5sum: 966fceb1bea21e09c93d122c15d2dbc1
+Filename: pool/main/e/e2fsprogs/libext2fs2_1.47.2-3~bpo12+1_amd64.deb
+Size: 210572
+SHA256: 1a71655b8c902373475e69e17d0e8698b07f3a82291473b922446c749e15b125
+SHA1: 81eb4cf724661097d1e540dd4f21d841f81c30cb
+MD5sum: 222894b6e2adcd8bdd369165a9afffff
 Description: ext2/ext3/ext4 file system libraries
  The ext2, ext3 and ext4 file systems are successors of the original ext
  ("extended") file system. They are the main file system types used for
@@ -18687,20 +18688,20 @@ Description: Identify, read, write, erase, and verify BIOS/ROM/flash chips - lib
 
 Package: libflatpak0
 Source: flatpak
-Version: 1.14.10-1~deb12u1
+Version: 1.16.1-1~bpo12+1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 1029
-Depends: bubblewrap (>= 0.8.0-2+deb12u1~), bubblewrap (<< 0.8.1~) | bubblewrap (>= 0.10.0~), libarchive13 (>= 3.0.4), libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libdconf1 (>= 0.26.0), libglib2.0-0 (>= 2.67.3+git20210214), libgpgme11 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libxau6 (>= 1:1.0.9), libxml2 (>= 2.7.4), libzstd1 (>= 1.5.2)
+Installed-Size: 1039
+Depends: bubblewrap (>= 0.8.0-2+deb12u1~), libarchive13 (>= 3.0.4), libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libdconf1 (>= 0.26.0), libglib2.0-0 (>= 2.67.3+git20210214), libgpgme11 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libxau6 (>= 1:1.0.9), libxml2 (>= 2.7.4), libzstd1 (>= 1.5.2)
 Multi-Arch: same
 Homepage: https://flatpak.org/
 Priority: optional
 Section: libs
-Filename: pool/main/f/flatpak/libflatpak0_1.14.10-1~deb12u1_amd64.deb
-Size: 363328
-SHA256: 8966195b1d43609d81354ab7fdcfdaf7c8a8c8a2348a3d8627dc9b5fbf67df7e
-SHA1: 92a2e71eb4129990d56a71af075f90b567a88981
-MD5sum: 03dbe0164272b770e73524f768916ef5
+Filename: pool/main/f/flatpak/libflatpak0_1.16.1-1~bpo12+1_amd64.deb
+Size: 369220
+SHA256: 6abafc7c4da066ed7f20dc935d7f7019162a4efecda5753c4fbf9aa0524b56c1
+SHA1: 78e8c4d487ac9cc5796e3cbb1a5301567238b21f
+MD5sum: a89a9beb04cb280ab4cb79fbf4024b6b
 Description: Application deployment framework for desktop apps (library)
  Flatpak installs, manages and runs sandboxed desktop application bundles.
  See the flatpak package for a more comprehensive description.
@@ -19199,20 +19200,20 @@ Description: AV1 decoder developed by Google -- runtime library
 
 Package: libgbm1
 Source: mesa
-Version: 24.2.8-1~bpo12+1
+Version: 25.0.4-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 112
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.121), libexpat1 (>= 2.0.1), libwayland-server0 (>= 1.15.0), libxcb-randr0, mesa-libgallium (= 24.2.8-1~bpo12+1)
+Installed-Size: 128
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.121), libexpat1 (>= 2.0.1), libwayland-server0 (>= 1.15.0), mesa-libgallium (= 25.0.4-1~bpo12+1)
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libgbm1_24.2.8-1~bpo12+1_amd64.deb
-Size: 42704
-SHA256: f8e19281c843baf7e33a1b6a5fd4b78ad7f7913505ac38bfa73411461d865351
-SHA1: e19d7f5bea9caf2406a2255c30d72901f458b36f
-MD5sum: 62e1d4fbecb8a1fa7aad27e125707800
+Filename: pool/main/m/mesa/libgbm1_25.0.4-1~bpo12+1_amd64.deb
+Size: 43972
+SHA256: 60af78a5bba46548e7555a8b8f259e8bd3a073e64e0b5901497ce6b7dcabc959
+SHA1: 7a4fda7ef7fd2a94bcb884ad96c0c1d70468d148
+MD5sum: 81be8fc737196e1c5ab1eac503adabcb
 Description: generic buffer management API -- runtime
  This package contains the GBM buffer management library.  It provides a
  mechanism for allocating buffers for graphics rendering tied to Mesa.
@@ -19655,20 +19656,20 @@ Description: Vendor neutral GL dispatch library -- legacy GL support
 
 Package: libgl1-mesa-dri
 Source: mesa
-Version: 24.2.8-1~bpo12+1
+Version: 25.0.4-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 230
-Depends: libvulkan1, libc6 (>= 2.34), libgbm1 (>= 7.11~1)
+Installed-Size: 240
+Depends: libgbm1 (= 25.0.4-1~bpo12+1), libvulkan1, libc6 (>= 2.34)
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libgl1-mesa-dri_24.2.8-1~bpo12+1_amd64.deb
-Size: 44312
-SHA256: 4c5aef800e160e0e458b07a744084a4b63f9e56026138a153033b3db939be4dc
-SHA1: 3ebb67da53fecfd0cb8b60b025297b2d29c3d4db
-MD5sum: 15628ed6a3b0d4a45eae3d13fea05d27
+Filename: pool/main/m/mesa/libgl1-mesa-dri_25.0.4-1~bpo12+1_amd64.deb
+Size: 46028
+SHA256: 5f0288f87ef56700cab8d3835e49318cc8c9b9ad0ca6efa23bb94fa52f1575a0
+SHA1: dd6a44f03dd23e1cc841fbbdf7373e738ba5b304
+MD5sum: 3e042b41dbc78eb1d4cbd7183e8211dc
 Description: free implementation of the OpenGL API -- DRI modules
  This version of Mesa provides GLX and DRI capabilities: it is capable of
  both direct and indirect rendering.  For direct rendering, it can use DRI
@@ -19832,22 +19833,22 @@ Description: Vendor neutral GL dispatch library
 
 Package: libglx-mesa0
 Source: mesa
-Version: 24.2.8-1~bpo12+1
+Version: 25.0.4-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 523
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.121), libexpat1 (>= 2.0.1), libglapi-mesa (= 24.2.8-1~bpo12+1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1 (>= 2:1.8.4), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0 (>= 1.13), libxcb-glx0 (>= 1.8), libxcb-present0, libxcb-randr0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxext6, libxfixes3, libxshmfence1, libxxf86vm1, mesa-libgallium (= 24.2.8-1~bpo12+1), libgl1-mesa-dri
+Installed-Size: 496
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.121), libexpat1 (>= 2.0.1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1 (>= 2:1.8.4), libxcb-dri3-0, libxcb-glx0 (>= 1.8), libxcb-present0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxxf86vm1, mesa-libgallium (= 25.0.4-1~bpo12+1), libgl1-mesa-dri
 Breaks: glx-diversions (<< 0.8.4~), libopengl-perl (<< 0.6704+dfsg-2)
 Provides: libglx-vendor
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libglx-mesa0_24.2.8-1~bpo12+1_amd64.deb
-Size: 152652
-SHA256: b94f097c324f4c2e40af6a31e1e8bc50fea3ef0c413ffee4c1027b8a0bde30c9
-SHA1: 22cc17fdec8473aebcb663b0d95a620fd41a4acd
-MD5sum: 0eb4b4feb7b40aad98202e08dcabf99b
+Filename: pool/main/m/mesa/libglx-mesa0_25.0.4-1~bpo12+1_amd64.deb
+Size: 140288
+SHA256: 4a5ed2ffc5207ed5645306c7fa53fa97daec8f3c182398a0dcf463f777a902ee
+SHA1: 50dba82bc01d1e15cd236999f82ed421ec7493cf
+MD5sum: 1d624bfaed62231f945b4df2990512e7
 Description: free implementation of the OpenGL API -- GLX vendor library
  Mesa is a 3-D graphics library with an API which is very similar to
  that of OpenGL.  To the extent that Mesa utilizes the OpenGL command
@@ -31749,20 +31750,20 @@ Description: NSS module for Multicast DNS name resolution
 
 Package: libnss-systemd
 Source: systemd
-Version: 254.22-1~bpo12+1
+Version: 254.26-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 419
-Depends: libc6 (>= 2.35), libcap2 (>= 1:2.10), systemd (= 254.22-1~bpo12+1)
+Depends: libc6 (>= 2.35), libcap2 (>= 1:2.10), systemd (= 254.26-1~bpo12+1)
 Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: standard
 Section: admin
-Filename: pool/main/s/systemd/libnss-systemd_254.22-1~bpo12+1_amd64.deb
-Size: 179152
-SHA256: 66c8d30a2f6f64396940fafd8287f208e43b9ede1698c3af6d8002a775719e21
-SHA1: 5f339115927b3afe88fbf0f12a1082e27aa280b2
-MD5sum: 8033639c5ef21a7cd1f759cf68a28846
+Filename: pool/main/s/systemd/libnss-systemd_254.26-1~bpo12+1_amd64.deb
+Size: 179084
+SHA256: 4e15960dfc2c3b4f529c50f3793a8dc8c957b0a0bed4ae8d36f563d6e4176f25
+SHA1: 514926eb4a21168b721686e161b620ee53884ee3
+MD5sum: 480f68d25d1c65e115c06d1f4998e53a
 Description: nss module providing dynamic user and group name resolution
  nss-systemd is a plug-in module for the GNU Name Service Switch (NSS)
  functionality of the GNU C Library (glibc), providing UNIX user and group name
@@ -32551,22 +32552,22 @@ Description: Runtime support for the PAM library
 
 Package: libpam-systemd
 Source: systemd
-Version: 254.22-1~bpo12+1
+Version: 254.26-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 575
-Depends: libc6 (>= 2.35), libcap2 (>= 1:2.10), libpam0g (>= 0.99.7.1), systemd (= 254.22-1~bpo12+1), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
+Depends: libc6 (>= 2.35), libcap2 (>= 1:2.10), libpam0g (>= 0.99.7.1), systemd (= 254.26-1~bpo12+1), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
 Recommends: dbus-user-session
-Provides: default-logind (= 254.22-1~bpo12+1), logind (= 254.22-1~bpo12+1)
+Provides: default-logind (= 254.26-1~bpo12+1), logind (= 254.26-1~bpo12+1)
 Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: standard
 Section: admin
-Filename: pool/main/s/systemd/libpam-systemd_254.22-1~bpo12+1_amd64.deb
-Size: 244128
-SHA256: ca238c75b506bd79dda214642780241b3caca2889ff69b30e5fb93481c6fad7e
-SHA1: 975d583abae9f2dc3f564fad9fd9302bc8816e11
-MD5sum: 96e23535824979a4d9c56a0437032744
+Filename: pool/main/s/systemd/libpam-systemd_254.26-1~bpo12+1_amd64.deb
+Size: 243992
+SHA256: 418802b4a0ad38813776b52a434c8b138bbe094bfe1494d6f9d9f4410828997c
+SHA1: f1fca67c0c93363b22b11f76ec3226ac815674b7
+MD5sum: 0f3ef9f214e61feb1af385f5d66a7d9d
 Description: system and service manager - PAM module
  This package contains the PAM module which registers user sessions in
  the systemd control group hierarchy for logind.
@@ -35211,20 +35212,20 @@ Description: lightweight RDF syntax library
 
 Package: libsharpyuv0
 Source: libwebp
-Version: 1.4.0-0.1~bpo12+1
+Version: 1.5.0-0.1~bpo12+1
 Architecture: amd64
 Maintainer: Jeff Breidenbach <jab@debian.org>
-Installed-Size: 141
+Installed-Size: 143
 Depends: libc6 (>= 2.29)
 Multi-Arch: same
 Homepage: https://developers.google.com/speed/webp/
 Priority: optional
 Section: libs
-Filename: pool/main/libw/libwebp/libsharpyuv0_1.4.0-0.1~bpo12+1_amd64.deb
-Size: 112680
-SHA256: 982b4e1b1f6399298350d8acbc9f4669ff344b95ff734e90150626099d6299ec
-SHA1: bee9a29ee95edfcf6e9743f0a3ea740a836c4baf
-MD5sum: 156c62ada5536de02350fdbc5f46b1f9
+Filename: pool/main/libw/libwebp/libsharpyuv0_1.5.0-0.1~bpo12+1_amd64.deb
+Size: 115656
+SHA256: 5f34a1789eab87f82a1946a4ff7c0412efcd65fe23d742beb375bc0ad5162b74
+SHA1: fbecd0060bb3bfb308fb2b3e0dcd6f0023732ac5
+MD5sum: 85db3d6a3469d2d57f7ebf5f71448be8
 Description: Library for sharp RGB to YUV conversion
  This library provides the function to convert RGB to YUV420 using
  a downsampling algorithm that minimizes artefacts caused by chroma
@@ -35886,7 +35887,7 @@ Description: Library for rendering PostScript documents
 
 Package: libspeechd-module0
 Source: speech-dispatcher
-Version: 0.12.0-3~bpo12+1
+Version: 0.12.0-4~bpo12+1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 46
@@ -35895,11 +35896,11 @@ Multi-Arch: same
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: libs
-Filename: pool/main/s/speech-dispatcher/libspeechd-module0_0.12.0-3~bpo12+1_amd64.deb
-Size: 14940
-SHA256: 6e9de2ba8589bb8e134cd95273879164a8310f27591fe28b9a165207a967f574
-SHA1: 85a0c5820e156afdb2421e68bc993091a971aef1
-MD5sum: 98fb5874209ca02cc7720c4ed91b6f54
+Filename: pool/main/s/speech-dispatcher/libspeechd-module0_0.12.0-4~bpo12+1_amd64.deb
+Size: 14972
+SHA256: 91cfd853e391c10032c654322429787aeccb5201a5a5eb5f5fbac00f437c2dd5
+SHA1: 536f7fb6486b0b47e2cf2b851bb794213243ca06
+MD5sum: bf393a2aae4d404f73590f63076d150d
 Description: Speech Dispatcher: Shared libraries for modules
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -35916,7 +35917,7 @@ Description: Speech Dispatcher: Shared libraries for modules
 
 Package: libspeechd2
 Source: speech-dispatcher
-Version: 0.12.0-3~bpo12+1
+Version: 0.12.0-4~bpo12+1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 72
@@ -35925,11 +35926,11 @@ Multi-Arch: same
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: libs
-Filename: pool/main/s/speech-dispatcher/libspeechd2_0.12.0-3~bpo12+1_amd64.deb
-Size: 22120
-SHA256: cc4b417b84a808dbcc5ac3f91c4b7e0f2859b2be7839b6e2fc681431aea8254c
-SHA1: f7d502bd80bbcf5ca02592eb5a58a126d566f284
-MD5sum: 524da6516431778f1ad5e17aba55143b
+Filename: pool/main/s/speech-dispatcher/libspeechd2_0.12.0-4~bpo12+1_amd64.deb
+Size: 22136
+SHA256: 51e3d09eade6a4695375cceb4c78f635442f5e4fe078d0e3fa2d6b385cf907c1
+SHA1: d55d26b4cf58838ce727b1ababf52e301fdc8f76
+MD5sum: 5e9b07bf2028d211758cff7ab9f6dd7b
 Description: Speech Dispatcher: Shared libraries
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -36145,7 +36146,7 @@ Description: Secure RTP (SRTP) and UST Reference Implementations - shared librar
 
 Package: libss2
 Source: e2fsprogs
-Version: 1.47.2~rc1-2~bpo12+2
+Version: 1.47.2-3~bpo12+1
 Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 79
@@ -36155,11 +36156,11 @@ Multi-Arch: same
 Homepage: http://e2fsprogs.sourceforge.net
 Priority: optional
 Section: libs
-Filename: pool/main/e/e2fsprogs/libss2_1.47.2~rc1-2~bpo12+2_amd64.deb
-Size: 28540
-SHA256: 8286e26b5e7f1c65e7ba7e3fd2fd18a6aa69ca925b72e5a5bf8214a9bae542be
-SHA1: 69485656f39a5facec79ad793e2a189748eddf01
-MD5sum: 8cc8e7d06f8ee2b9131dc3cfa98bc682
+Filename: pool/main/e/e2fsprogs/libss2_1.47.2-3~bpo12+1_amd64.deb
+Size: 29492
+SHA256: 705b213e8768639d8849721cb2c2a1d0305e1393f00193e18af32d96adbbbd89
+SHA1: 88339ae280d583610ccc7eb9504f3518a9368c53
+MD5sum: 2e74dec6561fe97b2818682cbb7c37b8
 Description: command-line interface parsing library
  libss provides a simple command-line interface parser which will
  accept input from the user, parse the command into an argv argument
@@ -36513,7 +36514,7 @@ Description: FFmpeg library for image scaling and various conversions - runtime 
 
 Package: libsystemd-shared
 Source: systemd
-Version: 254.22-1~bpo12+1
+Version: 254.26-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 5717
@@ -36522,11 +36523,11 @@ Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libsystemd-shared_254.22-1~bpo12+1_amd64.deb
-Size: 1846728
-SHA256: 70632a094173ff8b006c6f306106962f5d40e6fb5f7868415b111e34780a7cd5
-SHA1: d41d8e8a7a04fc3dde78d300b71e3d6a4d49a10a
-MD5sum: a4db5469a91479cb6a528f28540af8b3
+Filename: pool/main/s/systemd/libsystemd-shared_254.26-1~bpo12+1_amd64.deb
+Size: 1844764
+SHA256: 4b1ab8da02aea748cf3fbd75ec6a2734d92ae4e1f287afb33e2025f971a3058a
+SHA1: 1944355fae9b7823dd443207c94339ea94b3a42b
+MD5sum: d7b039920d5dda76e691b9847ab27347
 Description: systemd shared private library
  This internal shared library provides common code used by various systemd
  components. It is supposed to decrease memory and disk footprint.
@@ -36534,20 +36535,20 @@ Description: systemd shared private library
 
 Package: libsystemd0
 Source: systemd
-Version: 254.22-1~bpo12+1
+Version: 254.26-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 965
+Installed-Size: 969
 Depends: libc6 (>= 2.35), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.10.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.5.2)
 Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libsystemd0_254.22-1~bpo12+1_amd64.deb
-Size: 355708
-SHA256: d1ab40ed311f100e8287cadce2a1aaff2de3688f2e29f681bb8542b3593b68d3
-SHA1: 9ef2a9c7067b2032234226423f9e5a4ea99aa2df
-MD5sum: ec5cad7ee88213ff57be8b8e1bfd0356
+Filename: pool/main/s/systemd/libsystemd0_254.26-1~bpo12+1_amd64.deb
+Size: 356580
+SHA256: fd5c0551ac347ee7da585fe23c2d4c18ea1ceeef831ffb251e9349ae60268398
+SHA1: 2a6753b1a8f663679f7c4ff911f6354496f888d9
+MD5sum: 70351b95e8ab5695ee6913a2875094a5
 Description: systemd utility library
  This library provides APIs to interface with various system components such as
  the system journal, the system service manager, D-Bus and more.
@@ -36632,21 +36633,21 @@ Description: audio meta-data library - vanilla flavour
  Library. This package contains original and unpatched flavour of the library.
 
 Package: libtalloc2
-Source: samba (2:4.21.5+dfsg-1~bpo12+1)
-Version: 2:2.4.2+samba4.21.5+dfsg-1~bpo12+1
+Source: samba (2:4.22.2+dfsg-1~bpo12+1)
+Version: 2:2.4.3+samba4.22.2+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 121
+Installed-Size: 122
 Depends: libc6 (>= 2.16)
 Multi-Arch: same
 Homepage: https://www.samba.org
 Priority: optional
 Section: libs
-Filename: pool/main/s/samba/libtalloc2_2.4.2+samba4.21.5+dfsg-1~bpo12+1_amd64.deb
-Size: 59256
-SHA256: 9ac9fe5c8228b73bd759fdf6c6b31a2037374de669e2c84580743ead978f76c4
-SHA1: c3bc5bb5a59b7d0a81b50eaa06a27c7d01119d80
-MD5sum: 0dde89d3c8c373dd33f8114b929d83df
+Filename: pool/main/s/samba/libtalloc2_2.4.3+samba4.22.2+dfsg-1~bpo12+1_amd64.deb
+Size: 59580
+SHA256: 40b0523fa63e7f860344eb9eb64c80aba19075e7a35f9c987fe5faa3759c761e
+SHA1: f90bdb467a11914fc409ff97af8084f3b094b9da
+MD5sum: 21ece6459e9d1edf7058d5f21b0f166b
 Description: hierarchical pool based memory allocator
  A hierarchical pool based memory allocator with destructors. It uses
  reference counting to determine when memory should be freed.
@@ -36702,21 +36703,21 @@ Description: Manage ASN.1 structures (runtime)
  This package contains runtime libraries.
 
 Package: libtdb1
-Source: samba (2:4.21.5+dfsg-1~bpo12+1)
-Version: 2:1.4.12+samba4.21.5+dfsg-1~bpo12+1
+Source: samba (2:4.22.2+dfsg-1~bpo12+1)
+Version: 2:1.4.13+samba4.22.2+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 166
+Installed-Size: 167
 Depends: libc6 (>= 2.34)
 Multi-Arch: same
 Homepage: https://www.samba.org
 Priority: optional
 Section: libs
-Filename: pool/main/s/samba/libtdb1_1.4.12+samba4.21.5+dfsg-1~bpo12+1_amd64.deb
-Size: 78684
-SHA256: 3a8ea4215c4ff9ee24517157b5fb84e55f68022ab8f8db04d2489bc8980ed9bc
-SHA1: cb027b24499a12d1e7ed280d88126866f166c9f2
-MD5sum: 7a3fa7ed8c4cf802e449c04399cf9796
+Filename: pool/main/s/samba/libtdb1_1.4.13+samba4.22.2+dfsg-1~bpo12+1_amd64.deb
+Size: 78980
+SHA256: 95a7f8cf0199958c34cf1564a17093d491797de0816599ac02ddb3ac96566f2d
+SHA1: a1ae78474274abb5fa4ebb55b77a3b033da5528d
+MD5sum: 03dd8967995823115331206397d5a61f
 Description: Trivial Database - shared library
  This is a simple database API. It is modelled after the structure
  of GDBM. TDB features, unlike GDBM, multiple writers support with
@@ -36758,21 +36759,21 @@ Description: library for communication with `teamd` process
  Libteam requires Linux kernel 3.3 or higher.
 
 Package: libtevent0
-Source: samba (2:4.21.5+dfsg-1~bpo12+1)
-Version: 2:0.16.1+samba4.21.5+dfsg-1~bpo12+1
+Source: samba (2:4.22.2+dfsg-1~bpo12+1)
+Version: 2:0.16.2+samba4.22.2+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 167
+Installed-Size: 168
 Depends: libc6 (>= 2.34), libtalloc2 (>= 2.1.0)
 Multi-Arch: same
 Homepage: https://www.samba.org
 Priority: optional
 Section: libs
-Filename: pool/main/s/samba/libtevent0_0.16.1+samba4.21.5+dfsg-1~bpo12+1_amd64.deb
-Size: 73924
-SHA256: 6baeb43522c6f039829098fcb868ac85c0b494dc3469bef60ed1473f56565c4c
-SHA1: 437c6fce6e864f1c214fc1058c57e63741a8cd79
-MD5sum: c9052bd9a0ef47ee3af863951f785b6f
+Filename: pool/main/s/samba/libtevent0_0.16.2+samba4.22.2+dfsg-1~bpo12+1_amd64.deb
+Size: 74176
+SHA256: 5596e47c5437622ddfdd0027b1c3be85f4ab4f39d620204bdee2567433a5244a
+SHA1: 9144668ceeade270760bee352d2ed501f29b4ed9
+MD5sum: 9f49d7f01b0e6e12156e42b9757013b4
 Description: talloc-based event loop library - shared library
  tevent is a simple library that can handle the main event loop for an
  application. It supports three kinds of events: timed events, file
@@ -37546,7 +37547,7 @@ Description: universal charset detection library - shared library
 
 Package: libudev1
 Source: systemd
-Version: 254.22-1~bpo12+1
+Version: 254.26-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 258
@@ -37555,11 +37556,11 @@ Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libudev1_254.22-1~bpo12+1_amd64.deb
-Size: 118196
-SHA256: ce181b4d652f70848c92adf2311d9ada7643a5b3c1626a2c4a87f2f68fcd8257
-SHA1: 4abba229a64bdecc8297653463ea6166340d96f7
-MD5sum: 9274b5a2e9b67fe219d89d56d683401b
+Filename: pool/main/s/systemd/libudev1_254.26-1~bpo12+1_amd64.deb
+Size: 118380
+SHA256: c11c3b717066a692b7d74657db60c77001d2f35ba48404f32e077e986d75a469
+SHA1: f9d38047a4552edeedbeed89a71800b7991cd6d3
+MD5sum: 665130f6a7239d026a57e73a0bfe20fb
 Description: libudev shared library
  This library provides APIs to introspect and enumerate devices on the local
  system.
@@ -37704,7 +37705,7 @@ Description: Unicode string library for C
 
 Package: libuno-purpenvhelpergcc3-3
 Source: libreoffice
-Version: 4:25.2.2-1~bpo12+1
+Version: 4:25.2.3-2~bpo12+1
 Architecture: amd64
 Bugs: mailto:debian-backports@lists.debian.org
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
@@ -37715,11 +37716,11 @@ Replaces: uno-libs3, ure (<< 5.0.0~rc2-1)
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: libs
-Filename: pool/main/libr/libreoffice/libuno-purpenvhelpergcc3-3_25.2.2-1~bpo12+1_amd64.deb
-Size: 50588
-SHA256: b0d6e92241d83d959cad989e19352cb60b66cda4d4ad812be2566c8358632ab4
-SHA1: 2adae8a0e3753e9293db3fe54afc1835c4937cf1
-MD5sum: 36a05cce8daa00b9e0b0f993c0a7ac77
+Filename: pool/main/libr/libreoffice/libuno-purpenvhelpergcc3-3_25.2.3-2~bpo12+1_amd64.deb
+Size: 50988
+SHA256: d4eae65820a5b5594edbf66cfd1d1576adb171cbb1d47771b28bcda6cde30e61
+SHA1: bf8929c46dffbbd76779e7e4cb33e9e7873eb729
+MD5sum: 9fe0dc4f3a0eaad43ea7af336c45b287
 Description: LibreOffice UNO runtime environment -- "purpose environment" helper
  The Uno Runtime Environment (URE) is the well-known UNO component model
  of LibreOffice, packaged up as an individual product.
@@ -37735,7 +37736,7 @@ Description: LibreOffice UNO runtime environment -- "purpose environment" helper
 
 Package: libuno-sal3
 Source: libreoffice
-Version: 4:25.2.2-1~bpo12+1
+Version: 4:25.2.3-2~bpo12+1
 Architecture: amd64
 Bugs: mailto:debian-backports@lists.debian.org
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
@@ -37746,11 +37747,11 @@ Replaces: uno-libs3, ure (<< 5.0.0~rc2-1)
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: libs
-Filename: pool/main/libr/libreoffice/libuno-sal3_25.2.2-1~bpo12+1_amd64.deb
-Size: 210732
-SHA256: 58438b429047ae44ed626cfd8d083f62d17161773f7f2293532410fd94258e01
-SHA1: 93f3c134ea5364765e28d92a8544a9235cecd8f4
-MD5sum: 48c9b998ebcd321b574dc9aafaf9a2c0
+Filename: pool/main/libr/libreoffice/libuno-sal3_25.2.3-2~bpo12+1_amd64.deb
+Size: 211072
+SHA256: 806cf51f22503699511869650cdcbd3b623edf2bed749cfc44b8cfee5caeb5fb
+SHA1: 1cd727120afa382f33b5ca4dc12dc1ab3a46a683
+MD5sum: 1e937c441bb7b1fd865e197e08be040e
 Description: LibreOffice UNO runtime environment -- SAL public library
  The Uno Runtime Environment (URE) is the well-known UNO component model
  of LibreOffice, packaged up as an individual product.
@@ -37765,7 +37766,7 @@ Description: LibreOffice UNO runtime environment -- SAL public library
 
 Package: libuno-salhelpergcc3-3
 Source: libreoffice
-Version: 4:25.2.2-1~bpo12+1
+Version: 4:25.2.3-2~bpo12+1
 Architecture: amd64
 Bugs: mailto:debian-backports@lists.debian.org
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
@@ -37776,11 +37777,11 @@ Replaces: uno-libs3, ure (<< 5.0.0~rc2-1)
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: libs
-Filename: pool/main/libr/libreoffice/libuno-salhelpergcc3-3_25.2.2-1~bpo12+1_amd64.deb
-Size: 52048
-SHA256: 005ba598626500d771d77ad1c712d6c7e9a4141f951bec6343532b6fb2912c3e
-SHA1: 920cad11769f2c6e3f425eb164c42a80f89ef687
-MD5sum: c038fbd734a3439228fc1ec3f46a7f55
+Filename: pool/main/libr/libreoffice/libuno-salhelpergcc3-3_25.2.3-2~bpo12+1_amd64.deb
+Size: 52428
+SHA256: 036e19a35d0cd29db98513065c8deaca37b91ae37b8b2cd3bdbfbeb2a15452c8
+SHA1: 75fd113557a8959434da670ae0cdbcaa8ed92ed7
+MD5sum: 3c213e04cb067313e4c7ff717b35ced7
 Description: LibreOffice UNO runtime environment -- SAL helpers for C++ library
  The Uno Runtime Environment (URE) is the well-known UNO component model
  of LibreOffice, packaged up as an individual product.
@@ -38766,10 +38767,10 @@ Description: audio codec (lossy and lossless) - library
 
 Package: libwayland-client0
 Source: wayland
-Version: 1.21.0-1
+Version: 1.23.0-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 89
+Installed-Size: 90
 Depends: libc6 (>= 2.28), libffi8 (>= 3.4)
 Conflicts: libwayland0 (<< 1.1.0-1)
 Replaces: libwayland0 (<< 1.1.0-1)
@@ -38777,11 +38778,11 @@ Multi-Arch: same
 Homepage: https://wayland.freedesktop.org/
 Priority: optional
 Section: libs
-Filename: pool/main/w/wayland/libwayland-client0_1.21.0-1_amd64.deb
-Size: 28320
-SHA256: 1f002d028b8b79eec9847c636d8886d10dfe8c884cc2bebe18086b1391c5a28d
-SHA1: c802807bfa947425fe9ea0bf607f89740fe32873
-MD5sum: 8eca08a6899fb386383502099a225d3d
+Filename: pool/main/w/wayland/libwayland-client0_1.23.0-1~bpo12+1_amd64.deb
+Size: 26400
+SHA256: 0f00e0f00b8746d6a02fbe6c91708d290c26271883778c555569444f97028d9c
+SHA1: c03f427cc10004626acb0a12d0effd5d5415d2a3
+MD5sum: ef815cfb72d7ac7d49bba5693ffeb1b8
 Description: wayland compositor infrastructure - client library
  Wayland is a protocol for a compositor to talk to its clients as well
  as a C library implementation of that protocol. The compositor can be
@@ -38823,10 +38824,10 @@ Description: wayland compositor infrastructure - cursor library
 
 Package: libwayland-egl1
 Source: wayland
-Version: 1.21.0-1
+Version: 1.23.0-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 33
+Installed-Size: 30
 Depends: libc6 (>= 2.2.5)
 Breaks: libwayland-egl1-mesa (<< 18.0.5-0)
 Replaces: libwayland-egl1-mesa (<< 18.0.5-0)
@@ -38835,11 +38836,11 @@ Multi-Arch: same
 Homepage: https://wayland.freedesktop.org/
 Priority: optional
 Section: libs
-Filename: pool/main/w/wayland/libwayland-egl1_1.21.0-1_amd64.deb
-Size: 8640
-SHA256: cb4225f0e15e00a3570d4cbc288c87ff477d73e741c3f1c5a6d47cf350d45378
-SHA1: 3778a148b2e67e38bc09f71705cb8c873682f6d9
-MD5sum: 149a9237fd98bb13ce2e94737e693621
+Filename: pool/main/w/wayland/libwayland-egl1_1.23.0-1~bpo12+1_amd64.deb
+Size: 5460
+SHA256: 6f8788873e7f6cc0eb27cc0f519fd11a540d63afe1fbac9fa53ec94fa38a0bfa
+SHA1: 6614d94dfa2a860484ec11928d06a2657c728601
+MD5sum: 50a4a2d24044b57e7c02b15f53e31014
 Description: wayland compositor infrastructure - EGL library
  Wayland is a protocol for a compositor to talk to its clients as well
  as a C library implementation of that protocol. The compositor can be
@@ -38853,11 +38854,11 @@ Description: wayland compositor infrastructure - EGL library
 
 Package: libwayland-server0
 Source: wayland
-Version: 1.21.0-1
+Version: 1.23.0-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 111
-Depends: libc6 (>= 2.33), libffi8 (>= 3.4)
+Installed-Size: 112
+Depends: libc6 (>= 2.34), libffi8 (>= 3.4)
 Conflicts: libwayland0 (<< 1.1.0-1)
 Breaks: weston (<< 1.2.0)
 Replaces: libwayland0 (<< 1.1.0-1)
@@ -38865,11 +38866,11 @@ Multi-Arch: same
 Homepage: https://wayland.freedesktop.org/
 Priority: optional
 Section: libs
-Filename: pool/main/w/wayland/libwayland-server0_1.21.0-1_amd64.deb
-Size: 35876
-SHA256: df0396221d7b794496a687ec61fae82b6465648bc0ab6501ba0a5ed7f56eb8d6
-SHA1: 29f69d792d7bb0de9e3834334e00d0513a223e52
-MD5sum: 42f94a440aedab24dc1ae5fb7d91651e
+Filename: pool/main/w/wayland/libwayland-server0_1.23.0-1~bpo12+1_amd64.deb
+Size: 33804
+SHA256: d0d1520745347cf032fa2c0844f6a306302b38f33425417e77cacdffe6140bac
+SHA1: 43ba64fe3f6a49ea544ba40745b160cbb07bb350
+MD5sum: ab41c519eca289f6fc8def5776c184e8
 Description: wayland compositor infrastructure - server library
  Wayland is a protocol for a compositor to talk to its clients as well
  as a C library implementation of that protocol. The compositor can be
@@ -38883,20 +38884,20 @@ Description: wayland compositor infrastructure - server library
 
 Package: libwbclient0
 Source: samba
-Version: 2:4.21.5+dfsg-1~bpo12+1
+Version: 2:4.22.2+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 148
+Installed-Size: 149
 Depends: libbsd0 (>= 0.0), libc6 (>= 2.34)
 Multi-Arch: same
 Homepage: https://www.samba.org
 Priority: optional
 Section: libs
-Filename: pool/main/s/samba/libwbclient0_4.21.5+dfsg-1~bpo12+1_amd64.deb
-Size: 67552
-SHA256: ac892ffb4d43dbd03745a8bd86dee70eb2cc5ef1994992d0c8479ec016d60022
-SHA1: 4a4574d22baf2b00b0c9ecfc589d4a99ceb64e70
-MD5sum: ec54aaa87a599f55477d0a5df65aa9b5
+Filename: pool/main/s/samba/libwbclient0_4.22.2+dfsg-1~bpo12+1_amd64.deb
+Size: 67884
+SHA256: 66d18f202c99e42a0160784686a16a855b73d830b9e79d94b890ae307299f430
+SHA1: 9d514d976a22ba9c883f4cb0351d34b886bc2497
+MD5sum: 943146622582400efc53096d9dac2a5a
 Description: Samba winbind client library
  Samba is an implementation of the SMB/CIFS protocol for Unix systems,
  providing support for cross-platform file and printer sharing with
@@ -38994,21 +38995,21 @@ Description: Web content engine library for GTK
 
 Package: libwebp7
 Source: libwebp
-Version: 1.4.0-0.1~bpo12+1
+Version: 1.5.0-0.1~bpo12+1
 Architecture: amd64
 Maintainer: Jeff Breidenbach <jab@debian.org>
-Installed-Size: 609
-Depends: libc6 (>= 2.34), libsharpyuv0 (>= 1.4.0)
+Installed-Size: 615
+Depends: libc6 (>= 2.34), libsharpyuv0 (>= 1.5.0)
 Multi-Arch: same
 Homepage: https://developers.google.com/speed/webp/
 Priority: optional
 Section: libs
-Filename: pool/main/libw/libwebp/libwebp7_1.4.0-0.1~bpo12+1_amd64.deb
-Size: 310392
-SHA256: fcb591a816b2adb337d289a66d19b12666abb4fdb01f23e7a297dba091cc2ce2
-SHA1: 64705e948c653fa3d1f7ffe610afca02544302a7
-MD5sum: 13ba22996b97861aacaabcf623b24b86
-Description: Lossy compression of digital photographic images
+Filename: pool/main/libw/libwebp/libwebp7_1.5.0-0.1~bpo12+1_amd64.deb
+Size: 316084
+SHA256: e08cb4e4f049c9269cb7edf2346f0510864218bbc99b3d2b6b15d965194cc755
+SHA1: 8e30d12ecb589c98c439602076343261afa45f1a
+MD5sum: 3d416947aa7b9458d1c4d445272e9866
+Description: Lossy compression of digital photographic images (shared library)
  Image Compression format, based on the VP8 codec.
  WebP uses the modern VP8 compression format to deliver efficient
  compression of images for the web. More than 30% extra gain over
@@ -39016,21 +39017,21 @@ Description: Lossy compression of digital photographic images
 
 Package: libwebpdemux2
 Source: libwebp
-Version: 1.4.0-0.1~bpo12+1
+Version: 1.5.0-0.1~bpo12+1
 Architecture: amd64
 Maintainer: Jeff Breidenbach <jab@debian.org>
-Installed-Size: 137
-Depends: libc6 (>= 2.14), libwebp7 (>= 1.4.0)
+Installed-Size: 139
+Depends: libc6 (>= 2.14), libwebp7 (>= 1.5.0)
 Multi-Arch: same
 Homepage: https://developers.google.com/speed/webp/
 Priority: optional
 Section: libs
-Filename: pool/main/libw/libwebp/libwebpdemux2_1.4.0-0.1~bpo12+1_amd64.deb
-Size: 110372
-SHA256: 6b423ac14622cd26611d9a33a42c16bbf4905b2aae99d2061e75fab844412c6d
-SHA1: 3d1bc663f2c674626fcf59ee5721f68c4672992f
-MD5sum: 14cb0be59cdbb03faf3b7b8ed88a522e
-Description: Lossy compression of digital photographic images.
+Filename: pool/main/libw/libwebp/libwebpdemux2_1.5.0-0.1~bpo12+1_amd64.deb
+Size: 113376
+SHA256: 0ba343dc66812ce10ce7f5acaabb2253f3bf6ac2233a514398fcc9024f39ce1d
+SHA1: b25179fb5a72cf3700ecf72e32b205cd5fbc5d94
+MD5sum: 8ce3dede5f4cdfcceee1d10cba054756
+Description: Lossy compression of digital photographic images (libwebpdemux library)
  Image Compression format, based on the VP8 codec.
  WebP uses the modern VP8 compression format to deliver efficient
  compression of images for the web. More than 30% extra gain over
@@ -39038,21 +39039,21 @@ Description: Lossy compression of digital photographic images.
 
 Package: libwebpmux3
 Source: libwebp
-Version: 1.4.0-0.1~bpo12+1
+Version: 1.5.0-0.1~bpo12+1
 Architecture: amd64
 Maintainer: Jeff Breidenbach <jab@debian.org>
-Installed-Size: 165
-Depends: libc6 (>= 2.29), libwebp7 (>= 1.4.0)
+Installed-Size: 167
+Depends: libc6 (>= 2.29), libwebp7 (>= 1.5.0)
 Multi-Arch: same
 Homepage: https://developers.google.com/speed/webp/
 Priority: optional
 Section: libs
-Filename: pool/main/libw/libwebp/libwebpmux3_1.4.0-0.1~bpo12+1_amd64.deb
-Size: 123328
-SHA256: 208dda4be9f6dca9a3e45244eb55046b41ecec5eaefdc139a188d542042fc32a
-SHA1: 32d9a6e9daeb4603d0d9266670bb12e780978225
-MD5sum: 72004fd68b8f5b315aa3afe80e8e7719
-Description: Lossy compression of digital photographic images
+Filename: pool/main/libw/libwebp/libwebpmux3_1.5.0-0.1~bpo12+1_amd64.deb
+Size: 126404
+SHA256: 9eaf1984e66f0bedb9712129301be1abebe8bef04b98f951ca54718922ff5790
+SHA1: 625a8ac96f35532fd62577b359712bfbca9edbed
+MD5sum: 361a26af5b47d60cf0f497c8e8c0b630
+Description: Lossy compression of digital photographic images (libwebpmux library)
  Image Compression format, based on the VP8 codec.
  WebP uses the modern VP8 compression format to deliver efficient
  compression of images for the web. More than 30% extra gain over
@@ -39425,20 +39426,20 @@ Description: H.265/HEVC video stream encoder (shared library)
 
 Package: libxatracker2
 Source: mesa
-Version: 24.2.8-1~bpo12+1
+Version: 25.0.4-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11944
+Installed-Size: 12473
 Depends: libc6 (>= 2.34), libdrm-intel1 (>= 2.4.121), libdrm2 (>= 2.4.121), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libllvm15, libstdc++6 (>= 11), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libxatracker2_24.2.8-1~bpo12+1_amd64.deb
-Size: 2228928
-SHA256: bb70689df51de66221ac458d3b0a34af4f9cde304e0cd895f4f616867e8f271e
-SHA1: b22362e5472ab2372b323986c1f128e50a2e90e4
-MD5sum: 4aad04136b3b5300c7321653e9936509
+Filename: pool/main/m/mesa/libxatracker2_25.0.4-1~bpo12+1_amd64.deb
+Size: 2270860
+SHA256: 3b48f04a37fd389e038e4b496d821bbd0844815a282fc791f2541b9e4e0ab5ea
+SHA1: 064e61d7f3d500518adf6a817cfaa17c7e0bf9d9
+MD5sum: e95f898c890d6bb6d375c8c6c3019244
 Description: X acceleration library -- runtime
  This package contains the XA (X acceleration) library.  It is used exclusively
  by the X server to do render, copy and video acceleration.
@@ -41941,21 +41942,21 @@ Description: C++ port of ZXing library (library files)
  This package provides library files for zxing-cpp library.
 
 Package: linux-base
-Version: 4.9
+Version: 4.12~bpo12+1
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 77
+Installed-Size: 76
 Depends: debconf (>= 0.5) | debconf-2.0
 Breaks: kernel-common (<= 13.018+nmu1), linux-perf (<< 5.16.2-1~exp1)
 Replaces: kernel-common (<= 13.018+nmu1)
 Multi-Arch: foreign
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-base/linux-base_4.9_all.deb
-Size: 31784
-SHA256: 98be49c7067b058535496222a03a559b0fc205befa5b4e7ca5e1043ce708109a
-SHA1: 7153d000e81626060fe3fc2f5b49077e68debaae
-MD5sum: 85b95cf515416ea18c856b37f7d41971
+Filename: pool/main/l/linux-base/linux-base_4.12~bpo12+1_all.deb
+Size: 25516
+SHA256: b3e197b7c67528f1a3f396767b6e4dfd40274d7b963877d657babae964e0d4f4
+SHA1: 846187f23a43b31d8a5c8ce7e9fe84b647e50128
+MD5sum: 48222083d51de31071bae4e5a966fa6f
 Description: Linux image base package
  This package contains files and support scripts for all Linux
  images.
@@ -42101,19 +42102,19 @@ Description: Kbuild infrastructure for Linux 6.12.22+bpo
 
 Package: linux-libc-dev
 Source: linux
-Version: 6.12.22-1~bpo12+1
+Version: 6.12.32-1~bpo12+1
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 10600
+Installed-Size: 10656
 Multi-Arch: foreign
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux/linux-libc-dev_6.12.22-1~bpo12+1_all.deb
-Size: 2542616
-SHA256: a9fa98fe4c566f7cf3e8b7ddc878fbac3da8d11afd58e460b7e76ca862424c70
-SHA1: 9a188bd06e8259766844ea8dc872364c377a9bfb
-MD5sum: 06c69758576c9e4a6decc66e4fcce18c
+Filename: pool/main/l/linux/linux-libc-dev_6.12.32-1~bpo12+1_all.deb
+Size: 2597540
+SHA256: f73003ea13d23e7d8a0f8923cf83b27f3977daa3ae52c7ce9fd29d3f961dddef
+SHA1: 48556a8b05230075862e4ab7e11eb99d846f6a6c
+MD5sum: 1e986663833e481eb3005eb0a50e76af
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These
  files are going to be installed into /usr/include, and are used by the
@@ -42433,7 +42434,7 @@ Description: Log rotation utility
 
 Package: logsave
 Source: e2fsprogs
-Version: 1.47.2~rc1-2~bpo12+2
+Version: 1.47.2-3~bpo12+1
 Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 58
@@ -42444,11 +42445,11 @@ Multi-Arch: foreign
 Homepage: http://e2fsprogs.sourceforge.net
 Priority: optional
 Section: admin
-Filename: pool/main/e/e2fsprogs/logsave_1.47.2~rc1-2~bpo12+2_amd64.deb
-Size: 23636
-SHA256: ef49238763abf608bc344d4e2881bacbe3c2efc6cf2d2f1d39c4e9df7d13e5ef
-SHA1: fa78a79d2d3f16fe292a571dc9613ce55880fe16
-MD5sum: aa2fd1938f6cd47ec46f2c816ab547d5
+Filename: pool/main/e/e2fsprogs/logsave_1.47.2-3~bpo12+1_amd64.deb
+Size: 24588
+SHA256: 90538cb2a6992321e3e315c0da32774c361c4e6237d44d73b8e60823fb309deb
+SHA1: 82a9f6e824edfb5011abed5937837e736d5f5061
+MD5sum: 0eaf1c38f7270bcc1b63c54158d18920
 Description: save the output of a command in a log file
  The logsave program will execute cmd_prog with the specified
  argument(s), and save a copy of its output to logfile.  If the
@@ -43089,20 +43090,21 @@ Description: List of standard media types and their usual file extension
 
 Package: mesa-libgallium
 Source: mesa
-Version: 24.2.8-1~bpo12+1
+Version: 25.0.4-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 37988
-Depends: libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.121), libdrm-intel1 (>= 2.4.121), libdrm-radeon1 (>= 2.4.121), libdrm2 (>= 2.4.121), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libglapi-mesa (= 24.2.8-1~bpo12+1), libllvm15, libsensors5 (>= 1:3.5.0), libstdc++6 (>= 11), libx11-xcb1 (>= 2:1.8.4), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 40746
+Depends: libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.121), libdrm-intel1 (>= 2.4.121), libdrm2 (>= 2.4.121), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libllvm15, libsensors5 (>= 1:3.5.0), libstdc++6 (>= 11), libx11-xcb1 (>= 2:1.8.4), libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Provides: libglapi-mesa
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/mesa-libgallium_24.2.8-1~bpo12+1_amd64.deb
-Size: 9114440
-SHA256: dfb3dc0546bd1e1385f338bf0b6a2c8f367a7cf9eabd6997876da4d34f14f29d
-SHA1: 0a10c8628c021e10da95aa1c28104f1f3f30800e
-MD5sum: 4053ad6aa6cf8beffe6d0d6754a4b2df
+Filename: pool/main/m/mesa/mesa-libgallium_25.0.4-1~bpo12+1_amd64.deb
+Size: 9517580
+SHA256: be84658f9bd568abf60453c6e213f3b6a4b6b71486d48dc8807af4cbf27f31f0
+SHA1: 4c1f813d25243060f4109a62c8b22f73390adb29
+MD5sum: cb3e3d6c75421ff753284cd195274055
 Description: shared infrastructure for Mesa drivers
  This package contains libgallium, a private library shared between
  multiple Mesa drivers. This library is an implementation detail of Mesa
@@ -43152,10 +43154,11 @@ Description: Miscellaneous Mesa utilities -- native applications
 
 Package: mesa-va-drivers
 Source: mesa
-Version: 24.2.8-1~bpo12+1
+Version: 25.0.4-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 46
+Installed-Size: 47
+Depends: mesa-libgallium (= 25.0.4-1~bpo12+1)
 Enhances: libva2
 Breaks: vdpau-va-driver (<< 0.7.4-5)
 Replaces: vdpau-va-driver (<< 0.7.4-5)
@@ -43164,11 +43167,11 @@ Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/mesa-va-drivers_24.2.8-1~bpo12+1_amd64.deb
-Size: 19056
-SHA256: c058f36f9b3e069cf5126b400194099b2d6f9e3fb85fe79f5fbc8705e6f2c069
-SHA1: f5451109f8ffc25f3994a32322aa8b7234f17755
-MD5sum: c83a130716c7e5b5e7831dbda30aa9d2
+Filename: pool/main/m/mesa/mesa-va-drivers_25.0.4-1~bpo12+1_amd64.deb
+Size: 19824
+SHA256: b4dbf2aa7d8de616e23c16145398b74b30a638aa4638fc23c1f087ac6af028e0
+SHA1: d83058d6fa1b2fd3ebc78b6d5244deccd8b4f56c
+MD5sum: c746ab53299c8c034e8cd1732e7d94e8
 Description: Mesa VA-API video acceleration drivers
  These libraries provide the Video Acceleration API (VA-API) for Unix.
  They provide accelerated video playback (incl. H.264) and video
@@ -43178,10 +43181,10 @@ Description: Mesa VA-API video acceleration drivers
 
 Package: mesa-vdpau-drivers
 Source: mesa
-Version: 24.2.8-1~bpo12+1
+Version: 25.0.4-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 61
+Installed-Size: 62
 Depends: libvdpau1
 Enhances: libvdpau1
 Provides: vdpau-driver
@@ -43189,11 +43192,11 @@ Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/mesa-vdpau-drivers_24.2.8-1~bpo12+1_amd64.deb
-Size: 19216
-SHA256: 1ee99276aa0913d707a8613fd1c611022188ababc0b44794cb38782e89cbeefe
-SHA1: 64077b2a79b7f94cff9a9a2a2dff25bbf024d851
-MD5sum: dc07584b0798cdcc06e268d6a68b6d60
+Filename: pool/main/m/mesa/mesa-vdpau-drivers_25.0.4-1~bpo12+1_amd64.deb
+Size: 19976
+SHA256: 8525490da52786cf059ae20f2172df2972bbd5e69b1361e79d67219e2c3aa790
+SHA1: 98d219e235b67433eb8bf136fdae50aee88459a9
+MD5sum: dbb31bccb2c120ff4c5a6c61f4040aef
 Description: Mesa VDPAU video acceleration drivers
  These libraries provide the Video Decode and Presentation API for Unix.
  They provide accelerated video playback (incl. H.264) and video
@@ -43203,21 +43206,21 @@ Description: Mesa VDPAU video acceleration drivers
 
 Package: mesa-vulkan-drivers
 Source: mesa
-Version: 24.2.8-1~bpo12+1
+Version: 25.0.4-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 56679
-Depends: libvulkan1, python3:any, libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.121), libdrm2 (>= 2.4.121), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libllvm15, libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0), libx11-xcb1 (>= 2:1.8.4), libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0 (>= 1.13), libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 64537
+Depends: libvulkan1, libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.121), libdrm2 (>= 2.4.121), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libllvm15, libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0), libx11-xcb1 (>= 2:1.8.4), libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0 (>= 1.13), libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
 Provides: vulkan-icd
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/mesa-vulkan-drivers_24.2.8-1~bpo12+1_amd64.deb
-Size: 10429560
-SHA256: 09c8f33ed536e68e76d7bd7a4fda468d15adfe9088c61dfdc78e2378b9935314
-SHA1: 740a280cfa5f1aa08b23a8320e23d5c366e8d780
-MD5sum: 90bb17d61550798f9946039c2e310583
+Filename: pool/main/m/mesa/mesa-vulkan-drivers_25.0.4-1~bpo12+1_amd64.deb
+Size: 11369796
+SHA256: 9ee90cf23e8040c30dc9aca330223eb1b39dd6e276450b9cf771c3e36271ac63
+SHA1: 37ceccf99f6f31385654ac86b68902cb6265d7e2
+MD5sum: dadc97e6715dd5d9def3a5f36b7cb14a
 Description: Mesa Vulkan graphics drivers
  Vulkan is a low-overhead 3D graphics and compute API. This package
  includes Vulkan drivers provided by the Mesa project.
@@ -52653,10 +52656,10 @@ Description: Share a file over Tor Hidden Services anonymously and securely - cl
  This package is the Commandline interface of Onionshare.
 
 Package: open-vm-tools
-Version: 2:12.5.0-1~bpo12+1
+Version: 2:12.5.0-2~bpo12+1
 Architecture: amd64
 Maintainer: Bernd Zeimetz <bzed@debian.org>
-Installed-Size: 3253
+Installed-Size: 3261
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.3), libfuse3-3 (>= 3.2.3), libgcc-s1 (>= 3.3), libglib2.0-0 (>= 2.31.8), libmspack0 (>= 0.4), libssl3 (>= 3.0.0), libtirpc3 (>= 1.0.2), libudev1 (>= 183), libxml2 (>= 2.7.4), libxmlsec1 (>= 1.2.31), libxmlsec1-openssl (>= 1.2.31), pciutils, iproute2, lsb-release
 Recommends: ethtool, zerofree, fuse3
@@ -52666,11 +52669,11 @@ Replaces: open-vm-tools-sdmp (<< 2:12.1.0-2~)
 Homepage: https://github.com/vmware/open-vm-tools
 Priority: optional
 Section: admin
-Filename: pool/main/o/open-vm-tools/open-vm-tools_12.5.0-1~bpo12+1_amd64.deb
-Size: 691376
-SHA256: dbbb9e9aaef6b9d5f13b2eac98d82de58327e059bcef0b9782f208686579eae5
-SHA1: 4488142e2528ad3e64ca9bf09e4b14bd2c4373db
-MD5sum: 89b4182c378de65811746d0af0cc3b91
+Filename: pool/main/o/open-vm-tools/open-vm-tools_12.5.0-2~bpo12+1_amd64.deb
+Size: 691632
+SHA256: 150c1445709e023921f487997cb4576c2d868784fce3e6d26cad9f2a07b5ff1a
+SHA1: 516729787c02f6786c9465811e543fc970a8539a
+MD5sum: 077d3b78c9791902218b15a9529213b0
 Description: Open VMware Tools for virtual machines hosted on VMware (CLI)
  The Open Virtual Machine Tools (open-vm-tools) project is an open source
  implementation of VMware Tools. It is a suite of virtualization utilities and
@@ -52681,21 +52684,21 @@ Description: Open VMware Tools for virtual machines hosted on VMware (CLI)
 
 Package: open-vm-tools-desktop
 Source: open-vm-tools
-Version: 2:12.5.0-1~bpo12+1
+Version: 2:12.5.0-2~bpo12+1
 Architecture: amd64
 Maintainer: Bernd Zeimetz <bzed@debian.org>
 Installed-Size: 528
-Depends: libatkmm-1.6-1v5 (>= 2.28.3), libc6 (>= 2.34), libcairomm-1.0-1v5 (>= 1.14.4), libdrm2 (>= 2.4.3), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libglibmm-2.4-1v5 (>= 2.66.5), libgtk-3-0 (>= 3.19.12), libgtkmm-3.0-1v5 (>= 3.24.7), libice6 (>= 1:1.0.0), libsigc++-2.0-0v5 (>= 2.8.0), libsm6, libstdc++6 (>= 11), libtirpc3 (>= 1.0.2), libudev1 (>= 183), libx11-6 (>= 2:1.4.99.1), libxext6, libxi6, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.0), libxtst6, open-vm-tools (= 2:12.5.0-1~bpo12+1), fuse3, kmod
+Depends: libatkmm-1.6-1v5 (>= 2.28.3), libc6 (>= 2.34), libcairomm-1.0-1v5 (>= 1.14.4), libdrm2 (>= 2.4.3), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libglibmm-2.4-1v5 (>= 2.66.5), libgtk-3-0 (>= 3.19.12), libgtkmm-3.0-1v5 (>= 3.24.7), libice6 (>= 1:1.0.0), libsigc++-2.0-0v5 (>= 2.8.0), libsm6, libstdc++6 (>= 11), libtirpc3 (>= 1.0.2), libudev1 (>= 183), libx11-6 (>= 2:1.4.99.1), libxext6, libxi6, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.0), libxtst6, open-vm-tools (= 2:12.5.0-2~bpo12+1), fuse3, kmod
 Recommends: xauth, xserver-xorg-video-vmware
 Suggests: xdg-utils
 Homepage: https://github.com/vmware/open-vm-tools
 Priority: optional
 Section: admin
-Filename: pool/main/o/open-vm-tools/open-vm-tools-desktop_12.5.0-1~bpo12+1_amd64.deb
-Size: 151384
-SHA256: b8412b17fa9f9fc272ebc994f81cdc8fceef6c36204765abf14ca848a9600d8c
-SHA1: adc45f28a82066360234deafc0dce2e2875cd118
-MD5sum: 94e9d859d01f9660e6dcad80025237f6
+Filename: pool/main/o/open-vm-tools/open-vm-tools-desktop_12.5.0-2~bpo12+1_amd64.deb
+Size: 151944
+SHA256: 10d120b46b3b8b66f704451f180f7602803360fdacb1ed37dc96accada9b6ee0
+SHA1: 76694b9f7ca2d0ba8085d3a3efa459a4d93baf6e
+MD5sum: 973c953a769bad3429cc63fc73866f4a
 Description: Open VMware Tools for virtual machines hosted on VMware (GUI)
  The Open Virtual Machine Tools (open-vm-tools) project is an open source
  implementation of VMware Tools. It is a suite of virtualization utilities and
@@ -53318,11 +53321,11 @@ Description: OpenJDK Java runtime, using Hotspot JIT (headless)
 
 Package: openssh-client
 Source: openssh
-Version: 1:9.2p1-2+deb12u6
+Version: 1:10.0p1-5~bpo12+2
 Architecture: amd64
 Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
-Installed-Size: 5792
-Depends: adduser, passwd, libc6 (>= 2.36), libedit2 (>= 2.11-20080614-0), libfido2-1 (>= 1.8.0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 3.1~), libssl3 (>= 3.0.16), zlib1g (>= 1:1.1.4)
+Installed-Size: 4936
+Depends: adduser, passwd, init-system-helpers (>= 1.52), libc6 (>= 2.36), libedit2 (>= 2.11-20080614-0), libfido2-1 (>= 1.8.0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 3.1~), libssl3 (>= 3.0.0), zlib1g (>= 1:1.1.4)
 Recommends: xauth
 Suggests: keychain, libpam-ssh, monkeysphere, ssh-askpass
 Conflicts: sftp
@@ -53333,11 +53336,11 @@ Multi-Arch: foreign
 Homepage: https://www.openssh.com/
 Priority: standard
 Section: net
-Filename: pool/main/o/openssh/openssh-client_9.2p1-2+deb12u6_amd64.deb
-Size: 991948
-SHA256: e9cd117d2cd19f0c8caee5c63295f8f4cad433aabf0c87bef4a8345a24a177f0
-SHA1: f558872c48d2421c4048ee313194d26614c38678
-MD5sum: fe2cb527f53e2aa3d2e1fa25e78a277d
+Filename: pool/main/o/openssh/openssh-client_10.0p1-5~bpo12+2_amd64.deb
+Size: 984264
+SHA256: e1c0779e09130b4b386e59d1ea79902aed79b722b3658acb2a5eb49cd23ed5d7
+SHA1: 434d8cb4a1381d46c841668536254c6cee7ae2ca
+MD5sum: 8ada4402a2f731728dfb54bec84beb7b
 Description: secure shell (SSH) client, for secure access to remote machines
  This is the portable version of OpenSSH, a free implementation of
  the Secure Shell protocol as specified by the IETF secsh working
@@ -55461,7 +55464,7 @@ Description: Fast, simple object-to-object and broadcast signaling (Python3)
 
 Package: python3-brlapi
 Source: brltty
-Version: 6.7-1~bpo12+1
+Version: 6.7-3.1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 351
@@ -55470,11 +55473,11 @@ Multi-Arch: same
 Homepage: https://brltty.com
 Priority: optional
 Section: python
-Filename: pool/main/b/brltty/python3-brlapi_6.7-1~bpo12+1_amd64.deb
-Size: 148612
-SHA256: c477d7be02c27b0aff5252413f3f329dd3021c600bb8c6fa897c10a057fd1bb2
-SHA1: 0735339e27d26b2b1b88d011eb9cf6eb73a19c21
-MD5sum: 32bf0f322e48881869497c7ad9eac5cc
+Filename: pool/main/b/brltty/python3-brlapi_6.7-3.1~bpo12+1_amd64.deb
+Size: 148832
+SHA256: f05017b72af75232143595c2728fdb235465fde729890b251d554d0ac89bf95c
+SHA1: 3c181b9ee76ac3677ebaef3edf67e27cbc5b9bc7
+MD5sum: 1f6f1bba2eb7992f46d1e9b27ccb4fca
 Description: Braille display access via BRLTTY - Python3 bindings
  BRLTTY is a daemon which provides access to the console (text mode)
  for a blind person using a braille display.  It drives the braille
@@ -57143,19 +57146,19 @@ Description: Python 3 wrapper around the OpenSSL library
 
 Package: python3-packaging
 Source: python-packaging
-Version: 23.0-1
+Version: 25.0-1~bpo12+1
 Architecture: all
-Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 149
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 258
 Depends: python3:any
-Homepage: https://pypi.python.org/pypi/packaging
+Homepage: https://github.com/pypa/packaging
 Priority: optional
 Section: python
-Filename: pool/main/p/python-packaging/python3-packaging_23.0-1_all.deb
-Size: 32460
-SHA256: 04adb9e09aa8ed5bd8e31d31143fb265c43dcbec70da19f21e37cbe44b0c32cf
-SHA1: cc309cbdd2827f2959cc6b3588a1c0960ce18d20
-MD5sum: 4792e2e743bd8c6a84d5dda2a42bba36
+Filename: pool/main/p/python-packaging/python3-packaging_25.0-1~bpo12+1_all.deb
+Size: 57520
+SHA256: 72998355c3afad01e9209253ea56b25a3edf925e1db98425dc3d6833d0fb6fac
+SHA1: eb7aba691f6f8e7a15ae9fb5c383fe0026de7367
+MD5sum: 2fb0f6e3fb7e78e3c835be585199f4f9
 Description: core utilities for python3 packages
  These core utilities currently consist of:
   - Version Handling (PEP 440)
@@ -58237,7 +58240,7 @@ Description: manage the repositories that you install software from
 
 Package: python3-speechd
 Source: speech-dispatcher
-Version: 0.12.0-3~bpo12+1
+Version: 0.12.0-4~bpo12+1
 Architecture: all
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 142
@@ -58248,11 +58251,11 @@ Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: python
-Filename: pool/main/s/speech-dispatcher/python3-speechd_0.12.0-3~bpo12+1_all.deb
-Size: 44772
-SHA256: fa4230b18a480427f6455db61fdd8ed56b4765a495d951737ab84a36ece2493d
-SHA1: 611778de78cb42cfbd35a6af6e5f88a490229ef9
-MD5sum: e26514395eda11c666cf19f8f7c712a8
+Filename: pool/main/s/speech-dispatcher/python3-speechd_0.12.0-4~bpo12+1_all.deb
+Size: 44820
+SHA256: 703d1ebf3c00e37cf7496829c142e419f947c81fd078d62d52a235e6940ca6d5
+SHA1: ea21f1cbfa0b06a23085fbf8ebf4edb3aceb1082
+MD5sum: d6a46f7397201063c680b6ede036469a
 Description: Python interface to Speech Dispatcher
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -58292,11 +58295,11 @@ Description: Tor control library for Python 3 series
  This is Python 3 series module.
 
 Package: python3-talloc
-Source: samba (2:4.21.5+dfsg-1~bpo12+1)
-Version: 2:2.4.2+samba4.21.5+dfsg-1~bpo12+1
+Source: samba (2:4.22.2+dfsg-1~bpo12+1)
+Version: 2:2.4.3+samba4.22.2+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 106
+Installed-Size: 107
 Depends: python3 (<< 3.12), python3 (>= 3.11~), libc6 (>= 2.4), libpython3.11 (>= 3.11.0), libtalloc2 (>= 2.0.4~git20101213)
 Breaks: python3-talloc-dev
 Replaces: python3-talloc-dev
@@ -58304,11 +58307,11 @@ Multi-Arch: same
 Homepage: https://www.samba.org
 Priority: optional
 Section: python
-Filename: pool/main/s/samba/python3-talloc_2.4.2+samba4.21.5+dfsg-1~bpo12+1_amd64.deb
-Size: 48436
-SHA256: 2a059a8d05918277a7bb6d4cc18a9cc21346af65763922d9d3f30eb511db3f06
-SHA1: 0d2a072ce5dba64080787b970a5b115a20d1bca8
-MD5sum: 52468c483976823babc4624fb3253e87
+Filename: pool/main/s/samba/python3-talloc_2.4.3+samba4.22.2+dfsg-1~bpo12+1_amd64.deb
+Size: 48760
+SHA256: 1f0c2b87c67df4cfbe55aacd283a5806b3896477efc8fab5246b84b24635e935
+SHA1: b20b8d82cd2ebe8464a15afb6e686c77db13137f
+MD5sum: 6d76bdbb69d9079c8abceea5797ae38a
 Description: hierarchical pool based memory allocator - Python3 bindings
  A hierarchical pool based memory allocator with destructors. It uses
  reference counting to determine when memory should be freed.
@@ -58316,20 +58319,20 @@ Description: hierarchical pool based memory allocator - Python3 bindings
  This package contains the Python 3 bindings.
 
 Package: python3-tdb
-Source: samba (2:4.21.5+dfsg-1~bpo12+1)
-Version: 2:1.4.12+samba4.21.5+dfsg-1~bpo12+1
+Source: samba (2:4.22.2+dfsg-1~bpo12+1)
+Version: 2:1.4.13+samba4.22.2+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 107
+Installed-Size: 108
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any, libc6 (>= 2.4), libtdb1 (>= 1.3.11)
 Homepage: https://www.samba.org
 Priority: optional
 Section: python
-Filename: pool/main/s/samba/python3-tdb_1.4.12+samba4.21.5+dfsg-1~bpo12+1_amd64.deb
-Size: 50800
-SHA256: e2a40ae054e60bb7e3e9d97f69079096a8f8ab1666ed43fdab853b00f1438192
-SHA1: 8246df5ea2fe9c23d2ec84797601b5441f3c0b9b
-MD5sum: d37acfc945f67ec18bc8f52b6f53807a
+Filename: pool/main/s/samba/python3-tdb_1.4.13+samba4.22.2+dfsg-1~bpo12+1_amd64.deb
+Size: 51120
+SHA256: d9b5a03050357cf7666f46c5f07bb5450e03c32bbf5cfe976ecf093a0a78e13b
+SHA1: d0cb97983a0ef701c53fd01521282f91ba7cb816
+MD5sum: 344c4594f9982ab8e7977c31c96cdb8c
 Description: Python3 bindings for TDB
  This is a simple database API. It is modelled after the structure
  of GDBM. TDB features, unlike GDBM, multiple writers support with
@@ -58389,34 +58392,30 @@ Description: scalable, non-blocking web server and tools - Python 3 package
 
 Package: python3-typing-extensions
 Source: python-typing-extensions
-Version: 4.4.0-1
+Version: 4.13.2-1~bpo12+1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 229
+Installed-Size: 515
 Depends: python3:any
-Homepage: https://github.com/python/typing/blob/master/typing_extensions/README.rst
+Multi-Arch: foreign
+Homepage: https://typing-extensions.readthedocs.io/en/latest/
 Priority: optional
 Section: python
-Filename: pool/main/p/python-typing-extensions/python3-typing-extensions_4.4.0-1_all.deb
-Size: 45180
-SHA256: e2f88fe73b6dac2907b29d709647eb66302776f7693f45b1e95e116ddedbddd3
-SHA1: 16fc1f45c13c2ea51cdc4e717874f4e9843b740a
-MD5sum: 0a663cf783c7a18882416f94aff23591
+Filename: pool/main/p/python-typing-extensions/python3-typing-extensions_4.13.2-1~bpo12+1_all.deb
+Size: 90716
+SHA256: 18e82cb9e13c23ca19c8cd79a63b01db2595c31413954ab63e32117ea40262c3
+SHA1: 2df77774f205aabf93fb0e64f894237074353d80
+MD5sum: a07d2fb4adff1c86e5958f838e6cf7a5
 Description: Backported and Experimental Type Hints for Python
- The typing module was added to the standard library in Python 3.5 on a
- provisional basis and will no longer be provisional in Python 3.7. However,
- this means users of Python 3.5 - 3.6 who are unable to upgrade will not be
- able to take advantage of new types added to the typing module, such as
- typing.Text or typing.Coroutine.
+ The "typing_extensions" module serves two related purposes:
  .
- The typing_extensions module contains both backports of these changes as well
- as experimental types that will eventually be added to the typing module, such
- as Protocol.
+ 1. Enable use of new type system features on older Python versions.
+ 2. Enable experimentation with new type system PEPs before they are accepted
+    and added to the "typing" module.
  .
- Users of other Python versions should continue to install and use the typing
- module from PyPI instead of using this one unless specifically writing code
- that must be compatible with multiple Python versions or requires experimental
- types.
+ "typing_extensions" is treated specially by static type checkers such as mypy
+ and pyright. Objects defined in "typing_extensions" are treated the same
+ way as equivalent forms in "typing".
 
 Package: python3-tz
 Source: python-tz
@@ -58851,21 +58850,21 @@ Description: Qt 5 D-Bus tool
 
 Package: qemu-guest-agent
 Source: qemu
-Version: 1:9.2.2+ds-1~bpo12+1
+Version: 1:10.0.0+ds-2~bpo12+2
 Architecture: amd64
 Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 3690
+Installed-Size: 3692
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.63.3), libnuma1 (>= 2.0.11), libudev1 (>= 183), liburing2 (>= 2.3)
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
 Priority: optional
 Section: otherosfs
-Filename: pool/main/q/qemu/qemu-guest-agent_9.2.2+ds-1~bpo12+1_amd64.deb
-Size: 531944
-SHA256: 0dc106e78ce69e246c21ea83d2db837c66fd37eaca4ce5caf86b340f9b539077
-SHA1: ce14669f5f4cc18c602f95a8d686a55edd36eac4
-MD5sum: 0ed4215fadb0a75989071e3762f7356c
+Filename: pool/main/q/qemu/qemu-guest-agent_10.0.0+ds-2~bpo12+2_amd64.deb
+Size: 528572
+SHA256: 2cd1d02f3f687b0331f9e4861a12f1b08dcf5ee1bd23a56e4b4b6d8ca269d392
+SHA1: a6963f36701f7798af6ab9739248b5a97a089048
+MD5sum: 9899a3d36c90c6604a975a6a42d67bf2
 Description: Guest-side qemu-system agent
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
  CRIS, i386, LoongArch, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, RISC-V,
@@ -61047,26 +61046,26 @@ Description: collection of bootloaders (common)
  This package contains the common files.
 
 Package: systemd
-Version: 254.22-1~bpo12+1
+Version: 254.26-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 10409
+Installed-Size: 10419
 Pre-Depends: libblkid1 (>= 2.30.2), libc6 (>= 2.36), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.10.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libmount1 (>= 2.30), libselinux1 (>= 3.1~), libssl3 (>= 3.0.0), libzstd1 (>= 1.5.2)
-Depends: libacl1 (>= 2.2.23), libaudit1 (>= 1:2.2.1), libcryptsetup12 (>= 2:2.4), libfdisk1 (>= 2.33), libkmod2 (>= 15), libp11-kit0 (>= 0.23.18.1), libseccomp2 (>= 2.3.1), libsystemd-shared (= 254.22-1~bpo12+1), libsystemd0 (= 254.22-1~bpo12+1), systemd-dev (>= 254.22-1~bpo12+1), mount
+Depends: libacl1 (>= 2.2.23), libaudit1 (>= 1:2.2.1), libcryptsetup12 (>= 2:2.4), libfdisk1 (>= 2.33), libkmod2 (>= 15), libp11-kit0 (>= 0.23.18.1), libseccomp2 (>= 2.3.1), libsystemd-shared (= 254.26-1~bpo12+1), libsystemd0 (= 254.26-1~bpo12+1), systemd-dev (>= 254.26-1~bpo12+1), mount
 Recommends: default-dbus-system-bus | dbus-system-bus, systemd-timesyncd | time-daemon
 Suggests: systemd-container, systemd-homed, systemd-userdbd, systemd-boot, systemd-resolved, libfido2-1, libqrencode4, libtss2-esys-3.0.2-0, libtss2-mu0, libtss2-rc0, polkitd, python3:any, python3-pefile
 Conflicts: consolekit, libpam-ck-connector, systemd-shim
 Breaks: less (<< 563), sicherboot (<< 0.1.6)
-Provides: systemd-sysusers (= 254.22-1~bpo12+1), systemd-tmpfiles (= 254.22-1~bpo12+1)
+Provides: systemd-sysusers (= 254.26-1~bpo12+1), systemd-tmpfiles (= 254.26-1~bpo12+1)
 Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: important
 Section: admin
-Filename: pool/main/s/systemd/systemd_254.22-1~bpo12+1_amd64.deb
-Size: 3319344
-SHA256: e562de65d3e56ba88c41e710f7c42945dfec3e02841fa14ab14b5d0aaff1ece1
-SHA1: 78965266792c9f1e9f94cfcc267c4d96c5ff51a8
-MD5sum: a0b22a217e1073a521135d5752c6659b
+Filename: pool/main/s/systemd/systemd_254.26-1~bpo12+1_amd64.deb
+Size: 3324000
+SHA256: f55abada0c5c0409f7323e3deecb5d837ecfae75a31524133ac41302d41eff54
+SHA1: 63cde8db2ad006bf4e0cbe715f15ac8a382cbc73
+MD5sum: e5d7f8f6f91539a2d1a01602aad54265
 Description: system and service manager
  systemd is a system and service manager for Linux. It provides aggressive
  parallelization capabilities, uses socket and D-Bus activation for starting
@@ -61079,11 +61078,11 @@ Description: system and service manager
 
 Package: systemd-coredump
 Source: systemd
-Version: 254.22-1~bpo12+1
+Version: 254.26-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 261
-Depends: libc6 (>= 2.34), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libsystemd-shared (= 254.22-1~bpo12+1), libzstd1 (>= 1.5.2), systemd
+Depends: libc6 (>= 2.34), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libsystemd-shared (= 254.26-1~bpo12+1), libzstd1 (>= 1.5.2), systemd
 Recommends: libdw1
 Conflicts: core-dump-handler
 Replaces: core-dump-handler
@@ -61092,11 +61091,11 @@ Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: optional
 Section: admin
-Filename: pool/main/s/systemd/systemd-coredump_254.22-1~bpo12+1_amd64.deb
-Size: 100896
-SHA256: 88221888b8956670623cc9dfb94e63ccc59d55b7a382127a3381970861c9ea28
-SHA1: 8c2539e0fb53cea68a77f2042c671ff0a02db0dc
-MD5sum: b695a195c2e4910fc99cc35418c98a29
+Filename: pool/main/s/systemd/systemd-coredump_254.26-1~bpo12+1_amd64.deb
+Size: 101268
+SHA256: 76579753bbf62a9c9d13ca7957b820e7f04788da46ccc0a7ed932b79f0de7f5d
+SHA1: 746edb51e77a0a5ecb9fd83f2b8c25101fe7ee8b
+MD5sum: a10675cfc60d1b567fddc3402f8d6118
 Description: tools for storing and retrieving coredumps
  This package provides systemd tools for storing and retrieving coredumps:
   * systemd-coredump
@@ -61104,7 +61103,7 @@ Description: tools for storing and retrieving coredumps
 
 Package: systemd-dev
 Source: systemd
-Version: 254.22-1~bpo12+1
+Version: 254.26-1~bpo12+1
 Architecture: all
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 650
@@ -61114,11 +61113,11 @@ Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: optional
 Section: devel
-Filename: pool/main/s/systemd/systemd-dev_254.22-1~bpo12+1_all.deb
-Size: 55084
-SHA256: dc7e202c9daafa3ed3dda8222b16e2c26af8a36365b537c5cb30d057ee731cc6
-SHA1: 07e58fa47af8993c32eb9b71f06bb152502e10b0
-MD5sum: 0f2c670e5530e4656570cdf04626bb57
+Filename: pool/main/s/systemd/systemd-dev_254.26-1~bpo12+1_all.deb
+Size: 55148
+SHA256: 02e3f3c7ea0e44bb278ff36aec6e4178cc2998a5dcecd6b978eee41fa2983ff6
+SHA1: 0679ee164e05a7aef0df32e0774df37d3d507a86
+MD5sum: bcdbe06d4abf00563a44869fec63c60c
 Description: systemd development files
  This package contains the systemd and udev pkg-config files. Note that these
  are different from the libsystemd's and libudev's pkg-config files, which can
@@ -61127,7 +61126,7 @@ Description: systemd development files
 
 Package: systemd-sysv
 Source: systemd
-Version: 254.22-1~bpo12+1
+Version: 254.26-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 76
@@ -61139,11 +61138,11 @@ Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: important
 Section: admin
-Filename: pool/main/s/systemd/systemd-sysv_254.22-1~bpo12+1_amd64.deb
-Size: 45876
-SHA256: 1bc76217fe988b2d864131dea67d2cc1d9cb898cccb3209ddabebe36bb1d18e2
-SHA1: 7f2993f5146595c3f7623f66740515712a6220b9
-MD5sum: 12d589be9258c999932ee0fdd703dce6
+Filename: pool/main/s/systemd/systemd-sysv_254.26-1~bpo12+1_amd64.deb
+Size: 45944
+SHA256: ae0885de2ad448d23b92954babac9d6056dd8293fe5b4b7af2998597132bf5cf
+SHA1: 5af7061859ff1571a4b02b1a407df96ab6612f50
+MD5sum: b72b75782b42e2aac313d9c9670a8600
 Description: system and service manager - SysV compatibility symlinks
  This package provides manual pages and compatibility symlinks needed for
  systemd to replace sysvinit.
@@ -61152,11 +61151,11 @@ Description: system and service manager - SysV compatibility symlinks
 
 Package: systemd-timesyncd
 Source: systemd
-Version: 254.22-1~bpo12+1
+Version: 254.26-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 150
-Depends: libc6 (>= 2.34), libsystemd-shared (= 254.22-1~bpo12+1), systemd
+Depends: libc6 (>= 2.34), libsystemd-shared (= 254.26-1~bpo12+1), systemd
 Conflicts: time-daemon
 Replaces: time-daemon
 Provides: time-daemon
@@ -61164,11 +61163,11 @@ Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: standard
 Section: admin
-Filename: pool/main/s/systemd/systemd-timesyncd_254.22-1~bpo12+1_amd64.deb
-Size: 67864
-SHA256: 4609e805c39c1cc65b7b3c142b3c5bf15c0ef6375f8fb19d4cb8d41cb461a8cb
-SHA1: bffa7c27897e3530ae9f4e4260d98cc91be6fa73
-MD5sum: c77f07d05a20a6c1f8fa7d2458e74d0e
+Filename: pool/main/s/systemd/systemd-timesyncd_254.26-1~bpo12+1_amd64.deb
+Size: 67928
+SHA256: bb966fa55d425b1b1e075a210c55d79110c314e346eb884f852c3e6c7ab84ba0
+SHA1: 95b363426ed95d61a1bf1a132810b388954238f7
+MD5sum: 058623268bd61dcdefad03c7d6534939
 Description: minimalistic service to synchronize local time with NTP servers
  The package contains the systemd-timesyncd system service that may be used to
  synchronize the local system clock with a remote Network Time Protocol server.
@@ -61771,22 +61770,22 @@ Description: Update Configuration File(s): preserve user changes to config files
 
 Package: udev
 Source: systemd
-Version: 254.22-1~bpo12+1
+Version: 254.26-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 11134
-Depends: libacl1 (>= 2.2.23), libblkid1 (>= 2.37.2), libc6 (>= 2.35), libcap2 (>= 1:2.10), libkmod2 (>= 15), libselinux1 (>= 3.1~), systemd | systemd-standalone-sysusers | systemd-sysusers, libudev1 (= 254.22-1~bpo12+1), systemd-dev (>= 254.22-1~bpo12+1)
+Installed-Size: 11135
+Depends: libacl1 (>= 2.2.23), libblkid1 (>= 2.37.2), libc6 (>= 2.35), libcap2 (>= 1:2.10), libkmod2 (>= 15), libselinux1 (>= 3.1~), systemd | systemd-standalone-sysusers | systemd-sysusers, libudev1 (= 254.26-1~bpo12+1), systemd-dev (>= 254.26-1~bpo12+1)
 Breaks: systemd (<< 254.5-1~bpo12+2~)
 Replaces: systemd (<< 254.5-1~bpo12+2~)
 Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: important
 Section: admin
-Filename: pool/main/s/systemd/udev_254.22-1~bpo12+1_amd64.deb
-Size: 1813036
-SHA256: ab0b4bf2b536b6dfe97dfa43c60682f7a3ba730c8efe49d17c9f08426d06b8ac
-SHA1: 85df5acb613d5c6584c189522adbcd5be5b95b13
-MD5sum: c72d2bb52839940b7b1742e257a021e8
+Filename: pool/main/s/systemd/udev_254.26-1~bpo12+1_amd64.deb
+Size: 1813740
+SHA256: 56606f6c418b65034a789692d3fae16e8e76a5f09fbfa00692e32917b34dc13d
+SHA1: d427822c57c24eaed838b66230c154d1cee4f62d
+MD5sum: 389b73bddc2cef08ee450e36178f0346
 Description: /dev/ and hotplug management daemon
  udev is a daemon which dynamically creates and removes device nodes from
  /dev/, handles hotplug events and loads drivers at boot time.
@@ -62583,18 +62582,18 @@ Description: retrieves files from the web
  speed up retrieval, and provide access behind firewalls.
 
 Package: whois
-Version: 5.5.17
+Version: 5.6.2~bpo12+1
 Architecture: amd64
 Maintainer: Marco d'Itri <md@linux.it>
-Installed-Size: 385
-Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libidn2-0 (>= 2.0.3)
+Installed-Size: 388
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libidn2-0 (>= 0.6)
 Priority: standard
 Section: net
-Filename: pool/main/w/whois/whois_5.5.17_amd64.deb
-Size: 70776
-SHA256: 460f0c7e2b14379c09cc2436016e549be984fb442833f644f1ca21156de05b47
-SHA1: ad1b4cba56e9eb8a49d9956a195005e93bf71469
-MD5sum: f287b8cacb947736b5013cb7c1023493
+Filename: pool/main/w/whois/whois_5.6.2~bpo12+1_amd64.deb
+Size: 71896
+SHA256: 7fcfedf6763700c1ddb242db545c841654bd1024670420a69d8d4f640fc33736
+SHA1: f855ab12b11e43fce853709b29222036b1e3d570
+MD5sum: 5e8aa1fb3b3222746dfca447349b5f5c
 Description: intelligent WHOIS client
  This package provides a commandline client for the WHOIS (RFC 3912)
  protocol, which queries online servers for information such as contact
@@ -64172,21 +64171,21 @@ Description: XZ-format compression utilities
   * support for flushing the encoder.
 
 Package: yt-dlp
-Version: 2025.03.31-1~bpo12+1
+Version: 2025.04.30-1~bpo12+1
 Architecture: all
 Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 10945
+Installed-Size: 10995
 Depends: python3-certifi, python3-mutagen, python3-pycryptodome, python3-requests, python3-urllib3, python3-websockets, python3:any
 Recommends: aria2 | wget | curl, ca-certificates, ffmpeg
 Suggests: libfribidi-bin | bidiv, phantomjs
 Homepage: https://github.com/yt-dlp/yt-dlp
 Priority: optional
 Section: web
-Filename: pool/main/y/yt-dlp/yt-dlp_2025.03.31-1~bpo12+1_all.deb
-Size: 2090908
-SHA256: 5ead599b45d76285a18dffc09da5fc1d9125fdd26c2ef96028341fccc43b85ec
-SHA1: 86dab6c4c32b8f48038d828bbc92df891be6538a
-MD5sum: c121a17b328ec2c2fce2e2b4283d5b76
+Filename: pool/main/y/yt-dlp/yt-dlp_2025.04.30-1~bpo12+1_all.deb
+Size: 2102284
+SHA256: f758a696d81d65a9ab0fd3692f282b0f8622fa47c39746c9258192bfbe4a8dd7
+SHA1: ef8fab287aca5e09b1e4b5aa1bf4e0d37b5f5ae2
+MD5sum: 285a52f31c6fc90d5ae49735b8bffd8c
 Description: downloader of videos from YouTube and other sites
  yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc.
  The main focus of this project is adding new features and patches
@@ -64255,8 +64254,8 @@ Description: downloader of videos from YouTube and other sites
  DiscoveryLife, DiscoveryNetworksDe, DiscoveryPlus, DiscoveryPlusIndia,
  DiscoveryPlusIndiaShow, DiscoveryPlusItaly, DiscoveryPlusItalyShow,
  Disney, dlf, Douyin, DouyuShow, DouyuTV, DPlay, DRBonanza, Drooble,
- Dropbox, Dropout, DropoutSeason, DrTalks, DrTuber, drtv, DTube,
- duboku, Dumpert, Duoplay, dvtv, dw, EaglePlatform, EbaumsWorld,
+ Dropbox, Dropout, DropoutSeason, DrTalks, DrTuber, drtv, DTube, duboku,
+ Dumpert, Duoplay, dvtv, dw, dzen.ru, EaglePlatform, EbaumsWorld,
  Ebay, EinsUndEinsTV, EinsUndEinsTVLive, EinsUndEinsTVRecordings,
  eitb.tv, ElementorEmbed, Elonet, ElPais, ElTreceTV, Embedly, EMPFlix,
  Epicon, EpiconSeries, EpidemicSound, eplus, Epoch, Eporner, Erocast,
@@ -64290,18 +64289,18 @@ Description: downloader of videos from YouTube and other sites
  Instagram, InstagramIOS, Internazionale, InternetVideoArchive,
  InvestigationDiscovery, IPrima, IPrimaCNN, iq.com, iqiyi, IslamChannel,
  IslamChannelSeries, IsraelNationalNews, ITProTV, ITProTVCourse, ITV,
- ITVBTCC, ivi, ivideon, IVXPlayer, iwara, Ixigua, Izlesene, Jamendo,
+ ITVBTCC, ivi, ivideon, Ivoox, IVXPlayer, iwara, Ixigua, Izlesene, Jamendo,
  JamendoAlbum, JeuxVideo, jiocinema, Joj, JoqrAg, Jove, JStream, JTBC,
  JWPlatform, Kakao, Kaltura, KankaNews, Karaoketv, Katsomo, KelbyOne,
- Kenh14Playlist, Kenh14Video, khanacademy, Kicker, KickStarter,
- Kika, KinoPoisk, Kommunetv, KompasVideo, Koo, KrasView, KTH, Ku6,
- KukuluLive, la7.it, laracasts, LastFM, LastFMPlaylist, LastFMUser,
+ Kenh14Playlist, Kenh14Video, khanacademy, Kicker, KickStarter, Kika,
+ KikaPlaylist, KinoPoisk, Kommunetv, KompasVideo, Koo, KrasView, KTH,
+ Ku6, KukuluLive, la7.it, laracasts, LastFM, LastFMPlaylist, LastFMUser,
  LaXarxaMes, lbry, LCI, Lcp, LcpPlay, Le, LearningOnScreen, Lecture2Go,
  Lecturio, LecturioCourse, LecturioDeCourse, LeFigaroVideoEmbed,
  LeFigaroVideoSection, LEGO, Lemonde, Lenta, LePlaylist, LetvCloud,
  Libsyn, life, likee, limelight, LinkedIn, Liputan6, ListenNotes,
- LiTV, LiveJournal, livestream, Livestreamfails, Lnk, loc, Loco,
- loom, LoveHomePorn, LRTStream, LRTVOD, LSMLREmbed, LSMLTVEmbed,
+ LiTV, LiveJournal, livestream, Livestreamfails, Lnk, loc, Loco, loom,
+ LoveHomePorn, LRTRadio, LRTStream, LRTVOD, LSMLREmbed, LSMLTVEmbed,
  LSMReplay, Lumni, lynda, maariv.co.il, MagellanTV, MagentaMusik, mailru,
  MainStreaming, MangoTV, ManotoTV, ManotoTVLive, ManotoTVShow, ManyVids,
  MaoriTV, Markiza, MarkizaPage, massengeschmack.tv, Masters, MatchTV, MBN,
@@ -64369,7 +64368,7 @@ Description: downloader of videos from YouTube and other sites
  RedGifsSearch, RedGifsUser, RedTube, RENTV, RENTVArticle,
  Restudy, Reuters, ReverbNation, RheinMainTV, RideHome, RinseFM,
  RinseFMArtistPlaylist, RMCDecouverte, RockstarGames, Rokfin,
- RoosterTeeth, RoosterTeethSeries, RottenTomatoes, Rozhlas,
+ RoosterTeeth, RoosterTeethSeries, RottenTomatoes, RoyaLive, Rozhlas,
  RozhlasVltava, RTBF, RTDocumentry, RTDocumentryPlaylist, rte, rtl.nl,
  rtl2, RTLLuLive, RTLLuRadio, RTNews, RTP, RTRFM, RTS, RTVCKaltura,
  RTVCPlay, RTVCPlayEmbed, rtvslo.si, RudoVideo, Rule34Video, Rumble,
@@ -64415,7 +64414,7 @@ Description: downloader of videos from YouTube and other sites
  TV2DK, TV2DKBornholmPlay, tv2play.hu, tv2playseries.hu, TV4, TV5MONDE,
  tv5unis, tv8.it, TVANouvelles, TVANouvellesArticle, tvaplus, TVC,
  TVCArticle, TVer, tvigle, TVIPlayer, tvland.com, TVN24, TVNoe, tvp,
- TVPlayer, TVPlayHome, Tvw, Tweakers, TwitCasting, TwitCastingLive,
+ TVPlayer, TVPlayHome, tvw, Tweakers, TwitCasting, TwitCastingLive,
  TwitCastingUser, TwitchCollection, TwitchVideos, TwitchVideosClips,
  TwitchVideosCollections, twitter, Txxx, udemy, UDNEmbed, UFCArabia,
  UFCTV, ukcolumn, UKTVPlay, UlizaPlayer, UlizaPortal, Unistra, Unity,
@@ -64443,9 +64442,8 @@ Description: downloader of videos from YouTube and other sites
  youku, YouNowChannel, YouNowLive, YouNowMoment, YouPorn, YouPornCategory,
  YouPornChannel, YouPornCollection, YouPornStar, YouPornTag, YouPornVideos,
  youtube, YoutubeLivestreamEmbed, YoutubeYtBe, Zaiko, ZaikoETicket, Zapiks,
- Zattoo, ZattooLive, ZattooMovies, ZattooRecordings, ZDF, ZDFChannel,
- Zee5, ZeeNews, ZenPorn, ZenYandex, ZenYandexChannel, ZetlandDKArticle,
- Zhihu, zingmp3, zoom, Zype, generic,
+ Zattoo, ZattooLive, ZattooMovies, ZattooRecordings, zdf, Zee5, ZeeNews,
+ ZenPorn, ZetlandDKArticle, Zhihu, zingmp3, zoom, Zype, generic,
 
 Package: ytdownloader
 Version: 3.18.5

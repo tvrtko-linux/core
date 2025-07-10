@@ -359,7 +359,7 @@ Description: English dictionary for GNU Aspell
 
 Package: at-spi2-common
 Source: at-spi2-core
-Version: 2.56.1-2~bpo12+1
+Version: 2.56.2-1~bpo12+1
 Architecture: all
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 1348
@@ -369,11 +369,11 @@ Multi-Arch: foreign
 Homepage: https://wiki.gnome.org/Accessibility
 Priority: optional
 Section: misc
-Filename: pool/main/a/at-spi2-core/at-spi2-common_2.56.1-2~bpo12+1_all.deb
-Size: 170808
-SHA256: 654dd5df98e950d582cf367c231624254e939cbdff1b47e22e8ac2ee794e8d96
-SHA1: 75bd74ee170dd6fc0df80249337bc2d1c074fa40
-MD5sum: bc237c3a7dd38d29e102307dd91e04e9
+Filename: pool/main/a/at-spi2-core/at-spi2-common_2.56.2-1~bpo12+1_all.deb
+Size: 170676
+SHA256: 78b162a43797dab3893d5ffa17183c9520a34b838a13a8e3d9a833b32a0df8e4
+SHA1: fff15af2d22c63ed06c56f95908bd1af2a456359
+MD5sum: e85369c4937e58ebe3468afa6164373e
 Description: Assistive Technology Service Provider Interface (common files)
  This package contains the common resource files of GNOME Accessibility.
 
@@ -4194,8 +4194,8 @@ Description: "No Tofu" font families with large Unicode coverage (unhinted)
  often displayed as replacement for unassigned or unknown characters.
 
 Package: fonts-opensymbol
-Source: libreoffice (4:25.2.2-1~bpo12+1)
-Version: 4:102.12+LibO25.2.2-1~bpo12+1
+Source: libreoffice (4:25.2.3-2~bpo12+1)
+Version: 4:102.12+LibO25.2.3-2~bpo12+1
 Architecture: all
 Bugs: mailto:debian-backports@lists.debian.org
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
@@ -4207,11 +4207,11 @@ Multi-Arch: foreign
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: fonts
-Filename: pool/main/libr/libreoffice/fonts-opensymbol_102.12+LibO25.2.2-1~bpo12+1_all.deb
-Size: 127236
-SHA256: 3d4632dc3b40b0626fb42ad5cfc90d875f7cdf0b070829f984610b60e7736e47
-SHA1: 258ed409aefd405359b936ac2067949ec6d991c6
-MD5sum: 564ea42d1e684a937f071197910a3268
+Filename: pool/main/libr/libreoffice/fonts-opensymbol_102.12+LibO25.2.3-2~bpo12+1_all.deb
+Size: 127592
+SHA256: 4efb5070b3bc07cfde67e8b007e61458b2921a4303f6f8604d8c252bfbfb2731
+SHA1: 0f68d072439f8a463c3bb01aa0e0246121eb6044
+MD5sum: 914a6781b5330cf6ed37543f076996c2
 Description: OpenSymbol TrueType font
  This package contains the OpenSymbol TrueType font included in
  LibreOffice. This font contains symbols (like fonts as Wingdings(tm)),
@@ -8751,21 +8751,21 @@ Description: Vertical Blanking Interval decoder (VBI) - common files
  This package contains internationalization files.
 
 Package: linux-base
-Version: 4.9
+Version: 4.12~bpo12+1
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 77
+Installed-Size: 76
 Depends: debconf (>= 0.5) | debconf-2.0
 Breaks: kernel-common (<= 13.018+nmu1), linux-perf (<< 5.16.2-1~exp1)
 Replaces: kernel-common (<= 13.018+nmu1)
 Multi-Arch: foreign
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-base/linux-base_4.9_all.deb
-Size: 31784
-SHA256: 98be49c7067b058535496222a03a559b0fc205befa5b4e7ca5e1043ce708109a
-SHA1: 7153d000e81626060fe3fc2f5b49077e68debaae
-MD5sum: 85b95cf515416ea18c856b37f7d41971
+Filename: pool/main/l/linux-base/linux-base_4.12~bpo12+1_all.deb
+Size: 25516
+SHA256: b3e197b7c67528f1a3f396767b6e4dfd40274d7b963877d657babae964e0d4f4
+SHA1: 846187f23a43b31d8a5c8ce7e9fe84b647e50128
+MD5sum: 48222083d51de31071bae4e5a966fa6f
 Description: Linux image base package
  This package contains files and support scripts for all Linux
  images.
@@ -8797,19 +8797,19 @@ Description: Common header files for Linux 6.12.22+bpo
 
 Package: linux-libc-dev
 Source: linux
-Version: 6.12.22-1~bpo12+1
+Version: 6.12.32-1~bpo12+1
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 10600
+Installed-Size: 10656
 Multi-Arch: foreign
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux/linux-libc-dev_6.12.22-1~bpo12+1_all.deb
-Size: 2542616
-SHA256: a9fa98fe4c566f7cf3e8b7ddc878fbac3da8d11afd58e460b7e76ca862424c70
-SHA1: 9a188bd06e8259766844ea8dc872364c377a9bfb
-MD5sum: 06c69758576c9e4a6decc66e4fcce18c
+Filename: pool/main/l/linux/linux-libc-dev_6.12.32-1~bpo12+1_all.deb
+Size: 2597540
+SHA256: f73003ea13d23e7d8a0f8923cf83b27f3977daa3ae52c7ce9fd29d3f961dddef
+SHA1: 48556a8b05230075862e4ab7e11eb99d846f6a6c
+MD5sum: 1e986663833e481eb3005eb0a50e76af
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These
  files are going to be installed into /usr/include, and are used by the
@@ -20167,19 +20167,19 @@ Description: Python 3 wrapper around the OpenSSL library
 
 Package: python3-packaging
 Source: python-packaging
-Version: 23.0-1
+Version: 25.0-1~bpo12+1
 Architecture: all
-Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 149
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 258
 Depends: python3:any
-Homepage: https://pypi.python.org/pypi/packaging
+Homepage: https://github.com/pypa/packaging
 Priority: optional
 Section: python
-Filename: pool/main/p/python-packaging/python3-packaging_23.0-1_all.deb
-Size: 32460
-SHA256: 04adb9e09aa8ed5bd8e31d31143fb265c43dcbec70da19f21e37cbe44b0c32cf
-SHA1: cc309cbdd2827f2959cc6b3588a1c0960ce18d20
-MD5sum: 4792e2e743bd8c6a84d5dda2a42bba36
+Filename: pool/main/p/python-packaging/python3-packaging_25.0-1~bpo12+1_all.deb
+Size: 57520
+SHA256: 72998355c3afad01e9209253ea56b25a3edf925e1db98425dc3d6833d0fb6fac
+SHA1: eb7aba691f6f8e7a15ae9fb5c383fe0026de7367
+MD5sum: 2fb0f6e3fb7e78e3c835be585199f4f9
 Description: core utilities for python3 packages
  These core utilities currently consist of:
   - Version Handling (PEP 440)
@@ -20823,7 +20823,7 @@ Description: manage the repositories that you install software from
 
 Package: python3-speechd
 Source: speech-dispatcher
-Version: 0.12.0-3~bpo12+1
+Version: 0.12.0-4~bpo12+1
 Architecture: all
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 142
@@ -20834,11 +20834,11 @@ Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: python
-Filename: pool/main/s/speech-dispatcher/python3-speechd_0.12.0-3~bpo12+1_all.deb
-Size: 44772
-SHA256: fa4230b18a480427f6455db61fdd8ed56b4765a495d951737ab84a36ece2493d
-SHA1: 611778de78cb42cfbd35a6af6e5f88a490229ef9
-MD5sum: e26514395eda11c666cf19f8f7c712a8
+Filename: pool/main/s/speech-dispatcher/python3-speechd_0.12.0-4~bpo12+1_all.deb
+Size: 44820
+SHA256: 703d1ebf3c00e37cf7496829c142e419f947c81fd078d62d52a235e6940ca6d5
+SHA1: ea21f1cbfa0b06a23085fbf8ebf4edb3aceb1082
+MD5sum: d6a46f7397201063c680b6ede036469a
 Description: Python interface to Speech Dispatcher
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -20903,34 +20903,30 @@ Description: Module for creating simple ASCII tables — python3
 
 Package: python3-typing-extensions
 Source: python-typing-extensions
-Version: 4.4.0-1
+Version: 4.13.2-1~bpo12+1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 229
+Installed-Size: 515
 Depends: python3:any
-Homepage: https://github.com/python/typing/blob/master/typing_extensions/README.rst
+Multi-Arch: foreign
+Homepage: https://typing-extensions.readthedocs.io/en/latest/
 Priority: optional
 Section: python
-Filename: pool/main/p/python-typing-extensions/python3-typing-extensions_4.4.0-1_all.deb
-Size: 45180
-SHA256: e2f88fe73b6dac2907b29d709647eb66302776f7693f45b1e95e116ddedbddd3
-SHA1: 16fc1f45c13c2ea51cdc4e717874f4e9843b740a
-MD5sum: 0a663cf783c7a18882416f94aff23591
+Filename: pool/main/p/python-typing-extensions/python3-typing-extensions_4.13.2-1~bpo12+1_all.deb
+Size: 90716
+SHA256: 18e82cb9e13c23ca19c8cd79a63b01db2595c31413954ab63e32117ea40262c3
+SHA1: 2df77774f205aabf93fb0e64f894237074353d80
+MD5sum: a07d2fb4adff1c86e5958f838e6cf7a5
 Description: Backported and Experimental Type Hints for Python
- The typing module was added to the standard library in Python 3.5 on a
- provisional basis and will no longer be provisional in Python 3.7. However,
- this means users of Python 3.5 - 3.6 who are unable to upgrade will not be
- able to take advantage of new types added to the typing module, such as
- typing.Text or typing.Coroutine.
+ The "typing_extensions" module serves two related purposes:
  .
- The typing_extensions module contains both backports of these changes as well
- as experimental types that will eventually be added to the typing module, such
- as Protocol.
+ 1. Enable use of new type system features on older Python versions.
+ 2. Enable experimentation with new type system PEPs before they are accepted
+    and added to the "typing" module.
  .
- Users of other Python versions should continue to install and use the typing
- module from PyPI instead of using this one unless specifically writing code
- that must be compatible with multiple Python versions or requires experimental
- types.
+ "typing_extensions" is treated specially by static type checkers such as mypy
+ and pyright. Objects defined in "typing_extensions" are treated the same
+ way as equivalent forms in "typing".
 
 Package: python3-tz
 Source: python-tz
@@ -21645,7 +21641,7 @@ Description: collection of bootloaders (common)
 
 Package: systemd-dev
 Source: systemd
-Version: 254.22-1~bpo12+1
+Version: 254.26-1~bpo12+1
 Architecture: all
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 650
@@ -21655,11 +21651,11 @@ Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Priority: optional
 Section: devel
-Filename: pool/main/s/systemd/systemd-dev_254.22-1~bpo12+1_all.deb
-Size: 55084
-SHA256: dc7e202c9daafa3ed3dda8222b16e2c26af8a36365b537c5cb30d057ee731cc6
-SHA1: 07e58fa47af8993c32eb9b71f06bb152502e10b0
-MD5sum: 0f2c670e5530e4656570cdf04626bb57
+Filename: pool/main/s/systemd/systemd-dev_254.26-1~bpo12+1_all.deb
+Size: 55148
+SHA256: 02e3f3c7ea0e44bb278ff36aec6e4178cc2998a5dcecd6b978eee41fa2983ff6
+SHA1: 0679ee164e05a7aef0df32e0774df37d3d507a86
+MD5sum: bcdbe06d4abf00563a44869fec63c60c
 Description: systemd development files
  This package contains the systemd and udev pkg-config files. Note that these
  are different from the libsystemd's and libudev's pkg-config files, which can
@@ -22686,21 +22682,21 @@ Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
 
 Package: yt-dlp
-Version: 2025.03.31-1~bpo12+1
+Version: 2025.04.30-1~bpo12+1
 Architecture: all
 Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 10945
+Installed-Size: 10995
 Depends: python3-certifi, python3-mutagen, python3-pycryptodome, python3-requests, python3-urllib3, python3-websockets, python3:any
 Recommends: aria2 | wget | curl, ca-certificates, ffmpeg
 Suggests: libfribidi-bin | bidiv, phantomjs
 Homepage: https://github.com/yt-dlp/yt-dlp
 Priority: optional
 Section: web
-Filename: pool/main/y/yt-dlp/yt-dlp_2025.03.31-1~bpo12+1_all.deb
-Size: 2090908
-SHA256: 5ead599b45d76285a18dffc09da5fc1d9125fdd26c2ef96028341fccc43b85ec
-SHA1: 86dab6c4c32b8f48038d828bbc92df891be6538a
-MD5sum: c121a17b328ec2c2fce2e2b4283d5b76
+Filename: pool/main/y/yt-dlp/yt-dlp_2025.04.30-1~bpo12+1_all.deb
+Size: 2102284
+SHA256: f758a696d81d65a9ab0fd3692f282b0f8622fa47c39746c9258192bfbe4a8dd7
+SHA1: ef8fab287aca5e09b1e4b5aa1bf4e0d37b5f5ae2
+MD5sum: 285a52f31c6fc90d5ae49735b8bffd8c
 Description: downloader of videos from YouTube and other sites
  yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc.
  The main focus of this project is adding new features and patches
@@ -22769,8 +22765,8 @@ Description: downloader of videos from YouTube and other sites
  DiscoveryLife, DiscoveryNetworksDe, DiscoveryPlus, DiscoveryPlusIndia,
  DiscoveryPlusIndiaShow, DiscoveryPlusItaly, DiscoveryPlusItalyShow,
  Disney, dlf, Douyin, DouyuShow, DouyuTV, DPlay, DRBonanza, Drooble,
- Dropbox, Dropout, DropoutSeason, DrTalks, DrTuber, drtv, DTube,
- duboku, Dumpert, Duoplay, dvtv, dw, EaglePlatform, EbaumsWorld,
+ Dropbox, Dropout, DropoutSeason, DrTalks, DrTuber, drtv, DTube, duboku,
+ Dumpert, Duoplay, dvtv, dw, dzen.ru, EaglePlatform, EbaumsWorld,
  Ebay, EinsUndEinsTV, EinsUndEinsTVLive, EinsUndEinsTVRecordings,
  eitb.tv, ElementorEmbed, Elonet, ElPais, ElTreceTV, Embedly, EMPFlix,
  Epicon, EpiconSeries, EpidemicSound, eplus, Epoch, Eporner, Erocast,
@@ -22804,18 +22800,18 @@ Description: downloader of videos from YouTube and other sites
  Instagram, InstagramIOS, Internazionale, InternetVideoArchive,
  InvestigationDiscovery, IPrima, IPrimaCNN, iq.com, iqiyi, IslamChannel,
  IslamChannelSeries, IsraelNationalNews, ITProTV, ITProTVCourse, ITV,
- ITVBTCC, ivi, ivideon, IVXPlayer, iwara, Ixigua, Izlesene, Jamendo,
+ ITVBTCC, ivi, ivideon, Ivoox, IVXPlayer, iwara, Ixigua, Izlesene, Jamendo,
  JamendoAlbum, JeuxVideo, jiocinema, Joj, JoqrAg, Jove, JStream, JTBC,
  JWPlatform, Kakao, Kaltura, KankaNews, Karaoketv, Katsomo, KelbyOne,
- Kenh14Playlist, Kenh14Video, khanacademy, Kicker, KickStarter,
- Kika, KinoPoisk, Kommunetv, KompasVideo, Koo, KrasView, KTH, Ku6,
- KukuluLive, la7.it, laracasts, LastFM, LastFMPlaylist, LastFMUser,
+ Kenh14Playlist, Kenh14Video, khanacademy, Kicker, KickStarter, Kika,
+ KikaPlaylist, KinoPoisk, Kommunetv, KompasVideo, Koo, KrasView, KTH,
+ Ku6, KukuluLive, la7.it, laracasts, LastFM, LastFMPlaylist, LastFMUser,
  LaXarxaMes, lbry, LCI, Lcp, LcpPlay, Le, LearningOnScreen, Lecture2Go,
  Lecturio, LecturioCourse, LecturioDeCourse, LeFigaroVideoEmbed,
  LeFigaroVideoSection, LEGO, Lemonde, Lenta, LePlaylist, LetvCloud,
  Libsyn, life, likee, limelight, LinkedIn, Liputan6, ListenNotes,
- LiTV, LiveJournal, livestream, Livestreamfails, Lnk, loc, Loco,
- loom, LoveHomePorn, LRTStream, LRTVOD, LSMLREmbed, LSMLTVEmbed,
+ LiTV, LiveJournal, livestream, Livestreamfails, Lnk, loc, Loco, loom,
+ LoveHomePorn, LRTRadio, LRTStream, LRTVOD, LSMLREmbed, LSMLTVEmbed,
  LSMReplay, Lumni, lynda, maariv.co.il, MagellanTV, MagentaMusik, mailru,
  MainStreaming, MangoTV, ManotoTV, ManotoTVLive, ManotoTVShow, ManyVids,
  MaoriTV, Markiza, MarkizaPage, massengeschmack.tv, Masters, MatchTV, MBN,
@@ -22883,7 +22879,7 @@ Description: downloader of videos from YouTube and other sites
  RedGifsSearch, RedGifsUser, RedTube, RENTV, RENTVArticle,
  Restudy, Reuters, ReverbNation, RheinMainTV, RideHome, RinseFM,
  RinseFMArtistPlaylist, RMCDecouverte, RockstarGames, Rokfin,
- RoosterTeeth, RoosterTeethSeries, RottenTomatoes, Rozhlas,
+ RoosterTeeth, RoosterTeethSeries, RottenTomatoes, RoyaLive, Rozhlas,
  RozhlasVltava, RTBF, RTDocumentry, RTDocumentryPlaylist, rte, rtl.nl,
  rtl2, RTLLuLive, RTLLuRadio, RTNews, RTP, RTRFM, RTS, RTVCKaltura,
  RTVCPlay, RTVCPlayEmbed, rtvslo.si, RudoVideo, Rule34Video, Rumble,
@@ -22929,7 +22925,7 @@ Description: downloader of videos from YouTube and other sites
  TV2DK, TV2DKBornholmPlay, tv2play.hu, tv2playseries.hu, TV4, TV5MONDE,
  tv5unis, tv8.it, TVANouvelles, TVANouvellesArticle, tvaplus, TVC,
  TVCArticle, TVer, tvigle, TVIPlayer, tvland.com, TVN24, TVNoe, tvp,
- TVPlayer, TVPlayHome, Tvw, Tweakers, TwitCasting, TwitCastingLive,
+ TVPlayer, TVPlayHome, tvw, Tweakers, TwitCasting, TwitCastingLive,
  TwitCastingUser, TwitchCollection, TwitchVideos, TwitchVideosClips,
  TwitchVideosCollections, twitter, Txxx, udemy, UDNEmbed, UFCArabia,
  UFCTV, ukcolumn, UKTVPlay, UlizaPlayer, UlizaPortal, Unistra, Unity,
@@ -22957,9 +22953,8 @@ Description: downloader of videos from YouTube and other sites
  youku, YouNowChannel, YouNowLive, YouNowMoment, YouPorn, YouPornCategory,
  YouPornChannel, YouPornCollection, YouPornStar, YouPornTag, YouPornVideos,
  youtube, YoutubeLivestreamEmbed, YoutubeYtBe, Zaiko, ZaikoETicket, Zapiks,
- Zattoo, ZattooLive, ZattooMovies, ZattooRecordings, ZDF, ZDFChannel,
- Zee5, ZeeNews, ZenPorn, ZenYandex, ZenYandexChannel, ZetlandDKArticle,
- Zhihu, zingmp3, zoom, Zype, generic,
+ Zattoo, ZattooLive, ZattooMovies, ZattooRecordings, zdf, Zee5, ZeeNews,
+ ZenPorn, ZetlandDKArticle, Zhihu, zingmp3, zoom, Zype, generic,
 
 Package: zenity-common
 Source: zenity
